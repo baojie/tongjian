@@ -1,0 +1,74 @@
+{
+  "plugins": [
+    {
+      "id": "pn-citation",
+      "entry": "plugins/pn-citation/index.js",
+      "name": "PN 段落引文",
+      "version": "1.0.0",
+      "description": "将 （NNN-PPP） 格式引文渲染为指向章节段落的链接；为原文段落注入锚点 id"
+    },
+    {
+      "id": "footnote",
+      "entry": "plugins/footnote/index.js",
+      "name": "脚注",
+      "version": "1.0.0",
+      "description": "渲染 [^id] 内联引用与 [^id]: 定义"
+    },
+    {
+      "id": "semantic-block",
+      "entry": "plugins/semantic-block/index.js",
+      "name": "语义块",
+      "version": "1.0.0",
+      "description": "处理页面中的 ::: infobox、::: meta、::: seealso 语义块"
+    },
+    {
+      "id": "semantic-query",
+      "entry": "plugins/semantic-query/index.js",
+      "name": "语义查询",
+      "version": "1.0.0",
+      "description": "::: query 块渲染；支持布尔过滤与 computed 表达式字段"
+    },
+    {
+      "id": "backlinks",
+      "entry": "plugins/backlinks/index.js",
+      "name": "反向引用",
+      "version": "1.0.0",
+      "description": "在文章末尾注入「被以下页面引用」区块，数据来自 backlinks.json"
+    },
+    {
+      "id": "sealso",
+      "entry": "plugins/sealso/index.js",
+      "name": "参见链接",
+      "version": "1.0.0",
+      "description": "根据 frontmatter seealso 字段，在页面底部自动注入「参见」区块"
+    },
+    {
+      "id": "place-map",
+      "entry": "plugins/place-map/index.js",
+      "name": "地名地图",
+      "version": "1.0.0",
+      "description": "地名/王朝页面 sidebar 中渲染 Leaflet 地图（需 frontmatter coords: [lon, lat]）"
+    },
+    {
+      "id": "route-map",
+      "entry": "plugins/route-map/index.js",
+      "name": "路线地图",
+      "version": "1.0.0",
+      "description": "::: route 块：将地点序列渲染为带箭头的 Leaflet 路线地图"
+    },
+    {
+      "id": "geomap",
+      "entry": "plugins/geomap/index.js",
+      "name": "地理概览地图",
+      "version": "1.0.0",
+      "description": "::: geomap 块：多地点图钉地图，适合分封、郡国、战场分布等地理概览"
+    },
+    {
+      "id": "math",
+      "entry": "plugins/math/index.js",
+      "name": "KaTeX 数学公式",
+      "version": "1.0.0",
+      "description": "渲染 $...$ 行内公式和 $$...$$ 块级公式（需联网加载 KaTeX CDN）"
+    }
+  ]
+}
