@@ -209,3 +209,9 @@
 {"round": 72, "type": "create-page", "page": "李孝恭", "result": "accept", "desc": "宗室将领，与李靖灭萧铣", "ts": "2026-05-05T23:21:36Z"}
 {"round": 72, "type": "create-page", "page": "英布", "result": "accept", "desc": "楚汉枭将黥布", "ts": "2026-05-05T23:21:36Z"}
 {"round": 72, "type": "create-page", "page": "彭越", "result": "accept", "desc": "楚汉游击名将封梁王", "ts": "2026-05-05T23:21:36Z"}
+{"round": 71, "type": "enrich-page", "page": "项羽,诸葛亮,白起", "result": "accept", "desc": "enrich-page×3：项羽+384B,诸葛亮+637B,白起+310B，合计1331B，270WU", "ts": "2026-05-05T23:22:45Z", "instance": "资治通鉴", "reflect": "本轮完成后，featured词条中仅剩汉高祖/汉武帝/赤壁等几条未达2KB"}
+{"round": 73, "type": "create-page", "page": "章邯", "result": "accept", "desc": "秦末大将，骊山刑徒为兵，降楚封雍王", "ts": "2026-05-05T23:25:13Z"}
+{"round": 73, "type": "create-page", "page": "陈平", "result": "accept", "desc": "汉初谋士，离间范增，奇计迭出", "ts": "2026-05-05T23:25:13Z"}
+{"round": 73, "type": "create-page", "page": "郦食其", "result": "accept", "desc": "汉初说客，说降陈留，最终被烹杀", "ts": "2026-05-05T23:25:13Z"}
+{"round": 73, "type": "create-page", "page": "灌婴", "result": "accept", "desc": "汉初骑将，追击项羽，封颍阴侯", "ts": "2026-05-05T23:25:13Z"}
+{"round": 73, "type": "create-page", "page": "主父偃", "result": "accept", "desc": "汉武帝谋臣，推恩令削藩", "ts": "2026-05-05T23:25:13Z"}
