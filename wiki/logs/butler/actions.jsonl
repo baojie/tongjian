@@ -228,3 +228,8 @@
 {"round": 78, "type": "create-page", "page": "王浚", "result": "accept", "desc": "西晋幽州军阀，借鲜卑骑兵攻邺", "ts": "2026-05-05T23:35:51Z"}
 {"round": 78, "type": "create-page", "page": "赫连勃勃", "result": "accept", "desc": "大夏建国者，铁弗匈奴，建统万城", "ts": "2026-05-05T23:35:51Z"}
 {"round": 78, "type": "create-page", "page": "崔浩", "result": "accept", "desc": "北魏谋士，料事如神，因修史被族诛", "ts": "2026-05-05T23:35:51Z"}
+{"round": 77, "type": "enrich-page", "page": "资治通鉴概述,巨鹿之战,汉文帝", "result": "accept", "desc": "enrich-page×3页（进书表+开篇旨意/诸侯归服/重用贾谊），1801WU", "ts": "2026-05-05T23:36:49Z", "instance": "资治通鉴", "reflect": "H10扫描：所有broken-link均已在alias_index覆盖，实质无断链；D1发现结果为月份/干支噪音；featured词条已全部提升至standard(>2KB)"}
+{"round": 79, "type": "create-page", "page": "萧衍", "result": "accept", "desc": "梁武帝，南梁开国，晚年崇佛亡于侯景之乱", "ts": "2026-05-05T23:39:24Z"}
+{"round": 79, "type": "create-page", "page": "陈庆之", "result": "accept", "desc": "南梁名将，白袍七千北伐，三十二城", "ts": "2026-05-05T23:39:24Z"}
+{"round": 79, "type": "create-page", "page": "韦孝宽", "result": "accept", "desc": "西魏北周名将，守玉壁挫高欢", "ts": "2026-05-05T23:39:24Z"}
+{"round": 79, "type": "create-page", "page": "高颎", "result": "accept", "desc": "隋朝首席功臣，文武兼备，被炀帝杀害", "ts": "2026-05-05T23:39:25Z"}
