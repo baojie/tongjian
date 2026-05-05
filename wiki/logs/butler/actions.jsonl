@@ -248,3 +248,11 @@
 {"round": 84, "type": "create-page", "page": "刘晏", "result": "accept", "desc": "安史之乱后理财名臣，漕运盐铁", "ts": "2026-05-05T23:51:29Z"}
 {"round": 84, "type": "create-page", "page": "元载", "result": "accept", "desc": "代宗权相，勾结宦官贪腐专权", "ts": "2026-05-05T23:51:29Z"}
 {"round": 84, "type": "create-page", "page": "陆贽", "result": "accept", "desc": "德宗翰林学士，奉天从驾直言谏", "ts": "2026-05-05T23:51:29Z"}
+{"round": 85, "type": "publish", "page": "", "result": "accept", "desc": "publish R85 → commit 68050f6，201文件，11篇enrich词条+83篇新建页面同步到docs", "ts": "2026-05-05T23:52:55Z", "instance": "资治通鉴", "reflect": "featured词条全部达2KB+；继续扩充中等质量词条（1.4-1.8KB→2KB+）"}
+{"round": 87, "type": "reflect-w5", "page": "", "result": "accept", "desc": "W5反思：636页(294卷+342词条)；词条质量: stub×4, basic×272, standard×68；平均1741B", "ts": "2026-05-05T23:54:18Z", "instance": "资治通鉴", "reflect": "里程碑：26篇featured词条全部达standard(>2KB)。主要瓶颈：272个basic词条待提升。策略调整：优先enrich 1.5-2KB知名词条（卫青/狄仁杰/苏秦/祖逖）；考虑补充概念类综述页（礼制/官制）。质量分布健康，持续稳步提升。"}
+{"round": 86, "type": "create-page", "page": "甘露之变", "result": "accept", "desc": "文宗密谋诛宦失败，朝政全入北司", "ts": "2026-05-05T23:54:53Z"}
+{"round": 86, "type": "create-page", "page": "仇士良", "result": "accept", "desc": "文宗朝权宦，甘露之变后挟天子专权", "ts": "2026-05-05T23:54:53Z"}
+{"round": 86, "type": "create-page", "page": "李训", "result": "accept", "desc": "甘露之变主谋，事败被杀", "ts": "2026-05-05T23:54:53Z"}
+{"round": 86, "type": "create-page", "page": "郑注", "result": "accept", "desc": "以医入幕，与李训合谋甘露之变", "ts": "2026-05-05T23:54:53Z"}
+{"round": 86, "type": "create-page", "page": "高骈", "result": "accept", "desc": "平安南名将，黄巢乱中拥兵自保", "ts": "2026-05-05T23:54:53Z"}
+{"round": 86, "type": "create-page", "page": "田令孜", "result": "accept", "desc": "僖宗朝权宦，被称阿父把持朝政", "ts": "2026-05-05T23:54:53Z"}
