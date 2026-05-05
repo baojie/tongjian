@@ -1,0 +1,51 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git show*)",
+      "Bash(git add wiki/public*)",
+      "Bash(git add docs/*)",
+      "Bash(python3 wiki/scripts/build_registry.py*)",
+      "Bash(bash wiki/scripts/publish.sh*)",
+      "Bash(rsync*)",
+      "Bash(python3 wiki/scripts/butler/discover_wanted.py*)",
+      "Bash(python3 wiki/scripts/butler/corpus_search.py*)",
+      "Bash(python3 wiki/scripts/butler/record_action.py*)",
+      "Bash(python3 wiki/scripts/butler/claim_round.py*)",
+      "Bash(python3 wiki/scripts/butler/release_round.py*)",
+      "Bash(python3 wiki/scripts/butler/lock_manager.py*)",
+      "Bash(python3 wiki/scripts/butler/complete_task.py*)",
+      "Bash(python3 wiki/scripts/butler/cleanup_queue.py*)",
+      "Bash(python3 wiki/scripts/butler/increment_round.py*)",
+      "Bash(python3 wiki/scripts/butler/bulk_wikilink.py*)",
+      "Bash(python3 wiki/scripts/butler/check_citations.py*)",
+      "Bash(python3 wiki/scripts/add_page.py*)",
+      "Bash(python3 wiki/scripts/edit_page.py*)",
+      "Bash(python3 wiki/scripts/record_revision.py*)",
+      "Bash(cat wiki/logs/butler/*)",
+      "Bash(tail -* wiki/logs/butler/*)",
+      "Bash(echo * > wiki/logs/butler/round_counter.txt)",
+      "Bash(git add wiki/public/pages/*)",
+      "Bash(git add wiki/logs/butler/*)",
+      "Bash(git add .claude/skills/*)",
+      "Bash(git add .claude/settings.json)",
+      "Bash(git add CLAUDE.md)",
+      "Bash(git add wiki/scripts/*)"
+    ],
+    "deny": [
+      "Bash(git commit --amend*)",
+      "Bash(git commit --no-verify*)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "Bash(git reset --hard*)",
+      "Bash(git checkout --*)",
+      "Bash(git restore*)",
+      "Bash(git add -A*)",
+      "Bash(git add .)",
+      "Bash(git add ./)",
+      "Bash(git add --all*)"
+    ]
+  }
+}
