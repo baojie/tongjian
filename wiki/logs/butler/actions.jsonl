@@ -70,3 +70,134 @@
 {"round": 34, "type": "create-page", "page": "匈奴", "result": "accept", "desc": "修复死链：创建缺失词条 匈奴", "ts": "2026-05-05T22:19:13Z", "instance": "资治通鉴"}
 {"round": 34, "type": "create-page", "page": "王安石", "result": "accept", "desc": "修复死链：创建缺失词条 王安石", "ts": "2026-05-05T22:19:13Z", "instance": "资治通鉴"}
 {"round": 33, "type": "discover", "page": "", "result": "accept", "desc": "D1-discover + H10-scan + create×3(燕国/太子建成/褚遂良) + 修复check_citations.py路径，350WU", "ts": "2026-05-05T22:19:45Z", "instance": "资治通鉴", "reflect": "check_citations.py指向红楼梦语料，已修正为资治通鉴。discover发现王安石超出通鉴时间范围(959AD止)。燕国/太子建成/褚遂良填补唐初和战国broken-link。总词条约178页。"}
+{"round": 34, "type": "create-page", "page": "文景之治", "result": "accept", "desc": "修复死链：创建缺失词条 文景之治", "ts": "2026-05-05T22:21:35Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "谏逐客书", "result": "accept", "desc": "修复死链：创建缺失词条 谏逐客书", "ts": "2026-05-05T22:21:36Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "许劭", "result": "accept", "desc": "修复死链：创建缺失词条 许劭", "ts": "2026-05-05T22:21:36Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "李吉甫", "result": "accept", "desc": "修复死链：创建缺失词条 李吉甫", "ts": "2026-05-05T22:21:36Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "中山靖王", "result": "accept", "desc": "修复死链：创建缺失词条 中山靖王", "ts": "2026-05-05T22:21:36Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "秦朝", "result": "accept", "desc": "修复死链：创建缺失词条 秦朝", "ts": "2026-05-05T22:21:36Z", "instance": "资治通鉴"}
+{"round": 37, "type": "create-page", "page": "李克", "result": "accept", "desc": "修复死链：李克", "ts": "2026-05-05T22:24:24Z", "instance": "资治通鉴"}
+{"round": 37, "type": "create-page", "page": "靖郭君", "result": "accept", "desc": "修复死链：靖郭君", "ts": "2026-05-05T22:24:24Z", "instance": "资治通鉴"}
+{"round": 37, "type": "create-page", "page": "魏安釐王", "result": "accept", "desc": "修复死链：魏安釐王", "ts": "2026-05-05T22:24:24Z", "instance": "资治通鉴"}
+{"round": 37, "type": "create-page", "page": "洛阳", "result": "accept", "desc": "修复死链：洛阳", "ts": "2026-05-05T22:24:24Z", "instance": "资治通鉴"}
+{"round": 37, "type": "create-page", "page": "晋阳", "result": "accept", "desc": "修复死链：晋阳", "ts": "2026-05-05T22:24:24Z", "instance": "资治通鉴"}
+{"round": 36, "type": "create-page", "page": "王龁,黄盖,管仲,乐闲,刘禅,刘表,督亢", "result": "accept", "desc": "create×7页（王龁/黄盖/管仲/乐闲/刘禅/刘表/督亢），700WU", "ts": "2026-05-05T22:25:36Z", "instance": "资治通鉴", "reflect": "本轮修复7条 broken-link，涵盖战国-三国多个时代"}
+{"round": 38, "type": "create-page", "page": "姜维", "result": "accept", "desc": "修复死链：姜维", "ts": "2026-05-05T22:26:36Z", "instance": "资治通鉴"}
+{"round": 38, "type": "create-page", "page": "巫蛊之祸", "result": "accept", "desc": "修复死链：巫蛊之祸", "ts": "2026-05-05T22:26:37Z", "instance": "资治通鉴"}
+{"round": 38, "type": "create-page", "page": "秦昭王", "result": "accept", "desc": "修复死链：秦昭王", "ts": "2026-05-05T22:26:37Z", "instance": "资治通鉴"}
+{"round": 38, "type": "create-page", "page": "叔孙通", "result": "accept", "desc": "修复死链：叔孙通", "ts": "2026-05-05T22:26:37Z", "instance": "资治通鉴"}
+{"round": 38, "type": "create-page", "page": "轮台罪己诏", "result": "accept", "desc": "修复死链：轮台罪己诏", "ts": "2026-05-05T22:26:37Z", "instance": "资治通鉴"}
+{"round": 39, "type": "housekeeping", "page": "all", "result": "accept", "desc": "H20 wikilink-pass全量补链：171页/1014链接，50WU", "ts": "2026-05-05T22:26:52Z", "instance": "资治通鉴", "reflect": "全量补链覆盖R35-38新建词条，507页已知实体"}
+{"round": 40, "type": "create-page", "page": "燕太子丹,智宣子,智果,絺疵,子婴,夫差,徐福", "result": "accept", "desc": "create×7页（燕太子丹/智宣子/智果/絺疵/子婴/夫差/徐福），700WU", "ts": "2026-05-05T22:29:43Z", "instance": "资治通鉴", "reflect": "本轮修复broken-link，涵盖战国初期智氏相关人物及秦朝末期人物"}
+{"round": 42, "type": "create-page", "page": "崔州平,赵惠文王,指鹿为马,杨端和,乐乘", "result": "accept", "desc": "create×5页（崔州平/赵惠文王/指鹿为马/杨端和/乐乘），500WU", "ts": "2026-05-05T22:31:28Z", "instance": "资治通鉴", "reflect": "本轮修复broken-link，战国赵国、典故类词条"}
+{"round": 43, "type": "create-page", "page": "孙吴,董卓,和氏璧", "result": "accept", "desc": "create×3页（孙吴/董卓/和氏璧），300WU；曹参已存在skip", "ts": "2026-05-05T22:33:41Z", "instance": "资治通鉴", "reflect": "本轮：东汉末年、兵家概念、战国文物类词条修复broken-link"}
+{"round": 41, "type": "create-page", "page": "曹参", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:24Z"}
+{"round": 41, "type": "create-page", "page": "孙坚", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:24Z"}
+{"round": 41, "type": "create-page", "page": "项梁", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:24Z"}
+{"round": 41, "type": "create-page", "page": "隋文帝", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:24Z"}
+{"round": 41, "type": "create-page", "page": "巨鹿之战", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:24Z"}
+{"round": 41, "type": "create-page", "page": "完璧归赵", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:24Z"}
+{"round": 41, "type": "create-page", "page": "将相和", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:24Z"}
+{"round": 41, "type": "create-page", "page": "战国", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:24Z"}
+{"round": 41, "type": "fix-alias", "page": "白起", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:29Z"}
+{"round": 41, "type": "fix-alias", "page": "班超", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:29Z"}
+{"round": 41, "type": "fix-alias", "page": "唐高祖", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:29Z"}
+{"round": 41, "type": "fix-alias", "page": "诸葛亮", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:29Z"}
+{"round": 41, "type": "fix-links", "page": "汉武帝", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:29Z"}
+{"round": 41, "type": "fix-links", "page": "三家分晋", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:29Z"}
+{"round": 41, "type": "fix-links", "page": "豫让", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:30Z"}
+{"round": 41, "type": "fix-links", "page": "隋炀帝", "result": "accept", "desc": "", "ts": "2026-05-05T22:34:30Z"}
+{"round": 44, "type": "discover", "page": "", "result": "accept", "desc": "D1-discover：发现45个新wanted词条，加入P2/P3队列；H10-scan：237个词条无质量标记，186个短页面；create×2（晋鄙/宋义），250WU", "ts": "2026-05-05T22:35:37Z", "instance": "资治通鉴", "reflect": "housekeeping发现大量stub词条需要enrich，下阶段应提升质量"}
+{"round": 45, "type": "create-page", "page": "远交近攻", "result": "accept", "desc": "", "ts": "2026-05-05T22:37:30Z"}
+{"round": 45, "type": "create-page", "page": "班固", "result": "accept", "desc": "", "ts": "2026-05-05T22:37:30Z"}
+{"round": 45, "type": "create-page", "page": "项燕", "result": "accept", "desc": "", "ts": "2026-05-05T22:37:30Z"}
+{"round": 45, "type": "create-page", "page": "卜子夏", "result": "accept", "desc": "", "ts": "2026-05-05T22:37:30Z"}
+{"round": 45, "type": "create-page", "page": "绿林军", "result": "accept", "desc": "", "ts": "2026-05-05T22:37:31Z"}
+{"round": 45, "type": "create-page", "page": "张公谨", "result": "accept", "desc": "", "ts": "2026-05-05T22:37:31Z"}
+{"round": 45, "type": "fix-links", "page": "孙坚", "result": "accept", "desc": "", "ts": "2026-05-05T22:37:34Z"}
+{"round": 45, "type": "fix-links", "page": "项梁", "result": "accept", "desc": "", "ts": "2026-05-05T22:37:34Z"}
+{"round": 45, "type": "fix-links", "page": "隋文帝", "result": "accept", "desc": "", "ts": "2026-05-05T22:37:34Z"}
+{"round": 46, "type": "enrich-page", "page": "信陵君,春申君", "result": "accept", "desc": "enrich×2（信陵君+626B/春申君+865B），100WU", "ts": "2026-05-05T22:38:50Z", "instance": "资治通鉴", "reflect": "四公子类词条质量提升，战国史重要节点记录更完整"}
+{"round": 48, "type": "enrich-page", "page": "荆轲,王翦", "result": "accept", "desc": "enrich×2（荆轲+401B/王翦+679B），100WU", "ts": "2026-05-05T22:40:26Z", "instance": "资治通鉴", "reflect": "刺客游侠和战国名将词条质量提升，补充多条PN引注"}
+{"round": 47, "type": "create-page", "page": "司马迁", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:38Z"}
+{"round": 47, "type": "create-page", "page": "田子方", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:38Z"}
+{"round": 47, "type": "create-page", "page": "段干木", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:38Z"}
+{"round": 47, "type": "create-page", "page": "乐羊", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:38Z"}
+{"round": 47, "type": "create-page", "page": "张孟谈", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:38Z"}
+{"round": 47, "type": "create-page", "page": "魏成", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:38Z"}
+{"round": 47, "type": "fix-links", "page": "卜子夏", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:39Z"}
+{"round": 47, "type": "fix-links", "page": "张公谨", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:39Z"}
+{"round": 47, "type": "fix-links", "page": "绿林军", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:39Z"}
+{"round": 47, "type": "fix-links", "page": "曹参", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:39Z"}
+{"round": 47, "type": "fix-links", "page": "孙坚", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:39Z"}
+{"round": 47, "type": "fix-links", "page": "诸葛亮", "result": "accept", "desc": "", "ts": "2026-05-05T22:40:39Z"}
+{"round": 49, "type": "create-page", "page": "荀子,蒙嘉,须贾,李园", "result": "accept", "desc": "create×4页（荀子/蒙嘉/须贾/李园），400WU", "ts": "2026-05-05T22:43:01Z", "instance": "资治通鉴", "reflect": "本轮填补思想家、配角人物等缺口"}
+{"round": 51, "type": "publish", "page": "", "result": "accept", "desc": "/wiki发布：549页，255个词条，R35-51阶段提交", "ts": "2026-05-05T22:43:56Z", "instance": "资治通鉴", "reflect": "R35-51累计新建32词条，enrich 6词条，全量wikilink 171页/1014链接"}
+{"round": 50, "type": "create-page", "page": "后周", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:22Z"}
+{"round": 50, "type": "create-page", "page": "刘攽", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:22Z"}
+{"round": 50, "type": "create-page", "page": "刘恕", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:22Z"}
+{"round": 50, "type": "create-page", "page": "范祖禹", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:22Z"}
+{"round": 50, "type": "fix-links", "page": "廉颇", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:22Z"}
+{"round": 50, "type": "fix-links", "page": "萧何", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:22Z"}
+{"round": 50, "type": "fix-links", "page": "荆轲", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:23Z"}
+{"round": 50, "type": "fix-links", "page": "魏文侯", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:23Z"}
+{"round": 50, "type": "fix-links", "page": "晋鄙", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:23Z"}
+{"round": 50, "type": "fix-links", "page": "赵襄子", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:23Z"}
+{"round": 50, "type": "fix-links", "page": "汉高祖刘邦", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:23Z"}
+{"round": 50, "type": "fix-links", "page": "班超", "result": "accept", "desc": "", "ts": "2026-05-05T22:44:23Z"}
+{"round": 52, "type": "housekeeping", "page": "all", "result": "accept", "desc": "H20 wikilink全量补链：136页/514条新链接，50WU", "ts": "2026-05-05T22:44:58Z", "instance": "资治通鉴", "reflect": "本轮覆盖R45-51新建词条，链接密度提升"}
+{"round": 54, "type": "create-page", "page": "蔡泽", "result": "accept", "desc": "", "ts": "2026-05-05T22:46:18Z"}
+{"round": 54, "type": "fix-links", "page": "李牧", "result": "accept", "desc": "", "ts": "2026-05-05T22:46:19Z"}
+{"round": 54, "type": "fix-links", "page": "范雎", "result": "accept", "desc": "", "ts": "2026-05-05T22:46:19Z"}
+{"round": 54, "type": "fix-links", "page": "荆轲", "result": "accept", "desc": "", "ts": "2026-05-05T22:46:19Z"}
+{"round": 54, "type": "fix-links", "page": "后周", "result": "accept", "desc": "", "ts": "2026-05-05T22:46:19Z"}
+{"round": 54, "type": "fix-links", "page": "刘攽", "result": "accept", "desc": "", "ts": "2026-05-05T22:46:19Z"}
+{"round": 54, "type": "fix-links", "page": "刘恕", "result": "accept", "desc": "", "ts": "2026-05-05T22:46:19Z"}
+{"round": 54, "type": "fix-links", "page": "范祖禹", "result": "accept", "desc": "", "ts": "2026-05-05T22:46:19Z"}
+{"round": 53, "type": "create-page", "page": "郑安平,赵葱", "result": "accept", "desc": "create×2页（郑安平/赵葱），蔡泽已存在skip，200WU", "ts": "2026-05-05T22:46:44Z", "instance": "资治通鉴", "reflect": "本轮填补战国末期赵国灭亡相关人物缺口"}
+{"round": 55, "type": "discover", "page": "", "result": "accept", "desc": "D1+H10：broken-link减至仅1条，词条262个（stub 4，basic 230，standard+ 28）；create×1（王稽），100WU", "ts": "2026-05-05T22:47:43Z", "instance": "资治通鉴", "reflect": "broken-link缺口基本清零，应转向enrich提升quality层级"}
+{"round": 56, "type": "enrich-page", "page": "巨鹿之战,绿林军", "result": "accept", "desc": "enrich×2（巨鹿之战+463B/绿林军+580B），100WU", "ts": "2026-05-05T22:49:45Z", "instance": "资治通鉴", "reflect": "事件类词条质量提升，补充后世评价和完整历史链接"}
+{"round": 58, "type": "reflect-w5", "page": "", "result": "accept", "desc": "W5反思：263词条，87.8%停滞basic层，featured=0%；转向enrich战略", "ts": "2026-05-05T22:51:11Z", "instance": "资治通鉴", "reflect": "模式B质量停滞。战略调整：R59+主力enrich，优先featured词条达standard(>2KB)，次要新建时代缺口词条"}
+{"round": 57, "type": "create-page", "page": "李林甫", "result": "accept", "desc": "唐代权相，口蜜腹剑，专权误国，PN:214-008,214-055,214-060,214-071", "ts": "2026-05-05T22:55:36Z"}
+{"round": 57, "type": "create-page", "page": "杨贵妃", "result": "accept", "desc": "唐玄宗宠妃，杨玉环，马嵬坡之变被赐死，PN:215-086,216-034", "ts": "2026-05-05T22:55:36Z"}
+{"round": 57, "type": "create-page", "page": "慕容垂", "result": "accept", "desc": "十六国后燕建立者，前燕名将，PN:102-026,102-037,102-061", "ts": "2026-05-05T22:55:36Z"}
+{"round": 57, "type": "create-page", "page": "宇文泰", "result": "accept", "desc": "西魏实际建立者，关陇集团奠基人，PN:154-018,156-039,156-048", "ts": "2026-05-05T22:55:36Z"}
+{"round": 57, "type": "create-page", "page": "高欢", "result": "accept", "desc": "东魏实际掌权者，北齐奠基人，贺六浑，PN:152-014,154-050,155-013", "ts": "2026-05-05T22:55:36Z"}
+{"round": 57, "type": "create-page", "page": "杨国忠", "result": "accept", "desc": "唐玄宗权相，杨贵妃从兄，马嵬坡被杀，PN:216-011,216-050,216-065", "ts": "2026-05-05T22:55:36Z"}
+{"round": 57, "type": "create-page", "page": "高洋", "result": "accept", "desc": "北齐开国皇帝，高欢次子，废东魏建北齐，PN:158-133,163-005", "ts": "2026-05-05T22:55:36Z"}
+{"round": 60, "type": "create-page", "page": "石勒", "result": "accept", "desc": "十六国后赵建立者，羯人奴隶出身，PN:086-009,086-068,086-075", "ts": "2026-05-05T22:58:05Z"}
+{"round": 60, "type": "create-page", "page": "冉闵", "result": "accept", "desc": "冉魏建立者，发布杀胡令，PN:099-005,099-006,099-007", "ts": "2026-05-05T22:58:05Z"}
+{"round": 60, "type": "create-page", "page": "桓玄", "result": "accept", "desc": "东晋末权臣，篡晋建楚，刘裕击败，PN:108-020,108-022,109-037", "ts": "2026-05-05T22:58:06Z"}
+{"round": 60, "type": "create-page", "page": "陈霸先", "result": "accept", "desc": "南朝陈开国皇帝，平侯景之乱，PN:158-100,159-039", "ts": "2026-05-05T22:58:06Z"}
+{"round": 60, "type": "create-page", "page": "侯景", "result": "accept", "desc": "侯景之乱主角，攻陷建康，PN:149-008,160-007,160-013", "ts": "2026-05-05T22:58:06Z"}
+{"round": 61, "type": "create-page", "page": "王敦", "result": "accept", "desc": "东晋权臣，王导堂兄，两度起兵攻建康，PN:087-005,087-007,087-065", "ts": "2026-05-05T23:00:08Z"}
+{"round": 61, "type": "create-page", "page": "刘义隆", "result": "accept", "desc": "南朝宋文帝，元嘉之治，三次北伐均败，PN:118-066,121-087,122-015", "ts": "2026-05-05T23:00:08Z"}
+{"round": 61, "type": "create-page", "page": "石虎", "result": "accept", "desc": "后赵暴君，石勒侄子，以残暴著称，PN:088-062,089-072,090-015", "ts": "2026-05-05T23:00:08Z"}
+{"round": 61, "type": "create-page", "page": "萧道成", "result": "accept", "desc": "南朝齐开国皇帝，代宋建齐，PN:126-057,127-004,131-041", "ts": "2026-05-05T23:00:08Z"}
+{"round": 59, "type": "enrich-page", "page": "孙坚,曹参,司马迁", "result": "accept", "desc": "enrich-page×3，孙坚+1420B,曹参+789B,司马迁+473B，合计2682B，270WU", "ts": "2026-05-05T23:01:16Z", "instance": "资治通鉴", "reflect": "三词条均从basic升至standard，孙坚增战死/阳人之战等新节，曹参补萧规曹随原文，司马迁补太初历细节"}
+{"round": 62, "type": "create-page", "page": "李嗣源", "result": "accept", "desc": "五代后唐明宗，谨重廉俭，五代明君，PN:258-062,261-087,263-012", "ts": "2026-05-05T23:04:37Z"}
+{"round": 62, "type": "create-page", "page": "李光弼", "result": "accept", "desc": "唐代名将，平安史之乱，与郭子仪并称，PN:215-102,217-066,217-071", "ts": "2026-05-05T23:04:37Z"}
+{"round": 62, "type": "create-page", "page": "刘聪", "result": "accept", "desc": "十六国前赵皇帝，灭西晋，俘晋怀帝愍帝，PN:085-062,087-045,090-035", "ts": "2026-05-05T23:04:38Z"}
+{"round": 62, "type": "create-page", "page": "刘曜", "result": "accept", "desc": "十六国前赵最后皇帝，攻克长安，兵败被杀，PN:085-069,091-047", "ts": "2026-05-05T23:04:38Z"}
+{"round": 62, "type": "create-page", "page": "慕容皝", "result": "accept", "desc": "十六国前燕奠基者，慕容垂之父，PN:095-024,095-026,095-033", "ts": "2026-05-05T23:04:38Z"}
+{"round": 63, "type": "enrich-page", "page": "曹操,光武帝刘秀,隋文帝", "result": "accept", "desc": "enrich-page×3，曹操+983B,光武帝刘秀+915B,隋文帝+778B，合计2676B，270WU", "ts": "2026-05-05T23:06:37Z", "instance": "资治通鉴", "reflect": "六个featured词条从basic升至standard，enrich策略有效"}
+{"round": 65, "type": "housekeeping", "page": "__wikilink_pass__", "result": "accept", "desc": "H20 wikilink-pass：43页+145链接，50WU", "ts": "2026-05-05T23:07:20Z", "instance": "资治通鉴", "reflect": "R65%13=0触发全量wikilink补链，覆盖R59/R63新增词条"}
+{"round": 64, "type": "create-page", "page": "张巡", "result": "accept", "desc": "唐代忠烈，守雍丘睢阳，安史之乱，PN:217-072,218-004,218-053", "ts": "2026-05-05T23:08:45Z"}
+{"round": 64, "type": "create-page", "page": "李从珂", "result": "accept", "desc": "五代后唐末帝，自焚洛阳，PN:270-063,272-012,272-029", "ts": "2026-05-05T23:08:45Z"}
+{"round": 64, "type": "create-page", "page": "孟知祥", "result": "accept", "desc": "五代后蜀开国皇帝，PN:268-046,273-108,274-018", "ts": "2026-05-05T23:08:45Z"}
+{"round": 64, "type": "create-page", "page": "李茂贞", "result": "accept", "desc": "唐末关中藩镇，挟持唐昭宗，PN:256-088,256-113,257-026", "ts": "2026-05-05T23:08:45Z"}
+{"round": 64, "type": "create-page", "page": "冯异", "result": "accept", "desc": "东汉大树将军，光武帝谋将，PN:039-013,039-038,039-039", "ts": "2026-05-05T23:08:45Z"}
+{"round": 64, "type": "create-page", "page": "许远", "result": "accept", "desc": "唐代忠烈，与张巡守睢阳，PN:217-062,219-027", "ts": "2026-05-05T23:08:45Z"}
+{"round": 66, "type": "discover", "page": "__discover__", "result": "accept", "desc": "D1 discover + H10 scan：发现3条broken-link(许远/冯异/唐昭宗)；许远/冯异已存在，新建唐昭宗，broken-link清零，50WU", "ts": "2026-05-05T23:10:00Z", "instance": "资治通鉴", "reflect": "broken-link已清零，队列健康，下轮继续enrich featured词条"}
+{"round": 68, "type": "publish", "page": "__publish__", "result": "accept", "desc": "R68 /wiki-publish → commit 1498989 · 103文件，9词条enrich，1词条新建，0WU(publish)", "ts": "2026-05-05T23:11:10Z", "instance": "资治通鉴", "reflect": "R55-68阶段：6个featured词条升至standard，broken-link清零，pages.json 587页"}
+{"round": 67, "type": "create-page", "page": "窦建德", "result": "accept", "desc": "隋末夏国建立者，虎牢关之战败于李世民，PN:181-064,183-039,184-027", "ts": "2026-05-05T23:11:50Z"}
+{"round": 67, "type": "create-page", "page": "李密", "result": "accept", "desc": "隋末瓦岗军魏公，最强起义领袖之一，PN:183-016,183-044,184-027", "ts": "2026-05-05T23:11:51Z"}
+{"round": 67, "type": "create-page", "page": "王世充", "result": "accept", "desc": "隋末洛阳割据者，建郑国，降唐被杀，PN:182-054,182-073,183-033", "ts": "2026-05-05T23:11:51Z"}
+{"round": 67, "type": "create-page", "page": "李世勣", "result": "accept", "desc": "唐初名将，原瓦岗将领，为李密守义，PN:186-071,187-084,187-104", "ts": "2026-05-05T23:11:51Z"}
+{"round": 67, "type": "create-page", "page": "尉迟恭", "result": "accept", "desc": "唐初名将，玄武门之变参与者，PN:185附近,188-010", "ts": "2026-05-05T23:11:51Z"}
+{"round": 67, "type": "create-page", "page": "秦叔宝", "result": "accept", "desc": "唐初名将，历事多主最终归唐，PN:182-074,183-053,185-060", "ts": "2026-05-05T23:11:51Z"}
+{"round": 70, "type": "create-page", "page": "李靖", "result": "accept", "desc": "唐初最杰出军事家，灭东突厥平萧铣，PN:184-048,188-113,189-083,193-053", "ts": "2026-05-05T23:14:31Z"}
+{"round": 70, "type": "create-page", "page": "薛仁贵", "result": "accept", "desc": "唐高宗名将，著奇服陷阵，太宗不喜辽东喜得卿，PN:198-011,198-027,199-135", "ts": "2026-05-05T23:14:32Z"}
+{"round": 70, "type": "create-page", "page": "程知节", "result": "accept", "desc": "唐初名将，黑甲骑兵将领，凌烟阁功臣，PN:186-016,187-029,188-112", "ts": "2026-05-05T23:14:32Z"}
+{"round": 70, "type": "create-page", "page": "苏定方", "result": "accept", "desc": "唐代名将，奇袭东突厥，征西突厥高句丽，PN:193-053,200-028", "ts": "2026-05-05T23:14:32Z"}
+{"round": 70, "type": "create-page", "page": "哥舒翰", "result": "accept", "desc": "唐玄宗名将，攻石堡城，安史之乱潼关悲剧，PN:215-106,216-015,216-024", "ts": "2026-05-05T23:14:32Z"}
