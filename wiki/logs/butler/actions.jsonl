@@ -233,3 +233,11 @@
 {"round": 79, "type": "create-page", "page": "陈庆之", "result": "accept", "desc": "南梁名将，白袍七千北伐，三十二城", "ts": "2026-05-05T23:39:24Z"}
 {"round": 79, "type": "create-page", "page": "韦孝宽", "result": "accept", "desc": "西魏北周名将，守玉壁挫高欢", "ts": "2026-05-05T23:39:24Z"}
 {"round": 79, "type": "create-page", "page": "高颎", "result": "accept", "desc": "隋朝首席功臣，文武兼备，被炀帝杀害", "ts": "2026-05-05T23:39:25Z"}
+{"round": 80, "type": "enrich-page", "page": "张飞,庞统,淝水之战,��楚七国之乱", "result": "accept", "desc": "enrich-page×4页（义释严颜/卧龙凤雏/谢安临危/文帝遗命），1900WU", "ts": "2026-05-05T23:45:12Z", "instance": "资治通鉴", "reflect": "全部featured词条已≥2KB；转向次级词条提升，重点补充有corpus引文的新节"}
+{"round": 81, "type": "create-page", "page": "李渊", "result": "accept", "desc": "唐高祖，太原起兵建唐", "ts": "2026-05-05T23:47:52Z"}
+{"round": 81, "type": "create-page", "page": "姚崇", "result": "accept", "desc": "开元首席宰相，十事要说", "ts": "2026-05-05T23:47:52Z"}
+{"round": 81, "type": "create-page", "page": "宋璟", "result": "accept", "desc": "开元谏臣宰相，姚宋并称", "ts": "2026-05-05T23:47:52Z"}
+{"round": 81, "type": "create-page", "page": "张说", "result": "accept", "desc": "文学家宰相，封燕国公", "ts": "2026-05-05T23:47:52Z"}
+{"round": 81, "type": "create-page", "page": "王忠嗣", "result": "accept", "desc": "四镇节度使，持重安边", "ts": "2026-05-05T23:47:52Z"}
+{"round": 81, "type": "create-page", "page": "高仙芝", "result": "accept", "desc": "安西名将，怛逻斯之战", "ts": "2026-05-05T23:47:52Z"}
+{"round": 82, "type": "enrich-page", "page": "杨贵妃,孟尝君", "result": "accept", "desc": "enrich-page×2页（马嵬之变/入秦为相），1344WU", "ts": "2026-05-05T23:48:03Z", "instance": "资治通鉴", "reflect": "重点补充有corpus引文的新节；孟尝君鸡鸣狗盗节补充进秦出逃背景"}
