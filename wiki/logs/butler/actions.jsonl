@@ -215,3 +215,11 @@
 {"round": 73, "type": "create-page", "page": "郦食其", "result": "accept", "desc": "汉初说客，说降陈留，最终被烹杀", "ts": "2026-05-05T23:25:13Z"}
 {"round": 73, "type": "create-page", "page": "灌婴", "result": "accept", "desc": "汉初骑将，追击项羽，封颍阴侯", "ts": "2026-05-05T23:25:13Z"}
 {"round": 73, "type": "create-page", "page": "主父偃", "result": "accept", "desc": "汉武帝谋臣，推恩令削藩", "ts": "2026-05-05T23:25:13Z"}
+{"round": 74, "type": "enrich-page", "page": "汉高祖刘邦,汉武帝,赤壁之战", "result": "accept", "desc": "enrich-page×3：汉高祖+276B,汉武帝+404B,赤壁之战+352B，合计1032B，270WU", "ts": "2026-05-05T23:26:42Z", "instance": "资治通鉴", "reflect": "R59-R74共enrich 18个featured词条至standard层级，featured均已达2KB"}
+{"round": 75, "type": "create-page", "page": "荀攸", "result": "accept", "desc": "曹操首席谋士，奇谋正策", "ts": "2026-05-05T23:29:01Z"}
+{"round": 75, "type": "create-page", "page": "鲁肃", "result": "accept", "desc": "东吴战略家，赤壁前联刘抗曹", "ts": "2026-05-05T23:29:01Z"}
+{"round": 75, "type": "create-page", "page": "吕蒙", "result": "accept", "desc": "白衣渡江袭荆州，擒杀关羽", "ts": "2026-05-05T23:29:01Z"}
+{"round": 75, "type": "create-page", "page": "邓艾", "result": "accept", "desc": "翻越阴平灭蜀，死于政治陷害", "ts": "2026-05-05T23:29:01Z"}
+{"round": 75, "type": "create-page", "page": "钟会", "result": "accept", "desc": "伐蜀统帅，灭蜀后图谋割据被杀", "ts": "2026-05-05T23:29:01Z"}
+{"round": 75, "type": "create-page", "page": "司马昭", "result": "accept", "desc": "曹魏权臣，司马昭之心路人皆知", "ts": "2026-05-05T23:29:01Z"}
+{"round": 75, "type": "create-page", "page": "司马炎", "result": "accept", "desc": "西晋开国帝王，平吴统一", "ts": "2026-05-05T23:29:01Z"}
