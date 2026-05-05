@@ -944,12 +944,42 @@ article[data-type="chapter"] .chapter-poem .pn-label {
   opacity: .6;
 }
 
-/* ── 卡片网格（古典悲剧美学 · 冷金清雅） ────────────────────── */
+/* ── 卷目导航条 ───────────────────────────────────────────── */
+.home-volumes {
+  margin: 1.4em 0 .6em;
+}
+
+/* ── 精选词条区块头 ──────────────────────────────────────── */
+.home-section-header {
+  display: flex;
+  align-items: baseline;
+  gap: .8em;
+  margin: 1.8em 0 .7em;
+  border-bottom: 1px solid rgba(160,140,100,.2);
+  padding-bottom: .4em;
+}
+.home-section-title {
+  font-family: var(--serif);
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #c0a878;
+  margin: 0;
+  border: none;
+  letter-spacing: .06em;
+}
+.home-section-sub {
+  font-size: .78em;
+  color: #5a4a3a;
+  font-family: var(--sans);
+  letter-spacing: .04em;
+}
+
+/* ── 卡片网格（古典史学美学 · 冷金清雅） ────────────────────── */
 .featured-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 1em;
-  margin: 1em 0 1.8em;
+  margin: 0 0 1.8em;
 }
 
 /* Entity cards */
@@ -1033,10 +1063,10 @@ article[data-type="chapter"] .chapter-poem .pn-label {
   color: #f0e8d0;
   background: var(--card-accent, #5a4a3a);
 }
-/* 人物用朱砂印泥红 */
-.card-t-person .card-eyebrow {
-  background: #c04a30;
-}
+/* 人物用朱砂红，战役用深红，事件用赭黄 */
+.card-t-person .card-eyebrow { background: #c04a30; }
+.card-t-battle .card-eyebrow { background: #8a1a10; }
+.card-t-event  .card-eyebrow { background: #a05820; }
 .featured-card .card-desc {
   font-size: .8em;
   color: #7a6a5a;
@@ -1048,18 +1078,19 @@ article[data-type="chapter"] .chapter-poem .pn-label {
   overflow: hidden;
 }
 
-/* Type accent palette — 红楼梦 */
+/* Type accent palette — 资治通鉴 */
 .card-t-person       { --card-accent: #c89030; }
-.card-t-family       { --card-accent: #b84040; }
-.card-t-place        { --card-accent: #3a8870; }
-.card-t-object       { --card-accent: #8a6020; }
+.card-t-state        { --card-accent: #4a78c0; }
 .card-t-event        { --card-accent: #c87820; }
-.card-t-poem         { --card-accent: #a060a8; }
+.card-t-battle       { --card-accent: #a83020; }
+.card-t-place        { --card-accent: #3a8870; }
+.card-t-concept      { --card-accent: #6a78a0; }
 .card-t-chapter      { --card-accent: #607080; }
-.card-t-concept      { --card-accent: #4a78c0; }
-.card-t-organization { --card-accent: #7050b8; }
 .card-t-quote        { --card-accent: #b89050; }
 .card-t-overview     { --card-accent: #507888; }
+.card-t-family       { --card-accent: #b84040; }
+.card-t-object       { --card-accent: #8a6020; }
+.card-t-organization { --card-accent: #7050b8; }
 .card-t-list         { --card-accent: #607070; }
 
 /* Article left-border accent per type */
@@ -1093,7 +1124,6 @@ article[data-type="skill"]        { border-left-color: #4a78c0; }
 
 /* Book cards — full-width horizontal strips */
 .featured-card.book-card {
-  grid-column: 1 / -1;
   flex-direction: row;
   align-items: center;
   gap: 0;

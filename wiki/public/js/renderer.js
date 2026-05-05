@@ -408,7 +408,7 @@ export async function renderPage(core, pid, meta, mdText) {
     : '';
   document.getElementById('crumb').innerHTML =
     (TYPE_LABELS[meta.type] || meta.type) + ' / ' + escapeHtml(label) + ' ' + qBadge + qScore;
-  document.title = label + ' · 红楼梦 Wiki';
+  document.title = label + ' · 资治通鉴 Wiki';
 
   // 如果正文没有 h1，自动从 label 生成一个
   const article = document.getElementById('article');
@@ -480,7 +480,7 @@ function injectChapterNav(core, pid, meta) {
   const next = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : null;
 
   const bookFirstId = siblings[0]?.[0];
-  const bookLabel = book || '红楼梦';
+  const bookLabel = book || '资治通鉴';
 
   const prevHtml = prev
     ? `<a class="chapnav-prev" href="#${encodeURIComponent(prev[0])}">← ${escapeHtml(prev[1].label)}</a>`
@@ -510,7 +510,7 @@ export async function renderSource(core, pid, meta) {
 
   const label = meta.label || pid;
   document.getElementById('crumb').textContent = '源码 / ' + label;
-  document.title = label + ' 源码 · 红楼梦 Wiki';
+  document.title = label + ' 源码 · 资治通鉴 Wiki';
 
   document.getElementById('article').innerHTML = `
     <h1 class="src-view-title">${escapeHtml(label)} <span class="src-view-badge">源码</span></h1>
@@ -545,7 +545,7 @@ const FIELD_LABELS = {
   food_type: '饮食类型', occasion: '场合',
   house: '堂号', members: '成员',
   concept_type: '概念类型',
-  era: '时代', dynasty: '朝代',
+  era: '时代', dynasty: '朝代', cat: '人物类别',
 };
 
 // 纯内部字段，不对用户展示
@@ -571,7 +571,7 @@ function linkifyValue(val, registry) {
 const FIELD_GROUPS = [
   { label: '基本', fields: ['gender', 'description'] },
   { label: '家族', fields: ['father', 'mother', 'spouse', 'siblings', 'cousins', 'grandparents', 'uncles', 'aunts', 'nephews', 'nieces', 'children'] },
-  { label: '生平', fields: ['birthday', 'era', 'dynasty'] },
+  { label: '生平', fields: ['birthday', 'era', 'dynasty', 'cat'] },
   { label: '主仆', fields: ['master', 'servants'] },
   { label: '关联', fields: ['seealso', 'location', 'residence', 'occupation', 'pn'] },
 ];
@@ -697,7 +697,7 @@ export async function renderInfobox(core, front, meta, pid) {
 }
 
 const BOOK_META = [
-  { key: '梦', label: '红楼梦', subtitle: '程甲本·一百二十回', min: 1, max: 120 },
+  { key: '鉴', label: '资治通鉴', subtitle: '294卷 · 纵贯1362年', min: 1, max: 294 },
 ];
 
 function buildHomeSvg() {
@@ -977,17 +977,20 @@ function bindHomeSearch(core) {
 }
 
 function buildHomeBodyHtml(bookCardsHtml, entityCardsHtml, totalPages) {
-  return `<div class="featured-grid">
-      ${bookCardsHtml}
-      ${entityCardsHtml}
-    </div>
-
+  const featuredSection = entityCardsHtml
+    ? `<div class="home-section-header">
+        <h2 class="home-section-title">精选词条</h2>
+        <span class="home-section-sub">历史人物 · 重大战役 · 关键事件</span>
+      </div>
+      <div class="featured-grid">${entityCardsHtml}</div>`
+    : '';
+  return `<div class="home-volumes">${bookCardsHtml}</div>
+    ${featuredSection}
     <nav class="home-links">
       <a href="#${encodeURIComponent('Special:AllPages')}" class="home-link">全部 ${totalPages} 页 →</a>
       <a href="#${encodeURIComponent('Special:Recent')}" class="home-link">最近修订 →</a>
       <a href="#${encodeURIComponent('Special:Random')}" class="home-link">随机词条 →</a>
     </nav>
-
     <p class="home-disclaimer">本 Wiki 内容由 AI 整理，基于北宋司马光《资治通鉴》294卷，纵贯战国至五代十国 1362 年史事。如发现错误欢迎<a href="https://github.com/baojie/tongjian/issues/new" target="_blank" rel="noopener">提交 Issue</a>。</p>`;
 }
 
@@ -1016,6 +1019,7 @@ function buildFullHomeHtml(entityCount, bookCardsHtml, entityCardsHtml, totalPag
       ${buildHomeBodyHtml(bookCardsHtml, entityCardsHtml, totalPages)}
     </div>
   </div>`;
+
 }
 
 /**
@@ -1167,7 +1171,11 @@ function setupReadingProgress() {
   update();
 }
 
-export function renderHome(core) {
+export async function renderHome(core) {
+  // 首页精选卡片需要 featured/quality 等全量字段，等待完整注册表加载完成
+  if (!core.registry._fullLoaded && core.fullRegistryReady) {
+    await core.fullRegistryReady;
+  }
   const pages = core.registry.pages;
   const ids = Object.keys(pages);
 
@@ -1176,12 +1184,12 @@ export function renderHome(core) {
     renderBookCard(meta, pages)
   ).join('');
 
-  // 实体词条卡片：按 quality 等级 + quality_score 降序，stub 不上首页，章节页不上首页
+  // 实体词条卡片：featured 优先，其次按 quality 降序；chapter 不上首页
   const allPages = ids.map(id => ({ id, ...pages[id] }));
-  const scoreOf = p => (QUALITY_RANK[p.quality] || 0) + (p.quality_score || 0) + (p.featured ? 200 : 0);
+  const scoreOf = p => (QUALITY_RANK[p.quality] || 0) + (p.quality_score || 0) + (p.featured ? 500 : 0);
   const entityCandidates = allPages
-    .filter(p => !['redirect','disambiguation','special','chapter'].includes(p.type||''))
-    .filter(p => (p.quality || 'stub') !== 'stub')
+    .filter(p => !['redirect','disambiguation','special','chapter','overview'].includes(p.type||''))
+    .filter(p => p.featured || (p.quality || 'stub') !== 'stub')
     .sort((a, b) => scoreOf(b) - scoreOf(a))
     .slice(0, 24);
   const entityCardsHtml = entityCandidates.map(renderFeaturedCard).join('');
@@ -1204,7 +1212,7 @@ export function renderHome(core) {
     document.body.classList.add('is-home');
     hideSidebar();
     document.getElementById('crumb').textContent = '首页';
-    document.title = '红楼梦 Wiki — 曹雪芹百科';
+    document.title = '资治通鉴 Wiki — 司马光百科';
   }
 
   document.getElementById('src-info').textContent = 'pages.json';
@@ -1260,13 +1268,13 @@ function renderBookCard({ key, label, subtitle, min, max }, pages) {
     .sort(([ia], [ib]) => chapNum(ia) - chapNum(ib));
   const firstId = chapters.length > 0 ? chapters[0][0] : null;
   const href = firstId ? `#${encodeURIComponent(firstId)}` : '#';
-  const chapListHtml = chapters.slice(0, 20).map(([id, m]) => {
+  const chapListHtml = chapters.slice(0, 30).map(([id, m]) => {
     const n = chapNum(id);
-    const tip = m.description ? m.description.replace(/^第\d+回：?/,'') : '';
-    return `<a class="bc-chap" href="#${encodeURIComponent(id)}" title="${escapeHtml(tip)}">第${n}回</a>`;
+    const tip = m.description ? m.description.replace(/^第\d+卷：?/,'') : '';
+    return `<a class="bc-chap" href="#${encodeURIComponent(id)}" title="${escapeHtml(tip)}">第${n}卷</a>`;
   }).join('');
-  const moreHtml = chapters.length > 20
-    ? `<span class="bc-more">+${chapters.length - 20}</span>` : '';
+  const moreHtml = chapters.length > 30
+    ? `<span class="bc-more">+${chapters.length - 30}</span>` : '';
   return `<div class="featured-card book-card">
     <a class="bc-numeral" href="${href}">${key}</a>
     <div class="bc-body">
@@ -1470,7 +1478,7 @@ export function renderCategory(core, kind, value) {
   document.body.classList.add('is-home');
   hideSidebar();
   document.getElementById('crumb').textContent = `${titleKind}：${displayValue}`;
-  document.title = `${titleKind} ${displayValue} · 红楼梦 Wiki`;
+  document.title = `${titleKind} ${displayValue} · 资治通鉴 Wiki`;
   document.getElementById('src-info').textContent =
     `pages.json (筛选: ${kind}=${value})`;
   document.getElementById('broken-info').textContent = '';
@@ -1557,7 +1565,7 @@ export async function renderRecent(core, pageNum = 1) {
   document.body.classList.add('is-home');
   hideSidebar();
   document.getElementById('crumb').textContent = '最近修订';
-  document.title = '最近修订 · 红楼梦 Wiki';
+  document.title = '最近修订 · 资治通鉴 Wiki';
   document.getElementById('src-info').textContent = 'recent.lite.jsonl';
   document.getElementById('broken-info').textContent = '';
   window.scrollTo(0, 0);
@@ -1623,7 +1631,7 @@ export async function renderHistory(core, page) {
   document.body.classList.add('is-home');
   hideSidebar();
   document.getElementById('crumb').textContent = `修订历史 / ${page}`;
-  document.title = `${page} 修订历史 · 红楼梦 Wiki`;
+  document.title = `${page} 修订历史 · 资治通鉴 Wiki`;
   document.getElementById('src-info').textContent = `history/${page}.jsonl`;
   document.getElementById('broken-info').textContent = '';
   window.scrollTo(0, 0);
@@ -1657,7 +1665,7 @@ export async function renderRevision(core, page, revId) {
   hideSidebar();
   document.body.classList.add('is-home');
   document.getElementById('crumb').textContent = `${page} @ ${revId}`;
-  document.title = `${page} @ ${revId} · 红楼梦 Wiki`;
+  document.title = `${page} @ ${revId} · 资治通鉴 Wiki`;
   document.getElementById('src-info').textContent = `history/${page}/${revId}.md`;
   document.getElementById('broken-info').textContent = '';
   window.scrollTo(0, 0);
@@ -1750,7 +1758,7 @@ export function renderAll(core) {
   }
 
   // 出场书册：固定顺序
-  const BOOK_ORDER = ['红楼梦'];
+  const BOOK_ORDER = ['资治通鉴'];
   const orderedBooks = BOOK_ORDER.filter(b => bookCounts[b]);
 
   // 标签：出现 ≥ 3 次
@@ -1999,7 +2007,7 @@ export function renderAll(core) {
     document.body.classList.add('is-home');
     hideSidebar();
     document.getElementById('crumb').textContent = '全部页面';
-    document.title = '全部页面 · 红楼梦 Wiki';
+    document.title = '全部页面 · 资治通鉴 Wiki';
     document.getElementById('src-info').textContent = `共 ${allEntries.length} 页`;
     document.getElementById('broken-info').textContent = '';
     window.scrollTo(0, 0);
@@ -2147,7 +2155,7 @@ export async function renderDiff(core, page, revId) {
   hideSidebar();
   document.body.classList.add('is-home');
   document.getElementById('crumb').textContent = `${page} diff ${revId}`;
-  document.title = `${page} diff · 红楼梦 Wiki`;
+  document.title = `${page} diff · 资治通鉴 Wiki`;
   document.getElementById('src-info').textContent = `${source} (diff ${revId} vs ${curMeta.parent_rev || 'null'})`;
   document.getElementById('broken-info').textContent = '';
   window.scrollTo(0, 0);
@@ -2195,7 +2203,7 @@ export function renderNotFound(core, target) {
   hideSidebar();
   document.body.classList.add('is-home');
   document.getElementById('crumb').textContent = '未找到';
-  document.title = '未找到 · 红楼梦 Wiki';
+  document.title = '未找到 · 资治通鉴 Wiki';
   document.getElementById('src-info').textContent = '';
   document.getElementById('broken-info').textContent = '';
   injectWantButton(target);
