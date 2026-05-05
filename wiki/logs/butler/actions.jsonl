@@ -241,3 +241,10 @@
 {"round": 81, "type": "create-page", "page": "王忠嗣", "result": "accept", "desc": "四镇节度使，持重安边", "ts": "2026-05-05T23:47:52Z"}
 {"round": 81, "type": "create-page", "page": "高仙芝", "result": "accept", "desc": "安西名将，怛逻斯之战", "ts": "2026-05-05T23:47:52Z"}
 {"round": 82, "type": "enrich-page", "page": "杨贵妃,孟尝君", "result": "accept", "desc": "enrich-page×2页（马嵬之变/入秦为相），1344WU", "ts": "2026-05-05T23:48:03Z", "instance": "资治通鉴", "reflect": "重点补充有corpus引文的新节；孟尝君鸡鸣狗盗节补充进秦出逃背景"}
+{"round": 83, "type": "enrich-page", "page": "白居易,颜真卿", "result": "accept", "desc": "enrich-page×2页（翰林直言/申冤谒陵），1394WU", "ts": "2026-05-05T23:50:48Z", "instance": "资治通鉴", "reflect": "持续提升1.4-1.5KB词条至2KB+；此轮补充文士与忠臣类词条"}
+{"round": 84, "type": "create-page", "page": "封常清", "result": "accept", "desc": "安西名将，与高仙芝同被宦官诬杀", "ts": "2026-05-05T23:51:29Z"}
+{"round": 84, "type": "create-page", "page": "李嗣业", "result": "accept", "desc": "陌刀将，香积寺决战大破叛军", "ts": "2026-05-05T23:51:29Z"}
+{"round": 84, "type": "create-page", "page": "仆固怀恩", "result": "accept", "desc": "铁勒名将，平叛功勋后叛唐", "ts": "2026-05-05T23:51:29Z"}
+{"round": 84, "type": "create-page", "page": "刘晏", "result": "accept", "desc": "安史之乱后理财名臣，漕运盐铁", "ts": "2026-05-05T23:51:29Z"}
+{"round": 84, "type": "create-page", "page": "元载", "result": "accept", "desc": "代宗权相，勾结宦官贪腐专权", "ts": "2026-05-05T23:51:29Z"}
+{"round": 84, "type": "create-page", "page": "陆贽", "result": "accept", "desc": "德宗翰林学士，奉天从驾直言谏", "ts": "2026-05-05T23:51:29Z"}
