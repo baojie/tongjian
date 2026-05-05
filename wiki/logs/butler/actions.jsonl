@@ -15,3 +15,58 @@
 {"round": 14, "type": "create-page", "page": "唐庄宗,石敬瑭,刘知远,钱镠,安史之乱", "result": "accept", "desc": "create-page×5页，500WU；五代政权+安史事件：唐庄宗/石敬瑭/刘知远/钱镠+安史之乱", "ts": "2026-05-05T21:24:41Z", "instance": "资治通鉴", "reflect": "五代核心人物与重大事件建页完成。后梁(梁太祖朱温corpus为0条，暂跳过)/后唐庄宗/后晋(石敬瑭)/后汉(刘知远)/吴越(钱镠)均已覆盖。安史之乱作为唐代最重要事件词条。后周(郭威/柴荣已有)完整。下轮检查PN插件效果，enrich现有词条质量。"}
 {"round": 15, "type": "create-page", "page": "郭威,桓温,王猛,刘裕,黄巢,杨行密", "result": "accept", "desc": "create-page×6页，600WU；东晋/五代人物：郭威/桓温/王猛/刘裕/黄巢/杨行密", "ts": "2026-05-05T21:30:00Z", "instance": "资治通鉴", "reflect": "覆盖东晋权臣(桓温)、前秦谋臣(王猛)、南朝开国帝(刘裕)、五代后周太祖(郭威)、唐末起义(黄巢)、南吴开创者(杨行密)。时间轴延伸至东晋至五代，corpus引文均≥2条。R15完成后P3待发现项仍有唐代晚期人物可进一步扩展。"}
 {"round": 16, "type": "create-page", "page": "梁太祖,王审知,慕容恪,拓跋珪,王导", "result": "accept", "desc": "create-page×5页，500WU；五代/十六国/东晋人物：梁太祖/王审知/慕容恪/拓跋珪/王导", "ts": "2026-05-05T21:33:18Z", "instance": "资治通鉴", "reflect": "时间轴进一步延展：东晋开国(王导)、十六国名将(慕容恪)、北魏开国(拓跋珪)、五代开国帝(梁太祖/王审知)。corpus引文数量均≥2条。下一步可补充先秦和汉代人物以完善早期历史覆盖，或enrich已有词条至standard级别。"}
+{"round": 17, "type": "publish", "page": "", "result": "accept", "desc": "/wiki publish → commit 53f3609 · R1→17 新建85词条页 + 294卷原文页", "ts": "2026-05-05T21:34:02Z", "instance": "资治通鉴", "reflect": "首次完整发布：379页（294卷+85词条），docs/目录同步，GitHub Pages已推送。PN插件/chapter_map已包含。时间轴覆盖战国→五代。"}
+{"round": 18, "type": "create-page", "page": "赵武灵王,乐毅,范增,陈胜,贾谊,晁错,霍光", "result": "accept", "desc": "create-page×7页，700WU；战国/秦末/汉初人物：赵武灵王/乐毅/范增/陈胜/贾谊/晁错/霍光", "ts": "2026-05-05T21:38:04Z", "instance": "资治通鉴", "reflect": "时间轴向前延展至战国中期(赵武灵王/乐毅)，秦末义军(陈胜/范增)，西汉政论家(贾谊/晁错)，辅政权臣(霍光)。所有页面均含≥2条PN引注和cat/dynasty字段。"}
+{"round": 19, "type": "create-page", "page": "王昭君,张骞,李广,窦婴,汲黯,桑弘羊,赵充国", "result": "accept", "desc": "create-page×7页，700WU；汉武帝时代人物：王昭君/张骞/李广/窦婴/汲黯/桑弘羊/赵充国", "ts": "2026-05-05T21:41:26Z", "instance": "资治通鉴", "reflect": "汉武帝时代群英完整建档：和亲外交(王昭君)、丝路开拓(张骞)、悲剧名将(李广)、刚直外戚(窦婴)、直谏之臣(汲黯)、财政改革(桑弘羊)、守边名将(赵充国)。现已99页，接近百页里程碑。"}
+{"round": 20, "type": "create-page", "page": "董仲舒,邓禹,耿弇,马援,窦固,邓太后,邓通", "result": "accept", "desc": "create-page×7页，700WU；汉代儒学+东汉开国人物：董仲舒/邓禹/耿弇/马援/窦固/邓太后/邓通（周亚夫已存在跳过）", "ts": "2026-05-05T21:44:38Z", "instance": "资治通鉴", "reflect": "R20完成，汉代全面覆盖：儒学奠基(董仲舒)、东汉云台将领(邓禹/耿弇/马援)、西域经营(窦固)、外戚摄政(邓太后)、宠幸警示(邓通)。总词条数已达106页。"}
+{"round": 21, "type": "create-page", "page": "周瑜,荀彧,贾诩,郭嘉,袁绍,张辽,赵云", "result": "accept", "desc": "create-page×7页，700WU；三国核心人物：周瑜/荀彧/贾诩/郭嘉/袁绍/张辽/赵云", "ts": "2026-05-05T21:47:26Z", "instance": "资治通鉴", "reflect": "三国谋臣武将补全：吴将(周瑜)、魏谋(荀彧/贾诩/郭嘉)、河北枭雄(袁绍)、魏将(张辽)、蜀将(赵云)。总词条达113页。"}
+{"round": 22, "type": "discover", "page": "", "result": "accept", "desc": "D1-discover + H10-scan | 发现8条新P2词条，1条需修复PN", "ts": "2026-05-05T21:47:53Z", "instance": "资治通鉴", "reflect": "D1扫描：三国补充(张飞/夏侯惇/庞统)、西晋(周处)、南朝(谢灵运)、唐代文人(元稹/柳宗元/杜甫)均有corpus命中。陶渊明/李白corpus命中太少暂不建。H10发现安史之乱PN只有1条需补充，About和概述属特殊页面无需PN。"}
+{"round": 23, "type": "create-page", "page": "张飞,夏侯惇,庞统,周处,谢灵运,元稹,柳宗元", "result": "accept", "desc": "create-page×7页，700WU；三国/魏晋/唐代人物：张飞/夏侯惇/庞统/周处/谢灵运/元稹/柳宗元", "ts": "2026-05-05T21:50:16Z", "instance": "资治通鉴", "reflect": "D1发现的新候选全部建档。三国武将补全(张飞/夏侯惇)，谋臣补全(庞统)，西晋忠烈(周处)，南朝文人(谢灵运)，唐代诗人政治家(元稹/柳宗元)。总词条达120页。"}
+{"round": 25, "type": "create-page", "page": "张九龄,刘禹锡,裴度,牛僧孺,李德裕,高适,杜甫", "result": "accept", "desc": "H10修复安史之乱PN+create-page×7，780WU", "ts": "2026-05-05T22:01:46Z", "instance": "资治通鉴", "reflect": "唐代中晚期人物建档：开元名相张九龄、永贞革新刘禹锡、平淮名相裴度、牛李党争牛僧孺/李德裕、边塞诗人高适、诗圣杜甫。总词条约130页。"}
+{"round": 26, "type": "create-page", "page": "吕后", "result": "accept", "desc": "修复死链：创建缺失词条 吕后", "ts": "2026-05-05T22:02:23Z", "instance": "资治通鉴"}
+{"round": 26, "type": "create-page", "page": "唐高祖", "result": "accept", "desc": "修复死链：创建缺失词条 唐高祖", "ts": "2026-05-05T22:02:24Z", "instance": "资治通鉴"}
+{"round": 26, "type": "create-page", "page": "李建成", "result": "accept", "desc": "修复死链：创建缺失词条 李建成", "ts": "2026-05-05T22:02:24Z", "instance": "资治通鉴"}
+{"round": 26, "type": "create-page", "page": "秦孝公", "result": "accept", "desc": "修复死链：创建缺失词条 秦孝公", "ts": "2026-05-05T22:02:24Z", "instance": "资治通鉴"}
+{"round": 26, "type": "create-page", "page": "赵括", "result": "accept", "desc": "修复死链：创建缺失词条 赵括", "ts": "2026-05-05T22:02:24Z", "instance": "资治通鉴"}
+{"round": 26, "type": "create-page", "page": "曹丕", "result": "accept", "desc": "修复死链：创建缺失词条 曹丕", "ts": "2026-05-05T22:02:24Z", "instance": "资治通鉴"}
+{"round": 26, "type": "create-page", "page": "蒙恬", "result": "accept", "desc": "修复死链：创建缺失词条 蒙恬", "ts": "2026-05-05T22:02:24Z", "instance": "资治通鉴"}
+{"round": 26, "type": "wikilink-pass", "page": "", "result": "accept", "desc": "H20 wikilink-pass全量 + 修复bulk_wikilink.py路径；119/134页更新，579条新链接，50WU", "ts": "2026-05-05T22:03:24Z", "instance": "资治通鉴", "reflect": "bulk_wikilink.py指向红楼梦路径导致历来wikilink全部空跑，已修正为tongjian路径。全量补链后134词条页中119页有效链接密度大幅提升。"}
+{"round": 27, "type": "create-page", "page": "唐玄宗", "result": "accept", "desc": "修复死链：创建缺失词条 唐玄宗", "ts": "2026-05-05T22:05:02Z", "instance": "资治通鉴"}
+{"round": 27, "type": "create-page", "page": "胡亥", "result": "accept", "desc": "修复死链：创建缺失词条 胡亥", "ts": "2026-05-05T22:05:02Z", "instance": "资治通鉴"}
+{"round": 27, "type": "create-page", "page": "扶苏", "result": "accept", "desc": "修复死链：创建缺失词条 扶苏", "ts": "2026-05-05T22:05:02Z", "instance": "资治通鉴"}
+{"round": 27, "type": "create-page", "page": "淝水之战", "result": "accept", "desc": "修复死链：创建缺失词条 淝水之战", "ts": "2026-05-05T22:05:02Z", "instance": "资治通鉴"}
+{"round": 27, "type": "create-page", "page": "谢玄", "result": "accept", "desc": "修复死链：创建缺失词条 谢玄", "ts": "2026-05-05T22:05:02Z", "instance": "资治通鉴"}
+{"round": 27, "type": "create-page", "page": "杜如晦", "result": "accept", "desc": "修复死链：创建缺失词条 杜如晦", "ts": "2026-05-05T22:05:02Z", "instance": "资治通鉴"}
+{"round": 27, "type": "create-page", "page": "隆中对", "result": "accept", "desc": "修复死链：创建缺失词条 隆中对", "ts": "2026-05-05T22:05:02Z", "instance": "资治通鉴"}
+{"round": 30, "type": "create-page", "page": "贞观之治", "result": "accept", "desc": "修复死链：创建缺失词条 贞观之治", "ts": "2026-05-05T22:08:12Z", "instance": "资治通鉴"}
+{"round": 30, "type": "create-page", "page": "吴楚七国之乱", "result": "accept", "desc": "修复死链：创建缺失词条 吴楚七国之乱", "ts": "2026-05-05T22:08:12Z", "instance": "资治通鉴"}
+{"round": 30, "type": "create-page", "page": "李元吉", "result": "accept", "desc": "修复死链：创建缺失词条 李元吉", "ts": "2026-05-05T22:08:12Z", "instance": "资治通鉴"}
+{"round": 30, "type": "create-page", "page": "唐高宗", "result": "accept", "desc": "修复死链：创建缺失词条 唐高宗", "ts": "2026-05-05T22:08:12Z", "instance": "资治通鉴"}
+{"round": 30, "type": "create-page", "page": "渑池之会", "result": "accept", "desc": "修复死链：创建缺失词条 渑池之会", "ts": "2026-05-05T22:08:13Z", "instance": "资治通鉴"}
+{"round": 30, "type": "create-page", "page": "战国四公子", "result": "accept", "desc": "修复死链：创建缺失词条 战国四公子", "ts": "2026-05-05T22:08:13Z", "instance": "资治通鉴"}
+{"round": 30, "type": "create-page", "page": "周勃", "result": "accept", "desc": "修复死链：创建缺失词条 周勃", "ts": "2026-05-05T22:08:13Z", "instance": "资治通鉴"}
+{"round": 27, "type": "wikilink-pass", "page": "", "result": "skip", "desc": "队列清理：发现大量已完成项目未标记，无新创建；50WU", "ts": "2026-05-05T22:11:10Z", "instance": "资治通鉴", "reflect": "H20触发，bulk_wikilink --since HEAD无新变更，R26已全量补链。锁管理多次stale清理说明需加健壮性。队列标记滞后问题记录。"}
+{"round": 29, "type": "create-page", "page": "长孙无忌,陆贾,秦国,赵国,晋国,魏桓子,赵简子", "result": "accept", "desc": "W5反思+create-page×7，700WU；初唐功臣(长孙无忌)、汉初谋臣(陆贾)、战国诸侯国(秦国/赵国/晋国)、战国人物(魏桓子/赵简子)", "ts": "2026-05-05T22:11:10Z", "instance": "资治通鉴", "reflect": "W5-R29反思已完成。新建state类页面(秦/赵/晋)填补broken-link热点。汉初三杰/渑池之会/吴楚七国之乱/韩愈/白居易/周世宗已存在（历史轮次建成）。总词条约160页。"}
+{"round": 31, "type": "create-page", "page": "汉初三杰", "result": "accept", "desc": "修复死链：创建缺失词条 汉初三杰", "ts": "2026-05-05T22:11:27Z", "instance": "资治通鉴"}
+{"round": 31, "type": "create-page", "page": "玄武门之变", "result": "accept", "desc": "修复死链：创建缺失词条 玄武门之变", "ts": "2026-05-05T22:11:27Z", "instance": "资治通鉴"}
+{"round": 31, "type": "create-page", "page": "鬼谷子", "result": "accept", "desc": "修复死链：创建缺失词条 鬼谷子", "ts": "2026-05-05T22:11:27Z", "instance": "资治通鉴"}
+{"round": 31, "type": "create-page", "page": "孙策", "result": "accept", "desc": "修复死链：创建缺失词条 孙策", "ts": "2026-05-05T22:11:27Z", "instance": "资治通鉴"}
+{"round": 31, "type": "create-page", "page": "齐桓公", "result": "accept", "desc": "修复死链：创建缺失词条 齐桓公", "ts": "2026-05-05T22:11:27Z", "instance": "资治通鉴"}
+{"round": 31, "type": "create-page", "page": "晋文公", "result": "accept", "desc": "修复死链：创建缺失词条 晋文公", "ts": "2026-05-05T22:11:27Z", "instance": "资治通鉴"}
+{"round": 31, "type": "create-page", "page": "合纵连横", "result": "accept", "desc": "修复死链：创建缺失词条 合纵连横", "ts": "2026-05-05T22:11:28Z", "instance": "资治通鉴"}
+{"round": 30, "type": "create-page", "page": "韩康子,樊於期,徐庶,纵横家,邯郸", "result": "accept", "desc": "create-page×5，500WU；战国人物(韩康子/樊於期)、三国谋臣(徐庶)、概念(纵横家)、地名(邯郸)", "ts": "2026-05-05T22:13:02Z", "instance": "资治通鉴", "reflect": "broken-link优先建页策略有效，邯郸加coords可触发place-map插件。纵横家为首个concept类词条。总词条约165页。"}
+{"round": 31, "type": "create-page", "page": "桓齮,魏齐,公孙衍,韩国,西汉", "result": "accept", "desc": "create-page×5，500WU；秦国将领(桓齮)、权臣(魏齐)、纵横家(公孙衍)、诸侯国(韩国/西汉)", "ts": "2026-05-05T22:15:48Z", "instance": "资治通鉴", "reflect": "战国诸侯国和人物覆盖趋于完整，broken-link数量明显减少。西汉作为朝代词条建立，为多个已有词条提供上下文锚点。总词条约170页。"}
+{"round": 33, "type": "create-page", "page": "史思明", "result": "accept", "desc": "修复死链：创建缺失词条 史思明", "ts": "2026-05-05T22:16:33Z", "instance": "资治通鉴"}
+{"round": 33, "type": "create-page", "page": "赵奢", "result": "accept", "desc": "修复死链：创建缺失词条 赵奢", "ts": "2026-05-05T22:16:33Z", "instance": "资治通鉴"}
+{"round": 33, "type": "create-page", "page": "毛遂", "result": "accept", "desc": "修复死链：创建缺失词条 毛遂", "ts": "2026-05-05T22:16:33Z", "instance": "资治通鉴"}
+{"round": 33, "type": "create-page", "page": "鸿门宴", "result": "accept", "desc": "修复死链：创建缺失词条 鸿门宴", "ts": "2026-05-05T22:16:34Z", "instance": "资治通鉴"}
+{"round": 33, "type": "create-page", "page": "渭水之盟", "result": "accept", "desc": "修复死链：创建缺失词条 渭水之盟", "ts": "2026-05-05T22:16:34Z", "instance": "资治通鉴"}
+{"round": 33, "type": "create-page", "page": "邯郸之战", "result": "accept", "desc": "修复死链：创建缺失词条 邯郸之战", "ts": "2026-05-05T22:16:34Z", "instance": "资治通鉴"}
+{"round": 32, "type": "create-page", "page": "韩非,背水一战,白帝城托孤,蜀汉", "result": "accept", "desc": "create-page×4（跳过督亢corpus不足），400WU；法家思想家(韩非)、经典战役(背水一战)、历史事件(白帝城托孤)、三国政权(蜀汉)", "ts": "2026-05-05T22:17:45Z", "instance": "资治通鉴", "reflect": "蜀汉建页补完三国三方政权词条，背水一战/白帝城托孤等经典事件页填补broken-link。督亢地名corpus命中不足，暂缓。总词条约175页。"}
+{"round": 34, "type": "create-page", "page": "焚书坑儒", "result": "accept", "desc": "修复死链：创建缺失词条 焚书坑儒", "ts": "2026-05-05T22:19:13Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "法正", "result": "accept", "desc": "修复死链：创建缺失词条 法正", "ts": "2026-05-05T22:19:13Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "皇甫嵩", "result": "accept", "desc": "修复死链：创建缺失词条 皇甫嵩", "ts": "2026-05-05T22:19:13Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "何进", "result": "accept", "desc": "修复死链：创建缺失词条 何进", "ts": "2026-05-05T22:19:13Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "匈奴", "result": "accept", "desc": "修复死链：创建缺失词条 匈奴", "ts": "2026-05-05T22:19:13Z", "instance": "资治通鉴"}
+{"round": 34, "type": "create-page", "page": "王安石", "result": "accept", "desc": "修复死链：创建缺失词条 王安石", "ts": "2026-05-05T22:19:13Z", "instance": "资治通鉴"}
+{"round": 33, "type": "discover", "page": "", "result": "accept", "desc": "D1-discover + H10-scan + create×3(燕国/太子建成/褚遂良) + 修复check_citations.py路径，350WU", "ts": "2026-05-05T22:19:45Z", "instance": "资治通鉴", "reflect": "check_citations.py指向红楼梦语料，已修正为资治通鉴。discover发现王安石超出通鉴时间范围(959AD止)。燕国/太子建成/褚遂良填补唐初和战国broken-link。总词条约178页。"}

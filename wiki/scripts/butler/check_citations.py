@@ -21,7 +21,7 @@ from pathlib import Path
 from datetime import datetime
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-CORPUS_FILE = REPO_ROOT / "corpus" / "红楼梦.txt"
+CORPUS_FILE = REPO_ROOT / "corpus" / "raw" / "资治通鉴.txt"
 PAGES_DIR = REPO_ROOT / "wiki" / "public" / "pages"
 ISSUES_LOG = REPO_ROOT / "wiki" / "logs" / "butler" / "citation_issues.jsonl"
 RECORD_REV = REPO_ROOT / "wiki/scripts/record_revision.py"

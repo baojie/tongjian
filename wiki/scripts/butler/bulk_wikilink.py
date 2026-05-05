@@ -22,9 +22,9 @@ Usage:
 import json, re, subprocess, sys, time
 from pathlib import Path
 
-ROOT = Path("/home/baojie/work/knowledge/honglou")
+ROOT = Path("/home/baojie/work/knowledge/tongjian")
 PAGES = ROOT / "wiki/public/pages"
-REG_PATH = ROOT / "docs/wiki/data/pages.json"
+REG_PATH = ROOT / "wiki/public/pages.json"
 RECORD_REVISION = ROOT / "wiki/scripts/record_revision.py"
 BUILD_REGISTRY = ROOT / "wiki/scripts/build_registry.py"
 
