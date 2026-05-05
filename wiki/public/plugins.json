@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    { "id": "pn-citation",   "src": "plugins/pn-citation/index.js" },
+    { "id": "backlinks",     "src": "plugins/backlinks/index.js" },
+    { "id": "sealso",        "src": "plugins/sealso/index.js" }
+  ]
+}
