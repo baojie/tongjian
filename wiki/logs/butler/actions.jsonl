@@ -201,3 +201,11 @@
 {"round": 70, "type": "create-page", "page": "程知节", "result": "accept", "desc": "唐初名将，黑甲骑兵将领，凌烟阁功臣，PN:186-016,187-029,188-112", "ts": "2026-05-05T23:14:32Z"}
 {"round": 70, "type": "create-page", "page": "苏定方", "result": "accept", "desc": "唐代名将，奇袭东突厥，征西突厥高句丽，PN:193-053,200-028", "ts": "2026-05-05T23:14:32Z"}
 {"round": 70, "type": "create-page", "page": "哥舒翰", "result": "accept", "desc": "唐玄宗名将，攻石堡城，安史之乱潼关悲剧，PN:215-106,216-015,216-024", "ts": "2026-05-05T23:14:32Z"}
+{"round": 69, "type": "enrich-page", "page": "汉文帝,刘备,唐太宗", "result": "accept", "desc": "enrich-page×3：汉文帝+240B(修正wikilink)，刘备+560B，唐太宗+531B，270WU", "ts": "2026-05-05T23:16:40Z", "instance": "资治通鉴", "reflect": "本轮修正汉文帝页面中[[隋文帝|文帝]]错误wikilink，并补充新节"}
+{"round": 72, "type": "create-page", "page": "侯君集", "result": "accept", "desc": "唐初名将，玄武门之变，灭高昌", "ts": "2026-05-05T23:21:36Z"}
+{"round": 72, "type": "create-page", "page": "薛举", "result": "accept", "desc": "隋末陇右秦帝", "ts": "2026-05-05T23:21:36Z"}
+{"round": 72, "type": "create-page", "page": "刘武周", "result": "accept", "desc": "隋末定杨天子", "ts": "2026-05-05T23:21:36Z"}
+{"round": 72, "type": "create-page", "page": "薛万彻", "result": "accept", "desc": "唐初名将，归唐建功", "ts": "2026-05-05T23:21:36Z"}
+{"round": 72, "type": "create-page", "page": "李孝恭", "result": "accept", "desc": "宗室将领，与李靖灭萧铣", "ts": "2026-05-05T23:21:36Z"}
+{"round": 72, "type": "create-page", "page": "英布", "result": "accept", "desc": "楚汉枭将黥布", "ts": "2026-05-05T23:21:36Z"}
+{"round": 72, "type": "create-page", "page": "彭越", "result": "accept", "desc": "楚汉游击名将封梁王", "ts": "2026-05-05T23:21:36Z"}
