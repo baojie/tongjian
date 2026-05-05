@@ -256,3 +256,10 @@
 {"round": 86, "type": "create-page", "page": "郑注", "result": "accept", "desc": "以医入幕，与李训合谋甘露之变", "ts": "2026-05-05T23:54:53Z"}
 {"round": 86, "type": "create-page", "page": "高骈", "result": "accept", "desc": "平安南名将，黄巢乱中拥兵自保", "ts": "2026-05-05T23:54:53Z"}
 {"round": 86, "type": "create-page", "page": "田令孜", "result": "accept", "desc": "僖宗朝权宦，被称阿父把持朝政", "ts": "2026-05-05T23:54:53Z"}
+{"round": 88, "type": "enrich-page", "page": "卫青,狄仁杰,苏秦", "result": "accept", "desc": "enrich-page×3页（夜袭右贤王/被构陷入狱/私通燕后），2457WU；H10扫描：6个外观断链实均在alias_index中，无真实断链", "ts": "2026-05-05T23:58:21Z", "instance": "资治通鉴", "reflect": "狄仁杰来俊臣冤案节内容最丰富（+1019B）；苏秦私通燕后和被刺内容补全了人物立体性"}
+{"round": 89, "type": "create-page", "page": "马殷", "result": "accept", "desc": "五代楚国建立者，湖南割据三十年", "ts": "2026-05-05T23:58:55Z"}
+{"round": 89, "type": "create-page", "page": "刘隐", "result": "accept", "desc": "南汉奠基者，以武控岭南", "ts": "2026-05-05T23:58:55Z"}
+{"round": 89, "type": "create-page", "page": "安重荣", "result": "accept", "desc": "后晋节度使，耻臣契丹兵败被杀", "ts": "2026-05-05T23:58:55Z"}
+{"round": 89, "type": "create-page", "page": "高季兴", "result": "accept", "desc": "南平建立者，首鼠两端的小国外交", "ts": "2026-05-05T23:58:55Z"}
+{"round": 89, "type": "create-page", "page": "王彦章", "result": "accept", "desc": "后梁铁枪名将，宁死不降后唐", "ts": "2026-05-05T23:58:55Z"}
+{"round": 89, "type": "create-page", "page": "周德威", "result": "accept", "desc": "后唐骑将，守卫晋阳屡退朱梁", "ts": "2026-05-05T23:58:55Z"}
