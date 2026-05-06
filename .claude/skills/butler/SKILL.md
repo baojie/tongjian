@@ -204,9 +204,4 @@ python3 wiki/scripts/butler/release_round.py $ROUND
 
 ## 详细规范参考
 
-- `/home/baojie/work/knowledge/honglou/skills/SKILL_W0_Butler总则.md`
-- `/home/baojie/work/knowledge/honglou/skills/SKILL_W1_Butler探索与队列.md`
-- `/home/baojie/work/knowledge/honglou/skills/SKILL_W2_Butler原子行动.md`
-- `/home/baojie/work/knowledge/honglou/skills/SKILL_W4_Butler评估与检验.md`
-
-（资治通鉴 butler 遵循相同的 W0-W9 架构，领域配置已在本文件中适配）
+资治通鉴 butler 遵循 W0-W9 架构，全部规则已内嵌于本文件，无需外部参考文档。

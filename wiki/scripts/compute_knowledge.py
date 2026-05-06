@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-计算红楼梦 Wiki 知识量快照，写入：
+计算资治通鉴 Wiki 知识量快照，写入：
   wiki/public/data/knowledge_latest.json    — 最新快照（覆盖写）
   wiki/public/data/knowledge_timeline.jsonl — 历史时间线（追加写，去重）
 

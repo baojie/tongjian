@@ -3,8 +3,10 @@ import os
 import re
 import json
 
-pages_dir = "/home/baojie/work/knowledge/honglou/wiki/public/pages"
-out_dir = "/home/baojie/work/knowledge/honglou/wiki/public/data"
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+_REPO_ROOT = os.path.dirname(os.path.dirname(_SCRIPT_DIR))
+pages_dir = os.path.join(_REPO_ROOT, "wiki", "public", "pages")
+out_dir = os.path.join(_REPO_ROOT, "wiki", "public", "data")
 out_path = os.path.join(out_dir, "fts-index.json")
 
 

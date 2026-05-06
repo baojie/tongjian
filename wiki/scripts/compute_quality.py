@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-计算红楼梦 Wiki 各页面的质量等级，并将 quality 字段写回 frontmatter。
+计算资治通鉴 Wiki 各页面的质量等级，并将 quality 字段写回 frontmatter。
 
 等级定义（从低到高）：
   stub     - 存根：内容 < 100 字，或无 h2 节且 < 200 字

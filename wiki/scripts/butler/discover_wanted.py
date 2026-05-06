@@ -38,8 +38,7 @@ STOPWORDS = {
     '这', '那', '就', '被', '与', '对', '从', '为', '以', '上', '下', '中',
     '大', '小', '来', '去', '说', '道', '看', '见', '听', '知', '如',
     '其', '之', '或', '等', '自', '已', '又', '再', '更', '便', '却', '只',
-    '贾府', '荣国府', '宁国府', '大观园',  # 已有页面的常见词
-    '红楼梦', '石头记',
+    '资治通鉴', '司马光',  # 项目本身不建词条
 }
 
 
@@ -96,7 +95,7 @@ def scan_chapter_entities(pages_root: Path, top: int, min_freq: int = 3) -> list
 
 
 def main():
-    ap = argparse.ArgumentParser(description='发现红楼梦待创建词条')
+    ap = argparse.ArgumentParser(description='发现资治通鉴待创建词条')
     ap.add_argument('--pages', default=str(PAGES_DIR))
     ap.add_argument('--top', type=int, default=30)
     ap.add_argument('--min-freq', type=int, default=3)

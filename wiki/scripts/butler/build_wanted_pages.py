@@ -63,7 +63,7 @@ def build_wanted(links: dict[str, list[str]],
             continue
         if target in alias_index:
             continue
-        # 过滤单字符 wikilink（违反 honglou 单字命名规范，必为误链）
+        # 过滤单字符 wikilink（单字通常为误链）
         if len(target) <= 1:
             continue
         # 过滤包含空格或格式异常的 target（wikilink 解析伪迹）

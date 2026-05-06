@@ -2,14 +2,14 @@
 """
 check_citations.py — Butler W6 离线质检：验证 wiki 页面引文可溯源到原文。
 
-验证目标: corpus/红楼梦.txt（程甲本120回，89万字）
+验证目标: corpus/raw/资治通鉴.txt（294卷，约300万字）
 不用章节页（含 PN 标注，字符串匹配会误判）。
 
 用法:
-  python3 wiki/scripts/butler/check_citations.py wiki/public/pages/贾宝玉.md
+  python3 wiki/scripts/butler/check_citations.py wiki/public/pages/曹操.md
   python3 wiki/scripts/butler/check_citations.py --all
   python3 wiki/scripts/butler/check_citations.py --featured
-  python3 wiki/scripts/butler/check_citations.py --fix-critical wiki/public/pages/贾宝玉.md
+  python3 wiki/scripts/butler/check_citations.py --fix-critical wiki/public/pages/曹操.md
 """
 
 import re
@@ -30,7 +30,7 @@ MIN_FRAGMENT_LEN = 8  # 少于8字的片段不验证（太短易误匹配）
 
 
 def load_corpus() -> str:
-    """加载红楼梦全文作为验证源。"""
+    """加载资治通鉴全文作为验证源。"""
     return CORPUS_FILE.read_text(encoding="utf-8")
 
 
@@ -66,8 +66,8 @@ def extract_quotes(md_text: str) -> list[dict]:
         if not buf:
             return
         merged = " ".join(buf)
-        # 去掉来源注释行（如 — 红楼梦/第X回）
-        merged = re.sub(r"—\s*\[\[.+?\]\].*$", "", merged).strip()
+        # 去掉 PN 引注行（如 （068-007））
+        merged = re.sub(r"（\d{3}-\d{3}）", "", merged).strip()
         quotes.append({"raw": merged, "line_no": start, "quote_type": "blockquote"})
 
     for i, line in enumerate(lines):
@@ -253,7 +253,7 @@ def main():
     parser.add_argument("--quiet", action="store_true", help="不打印每条验证结果")
     args = parser.parse_args()
 
-    print("⏳ 加载红楼梦原文…")
+    print("⏳ 加载资治通鉴原文…")
     corpus = load_corpus()
     print(f"✅ 原文已加载，共 {len(corpus):,} 字符\n")
 

@@ -13,7 +13,7 @@ Input JSON format:
       "slug": "骨牌",
       "type": "game",
       "tags": ["游戏", "文化"],
-      "description": "《红楼梦》中多次出现的骨牌游戏",
+      "description": "《资治通鉴》中记载的重要概念",
       "aliases": ["牙牌"],
       "corpus_terms": ["骨牌"]
     }
@@ -67,7 +67,6 @@ def generate_frontmatter(entity):
     lines.append(f'tags: [{tags_str}]')
     lines.append(f'description: {entity.get("description", entity["slug"])}')
     lines.append('quality: basic')
-    lines.append('books: [红楼梦]')
     lines.append('---')
     return '\n'.join(lines)
 

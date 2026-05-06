@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-check_size_loss.py — 原子操作后的字数损失审查（honglou 版）。
+check_size_loss.py — 原子操作后的字数损失审查（资治通鉴版）。
 
 比较页面最新两个历史版本：
   - 「原文引文」节丢失：无条件 critical，不受任何阈值参数影响
@@ -83,7 +83,7 @@ def check(slug: str, threshold: float, quiet: bool) -> int:
             print(json.dumps({'slug': slug, 'verdict': 'skip', 'reason': 'only_one_revision'}))
         return 0
 
-    # honglou 用 .jsonl 格式，每行一条 revision，最后一行 = 最新
+    # 用 .jsonl 格式，每行一条 revision，最后一行 = 最新
     try:
         old_rev = json.loads(lines[-2])
         new_rev = json.loads(lines[-1])
