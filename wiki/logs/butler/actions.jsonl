@@ -851,3 +851,11 @@
 {"round": 268, "type": "create-page", "page": "公元713年", "result": "accept", "desc": "新建词条：公元713年", "ts": "2026-05-06T10:09:08Z"}
 {"round": 268, "type": "create-page", "page": "公元742年", "result": "accept", "desc": "新建词条：公元742年", "ts": "2026-05-06T10:09:08Z"}
 {"round": 268, "type": "create-page", "page": "公元757年", "result": "accept", "desc": "新建词条：公元757年", "ts": "2026-05-06T10:09:09Z"}
+{"round": 269, "type": "create-page", "page": "前353年/公元452年/公元523年/公元543年/公元583年", "result": "accept", "desc": "create-page×5页，500WU", "ts": "2026-05-06T10:13:03Z", "instance": "刘攽", "reflect": "年代综述页：桂陵之战(前353)、太武帝被弑(452)、六镇之乱(523)、邙山之战(543)、隋迁都大兴(583)"}
+{"round": 271, "type": "create-page", "page": "前269年/前334年/前261年/公元560年/公元572年", "result": "accept", "desc": "create-page×5页，500WU", "ts": "2026-05-06T10:22:28Z", "instance": "刘攽", "reflect": "年代综述：阏与之战(前269)、徐州相王(前334)、上党归赵(前261)、周武帝即位(560)、诛宇文护(572)"}
+{"round": 269, "type": "create-page", "page": "公元223年", "result": "accept", "desc": "新建词条：公元223年", "ts": "2026-05-06T10:26:42Z"}
+{"round": 269, "type": "create-page", "page": "公元226年", "result": "accept", "desc": "新建词条：公元226年", "ts": "2026-05-06T10:26:43Z"}
+{"round": 269, "type": "create-page", "page": "公元386年", "result": "accept", "desc": "新建词条：公元386年", "ts": "2026-05-06T10:26:43Z"}
+{"round": 269, "type": "create-page", "page": "公元787年", "result": "accept", "desc": "新建词条：公元787年", "ts": "2026-05-06T10:26:44Z"}
+{"round": 269, "type": "create-page", "page": "陈子昂", "result": "accept", "desc": "新建词条：陈子昂", "ts": "2026-05-06T10:26:45Z"}
+{"round": 269, "type": "fix-links", "page": "公元386年", "result": "accept", "desc": "去除[[孝文帝]]死链", "ts": "2026-05-06T10:26:46Z"}
