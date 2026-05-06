@@ -585,3 +585,11 @@
 {"round": 198, "type": "create-page", "page": "窦仪", "result": "accept", "desc": "后周翰林学士，以礼制原则三次以直谏著称", "ts": "2026-05-06T04:26:37Z"}
 {"round": 198, "type": "create-page", "page": "郑仁诲", "result": "accept", "desc": "后周枢密使，郭威腹心旧将，临终遗命留用", "ts": "2026-05-06T04:26:38Z"}
 {"round": 198, "type": "create-page", "page": "扈彦珂", "result": "accept", "desc": "后汉节度使，建议集中攻李守贞、守贞亡两镇自破", "ts": "2026-05-06T04:26:39Z"}
+{"round": 197, "type": "enrich-page", "page": "前403年,前221年,公元220年,公元618年,公元907年,前206年,前202年,公元8年,公元25年,公元263年,公元280年", "result": "accept", "desc": "enrich-page×5（添加infobox）+ create-page×4（年份页面），含通鉴卷目引用与干支纪年infobox，550WU", "ts": "2026-05-06T04:31:01Z", "instance": "刘攽", "reflect": "年份页面新格式：卷目引用+infobox（干支/纪年/其他纪年）；5个已有页面补充，4个新建，规范达成"}
+{"round": 199, "type": "create-page", "page": "史彦超", "result": "accept", "desc": "后周将领，高平之战立功，恃勇轻进战死", "ts": "2026-05-06T04:32:37Z"}
+{"round": 199, "type": "create-page", "page": "樊爱能", "result": "accept", "desc": "后周将领，高平之战临阵脱逃，被杀以肃军纪", "ts": "2026-05-06T04:32:38Z"}
+{"round": 199, "type": "create-page", "page": "刘鄩", "result": "accept", "desc": "唐末梁初将领，以计取兗州，让葛从周母登城劝降", "ts": "2026-05-06T04:32:39Z"}
+{"round": 199, "type": "create-page", "page": "高保融", "result": "accept", "desc": "荆南第三代君主，配合后周伐唐，屡劝后蜀称藩", "ts": "2026-05-06T04:32:40Z"}
+{"round": 199, "type": "create-page", "page": "韩令坤", "result": "accept", "desc": "后周将领，奄至扬州城中不之觉，攻南唐闪击战", "ts": "2026-05-06T04:32:41Z"}
+{"round": 199, "type": "create-page", "page": "王审琦", "result": "accept", "desc": "后周将领，轻骑夜袭复取舒州", "ts": "2026-05-06T04:32:42Z"}
+{"round": 199, "type": "create-page", "page": "孙皓", "result": "accept", "desc": "东吴末帝，面缚出降封归命侯，三国时代终结", "ts": "2026-05-06T04:32:43Z"}
