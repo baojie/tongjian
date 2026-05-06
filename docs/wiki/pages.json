@@ -54,7 +54,7 @@
       ],
       "description": "战国时代开端，魏、赵、韩三家瓜分晋国，周威烈王正式承认三家为诸侯。",
       "featured": true,
-      "total_refs": 25,
+      "total_refs": 26,
       "total_chapters": 7
     },
     "上官仪": {
@@ -218,7 +218,7 @@
         "循吏"
       ],
       "description": "西汉廷尉，以审慎断狱著称，\"民自以不冤\"，后官至丞相",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "于琮": {
@@ -372,7 +372,7 @@
         "侯景之乱"
       ],
       "description": "南北朝时期将领，先后事高欢、东魏、西魏、南梁，548年发动\"侯景之乱\"，攻破建康，导致南梁实际覆亡。",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "侯益": {
@@ -487,7 +487,8 @@
       "aliases": [
         "刘秀",
         "汉光武帝",
-        "世祖光武皇帝"
+        "世祖光武皇帝",
+        "光武帝"
       ],
       "tags": [
         "东汉",
@@ -497,7 +498,7 @@
       ],
       "description": "东汉开国皇帝，乱世中以布衣之身再造汉室，善用人才，以柔道治国，是中国历史上著名的\"位面之子\"式传奇君主。",
       "featured": true,
-      "total_refs": 27,
+      "total_refs": 30,
       "total_chapters": 16
     },
     "公元105年": {
@@ -609,6 +610,21 @@
         "夷陵之战"
       ],
       "description": "章武元年，刘备于成都武担山即皇帝位，建国号汉，改元章武，三国鼎立格局正式完成；同年东征孙权，夷陵之战拉开序幕。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "公元229年": {
+      "type": "overview",
+      "label": "公元229年",
+      "aliases": [],
+      "tags": [
+        "三国",
+        "孙权",
+        "吴国",
+        "黄龙",
+        "魏纪三"
+      ],
+      "description": "黄龙元年，孙权在武昌即皇帝位，改元黄龙，大赦天下；吴蜀重修同盟，三国鼎立格局至此最终确立。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -783,6 +799,39 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "公元354年": {
+      "type": "overview",
+      "label": "公元354年",
+      "aliases": [],
+      "tags": [
+        "东晋",
+        "桓温",
+        "北伐",
+        "前秦",
+        "永和",
+        "王猛",
+        "晋纪二十一"
+      ],
+      "description": "永和十年，桓温率步骑四万北伐前秦，大败秦军于蓝田，进至灞上；隐士王猛扪虱而谈，桓温叹\"江东无卿比\"；因粮尽班师，北伐功亏一篑。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "公元36年": {
+      "type": "overview",
+      "label": "公元36年",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "光武帝",
+        "公孙述",
+        "建武",
+        "吴汉",
+        "汉纪三十五"
+      ],
+      "description": "建武十二年，吴汉攻破成都，公孙述被刺身亡；延岑以城降，光武帝统一天下，东汉一统局面正式形成。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "公元383年": {
       "type": "overview",
       "label": "公元383年",
@@ -828,6 +877,22 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "公元43年": {
+      "type": "overview",
+      "label": "公元43年",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "光武帝",
+        "马援",
+        "交趾",
+        "建武",
+        "汉纪三十五"
+      ],
+      "description": "建武十九年，马援斩二征（征侧、征贰），峤南悉平；马援还朝后说\"男儿要当死于边野，以马革裹尸还葬\"，\"马革裹尸\"由此成为千古名言。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "公元494年": {
       "type": "overview",
       "label": "公元494年",
@@ -858,6 +923,39 @@
         "梁纪十二"
       ],
       "description": "永熙三年，魏出帝西奔长安投宇文泰，高欢在邺城立清河王世子善见为孝静帝，改元天平；北魏由此分裂为东魏（高欢控制）和西魏（宇文泰控制），历史进入东西魏并立时代。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "公元548年": {
+      "type": "overview",
+      "label": "公元548年",
+      "aliases": [],
+      "tags": [
+        "南朝",
+        "梁",
+        "侯景",
+        "梁武帝",
+        "太清",
+        "梁纪十七"
+      ],
+      "description": "太清二年，侯景诈称游猎出寿阳，举兵反梁，渡采石，围台城；朝廷君臣昏庸，羊侃\"今兹败矣\"的预言应验，\"侯景之乱\"正式爆发。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "公元577年": {
+      "type": "overview",
+      "label": "公元577年",
+      "aliases": [],
+      "tags": [
+        "南北朝",
+        "北周",
+        "北齐",
+        "宇文邕",
+        "高纬",
+        "太建九年",
+        "陈纪七"
+      ],
+      "description": "太建九年（北周建德六年），宇文邕率军攻克邺城，北齐末主高纬被俘，北齐灭亡；北周统一北方，南北朝北方分裂局面终结。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -953,6 +1051,22 @@
         "唐纪九"
       ],
       "description": "贞观四年，李靖率军大破东突厥颉利可汗于阴山，俘颉利；四夷君长尊唐太宗为\"天可汗\"，唐朝北疆威震四方。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "公元645年": {
+      "type": "overview",
+      "label": "公元645年",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "太宗",
+        "高句丽",
+        "贞观",
+        "安市城",
+        "唐纪十三"
+      ],
+      "description": "贞观十九年，唐太宗亲率大军征高句丽，攻克辽东、白岩等十城，但久攻安市城不下，秋后粮尽，被迫班师，留下\"魏征若在，不使我有是行\"的深切悔恨。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -2131,6 +2245,22 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "前196年": {
+      "type": "overview",
+      "label": "前196年",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "汉高祖",
+        "韩信",
+        "吕后",
+        "高祖十一年",
+        "汉纪四"
+      ],
+      "description": "高祖十一年，淮阴侯韩信被吕后与萧何设计诛杀于长乐钟室，夷三族；\"狡兔死，走狗烹\"成千古名言，司马光亦有长篇深思。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "前202年": {
       "type": "overview",
       "label": "前202年",
@@ -2895,6 +3025,22 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "前49年": {
+      "type": "overview",
+      "label": "前49年",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "宣帝",
+        "元帝",
+        "萧望之",
+        "黄龙",
+        "汉纪二十一"
+      ],
+      "description": "黄龙元年，汉宣帝崩于未央宫，元帝即位；宣帝遗命史高、萧望之、周堪辅政，但实际上\"孝宣中兴\"就此终结，西汉由盛转衰序幕开启。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "前52年": {
       "type": "overview",
       "label": "前52年",
@@ -2925,6 +3071,23 @@
         "汉纪十八"
       ],
       "description": "神爵二年，匈奴日逐王降汉，骑都尉郑吉率诸国兵迎之；西域都护府由此建立，\"都护之置，自吉始焉\"，汉朝对西域的直接管辖正式确立。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "前74年": {
+      "type": "overview",
+      "label": "前74年",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "昭帝",
+        "霍光",
+        "昌邑王",
+        "宣帝",
+        "元平",
+        "汉纪十六"
+      ],
+      "description": "元平元年，汉昭帝崩无嗣，霍光迎昌邑王刘贺入继，刘贺荒淫二十七日即遭废黜；霍光另立武帝曾孙刘病已为帝，是为汉宣帝。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -3379,7 +3542,7 @@
         "实际掌权者"
       ],
       "description": "汉高祖刘邦之妻，中国历史上第一位执掌朝政的皇后，惠帝死后以皇太后身份临朝称制，是西汉早期政治的实际主导者。",
-      "total_refs": 35,
+      "total_refs": 36,
       "total_chapters": 23
     },
     "吕布": {
@@ -3444,6 +3607,22 @@
       ],
       "description": "西汉景帝三年（前154年），吴王刘濞联合楚、赵、胶东、胶西、淄川、济南六国发动叛乱，以\"诛晁错、清君侧\"为名，历时三月被周亚夫平定，是西汉削藩政策的重大危机与转折点。",
       "total_refs": 5,
+      "total_chapters": 0
+    },
+    "吴汉": {
+      "type": "person",
+      "label": "吴汉",
+      "aliases": [
+        "吴子颜"
+      ],
+      "tags": [
+        "东汉",
+        "将领",
+        "云台二十八将",
+        "刘秀"
+      ],
+      "description": "东汉开国名将，云台二十八将之首，随光武帝刘秀平定天下，以骁勇果断著称",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "吴起": {
@@ -3537,7 +3716,23 @@
         "天子"
       ],
       "description": "周朝第32位天子，在位期间正式承认三家分晋，开启战国时代。",
-      "total_refs": 8,
+      "total_refs": 10,
+      "total_chapters": 1
+    },
+    "周安王": {
+      "type": "person",
+      "label": "周安王",
+      "aliases": [
+        "安王",
+        "姬骄"
+      ],
+      "tags": [
+        "东周",
+        "周天子",
+        "战国"
+      ],
+      "description": "东周天子，在位26年，其时三家分晋已成定局，诸侯争霸日烈",
+      "total_refs": 2,
       "total_chapters": 1
     },
     "周德威": {
@@ -3554,6 +3749,22 @@
       "description": "后唐（晋）名将，李克用麾下最重要的骑将之一，长期与朱温争战，在柏乡之战中立下大功，后战死于胡柳陂之战。",
       "total_refs": 3,
       "total_chapters": 0
+    },
+    "周烈王": {
+      "type": "person",
+      "label": "周烈王",
+      "aliases": [
+        "烈王",
+        "姬喜"
+      ],
+      "tags": [
+        "东周",
+        "周天子",
+        "战国"
+      ],
+      "description": "东周天子，在位7年，其时商鞅变法兴起，周室权威愈微",
+      "total_refs": 2,
+      "total_chapters": 1
     },
     "周瑜": {
       "type": "person",
@@ -3636,7 +3847,7 @@
       ],
       "description": "唐朝第二位皇帝，发动玄武门之变夺位，开创贞观之治，被誉为古代帝王楷模。",
       "featured": true,
-      "total_refs": 65,
+      "total_refs": 66,
       "total_chapters": 14
     },
     "唐庄宗": {
@@ -4035,7 +4246,7 @@
         "皇帝"
       ],
       "description": "三国东吴开国皇帝，继承父兄基业，联刘抗曹，在赤壁之战中奠定三国鼎立格局，治吴四十余年，是三国时期最长寿的君主。",
-      "total_refs": 43,
+      "total_refs": 44,
       "total_chapters": 16
     },
     "孙皓": {
@@ -6126,7 +6337,7 @@
         "隋末"
       ],
       "description": "唐代开国名将，原为瓦岗军将领，后归唐，参与征伐高句丽、突厥等战役，是唐朝最重要的军事将领之一。",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "李义府": {
@@ -7305,6 +7516,22 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "杨震": {
+      "type": "person",
+      "label": "杨震",
+      "aliases": [
+        "杨伯起"
+      ],
+      "tags": [
+        "东汉",
+        "三公",
+        "关西孔子",
+        "廉洁"
+      ],
+      "description": "东汉名臣，\"关西孔子\"，任太尉时屡次上疏弹劾权贵，以廉洁著称，\"四知\"故事传世",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "柳世隆": {
       "type": "person",
       "label": "柳世隆",
@@ -7423,7 +7650,7 @@
         "北伐"
       ],
       "description": "东晋权臣，多次北伐，主导朝政，曾言\"不能流芳百世，亦当遗臭万年\"，是东晋最重要的政治军事人物之一。",
-      "total_refs": 24,
+      "total_refs": 25,
       "total_chapters": 14
     },
     "桓玄": {
@@ -7458,6 +7685,23 @@
       "description": "秦国将领，与王翦协同伐赵，攻取多城，后在宜安之战中被李牧击败，疑为后来投奔燕国的樊於期同一人。",
       "total_refs": 5,
       "total_chapters": 2
+    },
+    "梁冀": {
+      "type": "person",
+      "label": "梁冀",
+      "aliases": [
+        "梁伯卓"
+      ],
+      "tags": [
+        "东汉",
+        "外戚",
+        "权臣",
+        "顺帝",
+        "桓帝"
+      ],
+      "description": "东汉最大外戚权臣，专权近二十年，甚至毒杀质帝，后被汉桓帝联合宦官一举铲除",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "梁太祖": {
       "type": "person",
@@ -7842,7 +8086,7 @@
         "宦官"
       ],
       "description": "东汉第四位皇帝，十岁即位，后联合宦官诛灭外戚窦宪，亲政后勤政爱民",
-      "total_refs": 4,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "汉文帝": {
@@ -7931,7 +8175,7 @@
         "外戚"
       ],
       "description": "东汉第三位皇帝，以宽仁著称，与父明帝共创\"明章之治\"，然外戚窦氏势力于此时兴起",
-      "total_refs": 4,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "汉高祖刘邦": {
@@ -7952,7 +8196,7 @@
       ],
       "description": "西汉开国皇帝，以布衣起兵灭秦，楚汉争霸中击败项羽，建立汉朝。",
       "featured": true,
-      "total_refs": 242,
+      "total_refs": 243,
       "total_chapters": 190
     },
     "江充": {
@@ -8903,7 +9147,7 @@
         "北方统一"
       ],
       "description": "前秦苻坚的首席谋臣，被苻坚比为管仲、诸葛亮，辅助前秦统一北方，临终劝戒苻坚勿攻东晋。",
-      "total_refs": 21,
+      "total_refs": 22,
       "total_chapters": 13
     },
     "王玄谟": {
@@ -9723,7 +9967,7 @@
         "窦宪"
       ],
       "description": "东汉汉章帝皇后，章帝崩后临朝称制，兄窦宪专权，后被汉和帝联合宦官翦除",
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "窦婴": {
@@ -9740,6 +9984,22 @@
       "description": "西汉景帝时期重臣，窦太后之侄，以刚直著称，反对晁错削藩，七国之乱时领兵有功，后因宫廷政治斗争而获罪被诛。",
       "total_refs": 7,
       "total_chapters": 4
+    },
+    "窦宪": {
+      "type": "person",
+      "label": "窦宪",
+      "aliases": [
+        "窦伯度"
+      ],
+      "tags": [
+        "东汉",
+        "外戚",
+        "窦太后",
+        "匈奴"
+      ],
+      "description": "东汉外戚，章帝皇后之兄，勒石燕然破北匈奴，权倾朝野，后被汉和帝诛杀",
+      "total_refs": 1,
+      "total_chapters": 0
     },
     "窦建德": {
       "type": "person",
@@ -9800,7 +10060,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一，周纪一",
       "pn_prefix": "001",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第002卷": {
@@ -9813,7 +10073,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二，周纪二",
       "pn_prefix": "002",
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "第003卷": {
@@ -9826,7 +10086,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三，周纪三",
       "pn_prefix": "003",
-      "total_refs": 10,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "第004卷": {
@@ -9839,7 +10099,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四，周纪四",
       "pn_prefix": "004",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "第005卷": {
@@ -9852,7 +10112,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五，周纪五",
       "pn_prefix": "005",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "第006卷": {
@@ -9865,7 +10125,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六，秦纪一",
       "pn_prefix": "006",
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "第007卷": {
@@ -9878,7 +10138,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七，秦纪二",
       "pn_prefix": "007",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "第008卷": {
@@ -9891,7 +10151,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八，秦纪三",
       "pn_prefix": "008",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第009卷": {
@@ -9904,7 +10164,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九，汉纪一",
       "pn_prefix": "009",
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "第010卷": {
@@ -9917,7 +10177,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一十，汉纪二",
       "pn_prefix": "010",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第011卷": {
@@ -9930,7 +10190,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第十一，汉纪三",
       "pn_prefix": "011",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第012卷": {
@@ -9943,7 +10203,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第十二，汉纪四",
       "pn_prefix": "012",
-      "total_refs": 1,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "第013卷": {
@@ -9956,7 +10216,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第十三，汉纪五",
       "pn_prefix": "013",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第014卷": {
@@ -9969,7 +10229,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第十四，汉纪六",
       "pn_prefix": "014",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第015卷": {
@@ -9982,7 +10242,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第十五，汉纪七",
       "pn_prefix": "015",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第016卷": {
@@ -9995,7 +10255,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第十六，汉纪八",
       "pn_prefix": "016",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "第017卷": {
@@ -10008,7 +10268,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第十七，汉纪九",
       "pn_prefix": "017",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第018卷": {
@@ -10021,7 +10281,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第十八，汉纪十",
       "pn_prefix": "018",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第019卷": {
@@ -10034,7 +10294,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第十九，汉纪十一",
       "pn_prefix": "019",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第020卷": {
@@ -10047,7 +10307,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十，汉纪十二",
       "pn_prefix": "020",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第021卷": {
@@ -10060,7 +10320,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十一，汉纪十三",
       "pn_prefix": "021",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第022卷": {
@@ -10073,7 +10333,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十二，汉纪十四",
       "pn_prefix": "022",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "第023卷": {
@@ -10086,7 +10346,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十三，汉纪十五",
       "pn_prefix": "023",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第024卷": {
@@ -10099,7 +10359,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十四，汉纪十六",
       "pn_prefix": "024",
-      "total_refs": 0,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第025卷": {
@@ -10112,7 +10372,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十五，汉纪十七",
       "pn_prefix": "025",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第026卷": {
@@ -10125,7 +10385,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十六，汉纪十八",
       "pn_prefix": "026",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第027卷": {
@@ -10138,7 +10398,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十七，汉纪十九",
       "pn_prefix": "027",
-      "total_refs": 1,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "第028卷": {
@@ -10151,7 +10411,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十八，汉纪二十",
       "pn_prefix": "028",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第029卷": {
@@ -10164,7 +10424,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二十九，汉纪二十一",
       "pn_prefix": "029",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第030卷": {
@@ -10177,7 +10437,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十，汉纪二十二",
       "pn_prefix": "030",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第031卷": {
@@ -10190,7 +10450,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十一，汉纪二十三",
       "pn_prefix": "031",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第032卷": {
@@ -10203,7 +10463,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十二，汉纪二十四",
       "pn_prefix": "032",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第033卷": {
@@ -10216,7 +10476,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十三，汉纪二十五",
       "pn_prefix": "033",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第034卷": {
@@ -10229,7 +10489,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十四，汉纪二十六",
       "pn_prefix": "034",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第035卷": {
@@ -10242,7 +10502,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十五，汉纪二十七",
       "pn_prefix": "035",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第036卷": {
@@ -10255,7 +10515,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十六，汉纪二十八",
       "pn_prefix": "036",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "第037卷": {
@@ -10268,7 +10528,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十七，汉纪二十九",
       "pn_prefix": "037",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第038卷": {
@@ -10281,7 +10541,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十八，汉纪三十",
       "pn_prefix": "038",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第039卷": {
@@ -10294,7 +10554,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第三十九，汉纪三十一",
       "pn_prefix": "039",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第040卷": {
@@ -10307,7 +10567,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十，汉纪三十二",
       "pn_prefix": "040",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第041卷": {
@@ -10320,7 +10580,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十一，汉纪三十三",
       "pn_prefix": "041",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第042卷": {
@@ -10333,7 +10593,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十二，汉纪三十四",
       "pn_prefix": "042",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第043卷": {
@@ -10346,7 +10606,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十三，汉纪三十五",
       "pn_prefix": "043",
-      "total_refs": 0,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "第044卷": {
@@ -10359,7 +10619,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十四，汉纪三十六",
       "pn_prefix": "044",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第045卷": {
@@ -10372,7 +10632,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十五，汉纪三十七",
       "pn_prefix": "045",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第046卷": {
@@ -10385,7 +10645,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十六，汉纪三十八",
       "pn_prefix": "046",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第047卷": {
@@ -10398,7 +10658,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十七，汉纪三十九",
       "pn_prefix": "047",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第048卷": {
@@ -10411,7 +10671,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十八，汉纪四十",
       "pn_prefix": "048",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第049卷": {
@@ -10424,7 +10684,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第四十九，汉纪四十一",
       "pn_prefix": "049",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第050卷": {
@@ -10437,7 +10697,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十，汉纪四十二",
       "pn_prefix": "050",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第051卷": {
@@ -10450,7 +10710,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十一，汉纪四十三",
       "pn_prefix": "051",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第052卷": {
@@ -10463,7 +10723,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十二，汉纪四十四",
       "pn_prefix": "052",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第053卷": {
@@ -10476,7 +10736,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十三，汉纪四十五",
       "pn_prefix": "053",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第054卷": {
@@ -10489,7 +10749,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十四，汉纪四十六",
       "pn_prefix": "054",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第055卷": {
@@ -10502,7 +10762,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十五，汉纪四十七",
       "pn_prefix": "055",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第056卷": {
@@ -10515,7 +10775,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十六，汉纪四十八",
       "pn_prefix": "056",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第057卷": {
@@ -10528,7 +10788,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十七，汉纪四十九",
       "pn_prefix": "057",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第058卷": {
@@ -10541,7 +10801,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十八，汉纪五十",
       "pn_prefix": "058",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第059卷": {
@@ -10554,7 +10814,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第五十九，汉纪五十一",
       "pn_prefix": "059",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第060卷": {
@@ -10567,7 +10827,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十，汉纪五十二",
       "pn_prefix": "060",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第061卷": {
@@ -10580,7 +10840,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十一，汉纪五十三",
       "pn_prefix": "061",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第062卷": {
@@ -10593,7 +10853,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十二，汉纪五十四",
       "pn_prefix": "062",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第063卷": {
@@ -10606,7 +10866,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十三，汉纪五十五",
       "pn_prefix": "063",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第064卷": {
@@ -10619,7 +10879,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十四，汉纪五十六",
       "pn_prefix": "064",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第065卷": {
@@ -10632,7 +10892,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十五，汉纪五十七",
       "pn_prefix": "065",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第066卷": {
@@ -10645,7 +10905,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十六，汉纪五十八",
       "pn_prefix": "066",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第067卷": {
@@ -10658,7 +10918,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十七，汉纪五十九",
       "pn_prefix": "067",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第068卷": {
@@ -10671,7 +10931,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十八，汉纪六十",
       "pn_prefix": "068",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第069卷": {
@@ -10684,7 +10944,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第六十九，魏纪一",
       "pn_prefix": "069",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "第070卷": {
@@ -10697,7 +10957,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十，魏纪二",
       "pn_prefix": "070",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第071卷": {
@@ -10710,7 +10970,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十一，魏纪三",
       "pn_prefix": "071",
-      "total_refs": 0,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第072卷": {
@@ -10723,7 +10983,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十二，魏纪四",
       "pn_prefix": "072",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第073卷": {
@@ -10736,7 +10996,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十三，魏纪五",
       "pn_prefix": "073",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第074卷": {
@@ -10749,7 +11009,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十四，魏纪六",
       "pn_prefix": "074",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第075卷": {
@@ -10762,7 +11022,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十五，魏纪七",
       "pn_prefix": "075",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第076卷": {
@@ -10775,7 +11035,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十六，魏纪八",
       "pn_prefix": "076",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第077卷": {
@@ -10788,7 +11048,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十七，魏纪九",
       "pn_prefix": "077",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第078卷": {
@@ -10801,7 +11061,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十八，魏纪十",
       "pn_prefix": "078",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第079卷": {
@@ -10814,7 +11074,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第七十九，晋纪一",
       "pn_prefix": "079",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第080卷": {
@@ -10827,7 +11087,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十，晋纪二",
       "pn_prefix": "080",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第081卷": {
@@ -10840,7 +11100,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十一，晋纪三",
       "pn_prefix": "081",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第082卷": {
@@ -10853,7 +11113,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十二，晋纪四",
       "pn_prefix": "082",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第083卷": {
@@ -10866,7 +11126,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十三，晋纪五",
       "pn_prefix": "083",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第084卷": {
@@ -10879,7 +11139,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十四，晋纪六",
       "pn_prefix": "084",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第085卷": {
@@ -10892,7 +11152,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十五，晋纪七",
       "pn_prefix": "085",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第086卷": {
@@ -10905,7 +11165,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十六，晋纪八",
       "pn_prefix": "086",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第087卷": {
@@ -10918,7 +11178,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十七，晋纪九",
       "pn_prefix": "087",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第088卷": {
@@ -10931,7 +11191,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十八，晋纪十",
       "pn_prefix": "088",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第089卷": {
@@ -10944,7 +11204,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第八十九，晋纪十一",
       "pn_prefix": "089",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第090卷": {
@@ -10957,7 +11217,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十，晋纪十二",
       "pn_prefix": "090",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第091卷": {
@@ -10970,7 +11230,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十一，晋纪十三",
       "pn_prefix": "091",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第092卷": {
@@ -10983,7 +11243,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十二，晋纪十四",
       "pn_prefix": "092",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第093卷": {
@@ -10996,7 +11256,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十三，晋纪十五",
       "pn_prefix": "093",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第094卷": {
@@ -11009,7 +11269,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十四，晋纪十六",
       "pn_prefix": "094",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第095卷": {
@@ -11022,7 +11282,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十五，晋纪十七",
       "pn_prefix": "095",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第096卷": {
@@ -11035,7 +11295,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十六，晋纪十八",
       "pn_prefix": "096",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第097卷": {
@@ -11048,7 +11308,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十七，晋纪十九",
       "pn_prefix": "097",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第098卷": {
@@ -11061,7 +11321,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十八，晋纪二十",
       "pn_prefix": "098",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第099卷": {
@@ -11074,7 +11334,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第九十九，晋纪二十一",
       "pn_prefix": "099",
-      "total_refs": 0,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第100卷": {
@@ -11087,7 +11347,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百，晋纪二十二",
       "pn_prefix": "100",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第101卷": {
@@ -11100,7 +11360,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一，晋纪二十三",
       "pn_prefix": "101",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第102卷": {
@@ -11113,7 +11373,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二，晋纪二十四",
       "pn_prefix": "102",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第103卷": {
@@ -11126,7 +11386,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三，晋纪二十五",
       "pn_prefix": "103",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第104卷": {
@@ -11139,7 +11399,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四，晋纪二十六",
       "pn_prefix": "104",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第105卷": {
@@ -11152,7 +11412,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五，晋纪二十七",
       "pn_prefix": "105",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第106卷": {
@@ -11165,7 +11425,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六，晋纪二十八",
       "pn_prefix": "106",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第107卷": {
@@ -11178,7 +11438,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七，晋纪二十九",
       "pn_prefix": "107",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第108卷": {
@@ -11191,7 +11451,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八，晋纪三十",
       "pn_prefix": "108",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第109卷": {
@@ -11204,7 +11464,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九，晋纪三十一",
       "pn_prefix": "109",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第110卷": {
@@ -11217,7 +11477,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十，晋纪三十二",
       "pn_prefix": "110",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第111卷": {
@@ -11230,7 +11490,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十一",
       "pn_prefix": "111",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第112卷": {
@@ -11243,7 +11503,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十二，晋纪三十四",
       "pn_prefix": "112",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第113卷": {
@@ -11256,7 +11516,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十三，晋纪三十五",
       "pn_prefix": "113",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第114卷": {
@@ -11269,7 +11529,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十四，晋纪三十六",
       "pn_prefix": "114",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第115卷": {
@@ -11282,7 +11542,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十五，晋纪三十七",
       "pn_prefix": "115",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第116卷": {
@@ -11295,7 +11555,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十六，晋纪三十八",
       "pn_prefix": "116",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第117卷": {
@@ -11308,7 +11568,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十七，晋纪三十九",
       "pn_prefix": "117",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第118卷": {
@@ -11321,7 +11581,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十八，晋纪四十",
       "pn_prefix": "118",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第119卷": {
@@ -11334,7 +11594,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百一十九，宋纪一",
       "pn_prefix": "119",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第120卷": {
@@ -11347,7 +11607,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十，宋纪二",
       "pn_prefix": "120",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第121卷": {
@@ -11360,7 +11620,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十一，宋纪三",
       "pn_prefix": "121",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第122卷": {
@@ -11373,7 +11633,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十二，宋纪四",
       "pn_prefix": "122",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第123卷": {
@@ -11386,7 +11646,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十三，宋纪五",
       "pn_prefix": "123",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第124卷": {
@@ -11399,7 +11659,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十四，宋纪六",
       "pn_prefix": "124",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第125卷": {
@@ -11412,7 +11672,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十五，宋纪七",
       "pn_prefix": "125",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第126卷": {
@@ -11425,7 +11685,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十六，宋纪八",
       "pn_prefix": "126",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第127卷": {
@@ -11438,7 +11698,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十七，宋纪九",
       "pn_prefix": "127",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第128卷": {
@@ -11451,7 +11711,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十八，宋纪十",
       "pn_prefix": "128",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第129卷": {
@@ -11464,7 +11724,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百二十九，宋纪十一",
       "pn_prefix": "129",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第130卷": {
@@ -11477,7 +11737,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十，宋纪十二",
       "pn_prefix": "130",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第131卷": {
@@ -11490,7 +11750,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十一，宋纪十三",
       "pn_prefix": "131",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第132卷": {
@@ -11503,7 +11763,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十二，宋纪十四",
       "pn_prefix": "132",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第133卷": {
@@ -11516,7 +11776,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十三，宋纪十五",
       "pn_prefix": "133",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第134卷": {
@@ -11529,7 +11789,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十四，宋纪十六",
       "pn_prefix": "134",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第135卷": {
@@ -11542,7 +11802,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十五，齐纪一",
       "pn_prefix": "135",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第136卷": {
@@ -11555,7 +11815,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十六，齐纪二",
       "pn_prefix": "136",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第137卷": {
@@ -11568,7 +11828,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十七，齐纪三",
       "pn_prefix": "137",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第138卷": {
@@ -11581,7 +11841,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十八，齐纪四",
       "pn_prefix": "138",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第139卷": {
@@ -11594,7 +11854,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百三十九，齐纪五",
       "pn_prefix": "139",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第140卷": {
@@ -11607,7 +11867,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十",
       "pn_prefix": "140",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第141卷": {
@@ -11620,7 +11880,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十一，齐纪七",
       "pn_prefix": "141",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第142卷": {
@@ -11633,7 +11893,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十二，齐纪八",
       "pn_prefix": "142",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第143卷": {
@@ -11646,7 +11906,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十三，齐纪九",
       "pn_prefix": "143",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第144卷": {
@@ -11659,7 +11919,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十四，齐纪十",
       "pn_prefix": "144",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第145卷": {
@@ -11672,7 +11932,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十五，梁纪一",
       "pn_prefix": "145",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第146卷": {
@@ -11685,7 +11945,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十六，梁纪二",
       "pn_prefix": "146",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第147卷": {
@@ -11698,7 +11958,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十七，梁纪三",
       "pn_prefix": "147",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第148卷": {
@@ -11711,7 +11971,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十八，梁纪四",
       "pn_prefix": "148",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第149卷": {
@@ -11724,7 +11984,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百四十九，梁纪五",
       "pn_prefix": "149",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第150卷": {
@@ -11737,7 +11997,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十，梁纪六",
       "pn_prefix": "150",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第151卷": {
@@ -11750,7 +12010,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十一，梁纪七",
       "pn_prefix": "151",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第152卷": {
@@ -11763,7 +12023,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十二，梁纪八",
       "pn_prefix": "152",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第153卷": {
@@ -11776,7 +12036,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十三，梁纪九",
       "pn_prefix": "153",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第154卷": {
@@ -11789,7 +12049,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十四，梁纪十",
       "pn_prefix": "154",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第155卷": {
@@ -11802,7 +12062,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十五，梁纪十一",
       "pn_prefix": "155",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第156卷": {
@@ -11815,7 +12075,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十六，梁纪十二",
       "pn_prefix": "156",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第157卷": {
@@ -11828,7 +12088,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十七，梁纪十三",
       "pn_prefix": "157",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第158卷": {
@@ -11841,7 +12101,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十八，梁纪十四",
       "pn_prefix": "158",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第159卷": {
@@ -11854,7 +12114,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百五十九，梁纪十五",
       "pn_prefix": "159",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第160卷": {
@@ -11867,7 +12127,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十，梁纪十六",
       "pn_prefix": "160",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第161卷": {
@@ -11880,7 +12140,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十一，梁纪十七",
       "pn_prefix": "161",
-      "total_refs": 0,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第162卷": {
@@ -11893,7 +12153,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十二，梁纪十八",
       "pn_prefix": "162",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第163卷": {
@@ -11906,7 +12166,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十三，梁纪十九",
       "pn_prefix": "163",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第164卷": {
@@ -11919,7 +12179,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十四，梁纪二十",
       "pn_prefix": "164",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第165卷": {
@@ -11932,7 +12192,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十五，梁纪二十一",
       "pn_prefix": "165",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第166卷": {
@@ -11945,7 +12205,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十六，梁纪二十二",
       "pn_prefix": "166",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第167卷": {
@@ -11958,7 +12218,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十七，陈纪一",
       "pn_prefix": "167",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第168卷": {
@@ -11971,7 +12231,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十八，陈纪二",
       "pn_prefix": "168",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第169卷": {
@@ -11984,7 +12244,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百六十九，陈纪三",
       "pn_prefix": "169",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第170卷": {
@@ -11997,7 +12257,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十，陈纪四",
       "pn_prefix": "170",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第171卷": {
@@ -12010,7 +12270,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十一，陈纪五",
       "pn_prefix": "171",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第172卷": {
@@ -12023,7 +12283,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十二，陈纪六",
       "pn_prefix": "172",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第173卷": {
@@ -12036,7 +12296,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十三，陈纪七",
       "pn_prefix": "173",
-      "total_refs": 0,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第174卷": {
@@ -12049,7 +12309,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十四，陈纪八",
       "pn_prefix": "174",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第175卷": {
@@ -12062,7 +12322,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十五，陈纪九",
       "pn_prefix": "175",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第176卷": {
@@ -12075,7 +12335,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十六，陈纪十",
       "pn_prefix": "176",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第177卷": {
@@ -12088,7 +12348,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十七，隋纪一",
       "pn_prefix": "177",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第178卷": {
@@ -12101,7 +12361,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十八，隋纪二",
       "pn_prefix": "178",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第179卷": {
@@ -12114,7 +12374,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百七十九，隋纪三",
       "pn_prefix": "179",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第180卷": {
@@ -12127,7 +12387,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十，隋纪四",
       "pn_prefix": "180",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第181卷": {
@@ -12140,7 +12400,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十一，隋纪五",
       "pn_prefix": "181",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第182卷": {
@@ -12153,7 +12413,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十二，隋纪六",
       "pn_prefix": "182",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第183卷": {
@@ -12166,7 +12426,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十三，隋纪七",
       "pn_prefix": "183",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第184卷": {
@@ -12179,7 +12439,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十四，隋纪八",
       "pn_prefix": "184",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第185卷": {
@@ -12192,7 +12452,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十五，唐纪一",
       "pn_prefix": "185",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第186卷": {
@@ -12205,7 +12465,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十六，唐纪二",
       "pn_prefix": "186",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第187卷": {
@@ -12218,7 +12478,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十七，唐纪三",
       "pn_prefix": "187",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第188卷": {
@@ -12231,7 +12491,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十八，唐纪四",
       "pn_prefix": "188",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第189卷": {
@@ -12244,7 +12504,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百八十九，唐纪五",
       "pn_prefix": "189",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第190卷": {
@@ -12257,7 +12517,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十，唐纪六",
       "pn_prefix": "190",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第191卷": {
@@ -12270,7 +12530,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十一，唐纪七",
       "pn_prefix": "191",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第192卷": {
@@ -12283,7 +12543,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十二，唐纪八",
       "pn_prefix": "192",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第193卷": {
@@ -12296,7 +12556,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十三，唐纪九",
       "pn_prefix": "193",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第194卷": {
@@ -12309,7 +12569,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十四，唐纪十",
       "pn_prefix": "194",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第195卷": {
@@ -12322,7 +12582,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十五，唐纪十一",
       "pn_prefix": "195",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第196卷": {
@@ -12335,7 +12595,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十六，唐纪十二",
       "pn_prefix": "196",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第197卷": {
@@ -12348,7 +12608,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十七，唐纪十三",
       "pn_prefix": "197",
-      "total_refs": 0,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第198卷": {
@@ -12361,7 +12621,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十八，唐纪十四",
       "pn_prefix": "198",
-      "total_refs": 0,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第199卷": {
@@ -12374,7 +12634,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第一百九十九，唐纪十五",
       "pn_prefix": "199",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第200卷": {
@@ -12387,7 +12647,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百，唐纪十六",
       "pn_prefix": "200",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第201卷": {
@@ -12400,7 +12660,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一，唐纪十七",
       "pn_prefix": "201",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第202卷": {
@@ -12413,7 +12673,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二，唐纪十八",
       "pn_prefix": "202",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第203卷": {
@@ -12426,7 +12686,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三，唐纪十九",
       "pn_prefix": "203",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第204卷": {
@@ -12439,7 +12699,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四，唐纪二十",
       "pn_prefix": "204",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第205卷": {
@@ -12452,7 +12712,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五，唐纪二十一",
       "pn_prefix": "205",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第206卷": {
@@ -12465,7 +12725,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六，唐纪二十二",
       "pn_prefix": "206",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第207卷": {
@@ -12478,7 +12738,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七，唐纪二十三",
       "pn_prefix": "207",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第208卷": {
@@ -12491,7 +12751,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八，唐纪二十四",
       "pn_prefix": "208",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第209卷": {
@@ -12504,7 +12764,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百九，唐纪二十五",
       "pn_prefix": "209",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第210卷": {
@@ -12517,7 +12777,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十，唐纪二十六",
       "pn_prefix": "210",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第211卷": {
@@ -12530,7 +12790,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十一，唐纪二十七",
       "pn_prefix": "211",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第212卷": {
@@ -12543,7 +12803,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十二，唐纪二十八",
       "pn_prefix": "212",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第213卷": {
@@ -12556,7 +12816,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十三，唐纪二十九",
       "pn_prefix": "213",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第214卷": {
@@ -12569,7 +12829,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十四，唐纪三十",
       "pn_prefix": "214",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第215卷": {
@@ -12582,7 +12842,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十五，唐纪三十一",
       "pn_prefix": "215",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第216卷": {
@@ -12595,7 +12855,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十六，唐纪三十二",
       "pn_prefix": "216",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第217卷": {
@@ -12608,7 +12868,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十七，唐纪三十三",
       "pn_prefix": "217",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第218卷": {
@@ -12621,7 +12881,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十八，唐纪三十四",
       "pn_prefix": "218",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第219卷": {
@@ -12634,7 +12894,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百一十九，唐纪三十五",
       "pn_prefix": "219",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第220卷": {
@@ -12647,7 +12907,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十，唐纪三十六",
       "pn_prefix": "220",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第221卷": {
@@ -12660,7 +12920,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十一，唐纪三十七",
       "pn_prefix": "221",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第222卷": {
@@ -12673,7 +12933,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十二，唐纪三十八",
       "pn_prefix": "222",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第223卷": {
@@ -12686,7 +12946,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十三，唐纪三十九",
       "pn_prefix": "223",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第224卷": {
@@ -12699,7 +12959,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十四，唐纪四十",
       "pn_prefix": "224",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第225卷": {
@@ -12712,7 +12972,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十五，唐纪四十一",
       "pn_prefix": "225",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第226卷": {
@@ -12725,7 +12985,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十六，唐纪四十二",
       "pn_prefix": "226",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第227卷": {
@@ -12738,7 +12998,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十七，唐纪四十三",
       "pn_prefix": "227",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第228卷": {
@@ -12751,7 +13011,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十八，唐纪四十四",
       "pn_prefix": "228",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第229卷": {
@@ -12764,7 +13024,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百二十九，唐纪四十五",
       "pn_prefix": "229",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第230卷": {
@@ -12777,7 +13037,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十，唐纪四十六",
       "pn_prefix": "230",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第231卷": {
@@ -12790,7 +13050,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十一，唐纪四十七",
       "pn_prefix": "231",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第232卷": {
@@ -12803,7 +13063,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十二，唐纪四十八",
       "pn_prefix": "232",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第233卷": {
@@ -12816,7 +13076,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十三，唐纪四十九",
       "pn_prefix": "233",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第234卷": {
@@ -12829,7 +13089,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十四，唐纪五十",
       "pn_prefix": "234",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第235卷": {
@@ -12842,7 +13102,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十五，唐纪五十一",
       "pn_prefix": "235",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第236卷": {
@@ -12855,7 +13115,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十六，唐纪五十二",
       "pn_prefix": "236",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第237卷": {
@@ -12868,7 +13128,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十七，唐纪五十三",
       "pn_prefix": "237",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第238卷": {
@@ -12881,7 +13141,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十八，唐纪五十四",
       "pn_prefix": "238",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第239卷": {
@@ -12894,7 +13154,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百三十九，唐纪五十五",
       "pn_prefix": "239",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第240卷": {
@@ -12907,7 +13167,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十，唐纪五十六",
       "pn_prefix": "240",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第241卷": {
@@ -12920,7 +13180,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十一，唐纪五十七",
       "pn_prefix": "241",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第242卷": {
@@ -12933,7 +13193,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十二，唐纪五十八",
       "pn_prefix": "242",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第243卷": {
@@ -12946,7 +13206,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十三，唐纪五十九",
       "pn_prefix": "243",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第244卷": {
@@ -12959,7 +13219,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十四，唐纪六十",
       "pn_prefix": "244",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第245卷": {
@@ -12972,7 +13232,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十五，唐纪六十一",
       "pn_prefix": "245",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第246卷": {
@@ -12985,7 +13245,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十六，唐纪六十二",
       "pn_prefix": "246",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第247卷": {
@@ -12998,7 +13258,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十七，唐纪六十三",
       "pn_prefix": "247",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第248卷": {
@@ -13011,7 +13271,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十八，唐纪六十四",
       "pn_prefix": "248",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第249卷": {
@@ -13024,7 +13284,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百四十九，唐纪六十五",
       "pn_prefix": "249",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第250卷": {
@@ -13037,7 +13297,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十，唐纪六十六",
       "pn_prefix": "250",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第251卷": {
@@ -13050,7 +13310,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十一，唐纪六十七",
       "pn_prefix": "251",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第252卷": {
@@ -13063,7 +13323,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十二，唐纪六十八",
       "pn_prefix": "252",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第253卷": {
@@ -13076,7 +13336,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十三，唐纪六十九",
       "pn_prefix": "253",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第254卷": {
@@ -13089,7 +13349,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十四，唐纪七十",
       "pn_prefix": "254",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第255卷": {
@@ -13102,7 +13362,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十五，唐纪七十一",
       "pn_prefix": "255",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第256卷": {
@@ -13115,7 +13375,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十六，唐纪七十二",
       "pn_prefix": "256",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第257卷": {
@@ -13128,7 +13388,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十七，唐纪七十三",
       "pn_prefix": "257",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第258卷": {
@@ -13141,7 +13401,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十八，唐纪七十四",
       "pn_prefix": "258",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第259卷": {
@@ -13154,7 +13414,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百五十九，唐纪七十五",
       "pn_prefix": "259",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第260卷": {
@@ -13167,7 +13427,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十，唐纪七十六",
       "pn_prefix": "260",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第261卷": {
@@ -13180,7 +13440,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十一，唐纪七十七",
       "pn_prefix": "261",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第262卷": {
@@ -13193,7 +13453,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十二，唐纪七十八",
       "pn_prefix": "262",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第263卷": {
@@ -13206,7 +13466,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十三，唐纪七十九",
       "pn_prefix": "263",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第264卷": {
@@ -13219,7 +13479,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十四，唐纪八十",
       "pn_prefix": "264",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第265卷": {
@@ -13232,7 +13492,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十五，唐纪八十一",
       "pn_prefix": "265",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第266卷": {
@@ -13245,7 +13505,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十六，后梁纪一",
       "pn_prefix": "266",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "第267卷": {
@@ -13258,7 +13518,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十七，后梁纪二",
       "pn_prefix": "267",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第268卷": {
@@ -13271,7 +13531,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十八，后梁纪三",
       "pn_prefix": "268",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第269卷": {
@@ -13284,7 +13544,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百六十九，后梁纪四",
       "pn_prefix": "269",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第270卷": {
@@ -13297,7 +13557,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十，后梁纪五",
       "pn_prefix": "270",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第271卷": {
@@ -13310,7 +13570,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十一，后梁纪六",
       "pn_prefix": "271",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第272卷": {
@@ -13323,7 +13583,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十二，后唐纪一",
       "pn_prefix": "272",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第273卷": {
@@ -13336,7 +13596,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十三，后唐纪二",
       "pn_prefix": "273",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第274卷": {
@@ -13349,7 +13609,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十四，后唐纪三",
       "pn_prefix": "274",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第275卷": {
@@ -13362,7 +13622,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十五，后唐纪四",
       "pn_prefix": "275",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第276卷": {
@@ -13375,7 +13635,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十六，后唐纪五",
       "pn_prefix": "276",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第277卷": {
@@ -13388,7 +13648,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十七，后唐纪六",
       "pn_prefix": "277",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第278卷": {
@@ -13401,7 +13661,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十八，后唐纪七",
       "pn_prefix": "278",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第279卷": {
@@ -13414,7 +13674,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百七十九，后唐纪八",
       "pn_prefix": "279",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第280卷": {
@@ -13427,7 +13687,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十，后晋纪一",
       "pn_prefix": "280",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第281卷": {
@@ -13440,7 +13700,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十一，后晋纪二",
       "pn_prefix": "281",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第282卷": {
@@ -13453,7 +13713,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十二，后晋纪三",
       "pn_prefix": "282",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第283卷": {
@@ -13466,7 +13726,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十三，后晋纪四",
       "pn_prefix": "283",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第284卷": {
@@ -13479,7 +13739,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十四，后晋纪五",
       "pn_prefix": "284",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第285卷": {
@@ -13492,7 +13752,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十五，后晋纪六",
       "pn_prefix": "285",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第286卷": {
@@ -13505,7 +13765,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十六，后汉纪一",
       "pn_prefix": "286",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第287卷": {
@@ -13518,7 +13778,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十七，后汉纪二",
       "pn_prefix": "287",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第288卷": {
@@ -13531,7 +13791,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十八，后汉纪三",
       "pn_prefix": "288",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第289卷": {
@@ -13544,7 +13804,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百八十九，后汉纪四",
       "pn_prefix": "289",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第290卷": {
@@ -13557,7 +13817,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百九十，后周纪一",
       "pn_prefix": "290",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第291卷": {
@@ -13570,7 +13830,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百九十一，后周纪二",
       "pn_prefix": "291",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第292卷": {
@@ -13583,7 +13843,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百九十二，后周纪三",
       "pn_prefix": "292",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第293卷": {
@@ -13596,7 +13856,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百九十三，后周纪四",
       "pn_prefix": "293",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "第294卷": {
@@ -13609,7 +13869,7 @@
       "tags": [],
       "description": "《资治通鉴》卷第二百九十四，后周纪五",
       "pn_prefix": "294",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "管仲": {
@@ -13749,7 +14009,7 @@
         "光武帝"
       ],
       "description": "东汉开国名将，云台二十八将之一，协助光武帝刘秀平定河北，以积极进取的军事主张著称。",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 7
     },
     "背水一战": {
@@ -14164,6 +14424,22 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "萧望之": {
+      "type": "person",
+      "label": "萧望之",
+      "aliases": [
+        "萧长倩"
+      ],
+      "tags": [
+        "西汉",
+        "御史大夫",
+        "元帝辅政",
+        "宦官"
+      ],
+      "description": "西汉名臣，汉宣帝、元帝时期重臣，任御史大夫，后为元帝辅政，遭宦官石显构陷，饮鸩自杀",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "萧淑妃": {
       "type": "person",
       "label": "萧淑妃",
@@ -14207,7 +14483,7 @@
         "佛教"
       ],
       "description": "南朝梁开国皇帝，文武兼备，雄才大略，后崇信佛教怠于政事，晚年侯景之乱被困饿死，在位长达四十七年。",
-      "total_refs": 10,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "萧赜": {
@@ -15102,8 +15378,20 @@
       "tags": [],
       "description": "《资治通鉴》是北宋司马光主持编纂的编年体史书，记载战国至五代共1362年历史。",
       "featured": true,
-      "total_refs": 236,
+      "total_refs": 247,
       "total_chapters": 1
+    },
+    "资治通鉴目录": {
+      "type": "overview",
+      "label": "资治通鉴目录",
+      "aliases": [
+        "通鉴目录",
+        "全书目录"
+      ],
+      "tags": [],
+      "description": "《资治通鉴》294卷全书卷目，含各卷小节标题索引。",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "赤壁之战": {
       "type": "battle",
@@ -15527,7 +15815,7 @@
         "临朝称制"
       ],
       "description": "东汉和帝皇后，和帝死后临朝称制十余年，是中国历史上最有作为的摄政太后之一，在其执政期间东汉国力相对稳定。",
-      "total_refs": 5,
+      "total_refs": 7,
       "total_chapters": 4
     },
     "邓禹": {
@@ -15575,6 +15863,22 @@
       "description": "汉文帝宠臣，以娇惯有加著称，获赐铜山铸钱，一度富可敌国，但在文帝死后被汉景帝夺产，穷困而死，是汉代\"宠幸之祸\"的典型案例。",
       "total_refs": 6,
       "total_chapters": 5
+    },
+    "邓骘": {
+      "type": "person",
+      "label": "邓骘",
+      "aliases": [
+        "邓昭伯"
+      ],
+      "tags": [
+        "东汉",
+        "外戚",
+        "邓太后",
+        "羌乱"
+      ],
+      "description": "东汉外戚，邓太后之兄，以车骑将军辅政，主持对羌战争，推荐杨震等贤士",
+      "total_refs": 2,
+      "total_chapters": 0
     },
     "邢峦": {
       "type": "person",
@@ -16319,7 +16623,7 @@
         "权臣"
       ],
       "description": "西汉昭帝、宣帝时期的辅政大臣，受汉武帝遗命辅幼主，二十年间掌握实权，是西汉最重要的权臣之一，后因\"擅废立\"而被后世争议。",
-      "total_refs": 30,
+      "total_refs": 31,
       "total_chapters": 22
     },
     "霍去病": {
@@ -16535,7 +16839,7 @@
       ],
       "description": "汉初三杰之一，军事天才，为刘邦夺取天下立下首功，后以谋反罪被杀。",
       "featured": true,
-      "total_refs": 39,
+      "total_refs": 40,
       "total_chapters": 24
     },
     "韩勍": {
@@ -16917,7 +17221,7 @@
         "名将"
       ],
       "description": "东汉名将，封伏波将军，平定交趾之乱，多次征讨边疆，以\"马革裹尸\"的豪言和廉洁自守的品格著称。",
-      "total_refs": 17,
+      "total_refs": 18,
       "total_chapters": 14
     },
     "马殷": {
@@ -17185,7 +17489,7 @@
         "帝王"
       ],
       "description": "北齐最后一位实权皇帝，以荒淫无道著称，沉溺于冯小怜，不理朝政，致使北齐在强敌北周面前迅速崩溃，是史书中著名的亡国之君。",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "高行周": {
@@ -17530,7 +17834,7 @@
         "丞相"
       ],
       "description": "西汉循吏，颍川太守，以宽和之政著称，后官至丞相，与龚遂并称汉代循吏典范",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "齐桓公": {
@@ -17622,6 +17926,7 @@
     "刘秀": "光武帝刘秀",
     "汉光武帝": "光武帝刘秀",
     "世祖光武皇帝": "光武帝刘秀",
+    "光武帝": "光武帝刘秀",
     "公元105年": "公元105年",
     "公元184年": "公元184年",
     "公元189年": "公元189年",
@@ -17629,6 +17934,7 @@
     "公元208年": "公元208年",
     "公元220年": "公元220年",
     "公元221年": "公元221年",
+    "公元229年": "公元229年",
     "公元23年": "公元23年",
     "公元249年": "公元249年",
     "公元25年": "公元25年",
@@ -17640,17 +17946,23 @@
     "公元311年": "公元311年",
     "公元316年": "公元316年",
     "公元317年": "公元317年",
+    "公元354年": "公元354年",
+    "公元36年": "公元36年",
     "公元383年": "公元383年",
     "公元420年": "公元420年",
     "公元439年": "公元439年",
+    "公元43年": "公元43年",
     "公元494年": "公元494年",
     "公元534年": "公元534年",
+    "公元548年": "公元548年",
+    "公元577年": "公元577年",
     "公元57年": "公元57年",
     "公元581年": "公元581年",
     "公元589年": "公元589年",
     "公元618年": "公元618年",
     "公元626年": "公元626年",
     "公元630年": "公元630年",
+    "公元645年": "公元645年",
     "公元649年": "公元649年",
     "公元683年": "公元683年",
     "公元690年": "公元690年",
@@ -17773,6 +18085,7 @@
     "前154年": "前154年",
     "前180年": "前180年",
     "前195年": "前195年",
+    "前196年": "前196年",
     "前202年": "前202年",
     "前204年": "前204年",
     "前205年": "前205年",
@@ -17820,8 +18133,10 @@
     "前356年": "前356年",
     "前359年": "前359年",
     "前403年": "前403年",
+    "前49年": "前49年",
     "前52年": "前52年",
     "前60年": "前60年",
+    "前74年": "前74年",
     "前87年": "前87年",
     "前91年": "前91年",
     "前99年": "前99年",
@@ -17890,6 +18205,8 @@
     "吴楚七国之乱": "吴楚七国之乱",
     "七国之乱": "吴楚七国之乱",
     "七国叛乱": "吴楚七国之乱",
+    "吴汉": "吴汉",
+    "吴子颜": "吴汉",
     "吴起": "吴起",
     "吴子": "吴起",
     "周世宗": "周世宗",
@@ -17904,8 +18221,14 @@
     "周威烈王": "周威烈王",
     "威烈王": "周威烈王",
     "周威烈王午": "周威烈王",
+    "周安王": "周安王",
+    "安王": "周安王",
+    "姬骄": "周安王",
     "周德威": "周德威",
     "周阳五": "周德威",
+    "周烈王": "周烈王",
+    "烈王": "周烈王",
+    "姬喜": "周烈王",
     "周瑜": "周瑜",
     "周公瑾": "周瑜",
     "周郎": "周瑜",
@@ -18345,6 +18668,8 @@
     "太真": "杨贵妃",
     "贵妃": "杨贵妃",
     "杨邠": "杨邠",
+    "杨震": "杨震",
+    "杨伯起": "杨震",
     "柳世隆": "柳世隆",
     "柳元景": "柳元景",
     "柳宗元": "柳宗元",
@@ -18362,6 +18687,8 @@
     "桓齮": "桓齮",
     "桓将军": "桓齮",
     "樊於期": "桓齮",
+    "梁冀": "梁冀",
+    "梁伯卓": "梁冀",
     "梁师都": "梁师都",
     "楚怀王": "楚怀王",
     "熊槐": "楚怀王",
@@ -18630,6 +18957,8 @@
     "章德窦皇后": "窦太后",
     "窦婴": "窦婴",
     "魏其侯": "窦婴",
+    "窦宪": "窦宪",
+    "窦伯度": "窦宪",
     "窦建德": "窦建德",
     "夏王": "窦建德",
     "长乐王": "窦建德",
@@ -19386,6 +19715,8 @@
     "萧俛": "萧俛",
     "萧嶷": "萧嶷",
     "萧思话": "萧思话",
+    "萧望之": "萧望之",
+    "萧长倩": "萧望之",
     "萧淑妃": "萧淑妃",
     "萧瑀": "萧瑀",
     "时文": "萧瑀",
@@ -19508,6 +19839,9 @@
     "资治通鉴概述": "资治通鉴概述",
     "通鉴": "资治通鉴概述",
     "资治通鉴": "资治通鉴概述",
+    "资治通鉴目录": "资治通鉴目录",
+    "通鉴目录": "资治通鉴目录",
+    "全书目录": "资治通鉴目录",
     "赤壁之战": "赤壁之战",
     "赤壁": "赤壁之战",
     "赫连勃勃": "赫连勃勃",
@@ -19561,6 +19895,8 @@
     "邓士载": "邓艾",
     "邓通": "邓通",
     "邓通中大夫": "邓通",
+    "邓骘": "邓骘",
+    "邓昭伯": "邓骘",
     "邢峦": "邢峦",
     "邢洪隽": "邢峦",
     "邯郸": "邯郸",
@@ -19788,6 +20124,6 @@
     "小白": "齐桓公",
     "龚遂": "龚遂"
   },
-  "page_count": 1173,
-  "generated": "2026-05-06T07:59:04Z"
+  "page_count": 1192,
+  "generated": "2026-05-06T08:16:55Z"
 }
