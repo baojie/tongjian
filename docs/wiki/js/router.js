@@ -282,8 +282,9 @@ function tryScrollToPN(pnId, attempts = 0) {
 }
 
 // #pageId#anchorId 锚点导航：等待 DOM 渲染后滚动到目标标题
+// 支持带 § 前缀的标题 ID（如 §烧酒），也兼容不带前缀的旧格式
 function tryScrollToAnchor(anchorId, attempts = 0) {
-  const el = document.getElementById(anchorId);
+  const el = document.getElementById(anchorId) || document.getElementById('§' + anchorId);
   if (el) {
     el.scrollIntoView({ behavior: 'smooth', block: 'center' });
     el.classList.add('pn-highlight');

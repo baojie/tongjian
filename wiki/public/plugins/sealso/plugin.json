@@ -1,9 +1,0 @@
-{
-  "id": "sealso",
-  "name": "参见链接",
-  "version": "1.0.0",
-  "description": "根据 frontmatter 中的 seealso 字段，在页面底部自动注入「参见」区块",
-  "author": "butler",
-  "entry": "index.js",
-  "load_order": 60
-}
