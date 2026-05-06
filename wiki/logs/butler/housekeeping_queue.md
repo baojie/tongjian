@@ -16,28 +16,28 @@
 ## H-P3 — 探索内务
   [ ] H-P3 housekeeping-scan | 全局 | 初始覆盖率扫描
 
-## H18 stub-triage (R2128, %37=19)
-> 以下词条 body < 100B 且无 PN 引注，建议优先 enrich
-- stub concept | 窑 | 42B
-- stub concept | 项 | 55B
-- stub concept | 敦 | 55B
-- stub concept | 瓢 | 84B
-- stub concept | 饴 | 92B
-- stub concept | 五运 | 92B
-- stub concept | 驿 | 93B
-- stub concept | 迁居 | 96B
-- stub concept | 辂 | 96B
-- stub concept | 锐兵 | 96B
-- stub concept | 砚 | 96B
-- stub concept | 轺 | 97B
-- stub concept | 船舰 | 97B
-- stub concept | 贾让 | 97B
-- stub concept | 羽檄 | 97B
-- stub concept | 麾下 | 97B
-- stub concept | 船运 | 98B
-- stub concept | 膳 | 99B
-- stub concept | 肴 | 99B
-- stub concept | 地道 | 99B
+## H18 stub-triage (R2683, %37=19)
+> 以下词条 body < 500B（R2683 重扫更新），建议优先 enrich
+- stub person | 赵韪 | 320B
+- stub concept | 簟 | 322B
+- stub person | 王奂 | 329B
+- stub person | 刘汉 | 346B
+- stub person | 李育 | 357B
+- stub person | 李农 | 367B（R2683 enrich）
+- stub place | 柏谷 | 362B
+- stub concept | 简_(概念) | 368B
+- stub place | 湖 | 369B
+- stub place | 胶西王 | 372B
+- stub place | 南康 | 386B（R2683 enrich）
+- stub concept | 杖刑 | 386B
+- stub place | 萧县 | 387B（R2683 enrich）
+- stub concept | 驿道 | 387B
+- stub place | 襄武 | 388B（R2683 enrich）
+- stub place | 小黄 | 391B
+- stub place | 浮阳 | 393B（R2683 enrich）
+- stub concept | 荒田 | 393B（R2683 enrich）
+- stub place | 育阳 | 397B
+- stub place | 封丘 | 398B
 
 ## H17 coverage-scan (R2220, %37=0)
 > 页面元数据覆盖扫描结果
