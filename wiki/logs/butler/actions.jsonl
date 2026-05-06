@@ -394,3 +394,4 @@
 {"round": 132, "type": "create-page", "page": "宇文化及", "result": "accept", "desc": "弑隋炀帝的权臣，PN:185-020,185-024,185-025,185-032,185-053,185-057,186-008,186-014", "ts": "2026-05-06T01:40:58Z"}
 {"round": 132, "type": "create-page", "page": "萧铣", "result": "accept", "desc": "隋末梁国割据者，PN:184-043,184-064,185-034,185-035,187-086,187-087,188-032,188-053", "ts": "2026-05-06T01:40:59Z"}
 {"round": 133, "type": "enrich-page", "page": "赵简子 牛僧孺", "result": "accept", "desc": "enrich-page×2页，100WU", "ts": "2026-05-06T01:41:04Z", "instance": "刘攽", "reflect": "赵简子新增晋阳之甲的历史意义；牛僧孺新增科举直言遭贬和反对收复维州两节，升至standard层级"}
+{"round": 134, "type": "enrich-page", "page": "许远 高洋", "result": "accept", "desc": "enrich-page×2页，200WU", "ts": "2026-05-06T01:44:54Z", "instance": "刘攽", "reflect": "许远新增粮储被夺、坚守不退、被俘遇难三节，升至2231B；高洋新增北伐、晚年暴虐、诛杀诸刘三节，升至2402B"}
