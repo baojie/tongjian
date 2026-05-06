@@ -761,6 +761,20 @@
       "total_refs": 8,
       "total_chapters": 5
     },
+    "临淄": {
+      "type": "place",
+      "label": "临淄",
+      "aliases": [],
+      "tags": [
+        "春秋",
+        "战国",
+        "齐国",
+        "都城"
+      ],
+      "description": "齐国都城，春秋战国时最为繁华之都邑。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "丹": {
       "type": "concept",
       "label": "丹",
@@ -1494,6 +1508,18 @@
       "total_refs": 18,
       "total_chapters": 0
     },
+    "云梦": {
+      "type": "place",
+      "label": "云梦",
+      "aliases": [],
+      "tags": [
+        "泽",
+        "荆州"
+      ],
+      "description": "古代云梦泽，楚地大泽，秦汉帝王游猎之所。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "云梯": {
       "type": "artifact",
       "label": "云梯",
@@ -1714,6 +1740,19 @@
       "description": "土地面积单位，历代亩制不同，为田赋征收之基础",
       "quality": "basic",
       "quality_score": 34,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "京师": {
+      "type": "concept",
+      "label": "京师",
+      "aliases": [],
+      "tags": [
+        "京师",
+        "都城",
+        "制度"
+      ],
+      "description": "帝王所居之都城，天子之居为京师。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -13907,6 +13946,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "咸阳": {
+      "type": "place",
+      "label": "咸阳",
+      "aliases": [],
+      "tags": [
+        "秦",
+        "都城",
+        "关中"
+      ],
+      "description": "秦朝都城，位于关中平原。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "哀": {
       "type": "concept",
       "label": "哀",
@@ -14246,7 +14298,7 @@
       "image": "images/商鞅.jpg",
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 51,
+      "total_refs": 52,
       "total_chapters": 7
     },
     "喜": {
@@ -18030,6 +18082,19 @@
       "total_refs": 12,
       "total_chapters": 0
     },
+    "寿春": {
+      "type": "place",
+      "label": "寿春",
+      "aliases": [],
+      "tags": [
+        "战国",
+        "楚国",
+        "都城"
+      ],
+      "description": "楚国后期都城，在今安徽寿县。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "封事": {
       "type": "institution",
       "label": "封事",
@@ -20210,7 +20275,7 @@
       "description": "战国赵国名将，战国四大名将之一，以骁勇善战著称，与蔺相如将相和的故事流传千古。",
       "quality": "featured",
       "quality_score": 39,
-      "total_refs": 35,
+      "total_refs": 36,
       "total_chapters": 9
     },
     "廊": {
@@ -20423,6 +20488,18 @@
       "quality": "basic",
       "quality_score": 40,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "弘农": {
+      "type": "place",
+      "label": "弘农",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "司隶"
+      ],
+      "description": "汉弘农郡，函谷关以西，长安东部门户。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "张万福": {
@@ -25485,7 +25562,7 @@
         "幽州牧"
       ],
       "description": "东汉将领，光武帝时幽州牧，后为执金吾，以能言敢谏著称。",
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "朱温": {
@@ -31367,6 +31444,18 @@
       "total_refs": 270,
       "total_chapters": 72
     },
+    "汉水": {
+      "type": "place",
+      "label": "汉水",
+      "aliases": [],
+      "tags": [
+        "河",
+        "荆州"
+      ],
+      "description": "长江最大支流，源出汉中，流经襄阳入江。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "汉献帝": {
       "type": "person",
       "label": "汉献帝",
@@ -32060,6 +32149,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "泰山": {
+      "type": "place",
+      "label": "泰山",
+      "aliases": [],
+      "tags": [
+        "山",
+        "兖州"
+      ],
+      "description": "五岳之东岳，齐鲁之望，帝王封禅之地。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "泽": {
       "type": "concept",
       "label": "泽",
@@ -32085,6 +32186,19 @@
       "total_refs": 10,
       "total_chapters": 0
     },
+    "洛邑": {
+      "type": "place",
+      "label": "洛邑",
+      "aliases": [],
+      "tags": [
+        "周",
+        "都城",
+        "洛阳"
+      ],
+      "description": "东周都城，即洛阳。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "洛阳": {
       "type": "place",
       "label": "洛阳",
@@ -32103,6 +32217,18 @@
       "quality_score": 44,
       "total_refs": 413,
       "total_chapters": 224
+    },
+    "洞庭": {
+      "type": "place",
+      "label": "洞庭",
+      "aliases": [],
+      "tags": [
+        "湖",
+        "荆州"
+      ],
+      "description": "洞庭湖，今湖南北部，古云梦泽遗迹。",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "津": {
       "type": "economy",
@@ -32341,6 +32467,18 @@
       "total_refs": 62,
       "total_chapters": 0
     },
+    "淮水": {
+      "type": "place",
+      "label": "淮水",
+      "aliases": [],
+      "tags": [
+        "河",
+        "淮南"
+      ],
+      "description": "四渎之一，中国东部重要河流，南北分界线。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "淳于量": {
       "type": "person",
       "label": "淳于量",
@@ -32413,6 +32551,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "渤海": {
+      "type": "place",
+      "label": "渤海",
+      "aliases": [],
+      "tags": [
+        "海",
+        "幽州"
+      ],
+      "description": "中国北部海域，齐燕之东，秦汉方士称海中仙山处。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "温": {
       "type": "concept",
       "label": "温",
@@ -32476,6 +32626,18 @@
       "description": "五代盗墓贼将领，以盗掘唐代诸帝陵墓著称，先投岐王李茂贞为义子，后降唐、降梁，数度改姓易名，以放归田里告终。",
       "quality": "basic",
       "quality_score": 54,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "渭水": {
+      "type": "place",
+      "label": "渭水",
+      "aliases": [],
+      "tags": [
+        "河",
+        "关中"
+      ],
+      "description": "黄河最大支流，流经关中平原，秦都咸阳、汉唐长安所傍。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -45060,6 +45222,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "荥阳": {
+      "type": "place",
+      "label": "荥阳",
+      "aliases": [],
+      "tags": [
+        "县",
+        "司隶"
+      ],
+      "description": "秦汉荥阳县，三川郡治，楚汉相争要地。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "荧惑": {
       "type": "astronomy",
       "label": "荧惑",
@@ -46087,6 +46261,19 @@
       ],
       "description": "西汉辩士，韩信谋士，劝信自立",
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "蓟城": {
+      "type": "place",
+      "label": "蓟城",
+      "aliases": [],
+      "tags": [
+        "战国",
+        "燕国",
+        "都城"
+      ],
+      "description": "燕国都城，即今北京一带。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "蔡义": {
@@ -52063,6 +52250,17 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "都护府": {
+      "type": "concept",
+      "label": "都护府",
+      "aliases": [],
+      "tags": [
+        "官制"
+      ],
+      "description": "唐代边疆最高军政机构",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "都督": {
       "type": "official",
       "label": "都督",
@@ -52087,6 +52285,19 @@
         "军事"
       ],
       "description": "统率诸军之军事长官，魏晋南北朝至唐代均有设置。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "都邑": {
+      "type": "concept",
+      "label": "都邑",
+      "aliases": [],
+      "tags": [
+        "都邑",
+        "城市",
+        "制度"
+      ],
+      "description": "古代都城及各级城邑之总称。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -58276,6 +58487,7 @@
     "中山靖王": "中山靖王",
     "刘胜": "中山靖王",
     "汉中山靖王": "中山靖王",
+    "临淄": "临淄",
     "丹": "丹",
     "丹阳": "丹阳",
     "丹青": "丹青",
@@ -58335,6 +58547,7 @@
     "于阗": "于阗",
     "云": "云",
     "云中": "云中",
+    "云梦": "云梦",
     "云梯": "云梯",
     "互市": "互市",
     "五德": "五德",
@@ -58351,6 +58564,7 @@
     "交质": "交质",
     "交趾": "交趾",
     "亩": "亩",
+    "京师": "京师",
     "京房": "京房",
     "亭": "亭",
     "亭长": "亭长",
@@ -59276,6 +59490,7 @@
     "楚和氏璧": "和氏璧",
     "和籴": "和籴",
     "咏": "咏",
+    "咸阳": "咸阳",
     "哀": "哀",
     "哥舒翰": "哥舒翰",
     "哥舒太尉": "哥舒翰",
@@ -59633,6 +59848,7 @@
     "寇谦之": "寇谦之",
     "寒门": "寒门",
     "察举": "察举",
+    "寿春": "寿春",
     "封事": "封事",
     "封国": "封国",
     "封常清": "封常清",
@@ -59826,6 +60042,7 @@
     "弃市": "弃市",
     "弓": "弓",
     "弓矢": "弓矢",
+    "弘农": "弘农",
     "张万福": "张万福",
     "张丰": "张丰",
     "张义潮": "张义潮",
@@ -60762,6 +60979,7 @@
     "世宗孝武皇帝": "汉武帝",
     "世宗": "汉武帝",
     "刘汉武": "汉武帝",
+    "汉水": "汉水",
     "汉献帝": "汉献帝",
     "汉章帝": "汉章帝",
     "刘炟": "汉章帝",
@@ -60818,11 +61036,14 @@
     "法正": "法正",
     "法孝直": "法正",
     "波": "波",
+    "泰山": "泰山",
     "泽": "泽",
     "泾原兵变": "泾原兵变",
+    "洛邑": "洛邑",
     "洛阳": "洛阳",
     "神都": "洛阳",
     "雒阳": "洛阳",
+    "洞庭": "洞庭",
     "津": "津",
     "津渡": "津渡",
     "流刑": "流刑",
@@ -60841,12 +61062,14 @@
     "淝水之战": "淝水之战",
     "肥水之战": "淝水之战",
     "淮南": "淮南",
+    "淮水": "淮水",
     "淳于量": "淳于量",
     "清河": "清河",
     "清谈": "清谈",
     "渑池之会": "渑池之会",
     "渑池会盟": "渑池之会",
     "渔阳": "渔阳",
+    "渤海": "渤海",
     "温": "温",
     "温峤": "温峤",
     "温彦博": "温彦博",
@@ -60854,6 +61077,7 @@
     "温韬": "温韬",
     "李彦韬": "温韬",
     "李绍冲": "温韬",
+    "渭水": "渭水",
     "渭水之盟": "渭水之盟",
     "便桥之盟": "渭水之盟",
     "渭桥之盟": "渭水之盟",
@@ -62283,6 +62507,7 @@
     "荆卿": "荆轲",
     "荐举": "荐举",
     "荒田": "荒田",
+    "荥阳": "荥阳",
     "荧惑": "荧惑",
     "药元福": "药元福",
     "药酒": "药酒",
@@ -62368,6 +62593,7 @@
     "蒯恩": "蒯恩",
     "蒯越": "蒯越",
     "蒯通": "蒯通",
+    "蓟城": "蓟城",
     "蔡义": "蔡义",
     "蔡伦": "蔡伦",
     "蔡兴宗": "蔡兴宗",
@@ -62883,8 +63109,10 @@
     "郭躬": "郭躬",
     "郭黁": "郭黁",
     "郭默": "郭默",
+    "都护府": "都护府",
     "都督": "都督",
     "都统": "都统",
+    "都邑": "都邑",
     "鄯善": "鄯善",
     "酒": "酒",
     "酷吏": "酷吏",
@@ -63412,6 +63640,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 4108,
-  "generated": "2026-05-06T17:51:38Z"
+  "page_count": 4125,
+  "generated": "2026-05-06T17:52:57Z"
 }
