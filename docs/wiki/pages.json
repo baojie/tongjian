@@ -886,6 +886,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "乞骸骨": {
+      "type": "concept",
+      "label": "乞骸骨",
+      "aliases": [],
+      "tags": [
+        "制度",
+        "官制"
+      ],
+      "description": "官员请求退休返乡的婉辞",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "习": {
       "type": "concept",
       "label": "习",
@@ -1200,6 +1212,19 @@
       "quality": "basic",
       "quality_score": 39,
       "total_refs": 6,
+      "total_chapters": 0
+    },
+    "交质": {
+      "type": "concept",
+      "label": "交质",
+      "aliases": [],
+      "tags": [
+        "周",
+        "外交",
+        "军事"
+      ],
+      "description": "古代双方交换人质以取信。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "交趾": {
@@ -5292,6 +5317,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "关梁": {
+      "type": "concept",
+      "label": "关梁",
+      "aliases": [],
+      "tags": [
+        "地理",
+        "交通"
+      ],
+      "description": "关口与桥梁，水陆交通要道关卡",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "关羽": {
       "type": "person",
       "label": "关羽",
@@ -5493,6 +5530,18 @@
       "description": "重农学派及农业生产者，农家丰凶皆病，谷贱伤农。",
       "quality": "basic",
       "quality_score": 30,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "农时": {
+      "type": "concept",
+      "label": "农时",
+      "aliases": [],
+      "tags": [
+        "经济",
+        "农业"
+      ],
+      "description": "农业生产的季节时令，不违农时为王政之本",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -8698,6 +8747,18 @@
       "total_refs": 10,
       "total_chapters": 0
     },
+    "务农": {
+      "type": "concept",
+      "label": "务农",
+      "aliases": [],
+      "tags": [
+        "经济",
+        "农业"
+      ],
+      "description": "从事农业生产，致力于农耕",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "助教": {
       "type": "concept",
       "label": "助教",
@@ -11738,6 +11799,18 @@
       "total_refs": 12,
       "total_chapters": 0
     },
+    "大川": {
+      "type": "concept",
+      "label": "大川",
+      "aliases": [],
+      "tags": [
+        "地理",
+        "祭祀"
+      ],
+      "description": "重要河流，天子祭祀的对象",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "大旱": {
       "type": "concept",
       "label": "大旱",
@@ -11875,6 +11948,18 @@
       "quality": "basic",
       "quality_score": 26,
       "total_refs": 8,
+      "total_chapters": 0
+    },
+    "天险": {
+      "type": "concept",
+      "label": "天险",
+      "aliases": [],
+      "tags": [
+        "地理",
+        "军事"
+      ],
+      "description": "天然形成的险要地形，易守难攻",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "太仓": {
@@ -15580,6 +15665,32 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "廪给": {
+      "type": "concept",
+      "label": "廪给",
+      "aliases": [],
+      "tags": [
+        "周",
+        "制度",
+        "经济"
+      ],
+      "description": "古代官府供给粮食，廪禄之制。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "廪食": {
+      "type": "concept",
+      "label": "廪食",
+      "aliases": [],
+      "tags": [
+        "周",
+        "制度",
+        "经济"
+      ],
+      "description": "古代官府供给粮食，以食饥民。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "廷尉": {
       "type": "concept",
       "label": "廷尉",
@@ -16835,6 +16946,18 @@
       "total_refs": 4,
       "total_chapters": 0
     },
+    "形胜": {
+      "type": "concept",
+      "label": "形胜",
+      "aliases": [],
+      "tags": [
+        "地理",
+        "战略"
+      ],
+      "description": "地理形势优越之地势",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "彭乐": {
       "type": "person",
       "label": "彭乐",
@@ -16918,6 +17041,17 @@
         "制度"
       ],
       "description": "历代征发百姓为兵的制度",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "径": {
+      "type": "concept",
+      "label": "径",
+      "aliases": [],
+      "tags": [
+        "交通"
+      ],
+      "description": "径，小路、直接，古代路径概念",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -22105,6 +22239,18 @@
       "total_refs": 6,
       "total_chapters": 2
     },
+    "桥": {
+      "type": "concept",
+      "label": "桥",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "交通"
+      ],
+      "description": "桥，古代桥梁建筑",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "梁冀": {
       "type": "person",
       "label": "梁冀",
@@ -23949,6 +24095,30 @@
       "quality_score": 44,
       "total_refs": 377,
       "total_chapters": 224
+    },
+    "津": {
+      "type": "concept",
+      "label": "津",
+      "aliases": [],
+      "tags": [
+        "交通",
+        "地理"
+      ],
+      "description": "津，渡口，古代水路交通要地",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "津渡": {
+      "type": "concept",
+      "label": "津渡",
+      "aliases": [],
+      "tags": [
+        "地理",
+        "交通"
+      ],
+      "description": "渡口，水路交通要津",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "流刑": {
       "type": "concept",
@@ -32922,6 +33092,19 @@
       "total_refs": 4,
       "total_chapters": 0
     },
+    "结盟": {
+      "type": "concept",
+      "label": "结盟",
+      "aliases": [],
+      "tags": [
+        "周",
+        "外交",
+        "军事"
+      ],
+      "description": "古代诸侯订立盟约，以合纵连横。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "绢": {
       "type": "concept",
       "label": "绢",
@@ -33590,6 +33773,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "致仕": {
+      "type": "concept",
+      "label": "致仕",
+      "aliases": [],
+      "tags": [
+        "制度",
+        "官制"
+      ],
+      "description": "官员年老退休归居乡里的制度",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "舞": {
       "type": "concept",
       "label": "舞",
@@ -33598,6 +33793,30 @@
         "语言"
       ],
       "description": "舞蹈，古代礼仪、祭祀与娱乐形式",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "舟": {
+      "type": "concept",
+      "label": "舟",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "交通"
+      ],
+      "description": "舟，古代水上交通工具",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "船": {
+      "type": "concept",
+      "label": "船",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "交通"
+      ],
+      "description": "船，古代水上交通工具（与舟同义）",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -35912,6 +36131,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "誓约": {
+      "type": "concept",
+      "label": "誓约",
+      "aliases": [],
+      "tags": [
+        "周",
+        "外交",
+        "军事"
+      ],
+      "description": "古代双方立誓缔约，以取信守。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "警备": {
       "type": "concept",
       "label": "警备",
@@ -36289,6 +36521,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "课农": {
+      "type": "concept",
+      "label": "课农",
+      "aliases": [],
+      "tags": [
+        "经济",
+        "农业"
+      ],
+      "description": "督课农桑，鼓励农耕的政策",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "谍": {
       "type": "concept",
       "label": "谍",
@@ -36533,8 +36777,8 @@
         "谥号"
       ],
       "description": "中国古代依据人物生前行为给予身后评价称号的制度，始于周，秦曾废除，汉代恢复。",
-      "quality": "basic",
-      "quality_score": 41,
+      "quality": "standard",
+      "quality_score": 52,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -37083,6 +37327,18 @@
       "quality": "basic",
       "quality_score": 31,
       "total_refs": 15,
+      "total_chapters": 0
+    },
+    "赦罪": {
+      "type": "concept",
+      "label": "赦罪",
+      "aliases": [],
+      "tags": [
+        "法制",
+        "制度"
+      ],
+      "description": "赦免罪犯的制度",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "赫连勃勃": {
@@ -37659,6 +37915,17 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "路": {
+      "type": "concept",
+      "label": "路",
+      "aliases": [],
+      "tags": [
+        "交通"
+      ],
+      "description": "路，道路，古代交通命脉",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "路博德": {
       "type": "person",
       "label": "路博德",
@@ -37711,6 +37978,18 @@
       "description": "古代足球游戏，军中训练与民间娱乐兼有",
       "quality": "basic",
       "quality_score": 34,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "车": {
+      "type": "concept",
+      "label": "车",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "交通"
+      ],
+      "description": "车，古代交通工具与兵器",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -37982,6 +38261,17 @@
       "quality": "basic",
       "quality_score": 25,
       "total_refs": 7,
+      "total_chapters": 0
+    },
+    "途": {
+      "type": "concept",
+      "label": "途",
+      "aliases": [],
+      "tags": [
+        "交通"
+      ],
+      "description": "途，路途、道路，与途同义",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "通使": {
@@ -40169,6 +40459,18 @@
       "quality": "basic",
       "quality_score": 27,
       "total_refs": 60,
+      "total_chapters": 0
+    },
+    "险要": {
+      "type": "concept",
+      "label": "险要",
+      "aliases": [],
+      "tags": [
+        "地理",
+        "军事"
+      ],
+      "description": "地势险峻且位置重要的地方",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "陪葬": {
@@ -43282,6 +43584,7 @@
     "九族": "九族",
     "乞伏乾归": "乞伏乾归",
     "乞伏国仁": "乞伏国仁",
+    "乞骸骨": "乞骸骨",
     "习": "习",
     "乡兵": "乡兵",
     "书": "书",
@@ -43306,6 +43609,7 @@
     "井陉": "井陉",
     "井陉之战": "井陉之战",
     "交州": "交州",
+    "交质": "交质",
     "交趾": "交趾",
     "亩": "亩",
     "京房": "京房",
@@ -43561,6 +43865,7 @@
     "六艺": "六艺",
     "关中": "关中",
     "关塞": "关塞",
+    "关梁": "关梁",
     "关羽": "关羽",
     "关云长": "关羽",
     "关公": "关羽",
@@ -43580,6 +43885,7 @@
     "军制": "军制",
     "军法": "军法",
     "农家": "农家",
+    "农时": "农时",
     "农桑": "农桑",
     "冠": "冠",
     "冠冕": "冠冕",
@@ -43817,6 +44123,7 @@
     "剧辛": "剧辛",
     "力田": "力田",
     "劝农": "劝农",
+    "务农": "务农",
     "助教": "助教",
     "勋官": "勋官",
     "勋级": "勋级",
@@ -44107,6 +44414,7 @@
     "大司农": "大司农",
     "大夏": "大夏",
     "大宛": "大宛",
+    "大川": "大川",
     "大旱": "大旱",
     "大明宫": "大明宫",
     "大梁": "大梁",
@@ -44117,6 +44425,7 @@
     "大酺": "大酺",
     "大雩": "大雩",
     "天文": "天文",
+    "天险": "天险",
     "太仓": "太仓",
     "太保": "太保",
     "太傅": "太傅",
@@ -44431,6 +44740,8 @@
     "廊": "廊",
     "廖化": "廖化",
     "廖元俭": "廖化",
+    "廪给": "廪给",
+    "廪食": "廪食",
     "廷尉": "廷尉",
     "建康": "建康",
     "建章宫": "建章宫",
@@ -44534,6 +44845,7 @@
     "弩": "弩",
     "弹劾": "弹劾",
     "彗星": "彗星",
+    "形胜": "形胜",
     "彭乐": "彭乐",
     "彭城王义康": "彭城王义康",
     "刘义康": "彭城王义康",
@@ -44543,6 +44855,7 @@
     "梁王": "彭越",
     "征": "征",
     "征兵": "征兵",
+    "径": "径",
     "律令": "律令",
     "徐世勣": "徐世勣",
     "徐勉": "徐勉",
@@ -45007,6 +45320,7 @@
     "桓齮": "桓齮",
     "桓将军": "桓齮",
     "樊於期": "桓齮",
+    "桥": "桥",
     "梁冀": "梁冀",
     "梁伯卓": "梁冀",
     "梁崇义": "梁崇义",
@@ -45172,6 +45486,8 @@
     "神都": "洛阳",
     "东都": "洛阳",
     "雒阳": "洛阳",
+    "津": "津",
+    "津渡": "津渡",
     "流刑": "流刑",
     "流外": "流外",
     "流星": "流星",
@@ -46306,6 +46622,7 @@
     "织": "织",
     "经义": "经义",
     "经术": "经术",
+    "结盟": "结盟",
     "绢": "绢",
     "绣": "绣",
     "继": "继",
@@ -46360,7 +46677,10 @@
     "臧旻": "臧旻",
     "臧质": "臧质",
     "臧霸": "臧霸",
+    "致仕": "致仕",
     "舞": "舞",
+    "舟": "舟",
+    "船": "船",
     "良": "良",
     "节传": "节传",
     "节度使": "节度使",
@@ -46570,6 +46890,7 @@
     "西门豹": "西门豹",
     "角抵": "角抵",
     "言": "言",
+    "誓约": "誓约",
     "警备": "警备",
     "讨": "讨",
     "让": "让",
@@ -46609,6 +46930,7 @@
     "公休": "诸葛诞",
     "诸葛长民": "诸葛长民",
     "读": "读",
+    "课农": "课农",
     "谍": "谍",
     "谏官": "谏官",
     "谏议": "谏议",
@@ -46684,6 +47006,7 @@
     "赤壁之战": "赤壁之战",
     "赤壁": "赤壁之战",
     "赤眉": "赤眉",
+    "赦罪": "赦罪",
     "赫连勃勃": "赫连勃勃",
     "夏天王": "赫连勃勃",
     "赫连昌": "赫连昌",
@@ -46734,10 +47057,12 @@
     "赵隐": "赵隐",
     "赵高": "赵高",
     "足": "足",
+    "路": "路",
     "路博德": "路博德",
     "路岩": "路岩",
     "蹇叔": "蹇叔",
     "蹴鞠": "蹴鞠",
+    "车": "车",
     "车师": "车师",
     "车骑": "车骑",
     "轮台罪己诏": "轮台罪己诏",
@@ -46759,6 +47084,7 @@
     "进士": "进士",
     "远交近攻": "远交近攻",
     "连坐": "连坐",
+    "途": "途",
     "通使": "通使",
     "通婚": "通婚",
     "道士": "道士",
@@ -46948,6 +47274,7 @@
     "陈武帝": "陈霸先",
     "陈馀": "陈馀",
     "陛下": "陛下",
+    "险要": "险要",
     "陪葬": "陪葬",
     "陶侃": "陶侃",
     "士行": "陶侃",
@@ -47218,6 +47545,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 2911,
-  "generated": "2026-05-06T16:01:06Z"
+  "page_count": 2936,
+  "generated": "2026-05-06T16:02:42Z"
 }
