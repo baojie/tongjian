@@ -213,6 +213,7 @@ function buildPageToc(core, pid) {
   }
 
   // 为标题生成唯一 ID 并收集条目
+  // 使用 § 前缀区分页内锚点与页面名称，避免路由混淆
   const seen = new Set();
   const entries = [];
   headings.forEach(h => {
@@ -225,8 +226,8 @@ function buildPageToc(core, pid) {
     let uid = id;
     while (seen.has(uid)) { n++; uid = id + '-' + n; }
     seen.add(uid);
-    h.id = uid;
-    entries.push({ level: h.tagName === 'H2' ? 2 : 3, id: uid, text });
+    h.id = '§' + uid;
+    entries.push({ level: h.tagName === 'H2' ? 2 : 3, id: h.id, text });
   });
 
   // 构建树：h2 为根，h3 挂载到前一个 h2 下
@@ -241,13 +242,10 @@ function buildPageToc(core, pid) {
     }
   }
 
-  // 生成链接
-  //   - 标题对应独立页面 → #页面名（由路由加载页面）
-  //   - 否则 → #锚点ID（页内滚动）
+  // 生成链接：目录条目始终链接到页内锚点（§前缀ID），不跳转到同名页面
   const html = tree.map(entry => {
-    const resolved = resolvePageId(entry.text, core.registry);
-    const href = resolved ? `#${encodeURIComponent(resolved[0])}` : `#${entry.id}`;
-    const link = `<a href="${href}"${resolved ? ' data-toc-page=""' : ''}>${escapeHtml(entry.text)}</a>`;
+    const href = `#${encodeURIComponent(entry.id)}`;
+    const link = `<a href="${href}">${escapeHtml(entry.text)}</a>`;
     if (entry.children.length === 0) {
       return `<div class="toc-h2">${link}</div>`;
     }
@@ -255,9 +253,8 @@ function buildPageToc(core, pid) {
       <summary>${link}</summary>
       <div class="toc-children">
         ${entry.children.map(c => {
-          const cResolved = resolvePageId(c.text, core.registry);
-          const ch = cResolved ? `#${encodeURIComponent(cResolved[0])}` : `#${c.id}`;
-          return `<div class="toc-h3"><a href="${ch}"${cResolved ? ' data-toc-page=""' : ''}>${escapeHtml(c.text)}</a></div>`;
+          const ch = `#${encodeURIComponent(c.id)}`;
+          return `<div class="toc-h3"><a href="${ch}">${escapeHtml(c.text)}</a></div>`;
         }).join('')}
       </div>
     </details>`;
@@ -295,15 +292,9 @@ function buildPageToc(core, pid) {
   toc._tocClick = (e) => {
     const link = e.target.closest('a[href^="#"]');
     if (!link) return;
-    if (link.hasAttribute('data-toc-page')) {
-      // 独立页面链接 → 交给路由导航
-      e.preventDefault();
-      location.hash = link.getAttribute('href');
-      return;
-    }
-    // 页内锚点 → 平滑滚动
-    const hash = link.getAttribute('href');
-    const el = document.getElementById(hash.slice(1));
+    // 目录链接始终是页内 §前缀锚点 → 平滑滚动
+    const hash = decodeURIComponent(link.getAttribute('href').slice(1));
+    const el = document.getElementById(hash);
     if (el) {
       e.preventDefault();
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1056,6 +1047,13 @@ function detectPoemsInChapter(articleEl) {
   if (start >= 0 && paragraphs.length - start >= 3) runs.push([start, paragraphs.length]);
 
   for (const [s, e] of runs) {
+    // 排除历史散文：若 ≥65% 的行以句号结尾，是独立陈述句（继位/薨殁/年号等），非诗词
+    // 真正的诗词行末交替出现 ，和 。，句号占比通常 ≤50%
+    const runLen = e - s;
+    const periodCount = Array.from({ length: runLen }, (_, i) => bodyText(paragraphs[s + i]))
+      .filter(t => t.endsWith('。')).length;
+    if (periodCount / runLen >= 0.65) continue;
+
     for (let j = s; j < e; j++) {
       const text = bodyText(paragraphs[j]);
       if (text.endsWith('：')) continue;
@@ -1191,7 +1189,7 @@ export async function renderHome(core) {
     .filter(p => !['redirect','disambiguation','special','chapter','overview'].includes(p.type||''))
     .filter(p => p.featured || (p.quality || 'stub') !== 'stub')
     .sort((a, b) => scoreOf(b) - scoreOf(a))
-    .slice(0, 24);
+    .slice(0, 60);
   const entityCardsHtml = entityCandidates.map(renderFeaturedCard).join('');
 
   const entityCount = allPages.filter(p =>

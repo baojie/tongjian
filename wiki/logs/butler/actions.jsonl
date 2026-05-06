@@ -696,3 +696,10 @@
 {"round": 226, "type": "create-page", "page": "宗悫", "result": "accept", "desc": "刘宋将领，愿乘长风破万里浪，以狮形惊退战象", "ts": "2026-05-06T06:19:34Z"}
 {"round": 226, "type": "create-page", "page": "柳元景", "result": "accept", "desc": "刘宋将领，弘农北伐主将，拥立孝武帝", "ts": "2026-05-06T06:19:35Z"}
 {"round": 226, "type": "create-page", "page": "薛安都", "result": "accept", "desc": "刘宋将领，柳元景部将，弘农北伐断后", "ts": "2026-05-06T06:19:36Z"}
+{"round": 225, "type": "create-page", "page": "前318年 前316年 前314年 前296年 前283年 前279年", "result": "accept", "desc": "create-page×6页，600WU；另fix首页卡片60", "ts": "2026-05-06T06:24:33Z", "instance": "刘攽", "reflect": "战国合纵/秦灭蜀/燕乱/楚怀王/完璧/渑池，各含≥2PN；renderer.js slice(0,24)→60"}
+{"round": 227, "type": "create-page", "page": "萧思话", "result": "accept", "desc": "刘宋将领，平杨难当乱，复守汉中", "ts": "2026-05-06T06:26:48Z"}
+{"round": 227, "type": "create-page", "page": "王玄谟", "result": "accept", "desc": "刘宋将领，封狼居须言大而无实，北伐失败", "ts": "2026-05-06T06:26:49Z"}
+{"round": 227, "type": "create-page", "page": "江湛", "result": "accept", "desc": "刘宋文臣，与徐湛之并称江徐，劝北伐受憾", "ts": "2026-05-06T06:26:50Z"}
+{"round": 227, "type": "create-page", "page": "徐湛之", "result": "accept", "desc": "刘宋文臣，告发义康，与江湛并称江徐", "ts": "2026-05-06T06:26:51Z"}
+{"round": 227, "type": "create-page", "page": "王僧达", "result": "accept", "desc": "刘宋才士，轻躁招祸，门第之弊典型", "ts": "2026-05-06T06:26:52Z"}
+{"round": 227, "type": "create-page", "page": "司马错", "result": "accept", "desc": "战国秦将，力主先伐蜀奠定统一基础", "ts": "2026-05-06T06:26:53Z"}
