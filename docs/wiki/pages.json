@@ -1729,7 +1729,7 @@
         "隋",
         "宰相"
       ],
-      "description": "隋汴州刺史，抚岭南。",
+      "description": "隋汴州刺史、桂州总管，抚岭南。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -19044,6 +19044,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "张丰": {
+      "type": "person",
+      "label": "张丰",
+      "aliases": [],
+      "tags": [
+        "涿郡太守",
+        "反叛"
+      ],
+      "description": "东汉涿郡太守，反叛自称天上大将军，为祭遵所擒",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "张义潮": {
       "type": "person",
       "label": "张义潮",
@@ -19390,7 +19402,7 @@
       ],
       "description": "战国赵国谋士，晋阳之战中游说韩、魏反正，成功瓦解智伯联盟，是三家灭智的关键谋划者。",
       "quality": "basic",
-      "quality_score": 30,
+      "quality_score": 49,
       "total_refs": 5,
       "total_chapters": 1
     },
@@ -19665,7 +19677,7 @@
       ],
       "description": "西汉名臣，以直言敢谏著称，曾任山阳太守、京兆尹。",
       "quality": "basic",
-      "quality_score": 42,
+      "quality_score": 52,
       "total_refs": 9,
       "total_chapters": 0
     },
@@ -31670,7 +31682,7 @@
         "将领",
         "后赵"
       ],
-      "description": "十六国时期将领。",
+      "description": "十六国时期将领，后赵将，与凉州交战。",
       "total_refs": 1,
       "total_chapters": 0
     },
@@ -33119,6 +33131,18 @@
       ],
       "description": "田悦，中唐魏博节度使",
       "total_refs": 7,
+      "total_chapters": 0
+    },
+    "田戎": {
+      "type": "person",
+      "label": "田戎",
+      "aliases": [],
+      "tags": [
+        "扫地大将军",
+        "夷陵"
+      ],
+      "description": "新末起兵，自称扫地大将军，后亡入蜀归公孙述",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "田承嗣": {
@@ -34750,6 +34774,18 @@
       "quality": "featured",
       "quality_score": 57,
       "total_refs": 7,
+      "total_chapters": 0
+    },
+    "秦丰": {
+      "type": "person",
+      "label": "秦丰",
+      "aliases": [],
+      "tags": [
+        "楚黎王",
+        "黎丘"
+      ],
+      "description": "新末起兵于黎丘，自称楚黎王，为岑彭所破",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "秦二世": {
@@ -41170,6 +41206,18 @@
       "total_refs": 5,
       "total_chapters": 0
     },
+    "苏茂": {
+      "type": "person",
+      "label": "苏茂",
+      "aliases": [],
+      "tags": [
+        "更始",
+        "刘永"
+      ],
+      "description": "更始讨难将军，后归刘永为大司马",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "苏逢吉": {
       "type": "person",
       "label": "苏逢吉",
@@ -43642,6 +43690,18 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "裴之高": {
+      "type": "person",
+      "label": "裴之高",
+      "aliases": [],
+      "tags": [
+        "梁",
+        "西豫州刺史"
+      ],
+      "description": "梁西豫州刺史，侯景之乱时入援建康",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "裴仁基": {
       "type": "person",
       "label": "裴仁基",
@@ -45094,7 +45154,7 @@
       "description": "晋国义士，为智伯复仇，漆身吞炭，行刺赵襄子，留下\"士为知己者死\"典故。",
       "quality": "basic",
       "quality_score": 37,
-      "total_refs": 13,
+      "total_refs": 14,
       "total_chapters": 2
     },
     "賨": {
@@ -46983,6 +47043,18 @@
       "quality_score": 39,
       "total_refs": 12,
       "total_chapters": 4
+    },
+    "邓奉": {
+      "type": "person",
+      "label": "邓奉",
+      "aliases": [],
+      "tags": [
+        "破虏将军",
+        "反叛"
+      ],
+      "description": "东汉破虏将军，因吴汉侵暴其乡里而反，后降光武",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "邓禹": {
       "type": "person",
@@ -55074,6 +55146,7 @@
     "弓": "弓",
     "弓矢": "弓矢",
     "张万福": "张万福",
+    "张丰": "张丰",
     "张义潮": "张义潮",
     "张九龄": "张九龄",
     "张文献": "张九龄",
@@ -56282,6 +56355,7 @@
     "田弘正": "田弘正",
     "田忌": "田忌",
     "田悦": "田悦",
+    "田戎": "田戎",
     "田承嗣": "田承嗣",
     "田晏": "田晏",
     "田横": "田横",
@@ -56420,6 +56494,7 @@
     "种暠": "种暠",
     "秘书": "秘书",
     "租庸调": "租庸调",
+    "秦丰": "秦丰",
     "秦二世": "秦二世",
     "胡亥": "秦二世",
     "秦叔宝": "秦叔宝",
@@ -57327,6 +57402,7 @@
     "苏秦": "苏秦",
     "苏季子": "苏秦",
     "苏绰": "苏绰",
+    "苏茂": "苏茂",
     "苏逢吉": "苏逢吉",
     "苏颋": "苏颋",
     "苑君璋": "苑君璋",
@@ -57541,6 +57617,7 @@
     "裘": "裘",
     "裳": "裳",
     "裴之横": "裴之横",
+    "裴之高": "裴之高",
     "裴仁基": "裴仁基",
     "裴休": "裴休",
     "裴侠": "裴侠",
@@ -57837,6 +57914,7 @@
     "邓太后": "邓太后",
     "和熹皇后": "邓太后",
     "邓绥": "邓太后",
+    "邓奉": "邓奉",
     "邓禹": "邓禹",
     "邓禹高密侯": "邓禹",
     "邓羌": "邓羌",
@@ -58406,6 +58484,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 3741,
-  "generated": "2026-05-06T17:14:26Z"
+  "page_count": 3747,
+  "generated": "2026-05-06T17:15:32Z"
 }
