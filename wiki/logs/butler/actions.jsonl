@@ -800,3 +800,12 @@
 {"round": 251, "type": "create-page", "page": "赵肃侯", "result": "accept", "desc": "新建词条：赵肃侯", "ts": "2026-05-06T08:42:53Z"}
 {"round": 251, "type": "create-page", "page": "管辂", "result": "accept", "desc": "新建词条：管辂", "ts": "2026-05-06T08:42:54Z"}
 {"round": 252, "type": "enrich-page", "page": "公元316年 前209年", "result": "accept", "desc": "enrich-page×2页，100WU；公元316年补PN089-083，前209年补PN007-101及修正干支", "ts": "2026-05-06T08:45:10Z", "instance": "刘攽", "reflect": "R252锁定5个年份页面，3个（220、618、907）已有≥2条PN；对316年和前209年补充第二条PN引注"}
+{"round": 253, "type": "publish", "page": "", "result": "accept", "desc": "publish: rebuild pages.json(1223), compute_knowledge, git commit c1364d7, git push", "ts": "2026-05-06T08:47:01Z", "instance": "刘攽", "reflect": "R253发布轮，R248/R250/R252的所有年份词条已成功推送；另外发现R250的5个词条已在另一实例commit dd5fb97中提前发布"}
+{"round": 255, "type": "enrich-page", "page": "公元8年 公元420年 公元263年", "result": "accept", "desc": "enrich-page×3页，150WU；755年和前202年已有≥2PN无需重复", "ts": "2026-05-06T08:53:50Z", "instance": "刘攽", "reflect": "R255锁定5个年份页面，其中公元755年(2PN)和前202年(2PN)已完整；对8年/420年/263年各补充第二条PN引注"}
+{"round": 254, "type": "create-page", "page": "晋愍帝", "result": "accept", "desc": "新建词条：晋愍帝", "ts": "2026-05-06T08:57:23Z"}
+{"round": 254, "type": "create-page", "page": "公元936年", "result": "accept", "desc": "新建词条：公元936年", "ts": "2026-05-06T08:57:23Z"}
+{"round": 254, "type": "create-page", "page": "公元947年", "result": "accept", "desc": "新建词条：公元947年", "ts": "2026-05-06T08:57:24Z"}
+{"round": 254, "type": "create-page", "page": "公元951年", "result": "accept", "desc": "新建词条：公元951年", "ts": "2026-05-06T08:57:25Z"}
+{"round": 254, "type": "create-page", "page": "公元959年", "result": "accept", "desc": "新建词条：公元959年", "ts": "2026-05-06T08:57:26Z"}
+{"round": 254, "type": "create-page", "page": "公元942年", "result": "accept", "desc": "新建词条：公元942年", "ts": "2026-05-06T08:57:27Z"}
+{"round": 254, "type": "create-page", "page": "晋恭帝", "result": "accept", "desc": "新建词条：晋恭帝", "ts": "2026-05-06T08:57:28Z"}
