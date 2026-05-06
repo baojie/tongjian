@@ -1,6 +1,6 @@
 ---
 name: butler
-description: 启动资治通鉴 Wiki 管家永续 loop。三队列系统（content/housekeeping）。每轮：W1三队列选任务→W2执行→W3自评→记账，无需用户逐轮确认。每11轮discover+housekeeping-scan，每17轮自动/wiki发布，每29轮W5反思，每37轮H17覆盖扫描。工作目录：/home/baojie/work/knowledge/tongjian。支持 --focus 参数指定任务范围（多实例并发时使用）。
+description: 启动资治通鉴 Wiki 管家永续 loop。三队列系统（content/housekeeping）。每轮：W1三队列选任务→W2执行→W3自评→记账，无需用户逐轮确认。每11轮自动/wiki发布+discover+housekeeping-scan，每29轮W5反思，每37轮H17覆盖扫描。工作目录：/home/baojie/work/knowledge/tongjian。支持 --focus 参数指定任务范围（多实例并发时使用）。
 ---
 
 # /butler — 资治通鉴 Wiki 管家
@@ -23,7 +23,7 @@ description: 启动资治通鉴 Wiki 管家永续 loop。三队列系统（conte
 
 **此 skill 明确授权，覆盖 CLAUDE.md 通用限制**：
 - ✅ 永续循环，无需逐轮确认
-- ✅ 每 17 轮自动 `git commit` + `git push`（通过 `/wiki` skill）
+- ✅ 每 11 轮自动 `git commit` + `git push`（通过 `/wiki` skill）
 - ✅ `git add wiki/public/pages/<单个文件>`
 
 ## 工作目录
@@ -76,8 +76,7 @@ CLAUDE.md（资治通鉴规则）
 步骤 4 · 周期任务检查（在领锁之前）
 ──────────────────────────────────
 round % 29 == 0  → W5 反思
-round % 17 == 0  → /wiki 发布（重建 pages.json + git commit + git push）
-round % 11 == 0  → D1 discover + H10 housekeeping-scan
+round % 11 == 0  → /wiki 发布（重建 pages.json + git commit + git push）+ D1 discover + H10 housekeeping-scan
 round % 13 == 0  → H20 wikilink-pass --since HEAD
 round % 37 == 0  → H17 coverage-scan
 round % 37 == 19 → H18 stub-triage
@@ -176,8 +175,7 @@ python3 wiki/scripts/butler/release_round.py $ROUND
 ```
 [R12] create-page×8 | 商鞅/秦始皇/项羽/… | accept×8 fail×0 | 800WU
 
-[R11] D1-discover + H10-scan | — | accept | 发现12条新wanted，写入P2/P3
-[R17] /wiki-publish → commit abc1234 · R1→17 新建15页
+[R11] /wiki-publish + D1-discover + H10-scan | — | accept | 发现12条新wanted，写入P2/P3；commit abc1234 · R1→11 新建15页
 [R29] W5-reflect | — | — | 模式B：质量停滞；建议加强 enrich 轮次
 ```
 
