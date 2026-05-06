@@ -64,6 +64,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "丁固": {
+      "type": "person",
+      "label": "丁固",
+      "aliases": [],
+      "tags": [
+        "吴",
+        "御史大夫",
+        "司徒"
+      ],
+      "description": "吴御史大夫、司徒，平永安侯谦之乱",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "丁奉": {
       "type": "person",
       "label": "丁奉",
@@ -396,7 +409,7 @@
       ],
       "description": "西汉文学家，以诙谐善辩著称，武帝待诏金马门",
       "quality": "basic",
-      "quality_score": 25,
+      "quality_score": 44,
       "total_refs": 3,
       "total_chapters": 0
     },
@@ -2776,7 +2789,7 @@
       ],
       "description": "东汉汉阳太守，以忠节死义",
       "quality": "basic",
-      "quality_score": 23,
+      "quality_score": 45,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -18883,6 +18896,18 @@
       "total_refs": 5,
       "total_chapters": 3
     },
+    "廖立": {
+      "type": "person",
+      "label": "廖立",
+      "aliases": [],
+      "tags": [
+        "蜀汉",
+        "长水校尉"
+      ],
+      "description": "蜀汉长水校尉，自谓才名宜为诸葛亮之副，被废为民",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "廪给": {
       "type": "concept",
       "label": "廪给",
@@ -20244,6 +20269,18 @@
         "给事黄门侍郎"
       ],
       "description": "北魏长史，拓跋珪谋臣",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "张裔": {
+      "type": "person",
+      "label": "张裔",
+      "aliases": [],
+      "tags": [
+        "蜀汉",
+        "丞相长史"
+      ],
+      "description": "蜀汉丞相长史，统留府事，赞诸葛亮至公",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -26619,6 +26656,19 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "杨洪": {
+      "type": "person",
+      "label": "杨洪",
+      "aliases": [],
+      "tags": [
+        "蜀汉",
+        "治中从事",
+        "犍为"
+      ],
+      "description": "蜀汉治中从事，献策发兵救汉中",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "杨渥": {
       "type": "person",
       "label": "杨渥",
@@ -27140,7 +27190,7 @@
         "东汉",
         "谏臣"
       ],
-      "description": "东汉尚书，谏诛党人。",
+      "description": "东汉尚书，谏灵帝勿锢党人。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -39706,6 +39756,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "简雍": {
+      "type": "person",
+      "label": "简雍",
+      "aliases": [],
+      "tags": [
+        "蜀汉",
+        "昭德将军"
+      ],
+      "description": "蜀汉昭德将军，从刘备入益州，说降刘璋",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "管仲": {
       "type": "person",
       "label": "管仲",
@@ -42568,6 +42630,19 @@
       "quality_score": 53,
       "total_refs": 61,
       "total_chapters": 14
+    },
+    "董厥": {
+      "type": "person",
+      "label": "董厥",
+      "aliases": [],
+      "tags": [
+        "蜀汉",
+        "尚书令",
+        "辅国大将军"
+      ],
+      "description": "蜀汉尚书令、辅国大将军，蜀亡时与姜维同降",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "董和": {
       "type": "person",
@@ -49941,6 +50016,18 @@
       "total_refs": 12,
       "total_chapters": 0
     },
+    "陶璜": {
+      "type": "person",
+      "label": "陶璜",
+      "aliases": [],
+      "tags": [
+        "吴",
+        "交州刺史"
+      ],
+      "description": "吴交州刺史，平定交趾，后降晋",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "陶谦": {
       "type": "person",
       "label": "陶谦",
@@ -52031,6 +52118,18 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "骆统": {
+      "type": "person",
+      "label": "骆统",
+      "aliases": [],
+      "tags": [
+        "吴",
+        "功曹"
+      ],
+      "description": "吴功曹，劝孙权尊贤接士",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "骑兵": {
       "type": "concept",
       "label": "骑兵",
@@ -53794,6 +53893,7 @@
     "丁会": "丁会",
     "丁公": "丁公",
     "丁原": "丁原",
+    "丁固": "丁固",
     "丁奉": "丁奉",
     "丁承渊": "丁奉",
     "丁谧": "丁谧",
@@ -55279,6 +55379,7 @@
     "廖化": "廖化",
     "廖元俭": "廖化",
     "廖湛": "廖湛",
+    "廖立": "廖立",
     "廪给": "廪给",
     "廪食": "廪食",
     "延岑": "延岑",
@@ -55388,6 +55489,7 @@
     "张衡": "张衡",
     "张平子": "张衡",
     "张衮": "张衮",
+    "张裔": "张裔",
     "张角": "张角",
     "张让": "张让",
     "张训": "张训",
@@ -55942,6 +56044,7 @@
     "杨椿": "杨椿",
     "杨洞潜": "杨洞潜",
     "杨津": "杨津",
+    "杨洪": "杨洪",
     "杨渥": "杨渥",
     "杨炎": "杨炎",
     "杨炯": "杨炯",
@@ -57428,6 +57531,7 @@
     "卷第二百九十四": "第294卷",
     "笮融": "笮融",
     "筝": "筝",
+    "简雍": "简雍",
     "管仲": "管仲",
     "管夷吾": "管仲",
     "管子": "管仲",
@@ -57667,6 +57771,7 @@
     "休昭": "董允",
     "董养": "董养",
     "董卓": "董卓",
+    "董厥": "董厥",
     "董和": "董和",
     "董宣": "董宣",
     "董宪": "董宪",
@@ -58306,6 +58411,7 @@
     "陪葬": "陪葬",
     "陶侃": "陶侃",
     "士行": "陶侃",
+    "陶璜": "陶璜",
     "陶谦": "陶谦",
     "隆中对": "隆中对",
     "草庐对": "隆中对",
@@ -58485,6 +58591,7 @@
     "骁锐": "骁锐",
     "骄": "骄",
     "骆宾王": "骆宾王",
+    "骆统": "骆统",
     "骑兵": "骑兵",
     "骑军": "骑军",
     "骑卒": "骑卒",
@@ -58641,6 +58748,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 3759,
-  "generated": "2026-05-06T17:16:32Z"
+  "page_count": 3767,
+  "generated": "2026-05-06T17:17:34Z"
 }
