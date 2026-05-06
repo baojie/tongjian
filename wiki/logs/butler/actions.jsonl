@@ -395,3 +395,19 @@
 {"round": 132, "type": "create-page", "page": "萧铣", "result": "accept", "desc": "隋末梁国割据者，PN:184-043,184-064,185-034,185-035,187-086,187-087,188-032,188-053", "ts": "2026-05-06T01:40:59Z"}
 {"round": 133, "type": "enrich-page", "page": "赵简子 牛僧孺", "result": "accept", "desc": "enrich-page×2页，100WU", "ts": "2026-05-06T01:41:04Z", "instance": "刘攽", "reflect": "赵简子新增晋阳之甲的历史意义；牛僧孺新增科举直言遭贬和反对收复维州两节，升至standard层级"}
 {"round": 134, "type": "enrich-page", "page": "许远 高洋", "result": "accept", "desc": "enrich-page×2页，200WU", "ts": "2026-05-06T01:44:54Z", "instance": "刘攽", "reflect": "许远新增粮储被夺、坚守不退、被俘遇难三节，升至2231B；高洋新增北伐、晚年暴虐、诛杀诸刘三节，升至2402B"}
+{"round": 135, "type": "create-page", "page": "韩擒虎", "result": "accept", "desc": "隋灭陈五百人奇袭采石名将，PN:175-017,176-120,177-004,177-007,177-009,177-010,177-014,177-016", "ts": "2026-05-06T01:45:41Z"}
+{"round": 135, "type": "create-page", "page": "来护儿", "result": "accept", "desc": "隋代水军名将三征高丽，PN:177-070,181-076,181-078,182-018,182-024,182-029,182-030,182-035", "ts": "2026-05-06T01:45:42Z"}
+{"round": 135, "type": "create-page", "page": "辅公祏", "result": "accept", "desc": "唐初江淮割据叛唐建宋，PN:182-056,183-038,188-052,188-102,190-114,190-116,190-121,190-134", "ts": "2026-05-06T01:45:43Z"}
+{"round": 135, "type": "create-page", "page": "李轨", "result": "accept", "desc": "隋末凉州割据建凉国，PN:184-014,184-016,185-063,186-004,186-041,186-077", "ts": "2026-05-06T01:45:44Z"}
+{"round": 135, "type": "create-page", "page": "梁师都", "result": "accept", "desc": "隋末依附突厥建梁国，PN:183-042,183-049,185-029,185-062,187-013,187-036", "ts": "2026-05-06T01:45:45Z"}
+{"round": 135, "type": "create-page", "page": "刘黑闼", "result": "accept", "desc": "唐初窦建德旧部复仇起兵，PN:188-006,189-054,189-059,189-062,189-063,189-065", "ts": "2026-05-06T01:45:46Z"}
+{"round": 136, "type": "publish", "page": "wiki", "result": "accept", "desc": "publish×1，100WU", "ts": "2026-05-06T01:46:20Z", "instance": "刘攽", "reflect": "R136发布：丰富20词条至standard层级，commit 9da750f，push成功"}
+{"round": 138, "type": "enrich-page", "page": "晋鄙 韩康子", "result": "accept", "desc": "enrich-page×2页，100WU", "ts": "2026-05-06T01:47:58Z", "instance": "刘攽", "reflect": "晋鄙新增被秦用来中伤信陵君一节；韩康子新增世系传承一节"}
+{"round": 139, "type": "enrich-page", "page": "中山靖王 王龁", "result": "accept", "desc": "enrich-page×2页，100WU", "ts": "2026-05-06T01:50:14Z", "instance": "刘攽", "reflect": "中山靖王新增司马光存疑节；王龁新增退败与后续节"}
+{"round": 140, "type": "enrich-page", "page": "何进 项梁", "result": "accept", "desc": "enrich-page×2页，200WU", "ts": "2026-05-06T01:53:04Z", "instance": "刘攽", "reflect": "何进补充H1标题并新增袁绍献策、郑泰力谏两节；项梁新增范增说拥楚怀王、张良立韩王、定陶败亡细节"}
+{"round": 137, "type": "create-page", "page": "马周", "result": "accept", "desc": "唐太宗谏臣，寒门起家，PN:193-028,194-007,195-011,195-042,195-054,197-012", "ts": "2026-05-06T01:53:25Z"}
+{"round": 137, "type": "create-page", "page": "许敬宗", "result": "accept", "desc": "唐高宗权臣，支持武则天立后，PN:185-060,189-076,197-029,197-083,199-145,199-156", "ts": "2026-05-06T01:53:26Z"}
+{"round": 137, "type": "create-page", "page": "岑文本", "result": "accept", "desc": "唐太宗辅臣，先仕萧铣后归唐，PN:185-034,189-084,195-019,195-042,195-103,197-017", "ts": "2026-05-06T01:53:27Z"}
+{"round": 137, "type": "create-page", "page": "虞世南", "result": "accept", "desc": "唐太宗文学家五绝，PN:182-041,187-023,189-076,192-008,194-018,194-076", "ts": "2026-05-06T01:53:35Z"}
+{"round": 137, "type": "create-page", "page": "戴胄", "result": "accept", "desc": "唐太宗能臣忠清公直，PN:187-003,187-040,188-125,192-032,193-005,193-091", "ts": "2026-05-06T01:53:36Z"}
+{"round": 137, "type": "create-page", "page": "温彦博", "result": "accept", "desc": "唐太宗辅臣被俘不泄密，PN:186-061,191-052,191-059,192-003,192-058,193-014", "ts": "2026-05-06T01:53:37Z"}
