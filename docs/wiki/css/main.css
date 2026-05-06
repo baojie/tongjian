@@ -150,13 +150,18 @@ article h3 {
 }
 article h4 { font-size: 1em; margin-top: 1.2em; scroll-margin-top: 60px; }
 
-/* H1-H6 标题内链接去样式化（排除工具栏按钮） */
-h1 a:not(.src-tab):not(.orig-tab),
-h2 a, h3 a, h4 a, h5 a, h6 a {
+/* H1-H6 标题内链接去样式化（排除工具栏按钮和 wikilink） */
+h1 a:not(.src-tab):not(.orig-tab):not(.wikilink),
+h2 a:not(.wikilink), h3 a:not(.wikilink), h4 a:not(.wikilink), h5 a:not(.wikilink), h6 a:not(.wikilink) {
   color: inherit;
   text-decoration: none;
   pointer-events: none;
   cursor: default;
+}
+/* 标题内 wikilink 保持可点击 */
+h1 .wikilink, h2 .wikilink, h3 .wikilink, h4 .wikilink, h5 .wikilink, h6 .wikilink {
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 article p { margin: .75em 0; }
@@ -434,7 +439,7 @@ body.toc-collapsed .toc-sidebar {
 .rc-plus  { color: #2a7a2a; }
 .rc-minus { color: #c0392b; }
 
-/* Home page — space poster hero */
+/* Home page — painting hero */
 body.is-home .page { padding: 0; margin-top: 0; }
 body.is-home .wiki-home { max-width: none; margin: 0; }
 
@@ -442,7 +447,7 @@ body.is-home .wiki-home { max-width: none; margin: 0; }
   position: relative;
   width: 100%;
   overflow: hidden;
-  background: #04060e;
+  background: #c8a040;
   line-height: 1;
 }
 .hero-cosmos {
@@ -450,6 +455,19 @@ body.is-home .wiki-home { max-width: none; margin: 0; }
   width: 100%;
   height: clamp(260px, 36vw, 460px);
   object-fit: cover;
+  object-position: center 30%;
+}
+.hero-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(20,10,4,0)    0%,
+    rgba(20,10,4,0.05) 35%,
+    rgba(20,10,4,0.55) 72%,
+    rgba(10,6,2,0.88)  100%
+  );
+  pointer-events: none;
 }
 .hero-overlay {
   position: absolute;
@@ -1131,25 +1149,53 @@ article[data-type="skill"]        { border-left-color: #4a78c0; }
   background: #0a0806;
   border-radius: 4px;
   overflow: visible;
+  position: relative;
+  cursor: pointer;
+}
+.bc-stretch-link {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+}
+.bc-numeral, .bc-body, .bc-chap {
+  position: relative;
+  z-index: 1;
 }
 .featured-card.book-card:hover {
   background: #0e0b07;
 }
 .bc-numeral {
-  font-size: 2.2em;
+  font-size: 1.9em;
   font-weight: 400;
-  font-family: 'ChongxiSeal', var(--serif);
-  color: rgba(192,168,120,.45);
+  font-family: var(--serif);
+  color: #f5ead8;
   line-height: 1;
   min-width: 2.6em;
   text-align: center;
   text-decoration: none;
-  padding: .6em .1em .6em .5em;
+  padding: .55em .3em .55em .5em;
   flex-shrink: 0;
   letter-spacing: 0;
-  transition: color .2s;
+  transition: opacity .2s;
+  /* 朱砂印章样式 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.bc-numeral:hover { color: rgba(192,168,120,.75); }
+.bc-numeral span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6em;
+  height: 1.6em;
+  background: #8b1a14;
+  border: 1px solid rgba(200,56,36,.40);
+  border-radius: 2px;
+  color: #f8eed8;
+  font-size: 1em;
+}
+.bc-numeral:hover { opacity: .75; }
 .bc-body {
   flex: 1;
   padding: .65em 1.1em .65em .2em;

@@ -692,157 +692,8 @@ const BOOK_META = [
 ];
 
 function buildHomeSvg() {
-  // Seeded deterministic random for stars
-  let s = 0xA08030B4;
-  const rand = () => { s ^= s<<13; s ^= s>>>17; s ^= s<<5; return (s>>>0)/0xffffffff; };
-
-  const stars = Array.from({length:55},()=>{
-    const x=(rand()*960+20).toFixed(1), y=(rand()*280+8).toFixed(1);
-    const r=(rand()*1.1+0.3).toFixed(1), op=(rand()*.45+.15).toFixed(2);
-    return `<circle cx="${x}" cy="${y}" r="${r}" fill="#ddd8c0" opacity="${op}"/>`;
-  }).join('');
-
-  const brightStars=[
-    [148,38,1.9,.78],[312,22,1.6,.72],[528,48,1.7,.74],
-    [740,32,1.5,.70],[910,44,1.6,.68],[220,68,1.4,.62],
-    [660,28,1.5,.65],[440,18,1.3,.60],[860,60,1.4,.63]
-  ].map(([x,y,r,op])=>`<circle cx="${x}" cy="${y}" r="${r}" fill="#f0ecd8" opacity="${op}"/>`).join('');
-
-  const sX=876, sY=338, sW=98, sH=70, tipX=634, tipY=246, tipW=242, tipH=84;
-
-  return `<svg class="hero-cosmos" viewBox="0 0 1000 420" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-<defs>
-  <linearGradient id="hg-sky" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#04060e"/>
-    <stop offset="50%" stop-color="#080d1e"/>
-    <stop offset="100%" stop-color="#0c1428"/>
-  </linearGradient>
-  <radialGradient id="hg-glow" cx="82%" cy="18%" r="35%" gradientUnits="objectBoundingBox">
-    <stop offset="0%" stop-color="#c0a840" stop-opacity="0.16"/>
-    <stop offset="100%" stop-color="#c09030" stop-opacity="0"/>
-  </radialGradient>
-  <radialGradient id="hg-moon-halo" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#d8cc70" stop-opacity="0.28"/>
-    <stop offset="60%" stop-color="#c0a030" stop-opacity="0.06"/>
-    <stop offset="100%" stop-color="#c09030" stop-opacity="0"/>
-  </radialGradient>
-  <linearGradient id="hg-mist" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#506080" stop-opacity="0"/>
-    <stop offset="30%" stop-color="#506080" stop-opacity="0.08"/>
-    <stop offset="70%" stop-color="#506080" stop-opacity="0.06"/>
-    <stop offset="100%" stop-color="#506080" stop-opacity="0"/>
-  </linearGradient>
-  <linearGradient id="hg-river" x1="0%" y1="0%" x2="0%" y2="100%">
-    <stop offset="0%" stop-color="#90a8c0" stop-opacity="0.22"/>
-    <stop offset="100%" stop-color="#6080a0" stop-opacity="0.06"/>
-  </linearGradient>
-</defs>
-<!-- 夜空 -->
-<rect width="1000" height="420" fill="url(#hg-sky)"/>
-<rect width="1000" height="420" fill="url(#hg-glow)"/>
-<!-- 星辰 -->
-${stars}
-${brightStars}
-<!-- 月晕 -->
-<circle cx="824" cy="76" r="62" fill="url(#hg-moon-halo)"/>
-<!-- 弦月（两圆叠加） -->
-<circle cx="824" cy="76" r="26" fill="#ddd070" opacity="0.20"/>
-<circle cx="824" cy="76" r="22" fill="#e0d880" opacity="0.16"/>
-<circle cx="839" cy="71" r="24" fill="#04060e"/>
-<!-- ── 远景山脉（右侧） ──────────────────────────── -->
-<path d="M380,420 C400,348 440,300 490,268 C530,242 578,232 626,234 C670,236 712,250 752,266 C792,282 830,300 868,316 C900,328 940,342 980,354 L1000,360 L1000,420 Z" fill="#1c2c50" opacity="0.38"/>
-<path d="M520,420 C538,370 562,330 596,304 C624,282 658,270 694,268 C728,266 762,276 796,290 C830,304 862,320 896,334 C924,344 958,356 1000,372 L1000,420 Z" fill="#161e3c" opacity="0.45"/>
-<!-- ── 中景山脉 ──────────────────────────────── -->
-<path d="M0,420 L0,360 C20,348 48,330 76,310 C104,290 134,268 168,250 C198,234 230,224 264,220 C296,216 328,220 358,228 C388,236 416,248 444,262 C472,276 500,290 525,300 C550,310 576,316 598,310 C622,304 642,290 664,276 C684,262 706,250 730,242 C754,234 778,232 804,236 C830,240 856,250 882,262 C908,274 936,288 966,302 C980,308 990,314 1000,318 L1000,420 Z" fill="#0e1830" opacity="0.65"/>
-<!-- ── 近景山丘 ──────────────────────────────── -->
-<path d="M0,420 L0,390 C28,378 55,360 82,342 C108,324 134,308 162,296 C188,284 214,278 238,280 C260,282 280,290 298,300 C318,312 334,326 354,336 C374,346 396,352 418,350 C440,348 460,340 480,330 C500,320 520,310 542,304 C562,298 584,296 606,300 C628,304 648,312 670,322 C692,332 714,342 738,348 C762,354 788,354 812,350 C836,346 860,338 884,328 C908,318 934,306 960,296 C978,288 990,282 1000,278 L1000,420 Z" fill="#091020" opacity="0.80"/>
-<!-- 山间薄雾 -->
-<rect x="0" y="278" width="1000" height="45" fill="url(#hg-mist)" opacity="0.8"/>
-<!-- 江河（隐约） -->
-<path d="M0,360 Q250,354 500,360 Q750,366 1000,360 L1000,376 Q750,382 500,376 Q250,370 0,376 Z" fill="url(#hg-river)"/>
-<!-- 地面 -->
-<rect x="0" y="404" width="1000" height="16" fill="#070910"/>
-<!-- ── 古松（左侧，山水画风格）─────────────────────── -->
-<g stroke="#0b1220" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <!-- 主干 -->
-  <line x1="78" y1="420" x2="74" y2="130" stroke-width="11"/>
-  <line x1="74" y1="130" x2="72" y2="90" stroke-width="7"/>
-  <!-- 第一层枝 -->
-  <line x1="74" y1="350" x2="28" y2="320" stroke-width="5.5"/>
-  <line x1="74" y1="350" x2="15" y2="336" stroke-width="4.5"/>
-  <line x1="74" y1="350" x2="118" y2="326" stroke-width="5.5"/>
-  <line x1="74" y1="350" x2="128" y2="338" stroke-width="4.5"/>
-  <!-- 松针（第一层左） -->
-  <path d="M28,320 C18,308 8,300 0,296" stroke-width="3"/>
-  <path d="M28,320 C20,312 12,308 4,308" stroke-width="2.5"/>
-  <path d="M15,336 C4,326 -4,320 -10,318" stroke-width="2.5"/>
-  <!-- 松针（第一层右） -->
-  <path d="M118,326 C130,314 140,306 148,302" stroke-width="3"/>
-  <path d="M118,326 C128,318 136,314 142,314" stroke-width="2.5"/>
-  <path d="M128,338 C140,328 150,322 158,320" stroke-width="2.5"/>
-  <!-- 第二层枝 -->
-  <line x1="74" y1="280" x2="22" y2="252" stroke-width="5"/>
-  <line x1="74" y1="280" x2="10" y2="268" stroke-width="4"/>
-  <line x1="74" y1="280" x2="122" y2="256" stroke-width="5"/>
-  <line x1="74" y1="280" x2="130" y2="268" stroke-width="4"/>
-  <!-- 松针（第二层左） -->
-  <path d="M22,252 C10,240 0,232 -6,228" stroke-width="2.5"/>
-  <path d="M22,252 C14,244 6,240 0,240" stroke-width="2"/>
-  <path d="M10,268 C0,258 -6,252 -10,252" stroke-width="2"/>
-  <!-- 松针（第二层右） -->
-  <path d="M122,256 C134,244 144,236 152,232" stroke-width="2.5"/>
-  <path d="M122,256 C132,248 140,244 146,244" stroke-width="2"/>
-  <path d="M130,268 C142,258 152,252 160,250" stroke-width="2"/>
-  <!-- 第三层枝 -->
-  <line x1="74" y1="210" x2="30" y2="186" stroke-width="4.5"/>
-  <line x1="74" y1="210" x2="116" y2="190" stroke-width="4.5"/>
-  <path d="M30,186 C18,176 8,168 2,164" stroke-width="2.5"/>
-  <path d="M30,186 C22,178 14,174 8,174" stroke-width="2"/>
-  <path d="M116,190 C128,180 138,172 144,168" stroke-width="2.5"/>
-  <path d="M116,190 C126,182 134,178 140,178" stroke-width="2"/>
-  <!-- 第四层枝 -->
-  <line x1="72" y1="150" x2="38" y2="132" stroke-width="4"/>
-  <line x1="72" y1="150" x2="104" y2="136" stroke-width="4"/>
-  <path d="M38,132 C26,122 16,116 10,114" stroke-width="2"/>
-  <path d="M104,136 C116,126 125,120 130,118" stroke-width="2"/>
-  <!-- 梢顶 -->
-  <line x1="72" y1="90" x2="62" y2="70" stroke-width="3"/>
-  <line x1="72" y1="90" x2="82" y2="74" stroke-width="3"/>
-  <path d="M62,70 C55,62 48,56 44,54" stroke-width="1.8"/>
-  <path d="M82,74 C90,65 97,59 102,57" stroke-width="1.8"/>
-</g>
-<!-- 侧松（偏左，较矮） -->
-<g stroke="#090f1c" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.65">
-  <line x1="18" y1="420" x2="16" y2="240" stroke-width="8"/>
-  <line x1="16" y1="380" x2="-4" y2="362" stroke-width="4"/>
-  <line x1="16" y1="380" x2="38" y2="366" stroke-width="4"/>
-  <line x1="16" y1="330" x2="-2" y2="314" stroke-width="3.5"/>
-  <line x1="16" y1="330" x2="36" y2="318" stroke-width="3.5"/>
-  <line x1="16" y1="280" x2="0" y2="266" stroke-width="3"/>
-  <line x1="16" y1="280" x2="34" y2="268" stroke-width="3"/>
-  <path d="M-4,362 C-12,354 -18,350 -22,350" stroke-width="2"/>
-  <path d="M38,366 C46,358 54,354 60,354" stroke-width="2"/>
-  <path d="M-2,314 C-10,306 -16,302 -20,302" stroke-width="1.8"/>
-  <path d="M36,318 C44,310 52,306 58,306" stroke-width="1.8"/>
-</g>
-<!-- 水平线 -->
-<line x1="0" y1="418" x2="1000" y2="418" stroke="#c8a030" stroke-width="0.6" opacity="0.18"/>
-<!-- ── 钤印（右下角）──────────────────────────────── -->
-<g class="seal-group" style="cursor:default">
-  <rect x="${sX}" y="${sY}" width="${sW}" height="${sH}" rx="2" fill="#8b1a14" opacity="0.88"/>
-  <rect x="${sX+4}" y="${sY+4}" width="${sW-8}" height="${sH-8}" rx="1" fill="none" stroke="#c03824" stroke-width="0.8" opacity="0.45"/>
-  <text x="${sX+sW/2}" y="${sY+24}" font-family="serif" font-size="16" fill="#f8eed8" opacity="0.92" text-anchor="middle" letter-spacing="2">資治通鑒</text>
-  <text x="${sX+sW/2}" y="${sY+44}" font-family="serif" font-size="10.5" fill="#f5e8d0" opacity="0.78" text-anchor="middle" letter-spacing="1.5">百科全書</text>
-  <text x="${sX+sW/2}" y="${sY+60}" font-family="serif" font-size="9.5" fill="#f0e0c8" opacity="0.65" text-anchor="middle">司馬光著</text>
-  <rect x="${sX}" y="${sY}" width="${sW}" height="${sH}" fill="transparent"/>
-  <g class="seal-tip">
-    <rect x="${tipX}" y="${tipY}" width="${tipW}" height="${tipH}" rx="2" fill="rgba(4,6,14,0.94)" stroke="#c8a030" stroke-width="0.8"/>
-    <text x="${tipX+14}" y="${tipY+22}" font-family="serif" font-size="12" fill="#e8e0c8" opacity="0.92">鉴于往事，有资于治道。</text>
-    <text x="${tipX+14}" y="${tipY+42}" font-family="serif" font-size="12" fill="#e8e0c8" opacity="0.92">此书之所以命名也。</text>
-    <text x="${tipX+tipW-12}" y="${tipY+tipH-12}" font-family="serif" font-size="9.5" fill="#c8a030" opacity="0.65" text-anchor="end">宋神宗赐名序</text>
-  </g>
-</g>
-</svg>`;
+  return `<img class="hero-cosmos" src="images/guoguo-spring.jpg" alt="虢国夫人游春图 · 张萱 · 唐代">
+<div class="hero-gradient"></div>`;
 }
 
 
@@ -1273,11 +1124,13 @@ function renderBookCard({ key, label, subtitle, min, max }, pages) {
   }).join('');
   const moreHtml = chapters.length > 30
     ? `<span class="bc-more">+${chapters.length - 30}</span>` : '';
+  const tocHref = '#' + encodeURIComponent('资治通鉴目录');
   return `<div class="featured-card book-card">
-    <a class="bc-numeral" href="${href}">${key}</a>
+    <a class="bc-stretch-link" href="${tocHref}" aria-label="${escapeHtml(label)}目录"></a>
+    <a class="bc-numeral" href="${tocHref}"><span>${key}</span></a>
     <div class="bc-body">
       <div class="bc-head">
-        <a class="bc-title" href="${href}">${escapeHtml(label)}</a>
+        <a class="bc-title" href="${tocHref}">${escapeHtml(label)}</a>
         <span class="bc-sub">${escapeHtml(subtitle)}</span>
       </div>
       <div class="bc-chapters">${chapListHtml}${moreHtml}</div>
