@@ -59,7 +59,6 @@ async function route(core) {
       const isBackref = id.startsWith('fnref');
       const navH = document.querySelector('.topnav')?.offsetHeight ?? 0;
       if (isBackref) {
-        // 回跳到行内引用：找最近块级祖先，顶部对齐并留出 nav 高度
         const BLOCK = new Set(['P','LI','TD','TH','H1','H2','H3','H4','H5','H6','BLOCKQUOTE','DIV','SECTION']);
         let block = el.parentElement;
         while (block && !BLOCK.has(block.tagName)) block = block.parentElement;
@@ -69,6 +68,9 @@ async function route(core) {
       } else {
         el.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
+      setStatus('');
+      return;
+    } else if (cleanHash.startsWith('§')) {
       setStatus('');
       return;
     }

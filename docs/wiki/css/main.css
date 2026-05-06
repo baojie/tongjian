@@ -522,7 +522,6 @@ body.is-home .wiki-home { max-width: none; margin: 0; }
   opacity: 1;
 }
 .hero-overlay {
-.hero-overlay {
   position: absolute;
   inset: 0;
   display: flex;
@@ -1099,7 +1098,7 @@ article[data-type="chapter"] .chapter-poem .pn-label {
 /* 首页卡片缩略图 */
 .card-thumb {
   width: calc(100% + 2.3em);
-  aspect-ratio: 3 / 2;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
   background: #1a1510;
   flex-shrink: 0;
