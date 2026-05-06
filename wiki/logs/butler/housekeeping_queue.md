@@ -16,19 +16,20 @@
 ## H-P3 — 探索内务
   [ ] H-P3 housekeeping-scan | 全局 | 初始覆盖率扫描
 
-## H18 stub-triage (R2917, after %37=19)
-> 以下词条 body < 500B（R2917 重扫更新），建议优先 enrich
-- stub concept | 项_(概念) | 185B
-- stub concept | 敦_(概念) | 191B
-- stub concept | 埙_(概念) | 311B
-- stub concept | 刘汉 | 346B
-- stub concept | 篙_(概念) | 360B
-- stub concept | 萝_(概念) | 369B
-- stub concept | 蝶_(概念) | 377B
-- stub place | 小黄 | 391B
-- stub concept | 萍_(概念) | 393B
-- stub place | 育阳 | 397B
-- stub concept | 篪_(概念) | 409B
+## H18 stub-triage (R3268, %37=19)
+> 全库 body < 500B 共 7431 条（重扫更新），person 类型优先 enrich
+- stub person | 刘龙仙 | 103B
+- stub person | 刘休范 | 111B
+- stub person | 陈立 | 116B
+- stub person | 卫子夫 | 126B
+- stub person | 吕纂 | 127B
+- stub person | 论惟明 | 127B
+- stub person | 焦延寿 | 128B
+- stub person | 汉殇帝 | 137B
+- stub person | 如姬 | 138B
+- stub person | 马太后 | 138B
+- stub person | 慕容楷 | 141B
+- stub person | 翟璜 | 141B
 
 ## H17 coverage-scan (R2220, %37=0)
 > 页面元数据覆盖扫描结果
