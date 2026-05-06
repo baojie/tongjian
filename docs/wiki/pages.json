@@ -228,7 +228,7 @@
       "description": "战国时代开端，魏、赵、韩三家瓜分晋国，周威烈王正式承认三家为诸侯。",
       "quality": "featured",
       "quality_score": 46,
-      "total_refs": 32,
+      "total_refs": 34,
       "total_chapters": 7
     },
     "三老": {
@@ -316,6 +316,32 @@
       "description": "西汉武帝托孤大臣，左将军，后谋废立被诛",
       "total_refs": 11,
       "total_chapters": 5
+    },
+    "上尊号": {
+      "type": "concept",
+      "label": "上尊号",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "天子",
+        "尊号"
+      ],
+      "description": "臣下为帝王或太后上尊崇之号，以彰功德",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "上林苑": {
+      "type": "place",
+      "label": "上林苑",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "园林",
+        "宫室"
+      ],
+      "description": "秦汉皇家苑囿，在长安南，秦始皇作朝宫于其中，汉武帝大加扩建",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "上谷": {
       "type": "place",
@@ -536,6 +562,18 @@
       "quality": "basic",
       "quality_score": 17,
       "total_refs": 5,
+      "total_chapters": 0
+    },
+    "东郡": {
+      "type": "place",
+      "label": "东郡",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "兖州"
+      ],
+      "description": "秦东郡，濮阳一带，秦取魏置。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "东都": {
@@ -1926,6 +1964,18 @@
       "total_refs": 9,
       "total_chapters": 0
     },
+    "从军": {
+      "type": "concept",
+      "label": "从军",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "兵制"
+      ],
+      "description": "从军，古代百姓应征入伍或志愿参军",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "仓场": {
       "type": "economy",
       "label": "仓场",
@@ -2070,6 +2120,17 @@
       ],
       "description": "隋校尉，缢杀隋炀帝",
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "仪仗": {
+      "type": "concept",
+      "label": "仪仗",
+      "aliases": [],
+      "tags": [
+        "礼仪制度"
+      ],
+      "description": "仪仗卤簿制度",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "仲长统": {
@@ -2318,6 +2379,19 @@
       "quality": "basic",
       "quality_score": 36,
       "total_refs": 4,
+      "total_chapters": 0
+    },
+    "传檄": {
+      "type": "concept",
+      "label": "传檄",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "军事",
+        "文书"
+      ],
+      "description": "传檄，古代传递檄文以宣告天下或招降纳叛",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "传舍": {
@@ -3008,6 +3082,19 @@
       "quality": "basic",
       "quality_score": 40,
       "total_refs": 6,
+      "total_chapters": 0
+    },
+    "候望": {
+      "type": "concept",
+      "label": "候望",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "军事",
+        "边防"
+      ],
+      "description": "候望，古代边防侦察警戒制度",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "傅亮": {
@@ -6462,7 +6549,7 @@
       "description": "战国时期著名纵横家，号\"犀首\"，合纵运动的先驱，曾联合五国伐秦，与张仪并称纵横家代表人物。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 3
     },
     "公孙贺": {
@@ -6530,6 +6617,17 @@
       ],
       "description": "古代婚礼六项程序：纳采、问名、纳吉、纳征、请期、亲迎",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "六经": {
+      "type": "concept",
+      "label": "六经",
+      "aliases": [],
+      "tags": [
+        "学术思想"
+      ],
+      "description": "儒家六部经典",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "六艺": {
@@ -6819,6 +6917,19 @@
       "quality": "featured",
       "quality_score": 48,
       "total_refs": 7,
+      "total_chapters": 0
+    },
+    "册命": {
+      "type": "concept",
+      "label": "册命",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "天子",
+        "封爵"
+      ],
+      "description": "帝王以册书形式任命或封赐臣下之礼",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "冒顿": {
@@ -11255,6 +11366,19 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "华清宫": {
+      "type": "place",
+      "label": "华清宫",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "宫室",
+        "骊山"
+      ],
+      "description": "唐代离宫，在骊山，原名温泉宫，唐玄宗改名为华清宫",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "华温琪": {
       "type": "person",
       "label": "华温琪",
@@ -11969,6 +12093,19 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "即位": {
+      "type": "concept",
+      "label": "即位",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "天子",
+        "继位"
+      ],
+      "description": "新君登基继位之礼，古代天子诸侯嗣位称即位",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "厌胜": {
       "type": "astronomy",
       "label": "厌胜",
@@ -12678,6 +12815,18 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "合浦": {
+      "type": "place",
+      "label": "合浦",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "交州"
+      ],
+      "description": "汉合浦郡，今广西合浦，南越九郡之一。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "合纵连横": {
       "type": "concept",
       "label": "合纵连横",
@@ -13328,8 +13477,23 @@
       "description": "战国著名军事家、政治家，历仕鲁、魏、楚三国，变法强楚，最终遭贵族反噬而死。",
       "quality": "featured",
       "quality_score": 43,
-      "total_refs": 20,
+      "total_refs": 21,
       "total_chapters": 11
+    },
+    "吴起变法": {
+      "type": "event",
+      "label": "吴起变法",
+      "aliases": [
+        "吴起相楚"
+      ],
+      "tags": [
+        "楚国",
+        "变法",
+        "吴起"
+      ],
+      "description": "战国初期吴起在楚国推行的政治军事改革",
+      "total_refs": 1,
+      "total_chapters": 0
     },
     "吴郡": {
       "type": "place",
@@ -14409,8 +14573,22 @@
       "image": "images/商鞅.jpg",
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 52,
+      "total_refs": 54,
       "total_chapters": 7
+    },
+    "商鞅变法": {
+      "type": "event",
+      "label": "商鞅变法",
+      "aliases": [],
+      "tags": [
+        "秦国",
+        "变法",
+        "商鞅",
+        "法家"
+      ],
+      "description": "秦孝公任用商鞅推行的全面政治、经济、军事改革，奠定了秦国富强和统一六国的基础",
+      "total_refs": 3,
+      "total_chapters": 0
     },
     "喜": {
       "type": "concept",
@@ -17859,6 +18037,21 @@
       "total_refs": 19,
       "total_chapters": 0
     },
+    "宗室": {
+      "type": "concept",
+      "label": "宗室",
+      "aliases": [],
+      "tags": [
+        "周",
+        "秦",
+        "汉",
+        "宗室",
+        "制度"
+      ],
+      "description": "天子或诸侯的同姓宗族，秦汉以降指皇族",
+      "total_refs": 118,
+      "total_chapters": 117
+    },
     "宗庙": {
       "type": "ritual",
       "label": "宗庙",
@@ -18105,6 +18298,19 @@
       "quality": "basic",
       "quality_score": 49,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "宫殿": {
+      "type": "concept",
+      "label": "宫殿",
+      "aliases": [],
+      "tags": [
+        "建筑",
+        "宫室",
+        "礼制"
+      ],
+      "description": "帝王居所之建筑，亦指朝廷所在",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "宰相": {
@@ -18609,6 +18815,19 @@
       ],
       "description": "西汉右扶风，以廉平公正称。",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "尹鐸": {
+      "type": "person",
+      "label": "尹鐸",
+      "aliases": [],
+      "tags": [
+        "战国",
+        "晋国",
+        "赵氏"
+      ],
+      "description": "尹鐸，战国赵简子、赵襄子家臣，治晋阳有惠政",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "尺度": {
@@ -19458,6 +19677,18 @@
       "quality": "basic",
       "quality_score": 43,
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "嵩山": {
+      "type": "place",
+      "label": "嵩山",
+      "aliases": [],
+      "tags": [
+        "山",
+        "司隶"
+      ],
+      "description": "五岳之中岳，在洛阳东南，北魏崇佛立寺处。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "川": {
@@ -20857,8 +21088,24 @@
       "description": "战国纵横家，连横策略制定者，仕于秦，瓦解合纵联盟，为秦统一奠基。",
       "quality": "featured",
       "quality_score": 51,
-      "total_refs": 36,
+      "total_refs": 38,
       "total_chapters": 3
+    },
+    "张仪连横": {
+      "type": "event",
+      "label": "张仪连横",
+      "aliases": [
+        "连横"
+      ],
+      "tags": [
+        "纵横家",
+        "张仪",
+        "秦国",
+        "合纵连横"
+      ],
+      "description": "张仪以连横之术游说各国事秦，瓦解合纵联盟的外交运动",
+      "total_refs": 1,
+      "total_chapters": 0
     },
     "张仲武": {
       "type": "person",
@@ -21421,6 +21668,18 @@
       "quality": "featured",
       "quality_score": 45,
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "张掖": {
+      "type": "place",
+      "label": "张掖",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "凉州"
+      ],
+      "description": "汉张掖郡，河西四郡之一，今甘肃张掖。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "张敖": {
@@ -23667,6 +23926,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "戍卒": {
+      "type": "concept",
+      "label": "戍卒",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "兵制"
+      ],
+      "description": "戍卒，秦汉时期守卫边疆的士兵",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "成丹": {
       "type": "person",
       "label": "成丹",
@@ -25782,6 +26053,17 @@
       "quality": "basic",
       "quality_score": 25,
       "total_refs": 19,
+      "total_chapters": 0
+    },
+    "朝聘": {
+      "type": "concept",
+      "label": "朝聘",
+      "aliases": [],
+      "tags": [
+        "礼仪制度"
+      ],
+      "description": "诸侯朝聘礼仪",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "朝贡": {
@@ -29758,7 +30040,7 @@
       "description": "战国时期齐魏之间的重要战役，孙膑首创\"围魏救赵\"战法，在桂陵伏击魏军，大获全胜",
       "quality": "basic",
       "quality_score": 39,
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "案": {
@@ -30016,6 +30298,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "桥梁": {
+      "type": "concept",
+      "label": "桥梁",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "交通",
+        "工程"
+      ],
+      "description": "桥梁，古代交通工程设施",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "桥玄": {
       "type": "person",
       "label": "桥玄",
@@ -30263,7 +30558,7 @@
         "七雄"
       ],
       "description": "战国七雄之一，据有长江中下游及南方广大地域。",
-      "total_refs": 41,
+      "total_refs": 42,
       "total_chapters": 0
     },
     "楚怀王": {
@@ -30282,6 +30577,18 @@
       "quality": "basic",
       "quality_score": 49,
       "total_refs": 18,
+      "total_chapters": 0
+    },
+    "楚悼王": {
+      "type": "person",
+      "label": "楚悼王",
+      "aliases": [],
+      "tags": [
+        "战国",
+        "楚国"
+      ],
+      "description": "楚悼王，战国楚国君主，任用吴起变法",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "楼": {
@@ -32567,6 +32874,18 @@
       "total_refs": 10,
       "total_chapters": 0
     },
+    "泾水": {
+      "type": "place",
+      "label": "泾水",
+      "aliases": [],
+      "tags": [
+        "河",
+        "关中"
+      ],
+      "description": "渭河支流，郑国渠引泾水溉田，泾渭分明。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "洛水": {
       "type": "place",
       "label": "洛水",
@@ -32714,6 +33033,18 @@
       "description": "唐初李世民与西秦薛举薛仁杲的关键战役",
       "quality": "basic",
       "quality_score": 19,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "济南": {
+      "type": "place",
+      "label": "济南",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "青州"
+      ],
+      "description": "汉济南郡，齐地，今山东济南一带。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -33126,6 +33457,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "湘水": {
+      "type": "place",
+      "label": "湘水",
+      "aliases": [],
+      "tags": [
+        "河",
+        "荆州"
+      ],
+      "description": "长江支流，流经湖南入洞庭，三国吴蜀以湘水为界。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "源乾曜": {
       "type": "person",
       "label": "源乾曜",
@@ -33392,6 +33735,19 @@
       ],
       "description": "灾异与祥瑞，古代天人感应之征象",
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "烽火": {
+      "type": "concept",
+      "label": "烽火",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "军事",
+        "边防"
+      ],
+      "description": "烽火，古代边防报警信号，昼燔燧夜举烽",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "烽燧": {
@@ -33971,6 +34327,19 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "献捷": {
+      "type": "concept",
+      "label": "献捷",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "军事",
+        "凯旋"
+      ],
+      "description": "军事获胜后向天子进献俘虏、战利品，告捷于太庙",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "獠": {
       "type": "tribe",
       "label": "獠",
@@ -34039,6 +34408,17 @@
         "礼制"
       ],
       "description": "古代贵重石材，象征德行与权力",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "玉帛": {
+      "type": "concept",
+      "label": "玉帛",
+      "aliases": [],
+      "tags": [
+        "礼仪制度"
+      ],
+      "description": "玉帛礼仪",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -34365,6 +34745,18 @@
       ],
       "description": "西汉成帝朝丞相",
       "total_refs": 4,
+      "total_chapters": 0
+    },
+    "王嘉": {
+      "type": "person",
+      "label": "王嘉",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "丞相"
+      ],
+      "description": "王嘉，西汉丞相，以直谏著称",
+      "total_refs": 2,
       "total_chapters": 0
     },
     "王坦之": {
@@ -36017,6 +36409,17 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "玺书": {
+      "type": "concept",
+      "label": "玺书",
+      "aliases": [],
+      "tags": [
+        "官制"
+      ],
+      "description": "皇帝玺书制度",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "玺绶": {
       "type": "official",
       "label": "玺绶",
@@ -36286,6 +36689,19 @@
       "total_refs": 13,
       "total_chapters": 0
     },
+    "甬道": {
+      "type": "concept",
+      "label": "甬道",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "军事",
+        "交通"
+      ],
+      "description": "甬道，古代两旁筑墙的通道，用于保障军事运输安全",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "田不礼": {
       "type": "person",
       "label": "田不礼",
@@ -36388,6 +36804,19 @@
       "quality": "basic",
       "quality_score": 48,
       "total_refs": 11,
+      "total_chapters": 0
+    },
+    "田和": {
+      "type": "person",
+      "label": "田和",
+      "aliases": [],
+      "tags": [
+        "战国",
+        "齐国",
+        "田氏"
+      ],
+      "description": "田和，战国齐国君主，田氏代齐的开国者",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "田子方": {
@@ -36552,6 +36981,21 @@
       ],
       "description": "秦末齐王，田齐宗室，死节之士",
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "田氏代齐": {
+      "type": "event",
+      "label": "田氏代齐",
+      "aliases": [
+        "田齐代姜"
+      ],
+      "tags": [
+        "齐国",
+        "田氏",
+        "姜齐"
+      ],
+      "description": "春秋战国之际，齐国田氏逐步取代姜氏成为齐国君主的事件",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "田留安": {
@@ -37490,6 +37934,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "直道": {
+      "type": "concept",
+      "label": "直道",
+      "aliases": [],
+      "tags": [
+        "秦",
+        "交通",
+        "军事"
+      ],
+      "description": "直道，秦始皇修建的军事交通大道，自云阳通九原",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "盾": {
       "type": "artifact",
       "label": "盾",
@@ -38008,6 +38465,17 @@
       "total_refs": 17,
       "total_chapters": 0
     },
+    "祭器": {
+      "type": "concept",
+      "label": "祭器",
+      "aliases": [],
+      "tags": [
+        "礼仪制度"
+      ],
+      "description": "祭祀器物制度",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "祭地": {
       "type": "ritual",
       "label": "祭地",
@@ -38107,6 +38575,19 @@
       "total_refs": 10,
       "total_chapters": 0
     },
+    "禁苑": {
+      "type": "concept",
+      "label": "禁苑",
+      "aliases": [],
+      "tags": [
+        "建筑",
+        "园林",
+        "制度"
+      ],
+      "description": "帝王专属的林苑，禁止百姓进入",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "禅让": {
       "type": "institution",
       "label": "禅让",
@@ -38146,6 +38627,18 @@
       "quality": "basic",
       "quality_score": 27,
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "离宫": {
+      "type": "concept",
+      "label": "离宫",
+      "aliases": [],
+      "tags": [
+        "建筑",
+        "宫室"
+      ],
+      "description": "帝王在正式宫殿之外别筑的宫室，供游幸休憩",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "离间": {
@@ -38365,7 +38858,7 @@
       "description": "战国时期秦国君主，任用商鞅实行变法，使秦国从西陲弱国一跃成为战国最强的霸主，是秦始皇统一六国的奠基者。",
       "quality": "featured",
       "quality_score": 41,
-      "total_refs": 18,
+      "total_refs": 20,
       "total_chapters": 1
     },
     "秦宗权": {
@@ -39114,6 +39607,17 @@
         "节度使"
       ],
       "description": "唐剑南节度使。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "章句": {
+      "type": "concept",
+      "label": "章句",
+      "aliases": [],
+      "tags": [
+        "学术思想"
+      ],
+      "description": "经学注解体裁",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -43187,6 +43691,17 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "策问": {
+      "type": "concept",
+      "label": "策问",
+      "aliases": [],
+      "tags": [
+        "选举制度"
+      ],
+      "description": "皇帝策试制度",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "筝": {
       "type": "artifact",
       "label": "筝",
@@ -44335,6 +44850,19 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "职田": {
+      "type": "concept",
+      "label": "职田",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "制度",
+        "田制"
+      ],
+      "description": "职田，唐代按品级授予官员的禄田",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "聘问": {
       "type": "institution",
       "label": "聘问",
@@ -44982,8 +45510,24 @@
       "description": "战国纵横家，合纵联盟的策划者，曾身佩六国相印，与张仪同为鬼谷子门生。",
       "quality": "featured",
       "quality_score": 48,
-      "total_refs": 37,
+      "total_refs": 39,
       "total_chapters": 2
+    },
+    "苏秦合纵": {
+      "type": "event",
+      "label": "苏秦合纵",
+      "aliases": [
+        "合纵"
+      ],
+      "tags": [
+        "纵横家",
+        "苏秦",
+        "六国",
+        "合纵连横"
+      ],
+      "description": "苏秦游说六国联合抗秦的合纵运动，使秦兵不敢窥函谷关者十五年",
+      "total_refs": 1,
+      "total_chapters": 0
     },
     "苏章": {
       "type": "person",
@@ -45065,6 +45609,19 @@
         "将领"
       ],
       "description": "刘武周内史令。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "苑囿": {
+      "type": "concept",
+      "label": "苑囿",
+      "aliases": [],
+      "tags": [
+        "建筑",
+        "园林",
+        "礼制"
+      ],
+      "description": "古代帝王或贵族畜养禽兽、种植草木的园林",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -47482,6 +48039,18 @@
       "quality": "basic",
       "quality_score": 41,
       "total_refs": 8,
+      "total_chapters": 0
+    },
+    "衡山": {
+      "type": "place",
+      "label": "衡山",
+      "aliases": [],
+      "tags": [
+        "山",
+        "荆州"
+      ],
+      "description": "五岳之南岳，秦置衡山郡，在湘中。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "衣": {
@@ -50812,7 +51381,7 @@
       "description": "战国赵国君主，联合苏秦合纵抗秦，其薨后子武灵王继位推行胡服骑射",
       "quality": "basic",
       "quality_score": 39,
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "赵莹": {
@@ -51023,6 +51592,17 @@
       "quality": "basic",
       "quality_score": 43,
       "total_refs": 13,
+      "total_chapters": 0
+    },
+    "车服": {
+      "type": "concept",
+      "label": "车服",
+      "aliases": [],
+      "tags": [
+        "礼仪制度"
+      ],
+      "description": "车马服饰等级制度",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "车骑": {
@@ -51416,6 +51996,19 @@
         "战术"
       ],
       "description": "追击，古代军事中乘胜追击败退敌军的战术",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "追尊": {
+      "type": "concept",
+      "label": "追尊",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "天子",
+        "谥号"
+      ],
+      "description": "帝王为已故祖先上尊号或谥号，以彰孝思",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -52856,6 +53449,19 @@
       "total_refs": 11,
       "total_chapters": 0
     },
+    "配享": {
+      "type": "concept",
+      "label": "配享",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "祭祀",
+        "宗庙"
+      ],
+      "description": "功臣祔祀于帝王宗庙，或皇后与皇帝同祭",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "酒": {
       "type": "ritual",
       "label": "酒",
@@ -52867,6 +53473,18 @@
       "description": "古代饮品，祭祀礼仪必备",
       "quality": "basic",
       "quality_score": 28,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "酒泉": {
+      "type": "place",
+      "label": "酒泉",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "凉州"
+      ],
+      "description": "汉酒泉郡，河西四郡之一，今甘肃酒泉。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -52943,6 +53561,18 @@
         "禁军"
       ],
       "description": "唐代十六卫之一，掌宫中及京城巡警。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "金城": {
+      "type": "place",
+      "label": "金城",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "凉州"
+      ],
+      "description": "汉金城郡，今甘肃兰州一带，西羌要地。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -53418,6 +54048,17 @@
       "total_refs": 5,
       "total_chapters": 0
     },
+    "长城": {
+      "type": "concept",
+      "label": "长城",
+      "aliases": [],
+      "tags": [
+        "军事工程"
+      ],
+      "description": "古代军事防御工程",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "长孙俭": {
       "type": "person",
       "label": "长孙俭",
@@ -53525,6 +54166,19 @@
       ],
       "description": "唐初将领，凌烟阁二十四功臣，参与晋阳起兵",
       "total_refs": 0,
+      "total_chapters": 0
+    },
+    "长安": {
+      "type": "place",
+      "label": "长安",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "都城",
+        "关中"
+      ],
+      "description": "西汉都城，今陕西西安，娄敬说刘邦定都于此",
+      "total_refs": 5,
       "total_chapters": 0
     },
     "长平之战": {
@@ -54902,6 +55556,19 @@
         "建筑"
       ],
       "description": "古代边塞防御工事，障塞。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "障塞": {
+      "type": "concept",
+      "label": "障塞",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "边防",
+        "工事"
+      ],
+      "description": "古代边境防御工事，筑城为障、立栅为塞，用于防卫边疆",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -56511,6 +57178,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "飞狐道": {
+      "type": "concept",
+      "label": "飞狐道",
+      "aliases": [],
+      "tags": [
+        "秦汉",
+        "交通",
+        "军事"
+      ],
+      "description": "飞狐道，太行山中的军事通道，连接河北与山西",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "食邑": {
       "type": "economy",
       "label": "食邑",
@@ -56536,6 +57216,19 @@
         "饮食"
       ],
       "description": "古代宴享之礼，以酒食犒赏。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "饮至": {
+      "type": "concept",
+      "label": "饮至",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "军事",
+        "凯旋"
+      ],
+      "description": "古代军队出征凯旋后，祭告宗庙并宴饮庆功之礼",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -56910,7 +57603,7 @@
       "description": "战国时期齐魏之间的决定性战役，孙膑以减灶示弱之计诱敌，庞涓中伏被杀，魏军大败，魏国由此衰落",
       "quality": "basic",
       "quality_score": 47,
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "马隆": {
@@ -57817,7 +58510,7 @@
       "description": "战国时期传说中的隐士谋略家，纵横家的鼻祖，据称苏秦、张仪皆出其门下，著有《鬼谷子》论纵横捭阖之术，是中国古代谋略学的象征性人物。",
       "quality": "standard",
       "quality_score": 37,
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 1
     },
     "魏仁浦": {
@@ -57878,7 +58571,7 @@
         "七雄"
       ],
       "description": "战国七雄之一，拥有中原腹地，魏文侯时率先称霸。",
-      "total_refs": 56,
+      "total_refs": 57,
       "total_chapters": 0
     },
     "魏安釐王": {
@@ -58013,7 +58706,7 @@
       "description": "战国魏国奠基者，礼贤下士，重用李克、吴起、西门豹，使魏国称雄于战国初期。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 33,
+      "total_refs": 34,
       "total_chapters": 5
     },
     "魏桓子": {
@@ -58033,6 +58726,18 @@
       "quality_score": 43,
       "total_refs": 7,
       "total_chapters": 1
+    },
+    "魏武侯": {
+      "type": "person",
+      "label": "魏武侯",
+      "aliases": [],
+      "tags": [
+        "战国",
+        "魏国"
+      ],
+      "description": "魏武侯，战国魏国君主，魏文侯之子",
+      "total_refs": 1,
+      "total_chapters": 0
     },
     "魏玄同": {
       "type": "person",
@@ -58187,7 +58892,7 @@
         "山东"
       ],
       "description": "周代诸侯国，姬姓，周公旦封国，都曲阜。",
-      "total_refs": 21,
+      "total_refs": 22,
       "total_chapters": 20
     },
     "鲁广达": {
@@ -58848,7 +59553,7 @@
       "description": "战国时齐国国君，以贤明纳谏著称，齐国大治。",
       "quality": "basic",
       "quality_score": 40,
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "齐宣王": {
@@ -58862,6 +59567,19 @@
       "quality": "basic",
       "quality_score": 24,
       "total_refs": 4,
+      "total_chapters": 0
+    },
+    "齐康公": {
+      "type": "person",
+      "label": "齐康公",
+      "aliases": [],
+      "tags": [
+        "战国",
+        "齐国",
+        "姜氏"
+      ],
+      "description": "齐康公，战国齐国君主，姜姓齐国末代国君",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "齐抗": {
@@ -58904,7 +59622,7 @@
       "description": "春秋时期第一位霸主，任用管仲为相，以\"尊王攘夷\"为旗帜，九合诸侯，一匡天下，是中国历史上最著名的诸侯霸主之一。",
       "quality": "featured",
       "quality_score": 42,
-      "total_refs": 30,
+      "total_refs": 31,
       "total_chapters": 24
     },
     "龙且": {
@@ -59004,6 +59722,8 @@
     "上官婉儿": "上官婉儿",
     "上官昭容": "上官婉儿",
     "上官桀": "上官桀",
+    "上尊号": "上尊号",
+    "上林苑": "上林苑",
     "上谷": "上谷",
     "上郡": "上郡",
     "世族": "世族",
@@ -59021,6 +59741,7 @@
     "东海": "东海",
     "东海王越": "东海王越",
     "东胡": "东胡",
+    "东郡": "东郡",
     "东都": "东都",
     "东魏": "东魏",
     "丝": "丝",
@@ -59130,6 +59851,7 @@
     "仆固怀恩": "仆固怀恩",
     "仆役": "仆役",
     "仇士良": "仇士良",
+    "从军": "从军",
     "仓场": "仓场",
     "仓库": "仓库",
     "仓廪": "仓廪",
@@ -59141,6 +59863,7 @@
     "令狐熙": "令狐熙",
     "令狐綯": "令狐綯",
     "令狐行达": "令狐行达",
+    "仪仗": "仪仗",
     "仲长统": "仲长统",
     "任光": "任光",
     "任圜": "任圜",
@@ -59160,6 +59883,7 @@
     "会盟": "会盟",
     "会稽": "会稽",
     "传国玺": "传国玺",
+    "传檄": "传檄",
     "传舍": "传舍",
     "传车": "传车",
     "伤寒": "伤寒",
@@ -59215,6 +59939,7 @@
     "修缮": "修缮",
     "俱文珍": "俱文珍",
     "俸禄": "俸禄",
+    "候望": "候望",
     "傅亮": "傅亮",
     "傅介子": "傅介子",
     "傅俊": "傅俊",
@@ -59429,6 +60154,7 @@
     "公族": "公族",
     "六亲": "六亲",
     "六礼": "六礼",
+    "六经": "六经",
     "六艺": "六艺",
     "关东": "关东",
     "关中": "关中",
@@ -59455,6 +60181,7 @@
     "冉闵": "冉闵",
     "冉魏武悼天王": "冉闵",
     "武悼天王": "冉闵",
+    "册命": "册命",
     "冒顿": "冒顿",
     "冕": "冕",
     "军令": "军令",
@@ -59795,6 +60522,7 @@
     "十六卫": "十六卫",
     "华山": "华山",
     "华歆": "华歆",
+    "华清宫": "华清宫",
     "华温琪": "华温琪",
     "华皎": "华皎",
     "华谭": "华谭",
@@ -59853,6 +60581,7 @@
     "印绶": "印绶",
     "危仔倡": "危仔倡",
     "危全讽": "危全讽",
+    "即位": "即位",
     "厌胜": "厌胜",
     "原": "原",
     "厮役": "厮役",
@@ -59919,6 +60648,7 @@
     "司马颙": "司马颙",
     "合围": "合围",
     "合族": "合族",
+    "合浦": "合浦",
     "合纵连横": "合纵连横",
     "合纵": "合纵连横",
     "连横": "合纵连横",
@@ -59983,6 +60713,8 @@
     "吴芮": "吴芮",
     "吴起": "吴起",
     "吴子": "吴起",
+    "吴起变法": "吴起变法",
+    "吴起相楚": "吴起变法",
     "吴郡": "吴郡",
     "吾彦": "吾彦",
     "告庙": "告庙",
@@ -60096,6 +60828,7 @@
     "卫鞅": "商鞅",
     "公孙鞅": "商鞅",
     "商君": "商鞅",
+    "商鞅变法": "商鞅变法",
     "喜": "喜",
     "嗣": "嗣",
     "嗣位": "嗣位",
@@ -60384,6 +61117,7 @@
     "完璧归赵": "完璧归赵",
     "完璧": "完璧归赵",
     "宗亲": "宗亲",
+    "宗室": "宗室",
     "宗庙": "宗庙",
     "宗悫": "宗悫",
     "宗元干": "宗悫",
@@ -60403,6 +61137,7 @@
     "宫": "宫",
     "宫刑": "宫刑",
     "宫卫": "宫卫",
+    "宫殿": "宫殿",
     "宰相": "宰相",
     "宴": "宴",
     "宴会": "宴会",
@@ -60442,6 +61177,7 @@
     "尧雄": "尧雄",
     "尹勋": "尹勋",
     "尹翁归": "尹翁归",
+    "尹鐸": "尹鐸",
     "尺度": "尺度",
     "居丧": "居丧",
     "居庸关": "居庸关",
@@ -60511,6 +61247,7 @@
     "嵇叔夜": "嵇康",
     "嵇绍": "嵇绍",
     "嵇延祖": "嵇绍",
+    "嵩山": "嵩山",
     "川": "川",
     "巡守": "巡守",
     "巡幸": "巡幸",
@@ -60625,6 +61362,7 @@
     "张从宾": "张从宾",
     "张从恩": "张从恩",
     "张仪": "张仪",
+    "张仪连横": "张仪连横",
     "张仲武": "张仲武",
     "张佶": "张佶",
     "张俭": "张俭",
@@ -60668,6 +61406,7 @@
     "张惠绍": "张惠绍",
     "张愔": "张愔",
     "张承业": "张承业",
+    "张掖": "张掖",
     "张敖": "张敖",
     "张敞": "张敞",
     "张敬儿": "张敬儿",
@@ -60860,6 +61599,7 @@
     "慕容霸": "慕容霸",
     "慕容麟": "慕容麟",
     "戈": "戈",
+    "戍卒": "戍卒",
     "成丹": "成丹",
     "成汭": "成汭",
     "成都": "成都",
@@ -61050,6 +61790,7 @@
     "望气": "望气",
     "朝仪": "朝仪",
     "朝会": "朝会",
+    "朝聘": "朝聘",
     "朝贡": "朝贡",
     "朝贺": "朝贺",
     "未央宫": "未央宫",
@@ -61406,6 +62147,7 @@
     "桓将军": "桓齮",
     "樊於期": "桓齮",
     "桥": "桥",
+    "桥梁": "桥梁",
     "桥玄": "桥玄",
     "梁冀": "梁冀",
     "梁伯卓": "梁冀",
@@ -61427,6 +62169,7 @@
     "楚国": "楚国",
     "楚怀王": "楚怀王",
     "熊槐": "楚怀王",
+    "楚悼王": "楚悼王",
     "楼": "楼",
     "楼兰": "楼兰",
     "楼玄": "楼玄",
@@ -61622,6 +62365,7 @@
     "泰山": "泰山",
     "泽": "泽",
     "泾原兵变": "泾原兵变",
+    "泾水": "泾水",
     "洛水": "洛水",
     "洛邑": "洛邑",
     "洛阳": "洛阳",
@@ -61635,6 +62379,7 @@
     "流星": "流星",
     "流移": "流移",
     "浅水原之战": "浅水原之战",
+    "济南": "济南",
     "济水": "济水",
     "浑天仪": "浑天仪",
     "浑瑊": "浑瑊",
@@ -61671,6 +62416,7 @@
     "游肇": "游肇",
     "游雅": "游雅",
     "湖": "湖",
+    "湘水": "湘水",
     "源乾曜": "源乾曜",
     "源子恭": "源子恭",
     "源贺": "源贺",
@@ -61692,6 +62438,7 @@
     "火灾": "火灾",
     "灸": "灸",
     "灾祥": "灾祥",
+    "烽火": "烽火",
     "烽燧": "烽燧",
     "焉耆": "焉耆",
     "焚书坑儒": "焚书坑儒",
@@ -61741,6 +62488,7 @@
     "独孤盛": "独孤盛",
     "狱讼": "狱讼",
     "献俘": "献俘",
+    "献捷": "献捷",
     "獠": "獠",
     "玄": "玄",
     "玄学": "玄学",
@@ -61749,6 +62497,7 @@
     "玄武门": "玄武门之变",
     "玄武门政变": "玄武门之变",
     "玉": "玉",
+    "玉帛": "玉帛",
     "玉门关": "玉门关",
     "王世充": "王世充",
     "郑帝": "王世充",
@@ -61777,6 +62526,7 @@
     "王吉": "王吉",
     "王君廓": "王君廓",
     "王商": "王商",
+    "王嘉": "王嘉",
     "王坦之": "王坦之",
     "王基": "王基",
     "王堕": "王堕",
@@ -61915,6 +62665,7 @@
     "王龁": "王龁",
     "王龚": "王龚",
     "玺": "玺",
+    "玺书": "玺书",
     "玺绶": "玺绶",
     "珠": "珠",
     "班勇": "班勇",
@@ -61939,6 +62690,7 @@
     "甘茂": "甘茂",
     "甘露": "甘露",
     "甘露之变": "甘露之变",
+    "甬道": "甬道",
     "田不礼": "田不礼",
     "田丰": "田丰",
     "田事": "田事",
@@ -61947,6 +62699,7 @@
     "田千秋": "田千秋",
     "田单": "田单",
     "安平君": "田单",
+    "田和": "田和",
     "田子方": "田子方",
     "田季安": "田季安",
     "田布": "田布",
@@ -61959,6 +62712,8 @@
     "田承嗣": "田承嗣",
     "田晏": "田晏",
     "田横": "田横",
+    "田氏代齐": "田氏代齐",
+    "田齐代姜": "田氏代齐",
     "田留安": "田留安",
     "田畴": "田畴",
     "田神功": "田神功",
@@ -62035,6 +62790,7 @@
     "盟约": "盟约",
     "盟誓": "盟誓",
     "目": "目",
+    "直道": "直道",
     "盾": "盾",
     "督亢": "督亢",
     "督邮": "督邮",
@@ -62084,6 +62840,7 @@
     "神策军": "神策军",
     "祢衡": "祢衡",
     "祥瑞": "祥瑞",
+    "祭器": "祭器",
     "祭地": "祭地",
     "祭天": "祭天",
     "祭肜": "祭肜",
@@ -62091,9 +62848,11 @@
     "祭酒": "祭酒",
     "禁军": "禁军",
     "禁卫": "禁卫",
+    "禁苑": "禁苑",
     "禅让": "禅让",
     "禳": "禳",
     "禳灾": "禳灾",
+    "离宫": "离宫",
     "离间": "离间",
     "秀才": "秀才",
     "秃发乌孤": "秃发乌孤",
@@ -62184,6 +62943,7 @@
     "窦融": "窦融",
     "立嗣": "立嗣",
     "章仇兼琼": "章仇兼琼",
+    "章句": "章句",
     "章奏": "章奏",
     "章昭达": "章昭达",
     "章邯": "章邯",
@@ -62890,6 +63650,7 @@
     "筑城": "筑城",
     "策书": "策书",
     "策试": "策试",
+    "策问": "策问",
     "筝": "筝",
     "简雍": "简雍",
     "算缗": "算缗",
@@ -62980,6 +63741,7 @@
     "耿纯": "耿纯",
     "耿舒": "耿舒",
     "聂政": "聂政",
+    "职田": "职田",
     "聘问": "聘问",
     "肉刑": "肉刑",
     "肥义": "肥义",
@@ -63033,12 +63795,14 @@
     "苏禹珪": "苏禹珪",
     "苏秦": "苏秦",
     "苏季子": "苏秦",
+    "苏秦合纵": "苏秦合纵",
     "苏章": "苏章",
     "苏绰": "苏绰",
     "苏茂": "苏茂",
     "苏逢吉": "苏逢吉",
     "苏颋": "苏颋",
     "苑君璋": "苑君璋",
+    "苑囿": "苑囿",
     "苑康": "苑康",
     "苗晋卿": "苗晋卿",
     "苟晞": "苟晞",
@@ -63247,6 +64011,7 @@
     "行军": "行军",
     "行幸": "行幸",
     "街亭": "街亭",
+    "衡山": "衡山",
     "衣": "衣",
     "衣冠": "衣冠",
     "衣裳": "衣裳",
@@ -63560,6 +64325,7 @@
     "蹴鞠": "蹴鞠",
     "车": "车",
     "车师": "车师",
+    "车服": "车服",
     "车骑": "车骑",
     "轮台罪己诏": "轮台罪己诏",
     "轮台诏": "轮台罪己诏",
@@ -63591,6 +64357,7 @@
     "远交近攻": "远交近攻",
     "连坐": "连坐",
     "追击": "追击",
+    "追尊": "追尊",
     "退军": "退军",
     "逄纪": "逄纪",
     "途": "途",
@@ -63710,13 +64477,16 @@
     "都统": "都统",
     "都邑": "都邑",
     "鄯善": "鄯善",
+    "配享": "配享",
     "酒": "酒",
+    "酒泉": "酒泉",
     "酷吏": "酷吏",
     "醴": "醴",
     "里正": "里正",
     "野战": "野战",
     "金": "金",
     "金吾卫": "金吾卫",
+    "金城": "金城",
     "金敞": "金敞",
     "金日磾": "金日磾",
     "金银": "金银",
@@ -63756,6 +64526,7 @@
     "锻": "锻",
     "镞": "镞",
     "长乐宫": "长乐宫",
+    "长城": "长城",
     "长孙俭": "长孙俭",
     "长孙嵩": "长孙嵩",
     "长孙无忌": "长孙无忌",
@@ -63767,6 +64538,7 @@
     "长孙翰": "长孙翰",
     "长孙览": "长孙览",
     "长孙顺德": "长孙顺德",
+    "长安": "长安",
     "长平之战": "长平之战",
     "长平大战": "长平之战",
     "长沙": "长沙",
@@ -63886,6 +64658,7 @@
     "隗嚣": "隗嚣",
     "隗纯": "隗纯",
     "障": "障",
+    "障塞": "障塞",
     "隽不疑": "隽不疑",
     "雁门": "雁门",
     "雅乐": "雅乐",
@@ -64022,8 +64795,10 @@
     "颜竣": "颜竣",
     "颜聚": "颜聚",
     "风": "风",
+    "飞狐道": "飞狐道",
     "食邑": "食邑",
     "飨": "飨",
+    "饮至": "饮至",
     "饯": "饯",
     "首": "首",
     "马仙琕": "马仙琕",
@@ -64159,6 +64934,7 @@
     "魏文侯斯": "魏文侯",
     "魏桓子": "魏桓子",
     "魏驹": "魏桓子",
+    "魏武侯": "魏武侯",
     "魏玄同": "魏玄同",
     "魏王咎": "魏王咎",
     "魏相": "魏相",
@@ -64226,6 +65002,7 @@
     "齐万年": "齐万年",
     "齐威王": "齐威王",
     "齐宣王": "齐宣王",
+    "齐康公": "齐康公",
     "齐抗": "齐抗",
     "齐映": "齐映",
     "齐桓公": "齐桓公",
@@ -64237,6 +65014,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 4170,
-  "generated": "2026-05-06T17:55:23Z"
+  "page_count": 4227,
+  "generated": "2026-05-06T17:58:11Z"
 }
