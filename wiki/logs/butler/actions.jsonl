@@ -822,3 +822,11 @@
 {"round": 259, "type": "create-page", "page": "司马相如", "result": "accept", "desc": "新建词条：司马相如", "ts": "2026-05-06T09:19:06Z"}
 {"round": 259, "type": "create-page", "page": "马陵之战", "result": "accept", "desc": "新建词条：马陵之战", "ts": "2026-05-06T09:19:07Z"}
 {"round": 259, "type": "create-page", "page": "桂陵之战", "result": "accept", "desc": "新建词条：桂陵之战", "ts": "2026-05-06T09:19:08Z"}
+{"round": 260, "type": "create-page", "page": "公元604年,公元612年,公元617年,前200年,前36年", "result": "accept", "desc": "create-page×5页，500WU（年表词条：隋文帝崩/征高丽/晋阳起兵/白登之围/明犯强汉）", "ts": "2026-05-06T09:20:29Z", "instance": "刘攽", "reflect": "R260顺利：五页均为重要历史年份，PNs全部来自corpus，无引注缺失"}
+{"round": 261, "type": "create-page", "page": "公元756年,公元779年,公元840年,公元851年,公元926年", "result": "accept", "desc": "create-page×5页，500WU（马嵬之变/代宗崩/回鹘灭/张义潮/兴教门之变）", "ts": "2026-05-06T09:28:31Z", "instance": "刘攽", "reflect": "R261顺利：唐代中后期重要年份，PNs核实准确；公元848年因内容不够重要换为851年"}
+{"round": 262, "type": "create-page", "page": "吴广", "result": "accept", "desc": "新建词条：吴广", "ts": "2026-05-06T09:30:50Z"}
+{"round": 262, "type": "create-page", "page": "卢绾", "result": "accept", "desc": "新建词条：卢绾", "ts": "2026-05-06T09:30:51Z"}
+{"round": 262, "type": "create-page", "page": "魏徵", "result": "accept", "desc": "新建词条：魏徵", "ts": "2026-05-06T09:30:51Z"}
+{"round": 262, "type": "create-page", "page": "垓下之战", "result": "accept", "desc": "新建词条：垓下之战", "ts": "2026-05-06T09:30:52Z"}
+{"round": 262, "type": "create-page", "page": "井陉之战", "result": "accept", "desc": "新建词条：井陉之战", "ts": "2026-05-06T09:30:53Z"}
+{"round": 262, "type": "create-page", "page": "宇文述", "result": "accept", "desc": "新建词条：宇文述", "ts": "2026-05-06T09:30:54Z"}
