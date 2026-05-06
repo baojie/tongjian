@@ -20,7 +20,7 @@ quality: basic
 | type | 含义 |
 |------|------|
 | person | 历史人物 |
-| state | 王朝/诸侯国 |
+| state | 王朝/[[诸侯]]国 |
 | event | 重大事件 |
 | place | 地点/地名 |
 | concept | 概念/制度 |
