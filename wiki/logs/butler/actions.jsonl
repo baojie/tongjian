@@ -319,3 +319,10 @@
 {"round": 105, "type": "create-page", "page": "张郃", "result": "accept", "desc": "三国曹魏五子良将，官渡投曹，长期参与西北军事，以随机应变著称", "ts": "2026-05-06T00:29:38Z"}
 {"round": 105, "type": "create-page", "page": "魏延", "result": "accept", "desc": "三国蜀汉名将，镇守汉中，提出子午谷奇谋，亮死后与杨仪争权被杀", "ts": "2026-05-06T00:29:38Z"}
 {"round": 105, "type": "create-page", "page": "蒋琬", "result": "accept", "desc": "三国蜀汉大臣，诸葛亮接班人，以忠厚稳健维持蜀汉政局", "ts": "2026-05-06T00:29:39Z"}
+{"round": 106, "type": "enrich-page", "page": "荆轲,曹丕", "result": "accept", "desc": "enrich-page×2页，200WU", "ts": "2026-05-06T00:31:42Z", "instance": "资治通鉴", "reflect": "荆轲新增樊於期自刎节(1980→2430B)；曹丕新增代汉称帝详情+开篇(1970→2328B)"}
+{"round": 107, "type": "create-page", "page": "费祎", "result": "accept", "desc": "蜀汉四相之一，诸葛亮托付重臣，以超人行政效率主持国政", "ts": "2026-05-06T00:32:55Z"}
+{"round": 107, "type": "create-page", "page": "董允", "result": "accept", "desc": "蜀汉忠臣，秉心公亮压制宦官黄皓，死后黄皓兴蜀汉衰", "ts": "2026-05-06T00:32:55Z"}
+{"round": 107, "type": "create-page", "page": "于禁", "result": "accept", "desc": "曹魏五子良将，治军严整，樊城水淹七军后降关羽，晚节不保", "ts": "2026-05-06T00:32:55Z"}
+{"round": 107, "type": "create-page", "page": "夏侯渊", "result": "accept", "desc": "曹魏名将，神速奔袭平凉州汉中，定军山被黄忠斩杀", "ts": "2026-05-06T00:32:55Z"}
+{"round": 107, "type": "create-page", "page": "曹仁", "result": "accept", "desc": "曹魏名将，曹操从弟，以守城坚韧著称，守江陵守樊城皆有功", "ts": "2026-05-06T00:32:55Z"}
+{"round": 107, "type": "create-page", "page": "徐晃", "result": "accept", "desc": "曹魏五子良将，治军严整，参与官渡、潼关、汉中诸战役", "ts": "2026-05-06T00:32:55Z"}
