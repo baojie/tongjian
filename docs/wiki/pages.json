@@ -619,8 +619,9 @@
       ],
       "description": "战国燕国名将，率五国联军连下齐国七十余城，差点灭亡齐国，后被[[诸葛亮]]自比为理想人格的代表。",
       "featured": true,
+      "image": "images/乐毅.jpg",
       "quality": "featured",
-      "quality_score": 53,
+      "quality_score": 63,
       "total_refs": 22,
       "total_chapters": 7
     },
@@ -801,6 +802,17 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "习": {
+      "type": "concept",
+      "label": "习",
+      "aliases": [],
+      "tags": [
+        "教育"
+      ],
+      "description": "学习、练习、习惯，古代教育之实践",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "乡兵": {
       "type": "concept",
       "label": "乡兵",
@@ -813,6 +825,17 @@
       "quality": "basic",
       "quality_score": 28,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "书": {
+      "type": "concept",
+      "label": "书",
+      "aliases": [],
+      "tags": [
+        "教育"
+      ],
+      "description": "书籍、文书，古代知识传承之载体",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "乾陵": {
@@ -2027,6 +2050,19 @@
       "total_refs": 12,
       "total_chapters": 6
     },
+    "元胄": {
+      "type": "person",
+      "label": "元胄",
+      "aliases": [],
+      "tags": [
+        "隋",
+        "将领",
+        "右卫大将军"
+      ],
+      "description": "隋右卫大将军，从杨坚平陈，以勇略闻。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "元良": {
       "type": "concept",
       "label": "元良",
@@ -2122,6 +2158,17 @@
       "quality": "basic",
       "quality_score": 35,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "兔": {
+      "type": "concept",
+      "label": "兔",
+      "aliases": [],
+      "tags": [
+        "动物"
+      ],
+      "description": "兔子，古代狩猎对象与象征",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "党锢之祸": {
@@ -5564,6 +5611,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "刁协": {
+      "type": "person",
+      "label": "刁协",
+      "aliases": [],
+      "tags": [
+        "东晋",
+        "尚书左仆射",
+        "军咨祭酒"
+      ],
+      "description": "东晋尚书左仆射",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "刁雍": {
       "type": "person",
       "label": "刁雍",
@@ -5777,6 +5837,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "刘勃勃": {
+      "type": "person",
+      "label": "刘勃勃",
+      "aliases": [],
+      "tags": [
+        "十六国",
+        "夏",
+        "赫连勃勃"
+      ],
+      "description": "十六国夏国建立者，本姓刘，后改赫连氏，骁勇善战。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "刘勔": {
       "type": "person",
       "label": "刘勔",
@@ -5950,7 +6023,7 @@
       "description": "唐宪宗·穆宗朝幽州节度使，多次击破成德兵立功，却在获武强后顿兵不进坐耗度支，最终削发为僧自赎杀父弑兄之罪，是元和中兴中行为矛盾的藩镇将领。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "刘恕": {
@@ -6005,6 +6078,19 @@
       ],
       "description": "唐鲁国公，晋阳起兵佐命功臣",
       "total_refs": 5,
+      "total_chapters": 0
+    },
+    "刘昌裔": {
+      "type": "person",
+      "label": "刘昌裔",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将领",
+        "陈许节度使"
+      ],
+      "description": "唐中叶将领，善守城，以计阻吴少诚攻许州，官至陈州刺史。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "刘昫": {
@@ -6179,6 +6265,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "刘济": {
+      "type": "person",
+      "label": "刘济",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "节度使",
+        "幽州"
+      ],
+      "description": "唐幽州节度使，累破奚、契丹，后为其子刘总所毒杀。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "刘浚": {
       "type": "person",
       "label": "刘浚",
@@ -6347,6 +6446,19 @@
       "quality_score": 48,
       "total_refs": 28,
       "total_chapters": 10
+    },
+    "刘祎之": {
+      "type": "person",
+      "label": "刘祎之",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "宰相",
+        "中书侍郎"
+      ],
+      "description": "唐宰相，中书侍郎，以文学进身，后得罪武后被杀。",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "刘禅": {
       "type": "person",
@@ -8985,6 +9097,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "史宪诚": {
+      "type": "person",
+      "label": "史宪诚",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "节度使",
+        "魏博"
+      ],
+      "description": "唐魏博节度使，先附叛军，后归朝廷，为其下所杀。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "史弘肇": {
       "type": "person",
       "label": "史弘肇",
@@ -9181,8 +9306,9 @@
       ],
       "description": "三国魏国权臣，多次抵御诸葛亮北伐，后发动高平陵之变夺取曹魏大权，是晋朝建立的奠基人，以深谋远虑、忍耐著称。",
       "featured": true,
+      "image": "images/司马懿.jpg",
       "quality": "featured",
-      "quality_score": 38,
+      "quality_score": 48,
       "total_refs": 120,
       "total_chapters": 51
     },
@@ -10242,7 +10368,7 @@
       "image": "images/唐太宗.jpg",
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 115,
+      "total_refs": 116,
       "total_chapters": 14
     },
     "唐庄宗": {
@@ -10416,8 +10542,9 @@
       ],
       "description": "战国时期秦国变法者，奠定秦统一六国的制度基础，以法家思想彻底改造秦国。",
       "featured": true,
+      "image": "images/商鞅.jpg",
       "quality": "featured",
-      "quality_score": 48,
+      "quality_score": 58,
       "total_refs": 40,
       "total_chapters": 7
     },
@@ -11938,6 +12065,17 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "字": {
+      "type": "concept",
+      "label": "字",
+      "aliases": [],
+      "tags": [
+        "教育"
+      ],
+      "description": "文字、表字，古代记录与称谓之基本单位",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "孙儒": {
       "type": "person",
       "label": "孙儒",
@@ -12272,6 +12410,17 @@
         "贤公子"
       ],
       "description": "春秋吴国公子，以贤明著称",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "学": {
+      "type": "concept",
+      "label": "学",
+      "aliases": [],
+      "tags": [
+        "教育"
+      ],
+      "description": "学习、学问，古代教育之根本",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -13414,6 +13563,19 @@
       "quality": "basic",
       "quality_score": 49,
       "total_refs": 5,
+      "total_chapters": 0
+    },
+    "崔光远": {
+      "type": "person",
+      "label": "崔光远",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "京兆尹",
+        "西京留守"
+      ],
+      "description": "唐京兆尹，西京留守",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "崔季舒": {
@@ -14575,6 +14737,19 @@
       "total_refs": 13,
       "total_chapters": 7
     },
+    "张亮": {
+      "type": "person",
+      "label": "张亮",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将领",
+        "凌烟阁"
+      ],
+      "description": "唐初将领，凌烟阁二十四功臣之一，后因谋反被诛。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "张仁愿": {
       "type": "person",
       "label": "张仁愿",
@@ -14620,6 +14795,19 @@
       "quality_score": 51,
       "total_refs": 28,
       "total_chapters": 3
+    },
+    "张仲武": {
+      "type": "person",
+      "label": "张仲武",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "节度使",
+        "幽州"
+      ],
+      "description": "唐幽州节度使，大破回鹘，威震塞北。",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "张俭": {
       "type": "person",
@@ -14873,6 +15061,19 @@
       "total_refs": 6,
       "total_chapters": 0
     },
+    "张延翰": {
+      "type": "person",
+      "label": "张延翰",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "南唐",
+        "官员"
+      ],
+      "description": "五代南唐官员，事烈祖李昪，以精敏称。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "张弘策": {
       "type": "person",
       "label": "张弘策",
@@ -15072,6 +15273,19 @@
       "quality": "basic",
       "quality_score": 55,
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "张方": {
+      "type": "person",
+      "label": "张方",
+      "aliases": [],
+      "tags": [
+        "西晋",
+        "将领",
+        "八王之乱"
+      ],
+      "description": "西晋将领，八王之乱中为河间王司马颙部将，以残忍著称。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "张昌宗": {
@@ -15853,7 +16067,7 @@
       "description": "五代十国南唐开创者，本名李昪，以养子身份入徐温家，逐步掌握吴国大权，代吴建南唐，是南方割据政权中最具合法性建构意识的开国君主。",
       "quality": "featured",
       "quality_score": 40,
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "徐福": {
@@ -16287,6 +16501,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "戴渊": {
+      "type": "person",
+      "label": "戴渊",
+      "aliases": [],
+      "tags": [
+        "西晋",
+        "征西将军",
+        "都督"
+      ],
+      "description": "西晋征西将军",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "戴胄": {
       "type": "person",
       "label": "戴胄",
@@ -16345,6 +16572,19 @@
       "total_refs": 26,
       "total_chapters": 15
     },
+    "房琯": {
+      "type": "person",
+      "label": "房琯",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "宰相",
+        "给事中"
+      ],
+      "description": "唐宰相",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "扈彦珂": {
       "type": "person",
       "label": "扈彦珂",
@@ -16369,6 +16609,19 @@
         "人体"
       ],
       "description": "手，人类劳动与创造的主要器官",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "执失思力": {
+      "type": "person",
+      "label": "执失思力",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将领",
+        "突厥"
+      ],
+      "description": "唐突厥裔将领，以战功封驸马都尉。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -16570,6 +16823,17 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "教": {
+      "type": "concept",
+      "label": "教",
+      "aliases": [],
+      "tags": [
+        "教育"
+      ],
+      "description": "教导、教化，古代治国理政之重要手段",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "教坊": {
       "type": "concept",
       "label": "教坊",
@@ -16674,6 +16938,17 @@
       "quality": "featured",
       "quality_score": 46,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "文": {
+      "type": "concept",
+      "label": "文",
+      "aliases": [],
+      "tags": [
+        "教育"
+      ],
+      "description": "文字、文章、文化，古代文明之根本",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "文书": {
@@ -16864,6 +17139,17 @@
       "quality": "basic",
       "quality_score": 25,
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "斧": {
+      "type": "concept",
+      "label": "斧",
+      "aliases": [],
+      "tags": [
+        "工具"
+      ],
+      "description": "斧，古代砍伐与兵器之具",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "斧钺": {
@@ -18462,6 +18748,19 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "李左车": {
+      "type": "person",
+      "label": "李左车",
+      "aliases": [],
+      "tags": [
+        "秦末",
+        "谋臣",
+        "赵将"
+      ],
+      "description": "秦末赵将，广武君，以谋略称，韩信师事之。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "李师道": {
       "type": "person",
       "label": "李师道",
@@ -18831,6 +19130,19 @@
       "total_refs": 9,
       "total_chapters": 0
     },
+    "李暠": {
+      "type": "person",
+      "label": "李暠",
+      "aliases": [],
+      "tags": [
+        "十六国",
+        "西凉",
+        "武昭王"
+      ],
+      "description": "西凉武昭王，陇西人，好文学，据敦煌称凉公。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "李林甫": {
       "type": "person",
       "label": "李林甫",
@@ -19119,6 +19431,18 @@
       "description": "隋末凉州割据者，趁薛举作乱之际在武威起兵，建立凉国，控制河西走廊，与唐朝一度和好，后因重用胡人引发内乱，被唐军平定。",
       "quality": "featured",
       "quality_score": 45,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "李载义": {
+      "type": "person",
+      "label": "李载义",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "卢龙节度使"
+      ],
+      "description": "唐卢龙节度使",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -19582,6 +19906,19 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "来瑱": {
+      "type": "person",
+      "label": "来瑱",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "颍川太守",
+        "节度使"
+      ],
+      "description": "唐颍川太守，人称来嚼铁",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "杨义臣": {
       "type": "person",
       "label": "杨义臣",
@@ -19694,7 +20031,7 @@
       "description": "隋朝开国皇帝，统一南北朝",
       "quality": "basic",
       "quality_score": 35,
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "杨复光": {
@@ -20111,6 +20448,18 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "柷": {
+      "type": "concept",
+      "label": "柷",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "乐器"
+      ],
+      "description": "古代木制打击乐器，雅乐起始之器",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "栈道": {
       "type": "concept",
       "label": "栈道",
@@ -20333,6 +20682,19 @@
       "quality_score": 56,
       "total_refs": 59,
       "total_chapters": 5
+    },
+    "梁崇义": {
+      "type": "person",
+      "label": "梁崇义",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "山南东道节度使",
+        "藩镇"
+      ],
+      "description": "唐山南东道节度使",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "梁师都": {
       "type": "person",
@@ -20746,7 +21108,7 @@
       "image": "images/武则天.jpg",
       "quality": "featured",
       "quality_score": 64,
-      "total_refs": 25,
+      "total_refs": 26,
       "total_chapters": 0
     },
     "武后": {
@@ -22718,6 +23080,17 @@
       "total_refs": 16,
       "total_chapters": 7
     },
+    "狐": {
+      "type": "concept",
+      "label": "狐",
+      "aliases": [],
+      "tags": [
+        "动物"
+      ],
+      "description": "狐狸，古代祥瑞与妖异象征",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "独孤信": {
       "type": "person",
       "label": "独孤信",
@@ -23135,6 +23508,19 @@
       "total_refs": 2,
       "total_chapters": 1
     },
+    "王宗佶": {
+      "type": "person",
+      "label": "王宗佶",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "前蜀",
+        "将领"
+      ],
+      "description": "前蜀将领，王建养子，以战功累迁中书令。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "王审琦": {
       "type": "person",
       "label": "王审琦",
@@ -23301,7 +23687,7 @@
       "description": "五代十国前蜀开创者，原唐代将领，割据蜀地，建立前蜀政权，以仁政著称。",
       "quality": "featured",
       "quality_score": 51,
-      "total_refs": 82,
+      "total_refs": 84,
       "total_chapters": 67
     },
     "王弘": {
@@ -24254,6 +24640,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "瑟": {
+      "type": "concept",
+      "label": "瑟",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "乐器"
+      ],
+      "description": "古代拨弦乐器，二十五弦，雅乐重要组成部分",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "璧": {
       "type": "concept",
       "label": "璧",
@@ -24291,6 +24689,19 @@
         "侍中"
       ],
       "description": "西汉末王莽心腹，侍中奉车都尉，助莽打击异己。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "甘卓": {
+      "type": "person",
+      "label": "甘卓",
+      "aliases": [],
+      "tags": [
+        "东晋",
+        "梁州刺史",
+        "湘州"
+      ],
+      "description": "东晋梁州刺史",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -25382,6 +25793,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "磬": {
+      "type": "concept",
+      "label": "磬",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "乐器"
+      ],
+      "description": "古代石制打击乐器，礼乐重要组成部分",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "礼乐": {
       "type": "concept",
       "label": "礼乐",
@@ -26217,6 +26640,19 @@
       "total_refs": 21,
       "total_chapters": 0
     },
+    "窦文场": {
+      "type": "person",
+      "label": "窦文场",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "宦官",
+        "神策军"
+      ],
+      "description": "唐宦官，监神策军",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "窦武": {
       "type": "person",
       "label": "窦武",
@@ -26307,6 +26743,18 @@
       "description": "朝臣手持的记事手板，官仪的重要组成部分",
       "quality": "basic",
       "quality_score": 33,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "笙": {
+      "type": "concept",
+      "label": "笙",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "乐器"
+      ],
+      "description": "古代吹奏乐器，由多根竹管组成",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -30210,6 +30658,18 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "筝": {
+      "type": "concept",
+      "label": "筝",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "乐器"
+      ],
+      "description": "古代拨弦乐器，战国时兴起于秦地",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "管仲": {
       "type": "person",
       "label": "管仲",
@@ -30245,6 +30705,18 @@
       "quality": "basic",
       "quality_score": 34,
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "箫": {
+      "type": "concept",
+      "label": "箫",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "乐器"
+      ],
+      "description": "古代吹管乐器，竹制，排箫或单管",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "簿书": {
@@ -30333,6 +30805,19 @@
         "纺织"
       ],
       "description": "古代洁白细密的丝绢",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "纪瞻": {
+      "type": "person",
+      "label": "纪瞻",
+      "aliases": [],
+      "tags": [
+        "东晋",
+        "官员",
+        "尚书左仆射"
+      ],
+      "description": "东晋官员，元帝时累官尚书左仆射，以忠荩称。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -31936,8 +32421,9 @@
       ],
       "description": "南朝梁开国皇帝，文武兼备，雄才大略，后崇信佛教怠于政事，晚年侯景之乱被困饿死，在位长达四十七年。",
       "featured": true,
+      "image": "images/萧衍.jpg",
       "quality": "featured",
-      "quality_score": 59,
+      "quality_score": 69,
       "total_refs": 35,
       "total_chapters": 0
     },
@@ -33035,6 +33521,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "褚亮": {
+      "type": "person",
+      "label": "褚亮",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "十八学士",
+        "文学馆"
+      ],
+      "description": "唐十八学士之一",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "褚渊": {
       "type": "person",
       "label": "褚渊",
@@ -33187,6 +33686,17 @@
       "description": "边疆或京师加强警戒防备的军事措施，应对突发事件和外来威胁。",
       "quality": "basic",
       "quality_score": 42,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "训": {
+      "type": "concept",
+      "label": "训",
+      "aliases": [],
+      "tags": [
+        "教育"
+      ],
+      "description": "训诫、教诲，古代教育与训导之方式",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -33468,6 +33978,17 @@
       "aliases": [],
       "tags": [],
       "description": "东晋末刘裕部将",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "读": {
+      "type": "concept",
+      "label": "读",
+      "aliases": [],
+      "tags": [
+        "教育"
+      ],
+      "description": "阅读、诵读，古代学习之基本方式",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -33924,6 +34445,19 @@
       "total_refs": 6,
       "total_chapters": 0
     },
+    "贺循": {
+      "type": "person",
+      "label": "贺循",
+      "aliases": [],
+      "tags": [
+        "东晋",
+        "中书令",
+        "名士"
+      ],
+      "description": "东晋中书令，名士",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "贺琛": {
       "type": "person",
       "label": "贺琛",
@@ -34218,7 +34752,7 @@
       "description": "十六国时期大夏国建立者，匈奴铁弗部后裔，以残暴与雄略并称，筑统万城，攻占关中，建立大夏政权。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "赫连昌": {
@@ -34249,6 +34783,19 @@
       "quality_score": 43,
       "total_refs": 8,
       "total_chapters": 7
+    },
+    "赵什住": {
+      "type": "person",
+      "label": "赵什住",
+      "aliases": [],
+      "tags": [
+        "隋",
+        "将领",
+        "吐谷浑"
+      ],
+      "description": "隋将，从刘权征吐谷浑。",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "赵佗": {
       "type": "person",
@@ -35941,6 +36488,29 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "针": {
+      "type": "concept",
+      "label": "针",
+      "aliases": [],
+      "tags": [
+        "工具"
+      ],
+      "description": "针，古代缝纫与医疗之细具",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "钟": {
+      "type": "concept",
+      "label": "钟",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "乐器"
+      ],
+      "description": "古代打击乐器，青铜制，礼乐重器",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "钟会": {
       "type": "person",
       "label": "钟会",
@@ -36457,6 +37027,19 @@
       "total_refs": 4,
       "total_chapters": 0
     },
+    "阳鹜": {
+      "type": "person",
+      "label": "阳鹜",
+      "aliases": [],
+      "tags": [
+        "南北朝",
+        "北魏",
+        "官员"
+      ],
+      "description": "北魏官员，以清谨著称。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "阵": {
       "type": "concept",
       "label": "阵",
@@ -36467,6 +37050,20 @@
       "description": "军队战斗队形排列，古代战术基础",
       "quality": "basic",
       "quality_score": 26,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "阿史那忠": {
+      "type": "person",
+      "label": "阿史那忠",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将领",
+        "突厥",
+        "阿史那氏"
+      ],
+      "description": "唐初突厥裔将领，突厥可汗之后，宿卫太宗，以忠谨称。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -36822,6 +37419,19 @@
       "total_refs": 6,
       "total_chapters": 0
     },
+    "陈玄礼": {
+      "type": "person",
+      "label": "陈玄礼",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "龙武大将军",
+        "禁军"
+      ],
+      "description": "唐龙武大将军，禁军将领",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "陈群": {
       "type": "person",
       "label": "陈群",
@@ -37044,8 +37654,9 @@
       ],
       "description": "隋朝第二位皇帝，开凿大运河、修建东都洛阳、三征高句丽，穷兵黩武、滥用民力，导致隋朝迅速灭亡，是与秦二世并称的亡国之君。",
       "featured": true,
+      "image": "images/隋炀帝.jpg",
       "quality": "featured",
-      "quality_score": 55,
+      "quality_score": 65,
       "total_refs": 78,
       "total_chapters": 31
     },
@@ -37141,6 +37752,19 @@
       "quality": "basic",
       "quality_score": 33,
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "霍仙鸣": {
+      "type": "person",
+      "label": "霍仙鸣",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "宦官",
+        "神策中尉"
+      ],
+      "description": "唐宦官，神策中尉，与窦文场分掌禁军，权倾一时。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "霍光": {
@@ -37536,9 +38160,10 @@
       ],
       "description": "汉初三杰之一，军事天才，为刘邦夺取天下立下首功，后以谋反罪被杀。",
       "featured": true,
+      "image": "images/韩信.jpg",
       "quality": "featured",
-      "quality_score": 50,
-      "total_refs": 66,
+      "quality_score": 60,
+      "total_refs": 67,
       "total_chapters": 24
     },
     "韩勍": {
@@ -37973,6 +38598,19 @@
         "钱镠"
       ],
       "description": "吴越武勇都指挥使",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "顾彦朗": {
+      "type": "person",
+      "label": "顾彦朗",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "节度使",
+        "东川"
+      ],
+      "description": "唐东川节度使，与王建相结，共抗陈敬瑄。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -39548,6 +40186,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "鼓": {
+      "type": "concept",
+      "label": "鼓",
+      "aliases": [],
+      "tags": [
+        "器物",
+        "乐器"
+      ],
+      "description": "古代打击乐器，用于军事、礼仪与音乐",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "鼓吹": {
       "type": "concept",
       "label": "鼓吹",
@@ -39720,7 +40370,9 @@
     "九族": "九族",
     "乞伏乾归": "乞伏乾归",
     "乞伏国仁": "乞伏国仁",
+    "习": "习",
     "乡兵": "乡兵",
+    "书": "书",
     "乾陵": "乾陵",
     "于仲文": "于仲文",
     "于定国": "于定国",
@@ -39813,6 +40465,7 @@
     "元欣": "元欣",
     "元稹": "元稹",
     "元微之": "元稹",
+    "元胄": "元胄",
     "元良": "元良",
     "元英": "元英",
     "元载": "元载",
@@ -39823,6 +40476,7 @@
     "世祖光武皇帝": "光武帝刘秀",
     "光武帝": "光武帝刘秀",
     "兒宽": "兒宽",
+    "兔": "兔",
     "党锢之祸": "党锢之祸",
     "党项": "党项",
     "全琮": "全琮",
@@ -40033,6 +40687,7 @@
     "诸葛亮出师表": "出师表",
     "函谷关": "函谷关",
     "刀剑": "刀剑",
+    "刁协": "刁协",
     "刁雍": "刁雍",
     "刑名": "刑名",
     "刑戮": "刑戮",
@@ -40052,6 +40707,7 @@
     "刘仁轨": "刘仁轨",
     "正则": "刘仁轨",
     "刘克明": "刘克明",
+    "刘勃勃": "刘勃勃",
     "刘勔": "刘勔",
     "刘向": "刘向",
     "刘更生": "刘向",
@@ -40075,6 +40731,7 @@
     "刘攽": "刘攽",
     "刘敬宣": "刘敬宣",
     "刘文静": "刘文静",
+    "刘昌裔": "刘昌裔",
     "刘昫": "刘昫",
     "刘晏": "刘晏",
     "刘晔": "刘晔",
@@ -40090,6 +40747,7 @@
     "刘毅": "刘毅",
     "刘仲雄": "刘毅",
     "刘汉宏": "刘汉宏",
+    "刘济": "刘济",
     "刘浚": "刘浚",
     "刘渊": "刘渊",
     "前赵汉昭武帝": "刘渊",
@@ -40106,6 +40764,7 @@
     "刘知俊": "刘知俊",
     "刘知远": "刘知远",
     "后汉高祖": "刘知远",
+    "刘祎之": "刘祎之",
     "刘禅": "刘禅",
     "后主": "刘禅",
     "阿斗": "刘禅",
@@ -40286,6 +40945,7 @@
     "古钱": "古钱",
     "可汗": "可汗",
     "史万岁": "史万岁",
+    "史宪诚": "史宪诚",
     "史弘肇": "史弘肇",
     "史彦超": "史彦超",
     "史思明": "史思明",
@@ -40567,6 +41227,7 @@
     "孔稚珪": "孔稚珪",
     "孔融": "孔融",
     "孔谦": "孔谦",
+    "字": "字",
     "孙儒": "孙儒",
     "孙吴": "孙吴",
     "孙子": "孙吴",
@@ -40607,6 +41268,7 @@
     "孟达": "孟达",
     "季布": "季布",
     "季札": "季札",
+    "学": "学",
     "宁成": "宁成",
     "宇文化及": "宇文化及",
     "宇文恺": "宇文恺",
@@ -40699,6 +41361,7 @@
     "崔仁师": "崔仁师",
     "崔光": "崔光",
     "崔长仁": "崔光",
+    "崔光远": "崔光远",
     "崔季舒": "崔季舒",
     "崔安潜": "崔安潜",
     "崔宏": "崔宏",
@@ -40793,9 +41456,11 @@
     "张九龄": "张九龄",
     "张文献": "张九龄",
     "曲江公": "张九龄",
+    "张亮": "张亮",
     "张仁愿": "张仁愿",
     "张从恩": "张从恩",
     "张仪": "张仪",
+    "张仲武": "张仲武",
     "张俭": "张俭",
     "张全义": "张全义",
     "张公谨": "张公谨",
@@ -40816,6 +41481,7 @@
     "张嶷": "张嶷",
     "张巡": "张巡",
     "张中丞": "张巡",
+    "张延翰": "张延翰",
     "张弘策": "张弘策",
     "张弘靖": "张弘靖",
     "张归霸": "张归霸",
@@ -40830,6 +41496,7 @@
     "张生铁": "张敬达",
     "张文礼": "张文礼",
     "张文蔚": "张文蔚",
+    "张方": "张方",
     "张昌宗": "张昌宗",
     "六郎": "张昌宗",
     "张易之": "张易之",
@@ -40943,6 +41610,7 @@
     "四公子": "战国四公子",
     "战国四君": "战国四公子",
     "戟": "戟",
+    "戴渊": "戴渊",
     "戴胄": "戴胄",
     "玄胤": "戴胄",
     "户": "户",
@@ -40950,8 +41618,10 @@
     "房玄龄": "房玄龄",
     "房乔": "房玄龄",
     "房谋": "房玄龄",
+    "房琯": "房琯",
     "扈彦珂": "扈彦珂",
     "手": "手",
+    "执失思力": "执失思力",
     "执金吾": "执金吾",
     "扬州": "扬州",
     "扬雄": "扬雄",
@@ -40971,6 +41641,7 @@
     "摄政": "摄政",
     "改元": "改元",
     "敕令": "敕令",
+    "教": "教",
     "教坊": "教坊",
     "教学": "教学",
     "散乐": "散乐",
@@ -40978,6 +41649,7 @@
     "散官": "散官",
     "敬晖": "敬晖",
     "敬翔": "敬翔",
+    "文": "文",
     "文书": "文书",
     "文学": "文学",
     "文景之治": "文景之治",
@@ -40994,6 +41666,7 @@
     "斛律金": "斛律金",
     "斤两": "斤两",
     "斥候": "斥候",
+    "斧": "斧",
     "斧钺": "斧钺",
     "断狱": "断狱",
     "新罗": "新罗",
@@ -41146,6 +41819,7 @@
     "魏公": "李密",
     "蒲山公": "李密",
     "李崧": "李崧",
+    "李左车": "李左车",
     "李师道": "李师道",
     "李广": "李广",
     "飞将军": "李广",
@@ -41173,6 +41847,7 @@
     "李昊": "李昊",
     "李昭德": "李昭德",
     "李晟": "李晟",
+    "李暠": "李暠",
     "李林甫": "李林甫",
     "晋国公": "李林甫",
     "口蜜腹剑": "李林甫",
@@ -41198,6 +41873,7 @@
     "李仲言": "李训",
     "李谷": "李谷",
     "李轨": "李轨",
+    "李载义": "李载义",
     "李辅国": "李辅国",
     "李远": "李远",
     "李适之": "李适之",
@@ -41241,6 +41917,7 @@
     "崇善": "来护儿",
     "来歙": "来歙",
     "来济": "来济",
+    "来瑱": "来瑱",
     "杨义臣": "杨义臣",
     "杨仆": "杨仆",
     "杨仪": "杨仪",
@@ -41286,6 +41963,7 @@
     "柳庆": "柳庆",
     "柳璨": "柳璨",
     "柴绍": "柴绍",
+    "柷": "柷",
     "栈道": "栈道",
     "桂陵之战": "桂陵之战",
     "桑弘羊": "桑弘羊",
@@ -41306,6 +41984,7 @@
     "樊於期": "桓齮",
     "梁冀": "梁冀",
     "梁伯卓": "梁冀",
+    "梁崇义": "梁崇义",
     "梁师都": "梁师都",
     "梨园": "梨园",
     "棨信": "棨信",
@@ -41519,6 +42198,7 @@
     "犬": "犬",
     "狄仁杰": "狄仁杰",
     "狄梁公": "狄仁杰",
+    "狐": "狐",
     "独孤信": "独孤信",
     "独孤皇后": "独孤皇后",
     "狱讼": "狱讼",
@@ -41557,6 +42237,7 @@
     "王安石": "王安石",
     "王介甫": "王安石",
     "荆公": "王安石",
+    "王宗佶": "王宗佶",
     "王审琦": "王审琦",
     "王审知": "王审知",
     "闽王": "王审知",
@@ -41655,9 +42336,11 @@
     "班仲升": "班超",
     "定远侯": "班超",
     "琴": "琴",
+    "瑟": "瑟",
     "璧": "璧",
     "甄琛": "甄琛",
     "甄邯": "甄邯",
+    "甘卓": "甘卓",
     "甘宁": "甘宁",
     "兴霸": "甘宁",
     "甘延寿": "甘延寿",
@@ -41752,6 +42435,7 @@
     "朱友谦": "硃友谦",
     "李继麟": "硃友谦",
     "碑文": "碑文",
+    "磬": "磬",
     "礼乐": "礼乐",
     "礼记": "礼记",
     "祁山": "祁山",
@@ -41829,6 +42513,7 @@
     "窦建德": "窦建德",
     "夏王": "窦建德",
     "长乐王": "窦建德",
+    "窦文场": "窦文场",
     "窦武": "窦武",
     "窦游平": "窦武",
     "窦荣定": "窦荣定",
@@ -41837,6 +42522,7 @@
     "章邯": "章邯",
     "雍王": "章邯",
     "笏": "笏",
+    "笙": "笙",
     "符信": "符信",
     "符彦卿": "符彦卿",
     "符玺": "符玺",
@@ -42529,11 +43215,13 @@
     "卷第二百九十三": "第293卷",
     "第294卷": "第294卷",
     "卷第二百九十四": "第294卷",
+    "筝": "筝",
     "管仲": "管仲",
     "管夷吾": "管仲",
     "管子": "管仲",
     "管辂": "管辂",
     "管公明": "管辂",
+    "箫": "箫",
     "簿书": "簿书",
     "簿籍": "簿籍",
     "籍田": "籍田",
@@ -42541,6 +43229,7 @@
     "絺疵": "絺疵",
     "縠": "縠",
     "纨": "纨",
+    "纪瞻": "纪瞻",
     "纬书": "纬书",
     "纳币": "纳币",
     "纺绩": "纺绩",
@@ -42776,6 +43465,7 @@
     "裴行俭": "裴行俭",
     "守约": "裴行俭",
     "裴邃": "裴邃",
+    "褚亮": "褚亮",
     "褚渊": "褚渊",
     "褚彦回": "褚渊",
     "褚裒": "褚裒",
@@ -42791,6 +43481,7 @@
     "西门豹": "西门豹",
     "角抵": "角抵",
     "警备": "警备",
+    "训": "训",
     "讲学": "讲学",
     "许劭": "许劭",
     "许子将": "许劭",
@@ -42822,6 +43513,7 @@
     "诸葛诞": "诸葛诞",
     "公休": "诸葛诞",
     "诸葛长民": "诸葛长民",
+    "读": "读",
     "谍": "谍",
     "谏诤": "谏诤",
     "谏逐客书": "谏逐客书",
@@ -42862,6 +43554,7 @@
     "贯高": "贯高",
     "费祎": "费祎",
     "文伟": "费祎",
+    "贺循": "贺循",
     "贺琛": "贺琛",
     "贺瑰": "贺瑰",
     "贺若弼": "贺若弼",
@@ -42894,10 +43587,10 @@
     "赤眉": "赤眉",
     "赫连勃勃": "赫连勃勃",
     "夏天王": "赫连勃勃",
-    "刘勃勃": "赫连勃勃",
     "赫连昌": "赫连昌",
     "赵云": "赵云",
     "赵子龙": "赵云",
+    "赵什住": "赵什住",
     "赵佗": "赵佗",
     "赵充国": "赵充国",
     "赵充国营平侯": "赵充国",
@@ -43040,6 +43733,8 @@
     "金": "金",
     "金日磾": "金日磾",
     "金银": "金银",
+    "针": "针",
+    "钟": "钟",
     "钟会": "钟会",
     "钟士季": "钟会",
     "钟传": "钟传",
@@ -43084,7 +43779,9 @@
     "阮籍": "阮籍",
     "阮嗣宗": "阮籍",
     "阳关": "阳关",
+    "阳鹜": "阳鹜",
     "阵": "阵",
+    "阿史那忠": "阿史那忠",
     "阿史那社尔": "阿史那社尔",
     "阿房宫": "阿房宫",
     "陆俟": "陆俟",
@@ -43116,6 +43813,7 @@
     "陈显达": "陈显达",
     "陈汤": "陈汤",
     "陈子公": "陈汤",
+    "陈玄礼": "陈玄礼",
     "陈群": "陈群",
     "陈长文": "陈群",
     "陈胜": "陈胜",
@@ -43147,6 +43845,7 @@
     "雍齿": "雍齿",
     "雷万春": "雷万春",
     "雷彦威": "雷彦威",
+    "霍仙鸣": "霍仙鸣",
     "霍光": "霍光",
     "霍博陆侯": "霍光",
     "霍去病": "霍去病",
@@ -43221,6 +43920,7 @@
     "西楚霸王": "项羽",
     "须贾": "须贾",
     "顾全武": "顾全武",
+    "顾彦朗": "顾彦朗",
     "顾荣": "顾荣",
     "顾雍": "顾雍",
     "颜之推": "颜之推",
@@ -43363,6 +44063,7 @@
     "黑齿常之": "黑齿常之",
     "黜陟": "黜陟",
     "鼎": "鼎",
+    "鼓": "鼓",
     "鼓吹": "鼓吹",
     "齐威王": "齐威王",
     "齐宣王": "齐宣王",
@@ -43373,6 +44074,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 2619,
-  "generated": "2026-05-06T15:35:52Z"
+  "page_count": 2671,
+  "generated": "2026-05-06T15:40:12Z"
 }
