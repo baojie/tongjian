@@ -119,7 +119,7 @@
   [ ] P2 create | 庞统 | 刘备谋臣，凤雏
   [ ] P2 create | 周处 | 西晋"三害"故事
   [ ] P2 create | 谢灵运 | 南朝山水诗人
-  [ ] P2 create | 元稹 | 唐代诗人政治家
+  [x] P2 create | 元稹 | 2026-05-06 R162完成（enrich）
   [ ] P2 create | 柳宗元 | 唐代文学家
   [ ] P2 create | 杜甫 | 诗圣，安史之乱亲历者
 
