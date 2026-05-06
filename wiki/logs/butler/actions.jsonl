@@ -290,3 +290,11 @@
 {"round": 97, "type": "create-page", "page": "苏逢吉", "result": "accept", "desc": "五代后汉人物", "ts": "2026-05-06T00:12:37Z"}
 {"round": 97, "type": "create-page", "page": "慕容彦超", "result": "accept", "desc": "五代后汉人物", "ts": "2026-05-06T00:12:38Z"}
 {"round": 97, "type": "create-page", "page": "李守贞", "result": "accept", "desc": "五代后汉人物", "ts": "2026-05-06T00:12:38Z"}
+{"round": 96, "type": "enrich-page", "page": "隋炀帝,刘禹锡", "result": "accept", "desc": "enrich-page×2页，200WU", "ts": "2026-05-06T00:13:51Z", "instance": "资治通鉴", "reflect": "隋炀帝新增大运河/三征高丽/玄感叛乱三节(1481→2869B)；刘禹锡新增党争/柳宗元义举两节(1478→2289B)"}
+{"round": 99, "type": "create-page", "page": "杨玄感", "result": "accept", "desc": "D1-discover-1条；H10-scan-1条断链；create-page×1，100WU", "ts": "2026-05-06T00:15:17Z", "instance": "资治通鉴", "reflect": "D1发现杨玄感1条断链，H10扫描确认仅1条broken link(杨玄感)，已创建页面，断链归零"}
+{"round": 98, "type": "create-page", "page": "桑维翰", "result": "accept", "desc": "五代后晋人物", "ts": "2026-05-06T00:15:40Z"}
+{"round": 98, "type": "create-page", "page": "景延广", "result": "accept", "desc": "五代后晋人物", "ts": "2026-05-06T00:15:40Z"}
+{"round": 98, "type": "create-page", "page": "杜重威", "result": "accept", "desc": "五代后晋人物", "ts": "2026-05-06T00:15:40Z"}
+{"round": 98, "type": "create-page", "page": "赵延寿", "result": "accept", "desc": "五代后晋人物", "ts": "2026-05-06T00:15:40Z"}
+{"round": 98, "type": "create-page", "page": "皇甫遇", "result": "accept", "desc": "五代后晋人物", "ts": "2026-05-06T00:15:40Z"}
+{"round": 98, "type": "create-page", "page": "安审琦", "result": "accept", "desc": "五代后晋人物", "ts": "2026-05-06T00:15:40Z"}
