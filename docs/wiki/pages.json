@@ -251,6 +251,17 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "东": {
+      "type": "concept",
+      "label": "东",
+      "aliases": [],
+      "tags": [
+        "方位"
+      ],
+      "description": "东方，四方位之首，日出之向",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "东吴": {
       "type": "state",
       "label": "东吴",
@@ -7031,6 +7042,17 @@
       "total_refs": 222,
       "total_chapters": 0
     },
+    "前": {
+      "type": "concept",
+      "label": "前",
+      "aliases": [],
+      "tags": [
+        "方位"
+      ],
+      "description": "前方、以前，古代方位与时间概念",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "前110年": {
       "type": "overview",
       "label": "前110年",
@@ -8642,6 +8664,17 @@
       "total_refs": 214,
       "total_chapters": 92
     },
+    "北": {
+      "type": "concept",
+      "label": "北",
+      "aliases": [],
+      "tags": [
+        "方位"
+      ],
+      "description": "北方，四方位之一，寒冷之向",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "北地": {
       "type": "place",
       "label": "北地",
@@ -8753,6 +8786,17 @@
         "王世充"
       ],
       "description": "隋末瓦岗军将领，后归王世充",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "南": {
+      "type": "concept",
+      "label": "南",
+      "aliases": [],
+      "tags": [
+        "方位"
+      ],
+      "description": "南方，四方位之一，温暖之向",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -9309,6 +9353,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "史书": {
+      "type": "concept",
+      "label": "史书",
+      "aliases": [],
+      "tags": [
+        "文化",
+        "史学"
+      ],
+      "description": "史官所撰之书，亦指书法文牍能力",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "史宪诚": {
       "type": "person",
       "label": "史宪诚",
@@ -9402,6 +9458,17 @@
       ],
       "description": "西汉外戚，史良娣兄子，因告发霍氏谋反封侯，官至侍中。",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "右": {
+      "type": "concept",
+      "label": "右",
+      "aliases": [],
+      "tags": [
+        "方位"
+      ],
+      "description": "右方，古代方位与官制概念",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "司徒": {
@@ -9718,6 +9785,17 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "后": {
+      "type": "concept",
+      "label": "后",
+      "aliases": [],
+      "tags": [
+        "方位"
+      ],
+      "description": "后方、以后，古代方位与时间概念",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "后周": {
       "type": "state",
       "label": "后周",
@@ -9746,8 +9824,8 @@
         "宪宗"
       ],
       "description": "唐左神策中尉，宪宗宠宦",
-      "quality": "stub",
-      "quality_score": 22,
+      "quality": "basic",
+      "quality_score": 32,
       "total_refs": 3,
       "total_chapters": 0
     },
@@ -10895,8 +10973,8 @@
         "战术"
       ],
       "description": "围攻城池的攻城战术。",
-      "quality": "stub",
-      "quality_score": 22,
+      "quality": "basic",
+      "quality_score": 30,
       "total_refs": 14,
       "total_chapters": 0
     },
@@ -13487,6 +13565,18 @@
       "total_refs": 169,
       "total_chapters": 0
     },
+    "宴": {
+      "type": "concept",
+      "label": "宴",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "文化"
+      ],
+      "description": "君臣宴饮之礼，古代社交重要形式",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "宴饮": {
       "type": "concept",
       "label": "宴饮",
@@ -13734,8 +13824,8 @@
         "尚书省"
       ],
       "description": "尚书省长官，秦汉为少府属官，魏晋后权倾朝野。",
-      "quality": "stub",
-      "quality_score": 22,
+      "quality": "basic",
+      "quality_score": 36,
       "total_refs": 28,
       "total_chapters": 0
     },
@@ -13777,6 +13867,19 @@
       ],
       "description": "黄巢起义军重要将领，初从王仙芝，后归黄巢，任太尉兼中书令。",
       "total_refs": 4,
+      "total_chapters": 0
+    },
+    "尹翁归": {
+      "type": "person",
+      "label": "尹翁归",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "官员",
+        "右扶风"
+      ],
+      "description": "西汉右扶风，以廉平公正称。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "尺度": {
@@ -14462,6 +14565,17 @@
       "total_refs": 6,
       "total_chapters": 0
     },
+    "左": {
+      "type": "concept",
+      "label": "左",
+      "aliases": [],
+      "tags": [
+        "方位"
+      ],
+      "description": "左方，古代方位与官制概念",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "巨鹿之战": {
       "type": "battle",
       "label": "巨鹿之战",
@@ -15110,8 +15224,8 @@
         "九卿"
       ],
       "description": "中央最高司法长官，掌刑辟，秦汉九卿之一。",
-      "quality": "stub",
-      "quality_score": 22,
+      "quality": "basic",
+      "quality_score": 36,
       "total_refs": 27,
       "total_chapters": 0
     },
@@ -16432,6 +16546,18 @@
       "quality": "stub",
       "quality_score": 24,
       "total_refs": 20,
+      "total_chapters": 0
+    },
+    "徐世勣": {
+      "type": "person",
+      "label": "徐世勣",
+      "aliases": [],
+      "tags": [
+        "瓦岗军",
+        "凌烟阁功臣"
+      ],
+      "description": "唐初名将，凌烟阁二十四功臣之一",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "徐勉": {
@@ -20897,6 +21023,19 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "杨志诚": {
+      "type": "person",
+      "label": "杨志诚",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "藩镇",
+        "幽州节度使"
+      ],
+      "description": "唐幽州节度使，以兵变得立。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "杨忠": {
       "type": "person",
       "label": "杨忠",
@@ -21841,6 +21980,18 @@
       "description": "东晋将领，检道济之兄，以参与刘裕北伐南燕、斩获临朐为军功起点，历任江州刺史、琅邪太守等职，是刘裕北伐体系中的重要将领之一。",
       "quality": "basic",
       "quality_score": 46,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "檄": {
+      "type": "concept",
+      "label": "檄",
+      "aliases": [],
+      "tags": [
+        "文书",
+        "军事"
+      ],
+      "description": "古代征召、声讨的军事文书",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -23219,6 +23370,18 @@
       "quality": "basic",
       "quality_score": 35,
       "total_refs": 25,
+      "total_chapters": 0
+    },
+    "法服": {
+      "type": "concept",
+      "label": "法服",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "服饰"
+      ],
+      "description": "按礼法制度规定的法定服饰",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "法正": {
@@ -27310,6 +27473,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "秘书": {
+      "type": "concept",
+      "label": "秘书",
+      "aliases": [],
+      "tags": [
+        "典籍",
+        "文化"
+      ],
+      "description": "宫廷藏书及秘籍，汉代校书制度",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "租庸调": {
       "type": "concept",
       "label": "租庸调",
@@ -27626,6 +27801,17 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "稻": {
+      "type": "concept",
+      "label": "稻",
+      "aliases": [],
+      "tags": [
+        "食物"
+      ],
+      "description": "稻（水稻），古代南方主粮",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "稼穑": {
       "type": "concept",
       "label": "稼穑",
@@ -27893,6 +28079,18 @@
       "quality": "basic",
       "quality_score": 27,
       "total_refs": 10,
+      "total_chapters": 0
+    },
+    "章奏": {
+      "type": "concept",
+      "label": "章奏",
+      "aliases": [],
+      "tags": [
+        "文书",
+        "制度"
+      ],
+      "description": "臣子上呈皇帝的正式文书",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "章昭达": {
@@ -34254,6 +34452,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "薛广德": {
+      "type": "person",
+      "label": "薛广德",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "官员",
+        "御史大夫"
+      ],
+      "description": "西汉御史大夫，以直谏戒游猎称。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "薛怀让": {
       "type": "person",
       "label": "薛怀让",
@@ -34267,6 +34478,19 @@
       "description": "五代后晋至后汉将领，以杀契丹使者举洺州归降后汉、骗取邢州节度使著称，是后汉初年关东各州归附过程中颇具手腕的地方将领。",
       "quality": "featured",
       "quality_score": 38,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "薛愿": {
+      "type": "person",
+      "label": "薛愿",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将领",
+        "颍川太守"
+      ],
+      "description": "唐颍川太守，拒安禄山守城期年。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -34916,6 +35140,17 @@
       "total_refs": 21,
       "total_chapters": 10
     },
+    "西": {
+      "type": "concept",
+      "label": "西",
+      "aliases": [],
+      "tags": [
+        "方位"
+      ],
+      "description": "西方，四方位之一，日落之向",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "西域": {
       "type": "place",
       "label": "西域",
@@ -35243,6 +35478,19 @@
         "语言"
       ],
       "description": "语言、话语，古代交流与记载之媒介",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "诸葛丰": {
+      "type": "person",
+      "label": "诸葛丰",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "官员",
+        "司隶校尉"
+      ],
+      "description": "西汉司隶校尉，以刚直著称。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -35939,6 +36187,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "贾捐之": {
+      "type": "person",
+      "label": "贾捐之",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "官员",
+        "待诏"
+      ],
+      "description": "西汉待诏，谏罢珠厓郡。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "贾诩": {
       "type": "person",
       "label": "贾诩",
@@ -36316,6 +36577,19 @@
       "description": "后梁朱全忠之婿，驸马都尉，后梁中期担任租庸使等核心职务，与张汉杰等人专权乱政，后梁亡国之际出奔许州，是后梁政治腐化的核心人物之一。",
       "quality": "featured",
       "quality_score": 43,
+      "total_refs": 1,
+      "total_chapters": 0
+    },
+    "赵广汉": {
+      "type": "person",
+      "label": "赵广汉",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "官员",
+        "京兆尹"
+      ],
+      "description": "西汉京兆尹，以治颍川举报箱著称。",
       "total_refs": 1,
       "total_chapters": 0
     },
@@ -36777,6 +37051,18 @@
       "quality": "featured",
       "quality_score": 47,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "辇": {
+      "type": "concept",
+      "label": "辇",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "车舆"
+      ],
+      "description": "人挽之车，帝王在宫内所乘",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "辎重": {
@@ -37292,8 +37578,8 @@
         "九卿"
       ],
       "description": "皇帝近卫长官，掌宫殿门户，后改光禄勋。",
-      "quality": "stub",
-      "quality_score": 18,
+      "quality": "basic",
+      "quality_score": 30,
       "total_refs": 7,
       "total_chapters": 0
     },
@@ -37382,6 +37668,19 @@
       "quality_score": 31,
       "total_refs": 6,
       "total_chapters": 2
+    },
+    "郑弘": {
+      "type": "person",
+      "label": "郑弘",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "官员",
+        "御史大夫"
+      ],
+      "description": "西汉御史大夫。",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "郑当时": {
       "type": "person",
@@ -38104,6 +38403,18 @@
       "total_refs": 26,
       "total_chapters": 15
     },
+    "铜钱": {
+      "type": "concept",
+      "label": "铜钱",
+      "aliases": [],
+      "tags": [
+        "货币",
+        "经济"
+      ],
+      "description": "中国古代以铜为主要材质的方孔圆钱",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "铜雀台": {
       "type": "place",
       "label": "铜雀台",
@@ -38749,6 +39060,19 @@
       "total_refs": 29,
       "total_chapters": 0
     },
+    "陈万年": {
+      "type": "person",
+      "label": "陈万年",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "官员",
+        "御史大夫"
+      ],
+      "description": "西汉御史大夫。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "陈俊": {
       "type": "person",
       "label": "陈俊",
@@ -38993,6 +39317,19 @@
       "quality": "featured",
       "quality_score": 50,
       "total_refs": 12,
+      "total_chapters": 0
+    },
+    "陈行泰": {
+      "type": "person",
+      "label": "陈行泰",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "藩镇",
+        "卢龙军"
+      ],
+      "description": "唐卢龙军牙将，杀节度使自立。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "陈觉": {
@@ -41607,6 +41944,17 @@
       "total_refs": 8,
       "total_chapters": 0
     },
+    "麦": {
+      "type": "concept",
+      "label": "麦",
+      "aliases": [],
+      "tags": [
+        "食物"
+      ],
+      "description": "麦（小麦），古代北方主粮",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "麻秋": {
       "type": "person",
       "label": "麻秋",
@@ -41816,6 +42164,18 @@
       "total_refs": 7,
       "total_chapters": 0
     },
+    "黼黻": {
+      "type": "concept",
+      "label": "黼黻",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "服饰"
+      ],
+      "description": "古代礼服上所绣黑白相间花纹，代指高官爵禄",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "鼎": {
       "type": "concept",
       "label": "鼎",
@@ -41994,6 +42354,7 @@
     "世袭": "世袭",
     "丘堆": "丘堆",
     "丙吉": "丙吉",
+    "东": "东",
     "东吴": "东吴",
     "东巡": "东巡",
     "东方朔": "东方朔",
@@ -42484,6 +42845,7 @@
     "到仲举": "到仲举",
     "到彦之": "到彦之",
     "刺史": "刺史",
+    "前": "前",
     "前110年": "前110年",
     "前119年": "前119年",
     "前141年": "前141年",
@@ -42577,6 +42939,7 @@
     "匈奴": "匈奴",
     "匈奴人": "匈奴",
     "胡": "匈奴",
+    "北": "北",
     "北地": "北地",
     "北巡": "北巡",
     "北魏": "北魏",
@@ -42586,6 +42949,7 @@
     "华皎": "华皎",
     "单超": "单超",
     "单雄信": "单雄信",
+    "南": "南",
     "南巡": "南巡",
     "南朝": "南朝",
     "南诏": "南诏",
@@ -42631,6 +42995,7 @@
     "可汗": "可汗",
     "台": "台",
     "史万岁": "史万岁",
+    "史书": "史书",
     "史宪诚": "史宪诚",
     "史弘肇": "史弘肇",
     "史彦超": "史彦超",
@@ -42638,6 +43003,7 @@
     "史思明大燕皇帝": "史思明",
     "史朝义": "史朝义",
     "史高": "史高",
+    "右": "右",
     "司徒": "司徒",
     "司空": "司空",
     "司马光": "司马光",
@@ -42675,6 +43041,7 @@
     "名家": "名家",
     "名教": "名教",
     "名籍": "名籍",
+    "后": "后",
     "后周": "后周",
     "周": "后周",
     "周朝（五代）": "后周",
@@ -43025,6 +43392,7 @@
     "宫刑": "宫刑",
     "宫卫": "宫卫",
     "宰相": "宰相",
+    "宴": "宴",
     "宴饮": "宴饮",
     "宿卫": "宿卫",
     "寇恂": "寇恂",
@@ -43047,6 +43415,7 @@
     "尚书省": "尚书省",
     "尚君长": "尚君长",
     "尚让": "尚让",
+    "尹翁归": "尹翁归",
     "尺度": "尺度",
     "居庸关": "居庸关",
     "履": "履",
@@ -43101,6 +43470,7 @@
     "巡省": "巡省",
     "巡行": "巡行",
     "工匠": "工匠",
+    "左": "左",
     "巨鹿之战": "巨鹿之战",
     "破釜沉舟": "巨鹿之战",
     "巫蛊之祸": "巫蛊之祸",
@@ -43265,6 +43635,7 @@
     "彭越": "彭越",
     "梁王": "彭越",
     "律令": "律令",
+    "徐世勣": "徐世勣",
     "徐勉": "徐勉",
     "徐商": "徐商",
     "徐嗣徽": "徐嗣徽",
@@ -43486,7 +43857,6 @@
     "杂戏": "杂戏",
     "权衡": "权衡",
     "李世勣": "李世勣",
-    "徐世勣": "李世勣",
     "徐茂公": "李世勣",
     "英国公": "李世勣",
     "李勣": "李世勣",
@@ -43665,6 +44035,7 @@
     "杨复恭": "杨复恭",
     "杨大眼": "杨大眼",
     "杨师厚": "杨师厚",
+    "杨志诚": "杨志诚",
     "杨忠": "杨忠",
     "杨愔": "杨愔",
     "杨慎矜": "杨慎矜",
@@ -43745,6 +44116,7 @@
     "檀石槐": "檀石槐",
     "檀道济": "檀道济",
     "檀韶": "檀韶",
+    "檄": "檄",
     "欧阳頠": "欧阳頠",
     "歌": "歌",
     "歌舞": "歌舞",
@@ -43872,6 +44244,7 @@
     "泉": "泉",
     "法令": "法令",
     "法家": "法家",
+    "法服": "法服",
     "法正": "法正",
     "法孝直": "法正",
     "波": "波",
@@ -44226,6 +44599,7 @@
     "秃发乌孤": "秃发乌孤",
     "秃发傉檀": "秃发傉檀",
     "秋": "秋",
+    "秘书": "秘书",
     "租庸调": "租庸调",
     "秦叔宝": "秦叔宝",
     "秦琼": "秦叔宝",
@@ -44260,6 +44634,7 @@
     "程咬金": "程知节",
     "卢国公": "程知节",
     "税": "税",
+    "稻": "稻",
     "稼穑": "稼穑",
     "穆提婆": "穆提婆",
     "穆观": "穆观",
@@ -44285,6 +44660,7 @@
     "窦游平": "窦武",
     "窦荣定": "窦荣定",
     "窦融": "窦融",
+    "章奏": "章奏",
     "章昭达": "章昭达",
     "章邯": "章邯",
     "雍王": "章邯",
@@ -45192,7 +45568,9 @@
     "平阳郡公": "薛仁贵",
     "薛安都": "薛安都",
     "薛宣": "薛宣",
+    "薛广德": "薛广德",
     "薛怀让": "薛怀让",
+    "薛愿": "薛愿",
     "薛道衡": "薛道衡",
     "虎牢": "虎牢",
     "虎符": "虎符",
@@ -45250,6 +45628,7 @@
     "褚遂良": "褚遂良",
     "褚河南": "褚遂良",
     "褚公": "褚遂良",
+    "西": "西",
     "西域": "西域",
     "西域都护": "西域都护",
     "西晋": "西晋",
@@ -45280,6 +45659,7 @@
     "译使": "译使",
     "诗人": "诗人",
     "语": "语",
+    "诸葛丰": "诸葛丰",
     "诸葛亮": "诸葛亮",
     "孔明": "诸葛亮",
     "武侯": "诸葛亮",
@@ -45347,6 +45727,7 @@
     "贾后": "贾后",
     "贾南风": "贾后",
     "贾复": "贾复",
+    "贾捐之": "贾捐之",
     "贾诩": "贾诩",
     "贾文和": "贾诩",
     "贾谊": "贾谊",
@@ -45386,6 +45767,7 @@
     "马服君": "赵奢",
     "赵奢马服": "赵奢",
     "赵岩": "赵岩",
+    "赵广汉": "赵广汉",
     "赵延寿": "赵延寿",
     "赵德钧": "赵德钧",
     "赵忠": "赵忠",
@@ -45425,6 +45807,7 @@
     "轮台诏": "轮台罪己诏",
     "汉武帝罪己诏": "轮台罪己诏",
     "辅公祏": "辅公祏",
+    "辇": "辇",
     "辎重": "辎重",
     "辛庆忌": "辛庆忌",
     "辞赋": "辞赋",
@@ -45475,6 +45858,7 @@
     "郑吉": "郑吉",
     "郑国": "郑国",
     "郑安平": "郑安平",
+    "郑弘": "郑弘",
     "郑当时": "郑当时",
     "郑愔": "郑愔",
     "郑朗": "郑朗",
@@ -45536,6 +45920,7 @@
     "钱镠": "钱镠",
     "吴越太祖": "钱镠",
     "钱王": "钱镠",
+    "铜钱": "铜钱",
     "铜雀台": "铜雀台",
     "铠甲": "铠甲",
     "铢两": "铢两",
@@ -45590,6 +45975,7 @@
     "陆伯言": "陆逊",
     "陇右": "陇右",
     "陇西": "陇西",
+    "陈万年": "陈万年",
     "陈俊": "陈俊",
     "陈元康": "陈元康",
     "陈叔宝": "陈叔宝",
@@ -45614,6 +46000,7 @@
     "陈胜吴广": "陈胜",
     "陈蕃": "陈蕃",
     "陈仲举": "陈蕃",
+    "陈行泰": "陈行泰",
     "陈觉": "陈觉",
     "陈霸先": "陈霸先",
     "南陈高祖": "陈霸先",
@@ -45849,6 +46236,7 @@
     "鸿门之宴": "鸿门宴",
     "鹿": "鹿",
     "麒麟": "麒麟",
+    "麦": "麦",
     "麻秋": "麻秋",
     "黄": "黄",
     "黄巢": "黄巢",
@@ -45866,6 +46254,7 @@
     "黑": "黑",
     "黑齿常之": "黑齿常之",
     "黜陟": "黜陟",
+    "黼黻": "黼黻",
     "鼎": "鼎",
     "鼓": "鼓",
     "鼓吹": "鼓吹",
@@ -45880,6 +46269,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 2809,
-  "generated": "2026-05-06T15:52:19Z"
+  "page_count": 2839,
+  "generated": "2026-05-06T15:54:18Z"
 }
