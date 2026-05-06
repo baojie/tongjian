@@ -326,3 +326,10 @@
 {"round": 107, "type": "create-page", "page": "夏侯渊", "result": "accept", "desc": "曹魏名将，神速奔袭平凉州汉中，定军山被黄忠斩杀", "ts": "2026-05-06T00:32:55Z"}
 {"round": 107, "type": "create-page", "page": "曹仁", "result": "accept", "desc": "曹魏名将，曹操从弟，以守城坚韧著称，守江陵守樊城皆有功", "ts": "2026-05-06T00:32:55Z"}
 {"round": 107, "type": "create-page", "page": "徐晃", "result": "accept", "desc": "曹魏五子良将，治军严整，参与官渡、潼关、汉中诸战役", "ts": "2026-05-06T00:32:55Z"}
+{"round": 108, "type": "enrich-page", "page": "鲁肃,王翦", "result": "accept", "desc": "enrich-page×2页，200WU", "ts": "2026-05-06T00:33:14Z", "instance": "资治通鉴", "reflect": "鲁肃新增代周瑜/刮目相看(0→2569B完整重建)；王翦新增平定百越节(1986→2176B)"}
+{"round": 110, "type": "create-page", "page": "乐进", "result": "accept", "desc": "曹魏五子良将，坚守襄阳，讨平北方诸乱", "ts": "2026-05-06T00:36:17Z"}
+{"round": 110, "type": "create-page", "page": "许褚", "result": "accept", "desc": "曹魏猛将，虎痴，潼关护主渡河，曹操最亲信武将护卫", "ts": "2026-05-06T00:36:17Z"}
+{"round": 110, "type": "create-page", "page": "甘宁", "result": "accept", "desc": "东吴名将，先锋攻夷陵，攀城破皖城，骁勇传奇", "ts": "2026-05-06T00:36:18Z"}
+{"round": 110, "type": "create-page", "page": "诸葛恪", "result": "accept", "desc": "东吴权臣，诸葛瑾子，托孤重臣，北伐大败后被孙峻政变所杀", "ts": "2026-05-06T00:36:18Z"}
+{"round": 110, "type": "create-page", "page": "王凌", "result": "accept", "desc": "曹魏太尉，击退东吴，晚年谋废曹芳被司马懿平定后自杀", "ts": "2026-05-06T00:36:18Z"}
+{"round": 110, "type": "create-page", "page": "司马师", "result": "accept", "desc": "曹魏权臣，司马懿长子，接掌大权废曹芳，为司马氏篡魏奠基", "ts": "2026-05-06T00:36:18Z"}
