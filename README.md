@@ -4,11 +4,13 @@
 
 **在线访问**：[baojie.github.io/tongjian](https://baojie.github.io/tongjian)
 
+**开发指南**：[claude.ai/claude-code/onboard/5BDT8M9WrZlM](https://claude.ai/claude-code/onboard/5BDT8M9WrZlM)
+
 ## 内容
 
 - **294 卷**原文页（战国 403 BC — 五代 959 AD，纵贯 1362 年）
-- **70+ 词条**：历史人物、重大战役、关键事件
-- 11 个精选词条（司马光、唐太宗、曹操、秦始皇、韩信、项羽等）
+- **1800+ 词条**：历史人物、重大战役、关键事件、制度概念、地名
+- 精品词条 600+（侯景之乱、武则天、诸葛亮、秦始皇等）
 
 ## 功能
 
@@ -22,19 +24,19 @@
 
 ```bash
 bash wiki/wiki.sh
-# 访问 http://localhost:1084
+# 访问 http://localhost:1084（元丰七年，通鉴完成年份）
 ```
 
 ## 目录结构
 
 ```
 tongjian/
-├── corpus/raw/          # 资治通鉴原文（只读）
+├── corpus/raw/          # 资治通鉴原文（只读，~300万字）
 ├── wiki/public/
 │   ├── pages/           # 词条页面（Markdown）
 │   ├── js/              # SPA 前端
 │   └── plugins/         # 功能插件
-├── wiki/scripts/        # 构建脚本
+├── wiki/scripts/        # 构建脚本（add_page.py, butler/...）
 └── docs/                # GitHub Pages 输出
 ```
 
