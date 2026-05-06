@@ -860,3 +860,16 @@
 {"round": 269, "type": "create-page", "page": "陈子昂", "result": "accept", "desc": "新建词条：陈子昂", "ts": "2026-05-06T10:26:45Z"}
 {"round": 269, "type": "fix-links", "page": "公元386年", "result": "accept", "desc": "去除[[孝文帝]]死链", "ts": "2026-05-06T10:26:46Z"}
 {"round": 274, "type": "create-page", "page": "前249年,前241年,公元168年,公元290年,公元741年", "result": "accept", "desc": "create-page×5页，500WU", "ts": "2026-05-06T10:42:07Z", "instance": "刘攽", "reflect": "R274：战国2（前249秦灭东周/前241最后合纵）+东汉1（168党锢陈蕃窦武）+西晋1（290惠帝即位）+唐1（741安禄山兴起）；每页≥2条PN引注"}
+{"round": 273, "type": "create-page", "page": "公元209年", "result": "accept", "desc": "新建年表词条：三国格局形成前夕，赤壁之战后诸葛亮使吴等事", "ts": "2026-05-06T10:42:59Z"}
+{"round": 273, "type": "create-page", "page": "公元228年", "result": "accept", "desc": "新建年表词条：蜀汉诸葛亮第一次北伐，马谡失街亭", "ts": "2026-05-06T10:43:00Z"}
+{"round": 273, "type": "create-page", "page": "两税法", "result": "accept", "desc": "新建概念词条：唐德宗建中元年杨炎推行的税制改革", "ts": "2026-05-06T10:43:01Z"}
+{"round": 273, "type": "create-page", "page": "租庸调", "result": "accept", "desc": "新建概念词条：隋唐与均田制配套的赋役制度", "ts": "2026-05-06T10:43:01Z"}
+{"round": 273, "type": "create-page", "page": "永贞革新", "result": "accept", "desc": "新建事件词条：唐顺宗永贞元年王叔文主导的政治改革", "ts": "2026-05-06T10:43:02Z"}
+{"round": 275, "type": "publish", "page": "", "result": "accept", "desc": "/wiki-publish + pages.json重建，commit 0d586f4，40文件1152行增量", "ts": "2026-05-06T10:43:47Z", "instance": "刘攽", "reflect": "R275 publish轮：R272+R274共10条年份词条+他实例5条，共15条新页，全部成功推送"}
+{"round": 277, "type": "create-page", "page": "公元817年", "result": "accept", "desc": "新建词条：公元817年", "ts": "2026-05-06T10:52:32Z"}
+{"round": 277, "type": "create-page", "page": "会昌灭佛", "result": "accept", "desc": "新建词条：会昌灭佛", "ts": "2026-05-06T10:52:33Z"}
+{"round": 277, "type": "create-page", "page": "公元845年", "result": "accept", "desc": "新建词条：公元845年", "ts": "2026-05-06T10:52:33Z"}
+{"round": 277, "type": "create-page", "page": "公元859年", "result": "accept", "desc": "新建词条：公元859年", "ts": "2026-05-06T10:52:34Z"}
+{"round": 277, "type": "create-page", "page": "公元901年", "result": "accept", "desc": "新建词条：公元901年", "ts": "2026-05-06T10:52:35Z"}
+{"round": 277, "type": "fix-links", "page": "公元817年", "result": "accept", "desc": "修复死链：移除[[唐宪宗]]", "ts": "2026-05-06T10:52:36Z"}
+{"round": 276, "type": "create-page", "page": "公元357年 公元370年 公元399年 公元430年", "result": "accept", "desc": "create-page×4页，400WU", "ts": "2026-05-06T10:52:43Z", "instance": "刘攽", "reflect": "前秦苻坚崛起(357/370)、东晋孙恩之乱(399)、元嘉北伐首次(430)，十六国至南北朝关键年份，引文均来自corpus搜索"}
