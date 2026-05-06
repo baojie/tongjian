@@ -537,6 +537,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "为质": {
+      "type": "concept",
+      "label": "为质",
+      "aliases": [],
+      "tags": [
+        "外交",
+        "制度"
+      ],
+      "description": "派遣宗室子弟到他国作人质的外交制度",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "主父偃": {
       "type": "person",
       "label": "主父偃",
@@ -551,6 +563,18 @@
       "quality": "featured",
       "quality_score": 44,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "义仓": {
+      "type": "concept",
+      "label": "义仓",
+      "aliases": [],
+      "tags": [
+        "制度",
+        "经济"
+      ],
+      "description": "民间互助储粮备荒的粮仓",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "义纵": {
@@ -1305,6 +1329,19 @@
       "total_refs": 9,
       "total_chapters": 0
     },
+    "仓场": {
+      "type": "concept",
+      "label": "仓场",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "制度",
+        "经济"
+      ],
+      "description": "古代仓库场地，收纳租赋之所。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "仓库": {
       "type": "concept",
       "label": "仓库",
@@ -1452,6 +1489,17 @@
       "quality": "basic",
       "quality_score": 40,
       "total_refs": 9,
+      "total_chapters": 0
+    },
+    "伐": {
+      "type": "concept",
+      "label": "伐",
+      "aliases": [],
+      "tags": [
+        "军事"
+      ],
+      "description": "伐，讨伐、征伐，古代军事政治概念",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "会昌灭佛": {
@@ -2014,12 +2062,11 @@
       "aliases": [],
       "tags": [
         "晋",
-        "谏官",
-        "学者"
+        "谏官"
       ],
       "description": "西晋谏臣，以直言敢谏、反对奢侈著称。",
-      "quality": "stub",
-      "quality_score": 24,
+      "quality": "basic",
+      "quality_score": 31,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -9871,6 +9918,18 @@
       "total_refs": 83,
       "total_chapters": 46
     },
+    "同盟": {
+      "type": "concept",
+      "label": "同盟",
+      "aliases": [],
+      "tags": [
+        "政治",
+        "军事"
+      ],
+      "description": "两国或多国缔结的军事政治联盟",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "名家": {
       "type": "concept",
       "label": "名家",
@@ -11178,8 +11237,8 @@
         "经济"
       ],
       "description": "北魏至唐前期土地制度，计口授田。",
-      "quality": "stub",
-      "quality_score": 24,
+      "quality": "basic",
+      "quality_score": 34,
       "total_refs": 6,
       "total_chapters": 0
     },
@@ -11605,8 +11664,8 @@
         "后宫"
       ],
       "description": "皇后家族凭借宫闱之宠干政的政治势力。",
-      "quality": "stub",
-      "quality_score": 24,
+      "quality": "basic",
+      "quality_score": 36,
       "total_refs": 66,
       "total_chapters": 0
     },
@@ -13217,6 +13276,17 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "守": {
+      "type": "concept",
+      "label": "守",
+      "aliases": [],
+      "tags": [
+        "军事"
+      ],
+      "description": "守，防守、守卫，古代军事基本概念",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "守卫": {
       "type": "concept",
       "label": "守卫",
@@ -13658,6 +13728,17 @@
       "quality": "basic",
       "quality_score": 51,
       "total_refs": 14,
+      "total_chapters": 0
+    },
+    "定": {
+      "type": "concept",
+      "label": "定",
+      "aliases": [],
+      "tags": [
+        "政治"
+      ],
+      "description": "定，安定、确定，古代政治概念",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "宝货": {
@@ -15054,6 +15135,18 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "平": {
+      "type": "concept",
+      "label": "平",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "政治"
+      ],
+      "description": "平，平定、太平，古代军事政治概念",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "平准": {
       "type": "concept",
       "label": "平准",
@@ -15142,6 +15235,19 @@
       "quality": "basic",
       "quality_score": 48,
       "total_refs": 6,
+      "total_chapters": 0
+    },
+    "库藏": {
+      "type": "concept",
+      "label": "库藏",
+      "aliases": [],
+      "tags": [
+        "周",
+        "制度",
+        "经济"
+      ],
+      "description": "古代仓库储藏，国家资财所聚。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "应詹": {
@@ -16792,6 +16898,17 @@
       "total_refs": 14,
       "total_chapters": 0
     },
+    "征": {
+      "type": "concept",
+      "label": "征",
+      "aliases": [],
+      "tags": [
+        "军事"
+      ],
+      "description": "征，征讨、出征，古代军事政治概念",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "征兵": {
       "type": "concept",
       "label": "征兵",
@@ -17429,6 +17546,17 @@
       "total_refs": 31,
       "total_chapters": 0
     },
+    "战": {
+      "type": "concept",
+      "label": "战",
+      "aliases": [],
+      "tags": [
+        "军事"
+      ],
+      "description": "战，战斗、作战，古代军事核心概念",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "战国": {
       "type": "concept",
       "label": "战国",
@@ -17785,6 +17913,17 @@
       "quality": "basic",
       "quality_score": 21,
       "total_refs": 71,
+      "total_chapters": 0
+    },
+    "攻": {
+      "type": "concept",
+      "label": "攻",
+      "aliases": [],
+      "tags": [
+        "军事"
+      ],
+      "description": "攻，进攻、攻击，古代军事基本动作",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "敕令": {
@@ -19714,8 +19853,8 @@
         "李克用之父"
       ],
       "description": "唐振武节度使，沙陀酋长，李克用之父",
-      "quality": "stub",
-      "quality_score": 23,
+      "quality": "basic",
+      "quality_score": 32,
       "total_refs": 2,
       "total_chapters": 0
     },
@@ -28491,8 +28630,8 @@
         "护军将军"
       ],
       "description": "陈护军将军，讨周迪平乱",
-      "quality": "stub",
-      "quality_score": 23,
+      "quality": "basic",
+      "quality_score": 34,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -33065,6 +33204,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "羹": {
+      "type": "concept",
+      "label": "羹",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "饮食"
+      ],
+      "description": "古代肉汤，泛指羹汤。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "羽扇": {
       "type": "concept",
       "label": "羽扇",
@@ -33246,6 +33398,19 @@
       "total_refs": 8,
       "total_chapters": 0
     },
+    "肴": {
+      "type": "concept",
+      "label": "肴",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "饮食"
+      ],
+      "description": "古代荤菜，泛指菜肴。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "胄": {
       "type": "concept",
       "label": "胄",
@@ -33333,6 +33498,19 @@
       "description": "人体经脉或脉搏，中医诊脉为重要诊断手段",
       "quality": "basic",
       "quality_score": 36,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "脯": {
+      "type": "concept",
+      "label": "脯",
+      "aliases": [],
+      "tags": [
+        "商",
+        "礼制",
+        "饮食"
+      ],
+      "description": "古代干肉，亦指脯刑。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -35749,6 +35927,17 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "讨": {
+      "type": "concept",
+      "label": "讨",
+      "aliases": [],
+      "tags": [
+        "军事"
+      ],
+      "description": "讨，讨伐、声讨，古代军事政治概念",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "让": {
       "type": "concept",
       "label": "让",
@@ -35880,6 +36069,19 @@
       "quality": "featured",
       "quality_score": 48,
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "设宴": {
+      "type": "concept",
+      "label": "设宴",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "饮食"
+      ],
+      "description": "古代设宴款待宾客之礼。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "诈降": {
@@ -37561,6 +37763,19 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "轺": {
+      "type": "concept",
+      "label": "轺",
+      "aliases": [],
+      "tags": [
+        "周",
+        "制度",
+        "车舆"
+      ],
+      "description": "古代一马所驾的轻便马车。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "辂": {
       "type": "concept",
       "label": "辂",
@@ -38724,6 +38939,19 @@
       "description": "古代饮品，祭祀礼仪必备",
       "quality": "basic",
       "quality_score": 28,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "醴": {
+      "type": "concept",
+      "label": "醴",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "饮食"
+      ],
+      "description": "古代甜酒，设醴以待贤士。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -41558,6 +41786,19 @@
       "total_refs": 9,
       "total_chapters": 0
     },
+    "驾": {
+      "type": "concept",
+      "label": "驾",
+      "aliases": [],
+      "tags": [
+        "周",
+        "制度",
+        "车舆"
+      ],
+      "description": "古代驾车，亦指命驾出行。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "驿道": {
       "type": "concept",
       "label": "驿道",
@@ -41611,6 +41852,19 @@
       "quality": "stub",
       "quality_score": 30,
       "total_refs": 30,
+      "total_chapters": 0
+    },
+    "骖": {
+      "type": "concept",
+      "label": "骖",
+      "aliases": [],
+      "tags": [
+        "周",
+        "制度",
+        "车舆"
+      ],
+      "description": "古代车驾边马，骖乘之礼。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "高从诲": {
@@ -43000,7 +43254,9 @@
     "汉中山靖王": "中山靖王",
     "丹": "丹",
     "丹青": "丹青",
+    "为质": "为质",
     "主父偃": "主父偃",
+    "义仓": "义仓",
     "义纵": "义纵",
     "乌孙": "乌孙",
     "乌重胤": "乌重胤",
@@ -43059,6 +43315,7 @@
     "仆固怀恩": "仆固怀恩",
     "仆役": "仆役",
     "仇士良": "仇士良",
+    "仓场": "仓场",
     "仓库": "仓库",
     "仓廪": "仓廪",
     "令狐楚": "令狐楚",
@@ -43070,6 +43327,7 @@
     "伍员": "伍子胥",
     "伏兵": "伏兵",
     "伏击": "伏击",
+    "伐": "伐",
     "会昌灭佛": "会昌灭佛",
     "会盟": "会盟",
     "传国玺": "传国玺",
@@ -43671,6 +43929,7 @@
     "纵横": "合纵连横",
     "纵横家": "合纵连横",
     "纵横之术": "合纵连横",
+    "同盟": "同盟",
     "名家": "名家",
     "名山": "名山",
     "名教": "名教",
@@ -43987,6 +44246,7 @@
     "宇文融": "宇文融",
     "宇文述": "宇文述",
     "宇文逸豆归": "宇文逸豆归",
+    "守": "守",
     "守卫": "守卫",
     "安乐公主": "安乐公主",
     "安从进": "安从进",
@@ -44023,6 +44283,7 @@
     "宗楚客": "宗楚客",
     "官渡": "官渡",
     "官渡之战": "官渡之战",
+    "定": "定",
     "宝货": "宝货",
     "审配": "审配",
     "审食其": "审食其",
@@ -44133,6 +44394,7 @@
     "常平仓": "常平仓",
     "常思": "常思",
     "常衮": "常衮",
+    "平": "平",
     "平准": "平准",
     "平原君": "平原君",
     "赵胜": "平原君",
@@ -44140,6 +44402,7 @@
     "并州": "并州",
     "幽州": "幽州",
     "庐陵王义真": "庐陵王义真",
+    "库藏": "库藏",
     "应詹": "应詹",
     "庙号": "庙号",
     "庙祭": "庙祭",
@@ -44278,6 +44541,7 @@
     "彭宣": "彭宣",
     "彭越": "彭越",
     "梁王": "彭越",
+    "征": "征",
     "征兵": "征兵",
     "律令": "律令",
     "徐世勣": "徐世勣",
@@ -44335,6 +44599,7 @@
     "戈": "戈",
     "成汭": "成汭",
     "成都": "成都",
+    "战": "战",
     "战国": "战国",
     "战国时代": "战国",
     "战国时期": "战国",
@@ -44372,6 +44637,7 @@
     "掩袭": "掩袭",
     "摄政": "摄政",
     "改元": "改元",
+    "攻": "攻",
     "敕令": "敕令",
     "教": "教",
     "教坊": "教坊",
@@ -46062,6 +46328,7 @@
     "叔子": "羊祜",
     "羌": "羌",
     "羯": "羯",
+    "羹": "羹",
     "羽扇": "羽扇",
     "翟文秀": "翟文秀",
     "翟方进": "翟方进",
@@ -46076,6 +46343,7 @@
     "聘问": "聘问",
     "肉刑": "肉刑",
     "肥义": "肥义",
+    "肴": "肴",
     "胄": "胄",
     "背水一战": "背水一战",
     "背水阵": "背水一战",
@@ -46085,6 +46353,7 @@
     "二世皇帝": "胡亥",
     "胡僧祐": "胡僧祐",
     "脉": "脉",
+    "脯": "脯",
     "腰斩": "腰斩",
     "膳": "膳",
     "臧宫": "臧宫",
@@ -46302,6 +46571,7 @@
     "角抵": "角抵",
     "言": "言",
     "警备": "警备",
+    "讨": "讨",
     "让": "让",
     "训": "训",
     "讲学": "讲学",
@@ -46316,6 +46586,7 @@
     "许谦": "许谦",
     "许远": "许远",
     "许睢阳": "许远",
+    "设宴": "设宴",
     "诈降": "诈降",
     "诊": "诊",
     "诏令": "诏令",
@@ -46472,6 +46743,7 @@
     "轮台罪己诏": "轮台罪己诏",
     "轮台诏": "轮台罪己诏",
     "汉武帝罪己诏": "轮台罪己诏",
+    "轺": "轺",
     "辂": "辂",
     "辅公祏": "辅公祏",
     "辇": "辇",
@@ -46568,6 +46840,7 @@
     "都督": "都督",
     "鄯善": "鄯善",
     "酒": "酒",
+    "醴": "醴",
     "金": "金",
     "金日磾": "金日磾",
     "金银": "金银",
@@ -46816,10 +47089,12 @@
     "马陵之战": "马陵之战",
     "驰道": "驰道",
     "驸马": "驸马",
+    "驾": "驾",
     "驿道": "驿道",
     "骆宾王": "骆宾王",
     "骑兵": "骑兵",
     "骑射": "骑射",
+    "骖": "骖",
     "高从诲": "高从诲",
     "南平文献王": "高从诲",
     "高仙芝": "高仙芝",
@@ -46943,6 +47218,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 2890,
-  "generated": "2026-05-06T15:59:21Z"
+  "page_count": 2911,
+  "generated": "2026-05-06T16:01:06Z"
 }
