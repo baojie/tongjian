@@ -859,3 +859,4 @@
 {"round": 269, "type": "create-page", "page": "公元787年", "result": "accept", "desc": "新建词条：公元787年", "ts": "2026-05-06T10:26:44Z"}
 {"round": 269, "type": "create-page", "page": "陈子昂", "result": "accept", "desc": "新建词条：陈子昂", "ts": "2026-05-06T10:26:45Z"}
 {"round": 269, "type": "fix-links", "page": "公元386年", "result": "accept", "desc": "去除[[孝文帝]]死链", "ts": "2026-05-06T10:26:46Z"}
+{"round": 274, "type": "create-page", "page": "前249年,前241年,公元168年,公元290年,公元741年", "result": "accept", "desc": "create-page×5页，500WU", "ts": "2026-05-06T10:42:07Z", "instance": "刘攽", "reflect": "R274：战国2（前249秦灭东周/前241最后合纵）+东汉1（168党锢陈蕃窦武）+西晋1（290惠帝即位）+唐1（741安禄山兴起）；每页≥2条PN引注"}
