@@ -276,3 +276,11 @@
 {"round": 92, "type": "create-page", "page": "张存敬", "result": "accept", "desc": "后梁将领，连拔河北诸州", "ts": "2026-05-06T00:05:48Z"}
 {"round": 92, "type": "create-page", "page": "氏叔琮", "result": "accept", "desc": "后梁将领，围攻晋阳险破李克用", "ts": "2026-05-06T00:05:48Z"}
 {"round": 92, "type": "create-page", "page": "杨师厚", "result": "accept", "desc": "后梁军事支柱，死后梁军大衰", "ts": "2026-05-06T00:05:48Z"}
+{"round": 93, "type": "enrich-page", "page": "裴度,祖逖", "result": "accept", "desc": "enrich-page×2页，200WU", "ts": "2026-05-06T00:06:25Z", "instance": "资治通鉴", "reflect": "裴度新增请自督战/护禹锡/韩愈配合三节(1475→2448B)；祖逖新增击楫誓师/苦战/未酬三节(1539→2408B)"}
+{"round": 95, "type": "enrich-page", "page": "张仪,房玄龄", "result": "accept", "desc": "enrich-page×2页，200WU", "ts": "2026-05-06T00:08:53Z", "instance": "资治通鉴", "reflect": "张仪新增欺楚/说魏/入楚三节(1470→2595B)；房玄龄新增杜如晦/玄武门/功名三节(1470→2654B)"}
+{"round": 94, "type": "create-page", "page": "李重进", "result": "accept", "desc": "后周郭威外甥，高平力战，殉周不降", "ts": "2026-05-06T00:09:54Z"}
+{"round": 94, "type": "create-page", "page": "张永德", "result": "accept", "desc": "后周郭威女婿，建言严肃军纪", "ts": "2026-05-06T00:09:54Z"}
+{"round": 94, "type": "create-page", "page": "符彦卿", "result": "accept", "desc": "四朝名将，骑战守关力抗契丹", "ts": "2026-05-06T00:09:54Z"}
+{"round": 94, "type": "create-page", "page": "王朴", "result": "accept", "desc": "后周首席谋臣，献平边策定统一路线", "ts": "2026-05-06T00:09:54Z"}
+{"round": 94, "type": "create-page", "page": "韩通", "result": "accept", "desc": "后周名将，宋立时殉节不降", "ts": "2026-05-06T00:09:54Z"}
+{"round": 94, "type": "create-page", "page": "范质", "result": "accept", "desc": "四朝宰相，明敏强记谨守法度", "ts": "2026-05-06T00:09:54Z"}
