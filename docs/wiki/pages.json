@@ -1681,6 +1681,19 @@
       "total_refs": 5,
       "total_chapters": 3
     },
+    "令狐熙": {
+      "type": "person",
+      "label": "令狐熙",
+      "aliases": [],
+      "tags": [
+        "北周",
+        "隋",
+        "宰相"
+      ],
+      "description": "隋汴州刺史，抚岭南。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "令狐綯": {
       "type": "person",
       "label": "令狐綯",
@@ -5949,6 +5962,19 @@
       "total_refs": 4,
       "total_chapters": 0
     },
+    "公孙述": {
+      "type": "person",
+      "label": "公孙述",
+      "aliases": [],
+      "tags": [
+        "新朝",
+        "成家",
+        "蜀"
+      ],
+      "description": "公孙述，新末成家政权建立者，称帝于蜀",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "公族": {
       "type": "concept",
       "label": "公族",
@@ -7308,6 +7334,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "刘巨容": {
+      "type": "person",
+      "label": "刘巨容",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将领"
+      ],
+      "description": "唐山南东道节度使，荆门破黄巢。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "刘巴": {
       "type": "person",
       "label": "刘巴",
@@ -7600,11 +7638,10 @@
       "label": "刘权",
       "aliases": [],
       "tags": [
-        "隋",
-        "将领",
-        "吐谷浑"
+        "卫尉卿",
+        "河源郡"
       ],
-      "description": "隋卫尉卿，出伊吾道击吐谷浑，镇河源郡",
+      "description": "隋卫尉卿，镇河源郡，开屯田以御吐谷浑",
       "total_refs": 2,
       "total_chapters": 1
     },
@@ -7700,6 +7737,19 @@
       "quality": "basic",
       "quality_score": 43,
       "total_refs": 10,
+      "total_chapters": 0
+    },
+    "刘永": {
+      "type": "person",
+      "label": "刘永",
+      "aliases": [],
+      "tags": [
+        "新朝",
+        "西汉宗室",
+        "割据"
+      ],
+      "description": "刘永，西汉梁王刘武之后，新末割据东方称帝",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "刘汉宏": {
@@ -10453,7 +10503,7 @@
       "description": "孔子弟子，儒家西河学派创始人，曾在魏国西河讲学，培育了一批战国名臣。",
       "quality": "basic",
       "quality_score": 30,
-      "total_refs": 10,
+      "total_refs": 8,
       "total_chapters": 5
     },
     "卜式": {
@@ -11369,7 +11419,7 @@
       "description": "西晋开国皇帝，司马昭之子，代魏建晋，平灭东吴统一天下，晚年纵情享乐，为八王之乱埋下祸根。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 43,
+      "total_refs": 42,
       "total_chapters": 0
     },
     "司马相如": {
@@ -12584,6 +12634,18 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "周鲂": {
+      "type": "person",
+      "label": "周鲂",
+      "aliases": [],
+      "tags": [
+        "吴",
+        "鄱阳太守"
+      ],
+      "description": "吴鄱阳太守，以谲计诱魏曹休，断发赚信",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "呼韩邪": {
       "type": "person",
       "label": "呼韩邪",
@@ -12811,7 +12873,7 @@
       "image": "images/唐太宗.jpg",
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 134,
+      "total_refs": 132,
       "total_chapters": 14
     },
     "唐庄宗": {
@@ -14884,6 +14946,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "子夏": {
+      "type": "person",
+      "label": "子夏",
+      "aliases": [],
+      "tags": [
+        "孔子弟子",
+        "儒家"
+      ],
+      "description": "孔子弟子，卜氏，以文学著称",
+      "total_refs": 4,
+      "total_chapters": 0
+    },
     "子婴": {
       "type": "person",
       "label": "子婴",
@@ -15272,6 +15346,19 @@
       "quality": "featured",
       "quality_score": 45,
       "total_refs": 15,
+      "total_chapters": 0
+    },
+    "孙礼": {
+      "type": "person",
+      "label": "孙礼",
+      "aliases": [],
+      "tags": [
+        "魏",
+        "扬州刺史",
+        "尚书"
+      ],
+      "description": "魏扬州刺史、尚书，以亮直不挠著称",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "孙秀": {
@@ -17239,6 +17326,19 @@
       ],
       "description": "北魏抚军将军",
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "崔林": {
+      "type": "person",
+      "label": "崔林",
+      "aliases": [],
+      "tags": [
+        "魏",
+        "司隶校尉",
+        "司空"
+      ],
+      "description": "魏司隶校尉、司空，以明于考课著称",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "崔沆": {
@@ -19426,6 +19526,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "张步": {
+      "type": "person",
+      "label": "张步",
+      "aliases": [],
+      "tags": [
+        "新朝",
+        "东汉",
+        "割据"
+      ],
+      "description": "张步，新末东汉初割据齐地的军阀",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "张永": {
       "type": "person",
       "label": "张永",
@@ -19491,6 +19604,19 @@
       ],
       "description": "张玄素，唐景州录事参军",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "张琚": {
+      "type": "person",
+      "label": "张琚",
+      "aliases": [],
+      "tags": [
+        "十六国",
+        "前秦",
+        "将领"
+      ],
+      "description": "前秦司马，杜洪将。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "张畅": {
@@ -22330,6 +22456,21 @@
       "total_refs": 14,
       "total_chapters": 6
     },
+    "晋武帝": {
+      "type": "person",
+      "label": "晋武帝",
+      "aliases": [
+        "司马炎"
+      ],
+      "tags": [
+        "西晋",
+        "司马炎",
+        "太康"
+      ],
+      "description": "西晋开国皇帝，灭吴统一天下",
+      "total_refs": 2,
+      "total_chapters": 0
+    },
     "晋鄙": {
       "type": "person",
       "label": "晋鄙",
@@ -23062,6 +23203,20 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "李世民": {
+      "type": "person",
+      "label": "李世民",
+      "aliases": [
+        "唐太宗"
+      ],
+      "tags": [
+        "唐太宗",
+        "贞观之治"
+      ],
+      "description": "唐朝第二位皇帝，开创贞观之治",
+      "total_refs": 9,
+      "total_chapters": 0
+    },
     "李严": {
       "type": "person",
       "label": "李严",
@@ -23515,6 +23670,18 @@
       "quality": "featured",
       "quality_score": 33,
       "total_refs": 22,
+      "total_chapters": 0
+    },
+    "李回": {
+      "type": "person",
+      "label": "李回",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "宰相"
+      ],
+      "description": "唐中书侍郎同平章事，宣慰河北三镇。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "李园": {
@@ -24305,6 +24472,18 @@
       ],
       "description": "唐代将领，丰州刺史，以气折回鹘。",
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "李景让": {
+      "type": "person",
+      "label": "李景让",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "谏臣"
+      ],
+      "description": "唐御史大夫，浙西观察使。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "李暠": {
@@ -26222,6 +26401,20 @@
       "quality": "basic",
       "quality_score": 34,
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "柴荣": {
+      "type": "person",
+      "label": "柴荣",
+      "aliases": [
+        "周世宗"
+      ],
+      "tags": [
+        "后周",
+        "周世宗"
+      ],
+      "description": "后周世宗，五代英主，奠定北宋统一基础",
+      "total_refs": 5,
       "total_chapters": 0
     },
     "柷": {
@@ -29803,6 +29996,18 @@
       "total_refs": 17,
       "total_chapters": 7
     },
+    "狄兼谟": {
+      "type": "person",
+      "label": "狄兼谟",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "忠臣"
+      ],
+      "description": "唐御史中丞，狄仁杰族曾孙。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "狐": {
       "type": "concept",
       "label": "狐",
@@ -31412,6 +31617,19 @@
       ],
       "description": "西汉京兆尹，以刚直敢言、弹劾王凤专权著称，被诬下狱而死。",
       "total_refs": 7,
+      "total_chapters": 0
+    },
+    "王经": {
+      "type": "person",
+      "label": "王经",
+      "aliases": [],
+      "tags": [
+        "魏",
+        "雍州刺史",
+        "尚书"
+      ],
+      "description": "魏雍州刺史、尚书，以忠义死节",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "王缙": {
@@ -33805,6 +34023,20 @@
       "quality": "featured",
       "quality_score": 57,
       "total_refs": 7,
+      "total_chapters": 0
+    },
+    "秦二世": {
+      "type": "person",
+      "label": "秦二世",
+      "aliases": [
+        "胡亥"
+      ],
+      "tags": [
+        "胡亥",
+        "秦朝"
+      ],
+      "description": "秦朝第二位皇帝，胡亥，暴政致秦速亡",
+      "total_refs": 2,
       "total_chapters": 0
     },
     "秦叔宝": {
@@ -39700,7 +39932,7 @@
       "description": "秦始皇幼子，被赵高与李斯矫诏立为皇帝（即秦二世），昏庸无道，任由赵高专权，最终在大规模起义中身死，秦朝二世而亡。",
       "quality": "featured",
       "quality_score": 45,
-      "total_refs": 35,
+      "total_refs": 34,
       "total_chapters": 9
     },
     "胡僧祐": {
@@ -39713,6 +39945,19 @@
         "武猛将军"
       ],
       "description": "梁朝武猛将军",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "胡威": {
+      "type": "person",
+      "label": "胡威",
+      "aliases": [],
+      "tags": [
+        "前将军",
+        "青州刺史",
+        "尚书"
+      ],
+      "description": "西晋前将军、青州刺史、尚书，胡质之子",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -48188,6 +48433,18 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "陈少游": {
+      "type": "person",
+      "label": "陈少游",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "节度使"
+      ],
+      "description": "唐淮南节度使，首鼠两端。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "陈希烈": {
       "type": "person",
       "label": "陈希烈",
@@ -49126,6 +49383,18 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "韦温": {
+      "type": "person",
+      "label": "韦温",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "谏臣"
+      ],
+      "description": "唐宣歙观察使，太子侍读。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "韦澳": {
       "type": "person",
       "label": "韦澳",
@@ -49207,6 +49476,19 @@
       ],
       "description": "韦见素，唐玄宗同平章事",
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "韦謏": {
+      "type": "person",
+      "label": "韦謏",
+      "aliases": [],
+      "tags": [
+        "十六国",
+        "后赵",
+        "谏臣"
+      ],
+      "description": "后赵光禄大夫，谏冉闵。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "韦贤": {
@@ -49526,6 +49808,19 @@
       ],
       "description": "韩晔，唐司封郎中，八司马之一",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "韩暨": {
+      "type": "person",
+      "label": "韩暨",
+      "aliases": [],
+      "tags": [
+        "魏",
+        "太中大夫",
+        "司徒"
+      ],
+      "description": "魏太中大夫、司徒，以节操高尚著称",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "韩暹": {
@@ -50688,6 +50983,19 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "高劢": {
+      "type": "person",
+      "label": "高劢",
+      "aliases": [],
+      "tags": [
+        "北齐",
+        "隋",
+        "将领"
+      ],
+      "description": "北齐入隋，朔州行台仆射。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "高句丽": {
       "type": "tribe",
       "label": "高句丽",
@@ -50845,6 +51153,19 @@
       "quality": "basic",
       "quality_score": 39,
       "total_refs": 9,
+      "total_chapters": 0
+    },
+    "高柔": {
+      "type": "person",
+      "label": "高柔",
+      "aliases": [],
+      "tags": [
+        "魏",
+        "廷尉",
+        "司徒"
+      ],
+      "description": "魏廷尉、司徒，以执法公允著称",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "高欢": {
@@ -52359,6 +52680,7 @@
     "令狐整": "令狐整",
     "令狐楚": "令狐楚",
     "令狐潮": "令狐潮",
+    "令狐熙": "令狐熙",
     "令狐綯": "令狐綯",
     "任光": "任光",
     "任圜": "任圜",
@@ -52631,6 +52953,7 @@
     "公孙衍": "公孙衍",
     "犀首": "公孙衍",
     "公孙贺": "公孙贺",
+    "公孙述": "公孙述",
     "公族": "公族",
     "六亲": "六亲",
     "六礼": "六礼",
@@ -52753,6 +53076,7 @@
     "刘崇": "刘崇",
     "北汉世祖": "刘崇",
     "刘崇望": "刘崇望",
+    "刘巨容": "刘巨容",
     "刘巴": "刘巴",
     "刘幽求": "刘幽求",
     "刘延孙": "刘延孙",
@@ -52785,6 +53109,7 @@
     "刘殷": "刘殷",
     "刘毅": "刘毅",
     "刘仲雄": "刘毅",
+    "刘永": "刘永",
     "刘汉宏": "刘汉宏",
     "刘泽": "刘泽",
     "刘洎": "刘洎",
@@ -53182,6 +53507,7 @@
     "周迪": "周迪",
     "周铁虎": "周铁虎",
     "周顗": "周顗",
+    "周鲂": "周鲂",
     "呼韩邪": "呼韩邪",
     "呼韩邪单于": "呼韩邪单于",
     "和": "和",
@@ -53418,6 +53744,7 @@
     "孙皓": "孙皓",
     "东吴末帝": "孙皓",
     "归命侯": "孙皓",
+    "孙礼": "孙礼",
     "孙秀": "孙秀",
     "孙程": "孙程",
     "孙策": "孙策",
@@ -53583,6 +53910,7 @@
     "崔损": "崔损",
     "崔昭纬": "崔昭纬",
     "崔暹": "崔暹",
+    "崔林": "崔林",
     "崔沆": "崔沆",
     "崔浩": "崔浩",
     "崔伯渊": "崔浩",
@@ -53758,11 +54086,13 @@
     "张柬之": "张柬之",
     "孟将": "张柬之",
     "张格": "张格",
+    "张步": "张步",
     "张永": "张永",
     "张永德": "张永德",
     "张汤": "张汤",
     "张湛": "张湛",
     "张玄素": "张玄素",
+    "张琚": "张琚",
     "张畅": "张畅",
     "张纲": "张纲",
     "张绣": "张绣",
@@ -54129,6 +54459,7 @@
     "李嗣源": "李嗣源",
     "后唐明宗": "李嗣源",
     "唐明宗": "李嗣源",
+    "李回": "李回",
     "李园": "李园",
     "李固": "李固",
     "李固言": "李固言",
@@ -54190,6 +54521,7 @@
     "李晟": "李晟",
     "李景": "李景",
     "李景略": "李景略",
+    "李景让": "李景让",
     "李暠": "李暠",
     "李林甫": "李林甫",
     "晋国公": "李林甫",
@@ -54663,6 +54995,7 @@
     "犬": "犬",
     "狄仁杰": "狄仁杰",
     "狄梁公": "狄仁杰",
+    "狄兼谟": "狄兼谟",
     "狐": "狐",
     "独孤信": "独孤信",
     "独孤损": "独孤损",
@@ -54801,6 +55134,7 @@
     "王稽": "王稽",
     "王立": "王立",
     "王章": "王章",
+    "王经": "王经",
     "王缙": "王缙",
     "王羲之": "王羲之",
     "王翦": "王翦",
@@ -55002,6 +55336,8 @@
     "秋": "秋",
     "秘书": "秘书",
     "租庸调": "租庸调",
+    "秦二世": "秦二世",
+    "胡亥": "秦二世",
     "秦叔宝": "秦叔宝",
     "秦琼": "秦叔宝",
     "翼国公": "秦叔宝",
@@ -55864,10 +56200,9 @@
     "背水一战": "背水一战",
     "背水阵": "背水一战",
     "背盟": "背盟",
-    "胡亥": "胡亥",
-    "秦二世": "胡亥",
     "二世皇帝": "胡亥",
     "胡僧祐": "胡僧祐",
+    "胡威": "胡威",
     "胡质": "胡质",
     "胡骑": "胡骑",
     "脉": "脉",
@@ -56601,6 +56936,7 @@
     "陈寅": "陈寅",
     "陈寔": "陈寔",
     "陈寿": "陈寿",
+    "陈少游": "陈少游",
     "陈希烈": "陈希烈",
     "陈平": "陈平",
     "曲逆侯": "陈平",
@@ -56685,6 +57021,7 @@
     "韦挺": "韦挺",
     "韦放": "韦放",
     "韦昭": "韦昭",
+    "韦温": "韦温",
     "韦澳": "韦澳",
     "韦玄成": "韦玄成",
     "韦皋": "韦皋",
@@ -56693,6 +57030,7 @@
     "韦虎": "韦睿",
     "韦粲": "韦粲",
     "韦见素": "韦见素",
+    "韦謏": "韦謏",
     "韦贤": "韦贤",
     "韦贯之": "韦贯之",
     "韩令坤": "韩令坤",
@@ -56722,6 +57060,7 @@
     "韩擒虎": "韩擒虎",
     "子通": "韩擒虎",
     "韩晔": "韩晔",
+    "韩暨": "韩暨",
     "韩暹": "韩暹",
     "韩泰": "韩泰",
     "韩游瑰": "韩游瑰",
@@ -56817,6 +57156,7 @@
     "高允": "高允",
     "高允权": "高允权",
     "高力士": "高力士",
+    "高劢": "高劢",
     "高句丽": "高句丽",
     "高士廉": "高士廉",
     "懿行": "高士廉",
@@ -56830,6 +57170,7 @@
     "高开道": "高开道",
     "高德政": "高德政",
     "高昌": "高昌",
+    "高柔": "高柔",
     "高欢": "高欢",
     "东魏太祖": "高欢",
     "神武帝": "高欢",
@@ -56957,6 +57298,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 3634,
-  "generated": "2026-05-06T17:05:59Z"
+  "page_count": 3659,
+  "generated": "2026-05-06T17:07:12Z"
 }
