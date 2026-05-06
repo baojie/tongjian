@@ -304,3 +304,4 @@
 {"round": 101, "type": "create-page", "page": "赵莹", "result": "accept", "desc": "五代后晋宰相，石敬瑭佐命功臣，历任门下侍郎、侍中、中书令", "ts": "2026-05-06T00:21:20Z"}
 {"round": 101, "type": "create-page", "page": "李崧", "result": "accept", "desc": "五代后晋翰林学士，力荐石敬瑭出镇河东，晋安危机中多次献策谋国", "ts": "2026-05-06T00:21:20Z"}
 {"round": 101, "type": "create-page", "page": "范延光", "result": "accept", "desc": "五代后唐枢密使，平朱守殷之乱有功，历任成德节度使、枢密使，以谨慎自保", "ts": "2026-05-06T00:21:20Z"}
+{"round": 100, "type": "enrich-page", "page": "司马炎,董卓", "result": "accept", "desc": "enrich-page×2页，200WU", "ts": "2026-05-06T00:21:36Z", "instance": "资治通鉴", "reflect": "司马炎新增建立西晋/立嗣之误两节(0→2119B完整页)；董卓新增废帝/迁都/身死三节(1483→2593B)"}
