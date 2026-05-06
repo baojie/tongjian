@@ -2703,7 +2703,7 @@
       "description": "东汉开国皇帝，乱世中以布衣之身再造汉室，善用人才，以柔道治国，是中国历史上著名的\"位面之子\"式传奇君主。",
       "quality": "featured",
       "quality_score": 51,
-      "total_refs": 96,
+      "total_refs": 97,
       "total_chapters": 16
     },
     "兒宽": {
@@ -7777,7 +7777,7 @@
         "谏臣"
       ],
       "description": "东汉桓帝朝太学生，以直言上书著称",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 6
     },
     "刘隆": {
@@ -10519,7 +10519,7 @@
       "description": "北宋著名政治家、史学家，《资治通鉴》主编，反对王安石变法，以仁德著称。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 695,
+      "total_refs": 696,
       "total_chapters": 0
     },
     "司马子如": {
@@ -10677,7 +10677,7 @@
       "description": "西汉辞赋家，汉武帝时期最重要的文学侍臣，以《子虚赋》《上林赋》名世，与卓文君私奔为千古佳话",
       "quality": "basic",
       "quality_score": 50,
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "司马迁": {
@@ -10695,7 +10695,7 @@
       "description": "西汉著名史学家，撰《史记》，被尊称\"史圣\"，受宫刑而坚持著史，留下\"究天人之际，通古今之变\"的史学巨著。",
       "quality": "featured",
       "quality_score": 39,
-      "total_refs": 60,
+      "total_refs": 61,
       "total_chapters": 40
     },
     "司马错": {
@@ -15520,6 +15520,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "尚结赞": {
+      "type": "person",
+      "label": "尚结赞",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "吐蕃",
+        "名相"
+      ],
+      "description": "尚结赞，吐蕃宰相，唐德宗时期主政",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "尚让": {
       "type": "person",
       "label": "尚让",
@@ -16894,7 +16907,7 @@
       "description": "刘备的重要谋臣，与诸葛亮并称\"卧龙凤雏\"，为刘备入蜀献策，英年战死于落凤坡。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 6,
+      "total_refs": 7,
       "total_chapters": 3
     },
     "度尚": {
@@ -17201,6 +17214,19 @@
       "quality": "basic",
       "quality_score": 36,
       "total_refs": 6,
+      "total_chapters": 0
+    },
+    "异牟寻": {
+      "type": "person",
+      "label": "异牟寻",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "南诏",
+        "归唐"
+      ],
+      "description": "异牟寻，南诏王，弃蕃归唐",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "弃市": {
@@ -18045,7 +18071,7 @@
       "description": "汉武帝朝廷尉、御史大夫，以深文周纳、以法舞权著称，与赵禹共定诸律令务在深文，百姓骚动中天下事皆决于汤，是汉武帝扩张政策的法律执行者，后被政敌构陷自杀。",
       "quality": "basic",
       "quality_score": 52,
-      "total_refs": 11,
+      "total_refs": 12,
       "total_chapters": 0
     },
     "张湛": {
@@ -20055,8 +20081,8 @@
         "制度"
       ],
       "description": "文辞篇章，亦指法令制度、礼仪文采。",
-      "quality": "stub",
-      "quality_score": 28,
+      "quality": "basic",
+      "quality_score": 44,
       "total_refs": 12,
       "total_chapters": 0
     },
@@ -20874,6 +20900,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "暾欲谷": {
+      "type": "person",
+      "label": "暾欲谷",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "突厥",
+        "后突厥"
+      ],
+      "description": "暾欲谷，后突厥谋臣，毗伽可汗谋主",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "更始": {
       "type": "person",
       "label": "更始帝",
@@ -20917,7 +20956,7 @@
       "description": "曹操之子，曹魏开国皇帝，逼迫汉献帝禅让，正式终结东汉，建立魏国，在位期间延续曹操奠定的基业，同时也是著名的文学家和诗人。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 45,
+      "total_refs": 46,
       "total_chapters": 10
     },
     "曹仁": {
@@ -25783,7 +25822,7 @@
       "description": "西汉第三位皇帝，以宽仁节俭著称，与景帝共创\"文景之治\"，是汉朝盛世的奠基者。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 95,
+      "total_refs": 96,
       "total_chapters": 28
     },
     "汉明帝": {
@@ -25845,7 +25884,7 @@
       "image": "images/汉武帝.jpg",
       "quality": "featured",
       "quality_score": 60,
-      "total_refs": 251,
+      "total_refs": 252,
       "total_chapters": 72
     },
     "汉章帝": {
@@ -28092,9 +28131,9 @@
         "成德节度使",
         "河朔三镇"
       ],
-      "description": "成德节度使，杀田弘正自立",
-      "quality": "stub",
-      "quality_score": 25,
+      "description": "成德节度使，杀田弘正自立，为河朔三镇之一。",
+      "quality": "basic",
+      "quality_score": 43,
       "total_refs": 3,
       "total_chapters": 0
     },
@@ -28927,7 +28966,7 @@
       "description": "西汉外戚，篡汉建立新朝，推行激进改制，最终在绿林赤眉起义中覆灭，是中国历史上著名的\"篡位者\"与改革失败典型。",
       "quality": "featured",
       "quality_score": 48,
-      "total_refs": 149,
+      "total_refs": 151,
       "total_chapters": 33
     },
     "王融": {
@@ -30824,8 +30863,8 @@
         "政治"
       ],
       "description": "吉祥征兆的总称，天人感应思想的核心表现。",
-      "quality": "stub",
-      "quality_score": 24,
+      "quality": "basic",
+      "quality_score": 42,
       "total_refs": 10,
       "total_chapters": 0
     },
@@ -31108,7 +31147,7 @@
       "image": "images/秦始皇.jpg",
       "quality": "featured",
       "quality_score": 64,
-      "total_refs": 113,
+      "total_refs": 114,
       "total_chapters": 24
     },
     "秦孝公": {
@@ -31447,6 +31486,19 @@
       ],
       "description": "春秋齐将，司马穰苴，著《司马兵法》",
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "突利": {
+      "type": "person",
+      "label": "突利可汗",
+      "aliases": [],
+      "tags": [
+        "隋朝",
+        "突厥",
+        "启民可汗"
+      ],
+      "description": "突利可汗（启民可汗），隋代突厥可汗，归附隋朝",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "突厥": {
@@ -38402,8 +38454,8 @@
         "礼制"
       ],
       "description": "古代安葬逝者的仪式与制度，包括棺椁、墓穴、随葬品等规范。",
-      "quality": "stub",
-      "quality_score": 26,
+      "quality": "basic",
+      "quality_score": 46,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -38432,8 +38484,8 @@
         "蜀道"
       ],
       "description": "蜀道咽喉，刘备入蜀屯兵处，军事要冲。",
-      "quality": "stub",
-      "quality_score": 28,
+      "quality": "basic",
+      "quality_score": 46,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -39921,6 +39973,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "论钦陵": {
+      "type": "person",
+      "label": "论钦陵",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "吐蕃",
+        "名将"
+      ],
+      "description": "论钦陵，吐蕃大将，专朝政数十年",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "设宴": {
       "type": "concept",
       "label": "设宴",
@@ -41373,7 +41438,7 @@
         "京兆尹"
       ],
       "description": "西汉京兆尹，以治颍川举报箱著称。",
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "赵延寿": {
@@ -43574,8 +43639,8 @@
         "制度"
       ],
       "description": "铢与两的重量单位，二十四铢为两",
-      "quality": "stub",
-      "quality_score": 16,
+      "quality": "basic",
+      "quality_score": 43,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -43939,6 +44004,19 @@
         "礼制"
       ],
       "description": "古代宫殿、祠庙门前的对称高台建筑",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "阙特勒": {
+      "type": "person",
+      "label": "阙特勒",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "突厥",
+        "后突厥"
+      ],
+      "description": "阙特勒，后突厥将领，毗伽可汗之弟",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -44977,7 +45055,7 @@
       "description": "西汉昭帝、宣帝时期的辅政大臣，受汉武帝遗命辅幼主，二十年间掌握实权，是西汉最重要的权臣之一，后因\"擅废立\"而被后世争议。",
       "quality": "featured",
       "quality_score": 46,
-      "total_refs": 55,
+      "total_refs": 56,
       "total_chapters": 22
     },
     "霍去病": {
@@ -45963,6 +46041,19 @@
       "quality": "basic",
       "quality_score": 28,
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "颉利": {
+      "type": "person",
+      "label": "颉利可汗",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "突厥",
+        "东突厥"
+      ],
+      "description": "颉利可汗，东突厥可汗，唐初劲敌",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "颜之推": {
@@ -47902,6 +47993,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "默啜": {
+      "type": "person",
+      "label": "默啜",
+      "aliases": [],
+      "tags": [
+        "唐朝",
+        "突厥",
+        "后突厥"
+      ],
+      "description": "默啜，后突厥可汗，武周时期屡寇边境",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "黜陟": {
       "type": "concept",
       "label": "黜陟",
@@ -49323,6 +49427,7 @@
     "尚书令": "尚书令",
     "尚书省": "尚书省",
     "尚君长": "尚君长",
+    "尚结赞": "尚结赞",
     "尚让": "尚让",
     "尹翁归": "尹翁归",
     "尺度": "尺度",
@@ -49459,6 +49564,7 @@
     "建章宫": "建章宫",
     "开元钱": "开元钱",
     "开封": "开封",
+    "异牟寻": "异牟寻",
     "弃市": "弃市",
     "弓": "弓",
     "弓矢": "弓矢",
@@ -49780,6 +49886,7 @@
     "智果": "智果",
     "辅氏": "智果",
     "暴胜之": "暴胜之",
+    "暾欲谷": "暾欲谷",
     "更始": "更始",
     "更始帝": "更始",
     "更赋": "更赋",
@@ -50704,6 +50811,8 @@
     "穆提婆": "穆提婆",
     "穆观": "穆观",
     "穰苴": "穰苴",
+    "突利": "突利",
+    "突利可汗": "突利",
     "突厥": "突厥",
     "突骑": "突骑",
     "窗": "窗",
@@ -51794,6 +51903,7 @@
     "许远": "许远",
     "许睢阳": "许远",
     "许靖": "许靖",
+    "论钦陵": "论钦陵",
     "设宴": "设宴",
     "诈降": "诈降",
     "诊": "诊",
@@ -52144,6 +52254,7 @@
     "阎显": "阎显",
     "阎立本": "阎立本",
     "阙": "阙",
+    "阙特勒": "阙特勒",
     "阮佃夫": "阮佃夫",
     "阮咸": "阮咸",
     "阮籍": "阮籍",
@@ -52321,6 +52432,8 @@
     "顾彦朗": "顾彦朗",
     "顾荣": "顾荣",
     "顾雍": "顾雍",
+    "颉利": "颉利",
+    "颉利可汗": "颉利",
     "颜之推": "颜之推",
     "颜师古": "颜师古",
     "颜延之": "颜延之",
@@ -52493,6 +52606,7 @@
     "黍": "黍",
     "黑": "黑",
     "黑齿常之": "黑齿常之",
+    "默啜": "默啜",
     "黜陟": "黜陟",
     "黼黻": "黼黻",
     "鼎": "鼎",
@@ -52511,6 +52625,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 3308,
-  "generated": "2026-05-06T16:34:13Z"
+  "page_count": 3316,
+  "generated": "2026-05-06T16:36:20Z"
 }
