@@ -341,3 +341,13 @@
 {"round": 112, "type": "create-page", "page": "陆抗", "result": "accept", "desc": "东吴最后名将，陆逊之子，西陵破晋，其死后吴亡", "ts": "2026-05-06T00:40:13Z"}
 {"round": 112, "type": "create-page", "page": "王濬", "result": "accept", "desc": "西晋灭吴功臣，七年建楼船，顺江直抵建业，孙皓降", "ts": "2026-05-06T00:40:13Z"}
 {"round": 112, "type": "create-page", "page": "贾充", "result": "accept", "desc": "西晋权臣，策动弑魏帝曹髦，司马氏篡魏的关键黑手", "ts": "2026-05-06T00:40:14Z"}
+{"round": 113, "type": "enrich-page", "page": "邓禹,董仲舒", "result": "accept", "desc": "enrich-page×2页，300WU：邓禹新增围攻安邑+封大司徒两节；董仲舒新增论限田之策节", "ts": "2026-05-06T00:40:57Z", "instance": "资治通鉴", "reflect": "邓禹二十四岁拜大司徒彰显光武帝识人之明；董仲舒限田之论虽未被采纳，但为后世土地改革奠定思想基础"}
+{"round": 114, "type": "enrich-page", "page": "萧衍,唐高祖", "result": "accept", "desc": "enrich-page×2页，300WU：萧衍新增出任雍州刺史+侯景之乱两节；唐高祖新增山西抚慰安民+结好突厥两节", "ts": "2026-05-06T00:43:30Z", "instance": "资治通鉴", "reflect": "萧衍以佛誤国的历史教训在240-096中有经典总结；李渊结好突厥的外交策略是太原起兵成功的重要保障"}
+{"round": 116, "type": "reflect-w5", "page": "", "result": "accept", "desc": "W5定期反思", "ts": "2026-05-06T00:44:09Z", "instance": "资治通鉴", "reflect": "质量分布：stub×4/basic×283/standard×134/featured×0（421词条）。本实例专注enrich，并行实例持续create，分工互补无冲突。basic仍283个，继续按规模降序enrich。判断A类：继续现行节奏"}
+{"round": 116, "type": "enrich-page", "page": "章邯,范增", "result": "accept", "desc": "enrich-page×2页，300WU：章邯新增北上围赵节；范增新增初说项梁立楚王全引(008-026)+荥阳劝急攻(010-018)两节", "ts": "2026-05-06T00:45:35Z", "instance": "资治通鉴", "reflect": "章邯围赵与钜鹿之战的历史背景更清晰；范增坚持荥阳劝攻与刘邦反间计均展示了楚汉胜负的关键博弈"}
+{"round": 115, "type": "create-page", "page": "杜预", "result": "accept", "desc": "西晋名臣武库，灭吴主将，精通礼学律令", "ts": "2026-05-06T00:45:58Z"}
+{"round": 115, "type": "create-page", "page": "张华", "result": "accept", "desc": "西晋名臣，力主灭吴、推枰决策，博学著博物志", "ts": "2026-05-06T00:45:59Z"}
+{"round": 115, "type": "create-page", "page": "卫瓘", "result": "accept", "desc": "西晋名臣，监军灭蜀，诈病避钟会，平乱收场", "ts": "2026-05-06T00:45:59Z"}
+{"round": 115, "type": "create-page", "page": "山涛", "result": "accept", "desc": "竹林七贤之一，以吏部尚书选才，阻废长立幼", "ts": "2026-05-06T00:45:59Z"}
+{"round": 115, "type": "create-page", "page": "王衍", "result": "accept", "desc": "西晋清谈领袖，以浮诞引领一代风气，清谈误国", "ts": "2026-05-06T00:45:59Z"}
+{"round": 115, "type": "create-page", "page": "庾亮", "result": "accept", "desc": "东晋外戚权臣，明帝皇后兄，平王敦有功，苏峻之乱主因", "ts": "2026-05-06T00:45:59Z"}
