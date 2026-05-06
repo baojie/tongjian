@@ -3,8 +3,8 @@ id: About
 type: overview
 label: 关于本 Wiki
 description: 资治通鉴 Wiki 项目介绍
+quality: basic
 ---
-
 # 关于《资治通鉴》Wiki
 
 本项目是北宋[[司马光]]主编《[[资治通鉴概述|资治通鉴]]》的中文百科 Wiki，使用纯静态 SPA 前端，通过 AI 辅助构建。
