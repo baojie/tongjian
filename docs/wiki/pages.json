@@ -209,7 +209,7 @@
         "朝代"
       ],
       "description": "东汉末年至西晋统一之间的分裂时期",
-      "total_refs": 149,
+      "total_refs": 150,
       "total_chapters": 0
     },
     "三家分晋": {
@@ -473,7 +473,7 @@
         "朝代"
       ],
       "description": "继西汉之后的大一统王朝，刘秀建立",
-      "total_refs": 369,
+      "total_refs": 370,
       "total_chapters": 0
     },
     "东海王越": {
@@ -733,6 +733,18 @@
         "色彩"
       ],
       "description": "丹色，朱红，古代重要染料与颜料",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "丹阳": {
+      "type": "place",
+      "label": "丹阳",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "京畿"
+      ],
+      "description": "秦汉丹阳郡，东晋南朝为京畿要地。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -1159,6 +1171,18 @@
       "quality": "basic",
       "quality_score": 31,
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "九江": {
+      "type": "place",
+      "label": "九江",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "封国"
+      ],
+      "description": "秦九江郡，项羽封黥布为九江王。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "乞伏乾归": {
@@ -1820,6 +1844,18 @@
       "quality": "basic",
       "quality_score": 27,
       "total_refs": 9,
+      "total_chapters": 0
+    },
+    "代郡": {
+      "type": "place",
+      "label": "代郡",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "北边"
+      ],
+      "description": "战国赵置代郡，秦汉因之，北边要郡。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "令狐德棻": {
@@ -10983,7 +11019,7 @@
       "description": "曹魏司徒，汉末名士，管宁割席",
       "quality": "basic",
       "quality_score": 39,
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "华温琪": {
@@ -11109,6 +11145,17 @@
       "quality": "basic",
       "quality_score": 43,
       "total_refs": 24,
+      "total_chapters": 0
+    },
+    "南郡": {
+      "type": "place",
+      "label": "南郡",
+      "aliases": [],
+      "tags": [
+        "郡"
+      ],
+      "description": "秦南郡，约今湖北荆州一带，秦取楚郢都置郡。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "南阳": {
@@ -12974,6 +13021,17 @@
       "total_refs": 20,
       "total_chapters": 11
     },
+    "吴郡": {
+      "type": "place",
+      "label": "吴郡",
+      "aliases": [],
+      "tags": [
+        "郡"
+      ],
+      "description": "东汉分会稽置吴郡，约今江苏苏州一带。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "吾彦": {
       "type": "person",
       "label": "吾彦",
@@ -13738,7 +13796,7 @@
         "朝代"
       ],
       "description": "中国历史上最强盛的王朝之一，李渊建立",
-      "total_refs": 17,
+      "total_refs": 20,
       "total_chapters": 0
     },
     "唐休璟": {
@@ -16170,7 +16228,7 @@
       "description": "东汉末年文学家，建安七子之一，孔子后裔",
       "quality": "basic",
       "quality_score": 47,
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "孔谦": {
@@ -18082,6 +18140,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "尹勋": {
+      "type": "person",
+      "label": "尹勋",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "尚书令",
+        "党锢"
+      ],
+      "description": "东汉尚书令，与窦武、陈蕃共参政事，党锢被夺爵",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "尹翁归": {
       "type": "person",
       "label": "尹翁归",
@@ -19082,6 +19153,17 @@
       "quality": "basic",
       "quality_score": 30,
       "total_refs": 14,
+      "total_chapters": 0
+    },
+    "巴郡": {
+      "type": "place",
+      "label": "巴郡",
+      "aliases": [],
+      "tags": [
+        "郡"
+      ],
+      "description": "秦巴郡，约今重庆一带。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "巾": {
@@ -25650,6 +25732,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "李咸": {
+      "type": "person",
+      "label": "李咸",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "太尉",
+        "党锢"
+      ],
+      "description": "东汉太尉，以刚正力争皇太后配食桓帝",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "李嗣业": {
       "type": "person",
       "label": "李嗣业",
@@ -29141,6 +29236,19 @@
       "total_refs": 16,
       "total_chapters": 0
     },
+    "桓范": {
+      "type": "person",
+      "label": "桓范",
+      "aliases": [],
+      "tags": [
+        "三国",
+        "魏",
+        "曹爽"
+      ],
+      "description": "三国魏大司农，曹爽党羽，高平陵之变后被杀。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "桓谭": {
       "type": "person",
       "label": "桓谭",
@@ -30049,6 +30157,17 @@
       ],
       "description": "秦末陈胜部将，奉命北略赵地，自立为赵王。",
       "total_refs": 5,
+      "total_chapters": 0
+    },
+    "武陵": {
+      "type": "place",
+      "label": "武陵",
+      "aliases": [],
+      "tags": [
+        "郡"
+      ],
+      "description": "秦汉武陵郡，蛮夷所居，马援征五溪蛮地。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "殡": {
@@ -31749,7 +31868,7 @@
       "description": "唐代宗·德宗朝名将，铁勒族裔，以骑射之勇跟随郭子仪南征北战，奉天之难中率骑兵直冲吐蕃大营，是朔方军最重要的骁将之一。",
       "quality": "featured",
       "quality_score": 45,
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "浮屠": {
@@ -35305,6 +35424,19 @@
       "total_refs": 7,
       "total_chapters": 1
     },
+    "田季安": {
+      "type": "person",
+      "label": "田季安",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "藩镇",
+        "魏博"
+      ],
+      "description": "唐魏博节度使，田承嗣之孙。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "田布": {
       "type": "person",
       "label": "田布",
@@ -35387,7 +35519,7 @@
         "藩镇"
       ],
       "description": "田悦，中唐魏博节度使",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "田戎": {
@@ -35413,7 +35545,7 @@
       "description": "魏博节度使，河朔三镇割据之始",
       "quality": "basic",
       "quality_score": 25,
-      "total_refs": 5,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "田晏": {
@@ -35492,6 +35624,20 @@
       "quality": "basic",
       "quality_score": 27,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "田绪": {
+      "type": "person",
+      "label": "田绪",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "藩镇",
+        "魏博",
+        "田承嗣"
+      ],
+      "description": "唐魏博节度使，田承嗣之子，杀田悦自立。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "田荣": {
@@ -37480,6 +37626,19 @@
         "新安太守"
       ],
       "description": "陈名将，新安太守，程灵洗之子",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "程日华": {
+      "type": "person",
+      "label": "程日华",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "藩镇",
+        "横海"
+      ],
+      "description": "唐横海节度使，开军府之始。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -43784,6 +43943,19 @@
       "total_refs": 37,
       "total_chapters": 2
     },
+    "苏章": {
+      "type": "person",
+      "label": "苏章",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "冀州刺史",
+        "儒生"
+      ],
+      "description": "东汉冀州刺史，以能政知名",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "苏绰": {
       "type": "person",
       "label": "苏绰",
@@ -46150,6 +46322,17 @@
       "quality_score": 40,
       "total_refs": 76,
       "total_chapters": 1
+    },
+    "蜀郡": {
+      "type": "place",
+      "label": "蜀郡",
+      "aliases": [],
+      "tags": [
+        "郡"
+      ],
+      "description": "秦蜀郡，约今四川成都一带。",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "行人": {
       "type": "official",
@@ -50916,6 +51099,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "郗虑": {
+      "type": "person",
+      "label": "郗虑",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "御史大夫",
+        "曹操"
+      ],
+      "description": "东汉御史大夫，曹操党羽，构陷孔融、收杀伏后。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "郗超": {
       "type": "person",
       "label": "郗超",
@@ -52121,6 +52317,18 @@
       "quality": "featured",
       "quality_score": 53,
       "total_refs": 27,
+      "total_chapters": 0
+    },
+    "长沙": {
+      "type": "place",
+      "label": "长沙",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "封国"
+      ],
+      "description": "秦汉长沙郡/长沙国，吴芮为长沙王。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "长沙王乂": {
@@ -57527,6 +57735,7 @@
     "刘胜": "中山靖王",
     "汉中山靖王": "中山靖王",
     "丹": "丹",
+    "丹阳": "丹阳",
     "丹青": "丹青",
     "为质": "为质",
     "主父偃": "主父偃",
@@ -57561,6 +57770,7 @@
     "九品中正": "九品中正",
     "九成宫": "九成宫",
     "九族": "九族",
+    "九江": "九江",
     "乞伏乾归": "乞伏乾归",
     "乞伏国仁": "乞伏国仁",
     "乞伏炽磐": "乞伏炽磐",
@@ -57611,6 +57821,7 @@
     "仓场": "仓场",
     "仓库": "仓库",
     "仓廪": "仓廪",
+    "代郡": "代郡",
     "令狐德棻": "令狐德棻",
     "令狐整": "令狐整",
     "令狐楚": "令狐楚",
@@ -58273,6 +58484,7 @@
     "南朝": "南朝",
     "南诏": "南诏",
     "南越": "南越",
+    "南郡": "南郡",
     "南阳": "南阳",
     "南霁云": "南霁云",
     "博士": "博士",
@@ -58444,6 +58656,7 @@
     "吴芮": "吴芮",
     "吴起": "吴起",
     "吴子": "吴起",
+    "吴郡": "吴郡",
     "吾彦": "吾彦",
     "告庙": "告庙",
     "告老": "告老",
@@ -58889,6 +59102,7 @@
     "尚让": "尚让",
     "尧君素": "尧君素",
     "尧雄": "尧雄",
+    "尹勋": "尹勋",
     "尹翁归": "尹翁归",
     "尺度": "尺度",
     "居丧": "居丧",
@@ -58971,6 +59185,7 @@
     "太子之祸": "巫蛊之祸",
     "征和之祸": "巫蛊之祸",
     "巴蜀": "巴蜀",
+    "巴郡": "巴郡",
     "巾": "巾",
     "市井": "市井",
     "市易": "市易",
@@ -59536,6 +59751,7 @@
     "李元和宰相": "李吉甫",
     "李君羡": "李君羡",
     "李含": "李含",
+    "李咸": "李咸",
     "李嗣业": "李嗣业",
     "李嗣恩": "李嗣恩",
     "李嗣昭": "李嗣昭",
@@ -59823,6 +60039,7 @@
     "桓玄": "桓玄",
     "楚帝": "桓玄",
     "桓楚": "桓玄",
+    "桓范": "桓范",
     "桓谭": "桓谭",
     "桓君山": "桓谭",
     "桓豁": "桓豁",
@@ -59899,6 +60116,7 @@
     "武周皇帝": "武后",
     "武承嗣": "武承嗣",
     "武臣": "武臣",
+    "武陵": "武陵",
     "殡": "殡",
     "殡葬": "殡葬",
     "殳": "殳",
@@ -60348,6 +60566,7 @@
     "田单": "田单",
     "安平君": "田单",
     "田子方": "田子方",
+    "田季安": "田季安",
     "田布": "田布",
     "田广明": "田广明",
     "田弘": "田弘",
@@ -60362,6 +60581,7 @@
     "田畴": "田畴",
     "田神功": "田神功",
     "田租": "田租",
+    "田绪": "田绪",
     "田荣": "田荣",
     "田豫": "田豫",
     "田邑": "田邑",
@@ -60535,6 +60755,7 @@
     "程千里": "程千里",
     "程异": "程异",
     "程文季": "程文季",
+    "程日华": "程日华",
     "程昱": "程昱",
     "程仲德": "程昱",
     "程普": "程普",
@@ -61425,6 +61646,7 @@
     "苏禹珪": "苏禹珪",
     "苏秦": "苏秦",
     "苏季子": "苏秦",
+    "苏章": "苏章",
     "苏绰": "苏绰",
     "苏茂": "苏茂",
     "苏逢吉": "苏逢吉",
@@ -61629,6 +61851,7 @@
     "季汉": "蜀汉",
     "汉": "蜀汉",
     "昭烈汉": "蜀汉",
+    "蜀郡": "蜀郡",
     "行人": "行人",
     "行军": "行军",
     "行幸": "行幸",
@@ -62040,6 +62263,7 @@
     "郑覃": "郑覃",
     "郑译": "郑译",
     "郑颢": "郑颢",
+    "郗虑": "郗虑",
     "郗超": "郗超",
     "郗鉴": "郗鉴",
     "道徽": "郗鉴",
@@ -62143,6 +62367,7 @@
     "长孙顺德": "长孙顺德",
     "长平之战": "长平之战",
     "长平大战": "长平之战",
+    "长沙": "长沙",
     "长沙王乂": "长沙王乂",
     "门": "门",
     "门下省": "门下省",
@@ -62604,6 +62829,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 4047,
-  "generated": "2026-05-06T17:47:02Z"
+  "page_count": 4064,
+  "generated": "2026-05-06T17:48:21Z"
 }
