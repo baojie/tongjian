@@ -450,6 +450,23 @@ body.is-home .wiki-home { max-width: none; margin: 0; }
   background: #c8a040;
   line-height: 1;
 }
+.home-hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(200,150,40,.25) 20%,
+    rgba(200,150,40,.5) 50%,
+    rgba(200,150,40,.25) 80%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 2;
+}
 .hero-cosmos {
   display: block;
   width: 100%;
@@ -469,6 +486,42 @@ body.is-home .wiki-home { max-width: none; margin: 0; }
   );
   pointer-events: none;
 }
+.hero-seal {
+  position: absolute;
+  top: clamp(0.8em, 2vw, 1.6em);
+  right: clamp(0.8em, 2vw, 1.6em);
+  z-index: 3;
+  opacity: .7;
+  transition: opacity .3s;
+  pointer-events: all;
+  cursor: help;
+}
+.hero-seal:hover { opacity: 1; }
+.hero-seal svg {
+  display: block;
+  width: clamp(48px, 6vw, 76px);
+  height: clamp(48px, 6vw, 76px);
+  filter: drop-shadow(0 1px 6px rgba(0,0,0,.4));
+}
+.hero-seal .seal-tip {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  white-space: nowrap;
+  background: rgba(10,6,2,.85);
+  color: #c8a870;
+  font-size: .7em;
+  font-family: var(--sans);
+  padding: .3em .6em;
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity .2s;
+  pointer-events: none;
+}
+.hero-seal:hover .seal-tip {
+  opacity: 1;
+}
+.hero-overlay {
 .hero-overlay {
   position: absolute;
   inset: 0;
@@ -555,6 +608,7 @@ body.is-home .wiki-home { max-width: none; margin: 0; }
   max-width: none;
   margin: 0;
   padding: 1.8em clamp(1.2em, 7vw, 7em) 0;
+  background-image: radial-gradient(ellipse at 50% 0%, rgba(200,150,40,.03) 0%, transparent 60%);
 }
 
 /* Redirect notice */
@@ -975,6 +1029,16 @@ article[data-type="chapter"] .chapter-poem .pn-label {
   margin: 1.8em 0 .7em;
   border-bottom: 1px solid rgba(160,140,100,.2);
   padding-bottom: .4em;
+  position: relative;
+}
+.home-section-header::before {
+  content: '◆';
+  font-size: .5em;
+  color: rgba(200,150,40,.35);
+  position: absolute;
+  bottom: -1.1em;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .home-section-title {
   font-family: var(--serif);
@@ -995,7 +1059,7 @@ article[data-type="chapter"] .chapter-poem .pn-label {
 /* ── 卡片网格（古典史学美学 · 冷金清雅） ────────────────────── */
 .featured-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 1em;
   margin: 0 0 1.8em;
 }
@@ -1029,16 +1093,30 @@ article[data-type="chapter"] .chapter-poem .pn-label {
   background: #12100b;
   border-color: rgba(180,155,100,.85);
   text-decoration: none;
+  box-shadow: 0 2px 20px rgba(0,0,0,.3);
 }
 /* 标题行（标题 + 印章标签） */
 /* 首页卡片缩略图 */
 .card-thumb {
   width: calc(100% + 2.3em);
-  height: 220px;
+  aspect-ratio: 3 / 2;
   overflow: hidden;
-  background: var(--bg-box);
+  background: #1a1510;
   flex-shrink: 0;
   margin: -1.15em -1.15em 1em;
+  position: relative;
+}
+.card-thumb::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 60%, rgba(10,6,2,.5));
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .3s;
+}
+.featured-card:hover .card-thumb::after {
+  opacity: 1;
 }
 .card-thumb img {
   width: 100%;
@@ -1046,10 +1124,10 @@ article[data-type="chapter"] .chapter-poem .pn-label {
   object-fit: cover;
   object-position: center top;
   display: block;
-  transition: transform .2s;
+  transition: transform .35s ease;
 }
 .featured-card:hover .card-thumb img {
-  transform: scale(1.04);
+  transform: scale(1.06);
 }
 
 .card-header {
@@ -1085,6 +1163,16 @@ article[data-type="chapter"] .chapter-poem .pn-label {
 .card-t-person .card-eyebrow { background: #c04a30; }
 .card-t-battle .card-eyebrow { background: #8a1a10; }
 .card-t-event  .card-eyebrow { background: #a05820; }
+
+/* 质量标签：精品卡片金色镶边 */
+.card-q-featured {
+  border-color: rgba(200,150,40,.65);
+  box-shadow: inset 0 0 0 1px rgba(200,150,40,.08);
+}
+.card-q-premium {
+  border-color: rgba(200,150,40,.8);
+  box-shadow: inset 0 0 0 1px rgba(200,150,40,.15);
+}
 .featured-card .card-desc {
   font-size: .8em;
   color: #7a6a5a;

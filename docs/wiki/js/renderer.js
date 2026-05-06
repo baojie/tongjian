@@ -693,7 +693,18 @@ const BOOK_META = [
 
 function buildHomeSvg() {
   return `<img class="hero-cosmos" src="images/guoguo-spring.jpg" alt="虢国夫人游春图 · 张萱 · 唐代">
-<div class="hero-gradient"></div>`;
+<div class="hero-gradient"></div>
+<div class="hero-seal" role="img" aria-label="通鉴之印">
+  <svg viewBox="0 0 100 100" width="100" height="100">
+    <rect x="2" y="2" width="96" height="96" fill="none" stroke="#c04a30" stroke-width="3" rx="4"/>
+    <rect x="8" y="8" width="84" height="84" fill="none" stroke="#c04a30" stroke-width="1.5" rx="2"/>
+    <text x="50" y="42" text-anchor="middle" font-size="24" font-weight="700"
+      fill="#c04a30" font-family="serif" letter-spacing="4">通</text>
+    <text x="50" y="72" text-anchor="middle" font-size="24" font-weight="700"
+      fill="#c04a30" font-family="serif" letter-spacing="4">鉴</text>
+  </svg>
+  <div class="seal-tip">虢国夫人游春图 · 张萱 · 唐代</div>
+</div>`;
 }
 
 

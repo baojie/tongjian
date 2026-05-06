@@ -962,6 +962,17 @@
       "total_refs": 5,
       "total_chapters": 0
     },
+    "云": {
+      "type": "concept",
+      "label": "云",
+      "aliases": [],
+      "tags": [
+        "天象"
+      ],
+      "description": "云，古代气象与祥异标志",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "云中": {
       "type": "place",
       "label": "云中",
@@ -8897,8 +8908,8 @@
         "天师道"
       ],
       "description": "东晋末年农民军领袖，孙恩妹夫，继孙恩统率义军",
-      "quality": "stub",
-      "quality_score": 20,
+      "quality": "basic",
+      "quality_score": 43,
       "total_refs": 9,
       "total_chapters": 0
     },
@@ -11163,8 +11174,8 @@
         "选官"
       ],
       "description": "魏晋南北朝门阀士族阶层，垄断选官与社会资源。",
-      "quality": "stub",
-      "quality_score": 18,
+      "quality": "basic",
+      "quality_score": 34,
       "total_refs": 27,
       "total_chapters": 0
     },
@@ -11806,8 +11817,8 @@
         "战术"
       ],
       "description": "出其不意的精锐突击部队，白起长平之战张二奇兵断赵军后。",
-      "quality": "stub",
-      "quality_score": 16,
+      "quality": "basic",
+      "quality_score": 41,
       "total_refs": 24,
       "total_chapters": 0
     },
@@ -13271,6 +13282,19 @@
       "total_refs": 24,
       "total_chapters": 0
     },
+    "宗楚客": {
+      "type": "person",
+      "label": "宗楚客",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "权臣",
+        "同平章事"
+      ],
+      "description": "武则天朝同平章事，谄事张易之兄弟。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "官渡": {
       "type": "place",
       "label": "官渡",
@@ -13844,6 +13868,19 @@
       "total_refs": 6,
       "total_chapters": 0
     },
+    "岑羲": {
+      "type": "person",
+      "label": "岑羲",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "官员",
+        "中书舍人"
+      ],
+      "description": "唐中宗朝中书舍人，为五王草表削武氏王。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "岭": {
       "type": "concept",
       "label": "岭",
@@ -14064,6 +14101,19 @@
       "quality": "featured",
       "quality_score": 41,
       "total_refs": 13,
+      "total_chapters": 0
+    },
+    "崔湜": {
+      "type": "person",
+      "label": "崔湜",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "官员",
+        "中书舍人"
+      ],
+      "description": "唐中宗朝中书舍人，武三思谋主。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "崔猷": {
@@ -15407,6 +15457,20 @@
       "quality": "basic",
       "quality_score": 25,
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "张宪": {
+      "type": "person",
+      "label": "张宪",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "后唐",
+        "官员",
+        "工部侍郎"
+      ],
+      "description": "后唐工部侍郎、租庸使。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "张宾": {
@@ -17715,6 +17779,17 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "日": {
+      "type": "concept",
+      "label": "日",
+      "aliases": [],
+      "tags": [
+        "天象"
+      ],
+      "description": "太阳，古代天文与计时之基准",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "日食": {
       "type": "concept",
       "label": "日食",
@@ -17841,6 +17916,17 @@
       "quality": "basic",
       "quality_score": 29,
       "total_refs": 7,
+      "total_chapters": 0
+    },
+    "星": {
+      "type": "concept",
+      "label": "星",
+      "aliases": [],
+      "tags": [
+        "天象"
+      ],
+      "description": "星辰，古代天文观测与占星对象",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "星变": {
@@ -18431,6 +18517,17 @@
       "tags": [],
       "description": "东汉末年宦官，以残害忠良著称",
       "total_refs": 8,
+      "total_chapters": 0
+    },
+    "月": {
+      "type": "concept",
+      "label": "月",
+      "aliases": [],
+      "tags": [
+        "天象"
+      ],
+      "description": "月亮，古代历法之基础",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "朋党": {
@@ -24990,8 +25087,8 @@
         "武帝"
       ],
       "description": "西汉武帝时酷吏，以严酷著称，曾任河内太守、中尉等职。",
-      "quality": "stub",
-      "quality_score": 20,
+      "quality": "basic",
+      "quality_score": 36,
       "total_refs": 2,
       "total_chapters": 0
     },
@@ -27541,6 +27638,19 @@
       "quality": "featured",
       "quality_score": 40,
       "total_refs": 21,
+      "total_chapters": 0
+    },
+    "窦怀贞": {
+      "type": "person",
+      "label": "窦怀贞",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "权臣",
+        "同平章事"
+      ],
+      "description": "唐中宗朝同平章事，太平公主党羽。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "窦文场": {
@@ -33366,6 +33476,19 @@
       "total_refs": 9,
       "total_chapters": 0
     },
+    "萧至忠": {
+      "type": "person",
+      "label": "萧至忠",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将相",
+        "同平章事"
+      ],
+      "description": "唐中宗朝宰相，以直谏称。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "萧衍": {
       "type": "person",
       "label": "萧衍",
@@ -36491,6 +36614,17 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "辰": {
+      "type": "concept",
+      "label": "辰",
+      "aliases": [],
+      "tags": [
+        "天象"
+      ],
+      "description": "星辰、时辰，古代天文与时间概念",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "辽东": {
       "type": "place",
       "label": "辽东",
@@ -37044,6 +37178,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "郑愔": {
+      "type": "person",
+      "label": "郑愔",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "官员",
+        "御史"
+      ],
+      "description": "唐中宗朝御史，谄事二张及武三思。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "郑朗": {
       "type": "person",
       "label": "郑朗",
@@ -37153,6 +37300,19 @@
       "quality": "featured",
       "quality_score": 45,
       "total_refs": 6,
+      "total_chapters": 0
+    },
+    "郑颢": {
+      "type": "person",
+      "label": "郑颢",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "官员",
+        "驸马都尉"
+      ],
+      "description": "唐宣宗驸马都尉，尚万寿公主。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "郗超": {
@@ -38007,8 +38167,8 @@
         "选官"
       ],
       "description": "累世公卿的世家大族，魏晋南北朝政治核心力量。",
-      "quality": "stub",
-      "quality_score": 18,
+      "quality": "basic",
+      "quality_score": 30,
       "total_refs": 17,
       "total_chapters": 0
     },
@@ -38844,6 +39004,28 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "雨": {
+      "type": "concept",
+      "label": "雨",
+      "aliases": [],
+      "tags": [
+        "天象"
+      ],
+      "description": "雨水，古代农业与军事之关键气象",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "雪": {
+      "type": "concept",
+      "label": "雪",
+      "aliases": [],
+      "tags": [
+        "天象"
+      ],
+      "description": "雪，古代气象与军事要素",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "雷万春": {
       "type": "person",
       "label": "雷万春",
@@ -39117,6 +39299,19 @@
       "description": "唐宣宗·懿宗朝干吏，因父韦丹有惠政而受宣宗信任，以禁绝边境侵掠化解边患，讨平洪州毛鹤之乱，出任岭南东道节度使主持南疆防务，以加同平章事结束仕途。",
       "quality": "featured",
       "quality_score": 44,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "韦巨源": {
+      "type": "person",
+      "label": "韦巨源",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将相",
+        "同平章事"
+      ],
+      "description": "武则天朝同平章事，韦孝宽玄孙。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -39878,6 +40073,17 @@
       "quality": "basic",
       "quality_score": 48,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "风": {
+      "type": "concept",
+      "label": "风",
+      "aliases": [],
+      "tags": [
+        "天象"
+      ],
+      "description": "风，古代气象观察对象",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "食邑": {
@@ -40712,6 +40918,19 @@
       "quality": "featured",
       "quality_score": 46,
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "魏元忠": {
+      "type": "person",
+      "label": "魏元忠",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将相",
+        "同平章事"
+      ],
+      "description": "武则天朝宰相，以御吐蕃策知名。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "魏冉": {
@@ -41590,6 +41809,7 @@
     "文则": "于禁",
     "于谨": "于谨",
     "于阗": "于阗",
+    "云": "云",
     "云中": "云中",
     "云梯": "云梯",
     "互市": "互市",
@@ -42547,6 +42767,7 @@
     "宗悫": "宗悫",
     "宗元干": "宗悫",
     "宗族": "宗族",
+    "宗楚客": "宗楚客",
     "官渡": "官渡",
     "官渡之战": "官渡之战",
     "宝货": "宝货",
@@ -42591,6 +42812,7 @@
     "岑彭": "岑彭",
     "岑文本": "岑文本",
     "景仁": "岑文本",
+    "岑羲": "岑羲",
     "岭": "岭",
     "岭南": "岭南",
     "崔仁师": "崔仁师",
@@ -42609,6 +42831,7 @@
     "崔暹": "崔暹",
     "崔浩": "崔浩",
     "崔伯渊": "崔浩",
+    "崔湜": "崔湜",
     "崔猷": "崔猷",
     "崔玄暐": "崔玄暐",
     "崔珙": "崔珙",
@@ -42717,6 +42940,7 @@
     "张孟谈": "张孟谈",
     "张守珪": "张守珪",
     "张安世": "张安世",
+    "张宪": "张宪",
     "张宾": "张宾",
     "张寔": "张寔",
     "张嶷": "张嶷",
@@ -42919,6 +43143,7 @@
     "族姓": "族姓",
     "族诛": "族诛",
     "无诸": "无诸",
+    "日": "日",
     "日食": "日食",
     "早": "早",
     "旱灾": "旱灾",
@@ -42930,6 +43155,7 @@
     "海昏侯": "昌邑王",
     "明堂": "明堂",
     "明经": "明经",
+    "星": "星",
     "星变": "星变",
     "星孛": "星孛",
     "星气": "星气",
@@ -42992,6 +43218,7 @@
     "曹爽": "曹爽",
     "曹确": "曹确",
     "曹节": "曹节",
+    "月": "月",
     "朋党": "朋党",
     "服丧": "服丧",
     "服色": "服色",
@@ -43795,6 +44022,7 @@
     "窦建德": "窦建德",
     "夏王": "窦建德",
     "长乐王": "窦建德",
+    "窦怀贞": "窦怀贞",
     "窦文场": "窦文场",
     "窦武": "窦武",
     "窦游平": "窦武",
@@ -44651,6 +44879,7 @@
     "时文": "萧瑀",
     "萧绎": "萧绎",
     "梁元帝": "萧绎",
+    "萧至忠": "萧至忠",
     "萧衍": "萧衍",
     "梁武帝": "萧衍",
     "梁高祖": "萧衍",
@@ -44940,6 +45169,7 @@
     "辛庆忌": "辛庆忌",
     "辞赋": "辞赋",
     "辟雍": "辟雍",
+    "辰": "辰",
     "辽东": "辽东",
     "达奚武": "达奚武",
     "迁民": "迁民",
@@ -44986,6 +45216,7 @@
     "郑国": "郑国",
     "郑安平": "郑安平",
     "郑当时": "郑当时",
+    "郑愔": "郑愔",
     "郑朗": "郑朗",
     "郑注": "郑注",
     "郑玄": "郑玄",
@@ -44994,6 +45225,7 @@
     "郑畋": "郑畋",
     "郑羲": "郑羲",
     "郑覃": "郑覃",
+    "郑颢": "郑颢",
     "郗超": "郗超",
     "郗鉴": "郗鉴",
     "道徽": "郗鉴",
@@ -45143,6 +45375,8 @@
     "雁门": "雁门",
     "雅乐": "雅乐",
     "雍齿": "雍齿",
+    "雨": "雨",
+    "雪": "雪",
     "雷万春": "雷万春",
     "雷彦威": "雷彦威",
     "霍仙鸣": "霍仙鸣",
@@ -45168,6 +45402,7 @@
     "韦叔裕": "韦孝宽",
     "韦安石": "韦安石",
     "韦宙": "韦宙",
+    "韦巨源": "韦巨源",
     "韦庄": "韦庄",
     "韦挺": "韦挺",
     "韦放": "韦放",
@@ -45233,6 +45468,7 @@
     "颜鲁公": "颜真卿",
     "颜平原": "颜真卿",
     "颜竣": "颜竣",
+    "风": "风",
     "食邑": "食邑",
     "首": "首",
     "马周": "马周",
@@ -45310,6 +45546,7 @@
     "鬼谷先生": "鬼谷子",
     "王诩": "鬼谷子",
     "魏仁浦": "魏仁浦",
+    "魏元忠": "魏元忠",
     "魏冉": "魏冉",
     "穰侯": "魏冉",
     "魏国": "魏国",
@@ -45381,6 +45618,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 2771,
-  "generated": "2026-05-06T15:48:35Z"
+  "page_count": 2789,
+  "generated": "2026-05-06T15:50:25Z"
 }
