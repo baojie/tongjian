@@ -269,3 +269,10 @@
 {"round": 91, "type": "create-page", "page": "刘守光", "result": "accept", "desc": "五代人物", "ts": "2026-05-06T00:02:15Z"}
 {"round": 91, "type": "create-page", "page": "刘仁恭", "result": "accept", "desc": "五代人物", "ts": "2026-05-06T00:02:15Z"}
 {"round": 91, "type": "create-page", "page": "王处直", "result": "accept", "desc": "五代人物", "ts": "2026-05-06T00:02:16Z"}
+{"round": 90, "type": "enrich-page", "page": "韩愈,张九龄", "result": "accept", "desc": "enrich-page×2页，280WU", "ts": "2026-05-06T00:03:03Z", "instance": "资治通鉴", "reflect": "韩愈新增谏迎佛骨/平淮西/宣慰三节(1541→3050B)；张九龄新增中书令/禄山/废太子三节(1512→2638B)；均达standard层级"}
+{"round": 92, "type": "create-page", "page": "罗绍威", "result": "accept", "desc": "魏博节度使，借梁军屠牙兵", "ts": "2026-05-06T00:05:48Z"}
+{"round": 92, "type": "create-page", "page": "葛从周", "result": "accept", "desc": "后梁骑将，大破幽州刘仁恭", "ts": "2026-05-06T00:05:48Z"}
+{"round": 92, "type": "create-page", "page": "王镕", "result": "accept", "desc": "成德赵王，梁晋间反复权衡", "ts": "2026-05-06T00:05:48Z"}
+{"round": 92, "type": "create-page", "page": "张存敬", "result": "accept", "desc": "后梁将领，连拔河北诸州", "ts": "2026-05-06T00:05:48Z"}
+{"round": 92, "type": "create-page", "page": "氏叔琮", "result": "accept", "desc": "后梁将领，围攻晋阳险破李克用", "ts": "2026-05-06T00:05:48Z"}
+{"round": 92, "type": "create-page", "page": "杨师厚", "result": "accept", "desc": "后梁军事支柱，死后梁军大衰", "ts": "2026-05-06T00:05:48Z"}
