@@ -333,3 +333,11 @@
 {"round": 110, "type": "create-page", "page": "诸葛恪", "result": "accept", "desc": "东吴权臣，诸葛瑾子，托孤重臣，北伐大败后被孙峻政变所杀", "ts": "2026-05-06T00:36:18Z"}
 {"round": 110, "type": "create-page", "page": "王凌", "result": "accept", "desc": "曹魏太尉，击退东吴，晚年谋废曹芳被司马懿平定后自杀", "ts": "2026-05-06T00:36:18Z"}
 {"round": 110, "type": "create-page", "page": "司马师", "result": "accept", "desc": "曹魏权臣，司马懿长子，接掌大权废曹芳，为司马氏篡魏奠基", "ts": "2026-05-06T00:36:18Z"}
+{"round": 109, "type": "enrich-page", "page": "郦食其,荀攸", "result": "accept", "desc": "enrich-page×2页，300WU：郦食其新增说魏王豹+议封六国两节；荀攸新增官渡奇谋+先取冀州两节", "ts": "2026-05-06T00:36:42Z", "instance": "资治通鉴", "reflect": "郦食其说策有奇思但乏远见，张良力谏一节展示策士局限；荀攸官渡三策（分兵斩颜良、袭韩猛、夜袭乌巢）为曹魏奠基"}
+{"round": 111, "type": "enrich-page", "page": "王忠嗣,胡亥", "result": "accept", "desc": "enrich-page×2页，300WU：王忠嗣新增大破突厥+反对攻石堡城两节；胡亥新增少子随游节并扩充历史评价", "ts": "2026-05-06T00:39:47Z", "instance": "资治通鉴", "reflect": "王忠嗣反对石堡城之战预见准确而遭陷，与安禄山崛起直接相关；胡亥随行出巡是矫诏阴谋的关键前提"}
+{"round": 112, "type": "create-page", "page": "毌丘俭", "result": "accept", "desc": "曹魏名将，征服高句骊屠丸都，反司马师举兵被杀", "ts": "2026-05-06T00:40:13Z"}
+{"round": 112, "type": "create-page", "page": "诸葛诞", "result": "accept", "desc": "曹魏名将，淮南三叛最后一次，寿春城破被杀", "ts": "2026-05-06T00:40:13Z"}
+{"round": 112, "type": "create-page", "page": "羊祜", "result": "accept", "desc": "西晋名臣，以德化治荆州，力主伐吴奠定战略基础，堕泪碑传世", "ts": "2026-05-06T00:40:13Z"}
+{"round": 112, "type": "create-page", "page": "陆抗", "result": "accept", "desc": "东吴最后名将，陆逊之子，西陵破晋，其死后吴亡", "ts": "2026-05-06T00:40:13Z"}
+{"round": 112, "type": "create-page", "page": "王濬", "result": "accept", "desc": "西晋灭吴功臣，七年建楼船，顺江直抵建业，孙皓降", "ts": "2026-05-06T00:40:13Z"}
+{"round": 112, "type": "create-page", "page": "贾充", "result": "accept", "desc": "西晋权臣，策动弑魏帝曹髦，司马氏篡魏的关键黑手", "ts": "2026-05-06T00:40:14Z"}
