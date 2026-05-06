@@ -479,7 +479,7 @@ function injectChapterNav(core, pid, meta) {
   const nextHtml = next
     ? `<a class="chapnav-next" href="#${encodeURIComponent(next[0])}">${escapeHtml(next[1].label)} →</a>`
     : `<span class="chapnav-next chapnav-disabled">已是最后一章 →</span>`;
-  const tocHtml = `<a class="chapnav-toc" href="#目录">↑ ${escapeHtml(bookLabel)}目录</a>`;
+  const tocHtml = `<a class="chapnav-toc" href="#${encodeURIComponent(bookLabel + '目录')}">↑ ${escapeHtml(bookLabel)}目录</a>`;
 
   const nav = document.createElement('nav');
   nav.className = 'chapnav';
