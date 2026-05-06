@@ -413,6 +413,18 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "丧服": {
+      "type": "concept",
+      "label": "丧服",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "丧葬"
+      ],
+      "description": "居丧期间穿着的特殊服饰",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "丧礼": {
       "type": "concept",
       "label": "丧礼",
@@ -613,6 +625,18 @@
       "quality": "basic",
       "quality_score": 21,
       "total_refs": 5,
+      "total_chapters": 0
+    },
+    "乐工": {
+      "type": "concept",
+      "label": "乐工",
+      "aliases": [],
+      "tags": [
+        "文化",
+        "音乐"
+      ],
+      "description": "从事乐器演奏的专职乐师",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "乐府": {
@@ -1645,6 +1669,19 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "佩玉": {
+      "type": "concept",
+      "label": "佩玉",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "服饰"
+      ],
+      "description": "古代士大夫佩带的玉饰，礼制象征。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "佯败": {
       "type": "concept",
       "label": "佯败",
@@ -1716,6 +1753,18 @@
       "quality": "stub",
       "quality_score": 28,
       "total_refs": 22,
+      "total_chapters": 0
+    },
+    "侍女": {
+      "type": "concept",
+      "label": "侍女",
+      "aliases": [],
+      "tags": [
+        "风俗",
+        "宫廷"
+      ],
+      "description": "侍奉贵族起居的年轻女仆",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "侍婢": {
@@ -2128,6 +2177,19 @@
       ],
       "description": "西汉御史大夫，水利家，为世所重",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "元日": {
+      "type": "concept",
+      "label": "元日",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "历法"
+      ],
+      "description": "农历正月初一，岁首之日。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "元欣": {
@@ -5128,6 +5190,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "六礼": {
+      "type": "concept",
+      "label": "六礼",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "婚姻"
+      ],
+      "description": "古代婚礼六项程序：纳采、问名、纳吉、纳征、请期、亲迎",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "六艺": {
       "type": "concept",
       "label": "六艺",
@@ -5541,8 +5615,8 @@
         "昌黎尹"
       ],
       "description": "北燕昌黎尹，冯跋之弟，佐建北燕",
-      "quality": "stub",
-      "quality_score": 23,
+      "quality": "basic",
+      "quality_score": 32,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -8577,6 +8651,19 @@
       "total_refs": 10,
       "total_chapters": 0
     },
+    "助教": {
+      "type": "concept",
+      "label": "助教",
+      "aliases": [],
+      "tags": [
+        "北魏",
+        "制度",
+        "教育"
+      ],
+      "description": "古代官学教职，辅助博士教学。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "勋官": {
       "type": "concept",
       "label": "勋官",
@@ -11495,6 +11582,19 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "夏至": {
+      "type": "concept",
+      "label": "夏至",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "历法"
+      ],
+      "description": "二十四节气之一，夏至日祭地之礼。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "外戚": {
       "type": "concept",
       "label": "外戚",
@@ -11716,6 +11816,18 @@
       "quality": "basic",
       "quality_score": 26,
       "total_refs": 8,
+      "total_chapters": 0
+    },
+    "太仓": {
+      "type": "concept",
+      "label": "太仓",
+      "aliases": [],
+      "tags": [
+        "制度",
+        "经济"
+      ],
+      "description": "京师储粮的大仓",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "太保": {
@@ -13676,6 +13788,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "宴会": {
+      "type": "concept",
+      "label": "宴会",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "风俗"
+      ],
+      "description": "帝王设宴款待群臣的礼仪活动",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "宴饮": {
       "type": "concept",
       "label": "宴饮",
@@ -13995,6 +14119,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "居丧": {
+      "type": "concept",
+      "label": "居丧",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "丧葬"
+      ],
+      "description": "在父母丧期中的生活规范",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "居庸关": {
       "type": "place",
       "label": "居庸关",
@@ -14018,6 +14154,19 @@
         "服饰"
       ],
       "description": "古代鞋子的统称",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "屦": {
+      "type": "concept",
+      "label": "屦",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "服饰"
+      ],
+      "description": "古代鞋子，用麻葛等制成。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -22203,6 +22352,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "歃血": {
+      "type": "concept",
+      "label": "歃血",
+      "aliases": [],
+      "tags": [
+        "盟誓",
+        "礼仪"
+      ],
+      "description": "盟誓时以牲血涂口以示诚信的仪式",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "歌": {
       "type": "concept",
       "label": "歌",
@@ -26334,8 +26495,8 @@
         "复国"
       ],
       "description": "秦末齐王，田齐复国",
-      "quality": "stub",
-      "quality_score": 23,
+      "quality": "basic",
+      "quality_score": 32,
       "total_refs": 3,
       "total_chapters": 0
     },
@@ -27778,7 +27939,7 @@
       "image": "images/秦始皇.jpg",
       "quality": "featured",
       "quality_score": 64,
-      "total_refs": 109,
+      "total_refs": 110,
       "total_chapters": 24
     },
     "秦孝公": {
@@ -32537,6 +32698,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "纸钱": {
+      "type": "concept",
+      "label": "纸钱",
+      "aliases": [],
+      "tags": [
+        "风俗",
+        "祭祀"
+      ],
+      "description": "祭祀焚烧的纸质冥钱",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "纺绩": {
       "type": "concept",
       "label": "纺绩",
@@ -32664,6 +32837,19 @@
         "纺织"
       ],
       "description": "古代有花纹的丝织品",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "绶": {
+      "type": "concept",
+      "label": "绶",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "服饰"
+      ],
+      "description": "古代系官印的丝带，标志官阶。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -33162,6 +33348,19 @@
       "quality": "basic",
       "quality_score": 25,
       "total_refs": 6,
+      "total_chapters": 0
+    },
+    "膳": {
+      "type": "concept",
+      "label": "膳",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "饮食"
+      ],
+      "description": "古代膳食，太官掌天子饮食。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "臧宫": {
@@ -35118,6 +35317,19 @@
       "total_refs": 50,
       "total_chapters": 16
     },
+    "裘": {
+      "type": "concept",
+      "label": "裘",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "服饰"
+      ],
+      "description": "古代皮衣，狐白裘为珍贵之物。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "裳": {
       "type": "concept",
       "label": "裳",
@@ -35388,8 +35600,8 @@
         "徐州"
       ],
       "description": "东晋卫将军，康献皇后之父",
-      "quality": "stub",
-      "quality_score": 23,
+      "quality": "basic",
+      "quality_score": 30,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -35480,7 +35692,7 @@
       "description": "中国历史上第一个长期稳定的大一统王朝（前206—8年），由汉高祖刘邦建立，历12帝210余年，是中国古代鼎盛时期之一，奠定了汉民族文化认同的基础。",
       "quality": "standard",
       "quality_score": 37,
-      "total_refs": 228,
+      "total_refs": 229,
       "total_chapters": 4
     },
     "西门豹": {
@@ -36107,6 +36319,21 @@
       "quality": "basic",
       "quality_score": 38,
       "total_refs": 17,
+      "total_chapters": 0
+    },
+    "谥法": {
+      "type": "concept",
+      "label": "谥法",
+      "aliases": [],
+      "tags": [
+        "礼制",
+        "官制",
+        "谥号"
+      ],
+      "description": "中国古代依据人物生前行为给予身后评价称号的制度，始于周，秦曾废除，汉代恢复。",
+      "quality": "basic",
+      "quality_score": 41,
+      "total_refs": 0,
       "total_chapters": 0
     },
     "谶纬": {
@@ -38993,8 +39220,8 @@
         "唐代三省"
       ],
       "description": "唐代三省之一，中央审议机构，负责审核政令、封驳诏敕。",
-      "quality": "stub",
-      "quality_score": 22,
+      "quality": "basic",
+      "quality_score": 36,
       "total_refs": 6,
       "total_chapters": 0
     },
@@ -40741,8 +40968,8 @@
         "艺术"
       ],
       "description": "古代音乐艺术，为礼乐制度的重要组成部分",
-      "quality": "stub",
-      "quality_score": 22,
+      "quality": "basic",
+      "quality_score": 34,
       "total_refs": 11,
       "total_chapters": 0
     },
@@ -41002,6 +41229,19 @@
       "quality": "basic",
       "quality_score": 31,
       "total_refs": 4,
+      "total_chapters": 0
+    },
+    "飨": {
+      "type": "concept",
+      "label": "飨",
+      "aliases": [],
+      "tags": [
+        "周",
+        "礼制",
+        "饮食"
+      ],
+      "description": "古代宴享之礼，以酒食犒赏。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "饯": {
@@ -41316,6 +41556,19 @@
       "quality": "basic",
       "quality_score": 34,
       "total_refs": 9,
+      "total_chapters": 0
+    },
+    "驿道": {
+      "type": "concept",
+      "label": "驿道",
+      "aliases": [],
+      "tags": [
+        "周",
+        "制度",
+        "交通"
+      ],
+      "description": "古代驿传道路，交通干线。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "骆宾王": {
@@ -42736,6 +42989,7 @@
     "两税法": "两税法",
     "严延年": "严延年",
     "严武": "严武",
+    "丧服": "丧服",
     "丧礼": "丧礼",
     "丧葬": "丧葬",
     "中书令": "中书令",
@@ -42753,6 +43007,7 @@
     "乐乘": "乐乘",
     "武襄君": "乐乘",
     "乐器": "乐器",
+    "乐工": "乐工",
     "乐府": "乐府",
     "乐毅": "乐毅",
     "乐毅望诸君": "乐毅",
@@ -42832,11 +43087,13 @@
     "佛寺": "佛寺",
     "佛教": "佛教",
     "佛经": "佛经",
+    "佩玉": "佩玉",
     "佯败": "佯败",
     "使者": "使者",
     "使节": "使节",
     "侍中": "侍中",
     "侍卫": "侍卫",
+    "侍女": "侍女",
     "侍婢": "侍婢",
     "侯君集": "侯君集",
     "侯潞国公": "侯君集",
@@ -42869,6 +43126,7 @@
     "儒家": "儒家",
     "儒术": "儒术",
     "儿宽": "儿宽",
+    "元日": "元日",
     "元欣": "元欣",
     "元稹": "元稹",
     "元微之": "元稹",
@@ -43041,6 +43299,7 @@
     "公孙贺": "公孙贺",
     "公族": "公族",
     "六亲": "六亲",
+    "六礼": "六礼",
     "六艺": "六艺",
     "关中": "关中",
     "关塞": "关塞",
@@ -43300,6 +43559,7 @@
     "剧辛": "剧辛",
     "力田": "力田",
     "劝农": "劝农",
+    "助教": "助教",
     "勋官": "勋官",
     "勋级": "勋级",
     "勋贵": "勋贵",
@@ -43581,6 +43841,7 @@
     "妙才": "夏侯渊",
     "夏侯玄": "夏侯玄",
     "夏侯太初": "夏侯玄",
+    "夏至": "夏至",
     "外戚": "外戚",
     "夜": "夜",
     "夜郎": "夜郎",
@@ -43597,6 +43858,7 @@
     "大酺": "大酺",
     "大雩": "大雩",
     "天文": "天文",
+    "太仓": "太仓",
     "太保": "太保",
     "太傅": "太傅",
     "太初历": "太初历",
@@ -43771,6 +44033,7 @@
     "宫卫": "宫卫",
     "宰相": "宰相",
     "宴": "宴",
+    "宴会": "宴会",
     "宴饮": "宴饮",
     "宿卫": "宿卫",
     "寇恂": "寇恂",
@@ -43795,8 +44058,10 @@
     "尚让": "尚让",
     "尹翁归": "尹翁归",
     "尺度": "尺度",
+    "居丧": "居丧",
     "居庸关": "居庸关",
     "履": "履",
+    "屦": "屦",
     "屯戍": "屯戍",
     "屯田": "屯田",
     "山": "山",
@@ -44504,6 +44769,7 @@
     "檀韶": "檀韶",
     "檄": "檄",
     "欧阳頠": "欧阳頠",
+    "歃血": "歃血",
     "歌": "歌",
     "歌舞": "歌舞",
     "正": "正",
@@ -45768,6 +46034,7 @@
     "纬书": "纬书",
     "纳币": "纳币",
     "纸墨": "纸墨",
+    "纸钱": "纸钱",
     "纺绩": "纺绩",
     "细作": "细作",
     "织": "织",
@@ -45777,6 +46044,7 @@
     "绣": "绣",
     "继": "继",
     "绮": "绮",
+    "绶": "绶",
     "绿林军": "绿林军",
     "绿林": "绿林军",
     "缇骑": "缇骑",
@@ -45818,6 +46086,7 @@
     "胡僧祐": "胡僧祐",
     "脉": "脉",
     "腰斩": "腰斩",
+    "膳": "膳",
     "臧宫": "臧宫",
     "臧旻": "臧旻",
     "臧质": "臧质",
@@ -45994,6 +46263,7 @@
     "袁彦叔": "袁粲",
     "袁绍": "袁绍",
     "袁本初": "袁绍",
+    "裘": "裘",
     "裳": "裳",
     "裴之横": "裴之横",
     "裴休": "裴休",
@@ -46090,6 +46360,7 @@
     "谢石": "谢石",
     "谢艾": "谢艾",
     "谥号": "谥号",
+    "谥法": "谥法",
     "谶纬": "谶纬",
     "谶记": "谶记",
     "谷": "谷",
@@ -46516,6 +46787,7 @@
     "颜竣": "颜竣",
     "风": "风",
     "食邑": "食邑",
+    "飨": "飨",
     "饯": "饯",
     "首": "首",
     "马周": "马周",
@@ -46544,6 +46816,7 @@
     "马陵之战": "马陵之战",
     "驰道": "驰道",
     "驸马": "驸马",
+    "驿道": "驿道",
     "骆宾王": "骆宾王",
     "骑兵": "骑兵",
     "骑射": "骑射",
@@ -46670,6 +46943,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 2870,
-  "generated": "2026-05-06T15:57:15Z"
+  "page_count": 2890,
+  "generated": "2026-05-06T15:59:21Z"
 }
