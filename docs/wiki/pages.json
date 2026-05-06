@@ -259,6 +259,18 @@
       "total_refs": 113,
       "total_chapters": 0
     },
+    "上党": {
+      "type": "place",
+      "label": "上党",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "并州"
+      ],
+      "description": "战国上党郡，韩赵争夺之地，秦赵长平之战的导火索，今山西东南部。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "上官仪": {
       "type": "person",
       "label": "上官仪",
@@ -486,6 +498,18 @@
       ],
       "description": "继西汉之后的大一统王朝，刘秀建立",
       "total_refs": 371,
+      "total_chapters": 0
+    },
+    "东海": {
+      "type": "place",
+      "label": "东海",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "徐州"
+      ],
+      "description": "秦汉东海郡，今山东南部、江苏北部沿海之地。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "东海王越": {
@@ -1769,6 +1793,17 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "仆固": {
+      "type": "concept",
+      "label": "仆固",
+      "aliases": [],
+      "tags": [
+        "民族部落"
+      ],
+      "description": "铁勒部落，仆固怀恩所出",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "仆固怀恩": {
       "type": "person",
       "label": "仆固怀恩",
@@ -1784,7 +1819,7 @@
       "description": "唐朝铁勒族名将，平定安史之乱的重要功臣，善于联络回纥，后因与朝廷矛盾激化而叛唐，引回纥、吐蕃入侵，卒于军中。",
       "quality": "featured",
       "quality_score": 45,
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "仆役": {
@@ -6437,6 +6472,17 @@
       "total_refs": 4,
       "total_chapters": 0
     },
+    "关东": {
+      "type": "place",
+      "label": "关东",
+      "aliases": [],
+      "tags": [
+        "地理区域"
+      ],
+      "description": "函谷关以东地区，战国至秦汉核心区域",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "关中": {
       "type": "place",
       "label": "关中",
@@ -6448,7 +6494,7 @@
       "description": "四塞之地，秦汉唐等王朝核心区域，以函谷关、武关、散关、萧关为固。",
       "quality": "basic",
       "quality_score": 32,
-      "total_refs": 93,
+      "total_refs": 94,
       "total_chapters": 0
     },
     "关塞": {
@@ -7040,6 +7086,19 @@
       "total_refs": 5,
       "total_chapters": 4
     },
+    "冯赟": {
+      "type": "person",
+      "label": "冯赟",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "后唐",
+        "权臣"
+      ],
+      "description": "后唐宣徽使、枢密使，与硃弘昭同秉朝政。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "冯跋": {
       "type": "person",
       "label": "冯跋",
@@ -7073,7 +7132,7 @@
       "featured": true,
       "quality": "featured",
       "quality_score": 56,
-      "total_refs": 44,
+      "total_refs": 45,
       "total_chapters": 27
     },
     "冰": {
@@ -7950,6 +8009,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "刘承钧": {
+      "type": "person",
+      "label": "刘承钧",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "北汉",
+        "宗室"
+      ],
+      "description": "北汉宗室，曾率兵攻晋州，败归。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "刘攽": {
       "type": "person",
       "label": "刘攽",
@@ -8024,6 +8096,20 @@
         "交州"
       ],
       "description": "刘方，隋瓜州刺史，平交州林邑",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "刘旻": {
+      "type": "person",
+      "label": "刘旻",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "将领",
+        "梁师都",
+        "突厥"
+      ],
+      "description": "唐林州总管，奉命图梁师都，离间突厥。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -10955,7 +11041,7 @@
       "description": "中国历史上活跃于北方草原的游牧民族政权，与汉朝长期对峙，冒顿单于时国势最盛，汉武帝时遭卫青、霍去病重创，东汉时分裂为南北匈奴，逐渐退出历史舞台。",
       "quality": "featured",
       "quality_score": 42,
-      "total_refs": 258,
+      "total_refs": 259,
       "total_chapters": 92
     },
     "北": {
@@ -11044,6 +11130,17 @@
         "器物"
       ],
       "description": "匣，古代盛放珍贵物品的盒子",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "十六卫": {
+      "type": "concept",
+      "label": "十六卫",
+      "aliases": [],
+      "tags": [
+        "官制"
+      ],
+      "description": "唐代府兵系统的中央军事机构",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -12519,6 +12616,17 @@
       "total_refs": 22,
       "total_chapters": 0
     },
+    "同罗": {
+      "type": "concept",
+      "label": "同罗",
+      "aliases": [],
+      "tags": [
+        "民族部落"
+      ],
+      "description": "铁勒部落，后突厥部众",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "名家": {
       "type": "concept",
       "label": "名家",
@@ -13848,7 +13956,7 @@
         "朝代"
       ],
       "description": "中国历史上最强盛的王朝之一，李渊建立",
-      "total_refs": 20,
+      "total_refs": 21,
       "total_chapters": 0
     },
     "唐休璟": {
@@ -15592,6 +15700,17 @@
       "total_refs": 85,
       "total_chapters": 0
     },
+    "契苾": {
+      "type": "concept",
+      "label": "契苾",
+      "aliases": [],
+      "tags": [
+        "民族部落"
+      ],
+      "description": "铁勒部落，契苾何力所出",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "契苾何力": {
       "type": "person",
       "label": "契苾何力",
@@ -15606,7 +15725,7 @@
       "description": "唐太宗朝铁勒裔名将，归附唐朝后历任左骁卫大将军，参与攻打吐谷浑、薛延陀、高句丽、龟兹等多场战役，以廉洁勇猛著称，是唐朝最重要的蕃将代表之一。",
       "quality": "featured",
       "quality_score": 47,
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "奚康生": {
@@ -17180,6 +17299,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "安审晖": {
+      "type": "person",
+      "label": "安审晖",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "后晋",
+        "将领"
+      ],
+      "description": "后晋保大节度使，讨李金全，败唐兵于黄花谷。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "安审琦": {
       "type": "person",
       "label": "安审琦",
@@ -17195,7 +17327,7 @@
       "description": "五代后晋名将，金全之子，历仕后唐、后晋，多次参与抗击契丹，在晋安寨守卫战和对辽多次战役中担任马军要职。",
       "quality": "featured",
       "quality_score": 48,
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "安庆绪": {
@@ -17211,6 +17343,19 @@
       "quality": "basic",
       "quality_score": 27,
       "total_refs": 6,
+      "total_chapters": 0
+    },
+    "安彦威": {
+      "type": "person",
+      "label": "安彦威",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "后唐",
+        "护国节度使"
+      ],
+      "description": "五代护国节度使，潞王起兵时降附",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "安思顺": {
@@ -18348,6 +18493,17 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "山东": {
+      "type": "place",
+      "label": "山东",
+      "aliases": [],
+      "tags": [
+        "地理区域"
+      ],
+      "description": "崤山以东地区，战国至秦汉重要地理区划",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "山伟": {
       "type": "person",
       "label": "山伟",
@@ -18377,6 +18533,17 @@
       "quality": "featured",
       "quality_score": 48,
       "total_refs": 7,
+      "total_chapters": 0
+    },
+    "山西": {
+      "type": "place",
+      "label": "山西",
+      "aliases": [],
+      "tags": [
+        "地理区域"
+      ],
+      "description": "崤山或华山以西地区，秦汉地理区划",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "岁星": {
@@ -20778,6 +20945,19 @@
       "total_refs": 8,
       "total_chapters": 0
     },
+    "张希崇": {
+      "type": "person",
+      "label": "张希崇",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "后唐",
+        "节度使"
+      ],
+      "description": "后唐卢龙节度使，在边镇有威信，兴屯田。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "张延翰": {
       "type": "person",
       "label": "张延翰",
@@ -22002,6 +22182,18 @@
       "quality": "basic",
       "quality_score": 25,
       "total_refs": 31,
+      "total_chapters": 0
+    },
+    "彍骑": {
+      "type": "concept",
+      "label": "彍骑",
+      "aliases": [],
+      "tags": [
+        "官制",
+        "军事"
+      ],
+      "description": "唐代宿卫兵，长从宿卫者",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "归老": {
@@ -23825,6 +24017,18 @@
       "quality": "basic",
       "quality_score": 21,
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "敦煌": {
+      "type": "place",
+      "label": "敦煌",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "凉州"
+      ],
+      "description": "汉敦煌郡，河西四郡之一，今甘肃敦煌，月氏故地。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "敬晖": {
@@ -31230,6 +31434,18 @@
       "total_refs": 372,
       "total_chapters": 190
     },
+    "汝南": {
+      "type": "place",
+      "label": "汝南",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "豫州"
+      ],
+      "description": "秦汉汝南郡，今河南南部，汉初封国。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "江": {
       "type": "concept",
       "label": "江",
@@ -31604,6 +31820,17 @@
       "total_refs": 7,
       "total_chapters": 0
     },
+    "沙陀": {
+      "type": "concept",
+      "label": "沙陀",
+      "aliases": [],
+      "tags": [
+        "民族部落"
+      ],
+      "description": "处月别种，突厥别部，五代后唐建立者所出",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "沟洫": {
       "type": "economy",
       "label": "沟洫",
@@ -31657,6 +31884,18 @@
         "地理"
       ],
       "description": "黄河，中国古代文明摇篮",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "河东": {
+      "type": "place",
+      "label": "河东",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "并州"
+      ],
+      "description": "秦汉河东郡，魏地，今山西西南部。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -32116,6 +32355,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "清河": {
+      "type": "place",
+      "label": "清河",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "冀州"
+      ],
+      "description": "秦汉清河郡，齐赵交界之地，今河北清河一带。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "清谈": {
       "type": "concept",
       "label": "清谈",
@@ -32148,6 +32399,18 @@
       "quality": "standard",
       "quality_score": 39,
       "total_refs": 12,
+      "total_chapters": 0
+    },
+    "渔阳": {
+      "type": "place",
+      "label": "渔阳",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "幽州"
+      ],
+      "description": "秦汉渔阳郡，燕北边郡，今北京东北。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "温": {
@@ -32390,6 +32653,17 @@
       "quality": "basic",
       "quality_score": 44,
       "total_refs": 19,
+      "total_chapters": 0
+    },
+    "漠北": {
+      "type": "place",
+      "label": "漠北",
+      "aliases": [],
+      "tags": [
+        "地理区域"
+      ],
+      "description": "蒙古高原大漠以北地区，匈奴/柔然腹地",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "潘乐": {
@@ -35260,6 +35534,18 @@
       "total_refs": 24,
       "total_chapters": 5
     },
+    "琅邪": {
+      "type": "place",
+      "label": "琅邪",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "徐州"
+      ],
+      "description": "秦琅邪郡，齐东境滨海之地，秦始皇东巡立石处。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "琴": {
       "type": "artifact",
       "label": "琴",
@@ -37961,7 +38247,7 @@
       "description": "北方游牧民族，隋唐时期重要边患，曾建立东突厥和西突厥汗国。",
       "quality": "basic",
       "quality_score": 39,
-      "total_refs": 78,
+      "total_refs": 79,
       "total_chapters": 0
     },
     "突围": {
@@ -43229,6 +43515,18 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "羽林军": {
+      "type": "concept",
+      "label": "羽林军",
+      "aliases": [],
+      "tags": [
+        "官制",
+        "军事"
+      ],
+      "description": "唐代北衙禁军之一，左右羽林军",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "羽檄": {
       "type": "military",
       "label": "羽檄",
@@ -45344,6 +45642,17 @@
       "total_refs": 5,
       "total_chapters": 0
     },
+    "葛逻禄": {
+      "type": "concept",
+      "label": "葛逻禄",
+      "aliases": [],
+      "tags": [
+        "民族部落"
+      ],
+      "description": "西突厥部落，三姓葛逻禄，唐时内附",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "董仲舒": {
       "type": "person",
       "label": "董仲舒",
@@ -46437,7 +46746,7 @@
       "description": "三国之一，公元221—263年，刘备称帝建国，都成都，以汉室正统自居，经诸葛亮辅政北伐，最终为曹魏所灭。",
       "quality": "featured",
       "quality_score": 40,
-      "total_refs": 76,
+      "total_refs": 77,
       "total_chapters": 1
     },
     "蜀郡": {
@@ -48539,6 +48848,17 @@
       "total_refs": 5,
       "total_chapters": 0
     },
+    "货币": {
+      "type": "concept",
+      "label": "货币",
+      "aliases": [],
+      "tags": [
+        "经济制度"
+      ],
+      "description": "古代货币制度",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "质子": {
       "type": "institution",
       "label": "质子",
@@ -49155,6 +49475,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "赵上交": {
+      "type": "person",
+      "label": "赵上交",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "后周",
+        "秘书监"
+      ],
+      "description": "后周秘书监，奉命往徐州奉迎刘赟。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "赵云": {
       "type": "person",
       "label": "赵云",
@@ -49278,6 +49611,20 @@
       "description": "五代后梁忠义节度使，割据山南东道，以左右勾连杨行密与王建抗衡朱全忠，最终被杨师厚击败流亡淮南，是五代关中以东最后一批抵抗后梁统一的割据势力之一。",
       "quality": "featured",
       "quality_score": 43,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "赵匡明": {
+      "type": "person",
+      "label": "赵匡明",
+      "aliases": [],
+      "tags": [
+        "五代",
+        "荆南",
+        "节度使",
+        "前蜀"
+      ],
+      "description": "五代荆南节度使，弃城奔前蜀王建",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -51474,7 +51821,7 @@
       "description": "五代时期后周的开国皇帝，从后汉旧将起兵建立后周，谥号太祖。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 62,
+      "total_refs": 63,
       "total_chapters": 13
     },
     "郭子仪": {
@@ -53392,6 +53739,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "陈留": {
+      "type": "place",
+      "label": "陈留",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "兖州"
+      ],
+      "description": "秦汉陈留郡，天下之冲，四通五达之郊，今河南开封东南。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "陈登": {
       "type": "person",
       "label": "陈登",
@@ -55256,6 +55615,18 @@
         "将领"
       ],
       "description": "回鹘大将，侵扰北边。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "颍川": {
+      "type": "place",
+      "label": "颍川",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "豫州"
+      ],
+      "description": "秦汉颍川郡，韩故地，今河南中部。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -57784,6 +58155,18 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "龙武军": {
+      "type": "concept",
+      "label": "龙武军",
+      "aliases": [],
+      "tags": [
+        "官制",
+        "军事"
+      ],
+      "description": "唐代北衙禁军之一，左右龙武军",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "龚胜": {
       "type": "person",
       "label": "龚胜",
@@ -57852,6 +58235,7 @@
     "三家分晋国": "三家分晋",
     "三老": "三老",
     "上书": "上书",
+    "上党": "上党",
     "上官仪": "上官仪",
     "游韶": "上官仪",
     "上官婉儿": "上官婉儿",
@@ -57871,6 +58255,7 @@
     "东方朔": "东方朔",
     "东晋": "东晋",
     "东汉": "东汉",
+    "东海": "东海",
     "东海王越": "东海王越",
     "东胡": "东胡",
     "东都": "东都",
@@ -57972,6 +58357,7 @@
     "亭障": "亭障",
     "亲亲": "亲亲",
     "仆": "仆",
+    "仆固": "仆固",
     "仆固怀恩": "仆固怀恩",
     "仆役": "仆役",
     "仇士良": "仇士良",
@@ -58275,6 +58661,7 @@
     "六亲": "六亲",
     "六礼": "六礼",
     "六艺": "六艺",
+    "关东": "关东",
     "关中": "关中",
     "关塞": "关塞",
     "关梁": "关梁",
@@ -58328,6 +58715,7 @@
     "冯素弗": "冯素弗",
     "冯绲": "冯绲",
     "冯衍": "冯衍",
+    "冯赟": "冯赟",
     "冯跋": "冯跋",
     "冯道": "冯道",
     "长乐老": "冯道",
@@ -58409,12 +58797,14 @@
     "刘总": "刘总",
     "刘恕": "刘恕",
     "刘悟": "刘悟",
+    "刘承钧": "刘承钧",
     "刘攽": "刘攽",
     "刘政会": "刘政会",
     "刘敬": "刘敬",
     "刘敬宣": "刘敬宣",
     "刘文静": "刘文静",
     "刘方": "刘方",
+    "刘旻": "刘旻",
     "刘昉": "刘昉",
     "刘昌": "刘昌",
     "刘昌裔": "刘昌裔",
@@ -58632,6 +59022,7 @@
     "北齐": "北齐",
     "匡衡": "匡衡",
     "匣": "匣",
+    "十六卫": "十六卫",
     "华歆": "华歆",
     "华温琪": "华温琪",
     "华皎": "华皎",
@@ -58764,6 +59155,7 @@
     "纵横之术": "合纵连横",
     "吉顼": "吉顼",
     "同盟": "同盟",
+    "同罗": "同罗",
     "名家": "名家",
     "名山": "名山",
     "名教": "名教",
@@ -59038,6 +59430,7 @@
     "奏议": "奏议",
     "奏记": "奏记",
     "契丹": "契丹",
+    "契苾": "契苾",
     "契苾何力": "契苾何力",
     "奚康生": "奚康生",
     "奚斤": "奚斤",
@@ -59182,8 +59575,10 @@
     "天宝之乱": "安史之乱",
     "安同": "安同",
     "安守忠": "安守忠",
+    "安审晖": "安审晖",
     "安审琦": "安审琦",
     "安庆绪": "安庆绪",
+    "安彦威": "安彦威",
     "安思顺": "安思顺",
     "安息": "安息",
     "安禄山": "安禄山",
@@ -59274,9 +59669,11 @@
     "屯戍": "屯戍",
     "屯田": "屯田",
     "山": "山",
+    "山东": "山东",
     "山伟": "山伟",
     "山涛": "山涛",
     "巨源": "山涛",
+    "山西": "山西",
     "岁星": "岁星",
     "岑彭": "岑彭",
     "岑文本": "岑文本",
@@ -59471,6 +59868,7 @@
     "张嶷": "张嶷",
     "张巡": "张巡",
     "张中丞": "张巡",
+    "张希崇": "张希崇",
     "张延翰": "张延翰",
     "张延赏": "张延赏",
     "张弘策": "张弘策",
@@ -59572,6 +59970,7 @@
     "张鲁": "张鲁",
     "弩": "弩",
     "弹劾": "弹劾",
+    "彍骑": "彍骑",
     "归老": "归老",
     "录事": "录事",
     "彗星": "彗星",
@@ -59733,6 +60132,7 @@
     "散乐": "散乐",
     "散关": "散关",
     "散官": "散官",
+    "敦煌": "敦煌",
     "敬晖": "敬晖",
     "敬翔": "敬翔",
     "文": "文",
@@ -60368,6 +60768,7 @@
     "章帝": "汉章帝",
     "汉高祖刘邦": "汉高祖刘邦",
     "高祖": "汉高祖刘邦",
+    "汝南": "汝南",
     "江": "江",
     "江东": "江东",
     "江京": "江京",
@@ -60398,10 +60799,12 @@
     "沈约": "沈约",
     "沈休文": "沈约",
     "沙门": "沙门",
+    "沙陀": "沙陀",
     "沟洫": "沟洫",
     "沮授": "沮授",
     "沮渠蒙逊": "沮渠蒙逊",
     "河": "河",
+    "河东": "河东",
     "河北": "河北",
     "河南": "河南",
     "河朔三镇": "河朔三镇",
@@ -60439,9 +60842,11 @@
     "肥水之战": "淝水之战",
     "淮南": "淮南",
     "淳于量": "淳于量",
+    "清河": "清河",
     "清谈": "清谈",
     "渑池之会": "渑池之会",
     "渑池会盟": "渑池之会",
+    "渔阳": "渔阳",
     "温": "温",
     "温峤": "温峤",
     "温彦博": "温彦博",
@@ -60464,6 +60869,7 @@
     "满宠": "满宠",
     "漕渠": "漕渠",
     "漕运": "漕运",
+    "漠北": "漠北",
     "潘乐": "潘乐",
     "潘岳": "潘岳",
     "潘璋": "潘璋",
@@ -60710,6 +61116,7 @@
     "班超": "班超",
     "班仲升": "班超",
     "定远侯": "班超",
+    "琅邪": "琅邪",
     "琴": "琴",
     "瑟": "瑟",
     "璧": "璧",
@@ -61744,6 +62151,7 @@
     "羯": "羯",
     "羹": "羹",
     "羽扇": "羽扇",
+    "羽林军": "羽林军",
     "羽檄": "羽檄",
     "翟文秀": "翟文秀",
     "翟方进": "翟方进",
@@ -61923,6 +62331,7 @@
     "葛从周": "葛从周",
     "葛婴": "葛婴",
     "葛荣": "葛荣",
+    "葛逻禄": "葛逻禄",
     "董仲舒": "董仲舒",
     "董仲舒博士": "董仲舒",
     "董允": "董允",
@@ -62201,6 +62610,7 @@
     "贞观": "贞观之治",
     "贡禹": "贡禹",
     "贡赋": "贡赋",
+    "货币": "货币",
     "质子": "质子",
     "贯高": "贯高",
     "费祎": "费祎",
@@ -62259,6 +62669,7 @@
     "赫连勃勃": "赫连勃勃",
     "夏天王": "赫连勃勃",
     "赫连昌": "赫连昌",
+    "赵上交": "赵上交",
     "赵云": "赵云",
     "赵子龙": "赵云",
     "赵什住": "赵什住",
@@ -62270,6 +62681,7 @@
     "赵光裔": "赵光裔",
     "赵光逢": "赵光逢",
     "赵匡凝": "赵匡凝",
+    "赵匡明": "赵匡明",
     "赵匡赞": "赵匡赞",
     "赵国": "赵国",
     "赵": "赵国",
@@ -62611,6 +63023,7 @@
     "陈玄礼": "陈玄礼",
     "陈球": "陈球",
     "陈琳": "陈琳",
+    "陈留": "陈留",
     "陈登": "陈登",
     "陈立": "陈立",
     "陈群": "陈群",
@@ -62773,6 +63186,7 @@
     "颉利": "颉利",
     "颉利可汗": "颉利",
     "颉干迦斯": "颉干迦斯",
+    "颍川": "颍川",
     "颜之推": "颜之推",
     "颜师古": "颜师古",
     "颜延之": "颜延之",
@@ -62993,10 +63407,11 @@
     "齐桓": "齐桓公",
     "小白": "齐桓公",
     "龙且": "龙且",
+    "龙武军": "龙武军",
     "龚胜": "龚胜",
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 4076,
-  "generated": "2026-05-06T17:50:03Z"
+  "page_count": 4108,
+  "generated": "2026-05-06T17:51:38Z"
 }
