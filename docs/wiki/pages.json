@@ -78,7 +78,7 @@
       "total_chapters": 0
     },
     "丁壮": {
-      "type": "concept",
+      "type": "economy",
       "label": "丁壮",
       "aliases": [],
       "tags": [
@@ -174,7 +174,7 @@
       "total_chapters": 0
     },
     "丈尺": {
-      "type": "concept",
+      "type": "economy",
       "label": "丈尺",
       "aliases": [],
       "tags": [
@@ -230,6 +230,19 @@
       "quality_score": 46,
       "total_refs": 31,
       "total_chapters": 7
+    },
+    "三老": {
+      "type": "concept",
+      "label": "三老",
+      "aliases": [],
+      "tags": [
+        "三老",
+        "乡官",
+        "制度"
+      ],
+      "description": "秦汉乡官，掌教化，由年高德劭者担任。",
+      "total_refs": 0,
+      "total_chapters": 0
     },
     "上书": {
       "type": "concept",
@@ -308,7 +321,7 @@
       "total_chapters": 0
     },
     "世族": {
-      "type": "concept",
+      "type": "institution",
       "label": "世族",
       "aliases": [],
       "tags": [
@@ -399,7 +412,7 @@
       "total_chapters": 0
     },
     "东宫": {
-      "type": "concept",
+      "type": "institution",
       "label": "东宫",
       "aliases": [],
       "tags": [
@@ -411,7 +424,7 @@
       "total_chapters": 0
     },
     "东巡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "东巡",
       "aliases": [],
       "tags": [
@@ -502,7 +515,7 @@
       "total_chapters": 0
     },
     "丝": {
-      "type": "concept",
+      "type": "artifact",
       "label": "丝",
       "aliases": [],
       "tags": [
@@ -528,7 +541,7 @@
       "total_chapters": 0
     },
     "两税": {
-      "type": "concept",
+      "type": "economy",
       "label": "两税",
       "aliases": [],
       "tags": [
@@ -614,7 +627,7 @@
       "total_chapters": 0
     },
     "丧服": {
-      "type": "concept",
+      "type": "ritual",
       "label": "丧服",
       "aliases": [],
       "tags": [
@@ -641,7 +654,7 @@
       "total_chapters": 0
     },
     "丧葬": {
-      "type": "concept",
+      "type": "ritual",
       "label": "丧葬",
       "aliases": [],
       "tags": [
@@ -738,7 +751,7 @@
       "total_chapters": 0
     },
     "为质": {
-      "type": "concept",
+      "type": "institution",
       "label": "为质",
       "aliases": [],
       "tags": [
@@ -766,7 +779,7 @@
       "total_chapters": 0
     },
     "义仓": {
-      "type": "concept",
+      "type": "economy",
       "label": "义仓",
       "aliases": [],
       "tags": [
@@ -886,7 +899,7 @@
       "total_chapters": 3
     },
     "乐器": {
-      "type": "concept",
+      "type": "artifact",
       "label": "乐器",
       "aliases": [],
       "tags": [
@@ -925,7 +938,7 @@
       "total_chapters": 0
     },
     "乐府": {
-      "type": "concept",
+      "type": "institution",
       "label": "乐府",
       "aliases": [],
       "tags": [
@@ -973,7 +986,7 @@
       "total_chapters": 3
     },
     "乐舞": {
-      "type": "concept",
+      "type": "ritual",
       "label": "乐舞",
       "aliases": [],
       "tags": [
@@ -1048,7 +1061,7 @@
       "total_chapters": 0
     },
     "乘舆": {
-      "type": "concept",
+      "type": "institution",
       "label": "乘舆",
       "aliases": [],
       "tags": [
@@ -1092,7 +1105,7 @@
       "total_chapters": 0
     },
     "九品中正": {
-      "type": "concept",
+      "type": "institution",
       "label": "九品中正",
       "aliases": [],
       "tags": [
@@ -1121,7 +1134,7 @@
       "total_chapters": 0
     },
     "九族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "九族",
       "aliases": [],
       "tags": [
@@ -1209,7 +1222,7 @@
       "total_chapters": 0
     },
     "乡兵": {
-      "type": "concept",
+      "type": "military",
       "label": "乡兵",
       "aliases": [],
       "tags": [
@@ -1220,6 +1233,19 @@
       "quality": "basic",
       "quality_score": 36,
       "total_refs": 4,
+      "total_chapters": 0
+    },
+    "乡官": {
+      "type": "concept",
+      "label": "乡官",
+      "aliases": [],
+      "tags": [
+        "乡官",
+        "基层",
+        "制度"
+      ],
+      "description": "古代乡级官吏，掌教化赋税听讼。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "书": {
@@ -1357,7 +1383,7 @@
       "total_chapters": 0
     },
     "云": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "云",
       "aliases": [],
       "tags": [
@@ -1383,7 +1409,7 @@
       "total_chapters": 0
     },
     "云梯": {
-      "type": "concept",
+      "type": "artifact",
       "label": "云梯",
       "aliases": [],
       "tags": [
@@ -1397,7 +1423,7 @@
       "total_chapters": 0
     },
     "互市": {
-      "type": "concept",
+      "type": "economy",
       "label": "互市",
       "aliases": [],
       "tags": [
@@ -1462,7 +1488,7 @@
       "total_chapters": 0
     },
     "五铢": {
-      "type": "concept",
+      "type": "economy",
       "label": "五铢",
       "aliases": [],
       "tags": [
@@ -1476,7 +1502,7 @@
       "total_chapters": 0
     },
     "五铢钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "五铢钱",
       "aliases": [],
       "tags": [
@@ -1502,7 +1528,7 @@
       "total_chapters": 0
     },
     "井田": {
-      "type": "concept",
+      "type": "economy",
       "label": "井田",
       "aliases": [],
       "tags": [
@@ -1563,7 +1589,7 @@
       "total_chapters": 0
     },
     "交质": {
-      "type": "concept",
+      "type": "military",
       "label": "交质",
       "aliases": [],
       "tags": [
@@ -1591,7 +1617,7 @@
       "total_chapters": 0
     },
     "亩": {
-      "type": "concept",
+      "type": "economy",
       "label": "亩",
       "aliases": [],
       "tags": [
@@ -1619,7 +1645,7 @@
       "total_chapters": 0
     },
     "亭": {
-      "type": "concept",
+      "type": "artifact",
       "label": "亭",
       "aliases": [],
       "tags": [
@@ -1629,8 +1655,21 @@
       "total_refs": 0,
       "total_chapters": 0
     },
-    "亭障": {
+    "亭长": {
       "type": "concept",
+      "label": "亭长",
+      "aliases": [],
+      "tags": [
+        "亭长",
+        "基层",
+        "制度"
+      ],
+      "description": "秦汉乡亭之长官，掌治安缉捕，兼理民事。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "亭障": {
+      "type": "military",
       "label": "亭障",
       "aliases": [],
       "tags": [
@@ -1643,7 +1682,7 @@
       "total_chapters": 0
     },
     "亲亲": {
-      "type": "concept",
+      "type": "ritual",
       "label": "亲亲",
       "aliases": [],
       "tags": [
@@ -1716,7 +1755,7 @@
       "total_chapters": 0
     },
     "仓场": {
-      "type": "concept",
+      "type": "economy",
       "label": "仓场",
       "aliases": [],
       "tags": [
@@ -1729,7 +1768,7 @@
       "total_chapters": 0
     },
     "仓库": {
-      "type": "concept",
+      "type": "economy",
       "label": "仓库",
       "aliases": [],
       "tags": [
@@ -1743,7 +1782,7 @@
       "total_chapters": 0
     },
     "仓廪": {
-      "type": "concept",
+      "type": "economy",
       "label": "仓廪",
       "aliases": [],
       "tags": [
@@ -1973,7 +2012,7 @@
       "total_chapters": 0
     },
     "伏兵": {
-      "type": "concept",
+      "type": "military",
       "label": "伏兵",
       "aliases": [],
       "tags": [
@@ -1987,7 +2026,7 @@
       "total_chapters": 0
     },
     "伏击": {
-      "type": "concept",
+      "type": "military",
       "label": "伏击",
       "aliases": [],
       "tags": [
@@ -2015,7 +2054,7 @@
       "total_chapters": 2
     },
     "伐": {
-      "type": "concept",
+      "type": "military",
       "label": "伐",
       "aliases": [],
       "tags": [
@@ -2045,7 +2084,7 @@
       "total_chapters": 0
     },
     "会盟": {
-      "type": "concept",
+      "type": "institution",
       "label": "会盟",
       "aliases": [],
       "tags": [
@@ -2058,8 +2097,20 @@
       "total_refs": 16,
       "total_chapters": 0
     },
+    "会稽": {
+      "type": "place",
+      "label": "会稽",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "吴越"
+      ],
+      "description": "秦会稽郡，约今江苏南部、浙江北部，秦始皇曾登临。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "传国玺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "传国玺",
       "aliases": [],
       "tags": [
@@ -2073,7 +2124,7 @@
       "total_chapters": 0
     },
     "传舍": {
-      "type": "concept",
+      "type": "economy",
       "label": "传舍",
       "aliases": [],
       "tags": [
@@ -2087,7 +2138,7 @@
       "total_chapters": 0
     },
     "传车": {
-      "type": "concept",
+      "type": "economy",
       "label": "传车",
       "aliases": [],
       "tags": [
@@ -2113,7 +2164,7 @@
       "total_chapters": 0
     },
     "伪降": {
-      "type": "concept",
+      "type": "military",
       "label": "伪降",
       "aliases": [],
       "tags": [
@@ -2307,7 +2358,7 @@
       "total_chapters": 0
     },
     "佛寺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "佛寺",
       "aliases": [],
       "tags": [
@@ -2351,7 +2402,7 @@
       "total_chapters": 0
     },
     "佩玉": {
-      "type": "concept",
+      "type": "artifact",
       "label": "佩玉",
       "aliases": [],
       "tags": [
@@ -2364,7 +2415,7 @@
       "total_chapters": 0
     },
     "佯败": {
-      "type": "concept",
+      "type": "military",
       "label": "佯败",
       "aliases": [],
       "tags": [
@@ -2422,7 +2473,7 @@
       "total_chapters": 0
     },
     "侍卫": {
-      "type": "concept",
+      "type": "artifact",
       "label": "侍卫",
       "aliases": [],
       "tags": [
@@ -2437,7 +2488,7 @@
       "total_chapters": 0
     },
     "侍女": {
-      "type": "concept",
+      "type": "ritual",
       "label": "侍女",
       "aliases": [],
       "tags": [
@@ -2460,7 +2511,7 @@
       "total_chapters": 0
     },
     "侨置": {
-      "type": "concept",
+      "type": "economy",
       "label": "侨置",
       "aliases": [],
       "tags": [
@@ -2634,7 +2685,7 @@
       "total_chapters": 0
     },
     "俎豆": {
-      "type": "concept",
+      "type": "artifact",
       "label": "俎豆",
       "aliases": [],
       "tags": [
@@ -2661,7 +2712,7 @@
       "total_chapters": 0
     },
     "信节": {
-      "type": "concept",
+      "type": "artifact",
       "label": "信节",
       "aliases": [],
       "tags": [
@@ -2706,7 +2757,7 @@
       "total_chapters": 0
     },
     "修建": {
-      "type": "concept",
+      "type": "artifact",
       "label": "修建",
       "aliases": [],
       "tags": [
@@ -2719,7 +2770,7 @@
       "total_chapters": 0
     },
     "修缮": {
-      "type": "concept",
+      "type": "artifact",
       "label": "修缮",
       "aliases": [],
       "tags": [
@@ -2949,7 +3000,7 @@
       "total_chapters": 0
     },
     "储副": {
-      "type": "concept",
+      "type": "institution",
       "label": "储副",
       "aliases": [],
       "tags": [
@@ -2960,7 +3011,7 @@
       "total_chapters": 0
     },
     "储后": {
-      "type": "concept",
+      "type": "institution",
       "label": "储后",
       "aliases": [],
       "tags": [
@@ -2971,7 +3022,7 @@
       "total_chapters": 0
     },
     "储君": {
-      "type": "concept",
+      "type": "institution",
       "label": "储君",
       "aliases": [],
       "tags": [
@@ -2983,7 +3034,7 @@
       "total_chapters": 0
     },
     "储宫": {
-      "type": "concept",
+      "type": "institution",
       "label": "储宫",
       "aliases": [],
       "tags": [
@@ -2994,7 +3045,7 @@
       "total_chapters": 0
     },
     "储贰": {
-      "type": "concept",
+      "type": "institution",
       "label": "储贰",
       "aliases": [],
       "tags": [
@@ -3126,7 +3177,7 @@
       "total_chapters": 2
     },
     "元日": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "元日",
       "aliases": [],
       "tags": [
@@ -3198,7 +3249,7 @@
       "description": "唐代著名诗人，与白居易并称\"元白\"，以新乐府诗著称，同时也是颇有政治抱负的官员，宦途浮沉，晚年任宰相。",
       "quality": "standard",
       "quality_score": 41,
-      "total_refs": 12,
+      "total_refs": 13,
       "total_chapters": 6
     },
     "元胄": {
@@ -3215,7 +3266,7 @@
       "total_chapters": 0
     },
     "元良": {
-      "type": "concept",
+      "type": "institution",
       "label": "元良",
       "aliases": [],
       "tags": [
@@ -6132,6 +6183,30 @@
       "total_refs": 5,
       "total_chapters": 0
     },
+    "公孙度": {
+      "type": "person",
+      "label": "公孙度",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "辽东"
+      ],
+      "description": "公孙度，东汉末辽东太守，割据辽东",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "公孙康": {
+      "type": "person",
+      "label": "公孙康",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "辽东"
+      ],
+      "description": "公孙康，汉末辽东太守，公孙度之子",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "公孙弘": {
       "type": "person",
       "label": "公孙弘",
@@ -6219,7 +6294,7 @@
       "total_chapters": 0
     },
     "公族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "公族",
       "aliases": [],
       "tags": [
@@ -6234,7 +6309,7 @@
       "total_chapters": 0
     },
     "六亲": {
-      "type": "concept",
+      "type": "ritual",
       "label": "六亲",
       "aliases": [],
       "tags": [
@@ -6249,7 +6324,7 @@
       "total_chapters": 0
     },
     "六礼": {
-      "type": "concept",
+      "type": "ritual",
       "label": "六礼",
       "aliases": [],
       "tags": [
@@ -6290,7 +6365,7 @@
       "total_chapters": 0
     },
     "关塞": {
-      "type": "concept",
+      "type": "military",
       "label": "关塞",
       "aliases": [],
       "tags": [
@@ -6304,7 +6379,7 @@
       "total_chapters": 0
     },
     "关梁": {
-      "type": "concept",
+      "type": "economy",
       "label": "关梁",
       "aliases": [],
       "tags": [
@@ -6348,7 +6423,7 @@
       "total_chapters": 0
     },
     "兵制": {
-      "type": "concept",
+      "type": "military",
       "label": "兵制",
       "aliases": [],
       "tags": [
@@ -6362,7 +6437,7 @@
       "total_chapters": 0
     },
     "兵势": {
-      "type": "concept",
+      "type": "military",
       "label": "兵势",
       "aliases": [],
       "tags": [
@@ -6375,7 +6450,7 @@
       "total_chapters": 0
     },
     "兵役": {
-      "type": "concept",
+      "type": "military",
       "label": "兵役",
       "aliases": [],
       "tags": [
@@ -6387,7 +6462,7 @@
       "total_chapters": 0
     },
     "兵气": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "兵气",
       "aliases": [],
       "tags": [
@@ -6400,7 +6475,7 @@
       "total_chapters": 0
     },
     "兵法": {
-      "type": "concept",
+      "type": "military",
       "label": "兵法",
       "aliases": [],
       "tags": [
@@ -6414,7 +6489,7 @@
       "total_chapters": 0
     },
     "兵锋": {
-      "type": "concept",
+      "type": "military",
       "label": "兵锋",
       "aliases": [],
       "tags": [
@@ -6451,7 +6526,7 @@
       "total_chapters": 0
     },
     "养老": {
-      "type": "concept",
+      "type": "institution",
       "label": "养老",
       "aliases": [],
       "tags": [
@@ -6464,7 +6539,7 @@
       "total_chapters": 0
     },
     "养马": {
-      "type": "concept",
+      "type": "economy",
       "label": "养马",
       "aliases": [],
       "tags": [
@@ -6492,7 +6567,7 @@
       "total_chapters": 0
     },
     "内应": {
-      "type": "concept",
+      "type": "military",
       "label": "内应",
       "aliases": [],
       "tags": [
@@ -6552,7 +6627,7 @@
       "total_chapters": 0
     },
     "冕": {
-      "type": "concept",
+      "type": "artifact",
       "label": "冕",
       "aliases": [],
       "tags": [
@@ -6566,7 +6641,7 @@
       "total_chapters": 0
     },
     "军令": {
-      "type": "concept",
+      "type": "military",
       "label": "军令",
       "aliases": [],
       "tags": [
@@ -6578,7 +6653,7 @@
       "total_chapters": 0
     },
     "军制": {
-      "type": "concept",
+      "type": "military",
       "label": "军制",
       "aliases": [],
       "tags": [
@@ -6592,7 +6667,7 @@
       "total_chapters": 0
     },
     "军法": {
-      "type": "concept",
+      "type": "law",
       "label": "军法",
       "aliases": [],
       "tags": [
@@ -6607,7 +6682,7 @@
       "total_chapters": 0
     },
     "军纪": {
-      "type": "concept",
+      "type": "military",
       "label": "军纪",
       "aliases": [],
       "tags": [
@@ -6619,7 +6694,7 @@
       "total_chapters": 0
     },
     "军镇": {
-      "type": "concept",
+      "type": "military",
       "label": "军镇",
       "aliases": [],
       "tags": [
@@ -6632,7 +6707,7 @@
       "total_chapters": 0
     },
     "农家": {
-      "type": "concept",
+      "type": "economy",
       "label": "农家",
       "aliases": [],
       "tags": [
@@ -6647,7 +6722,7 @@
       "total_chapters": 0
     },
     "农时": {
-      "type": "concept",
+      "type": "economy",
       "label": "农时",
       "aliases": [],
       "tags": [
@@ -6659,7 +6734,7 @@
       "total_chapters": 0
     },
     "农桑": {
-      "type": "concept",
+      "type": "economy",
       "label": "农桑",
       "aliases": [],
       "tags": [
@@ -6674,7 +6749,7 @@
       "total_chapters": 0
     },
     "冠": {
-      "type": "concept",
+      "type": "artifact",
       "label": "冠",
       "aliases": [],
       "tags": [
@@ -6686,7 +6761,7 @@
       "total_chapters": 0
     },
     "冠冕": {
-      "type": "concept",
+      "type": "artifact",
       "label": "冠冕",
       "aliases": [],
       "tags": [
@@ -6701,7 +6776,7 @@
       "total_chapters": 0
     },
     "冢嗣": {
-      "type": "concept",
+      "type": "institution",
       "label": "冢嗣",
       "aliases": [],
       "tags": [
@@ -6723,7 +6798,7 @@
       "total_chapters": 0
     },
     "冬至": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "冬至",
       "aliases": [],
       "tags": [
@@ -6913,7 +6988,7 @@
       "total_chapters": 0
     },
     "冲车": {
-      "type": "concept",
+      "type": "artifact",
       "label": "冲车",
       "aliases": [],
       "tags": [
@@ -6927,7 +7002,7 @@
       "total_chapters": 0
     },
     "冶铸": {
-      "type": "concept",
+      "type": "economy",
       "label": "冶铸",
       "aliases": [],
       "tags": [
@@ -6983,7 +7058,7 @@
       "total_chapters": 0
     },
     "凤凰": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "凤凰",
       "aliases": [],
       "tags": [
@@ -6997,7 +7072,7 @@
       "total_chapters": 0
     },
     "出使": {
-      "type": "concept",
+      "type": "institution",
       "label": "出使",
       "aliases": [],
       "tags": [
@@ -7011,7 +7086,7 @@
       "total_chapters": 0
     },
     "出兵": {
-      "type": "concept",
+      "type": "military",
       "label": "出兵",
       "aliases": [],
       "tags": [
@@ -7070,7 +7145,7 @@
       "total_chapters": 0
     },
     "凿": {
-      "type": "concept",
+      "type": "artifact",
       "label": "凿",
       "aliases": [],
       "tags": [
@@ -7081,7 +7156,7 @@
       "total_chapters": 0
     },
     "刀": {
-      "type": "concept",
+      "type": "artifact",
       "label": "刀",
       "aliases": [],
       "tags": [
@@ -7092,7 +7167,7 @@
       "total_chapters": 0
     },
     "刀剑": {
-      "type": "concept",
+      "type": "artifact",
       "label": "刀剑",
       "aliases": [],
       "tags": [
@@ -7133,7 +7208,7 @@
       "total_chapters": 0
     },
     "刃": {
-      "type": "concept",
+      "type": "artifact",
       "label": "刃",
       "aliases": [],
       "tags": [
@@ -7159,7 +7234,7 @@
       "total_chapters": 0
     },
     "刑戮": {
-      "type": "concept",
+      "type": "law",
       "label": "刑戮",
       "aliases": [],
       "tags": [
@@ -7174,7 +7249,7 @@
       "total_chapters": 0
     },
     "刑法": {
-      "type": "concept",
+      "type": "law",
       "label": "刑法",
       "aliases": [],
       "tags": [
@@ -7189,7 +7264,7 @@
       "total_chapters": 0
     },
     "刑狱": {
-      "type": "concept",
+      "type": "law",
       "label": "刑狱",
       "aliases": [],
       "tags": [
@@ -7204,7 +7279,7 @@
       "total_chapters": 0
     },
     "刑罚": {
-      "type": "concept",
+      "type": "law",
       "label": "刑罚",
       "aliases": [],
       "tags": [
@@ -7219,7 +7294,7 @@
       "total_chapters": 0
     },
     "刑辟": {
-      "type": "concept",
+      "type": "law",
       "label": "刑辟",
       "aliases": [],
       "tags": [
@@ -8203,6 +8278,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "刘淑": {
+      "type": "person",
+      "label": "刘淑",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "党锢",
+        "三君"
+      ],
+      "description": "东汉名士，与窦武、陈蕃并称\"三君\"，被宦官迫害自杀",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "刘渊": {
       "type": "person",
       "label": "刘渊",
@@ -8837,7 +8925,7 @@
         "开国皇帝"
       ],
       "description": "汉朝开国皇帝，庙号高祖，史称汉高祖",
-      "total_refs": 5,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "刘鄩": {
@@ -9024,7 +9112,7 @@
       "total_chapters": 0
     },
     "制书": {
-      "type": "concept",
+      "type": "institution",
       "label": "制书",
       "aliases": [],
       "tags": [
@@ -10478,7 +10566,7 @@
       "total_chapters": 0
     },
     "剑": {
-      "type": "concept",
+      "type": "artifact",
       "label": "剑",
       "aliases": [],
       "tags": [
@@ -10533,7 +10621,7 @@
       "total_chapters": 0
     },
     "力田": {
-      "type": "concept",
+      "type": "economy",
       "label": "力田",
       "aliases": [],
       "tags": [
@@ -10547,7 +10635,7 @@
       "total_chapters": 0
     },
     "劝农": {
-      "type": "concept",
+      "type": "economy",
       "label": "劝农",
       "aliases": [],
       "tags": [
@@ -10573,7 +10661,7 @@
       "total_chapters": 0
     },
     "务农": {
-      "type": "concept",
+      "type": "economy",
       "label": "务农",
       "aliases": [],
       "tags": [
@@ -10585,7 +10673,7 @@
       "total_chapters": 0
     },
     "助教": {
-      "type": "concept",
+      "type": "institution",
       "label": "助教",
       "aliases": [],
       "tags": [
@@ -10598,7 +10686,7 @@
       "total_chapters": 0
     },
     "劲兵": {
-      "type": "concept",
+      "type": "military",
       "label": "劲兵",
       "aliases": [],
       "tags": [
@@ -10656,7 +10744,7 @@
       "total_chapters": 0
     },
     "募兵": {
-      "type": "concept",
+      "type": "military",
       "label": "募兵",
       "aliases": [],
       "tags": [
@@ -10681,7 +10769,7 @@
       "total_chapters": 0
     },
     "勤王": {
-      "type": "concept",
+      "type": "military",
       "label": "勤王",
       "aliases": [],
       "tags": [
@@ -10695,7 +10783,7 @@
       "total_chapters": 0
     },
     "勺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "勺",
       "aliases": [],
       "tags": [
@@ -10770,7 +10858,7 @@
       "total_chapters": 0
     },
     "北巡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "北巡",
       "aliases": [],
       "tags": [
@@ -10822,7 +10910,7 @@
       "total_chapters": 0
     },
     "匣": {
-      "type": "concept",
+      "type": "artifact",
       "label": "匣",
       "aliases": [],
       "tags": [
@@ -10916,7 +11004,7 @@
       "total_chapters": 0
     },
     "南巡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "南巡",
       "aliases": [],
       "tags": [
@@ -10968,6 +11056,18 @@
       "quality": "basic",
       "quality_score": 43,
       "total_refs": 24,
+      "total_chapters": 0
+    },
+    "南阳": {
+      "type": "place",
+      "label": "南阳",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "中原"
+      ],
+      "description": "战国至秦汉南阳郡，光武帝故乡。",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "南霁云": {
@@ -11080,7 +11180,7 @@
       "total_chapters": 0
     },
     "占星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "占星",
       "aliases": [],
       "tags": [
@@ -11324,7 +11424,7 @@
       "total_chapters": 0
     },
     "卤簿": {
-      "type": "concept",
+      "type": "institution",
       "label": "卤簿",
       "aliases": [],
       "tags": [
@@ -11338,7 +11438,7 @@
       "total_chapters": 0
     },
     "卫兵": {
-      "type": "concept",
+      "type": "military",
       "label": "卫兵",
       "aliases": [],
       "tags": [
@@ -11353,7 +11453,7 @@
       "total_chapters": 0
     },
     "卫士": {
-      "type": "concept",
+      "type": "military",
       "label": "卫士",
       "aliases": [],
       "tags": [
@@ -11511,7 +11611,7 @@
       "total_chapters": 0
     },
     "厌胜": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "厌胜",
       "aliases": [],
       "tags": [
@@ -11545,7 +11645,7 @@
       "total_chapters": 0
     },
     "反间": {
-      "type": "concept",
+      "type": "military",
       "label": "反间",
       "aliases": [],
       "tags": [
@@ -11614,7 +11714,7 @@
       "total_chapters": 0
     },
     "口赋": {
-      "type": "concept",
+      "type": "economy",
       "label": "口赋",
       "aliases": [],
       "tags": [
@@ -11643,7 +11743,7 @@
       "total_chapters": 0
     },
     "古钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "古钱",
       "aliases": [],
       "tags": [
@@ -11696,7 +11796,7 @@
       "total_chapters": 0
     },
     "台": {
-      "type": "concept",
+      "type": "artifact",
       "label": "台",
       "aliases": [],
       "tags": [
@@ -12193,7 +12293,7 @@
       "total_chapters": 0
     },
     "合围": {
-      "type": "concept",
+      "type": "military",
       "label": "合围",
       "aliases": [],
       "tags": [
@@ -12205,7 +12305,7 @@
       "total_chapters": 0
     },
     "合族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "合族",
       "aliases": [],
       "tags": [
@@ -12256,7 +12356,7 @@
       "total_chapters": 0
     },
     "同盟": {
-      "type": "concept",
+      "type": "military",
       "label": "同盟",
       "aliases": [],
       "tags": [
@@ -12283,7 +12383,7 @@
       "total_chapters": 0
     },
     "名山": {
-      "type": "concept",
+      "type": "ritual",
       "label": "名山",
       "aliases": [],
       "tags": [
@@ -12835,7 +12935,7 @@
       "total_chapters": 0
     },
     "告庙": {
-      "type": "concept",
+      "type": "military",
       "label": "告庙",
       "aliases": [],
       "tags": [
@@ -12849,7 +12949,7 @@
       "total_chapters": 0
     },
     "告老": {
-      "type": "concept",
+      "type": "institution",
       "label": "告老",
       "aliases": [],
       "tags": [
@@ -13512,7 +13612,7 @@
       "total_chapters": 1
     },
     "和籴": {
-      "type": "concept",
+      "type": "economy",
       "label": "和籴",
       "aliases": [],
       "tags": [
@@ -13829,7 +13929,7 @@
       "total_chapters": 38
     },
     "商旅": {
-      "type": "concept",
+      "type": "economy",
       "label": "商旅",
       "aliases": [],
       "tags": [
@@ -13843,7 +13943,7 @@
       "total_chapters": 0
     },
     "商贾": {
-      "type": "concept",
+      "type": "economy",
       "label": "商贾",
       "aliases": [],
       "tags": [
@@ -13891,7 +13991,7 @@
       "total_chapters": 0
     },
     "嗣": {
-      "type": "concept",
+      "type": "ritual",
       "label": "嗣",
       "aliases": [],
       "tags": [
@@ -13906,7 +14006,7 @@
       "total_chapters": 0
     },
     "嗣位": {
-      "type": "concept",
+      "type": "institution",
       "label": "嗣位",
       "aliases": [],
       "tags": [
@@ -13919,7 +14019,7 @@
       "total_chapters": 0
     },
     "嗣子": {
-      "type": "concept",
+      "type": "institution",
       "label": "嗣子",
       "aliases": [],
       "tags": [
@@ -13960,7 +14060,7 @@
       "total_chapters": 0
     },
     "团练": {
-      "type": "concept",
+      "type": "military",
       "label": "团练",
       "aliases": [],
       "tags": [
@@ -13987,7 +14087,7 @@
       "total_chapters": 0
     },
     "围城": {
-      "type": "concept",
+      "type": "military",
       "label": "围城",
       "aliases": [],
       "tags": [
@@ -14001,7 +14101,7 @@
       "total_chapters": 0
     },
     "国子监": {
-      "type": "concept",
+      "type": "institution",
       "label": "国子监",
       "aliases": [],
       "tags": [
@@ -14027,7 +14127,7 @@
       "total_chapters": 0
     },
     "图谶": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "图谶",
       "aliases": [],
       "tags": [
@@ -14042,7 +14142,7 @@
       "total_chapters": 0
     },
     "土断": {
-      "type": "concept",
+      "type": "economy",
       "label": "土断",
       "aliases": [],
       "tags": [
@@ -14055,7 +14155,7 @@
       "total_chapters": 0
     },
     "土木": {
-      "type": "concept",
+      "type": "artifact",
       "label": "土木",
       "aliases": [],
       "tags": [
@@ -14068,7 +14168,7 @@
       "total_chapters": 0
     },
     "地道": {
-      "type": "concept",
+      "type": "military",
       "label": "地道",
       "aliases": [],
       "tags": [
@@ -14081,7 +14181,7 @@
       "total_chapters": 0
     },
     "地震": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "地震",
       "aliases": [],
       "tags": [
@@ -14095,7 +14195,7 @@
       "total_chapters": 0
     },
     "均田": {
-      "type": "concept",
+      "type": "economy",
       "label": "均田",
       "aliases": [],
       "tags": [
@@ -14110,7 +14210,7 @@
       "total_chapters": 0
     },
     "均田制": {
-      "type": "concept",
+      "type": "economy",
       "label": "均田制",
       "aliases": [],
       "tags": [
@@ -14127,7 +14227,7 @@
       "total_chapters": 0
     },
     "均输": {
-      "type": "concept",
+      "type": "economy",
       "label": "均输",
       "aliases": [],
       "tags": [
@@ -14141,7 +14241,7 @@
       "total_chapters": 0
     },
     "均输平准": {
-      "type": "concept",
+      "type": "economy",
       "label": "均输平准",
       "aliases": [],
       "tags": [
@@ -14155,7 +14255,7 @@
       "total_chapters": 0
     },
     "坚壁": {
-      "type": "concept",
+      "type": "military",
       "label": "坚壁",
       "aliases": [],
       "tags": [
@@ -14169,7 +14269,7 @@
       "total_chapters": 0
     },
     "坞": {
-      "type": "concept",
+      "type": "artifact",
       "label": "坞",
       "aliases": [],
       "tags": [
@@ -14196,7 +14296,7 @@
       "total_chapters": 0
     },
     "垒": {
-      "type": "concept",
+      "type": "artifact",
       "label": "垒",
       "aliases": [],
       "tags": [
@@ -14269,7 +14369,7 @@
       "total_chapters": 0
     },
     "垦田": {
-      "type": "concept",
+      "type": "economy",
       "label": "垦田",
       "aliases": [],
       "tags": [
@@ -14283,7 +14383,7 @@
       "total_chapters": 0
     },
     "城": {
-      "type": "concept",
+      "type": "artifact",
       "label": "城",
       "aliases": [],
       "tags": [
@@ -14294,7 +14394,7 @@
       "total_chapters": 0
     },
     "城郭": {
-      "type": "concept",
+      "type": "artifact",
       "label": "城郭",
       "aliases": [],
       "tags": [
@@ -14308,7 +14408,7 @@
       "total_chapters": 0
     },
     "城防": {
-      "type": "concept",
+      "type": "military",
       "label": "城防",
       "aliases": [],
       "tags": [
@@ -14321,7 +14421,7 @@
       "total_chapters": 0
     },
     "堑": {
-      "type": "concept",
+      "type": "artifact",
       "label": "堑",
       "aliases": [],
       "tags": [
@@ -14334,7 +14434,7 @@
       "total_chapters": 0
     },
     "堡": {
-      "type": "concept",
+      "type": "artifact",
       "label": "堡",
       "aliases": [],
       "tags": [
@@ -14348,7 +14448,7 @@
       "total_chapters": 0
     },
     "堤堰": {
-      "type": "concept",
+      "type": "economy",
       "label": "堤堰",
       "aliases": [],
       "tags": [
@@ -14376,7 +14476,7 @@
       "total_chapters": 0
     },
     "墓": {
-      "type": "concept",
+      "type": "ritual",
       "label": "墓",
       "aliases": [],
       "tags": [
@@ -14391,7 +14491,7 @@
       "total_chapters": 0
     },
     "墙": {
-      "type": "concept",
+      "type": "artifact",
       "label": "墙",
       "aliases": [],
       "tags": [
@@ -14402,7 +14502,7 @@
       "total_chapters": 0
     },
     "壁垒": {
-      "type": "concept",
+      "type": "military",
       "label": "壁垒",
       "aliases": [],
       "tags": [
@@ -14454,7 +14554,7 @@
       "total_chapters": 0
     },
     "备御": {
-      "type": "concept",
+      "type": "military",
       "label": "备御",
       "aliases": [],
       "tags": [
@@ -14597,7 +14697,7 @@
       "total_chapters": 4
     },
     "夏至": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "夏至",
       "aliases": [],
       "tags": [
@@ -14610,7 +14710,7 @@
       "total_chapters": 0
     },
     "外戚": {
-      "type": "concept",
+      "type": "institution",
       "label": "外戚",
       "aliases": [],
       "tags": [
@@ -14694,7 +14794,7 @@
       "total_chapters": 0
     },
     "大川": {
-      "type": "concept",
+      "type": "ritual",
       "label": "大川",
       "aliases": [],
       "tags": [
@@ -14706,7 +14806,7 @@
       "total_chapters": 0
     },
     "大旱": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "大旱",
       "aliases": [],
       "tags": [
@@ -14748,7 +14848,7 @@
       "total_chapters": 0
     },
     "大水": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "大水",
       "aliases": [],
       "tags": [
@@ -14762,7 +14862,7 @@
       "total_chapters": 0
     },
     "大疫": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "大疫",
       "aliases": [],
       "tags": [
@@ -14776,7 +14876,7 @@
       "total_chapters": 0
     },
     "大赦": {
-      "type": "concept",
+      "type": "law",
       "label": "大赦",
       "aliases": [],
       "tags": [
@@ -14790,7 +14890,7 @@
       "total_chapters": 0
     },
     "大辟": {
-      "type": "concept",
+      "type": "law",
       "label": "大辟",
       "aliases": [],
       "tags": [
@@ -14818,7 +14918,7 @@
       "total_chapters": 0
     },
     "大雩": {
-      "type": "concept",
+      "type": "ritual",
       "label": "大雩",
       "aliases": [],
       "tags": [
@@ -14858,7 +14958,7 @@
       "total_chapters": 0
     },
     "天意": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "天意",
       "aliases": [],
       "tags": [
@@ -14871,7 +14971,7 @@
       "total_chapters": 0
     },
     "天文": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "天文",
       "aliases": [],
       "tags": [
@@ -14910,7 +15010,7 @@
       "total_chapters": 0
     },
     "天险": {
-      "type": "concept",
+      "type": "military",
       "label": "天险",
       "aliases": [],
       "tags": [
@@ -14922,7 +15022,7 @@
       "total_chapters": 0
     },
     "太仓": {
-      "type": "concept",
+      "type": "economy",
       "label": "太仓",
       "aliases": [],
       "tags": [
@@ -14962,7 +15062,7 @@
       "total_chapters": 0
     },
     "太初历": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "太初历",
       "aliases": [],
       "tags": [
@@ -15029,7 +15129,7 @@
       "total_chapters": 0
     },
     "太后": {
-      "type": "concept",
+      "type": "institution",
       "label": "太后",
       "aliases": [],
       "tags": [
@@ -15040,7 +15140,7 @@
       "total_chapters": 0
     },
     "太子": {
-      "type": "concept",
+      "type": "institution",
       "label": "太子",
       "aliases": [],
       "tags": [
@@ -15127,7 +15227,7 @@
       "total_chapters": 0
     },
     "太庙": {
-      "type": "concept",
+      "type": "ritual",
       "label": "太庙",
       "aliases": [],
       "tags": [
@@ -15142,7 +15242,7 @@
       "total_chapters": 0
     },
     "太牢": {
-      "type": "concept",
+      "type": "ritual",
       "label": "太牢",
       "aliases": [],
       "tags": [
@@ -15157,7 +15257,7 @@
       "total_chapters": 0
     },
     "太白": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "太白",
       "aliases": [],
       "tags": [
@@ -15218,7 +15318,7 @@
       "total_chapters": 0
     },
     "夹击": {
-      "type": "concept",
+      "type": "military",
       "label": "夹击",
       "aliases": [],
       "tags": [
@@ -15245,7 +15345,7 @@
       "total_chapters": 0
     },
     "奇兵": {
-      "type": "concept",
+      "type": "military",
       "label": "奇兵",
       "aliases": [],
       "tags": [
@@ -15259,7 +15359,7 @@
       "total_chapters": 0
     },
     "奏疏": {
-      "type": "concept",
+      "type": "institution",
       "label": "奏疏",
       "aliases": [],
       "tags": [
@@ -15274,7 +15374,7 @@
       "total_chapters": 0
     },
     "奏章": {
-      "type": "concept",
+      "type": "institution",
       "label": "奏章",
       "aliases": [],
       "tags": [
@@ -15289,7 +15389,7 @@
       "total_chapters": 0
     },
     "奏议": {
-      "type": "concept",
+      "type": "institution",
       "label": "奏议",
       "aliases": [],
       "tags": [
@@ -15303,7 +15403,7 @@
       "total_chapters": 0
     },
     "奏记": {
-      "type": "concept",
+      "type": "institution",
       "label": "奏记",
       "aliases": [],
       "tags": [
@@ -15374,7 +15474,7 @@
       "total_chapters": 0
     },
     "女工": {
-      "type": "concept",
+      "type": "economy",
       "label": "女工",
       "aliases": [],
       "tags": [
@@ -15413,7 +15513,7 @@
       "total_chapters": 1
     },
     "妖言": {
-      "type": "concept",
+      "type": "law",
       "label": "妖言",
       "aliases": [],
       "tags": [
@@ -15698,7 +15798,7 @@
       "total_chapters": 0
     },
     "婚媾": {
-      "type": "concept",
+      "type": "ritual",
       "label": "婚媾",
       "aliases": [],
       "tags": [
@@ -15713,7 +15813,7 @@
       "total_chapters": 0
     },
     "婚嫁": {
-      "type": "concept",
+      "type": "ritual",
       "label": "婚嫁",
       "aliases": [],
       "tags": [
@@ -15739,7 +15839,7 @@
       "total_chapters": 0
     },
     "嫁娶": {
-      "type": "concept",
+      "type": "ritual",
       "label": "嫁娶",
       "aliases": [],
       "tags": [
@@ -15753,7 +15853,7 @@
       "total_chapters": 0
     },
     "嫡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "嫡",
       "aliases": [],
       "tags": [
@@ -15768,7 +15868,7 @@
       "total_chapters": 0
     },
     "嫡庶": {
-      "type": "concept",
+      "type": "ritual",
       "label": "嫡庶",
       "aliases": [],
       "tags": [
@@ -16108,7 +16208,7 @@
       "total_chapters": 0
     },
     "孙吴": {
-      "type": "concept",
+      "type": "military",
       "label": "孙吴",
       "aliases": [
         "孙子",
@@ -16777,7 +16877,7 @@
       "total_chapters": 0
     },
     "守": {
-      "type": "concept",
+      "type": "military",
       "label": "守",
       "aliases": [],
       "tags": [
@@ -16788,7 +16888,7 @@
       "total_chapters": 0
     },
     "守卫": {
-      "type": "concept",
+      "type": "military",
       "label": "守卫",
       "aliases": [],
       "tags": [
@@ -16803,7 +16903,7 @@
       "total_chapters": 0
     },
     "守城": {
-      "type": "concept",
+      "type": "military",
       "label": "守城",
       "aliases": [],
       "tags": [
@@ -16815,7 +16915,7 @@
       "total_chapters": 0
     },
     "守御": {
-      "type": "concept",
+      "type": "military",
       "label": "守御",
       "aliases": [],
       "tags": [
@@ -17225,7 +17325,7 @@
       "total_chapters": 1
     },
     "宗亲": {
-      "type": "concept",
+      "type": "ritual",
       "label": "宗亲",
       "aliases": [],
       "tags": [
@@ -17240,7 +17340,7 @@
       "total_chapters": 0
     },
     "宗庙": {
-      "type": "concept",
+      "type": "ritual",
       "label": "宗庙",
       "aliases": [],
       "tags": [
@@ -17273,7 +17373,7 @@
       "total_chapters": 0
     },
     "宗族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "宗族",
       "aliases": [],
       "tags": [
@@ -17357,7 +17457,7 @@
       "total_chapters": 0
     },
     "宝货": {
-      "type": "concept",
+      "type": "economy",
       "label": "宝货",
       "aliases": [],
       "tags": [
@@ -17410,7 +17510,7 @@
       "total_chapters": 0
     },
     "客星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "客星",
       "aliases": [],
       "tags": [
@@ -17437,7 +17537,7 @@
       "total_chapters": 0
     },
     "宦官": {
-      "type": "concept",
+      "type": "institution",
       "label": "宦官",
       "aliases": [],
       "tags": [
@@ -17448,7 +17548,7 @@
       "total_chapters": 0
     },
     "宫": {
-      "type": "concept",
+      "type": "artifact",
       "label": "宫",
       "aliases": [],
       "tags": [
@@ -17459,7 +17559,7 @@
       "total_chapters": 0
     },
     "宫刑": {
-      "type": "concept",
+      "type": "law",
       "label": "宫刑",
       "aliases": [],
       "tags": [
@@ -17473,7 +17573,7 @@
       "total_chapters": 0
     },
     "宫卫": {
-      "type": "concept",
+      "type": "military",
       "label": "宫卫",
       "aliases": [],
       "tags": [
@@ -17511,7 +17611,7 @@
       "total_chapters": 0
     },
     "宴会": {
-      "type": "concept",
+      "type": "ritual",
       "label": "宴会",
       "aliases": [],
       "tags": [
@@ -17537,7 +17637,7 @@
       "total_chapters": 0
     },
     "宿卫": {
-      "type": "concept",
+      "type": "military",
       "label": "宿卫",
       "aliases": [],
       "tags": [
@@ -17594,7 +17694,7 @@
       "total_chapters": 0
     },
     "寒门": {
-      "type": "concept",
+      "type": "institution",
       "label": "寒门",
       "aliases": [],
       "tags": [
@@ -17609,7 +17709,7 @@
       "total_chapters": 0
     },
     "察举": {
-      "type": "concept",
+      "type": "institution",
       "label": "察举",
       "aliases": [],
       "tags": [
@@ -17623,7 +17723,7 @@
       "total_chapters": 0
     },
     "封事": {
-      "type": "concept",
+      "type": "institution",
       "label": "封事",
       "aliases": [],
       "tags": [
@@ -17635,7 +17735,7 @@
       "total_chapters": 0
     },
     "封国": {
-      "type": "concept",
+      "type": "institution",
       "label": "封国",
       "aliases": [],
       "tags": [
@@ -17695,7 +17795,7 @@
       "total_chapters": 0
     },
     "封爵": {
-      "type": "concept",
+      "type": "institution",
       "label": "封爵",
       "aliases": [],
       "tags": [
@@ -17710,7 +17810,7 @@
       "total_chapters": 0
     },
     "封禅": {
-      "type": "concept",
+      "type": "ritual",
       "label": "封禅",
       "aliases": [],
       "tags": [
@@ -17943,7 +18043,7 @@
       "total_chapters": 0
     },
     "尺度": {
-      "type": "concept",
+      "type": "economy",
       "label": "尺度",
       "aliases": [],
       "tags": [
@@ -17957,7 +18057,7 @@
       "total_chapters": 0
     },
     "居丧": {
-      "type": "concept",
+      "type": "ritual",
       "label": "居丧",
       "aliases": [],
       "tags": [
@@ -18009,7 +18109,7 @@
       "total_chapters": 0
     },
     "履": {
-      "type": "concept",
+      "type": "artifact",
       "label": "履",
       "aliases": [],
       "tags": [
@@ -18020,7 +18120,7 @@
       "total_chapters": 0
     },
     "屦": {
-      "type": "concept",
+      "type": "artifact",
       "label": "屦",
       "aliases": [],
       "tags": [
@@ -18033,7 +18133,7 @@
       "total_chapters": 0
     },
     "屯戍": {
-      "type": "concept",
+      "type": "military",
       "label": "屯戍",
       "aliases": [],
       "tags": [
@@ -18047,7 +18147,7 @@
       "total_chapters": 0
     },
     "屯田": {
-      "type": "concept",
+      "type": "economy",
       "label": "屯田",
       "aliases": [],
       "tags": [
@@ -18104,7 +18204,7 @@
       "total_chapters": 0
     },
     "岁星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "岁星",
       "aliases": [],
       "tags": [
@@ -18755,7 +18855,7 @@
       "total_chapters": 0
     },
     "巡守": {
-      "type": "concept",
+      "type": "ritual",
       "label": "巡守",
       "aliases": [],
       "tags": [
@@ -18770,7 +18870,7 @@
       "total_chapters": 0
     },
     "巡幸": {
-      "type": "concept",
+      "type": "ritual",
       "label": "巡幸",
       "aliases": [],
       "tags": [
@@ -18785,7 +18885,7 @@
       "total_chapters": 0
     },
     "巡游": {
-      "type": "concept",
+      "type": "ritual",
       "label": "巡游",
       "aliases": [],
       "tags": [
@@ -18800,7 +18900,7 @@
       "total_chapters": 0
     },
     "巡狩": {
-      "type": "concept",
+      "type": "institution",
       "label": "巡狩",
       "aliases": [],
       "tags": [
@@ -18814,7 +18914,7 @@
       "total_chapters": 0
     },
     "巡省": {
-      "type": "concept",
+      "type": "ritual",
       "label": "巡省",
       "aliases": [],
       "tags": [
@@ -18829,7 +18929,7 @@
       "total_chapters": 0
     },
     "巡行": {
-      "type": "concept",
+      "type": "institution",
       "label": "巡行",
       "aliases": [],
       "tags": [
@@ -18844,7 +18944,7 @@
       "total_chapters": 0
     },
     "工匠": {
-      "type": "concept",
+      "type": "economy",
       "label": "工匠",
       "aliases": [],
       "tags": [
@@ -18932,7 +19032,7 @@
       "total_chapters": 0
     },
     "巾": {
-      "type": "concept",
+      "type": "artifact",
       "label": "巾",
       "aliases": [],
       "tags": [
@@ -18943,7 +19043,7 @@
       "total_chapters": 0
     },
     "市井": {
-      "type": "concept",
+      "type": "economy",
       "label": "市井",
       "aliases": [],
       "tags": [
@@ -18957,7 +19057,7 @@
       "total_chapters": 0
     },
     "市易": {
-      "type": "concept",
+      "type": "economy",
       "label": "市易",
       "aliases": [],
       "tags": [
@@ -18972,7 +19072,7 @@
       "total_chapters": 0
     },
     "市舶": {
-      "type": "concept",
+      "type": "economy",
       "label": "市舶",
       "aliases": [],
       "tags": [
@@ -18986,7 +19086,7 @@
       "total_chapters": 0
     },
     "布": {
-      "type": "concept",
+      "type": "economy",
       "label": "布",
       "aliases": [],
       "tags": [
@@ -18997,7 +19097,7 @@
       "total_chapters": 0
     },
     "布帛": {
-      "type": "concept",
+      "type": "economy",
       "label": "布帛",
       "aliases": [],
       "tags": [
@@ -19012,7 +19112,7 @@
       "total_chapters": 0
     },
     "布泉": {
-      "type": "concept",
+      "type": "economy",
       "label": "布泉",
       "aliases": [],
       "tags": [
@@ -19038,7 +19138,7 @@
       "total_chapters": 0
     },
     "帛": {
-      "type": "concept",
+      "type": "artifact",
       "label": "帛",
       "aliases": [],
       "tags": [
@@ -19050,7 +19150,7 @@
       "total_chapters": 0
     },
     "帝室": {
-      "type": "concept",
+      "type": "ritual",
       "label": "帝室",
       "aliases": [],
       "tags": [
@@ -19065,7 +19165,7 @@
       "total_chapters": 0
     },
     "帷幄": {
-      "type": "concept",
+      "type": "military",
       "label": "帷幄",
       "aliases": [],
       "tags": [
@@ -19078,7 +19178,7 @@
       "total_chapters": 0
     },
     "常平仓": {
-      "type": "concept",
+      "type": "economy",
       "label": "常平仓",
       "aliases": [],
       "tags": [
@@ -19172,7 +19272,7 @@
       "total_chapters": 0
     },
     "平": {
-      "type": "concept",
+      "type": "military",
       "label": "平",
       "aliases": [],
       "tags": [
@@ -19184,7 +19284,7 @@
       "total_chapters": 0
     },
     "平准": {
-      "type": "concept",
+      "type": "economy",
       "label": "平准",
       "aliases": [],
       "tags": [
@@ -19214,8 +19314,20 @@
       "total_refs": 23,
       "total_chapters": 3
     },
+    "平城": {
+      "type": "place",
+      "label": "平城",
+      "aliases": [],
+      "tags": [
+        "县",
+        "并州"
+      ],
+      "description": "秦汉平城县，汉高祖被匈奴围于白登。",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "年号": {
-      "type": "concept",
+      "type": "institution",
       "label": "年号",
       "aliases": [],
       "tags": [
@@ -19255,6 +19367,18 @@
       "total_refs": 54,
       "total_chapters": 0
     },
+    "广陵": {
+      "type": "place",
+      "label": "广陵",
+      "aliases": [],
+      "tags": [
+        "县",
+        "江淮"
+      ],
+      "description": "秦汉广陵县，淮南要地。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "庐陵王义真": {
       "type": "person",
       "label": "庐陵王义真",
@@ -19286,7 +19410,7 @@
       "total_chapters": 0
     },
     "库藏": {
-      "type": "concept",
+      "type": "economy",
       "label": "库藏",
       "aliases": [],
       "tags": [
@@ -19323,7 +19447,7 @@
       "total_chapters": 0
     },
     "庙祭": {
-      "type": "concept",
+      "type": "ritual",
       "label": "庙祭",
       "aliases": [],
       "tags": [
@@ -19338,7 +19462,7 @@
       "total_chapters": 0
     },
     "府兵": {
-      "type": "concept",
+      "type": "military",
       "label": "府兵",
       "aliases": [],
       "tags": [
@@ -19370,7 +19494,7 @@
       "total_chapters": 0
     },
     "府库": {
-      "type": "concept",
+      "type": "economy",
       "label": "府库",
       "aliases": [],
       "tags": [
@@ -19465,7 +19589,7 @@
       "total_chapters": 0
     },
     "度支": {
-      "type": "concept",
+      "type": "economy",
       "label": "度支",
       "aliases": [],
       "tags": [
@@ -19479,7 +19603,7 @@
       "total_chapters": 0
     },
     "度田": {
-      "type": "concept",
+      "type": "economy",
       "label": "度田",
       "aliases": [],
       "tags": [
@@ -19492,7 +19616,7 @@
       "total_chapters": 0
     },
     "度量衡": {
-      "type": "concept",
+      "type": "institution",
       "label": "度量衡",
       "aliases": [],
       "tags": [
@@ -19505,7 +19629,7 @@
       "total_chapters": 0
     },
     "庶": {
-      "type": "concept",
+      "type": "ritual",
       "label": "庶",
       "aliases": [],
       "tags": [
@@ -19723,7 +19847,7 @@
       "total_chapters": 9
     },
     "廊": {
-      "type": "concept",
+      "type": "artifact",
       "label": "廊",
       "aliases": [],
       "tags": [
@@ -19776,7 +19900,7 @@
       "total_chapters": 0
     },
     "廪给": {
-      "type": "concept",
+      "type": "economy",
       "label": "廪给",
       "aliases": [],
       "tags": [
@@ -19789,7 +19913,7 @@
       "total_chapters": 0
     },
     "廪食": {
-      "type": "concept",
+      "type": "economy",
       "label": "廪食",
       "aliases": [],
       "tags": [
@@ -19855,7 +19979,7 @@
       "total_chapters": 0
     },
     "开元钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "开元钱",
       "aliases": [],
       "tags": [
@@ -19896,7 +20020,7 @@
       "total_chapters": 0
     },
     "弃市": {
-      "type": "concept",
+      "type": "law",
       "label": "弃市",
       "aliases": [],
       "tags": [
@@ -19910,7 +20034,7 @@
       "total_chapters": 0
     },
     "弓": {
-      "type": "concept",
+      "type": "artifact",
       "label": "弓",
       "aliases": [],
       "tags": [
@@ -19921,7 +20045,7 @@
       "total_chapters": 0
     },
     "弓矢": {
-      "type": "concept",
+      "type": "artifact",
       "label": "弓矢",
       "aliases": [],
       "tags": [
@@ -21164,7 +21288,7 @@
       "description": "汉初三杰之一，运筹帷幄之中，决胜千里之外，助刘邦建汉后功成身退。",
       "quality": "featured",
       "quality_score": 52,
-      "total_refs": 56,
+      "total_refs": 57,
       "total_chapters": 26
     },
     "张苍": {
@@ -21653,7 +21777,7 @@
       "total_chapters": 0
     },
     "弩": {
-      "type": "concept",
+      "type": "artifact",
       "label": "弩",
       "aliases": [],
       "tags": [
@@ -21681,7 +21805,7 @@
       "total_chapters": 0
     },
     "归老": {
-      "type": "concept",
+      "type": "institution",
       "label": "归老",
       "aliases": [],
       "tags": [
@@ -21694,7 +21818,7 @@
       "total_chapters": 0
     },
     "彗星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "彗星",
       "aliases": [],
       "tags": [
@@ -21823,7 +21947,7 @@
       "total_chapters": 0
     },
     "征": {
-      "type": "concept",
+      "type": "military",
       "label": "征",
       "aliases": [],
       "tags": [
@@ -21834,7 +21958,7 @@
       "total_chapters": 0
     },
     "征兵": {
-      "type": "concept",
+      "type": "military",
       "label": "征兵",
       "aliases": [],
       "tags": [
@@ -21846,7 +21970,7 @@
       "total_chapters": 0
     },
     "径": {
-      "type": "concept",
+      "type": "economy",
       "label": "径",
       "aliases": [],
       "tags": [
@@ -21857,7 +21981,7 @@
       "total_chapters": 0
     },
     "律令": {
-      "type": "concept",
+      "type": "law",
       "label": "律令",
       "aliases": [],
       "tags": [
@@ -21998,6 +22122,18 @@
       "quality": "basic",
       "quality_score": 39,
       "total_refs": 34,
+      "total_chapters": 0
+    },
+    "徐广": {
+      "type": "person",
+      "label": "徐广",
+      "aliases": [],
+      "tags": [
+        "东晋",
+        "史学"
+      ],
+      "description": "徐广，东晋史学家",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "徐度": {
@@ -22287,7 +22423,7 @@
       "total_chapters": 0
     },
     "徒刑": {
-      "type": "concept",
+      "type": "law",
       "label": "徒刑",
       "aliases": [],
       "tags": [
@@ -22360,7 +22496,7 @@
       "total_chapters": 0
     },
     "徭役": {
-      "type": "concept",
+      "type": "economy",
       "label": "徭役",
       "aliases": [],
       "tags": [
@@ -22766,7 +22902,7 @@
       "total_chapters": 0
     },
     "戈": {
-      "type": "concept",
+      "type": "artifact",
       "label": "戈",
       "aliases": [],
       "tags": [
@@ -22820,7 +22956,7 @@
       "total_chapters": 0
     },
     "战": {
-      "type": "concept",
+      "type": "military",
       "label": "战",
       "aliases": [],
       "tags": [
@@ -22868,7 +23004,7 @@
       "total_chapters": 0
     },
     "战舰": {
-      "type": "concept",
+      "type": "military",
       "label": "战舰",
       "aliases": [],
       "tags": [
@@ -22881,7 +23017,7 @@
       "total_chapters": 0
     },
     "戟": {
-      "type": "concept",
+      "type": "artifact",
       "label": "戟",
       "aliases": [],
       "tags": [
@@ -22950,7 +23086,7 @@
       "total_chapters": 0
     },
     "户": {
-      "type": "concept",
+      "type": "artifact",
       "label": "户",
       "aliases": [],
       "tags": [
@@ -22961,7 +23097,7 @@
       "total_chapters": 0
     },
     "户籍": {
-      "type": "concept",
+      "type": "institution",
       "label": "户籍",
       "aliases": [],
       "tags": [
@@ -22973,7 +23109,7 @@
       "total_chapters": 0
     },
     "户调": {
-      "type": "concept",
+      "type": "economy",
       "label": "户调",
       "aliases": [],
       "tags": [
@@ -23221,6 +23357,18 @@
       "total_refs": 7,
       "total_chapters": 4
     },
+    "挚虞": {
+      "type": "person",
+      "label": "挚虞",
+      "aliases": [],
+      "tags": [
+        "西晋",
+        "文学"
+      ],
+      "description": "挚虞，西晋文学家",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "挟天子": {
       "type": "concept",
       "label": "挟天子",
@@ -23237,7 +23385,7 @@
       "total_chapters": 0
     },
     "据守": {
-      "type": "concept",
+      "type": "military",
       "label": "据守",
       "aliases": [],
       "tags": [
@@ -23263,7 +23411,7 @@
       "total_chapters": 0
     },
     "掩袭": {
-      "type": "concept",
+      "type": "military",
       "label": "掩袭",
       "aliases": [],
       "tags": [
@@ -23277,7 +23425,7 @@
       "total_chapters": 0
     },
     "摄政": {
-      "type": "concept",
+      "type": "institution",
       "label": "摄政",
       "aliases": [],
       "tags": [
@@ -23291,7 +23439,7 @@
       "total_chapters": 0
     },
     "改元": {
-      "type": "concept",
+      "type": "institution",
       "label": "改元",
       "aliases": [],
       "tags": [
@@ -23305,7 +23453,7 @@
       "total_chapters": 0
     },
     "攻": {
-      "type": "concept",
+      "type": "military",
       "label": "攻",
       "aliases": [],
       "tags": [
@@ -23316,7 +23464,7 @@
       "total_chapters": 0
     },
     "攻城": {
-      "type": "concept",
+      "type": "military",
       "label": "攻城",
       "aliases": [],
       "tags": [
@@ -23328,7 +23476,7 @@
       "total_chapters": 0
     },
     "敕书": {
-      "type": "concept",
+      "type": "institution",
       "label": "敕书",
       "aliases": [],
       "tags": [
@@ -23341,7 +23489,7 @@
       "total_chapters": 0
     },
     "敕令": {
-      "type": "concept",
+      "type": "institution",
       "label": "敕令",
       "aliases": [],
       "tags": [
@@ -23367,7 +23515,7 @@
       "total_chapters": 0
     },
     "教坊": {
-      "type": "concept",
+      "type": "institution",
       "label": "教坊",
       "aliases": [],
       "tags": [
@@ -23495,7 +23643,7 @@
       "total_chapters": 0
     },
     "文学": {
-      "type": "concept",
+      "type": "institution",
       "label": "文学",
       "aliases": [],
       "tags": [
@@ -23529,7 +23677,7 @@
       "total_chapters": 0
     },
     "文章": {
-      "type": "concept",
+      "type": "institution",
       "label": "文章",
       "aliases": [],
       "tags": [
@@ -23587,7 +23735,7 @@
       "total_chapters": 0
     },
     "斗升": {
-      "type": "concept",
+      "type": "economy",
       "label": "斗升",
       "aliases": [],
       "tags": [
@@ -23646,7 +23794,7 @@
       "total_chapters": 0
     },
     "斤两": {
-      "type": "concept",
+      "type": "economy",
       "label": "斤两",
       "aliases": [],
       "tags": [
@@ -23660,7 +23808,7 @@
       "total_chapters": 0
     },
     "斥候": {
-      "type": "concept",
+      "type": "military",
       "label": "斥候",
       "aliases": [],
       "tags": [
@@ -23674,7 +23822,7 @@
       "total_chapters": 0
     },
     "斧": {
-      "type": "concept",
+      "type": "artifact",
       "label": "斧",
       "aliases": [],
       "tags": [
@@ -23700,7 +23848,7 @@
       "total_chapters": 0
     },
     "断狱": {
-      "type": "concept",
+      "type": "law",
       "label": "断狱",
       "aliases": [],
       "tags": [
@@ -23728,7 +23876,7 @@
       "total_chapters": 0
     },
     "方镇": {
-      "type": "concept",
+      "type": "institution",
       "label": "方镇",
       "aliases": [],
       "tags": [
@@ -23741,7 +23889,7 @@
       "total_chapters": 0
     },
     "旌旗": {
-      "type": "concept",
+      "type": "artifact",
       "label": "旌旗",
       "aliases": [],
       "tags": [
@@ -23755,7 +23903,7 @@
       "total_chapters": 0
     },
     "旌节": {
-      "type": "concept",
+      "type": "artifact",
       "label": "旌节",
       "aliases": [],
       "tags": [
@@ -23785,7 +23933,7 @@
       "total_chapters": 0
     },
     "族诛": {
-      "type": "concept",
+      "type": "law",
       "label": "族诛",
       "aliases": [],
       "tags": [
@@ -23812,7 +23960,7 @@
       "total_chapters": 0
     },
     "日": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "日",
       "aliases": [],
       "tags": [
@@ -23823,7 +23971,7 @@
       "total_chapters": 0
     },
     "日食": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "日食",
       "aliases": [],
       "tags": [
@@ -23848,7 +23996,7 @@
       "total_chapters": 0
     },
     "旬": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "旬",
       "aliases": [],
       "tags": [
@@ -23860,7 +24008,7 @@
       "total_chapters": 0
     },
     "旱灾": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "旱灾",
       "aliases": [],
       "tags": [
@@ -23948,7 +24096,7 @@
       "total_chapters": 0
     },
     "明经": {
-      "type": "concept",
+      "type": "institution",
       "label": "明经",
       "aliases": [],
       "tags": [
@@ -23963,7 +24111,7 @@
       "total_chapters": 0
     },
     "星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "星",
       "aliases": [],
       "tags": [
@@ -23974,7 +24122,7 @@
       "total_chapters": 0
     },
     "星变": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "星变",
       "aliases": [],
       "tags": [
@@ -23988,7 +24136,7 @@
       "total_chapters": 0
     },
     "星孛": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "星孛",
       "aliases": [],
       "tags": [
@@ -24002,7 +24150,7 @@
       "total_chapters": 0
     },
     "星气": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "星气",
       "aliases": [],
       "tags": [
@@ -24028,7 +24176,7 @@
       "total_chapters": 0
     },
     "春宫": {
-      "type": "concept",
+      "type": "institution",
       "label": "春宫",
       "aliases": [],
       "tags": [
@@ -24068,7 +24216,7 @@
       "total_chapters": 0
     },
     "昭穆": {
-      "type": "concept",
+      "type": "ritual",
       "label": "昭穆",
       "aliases": [],
       "tags": [
@@ -24275,7 +24423,7 @@
       "total_chapters": 0
     },
     "晦": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "晦",
       "aliases": [],
       "tags": [
@@ -24436,7 +24584,7 @@
       "total_chapters": 0
     },
     "更赋": {
-      "type": "concept",
+      "type": "economy",
       "label": "更赋",
       "aliases": [],
       "tags": [
@@ -24666,7 +24814,7 @@
       "total_chapters": 0
     },
     "月": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "月",
       "aliases": [],
       "tags": [
@@ -24702,7 +24850,7 @@
       "total_chapters": 0
     },
     "服丧": {
-      "type": "concept",
+      "type": "ritual",
       "label": "服丧",
       "aliases": [],
       "tags": [
@@ -24716,7 +24864,7 @@
       "total_chapters": 0
     },
     "服色": {
-      "type": "concept",
+      "type": "institution",
       "label": "服色",
       "aliases": [],
       "tags": [
@@ -24728,7 +24876,7 @@
       "total_chapters": 0
     },
     "朔": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "朔",
       "aliases": [],
       "tags": [
@@ -24756,7 +24904,7 @@
       "total_chapters": 0
     },
     "朔望": {
-      "type": "concept",
+      "type": "institution",
       "label": "朔望",
       "aliases": [],
       "tags": [
@@ -24769,7 +24917,7 @@
       "total_chapters": 0
     },
     "朕": {
-      "type": "concept",
+      "type": "institution",
       "label": "朕",
       "aliases": [],
       "tags": [
@@ -24783,7 +24931,7 @@
       "total_chapters": 0
     },
     "望气": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "望气",
       "aliases": [],
       "tags": [
@@ -24795,7 +24943,7 @@
       "total_chapters": 0
     },
     "朝仪": {
-      "type": "concept",
+      "type": "institution",
       "label": "朝仪",
       "aliases": [],
       "tags": [
@@ -24809,7 +24957,7 @@
       "total_chapters": 0
     },
     "朝会": {
-      "type": "concept",
+      "type": "institution",
       "label": "朝会",
       "aliases": [],
       "tags": [
@@ -24823,7 +24971,7 @@
       "total_chapters": 0
     },
     "朝贡": {
-      "type": "concept",
+      "type": "institution",
       "label": "朝贡",
       "aliases": [],
       "tags": [
@@ -24837,7 +24985,7 @@
       "total_chapters": 0
     },
     "朝贺": {
-      "type": "concept",
+      "type": "institution",
       "label": "朝贺",
       "aliases": [],
       "tags": [
@@ -24933,7 +25081,7 @@
       "total_chapters": 0
     },
     "杂调": {
-      "type": "concept",
+      "type": "economy",
       "label": "杂调",
       "aliases": [],
       "tags": [
@@ -24959,7 +25107,7 @@
       "total_chapters": 0
     },
     "权衡": {
-      "type": "concept",
+      "type": "economy",
       "label": "权衡",
       "aliases": [],
       "tags": [
@@ -28400,7 +28548,7 @@
       "total_chapters": 0
     },
     "杯": {
-      "type": "concept",
+      "type": "artifact",
       "label": "杯",
       "aliases": [],
       "tags": [
@@ -28424,7 +28572,7 @@
       "total_chapters": 0
     },
     "枭首": {
-      "type": "concept",
+      "type": "law",
       "label": "枭首",
       "aliases": [],
       "tags": [
@@ -28629,7 +28777,7 @@
       "total_chapters": 0
     },
     "柷": {
-      "type": "concept",
+      "type": "artifact",
       "label": "柷",
       "aliases": [],
       "tags": [
@@ -28641,7 +28789,7 @@
       "total_chapters": 0
     },
     "栈道": {
-      "type": "concept",
+      "type": "economy",
       "label": "栈道",
       "aliases": [],
       "tags": [
@@ -28723,7 +28871,7 @@
       "total_chapters": 0
     },
     "案": {
-      "type": "concept",
+      "type": "artifact",
       "label": "案",
       "aliases": [],
       "tags": [
@@ -28781,7 +28929,7 @@
       "total_chapters": 0
     },
     "桑麻": {
-      "type": "concept",
+      "type": "economy",
       "label": "桑麻",
       "aliases": [],
       "tags": [
@@ -28953,7 +29101,7 @@
       "total_chapters": 2
     },
     "桥": {
-      "type": "concept",
+      "type": "artifact",
       "label": "桥",
       "aliases": [],
       "tags": [
@@ -29149,7 +29297,7 @@
       "total_chapters": 0
     },
     "棉": {
-      "type": "concept",
+      "type": "economy",
       "label": "棉",
       "aliases": [],
       "tags": [
@@ -29160,7 +29308,7 @@
       "total_chapters": 0
     },
     "棨信": {
-      "type": "concept",
+      "type": "artifact",
       "label": "棨信",
       "aliases": [],
       "tags": [
@@ -29175,7 +29323,7 @@
       "total_chapters": 0
     },
     "棺椁": {
-      "type": "concept",
+      "type": "ritual",
       "label": "棺椁",
       "aliases": [],
       "tags": [
@@ -29220,7 +29368,7 @@
       "total_chapters": 0
     },
     "楼": {
-      "type": "concept",
+      "type": "artifact",
       "label": "楼",
       "aliases": [],
       "tags": [
@@ -29242,6 +29390,18 @@
       "total_refs": 8,
       "total_chapters": 0
     },
+    "楼玄": {
+      "type": "person",
+      "label": "楼玄",
+      "aliases": [],
+      "tags": [
+        "三国",
+        "吴"
+      ],
+      "description": "楼玄，三国吴官员，以直谏被诛",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "楼缓": {
       "type": "person",
       "label": "楼缓",
@@ -29256,7 +29416,7 @@
       "total_chapters": 0
     },
     "楼船": {
-      "type": "concept",
+      "type": "military",
       "label": "楼船",
       "aliases": [],
       "tags": [
@@ -29271,7 +29431,7 @@
       "total_chapters": 0
     },
     "榷酒": {
-      "type": "concept",
+      "type": "economy",
       "label": "榷酒",
       "aliases": [],
       "tags": [
@@ -29285,7 +29445,7 @@
       "total_chapters": 0
     },
     "槊": {
-      "type": "concept",
+      "type": "artifact",
       "label": "槊",
       "aliases": [],
       "tags": [
@@ -29515,7 +29675,7 @@
       "total_chapters": 0
     },
     "檄": {
-      "type": "concept",
+      "type": "military",
       "label": "檄",
       "aliases": [],
       "tags": [
@@ -29527,7 +29687,7 @@
       "total_chapters": 0
     },
     "檄文": {
-      "type": "concept",
+      "type": "military",
       "label": "檄文",
       "aliases": [],
       "tags": [
@@ -29567,7 +29727,7 @@
       "total_chapters": 0
     },
     "歃血": {
-      "type": "concept",
+      "type": "ritual",
       "label": "歃血",
       "aliases": [],
       "tags": [
@@ -29615,7 +29775,7 @@
       "total_chapters": 0
     },
     "正朔": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "正朔",
       "aliases": [],
       "tags": [
@@ -29787,7 +29947,7 @@
       "total_chapters": 0
     },
     "殡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "殡",
       "aliases": [],
       "tags": [
@@ -29801,7 +29961,7 @@
       "total_chapters": 0
     },
     "殡葬": {
-      "type": "concept",
+      "type": "ritual",
       "label": "殡葬",
       "aliases": [],
       "tags": [
@@ -29815,7 +29975,7 @@
       "total_chapters": 0
     },
     "殳": {
-      "type": "concept",
+      "type": "artifact",
       "label": "殳",
       "aliases": [],
       "tags": [
@@ -30089,7 +30249,7 @@
       "total_chapters": 0
     },
     "殿": {
-      "type": "concept",
+      "type": "artifact",
       "label": "殿",
       "aliases": [],
       "tags": [
@@ -30305,7 +30465,7 @@
       "total_chapters": 0
     },
     "氏姓": {
-      "type": "concept",
+      "type": "ritual",
       "label": "氏姓",
       "aliases": [],
       "tags": [
@@ -30335,7 +30495,7 @@
       "total_chapters": 0
     },
     "民兵": {
-      "type": "concept",
+      "type": "military",
       "label": "民兵",
       "aliases": [],
       "tags": [
@@ -30360,7 +30520,7 @@
       "total_chapters": 0
     },
     "水战": {
-      "type": "concept",
+      "type": "military",
       "label": "水战",
       "aliases": [],
       "tags": [
@@ -30372,7 +30532,7 @@
       "total_chapters": 0
     },
     "水攻": {
-      "type": "concept",
+      "type": "military",
       "label": "水攻",
       "aliases": [],
       "tags": [
@@ -30386,7 +30546,7 @@
       "total_chapters": 0
     },
     "水灾": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "水灾",
       "aliases": [],
       "tags": [
@@ -30401,7 +30561,7 @@
       "total_chapters": 0
     },
     "水运": {
-      "type": "concept",
+      "type": "economy",
       "label": "水运",
       "aliases": [],
       "tags": [
@@ -30443,6 +30603,18 @@
       "quality": "featured",
       "quality_score": 55,
       "total_refs": 13,
+      "total_chapters": 0
+    },
+    "汉中": {
+      "type": "place",
+      "label": "汉中",
+      "aliases": [],
+      "tags": [
+        "郡",
+        "巴蜀"
+      ],
+      "description": "秦汉中郡，巴蜀北部门户，楚秦争夺之地。",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "汉书": {
@@ -30856,6 +31028,18 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "江都": {
+      "type": "place",
+      "label": "江都",
+      "aliases": [],
+      "tags": [
+        "广陵",
+        "封国"
+      ],
+      "description": "西汉江都国，治广陵，约今江苏扬州一带。",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "江陵": {
       "type": "place",
       "label": "江陵",
@@ -31080,7 +31264,7 @@
       "total_chapters": 0
     },
     "沟洫": {
-      "type": "concept",
+      "type": "economy",
       "label": "沟洫",
       "aliases": [],
       "tags": [
@@ -31175,7 +31359,7 @@
       "total_chapters": 0
     },
     "河渠": {
-      "type": "concept",
+      "type": "economy",
       "label": "河渠",
       "aliases": [],
       "tags": [
@@ -31226,7 +31410,7 @@
       "total_chapters": 0
     },
     "法令": {
-      "type": "concept",
+      "type": "law",
       "label": "法令",
       "aliases": [],
       "tags": [
@@ -31256,7 +31440,7 @@
       "total_chapters": 0
     },
     "法服": {
-      "type": "concept",
+      "type": "artifact",
       "label": "法服",
       "aliases": [],
       "tags": [
@@ -31341,7 +31525,7 @@
       "total_chapters": 224
     },
     "津": {
-      "type": "concept",
+      "type": "economy",
       "label": "津",
       "aliases": [],
       "tags": [
@@ -31353,7 +31537,7 @@
       "total_chapters": 0
     },
     "津渡": {
-      "type": "concept",
+      "type": "economy",
       "label": "津渡",
       "aliases": [],
       "tags": [
@@ -31365,7 +31549,7 @@
       "total_chapters": 0
     },
     "流刑": {
-      "type": "concept",
+      "type": "law",
       "label": "流刑",
       "aliases": [],
       "tags": [
@@ -31394,7 +31578,7 @@
       "total_chapters": 0
     },
     "流星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "流星",
       "aliases": [],
       "tags": [
@@ -31408,7 +31592,7 @@
       "total_chapters": 0
     },
     "流移": {
-      "type": "concept",
+      "type": "institution",
       "label": "流移",
       "aliases": [],
       "tags": [
@@ -31478,7 +31662,7 @@
       "total_chapters": 0
     },
     "浮桥": {
-      "type": "concept",
+      "type": "economy",
       "label": "浮桥",
       "aliases": [],
       "tags": [
@@ -31503,7 +31687,7 @@
       "total_chapters": 0
     },
     "海运": {
-      "type": "concept",
+      "type": "economy",
       "label": "海运",
       "aliases": [],
       "tags": [
@@ -31840,7 +32024,7 @@
       "total_chapters": 0
     },
     "漕渠": {
-      "type": "concept",
+      "type": "economy",
       "label": "漕渠",
       "aliases": [],
       "tags": [
@@ -31853,7 +32037,7 @@
       "total_chapters": 0
     },
     "漕运": {
-      "type": "concept",
+      "type": "economy",
       "label": "漕运",
       "aliases": [],
       "tags": [
@@ -31962,7 +32146,7 @@
       "total_chapters": 0
     },
     "火攻": {
-      "type": "concept",
+      "type": "military",
       "label": "火攻",
       "aliases": [],
       "tags": [
@@ -31976,7 +32160,7 @@
       "total_chapters": 0
     },
     "火灾": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "火灾",
       "aliases": [],
       "tags": [
@@ -32017,7 +32201,7 @@
       "total_chapters": 0
     },
     "烽燧": {
-      "type": "concept",
+      "type": "military",
       "label": "烽燧",
       "aliases": [],
       "tags": [
@@ -32089,7 +32273,7 @@
       "total_chapters": 0
     },
     "燎": {
-      "type": "concept",
+      "type": "ritual",
       "label": "燎",
       "aliases": [],
       "tags": [
@@ -32194,8 +32378,21 @@
       "total_refs": 0,
       "total_chapters": 0
     },
-    "版籍": {
+    "爵位": {
       "type": "concept",
+      "label": "爵位",
+      "aliases": [],
+      "tags": [
+        "爵位",
+        "制度",
+        "封爵"
+      ],
+      "description": "古代封爵等级制度，自周至汉有公侯伯子男等。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "版籍": {
+      "type": "institution",
       "label": "版籍",
       "aliases": [],
       "tags": [
@@ -32207,7 +32404,7 @@
       "total_chapters": 0
     },
     "牖": {
-      "type": "concept",
+      "type": "artifact",
       "label": "牖",
       "aliases": [],
       "tags": [
@@ -32218,7 +32415,7 @@
       "total_chapters": 0
     },
     "牙兵": {
-      "type": "concept",
+      "type": "military",
       "label": "牙兵",
       "aliases": [],
       "tags": [
@@ -32231,7 +32428,7 @@
       "total_chapters": 0
     },
     "牙校": {
-      "type": "concept",
+      "type": "military",
       "label": "牙校",
       "aliases": [],
       "tags": [
@@ -32328,7 +32525,7 @@
       "total_chapters": 0
     },
     "牧马": {
-      "type": "concept",
+      "type": "economy",
       "label": "牧马",
       "aliases": [],
       "tags": [
@@ -32368,7 +32565,7 @@
       "total_chapters": 0
     },
     "特赦": {
-      "type": "concept",
+      "type": "law",
       "label": "特赦",
       "aliases": [],
       "tags": [
@@ -32381,7 +32578,7 @@
       "total_chapters": 0
     },
     "牺牲": {
-      "type": "concept",
+      "type": "ritual",
       "label": "牺牲",
       "aliases": [],
       "tags": [
@@ -32396,7 +32593,7 @@
       "total_chapters": 0
     },
     "犁": {
-      "type": "concept",
+      "type": "artifact",
       "label": "犁",
       "aliases": [],
       "tags": [
@@ -32407,7 +32604,7 @@
       "total_chapters": 0
     },
     "犒军": {
-      "type": "concept",
+      "type": "military",
       "label": "犒军",
       "aliases": [],
       "tags": [
@@ -32551,7 +32748,7 @@
       "total_chapters": 0
     },
     "狱讼": {
-      "type": "concept",
+      "type": "law",
       "label": "狱讼",
       "aliases": [],
       "tags": [
@@ -32640,7 +32837,7 @@
       "total_chapters": 13
     },
     "玉": {
-      "type": "concept",
+      "type": "artifact",
       "label": "玉",
       "aliases": [],
       "tags": [
@@ -32760,6 +32957,19 @@
       "quality": "basic",
       "quality_score": 49,
       "total_refs": 5,
+      "total_chapters": 0
+    },
+    "王修": {
+      "type": "person",
+      "label": "王修",
+      "aliases": [],
+      "tags": [
+        "三国",
+        "魏",
+        "青州"
+      ],
+      "description": "王修，三国魏青州官员",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "王僧绰": {
@@ -33101,7 +33311,7 @@
       "total_chapters": 16
     },
     "王室": {
-      "type": "concept",
+      "type": "ritual",
       "label": "王室",
       "aliases": [],
       "tags": [
@@ -33597,7 +33807,7 @@
       "total_chapters": 0
     },
     "王族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "王族",
       "aliases": [],
       "tags": [
@@ -34587,7 +34797,7 @@
       "total_chapters": 0
     },
     "玺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "玺",
       "aliases": [],
       "tags": [
@@ -34616,7 +34826,7 @@
       "total_chapters": 0
     },
     "珠": {
-      "type": "concept",
+      "type": "artifact",
       "label": "珠",
       "aliases": [],
       "tags": [
@@ -34697,7 +34907,7 @@
       "total_chapters": 5
     },
     "琴": {
-      "type": "concept",
+      "type": "artifact",
       "label": "琴",
       "aliases": [],
       "tags": [
@@ -34712,7 +34922,7 @@
       "total_chapters": 0
     },
     "瑟": {
-      "type": "concept",
+      "type": "artifact",
       "label": "瑟",
       "aliases": [],
       "tags": [
@@ -34724,7 +34934,7 @@
       "total_chapters": 0
     },
     "璧": {
-      "type": "concept",
+      "type": "artifact",
       "label": "璧",
       "aliases": [],
       "tags": [
@@ -34826,7 +35036,7 @@
       "total_chapters": 0
     },
     "甘露": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "甘露",
       "aliases": [],
       "tags": [
@@ -34885,7 +35095,7 @@
       "total_chapters": 0
     },
     "田事": {
-      "type": "concept",
+      "type": "economy",
       "label": "田事",
       "aliases": [],
       "tags": [
@@ -35126,7 +35336,7 @@
       "total_chapters": 0
     },
     "田畴": {
-      "type": "concept",
+      "type": "economy",
       "label": "田畴",
       "aliases": [],
       "tags": [
@@ -35152,7 +35362,7 @@
       "total_chapters": 0
     },
     "田租": {
-      "type": "concept",
+      "type": "economy",
       "label": "田租",
       "aliases": [],
       "tags": [
@@ -35224,7 +35434,7 @@
       "total_chapters": 0
     },
     "甲": {
-      "type": "concept",
+      "type": "artifact",
       "label": "甲",
       "aliases": [],
       "tags": [
@@ -35235,7 +35445,7 @@
       "total_chapters": 0
     },
     "甲胄": {
-      "type": "concept",
+      "type": "artifact",
       "label": "甲胄",
       "aliases": [],
       "tags": [
@@ -35399,7 +35609,7 @@
       "total_chapters": 0
     },
     "留后": {
-      "type": "concept",
+      "type": "institution",
       "label": "留后",
       "aliases": [],
       "tags": [
@@ -35425,7 +35635,7 @@
       "total_chapters": 0
     },
     "畜产": {
-      "type": "concept",
+      "type": "economy",
       "label": "畜产",
       "aliases": [],
       "tags": [
@@ -35438,7 +35648,7 @@
       "total_chapters": 0
     },
     "畜牧": {
-      "type": "concept",
+      "type": "economy",
       "label": "畜牧",
       "aliases": [],
       "tags": [
@@ -35450,7 +35660,7 @@
       "total_chapters": 0
     },
     "番上": {
-      "type": "concept",
+      "type": "military",
       "label": "番上",
       "aliases": [],
       "tags": [
@@ -35491,7 +35701,7 @@
       "total_chapters": 0
     },
     "疾疫": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "疾疫",
       "aliases": [],
       "tags": [
@@ -35560,7 +35770,7 @@
       "description": "唐朝大诗人，以新乐府运动著称，诗作广泛反映民间疾苦，曾任翰林学士，是中唐最具社会关怀的文学家。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 18,
+      "total_refs": 19,
       "total_chapters": 5
     },
     "白帝城托孤": {
@@ -35663,7 +35873,7 @@
       "total_chapters": 0
     },
     "百工": {
-      "type": "concept",
+      "type": "economy",
       "label": "百工",
       "aliases": [],
       "tags": [
@@ -35733,7 +35943,7 @@
       "total_chapters": 0
     },
     "皇后": {
-      "type": "concept",
+      "type": "institution",
       "label": "皇后",
       "aliases": [],
       "tags": [
@@ -35748,7 +35958,7 @@
       "total_chapters": 0
     },
     "皇太后": {
-      "type": "concept",
+      "type": "institution",
       "label": "皇太后",
       "aliases": [],
       "tags": [
@@ -35763,7 +35973,7 @@
       "total_chapters": 0
     },
     "皇族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "皇族",
       "aliases": [],
       "tags": [
@@ -35895,7 +36105,7 @@
       "total_chapters": 0
     },
     "盆": {
-      "type": "concept",
+      "type": "artifact",
       "label": "盆",
       "aliases": [],
       "tags": [
@@ -35921,7 +36131,7 @@
       "total_chapters": 0
     },
     "盐铁": {
-      "type": "concept",
+      "type": "economy",
       "label": "盐铁",
       "aliases": [],
       "tags": [
@@ -35935,7 +36145,7 @@
       "total_chapters": 0
     },
     "监国": {
-      "type": "concept",
+      "type": "institution",
       "label": "监国",
       "aliases": [],
       "tags": [
@@ -35984,7 +36194,7 @@
       "total_chapters": 0
     },
     "盘": {
-      "type": "concept",
+      "type": "artifact",
       "label": "盘",
       "aliases": [],
       "tags": [
@@ -36009,7 +36219,7 @@
       "total_chapters": 0
     },
     "盟誓": {
-      "type": "concept",
+      "type": "ritual",
       "label": "盟誓",
       "aliases": [],
       "tags": [
@@ -36035,7 +36245,7 @@
       "total_chapters": 0
     },
     "盾": {
-      "type": "concept",
+      "type": "artifact",
       "label": "盾",
       "aliases": [],
       "tags": [
@@ -36061,7 +36271,7 @@
       "total_chapters": 2
     },
     "矢": {
-      "type": "concept",
+      "type": "artifact",
       "label": "矢",
       "aliases": [],
       "tags": [
@@ -36336,7 +36546,7 @@
       "total_chapters": 0
     },
     "碗": {
-      "type": "concept",
+      "type": "artifact",
       "label": "碗",
       "aliases": [],
       "tags": [
@@ -36347,7 +36557,7 @@
       "total_chapters": 0
     },
     "磬": {
-      "type": "concept",
+      "type": "artifact",
       "label": "磬",
       "aliases": [],
       "tags": [
@@ -36359,7 +36569,7 @@
       "total_chapters": 0
     },
     "礼乐": {
-      "type": "concept",
+      "type": "institution",
       "label": "礼乐",
       "aliases": [],
       "tags": [
@@ -36400,7 +36610,7 @@
       "total_chapters": 0
     },
     "祖庙": {
-      "type": "concept",
+      "type": "ritual",
       "label": "祖庙",
       "aliases": [],
       "tags": [
@@ -36470,7 +36680,7 @@
       "total_chapters": 8
     },
     "祝诅": {
-      "type": "concept",
+      "type": "law",
       "label": "祝诅",
       "aliases": [],
       "tags": [
@@ -36484,8 +36694,21 @@
       "total_refs": 2,
       "total_chapters": 0
     },
-    "神策军": {
+    "神武军": {
       "type": "concept",
+      "label": "神武军",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "神武军",
+        "禁军"
+      ],
+      "description": "唐代北衙禁军之一，与左右羽林、左右龙武合称北牙六军。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "神策军": {
+      "type": "military",
       "label": "神策军",
       "aliases": [],
       "tags": [
@@ -36512,7 +36735,7 @@
       "total_chapters": 0
     },
     "祥瑞": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "祥瑞",
       "aliases": [],
       "tags": [
@@ -36527,7 +36750,7 @@
       "total_chapters": 0
     },
     "祭地": {
-      "type": "concept",
+      "type": "ritual",
       "label": "祭地",
       "aliases": [],
       "tags": [
@@ -36542,7 +36765,7 @@
       "total_chapters": 0
     },
     "祭天": {
-      "type": "concept",
+      "type": "ritual",
       "label": "祭天",
       "aliases": [],
       "tags": [
@@ -36597,7 +36820,7 @@
       "total_chapters": 0
     },
     "禁军": {
-      "type": "concept",
+      "type": "military",
       "label": "禁军",
       "aliases": [],
       "tags": [
@@ -36611,7 +36834,7 @@
       "total_chapters": 0
     },
     "禁卫": {
-      "type": "concept",
+      "type": "military",
       "label": "禁卫",
       "aliases": [],
       "tags": [
@@ -36626,7 +36849,7 @@
       "total_chapters": 0
     },
     "禅让": {
-      "type": "concept",
+      "type": "institution",
       "label": "禅让",
       "aliases": [],
       "tags": [
@@ -36640,7 +36863,7 @@
       "total_chapters": 0
     },
     "禳": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "禳",
       "aliases": [],
       "tags": [
@@ -36652,7 +36875,7 @@
       "total_chapters": 0
     },
     "禳灾": {
-      "type": "concept",
+      "type": "ritual",
       "label": "禳灾",
       "aliases": [],
       "tags": [
@@ -36667,7 +36890,7 @@
       "total_chapters": 0
     },
     "离间": {
-      "type": "concept",
+      "type": "military",
       "label": "离间",
       "aliases": [],
       "tags": [
@@ -36681,7 +36904,7 @@
       "total_chapters": 0
     },
     "秀才": {
-      "type": "concept",
+      "type": "institution",
       "label": "秀才",
       "aliases": [],
       "tags": [
@@ -36765,7 +36988,7 @@
       "total_chapters": 0
     },
     "租庸调": {
-      "type": "concept",
+      "type": "economy",
       "label": "租庸调",
       "aliases": [],
       "tags": [
@@ -36991,7 +37214,7 @@
       "total_chapters": 0
     },
     "称制": {
-      "type": "concept",
+      "type": "institution",
       "label": "称制",
       "aliases": [],
       "tags": [
@@ -37005,7 +37228,7 @@
       "total_chapters": 0
     },
     "称帝": {
-      "type": "concept",
+      "type": "institution",
       "label": "称帝",
       "aliases": [],
       "tags": [
@@ -37020,7 +37243,7 @@
       "total_chapters": 0
     },
     "移书": {
-      "type": "concept",
+      "type": "institution",
       "label": "移书",
       "aliases": [],
       "tags": [
@@ -37033,7 +37256,7 @@
       "total_chapters": 0
     },
     "移民": {
-      "type": "concept",
+      "type": "economy",
       "label": "移民",
       "aliases": [],
       "tags": [
@@ -37219,7 +37442,7 @@
       "total_chapters": 0
     },
     "税": {
-      "type": "concept",
+      "type": "economy",
       "label": "税",
       "aliases": [],
       "tags": [
@@ -37255,7 +37478,7 @@
       "total_chapters": 0
     },
     "稼穑": {
-      "type": "concept",
+      "type": "economy",
       "label": "稼穑",
       "aliases": [],
       "tags": [
@@ -37335,7 +37558,7 @@
       "total_chapters": 0
     },
     "突围": {
-      "type": "concept",
+      "type": "military",
       "label": "突围",
       "aliases": [],
       "tags": [
@@ -37347,7 +37570,7 @@
       "total_chapters": 0
     },
     "突骑": {
-      "type": "concept",
+      "type": "military",
       "label": "突骑",
       "aliases": [],
       "tags": [
@@ -37359,7 +37582,7 @@
       "total_chapters": 0
     },
     "窗": {
-      "type": "concept",
+      "type": "artifact",
       "label": "窗",
       "aliases": [],
       "tags": [
@@ -37598,7 +37821,7 @@
       "total_chapters": 0
     },
     "立嗣": {
-      "type": "concept",
+      "type": "institution",
       "label": "立嗣",
       "aliases": [],
       "tags": [
@@ -37623,7 +37846,7 @@
       "total_chapters": 0
     },
     "章奏": {
-      "type": "concept",
+      "type": "institution",
       "label": "章奏",
       "aliases": [],
       "tags": [
@@ -37667,7 +37890,7 @@
       "total_chapters": 0
     },
     "笏": {
-      "type": "concept",
+      "type": "artifact",
       "label": "笏",
       "aliases": [],
       "tags": [
@@ -37692,7 +37915,7 @@
       "total_chapters": 0
     },
     "笙": {
-      "type": "concept",
+      "type": "artifact",
       "label": "笙",
       "aliases": [],
       "tags": [
@@ -37717,7 +37940,7 @@
       "total_chapters": 0
     },
     "符信": {
-      "type": "concept",
+      "type": "artifact",
       "label": "符信",
       "aliases": [],
       "tags": [
@@ -37763,7 +37986,7 @@
       "total_chapters": 0
     },
     "符玺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "符玺",
       "aliases": [],
       "tags": [
@@ -37778,7 +38001,7 @@
       "total_chapters": 0
     },
     "符瑞": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "符瑞",
       "aliases": [],
       "tags": [
@@ -37793,7 +38016,7 @@
       "total_chapters": 0
     },
     "符节": {
-      "type": "concept",
+      "type": "military",
       "label": "符节",
       "aliases": [],
       "tags": [
@@ -41654,7 +41877,7 @@
       "total_chapters": 0
     },
     "筑城": {
-      "type": "concept",
+      "type": "military",
       "label": "筑城",
       "aliases": [],
       "tags": [
@@ -41667,7 +41890,7 @@
       "total_chapters": 0
     },
     "策书": {
-      "type": "concept",
+      "type": "institution",
       "label": "策书",
       "aliases": [],
       "tags": [
@@ -41679,8 +41902,21 @@
       "total_refs": 0,
       "total_chapters": 0
     },
-    "筝": {
+    "策试": {
       "type": "concept",
+      "label": "策试",
+      "aliases": [],
+      "tags": [
+        "策试",
+        "科举",
+        "制度"
+      ],
+      "description": "古代以策问方式考试取士的制度。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "筝": {
+      "type": "artifact",
       "label": "筝",
       "aliases": [],
       "tags": [
@@ -41755,7 +41991,7 @@
       "total_chapters": 0
     },
     "箫": {
-      "type": "concept",
+      "type": "artifact",
       "label": "箫",
       "aliases": [],
       "tags": [
@@ -41767,7 +42003,7 @@
       "total_chapters": 0
     },
     "箸": {
-      "type": "concept",
+      "type": "artifact",
       "label": "箸",
       "aliases": [],
       "tags": [
@@ -41789,7 +42025,7 @@
       "total_chapters": 0
     },
     "簿籍": {
-      "type": "concept",
+      "type": "institution",
       "label": "簿籍",
       "aliases": [],
       "tags": [
@@ -41827,7 +42063,7 @@
       "total_chapters": 0
     },
     "粮道": {
-      "type": "concept",
+      "type": "military",
       "label": "粮道",
       "aliases": [],
       "tags": [
@@ -41840,7 +42076,7 @@
       "total_chapters": 0
     },
     "粮饷": {
-      "type": "concept",
+      "type": "military",
       "label": "粮饷",
       "aliases": [],
       "tags": [
@@ -41864,7 +42100,7 @@
       "total_chapters": 0
     },
     "精兵": {
-      "type": "concept",
+      "type": "military",
       "label": "精兵",
       "aliases": [],
       "tags": [
@@ -41930,7 +42166,7 @@
       "total_chapters": 1
     },
     "縠": {
-      "type": "concept",
+      "type": "artifact",
       "label": "縠",
       "aliases": [],
       "tags": [
@@ -41942,7 +42178,7 @@
       "total_chapters": 0
     },
     "纨": {
-      "type": "concept",
+      "type": "artifact",
       "label": "纨",
       "aliases": [],
       "tags": [
@@ -41980,7 +42216,7 @@
       "total_chapters": 0
     },
     "纬书": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "纬书",
       "aliases": [],
       "tags": [
@@ -41995,7 +42231,7 @@
       "total_chapters": 0
     },
     "纳币": {
-      "type": "concept",
+      "type": "ritual",
       "label": "纳币",
       "aliases": [],
       "tags": [
@@ -42042,7 +42278,7 @@
       "total_chapters": 0
     },
     "纸钱": {
-      "type": "concept",
+      "type": "ritual",
       "label": "纸钱",
       "aliases": [],
       "tags": [
@@ -42054,7 +42290,7 @@
       "total_chapters": 0
     },
     "纺绩": {
-      "type": "concept",
+      "type": "economy",
       "label": "纺绩",
       "aliases": [],
       "tags": [
@@ -42068,7 +42304,7 @@
       "total_chapters": 0
     },
     "细作": {
-      "type": "concept",
+      "type": "military",
       "label": "细作",
       "aliases": [],
       "tags": [
@@ -42082,7 +42318,7 @@
       "total_chapters": 0
     },
     "织": {
-      "type": "concept",
+      "type": "economy",
       "label": "织",
       "aliases": [],
       "tags": [
@@ -42140,7 +42376,7 @@
       "total_chapters": 0
     },
     "结盟": {
-      "type": "concept",
+      "type": "military",
       "label": "结盟",
       "aliases": [],
       "tags": [
@@ -42153,7 +42389,7 @@
       "total_chapters": 0
     },
     "绢": {
-      "type": "concept",
+      "type": "economy",
       "label": "绢",
       "aliases": [],
       "tags": [
@@ -42168,7 +42404,7 @@
       "total_chapters": 0
     },
     "绣": {
-      "type": "concept",
+      "type": "artifact",
       "label": "绣",
       "aliases": [],
       "tags": [
@@ -42183,7 +42419,7 @@
       "total_chapters": 0
     },
     "继": {
-      "type": "concept",
+      "type": "ritual",
       "label": "继",
       "aliases": [],
       "tags": [
@@ -42198,7 +42434,7 @@
       "total_chapters": 0
     },
     "继嗣": {
-      "type": "concept",
+      "type": "institution",
       "label": "继嗣",
       "aliases": [],
       "tags": [
@@ -42211,7 +42447,7 @@
       "total_chapters": 0
     },
     "继承": {
-      "type": "concept",
+      "type": "institution",
       "label": "继承",
       "aliases": [],
       "tags": [
@@ -42236,7 +42472,7 @@
       "total_chapters": 0
     },
     "绮": {
-      "type": "concept",
+      "type": "artifact",
       "label": "绮",
       "aliases": [],
       "tags": [
@@ -42248,7 +42484,7 @@
       "total_chapters": 0
     },
     "绶": {
-      "type": "concept",
+      "type": "artifact",
       "label": "绶",
       "aliases": [],
       "tags": [
@@ -42307,7 +42543,7 @@
       "total_chapters": 0
     },
     "缣": {
-      "type": "concept",
+      "type": "artifact",
       "label": "缣",
       "aliases": [],
       "tags": [
@@ -42319,7 +42555,7 @@
       "total_chapters": 0
     },
     "缮修": {
-      "type": "concept",
+      "type": "artifact",
       "label": "缮修",
       "aliases": [],
       "tags": [
@@ -42332,7 +42568,7 @@
       "total_chapters": 0
     },
     "罗": {
-      "type": "concept",
+      "type": "artifact",
       "label": "罗",
       "aliases": [],
       "tags": [
@@ -42424,7 +42660,7 @@
       "total_chapters": 0
     },
     "罚": {
-      "type": "concept",
+      "type": "law",
       "label": "罚",
       "aliases": [],
       "tags": [
@@ -42436,7 +42672,7 @@
       "total_chapters": 0
     },
     "罪": {
-      "type": "concept",
+      "type": "law",
       "label": "罪",
       "aliases": [],
       "tags": [
@@ -42573,7 +42809,7 @@
       "total_chapters": 0
     },
     "羽扇": {
-      "type": "concept",
+      "type": "artifact",
       "label": "羽扇",
       "aliases": [],
       "tags": [
@@ -42587,7 +42823,7 @@
       "total_chapters": 0
     },
     "羽檄": {
-      "type": "concept",
+      "type": "military",
       "label": "羽檄",
       "aliases": [],
       "tags": [
@@ -42656,7 +42892,7 @@
       "total_chapters": 0
     },
     "耕种": {
-      "type": "concept",
+      "type": "economy",
       "label": "耕种",
       "aliases": [],
       "tags": [
@@ -42676,6 +42912,34 @@
         "人体"
       ],
       "description": "耳朵，听觉器官，古代礼仪与象征",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "耿况": {
+      "type": "person",
+      "label": "耿况",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "上谷太守",
+        "耿弇",
+        "寇恂"
+      ],
+      "description": "东汉上谷太守，耿弇之父，率上谷郡归光武帝",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "耿国": {
+      "type": "person",
+      "label": "耿国",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "五官中郎将",
+        "大司农",
+        "耿弇"
+      ],
+      "description": "东汉五官中郎将、大司农，耿弇之弟，主纳南匈奴呼韩邪单于降",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -42736,6 +43000,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "耿舒": {
+      "type": "person",
+      "label": "耿舒",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "将领",
+        "马援"
+      ],
+      "description": "东汉将领，从马援征五溪蛮，与援争道",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "聂政": {
       "type": "person",
       "label": "聂政",
@@ -42751,7 +43028,7 @@
       "total_chapters": 0
     },
     "聘问": {
-      "type": "concept",
+      "type": "institution",
       "label": "聘问",
       "aliases": [],
       "tags": [
@@ -42766,7 +43043,7 @@
       "total_chapters": 0
     },
     "肉刑": {
-      "type": "concept",
+      "type": "law",
       "label": "肉刑",
       "aliases": [],
       "tags": [
@@ -42806,7 +43083,7 @@
       "total_chapters": 0
     },
     "胄": {
-      "type": "concept",
+      "type": "artifact",
       "label": "胄",
       "aliases": [],
       "tags": [
@@ -42935,7 +43212,7 @@
       "total_chapters": 0
     },
     "胡骑": {
-      "type": "concept",
+      "type": "military",
       "label": "胡骑",
       "aliases": [],
       "tags": [
@@ -42974,7 +43251,7 @@
       "total_chapters": 0
     },
     "腰斩": {
-      "type": "concept",
+      "type": "law",
       "label": "腰斩",
       "aliases": [],
       "tags": [
@@ -43109,7 +43386,7 @@
       "total_chapters": 0
     },
     "舟": {
-      "type": "concept",
+      "type": "artifact",
       "label": "舟",
       "aliases": [],
       "tags": [
@@ -43121,7 +43398,7 @@
       "total_chapters": 0
     },
     "舟师": {
-      "type": "concept",
+      "type": "military",
       "label": "舟师",
       "aliases": [],
       "tags": [
@@ -43133,7 +43410,7 @@
       "total_chapters": 0
     },
     "舳舻": {
-      "type": "concept",
+      "type": "military",
       "label": "舳舻",
       "aliases": [],
       "tags": [
@@ -43146,7 +43423,7 @@
       "total_chapters": 0
     },
     "船": {
-      "type": "concept",
+      "type": "artifact",
       "label": "船",
       "aliases": [],
       "tags": [
@@ -43158,7 +43435,7 @@
       "total_chapters": 0
     },
     "船舰": {
-      "type": "concept",
+      "type": "military",
       "label": "船舰",
       "aliases": [],
       "tags": [
@@ -43171,7 +43448,7 @@
       "total_chapters": 0
     },
     "船运": {
-      "type": "concept",
+      "type": "economy",
       "label": "船运",
       "aliases": [],
       "tags": [
@@ -43195,7 +43472,7 @@
       "total_chapters": 0
     },
     "节传": {
-      "type": "concept",
+      "type": "artifact",
       "label": "节传",
       "aliases": [],
       "tags": [
@@ -43227,7 +43504,7 @@
       "total_chapters": 0
     },
     "节钺": {
-      "type": "concept",
+      "type": "ritual",
       "label": "节钺",
       "aliases": [],
       "tags": [
@@ -44040,7 +44317,7 @@
       "total_chapters": 0
     },
     "荒田": {
-      "type": "concept",
+      "type": "economy",
       "label": "荒田",
       "aliases": [],
       "tags": [
@@ -44053,7 +44330,7 @@
       "total_chapters": 0
     },
     "荧惑": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "荧惑",
       "aliases": [],
       "tags": [
@@ -44134,7 +44411,7 @@
       "total_chapters": 0
     },
     "营兵": {
-      "type": "concept",
+      "type": "military",
       "label": "营兵",
       "aliases": [],
       "tags": [
@@ -44148,7 +44425,7 @@
       "total_chapters": 0
     },
     "营垒": {
-      "type": "concept",
+      "type": "military",
       "label": "营垒",
       "aliases": [],
       "tags": [
@@ -44160,7 +44437,7 @@
       "total_chapters": 0
     },
     "营建": {
-      "type": "concept",
+      "type": "artifact",
       "label": "营建",
       "aliases": [],
       "tags": [
@@ -44173,7 +44450,7 @@
       "total_chapters": 0
     },
     "营田": {
-      "type": "concept",
+      "type": "economy",
       "label": "营田",
       "aliases": [],
       "tags": [
@@ -44187,7 +44464,7 @@
       "total_chapters": 0
     },
     "营造": {
-      "type": "concept",
+      "type": "artifact",
       "label": "营造",
       "aliases": [],
       "tags": [
@@ -44226,7 +44503,7 @@
       "description": "汉初三杰之一，建立汉制的关键人物，\"成也萧何败也萧何\"典故的主角。",
       "quality": "featured",
       "quality_score": 52,
-      "total_refs": 47,
+      "total_refs": 48,
       "total_chapters": 21
     },
     "萧俛": {
@@ -44848,7 +45125,7 @@
       "total_chapters": 0
     },
     "葬": {
-      "type": "concept",
+      "type": "ritual",
       "label": "葬",
       "aliases": [],
       "tags": [
@@ -44862,7 +45139,7 @@
       "total_chapters": 0
     },
     "葬礼": {
-      "type": "concept",
+      "type": "ritual",
       "label": "葬礼",
       "aliases": [],
       "tags": [
@@ -45068,6 +45345,19 @@
       ],
       "description": "西汉辩士，韩信谋士，劝信自立",
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "蔡义": {
+      "type": "person",
+      "label": "蔡义",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "丞相",
+        "昭帝"
+      ],
+      "description": "西汉丞相，阳平节侯，以经术进",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "蔡伦": {
@@ -45509,7 +45799,7 @@
       "total_chapters": 0
     },
     "虎符": {
-      "type": "concept",
+      "type": "artifact",
       "label": "虎符",
       "aliases": [],
       "tags": [
@@ -45662,7 +45952,7 @@
       "total_chapters": 0
     },
     "蚁附": {
-      "type": "concept",
+      "type": "military",
       "label": "蚁附",
       "aliases": [],
       "tags": [
@@ -45674,7 +45964,7 @@
       "total_chapters": 0
     },
     "蚕": {
-      "type": "concept",
+      "type": "economy",
       "label": "蚕",
       "aliases": [],
       "tags": [
@@ -45733,7 +46023,7 @@
       "total_chapters": 0
     },
     "行军": {
-      "type": "concept",
+      "type": "military",
       "label": "行军",
       "aliases": [],
       "tags": [
@@ -45747,7 +46037,7 @@
       "total_chapters": 0
     },
     "行幸": {
-      "type": "concept",
+      "type": "ritual",
       "label": "行幸",
       "aliases": [],
       "tags": [
@@ -45777,7 +46067,7 @@
       "total_chapters": 0
     },
     "衣": {
-      "type": "concept",
+      "type": "artifact",
       "label": "衣",
       "aliases": [],
       "tags": [
@@ -45788,7 +46078,7 @@
       "total_chapters": 0
     },
     "衣冠": {
-      "type": "concept",
+      "type": "artifact",
       "label": "衣冠",
       "aliases": [],
       "tags": [
@@ -45803,7 +46093,7 @@
       "total_chapters": 0
     },
     "表章": {
-      "type": "concept",
+      "type": "institution",
       "label": "表章",
       "aliases": [],
       "tags": [
@@ -46056,7 +46346,7 @@
       "total_chapters": 0
     },
     "裘": {
-      "type": "concept",
+      "type": "artifact",
       "label": "裘",
       "aliases": [],
       "tags": [
@@ -46069,7 +46359,7 @@
       "total_chapters": 0
     },
     "裳": {
-      "type": "concept",
+      "type": "artifact",
       "label": "裳",
       "aliases": [],
       "tags": [
@@ -46656,7 +46946,7 @@
       "total_chapters": 0
     },
     "誓约": {
-      "type": "concept",
+      "type": "military",
       "label": "誓约",
       "aliases": [],
       "tags": [
@@ -46669,7 +46959,7 @@
       "total_chapters": 0
     },
     "警备": {
-      "type": "concept",
+      "type": "military",
       "label": "警备",
       "aliases": [],
       "tags": [
@@ -46684,7 +46974,7 @@
       "total_chapters": 0
     },
     "讨": {
-      "type": "concept",
+      "type": "military",
       "label": "讨",
       "aliases": [],
       "tags": [
@@ -46904,7 +47194,7 @@
       "total_chapters": 0
     },
     "设伏": {
-      "type": "concept",
+      "type": "military",
       "label": "设伏",
       "aliases": [],
       "tags": [
@@ -46929,7 +47219,7 @@
       "total_chapters": 0
     },
     "诈降": {
-      "type": "concept",
+      "type": "military",
       "label": "诈降",
       "aliases": [],
       "tags": [
@@ -46957,7 +47247,7 @@
       "total_chapters": 0
     },
     "诏书": {
-      "type": "concept",
+      "type": "institution",
       "label": "诏书",
       "aliases": [],
       "tags": [
@@ -46970,7 +47260,7 @@
       "total_chapters": 0
     },
     "诏令": {
-      "type": "concept",
+      "type": "institution",
       "label": "诏令",
       "aliases": [],
       "tags": [
@@ -47183,7 +47473,7 @@
       "total_chapters": 0
     },
     "课农": {
-      "type": "concept",
+      "type": "economy",
       "label": "课农",
       "aliases": [],
       "tags": [
@@ -47195,7 +47485,7 @@
       "total_chapters": 0
     },
     "课役": {
-      "type": "concept",
+      "type": "economy",
       "label": "课役",
       "aliases": [],
       "tags": [
@@ -47207,7 +47497,7 @@
       "total_chapters": 0
     },
     "谍": {
-      "type": "concept",
+      "type": "military",
       "label": "谍",
       "aliases": [],
       "tags": [
@@ -47245,7 +47535,7 @@
       "total_chapters": 0
     },
     "谏诤": {
-      "type": "concept",
+      "type": "institution",
       "label": "谏诤",
       "aliases": [],
       "tags": [
@@ -47543,7 +47833,7 @@
       "total_chapters": 0
     },
     "谶纬": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "谶纬",
       "aliases": [],
       "tags": [
@@ -47558,7 +47848,7 @@
       "total_chapters": 0
     },
     "谶记": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "谶记",
       "aliases": [],
       "tags": [
@@ -47722,7 +48012,7 @@
       "total_chapters": 2
     },
     "貌阅": {
-      "type": "concept",
+      "type": "economy",
       "label": "貌阅",
       "aliases": [],
       "tags": [
@@ -47748,7 +48038,7 @@
       "total_chapters": 0
     },
     "贝": {
-      "type": "concept",
+      "type": "artifact",
       "label": "贝",
       "aliases": [],
       "tags": [
@@ -47791,7 +48081,7 @@
       "total_chapters": 0
     },
     "贡赋": {
-      "type": "concept",
+      "type": "economy",
       "label": "贡赋",
       "aliases": [],
       "tags": [
@@ -47806,7 +48096,7 @@
       "total_chapters": 0
     },
     "质子": {
-      "type": "concept",
+      "type": "institution",
       "label": "质子",
       "aliases": [],
       "tags": [
@@ -48021,7 +48311,7 @@
       "total_chapters": 0
     },
     "贾人": {
-      "type": "concept",
+      "type": "economy",
       "label": "贾人",
       "aliases": [],
       "tags": [
@@ -48268,7 +48558,7 @@
       "total_chapters": 0
     },
     "赋税": {
-      "type": "concept",
+      "type": "economy",
       "label": "赋税",
       "aliases": [],
       "tags": [
@@ -48281,7 +48571,7 @@
       "total_chapters": 0
     },
     "赏": {
-      "type": "concept",
+      "type": "institution",
       "label": "赏",
       "aliases": [],
       "tags": [
@@ -48293,7 +48583,7 @@
       "total_chapters": 0
     },
     "赏赐": {
-      "type": "concept",
+      "type": "institution",
       "label": "赏赐",
       "aliases": [],
       "tags": [
@@ -48307,7 +48597,7 @@
       "total_chapters": 0
     },
     "赐姓": {
-      "type": "concept",
+      "type": "institution",
       "label": "赐姓",
       "aliases": [],
       "tags": [
@@ -48378,7 +48668,7 @@
       "total_chapters": 0
     },
     "赦罪": {
-      "type": "concept",
+      "type": "institution",
       "label": "赦罪",
       "aliases": [],
       "tags": [
@@ -49112,7 +49402,7 @@
       "total_chapters": 0
     },
     "路": {
-      "type": "concept",
+      "type": "economy",
       "label": "路",
       "aliases": [],
       "tags": [
@@ -49178,7 +49468,7 @@
       "total_chapters": 0
     },
     "车": {
-      "type": "concept",
+      "type": "artifact",
       "label": "车",
       "aliases": [],
       "tags": [
@@ -49205,7 +49495,7 @@
       "total_chapters": 0
     },
     "车骑": {
-      "type": "concept",
+      "type": "artifact",
       "label": "车骑",
       "aliases": [],
       "tags": [
@@ -49239,7 +49529,7 @@
       "total_chapters": 0
     },
     "轺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "轺",
       "aliases": [],
       "tags": [
@@ -49252,7 +49542,7 @@
       "total_chapters": 0
     },
     "辂": {
-      "type": "concept",
+      "type": "artifact",
       "label": "辂",
       "aliases": [],
       "tags": [
@@ -49281,7 +49571,7 @@
       "total_chapters": 0
     },
     "辇": {
-      "type": "concept",
+      "type": "artifact",
       "label": "辇",
       "aliases": [],
       "tags": [
@@ -49293,7 +49583,7 @@
       "total_chapters": 0
     },
     "辎重": {
-      "type": "concept",
+      "type": "military",
       "label": "辎重",
       "aliases": [],
       "tags": [
@@ -49315,6 +49605,20 @@
         "勇武"
       ],
       "description": "西汉左将军，以勇武显名",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "辛武贤": {
+      "type": "person",
+      "label": "辛武贤",
+      "aliases": [],
+      "tags": [
+        "西汉",
+        "酒泉太守",
+        "破羌将军",
+        "赵充国"
+      ],
+      "description": "西汉酒泉太守、破羌将军，与赵充国争议羌策",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -49355,7 +49659,7 @@
       "total_chapters": 0
     },
     "辞官": {
-      "type": "concept",
+      "type": "institution",
       "label": "辞官",
       "aliases": [],
       "tags": [
@@ -49397,7 +49701,7 @@
       "total_chapters": 0
     },
     "辰": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "辰",
       "aliases": [],
       "tags": [
@@ -49459,7 +49763,7 @@
       "total_chapters": 0
     },
     "迁居": {
-      "type": "concept",
+      "type": "institution",
       "label": "迁居",
       "aliases": [],
       "tags": [
@@ -49472,7 +49776,7 @@
       "total_chapters": 0
     },
     "迁徙": {
-      "type": "concept",
+      "type": "institution",
       "label": "迁徙",
       "aliases": [],
       "tags": [
@@ -49500,7 +49804,7 @@
       "total_chapters": 0
     },
     "运船": {
-      "type": "concept",
+      "type": "economy",
       "label": "运船",
       "aliases": [],
       "tags": [
@@ -49513,7 +49817,7 @@
       "total_chapters": 0
     },
     "进兵": {
-      "type": "concept",
+      "type": "military",
       "label": "进兵",
       "aliases": [],
       "tags": [
@@ -49527,7 +49831,7 @@
       "total_chapters": 0
     },
     "进士": {
-      "type": "concept",
+      "type": "institution",
       "label": "进士",
       "aliases": [],
       "tags": [
@@ -49559,7 +49863,7 @@
       "total_chapters": 0
     },
     "连坐": {
-      "type": "concept",
+      "type": "law",
       "label": "连坐",
       "aliases": [],
       "tags": [
@@ -49573,7 +49877,7 @@
       "total_chapters": 0
     },
     "追击": {
-      "type": "concept",
+      "type": "military",
       "label": "追击",
       "aliases": [],
       "tags": [
@@ -49585,7 +49889,7 @@
       "total_chapters": 0
     },
     "退军": {
-      "type": "concept",
+      "type": "military",
       "label": "退军",
       "aliases": [],
       "tags": [
@@ -49611,7 +49915,7 @@
       "total_chapters": 0
     },
     "途": {
-      "type": "concept",
+      "type": "economy",
       "label": "途",
       "aliases": [],
       "tags": [
@@ -49622,7 +49926,7 @@
       "total_chapters": 0
     },
     "通使": {
-      "type": "concept",
+      "type": "institution",
       "label": "通使",
       "aliases": [],
       "tags": [
@@ -49637,7 +49941,7 @@
       "total_chapters": 0
     },
     "通婚": {
-      "type": "concept",
+      "type": "ritual",
       "label": "通婚",
       "aliases": [],
       "tags": [
@@ -49666,7 +49970,7 @@
       "total_chapters": 0
     },
     "道士": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "道士",
       "aliases": [],
       "tags": [
@@ -49710,7 +50014,7 @@
       "total_chapters": 0
     },
     "道观": {
-      "type": "concept",
+      "type": "artifact",
       "label": "道观",
       "aliases": [],
       "tags": [
@@ -49725,7 +50029,7 @@
       "total_chapters": 0
     },
     "遣使": {
-      "type": "concept",
+      "type": "institution",
       "label": "遣使",
       "aliases": [],
       "tags": [
@@ -49976,7 +50280,7 @@
       "total_chapters": 0
     },
     "邮驿": {
-      "type": "concept",
+      "type": "economy",
       "label": "邮驿",
       "aliases": [],
       "tags": [
@@ -50037,7 +50341,7 @@
       "total_chapters": 0
     },
     "邸店": {
-      "type": "concept",
+      "type": "economy",
       "label": "邸店",
       "aliases": [],
       "tags": [
@@ -50521,7 +50825,7 @@
       "total_chapters": 0
     },
     "郡县": {
-      "type": "concept",
+      "type": "institution",
       "label": "郡县",
       "aliases": [],
       "tags": [
@@ -50609,7 +50913,7 @@
       "total_chapters": 0
     },
     "部曲": {
-      "type": "concept",
+      "type": "military",
       "label": "部曲",
       "aliases": [],
       "tags": [
@@ -50957,7 +51261,7 @@
       "total_chapters": 0
     },
     "都统": {
-      "type": "concept",
+      "type": "military",
       "label": "都统",
       "aliases": [],
       "tags": [
@@ -50985,7 +51289,7 @@
       "total_chapters": 0
     },
     "酒": {
-      "type": "concept",
+      "type": "ritual",
       "label": "酒",
       "aliases": [],
       "tags": [
@@ -51011,8 +51315,21 @@
       "total_refs": 0,
       "total_chapters": 0
     },
-    "野战": {
+    "里正": {
       "type": "concept",
+      "label": "里正",
+      "aliases": [],
+      "tags": [
+        "里正",
+        "乡里",
+        "制度"
+      ],
+      "description": "古代乡里基层组织负责人，掌户籍赋役。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "野战": {
+      "type": "military",
       "label": "野战",
       "aliases": [],
       "tags": [
@@ -51024,7 +51341,7 @@
       "total_chapters": 0
     },
     "金": {
-      "type": "concept",
+      "type": "artifact",
       "label": "金",
       "aliases": [],
       "tags": [
@@ -51032,6 +51349,19 @@
         "货币"
       ],
       "description": "古代黄金，兼有货币、赏赐、装饰功能",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "金吾卫": {
+      "type": "concept",
+      "label": "金吾卫",
+      "aliases": [],
+      "tags": [
+        "唐",
+        "金吾卫",
+        "禁军"
+      ],
+      "description": "唐代十六卫之一，掌宫中及京城巡警。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -51059,7 +51389,7 @@
       "total_chapters": 0
     },
     "金银": {
-      "type": "concept",
+      "type": "economy",
       "label": "金银",
       "aliases": [],
       "tags": [
@@ -51073,7 +51403,7 @@
       "total_chapters": 0
     },
     "针": {
-      "type": "concept",
+      "type": "artifact",
       "label": "针",
       "aliases": [],
       "tags": [
@@ -51084,7 +51414,7 @@
       "total_chapters": 0
     },
     "钟": {
-      "type": "concept",
+      "type": "artifact",
       "label": "钟",
       "aliases": [],
       "tags": [
@@ -51192,7 +51522,7 @@
       "total_chapters": 0
     },
     "钟鼓": {
-      "type": "concept",
+      "type": "artifact",
       "label": "钟鼓",
       "aliases": [],
       "tags": [
@@ -51206,7 +51536,7 @@
       "total_chapters": 0
     },
     "钩": {
-      "type": "concept",
+      "type": "artifact",
       "label": "钩",
       "aliases": [],
       "tags": [
@@ -51241,7 +51571,7 @@
       "total_chapters": 0
     },
     "钱币": {
-      "type": "concept",
+      "type": "economy",
       "label": "钱币",
       "aliases": [],
       "tags": [
@@ -51256,7 +51586,7 @@
       "total_chapters": 0
     },
     "钱货": {
-      "type": "concept",
+      "type": "economy",
       "label": "钱货",
       "aliases": [],
       "tags": [
@@ -51301,7 +51631,7 @@
       "total_chapters": 0
     },
     "铁骑": {
-      "type": "concept",
+      "type": "military",
       "label": "铁骑",
       "aliases": [],
       "tags": [
@@ -51313,7 +51643,7 @@
       "total_chapters": 0
     },
     "铜钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "铜钱",
       "aliases": [],
       "tags": [
@@ -51338,7 +51668,7 @@
       "total_chapters": 0
     },
     "铠甲": {
-      "type": "concept",
+      "type": "military",
       "label": "铠甲",
       "aliases": [],
       "tags": [
@@ -51353,7 +51683,7 @@
       "total_chapters": 0
     },
     "铢两": {
-      "type": "concept",
+      "type": "economy",
       "label": "铢两",
       "aliases": [],
       "tags": [
@@ -51363,6 +51693,19 @@
       "description": "铢与两的重量单位，二十四铢为两",
       "quality": "basic",
       "quality_score": 43,
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "铨选": {
+      "type": "concept",
+      "label": "铨选",
+      "aliases": [],
+      "tags": [
+        "铨选",
+        "选官",
+        "制度"
+      ],
+      "description": "唐代吏部选官制度，以试判、书判取人。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -51380,7 +51723,7 @@
       "total_chapters": 0
     },
     "铸钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "铸钱",
       "aliases": [],
       "tags": [
@@ -51395,7 +51738,7 @@
       "total_chapters": 0
     },
     "锐兵": {
-      "type": "concept",
+      "type": "military",
       "label": "锐兵",
       "aliases": [],
       "tags": [
@@ -51408,7 +51751,7 @@
       "total_chapters": 0
     },
     "锥": {
-      "type": "concept",
+      "type": "artifact",
       "label": "锥",
       "aliases": [],
       "tags": [
@@ -51419,7 +51762,7 @@
       "total_chapters": 0
     },
     "锦": {
-      "type": "concept",
+      "type": "artifact",
       "label": "锦",
       "aliases": [],
       "tags": [
@@ -51431,7 +51774,7 @@
       "total_chapters": 0
     },
     "锯": {
-      "type": "concept",
+      "type": "artifact",
       "label": "锯",
       "aliases": [],
       "tags": [
@@ -51442,7 +51785,7 @@
       "total_chapters": 0
     },
     "锱铢": {
-      "type": "concept",
+      "type": "economy",
       "label": "锱铢",
       "aliases": [],
       "tags": [
@@ -51456,7 +51799,7 @@
       "total_chapters": 0
     },
     "锻": {
-      "type": "concept",
+      "type": "economy",
       "label": "锻",
       "aliases": [],
       "tags": [
@@ -51471,7 +51814,7 @@
       "total_chapters": 0
     },
     "镞": {
-      "type": "concept",
+      "type": "artifact",
       "label": "镞",
       "aliases": [],
       "tags": [
@@ -51635,7 +51978,7 @@
       "total_chapters": 0
     },
     "门": {
-      "type": "concept",
+      "type": "artifact",
       "label": "门",
       "aliases": [],
       "tags": [
@@ -51675,7 +52018,7 @@
       "total_chapters": 0
     },
     "闰月": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "闰月",
       "aliases": [],
       "tags": [
@@ -51687,7 +52030,7 @@
       "total_chapters": 0
     },
     "间谍": {
-      "type": "concept",
+      "type": "military",
       "label": "间谍",
       "aliases": [],
       "tags": [
@@ -51716,7 +52059,7 @@
       "total_chapters": 0
     },
     "阁": {
-      "type": "concept",
+      "type": "artifact",
       "label": "阁",
       "aliases": [],
       "tags": [
@@ -51727,7 +52070,7 @@
       "total_chapters": 0
     },
     "阉宦": {
-      "type": "concept",
+      "type": "institution",
       "label": "阉宦",
       "aliases": [],
       "tags": [
@@ -51752,6 +52095,19 @@
       ],
       "description": "东汉外戚，安思阎皇后之兄，安帝崩后与江京等谋立北乡侯。",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "阎柔": {
+      "type": "person",
+      "label": "阎柔",
+      "aliases": [],
+      "tags": [
+        "三国",
+        "魏",
+        "乌桓"
+      ],
+      "description": "阎柔，三国魏将领，护乌桓校尉",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "阎立本": {
@@ -51779,7 +52135,7 @@
       "total_chapters": 0
     },
     "阙": {
-      "type": "concept",
+      "type": "artifact",
       "label": "阙",
       "aliases": [],
       "tags": [
@@ -51929,7 +52285,7 @@
       "total_chapters": 0
     },
     "阵": {
-      "type": "concept",
+      "type": "military",
       "label": "阵",
       "aliases": [],
       "tags": [
@@ -52461,6 +52817,18 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "陈武": {
+      "type": "person",
+      "label": "陈武",
+      "aliases": [],
+      "tags": [
+        "三国",
+        "吴"
+      ],
+      "description": "陈武，三国吴将领",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "陈汤": {
       "type": "person",
       "label": "陈汤",
@@ -52722,7 +53090,7 @@
       "total_chapters": 0
     },
     "险要": {
-      "type": "concept",
+      "type": "military",
       "label": "险要",
       "aliases": [],
       "tags": [
@@ -52906,7 +53274,7 @@
       "total_chapters": 0
     },
     "障": {
-      "type": "concept",
+      "type": "artifact",
       "label": "障",
       "aliases": [],
       "tags": [
@@ -52986,7 +53354,7 @@
       "total_chapters": 0
     },
     "雨": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "雨",
       "aliases": [],
       "tags": [
@@ -52997,7 +53365,7 @@
       "total_chapters": 0
     },
     "雪": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "雪",
       "aliases": [],
       "tags": [
@@ -53182,7 +53550,7 @@
       "total_chapters": 6
     },
     "露布": {
-      "type": "concept",
+      "type": "institution",
       "label": "露布",
       "aliases": [],
       "tags": [
@@ -54169,7 +54537,7 @@
       "total_chapters": 0
     },
     "音律": {
-      "type": "concept",
+      "type": "ritual",
       "label": "音律",
       "aliases": [],
       "tags": [
@@ -54260,7 +54628,7 @@
       "image": "images/项羽.jpg",
       "quality": "featured",
       "quality_score": 58,
-      "total_refs": 109,
+      "total_refs": 110,
       "total_chapters": 21
     },
     "须贾": {
@@ -54490,7 +54858,7 @@
       "total_chapters": 0
     },
     "风": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "风",
       "aliases": [],
       "tags": [
@@ -54501,7 +54869,7 @@
       "total_chapters": 0
     },
     "食邑": {
-      "type": "concept",
+      "type": "economy",
       "label": "食邑",
       "aliases": [],
       "tags": [
@@ -54630,6 +54998,20 @@
       "tags": [],
       "description": "南楚末代君主，马殷之子",
       "total_refs": 1,
+      "total_chapters": 0
+    },
+    "马廖": {
+      "type": "person",
+      "label": "马廖",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "马援",
+        "顺阳侯",
+        "明德太后"
+      ],
+      "description": "东汉顺阳侯，马援之子，明德太后之兄，以谨笃自守而不能教子弟",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "马忠": {
@@ -54846,7 +55228,7 @@
       "total_chapters": 0
     },
     "马队": {
-      "type": "concept",
+      "type": "military",
       "label": "马队",
       "aliases": [],
       "tags": [
@@ -54855,6 +55237,19 @@
         "军事"
       ],
       "description": "古代骑兵队伍。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "马防": {
+      "type": "person",
+      "label": "马防",
+      "aliases": [],
+      "tags": [
+        "东汉",
+        "车骑将军",
+        "马援"
+      ],
+      "description": "东汉车骑将军，马援之子，击破羌豪布桥",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -54876,7 +55271,7 @@
       "total_chapters": 0
     },
     "驰道": {
-      "type": "concept",
+      "type": "economy",
       "label": "驰道",
       "aliases": [],
       "tags": [
@@ -54903,7 +55298,7 @@
       "total_chapters": 0
     },
     "驻军": {
-      "type": "concept",
+      "type": "military",
       "label": "驻军",
       "aliases": [],
       "tags": [
@@ -54915,7 +55310,7 @@
       "total_chapters": 0
     },
     "驾": {
-      "type": "concept",
+      "type": "artifact",
       "label": "驾",
       "aliases": [],
       "tags": [
@@ -54928,7 +55323,7 @@
       "total_chapters": 0
     },
     "驿": {
-      "type": "concept",
+      "type": "economy",
       "label": "驿",
       "aliases": [],
       "tags": [
@@ -54941,7 +55336,7 @@
       "total_chapters": 0
     },
     "驿道": {
-      "type": "concept",
+      "type": "economy",
       "label": "驿道",
       "aliases": [],
       "tags": [
@@ -54954,7 +55349,7 @@
       "total_chapters": 0
     },
     "骁果": {
-      "type": "concept",
+      "type": "military",
       "label": "骁果",
       "aliases": [],
       "tags": [
@@ -54967,7 +55362,7 @@
       "total_chapters": 0
     },
     "骁锐": {
-      "type": "concept",
+      "type": "military",
       "label": "骁锐",
       "aliases": [],
       "tags": [
@@ -55016,7 +55411,7 @@
       "total_chapters": 0
     },
     "骑兵": {
-      "type": "concept",
+      "type": "military",
       "label": "骑兵",
       "aliases": [],
       "tags": [
@@ -55030,7 +55425,7 @@
       "total_chapters": 0
     },
     "骑军": {
-      "type": "concept",
+      "type": "military",
       "label": "骑军",
       "aliases": [],
       "tags": [
@@ -55043,7 +55438,7 @@
       "total_chapters": 0
     },
     "骑卒": {
-      "type": "concept",
+      "type": "military",
       "label": "骑卒",
       "aliases": [],
       "tags": [
@@ -55056,7 +55451,7 @@
       "total_chapters": 0
     },
     "骑射": {
-      "type": "concept",
+      "type": "military",
       "label": "骑射",
       "aliases": [],
       "tags": [
@@ -55071,7 +55466,7 @@
       "total_chapters": 0
     },
     "骖": {
-      "type": "concept",
+      "type": "artifact",
       "label": "骖",
       "aliases": [],
       "tags": [
@@ -56326,7 +56721,7 @@
       "total_chapters": 0
     },
     "麒麟": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "麒麟",
       "aliases": [],
       "tags": [
@@ -56403,7 +56798,7 @@
       "total_chapters": 0
     },
     "麾下": {
-      "type": "concept",
+      "type": "military",
       "label": "麾下",
       "aliases": [],
       "tags": [
@@ -56602,7 +56997,7 @@
       "description": "西汉循吏，颍川太守，以宽和之政著称，后官至丞相，与龚遂并称汉代循吏典范",
       "quality": "basic",
       "quality_score": 49,
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "黄香": {
@@ -56618,7 +57013,7 @@
       "total_chapters": 0
     },
     "黄龙": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "黄龙",
       "aliases": [],
       "tags": [
@@ -56710,7 +57105,7 @@
       "total_chapters": 0
     },
     "黼黻": {
-      "type": "concept",
+      "type": "artifact",
       "label": "黼黻",
       "aliases": [],
       "tags": [
@@ -56722,7 +57117,7 @@
       "total_chapters": 0
     },
     "鼎": {
-      "type": "concept",
+      "type": "artifact",
       "label": "鼎",
       "aliases": [],
       "tags": [
@@ -56736,7 +57131,7 @@
       "total_chapters": 0
     },
     "鼓": {
-      "type": "concept",
+      "type": "artifact",
       "label": "鼓",
       "aliases": [],
       "tags": [
@@ -56920,6 +57315,7 @@
     "三家分晋": "三家分晋",
     "三晋": "三家分晋",
     "三家分晋国": "三家分晋",
+    "三老": "三老",
     "上书": "上书",
     "上官仪": "上官仪",
     "游韶": "上官仪",
@@ -57000,6 +57396,7 @@
     "习": "习",
     "习凿齿": "习凿齿",
     "乡兵": "乡兵",
+    "乡官": "乡官",
     "书": "书",
     "乾陵": "乾陵",
     "于仲文": "于仲文",
@@ -57031,6 +57428,7 @@
     "亩": "亩",
     "京房": "京房",
     "亭": "亭",
+    "亭长": "亭长",
     "亭障": "亭障",
     "亲亲": "亲亲",
     "仆": "仆",
@@ -57063,6 +57461,7 @@
     "伐": "伐",
     "会昌灭佛": "会昌灭佛",
     "会盟": "会盟",
+    "会稽": "会稽",
     "传国玺": "传国玺",
     "传舍": "传舍",
     "传车": "传车",
@@ -57320,6 +57719,8 @@
     "公叔痤": "公叔痤",
     "公子成": "公子成",
     "公子章": "公子章",
+    "公孙度": "公孙度",
+    "公孙康": "公孙康",
     "公孙弘": "公孙弘",
     "平津侯": "公孙弘",
     "公孙敖": "公孙敖",
@@ -57500,6 +57901,7 @@
     "刘洎": "刘洎",
     "刘济": "刘济",
     "刘浚": "刘浚",
+    "刘淑": "刘淑",
     "刘渊": "刘渊",
     "前赵汉昭武帝": "刘渊",
     "汉王": "刘渊",
@@ -57696,6 +58098,7 @@
     "南朝": "南朝",
     "南诏": "南诏",
     "南越": "南越",
+    "南阳": "南阳",
     "南霁云": "南霁云",
     "博士": "博士",
     "博弈": "博弈",
@@ -58415,9 +58818,11 @@
     "平准": "平准",
     "平原君": "平原君",
     "赵胜": "平原君",
+    "平城": "平城",
     "年号": "年号",
     "并州": "并州",
     "幽州": "幽州",
+    "广陵": "广陵",
     "庐陵王义真": "庐陵王义真",
     "库狄干": "库狄干",
     "库藏": "库藏",
@@ -58643,6 +59048,7 @@
     "徐孝嗣": "徐孝嗣",
     "徐宣": "徐宣",
     "徐州": "徐州",
+    "徐广": "徐广",
     "徐度": "徐度",
     "徐庶": "徐庶",
     "元直": "徐庶",
@@ -58756,6 +59162,7 @@
     "魏道武帝": "拓跋珪",
     "招讨使": "招讨使",
     "指鹿为马": "指鹿为马",
+    "挚虞": "挚虞",
     "挟天子": "挟天子",
     "据守": "据守",
     "推恩令": "推恩令",
@@ -59267,6 +59674,7 @@
     "熊槐": "楚怀王",
     "楼": "楼",
     "楼兰": "楼兰",
+    "楼玄": "楼玄",
     "楼缓": "楼缓",
     "楼船": "楼船",
     "榷酒": "榷酒",
@@ -59362,6 +59770,7 @@
     "水运": "水运",
     "永嘉之乱": "永嘉之乱",
     "永贞革新": "永贞革新",
+    "汉中": "汉中",
     "汉书": "汉书",
     "汉元帝": "汉元帝",
     "汉初三杰": "汉初三杰",
@@ -59407,6 +59816,7 @@
     "江淹": "江淹",
     "江湛": "江湛",
     "江统": "江统",
+    "江都": "江都",
     "江陵": "江陵",
     "池": "池",
     "汲黯": "汲黯",
@@ -59520,6 +59930,7 @@
     "燕子献": "燕子献",
     "燕昭王": "燕昭王",
     "爵": "爵",
+    "爵位": "爵位",
     "版籍": "版籍",
     "牖": "牖",
     "牙兵": "牙兵",
@@ -59571,6 +59982,7 @@
     "王伾": "王伾",
     "王俭": "王俭",
     "王仲宝": "王俭",
+    "王修": "王修",
     "王僧绰": "王僧绰",
     "王僧虔": "王僧虔",
     "王僧辩": "王僧辩",
@@ -59885,6 +60297,7 @@
     "祖逖": "祖逖",
     "祖士稚": "祖逖",
     "祝诅": "祝诅",
+    "神武军": "神武军",
     "神策军": "神策军",
     "祢衡": "祢衡",
     "祥瑞": "祥瑞",
@@ -60692,6 +61105,7 @@
     "笮融": "笮融",
     "筑城": "筑城",
     "策书": "策书",
+    "策试": "策试",
     "筝": "筝",
     "简雍": "简雍",
     "管仲": "管仲",
@@ -60770,11 +61184,14 @@
     "考课": "考课",
     "耕种": "耕种",
     "耳": "耳",
+    "耿况": "耿况",
+    "耿国": "耿国",
     "耿弇": "耿弇",
     "耿弇建威大将军": "耿弇",
     "耿恭": "耿恭",
     "耿秉": "耿秉",
     "耿纯": "耿纯",
+    "耿舒": "耿舒",
     "聂政": "聂政",
     "聘问": "聘问",
     "肉刑": "肉刑",
@@ -60973,6 +61390,7 @@
     "蒯恩": "蒯恩",
     "蒯越": "蒯越",
     "蒯通": "蒯通",
+    "蔡义": "蔡义",
     "蔡伦": "蔡伦",
     "蔡兴宗": "蔡兴宗",
     "蔡廷玉": "蔡廷玉",
@@ -61347,6 +61765,7 @@
     "辇": "辇",
     "辎重": "辎重",
     "辛庆忌": "辛庆忌",
+    "辛武贤": "辛武贤",
     "辛茂将": "辛茂将",
     "辛评": "辛评",
     "辛雄": "辛雄",
@@ -61485,8 +61904,10 @@
     "鄯善": "鄯善",
     "酒": "酒",
     "醴": "醴",
+    "里正": "里正",
     "野战": "野战",
     "金": "金",
+    "金吾卫": "金吾卫",
     "金敞": "金敞",
     "金日磾": "金日磾",
     "金银": "金银",
@@ -61515,6 +61936,7 @@
     "铜雀台": "铜雀台",
     "铠甲": "铠甲",
     "铢两": "铢两",
+    "铨选": "铨选",
     "铫期": "铫期",
     "铸钱": "铸钱",
     "锐兵": "锐兵",
@@ -61548,6 +61970,7 @@
     "阁": "阁",
     "阉宦": "阉宦",
     "阎显": "阎显",
+    "阎柔": "阎柔",
     "阎立本": "阎立本",
     "阎鼎": "阎鼎",
     "阙": "阙",
@@ -61607,6 +62030,7 @@
     "陈子云": "陈庆之",
     "陈敏": "陈敏",
     "陈显达": "陈显达",
+    "陈武": "陈武",
     "陈汤": "陈汤",
     "陈子公": "陈汤",
     "陈牧": "陈牧",
@@ -61796,6 +62220,7 @@
     "马希范": "马希范",
     "楚文昭王": "马希范",
     "马希萼": "马希萼",
+    "马廖": "马廖",
     "马忠": "马忠",
     "马总": "马总",
     "马成": "马成",
@@ -61816,6 +62241,7 @@
     "马超": "马超",
     "孟起": "马超",
     "马队": "马队",
+    "马防": "马防",
     "马陵之战": "马陵之战",
     "驰道": "驰道",
     "驸马": "驸马",
@@ -61994,6 +62420,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 4003,
-  "generated": "2026-05-06T17:44:21Z"
+  "page_count": 4034,
+  "generated": "2026-05-06T17:45:38Z"
 }

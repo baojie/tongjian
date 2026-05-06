@@ -33,7 +33,7 @@
       "aliases": []
     },
     "丁壮": {
-      "type": "concept",
+      "type": "economy",
       "label": "丁壮",
       "aliases": []
     },
@@ -71,7 +71,7 @@
       "aliases": []
     },
     "丈尺": {
-      "type": "concept",
+      "type": "economy",
       "label": "丈尺",
       "aliases": []
     },
@@ -92,6 +92,11 @@
         "三晋",
         "三家分晋国"
       ]
+    },
+    "三老": {
+      "type": "concept",
+      "label": "三老",
+      "aliases": []
     },
     "上书": {
       "type": "concept",
@@ -125,7 +130,7 @@
       "aliases": []
     },
     "世族": {
-      "type": "concept",
+      "type": "institution",
       "label": "世族",
       "aliases": []
     },
@@ -160,12 +165,12 @@
       "aliases": []
     },
     "东宫": {
-      "type": "concept",
+      "type": "institution",
       "label": "东宫",
       "aliases": []
     },
     "东巡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "东巡",
       "aliases": []
     },
@@ -200,7 +205,7 @@
       "aliases": []
     },
     "丝": {
-      "type": "concept",
+      "type": "artifact",
       "label": "丝",
       "aliases": []
     },
@@ -210,7 +215,7 @@
       "aliases": []
     },
     "两税": {
-      "type": "concept",
+      "type": "economy",
       "label": "两税",
       "aliases": []
     },
@@ -242,7 +247,7 @@
       "aliases": []
     },
     "丧服": {
-      "type": "concept",
+      "type": "ritual",
       "label": "丧服",
       "aliases": []
     },
@@ -252,7 +257,7 @@
       "aliases": []
     },
     "丧葬": {
-      "type": "concept",
+      "type": "ritual",
       "label": "丧葬",
       "aliases": []
     },
@@ -290,7 +295,7 @@
       "aliases": []
     },
     "为质": {
-      "type": "concept",
+      "type": "institution",
       "label": "为质",
       "aliases": []
     },
@@ -300,7 +305,7 @@
       "aliases": []
     },
     "义仓": {
-      "type": "concept",
+      "type": "economy",
       "label": "义仓",
       "aliases": []
     },
@@ -347,7 +352,7 @@
       ]
     },
     "乐器": {
-      "type": "concept",
+      "type": "artifact",
       "label": "乐器",
       "aliases": []
     },
@@ -362,7 +367,7 @@
       "aliases": []
     },
     "乐府": {
-      "type": "concept",
+      "type": "institution",
       "label": "乐府",
       "aliases": []
     },
@@ -379,7 +384,7 @@
       "aliases": []
     },
     "乐舞": {
-      "type": "concept",
+      "type": "ritual",
       "label": "乐舞",
       "aliases": []
     },
@@ -409,7 +414,7 @@
       "aliases": []
     },
     "乘舆": {
-      "type": "concept",
+      "type": "institution",
       "label": "乘舆",
       "aliases": []
     },
@@ -424,7 +429,7 @@
       "aliases": []
     },
     "九品中正": {
-      "type": "concept",
+      "type": "institution",
       "label": "九品中正",
       "aliases": []
     },
@@ -434,7 +439,7 @@
       "aliases": []
     },
     "九族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "九族",
       "aliases": []
     },
@@ -469,8 +474,13 @@
       "aliases": []
     },
     "乡兵": {
-      "type": "concept",
+      "type": "military",
       "label": "乡兵",
+      "aliases": []
+    },
+    "乡官": {
+      "type": "concept",
+      "label": "乡官",
       "aliases": []
     },
     "书": {
@@ -528,7 +538,7 @@
       "aliases": []
     },
     "云": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "云",
       "aliases": []
     },
@@ -538,12 +548,12 @@
       "aliases": []
     },
     "云梯": {
-      "type": "concept",
+      "type": "artifact",
       "label": "云梯",
       "aliases": []
     },
     "互市": {
-      "type": "concept",
+      "type": "economy",
       "label": "互市",
       "aliases": []
     },
@@ -568,12 +578,12 @@
       "aliases": []
     },
     "五铢": {
-      "type": "concept",
+      "type": "economy",
       "label": "五铢",
       "aliases": []
     },
     "五铢钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "五铢钱",
       "aliases": []
     },
@@ -583,7 +593,7 @@
       "aliases": []
     },
     "井田": {
-      "type": "concept",
+      "type": "economy",
       "label": "井田",
       "aliases": []
     },
@@ -603,7 +613,7 @@
       "aliases": []
     },
     "交质": {
-      "type": "concept",
+      "type": "military",
       "label": "交质",
       "aliases": []
     },
@@ -613,7 +623,7 @@
       "aliases": []
     },
     "亩": {
-      "type": "concept",
+      "type": "economy",
       "label": "亩",
       "aliases": []
     },
@@ -623,17 +633,22 @@
       "aliases": []
     },
     "亭": {
-      "type": "concept",
+      "type": "artifact",
       "label": "亭",
       "aliases": []
     },
-    "亭障": {
+    "亭长": {
       "type": "concept",
+      "label": "亭长",
+      "aliases": []
+    },
+    "亭障": {
+      "type": "military",
       "label": "亭障",
       "aliases": []
     },
     "亲亲": {
-      "type": "concept",
+      "type": "ritual",
       "label": "亲亲",
       "aliases": []
     },
@@ -662,17 +677,17 @@
       ]
     },
     "仓场": {
-      "type": "concept",
+      "type": "economy",
       "label": "仓场",
       "aliases": []
     },
     "仓库": {
-      "type": "concept",
+      "type": "economy",
       "label": "仓库",
       "aliases": []
     },
     "仓廪": {
-      "type": "concept",
+      "type": "economy",
       "label": "仓廪",
       "aliases": []
     },
@@ -763,12 +778,12 @@
       ]
     },
     "伏兵": {
-      "type": "concept",
+      "type": "military",
       "label": "伏兵",
       "aliases": []
     },
     "伏击": {
-      "type": "concept",
+      "type": "military",
       "label": "伏击",
       "aliases": []
     },
@@ -778,7 +793,7 @@
       "aliases": []
     },
     "伐": {
-      "type": "concept",
+      "type": "military",
       "label": "伐",
       "aliases": []
     },
@@ -788,22 +803,27 @@
       "aliases": []
     },
     "会盟": {
-      "type": "concept",
+      "type": "institution",
       "label": "会盟",
       "aliases": []
     },
+    "会稽": {
+      "type": "place",
+      "label": "会稽",
+      "aliases": []
+    },
     "传国玺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "传国玺",
       "aliases": []
     },
     "传舍": {
-      "type": "concept",
+      "type": "economy",
       "label": "传舍",
       "aliases": []
     },
     "传车": {
-      "type": "concept",
+      "type": "economy",
       "label": "传车",
       "aliases": []
     },
@@ -813,7 +833,7 @@
       "aliases": []
     },
     "伪降": {
-      "type": "concept",
+      "type": "military",
       "label": "伪降",
       "aliases": []
     },
@@ -892,7 +912,7 @@
       "aliases": []
     },
     "佛寺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "佛寺",
       "aliases": []
     },
@@ -907,12 +927,12 @@
       "aliases": []
     },
     "佩玉": {
-      "type": "concept",
+      "type": "artifact",
       "label": "佩玉",
       "aliases": []
     },
     "佯败": {
-      "type": "concept",
+      "type": "military",
       "label": "佯败",
       "aliases": []
     },
@@ -932,12 +952,12 @@
       "aliases": []
     },
     "侍卫": {
-      "type": "concept",
+      "type": "artifact",
       "label": "侍卫",
       "aliases": []
     },
     "侍女": {
-      "type": "concept",
+      "type": "ritual",
       "label": "侍女",
       "aliases": []
     },
@@ -947,7 +967,7 @@
       "aliases": []
     },
     "侨置": {
-      "type": "concept",
+      "type": "economy",
       "label": "侨置",
       "aliases": []
     },
@@ -1013,7 +1033,7 @@
       "aliases": []
     },
     "俎豆": {
-      "type": "concept",
+      "type": "artifact",
       "label": "俎豆",
       "aliases": []
     },
@@ -1023,7 +1043,7 @@
       "aliases": []
     },
     "信节": {
-      "type": "concept",
+      "type": "artifact",
       "label": "信节",
       "aliases": []
     },
@@ -1041,12 +1061,12 @@
       "aliases": []
     },
     "修建": {
-      "type": "concept",
+      "type": "artifact",
       "label": "修建",
       "aliases": []
     },
     "修缮": {
-      "type": "concept",
+      "type": "artifact",
       "label": "修缮",
       "aliases": []
     },
@@ -1135,27 +1155,27 @@
       "aliases": []
     },
     "储副": {
-      "type": "concept",
+      "type": "institution",
       "label": "储副",
       "aliases": []
     },
     "储后": {
-      "type": "concept",
+      "type": "institution",
       "label": "储后",
       "aliases": []
     },
     "储君": {
-      "type": "concept",
+      "type": "institution",
       "label": "储君",
       "aliases": []
     },
     "储宫": {
-      "type": "concept",
+      "type": "institution",
       "label": "储宫",
       "aliases": []
     },
     "储贰": {
-      "type": "concept",
+      "type": "institution",
       "label": "储贰",
       "aliases": []
     },
@@ -1205,7 +1225,7 @@
       "aliases": []
     },
     "元日": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "元日",
       "aliases": []
     },
@@ -1242,7 +1262,7 @@
       "aliases": []
     },
     "元良": {
-      "type": "concept",
+      "type": "institution",
       "label": "元良",
       "aliases": []
     },
@@ -2052,6 +2072,16 @@
       "label": "公子章",
       "aliases": []
     },
+    "公孙度": {
+      "type": "person",
+      "label": "公孙度",
+      "aliases": []
+    },
+    "公孙康": {
+      "type": "person",
+      "label": "公孙康",
+      "aliases": []
+    },
     "公孙弘": {
       "type": "person",
       "label": "公孙弘",
@@ -2088,17 +2118,17 @@
       "aliases": []
     },
     "公族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "公族",
       "aliases": []
     },
     "六亲": {
-      "type": "concept",
+      "type": "ritual",
       "label": "六亲",
       "aliases": []
     },
     "六礼": {
-      "type": "concept",
+      "type": "ritual",
       "label": "六礼",
       "aliases": []
     },
@@ -2113,12 +2143,12 @@
       "aliases": []
     },
     "关塞": {
-      "type": "concept",
+      "type": "military",
       "label": "关塞",
       "aliases": []
     },
     "关梁": {
-      "type": "concept",
+      "type": "economy",
       "label": "关梁",
       "aliases": []
     },
@@ -2137,32 +2167,32 @@
       "aliases": []
     },
     "兵制": {
-      "type": "concept",
+      "type": "military",
       "label": "兵制",
       "aliases": []
     },
     "兵势": {
-      "type": "concept",
+      "type": "military",
       "label": "兵势",
       "aliases": []
     },
     "兵役": {
-      "type": "concept",
+      "type": "military",
       "label": "兵役",
       "aliases": []
     },
     "兵气": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "兵气",
       "aliases": []
     },
     "兵法": {
-      "type": "concept",
+      "type": "military",
       "label": "兵法",
       "aliases": []
     },
     "兵锋": {
-      "type": "concept",
+      "type": "military",
       "label": "兵锋",
       "aliases": []
     },
@@ -2177,12 +2207,12 @@
       "aliases": []
     },
     "养老": {
-      "type": "concept",
+      "type": "institution",
       "label": "养老",
       "aliases": []
     },
     "养马": {
-      "type": "concept",
+      "type": "economy",
       "label": "养马",
       "aliases": []
     },
@@ -2192,7 +2222,7 @@
       "aliases": []
     },
     "内应": {
-      "type": "concept",
+      "type": "military",
       "label": "内应",
       "aliases": []
     },
@@ -2215,62 +2245,62 @@
       "aliases": []
     },
     "冕": {
-      "type": "concept",
+      "type": "artifact",
       "label": "冕",
       "aliases": []
     },
     "军令": {
-      "type": "concept",
+      "type": "military",
       "label": "军令",
       "aliases": []
     },
     "军制": {
-      "type": "concept",
+      "type": "military",
       "label": "军制",
       "aliases": []
     },
     "军法": {
-      "type": "concept",
+      "type": "law",
       "label": "军法",
       "aliases": []
     },
     "军纪": {
-      "type": "concept",
+      "type": "military",
       "label": "军纪",
       "aliases": []
     },
     "军镇": {
-      "type": "concept",
+      "type": "military",
       "label": "军镇",
       "aliases": []
     },
     "农家": {
-      "type": "concept",
+      "type": "economy",
       "label": "农家",
       "aliases": []
     },
     "农时": {
-      "type": "concept",
+      "type": "economy",
       "label": "农时",
       "aliases": []
     },
     "农桑": {
-      "type": "concept",
+      "type": "economy",
       "label": "农桑",
       "aliases": []
     },
     "冠": {
-      "type": "concept",
+      "type": "artifact",
       "label": "冠",
       "aliases": []
     },
     "冠冕": {
-      "type": "concept",
+      "type": "artifact",
       "label": "冠冕",
       "aliases": []
     },
     "冢嗣": {
-      "type": "concept",
+      "type": "institution",
       "label": "冢嗣",
       "aliases": []
     },
@@ -2280,7 +2310,7 @@
       "aliases": []
     },
     "冬至": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "冬至",
       "aliases": []
     },
@@ -2359,12 +2389,12 @@
       "aliases": []
     },
     "冲车": {
-      "type": "concept",
+      "type": "artifact",
       "label": "冲车",
       "aliases": []
     },
     "冶铸": {
-      "type": "concept",
+      "type": "economy",
       "label": "冶铸",
       "aliases": []
     },
@@ -2384,17 +2414,17 @@
       "aliases": []
     },
     "凤凰": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "凤凰",
       "aliases": []
     },
     "出使": {
-      "type": "concept",
+      "type": "institution",
       "label": "出使",
       "aliases": []
     },
     "出兵": {
-      "type": "concept",
+      "type": "military",
       "label": "出兵",
       "aliases": []
     },
@@ -2417,17 +2447,17 @@
       "aliases": []
     },
     "凿": {
-      "type": "concept",
+      "type": "artifact",
       "label": "凿",
       "aliases": []
     },
     "刀": {
-      "type": "concept",
+      "type": "artifact",
       "label": "刀",
       "aliases": []
     },
     "刀剑": {
-      "type": "concept",
+      "type": "artifact",
       "label": "刀剑",
       "aliases": []
     },
@@ -2442,7 +2472,7 @@
       "aliases": []
     },
     "刃": {
-      "type": "concept",
+      "type": "artifact",
       "label": "刃",
       "aliases": []
     },
@@ -2452,27 +2482,27 @@
       "aliases": []
     },
     "刑戮": {
-      "type": "concept",
+      "type": "law",
       "label": "刑戮",
       "aliases": []
     },
     "刑法": {
-      "type": "concept",
+      "type": "law",
       "label": "刑法",
       "aliases": []
     },
     "刑狱": {
-      "type": "concept",
+      "type": "law",
       "label": "刑狱",
       "aliases": []
     },
     "刑罚": {
-      "type": "concept",
+      "type": "law",
       "label": "刑罚",
       "aliases": []
     },
     "刑辟": {
-      "type": "concept",
+      "type": "law",
       "label": "刑辟",
       "aliases": []
     },
@@ -2872,6 +2902,11 @@
       "label": "刘浚",
       "aliases": []
     },
+    "刘淑": {
+      "type": "person",
+      "label": "刘淑",
+      "aliases": []
+    },
     "刘渊": {
       "type": "person",
       "label": "刘渊",
@@ -3215,7 +3250,7 @@
       ]
     },
     "制书": {
-      "type": "concept",
+      "type": "institution",
       "label": "制书",
       "aliases": []
     },
@@ -3610,7 +3645,7 @@
       "aliases": []
     },
     "剑": {
-      "type": "concept",
+      "type": "artifact",
       "label": "剑",
       "aliases": []
     },
@@ -3630,12 +3665,12 @@
       "aliases": []
     },
     "力田": {
-      "type": "concept",
+      "type": "economy",
       "label": "力田",
       "aliases": []
     },
     "劝农": {
-      "type": "concept",
+      "type": "economy",
       "label": "劝农",
       "aliases": []
     },
@@ -3645,17 +3680,17 @@
       "aliases": []
     },
     "务农": {
-      "type": "concept",
+      "type": "economy",
       "label": "务农",
       "aliases": []
     },
     "助教": {
-      "type": "concept",
+      "type": "institution",
       "label": "助教",
       "aliases": []
     },
     "劲兵": {
-      "type": "concept",
+      "type": "military",
       "label": "劲兵",
       "aliases": []
     },
@@ -3675,7 +3710,7 @@
       "aliases": []
     },
     "募兵": {
-      "type": "concept",
+      "type": "military",
       "label": "募兵",
       "aliases": []
     },
@@ -3685,12 +3720,12 @@
       "aliases": []
     },
     "勤王": {
-      "type": "concept",
+      "type": "military",
       "label": "勤王",
       "aliases": []
     },
     "勺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "勺",
       "aliases": []
     },
@@ -3721,7 +3756,7 @@
       "aliases": []
     },
     "北巡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "北巡",
       "aliases": []
     },
@@ -3741,7 +3776,7 @@
       "aliases": []
     },
     "匣": {
-      "type": "concept",
+      "type": "artifact",
       "label": "匣",
       "aliases": []
     },
@@ -3781,7 +3816,7 @@
       "aliases": []
     },
     "南巡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "南巡",
       "aliases": []
     },
@@ -3798,6 +3833,11 @@
     "南越": {
       "type": "place",
       "label": "南越",
+      "aliases": []
+    },
+    "南阳": {
+      "type": "place",
+      "label": "南阳",
       "aliases": []
     },
     "南霁云": {
@@ -3844,7 +3884,7 @@
       "aliases": []
     },
     "占星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "占星",
       "aliases": []
     },
@@ -3942,17 +3982,17 @@
       "aliases": []
     },
     "卤簿": {
-      "type": "concept",
+      "type": "institution",
       "label": "卤簿",
       "aliases": []
     },
     "卫兵": {
-      "type": "concept",
+      "type": "military",
       "label": "卫兵",
       "aliases": []
     },
     "卫士": {
-      "type": "concept",
+      "type": "military",
       "label": "卫士",
       "aliases": []
     },
@@ -4012,7 +4052,7 @@
       "aliases": []
     },
     "厌胜": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "厌胜",
       "aliases": []
     },
@@ -4027,7 +4067,7 @@
       "aliases": []
     },
     "反间": {
-      "type": "concept",
+      "type": "military",
       "label": "反间",
       "aliases": []
     },
@@ -4054,7 +4094,7 @@
       "aliases": []
     },
     "口赋": {
-      "type": "concept",
+      "type": "economy",
       "label": "口赋",
       "aliases": []
     },
@@ -4064,7 +4104,7 @@
       "aliases": []
     },
     "古钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "古钱",
       "aliases": []
     },
@@ -4084,7 +4124,7 @@
       "aliases": []
     },
     "台": {
-      "type": "concept",
+      "type": "artifact",
       "label": "台",
       "aliases": []
     },
@@ -4288,12 +4328,12 @@
       "aliases": []
     },
     "合围": {
-      "type": "concept",
+      "type": "military",
       "label": "合围",
       "aliases": []
     },
     "合族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "合族",
       "aliases": []
     },
@@ -4314,7 +4354,7 @@
       "aliases": []
     },
     "同盟": {
-      "type": "concept",
+      "type": "military",
       "label": "同盟",
       "aliases": []
     },
@@ -4324,7 +4364,7 @@
       "aliases": []
     },
     "名山": {
-      "type": "concept",
+      "type": "ritual",
       "label": "名山",
       "aliases": []
     },
@@ -4546,12 +4586,12 @@
       "aliases": []
     },
     "告庙": {
-      "type": "concept",
+      "type": "military",
       "label": "告庙",
       "aliases": []
     },
     "告老": {
-      "type": "concept",
+      "type": "institution",
       "label": "告老",
       "aliases": []
     },
@@ -4818,7 +4858,7 @@
       ]
     },
     "和籴": {
-      "type": "concept",
+      "type": "economy",
       "label": "和籴",
       "aliases": []
     },
@@ -4954,12 +4994,12 @@
       ]
     },
     "商旅": {
-      "type": "concept",
+      "type": "economy",
       "label": "商旅",
       "aliases": []
     },
     "商贾": {
-      "type": "concept",
+      "type": "economy",
       "label": "商贾",
       "aliases": []
     },
@@ -4978,17 +5018,17 @@
       "aliases": []
     },
     "嗣": {
-      "type": "concept",
+      "type": "ritual",
       "label": "嗣",
       "aliases": []
     },
     "嗣位": {
-      "type": "concept",
+      "type": "institution",
       "label": "嗣位",
       "aliases": []
     },
     "嗣子": {
-      "type": "concept",
+      "type": "institution",
       "label": "嗣子",
       "aliases": []
     },
@@ -5003,7 +5043,7 @@
       "aliases": []
     },
     "团练": {
-      "type": "concept",
+      "type": "military",
       "label": "团练",
       "aliases": []
     },
@@ -5013,12 +5053,12 @@
       "aliases": []
     },
     "围城": {
-      "type": "concept",
+      "type": "military",
       "label": "围城",
       "aliases": []
     },
     "国子监": {
-      "type": "concept",
+      "type": "institution",
       "label": "国子监",
       "aliases": []
     },
@@ -5028,57 +5068,57 @@
       "aliases": []
     },
     "图谶": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "图谶",
       "aliases": []
     },
     "土断": {
-      "type": "concept",
+      "type": "economy",
       "label": "土断",
       "aliases": []
     },
     "土木": {
-      "type": "concept",
+      "type": "artifact",
       "label": "土木",
       "aliases": []
     },
     "地道": {
-      "type": "concept",
+      "type": "military",
       "label": "地道",
       "aliases": []
     },
     "地震": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "地震",
       "aliases": []
     },
     "均田": {
-      "type": "concept",
+      "type": "economy",
       "label": "均田",
       "aliases": []
     },
     "均田制": {
-      "type": "concept",
+      "type": "economy",
       "label": "均田制",
       "aliases": []
     },
     "均输": {
-      "type": "concept",
+      "type": "economy",
       "label": "均输",
       "aliases": []
     },
     "均输平准": {
-      "type": "concept",
+      "type": "economy",
       "label": "均输平准",
       "aliases": []
     },
     "坚壁": {
-      "type": "concept",
+      "type": "military",
       "label": "坚壁",
       "aliases": []
     },
     "坞": {
-      "type": "concept",
+      "type": "artifact",
       "label": "坞",
       "aliases": []
     },
@@ -5088,7 +5128,7 @@
       "aliases": []
     },
     "垒": {
-      "type": "concept",
+      "type": "artifact",
       "label": "垒",
       "aliases": []
     },
@@ -5113,37 +5153,37 @@
       "aliases": []
     },
     "垦田": {
-      "type": "concept",
+      "type": "economy",
       "label": "垦田",
       "aliases": []
     },
     "城": {
-      "type": "concept",
+      "type": "artifact",
       "label": "城",
       "aliases": []
     },
     "城郭": {
-      "type": "concept",
+      "type": "artifact",
       "label": "城郭",
       "aliases": []
     },
     "城防": {
-      "type": "concept",
+      "type": "military",
       "label": "城防",
       "aliases": []
     },
     "堑": {
-      "type": "concept",
+      "type": "artifact",
       "label": "堑",
       "aliases": []
     },
     "堡": {
-      "type": "concept",
+      "type": "artifact",
       "label": "堡",
       "aliases": []
     },
     "堤堰": {
-      "type": "concept",
+      "type": "economy",
       "label": "堤堰",
       "aliases": []
     },
@@ -5153,17 +5193,17 @@
       "aliases": []
     },
     "墓": {
-      "type": "concept",
+      "type": "ritual",
       "label": "墓",
       "aliases": []
     },
     "墙": {
-      "type": "concept",
+      "type": "artifact",
       "label": "墙",
       "aliases": []
     },
     "壁垒": {
-      "type": "concept",
+      "type": "military",
       "label": "壁垒",
       "aliases": []
     },
@@ -5183,7 +5223,7 @@
       "aliases": []
     },
     "备御": {
-      "type": "concept",
+      "type": "military",
       "label": "备御",
       "aliases": []
     },
@@ -5242,12 +5282,12 @@
       "aliases": []
     },
     "夏至": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "夏至",
       "aliases": []
     },
     "外戚": {
-      "type": "concept",
+      "type": "institution",
       "label": "外戚",
       "aliases": []
     },
@@ -5277,12 +5317,12 @@
       "aliases": []
     },
     "大川": {
-      "type": "concept",
+      "type": "ritual",
       "label": "大川",
       "aliases": []
     },
     "大旱": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "大旱",
       "aliases": []
     },
@@ -5297,22 +5337,22 @@
       "aliases": []
     },
     "大水": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "大水",
       "aliases": []
     },
     "大疫": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "大疫",
       "aliases": []
     },
     "大赦": {
-      "type": "concept",
+      "type": "law",
       "label": "大赦",
       "aliases": []
     },
     "大辟": {
-      "type": "concept",
+      "type": "law",
       "label": "大辟",
       "aliases": []
     },
@@ -5322,7 +5362,7 @@
       "aliases": []
     },
     "大雩": {
-      "type": "concept",
+      "type": "ritual",
       "label": "大雩",
       "aliases": []
     },
@@ -5337,12 +5377,12 @@
       "aliases": []
     },
     "天意": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "天意",
       "aliases": []
     },
     "天文": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "天文",
       "aliases": []
     },
@@ -5357,12 +5397,12 @@
       "aliases": []
     },
     "天险": {
-      "type": "concept",
+      "type": "military",
       "label": "天险",
       "aliases": []
     },
     "太仓": {
-      "type": "concept",
+      "type": "economy",
       "label": "太仓",
       "aliases": []
     },
@@ -5377,7 +5417,7 @@
       "aliases": []
     },
     "太初历": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "太初历",
       "aliases": []
     },
@@ -5402,12 +5442,12 @@
       "aliases": []
     },
     "太后": {
-      "type": "concept",
+      "type": "institution",
       "label": "太后",
       "aliases": []
     },
     "太子": {
-      "type": "concept",
+      "type": "institution",
       "label": "太子",
       "aliases": []
     },
@@ -5442,17 +5482,17 @@
       ]
     },
     "太庙": {
-      "type": "concept",
+      "type": "ritual",
       "label": "太庙",
       "aliases": []
     },
     "太牢": {
-      "type": "concept",
+      "type": "ritual",
       "label": "太牢",
       "aliases": []
     },
     "太白": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "太白",
       "aliases": []
     },
@@ -5474,7 +5514,7 @@
       "aliases": []
     },
     "夹击": {
-      "type": "concept",
+      "type": "military",
       "label": "夹击",
       "aliases": []
     },
@@ -5484,27 +5524,27 @@
       "aliases": []
     },
     "奇兵": {
-      "type": "concept",
+      "type": "military",
       "label": "奇兵",
       "aliases": []
     },
     "奏疏": {
-      "type": "concept",
+      "type": "institution",
       "label": "奏疏",
       "aliases": []
     },
     "奏章": {
-      "type": "concept",
+      "type": "institution",
       "label": "奏章",
       "aliases": []
     },
     "奏议": {
-      "type": "concept",
+      "type": "institution",
       "label": "奏议",
       "aliases": []
     },
     "奏记": {
-      "type": "concept",
+      "type": "institution",
       "label": "奏记",
       "aliases": []
     },
@@ -5531,7 +5571,7 @@
       "aliases": []
     },
     "女工": {
-      "type": "concept",
+      "type": "economy",
       "label": "女工",
       "aliases": []
     },
@@ -5546,7 +5586,7 @@
       "aliases": []
     },
     "妖言": {
-      "type": "concept",
+      "type": "law",
       "label": "妖言",
       "aliases": []
     },
@@ -5659,12 +5699,12 @@
       "aliases": []
     },
     "婚媾": {
-      "type": "concept",
+      "type": "ritual",
       "label": "婚媾",
       "aliases": []
     },
     "婚嫁": {
-      "type": "concept",
+      "type": "ritual",
       "label": "婚嫁",
       "aliases": []
     },
@@ -5674,17 +5714,17 @@
       "aliases": []
     },
     "嫁娶": {
-      "type": "concept",
+      "type": "ritual",
       "label": "嫁娶",
       "aliases": []
     },
     "嫡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "嫡",
       "aliases": []
     },
     "嫡庶": {
-      "type": "concept",
+      "type": "ritual",
       "label": "嫡庶",
       "aliases": []
     },
@@ -5820,7 +5860,7 @@
       "aliases": []
     },
     "孙吴": {
-      "type": "concept",
+      "type": "military",
       "label": "孙吴",
       "aliases": [
         "孙子",
@@ -6093,22 +6133,22 @@
       "aliases": []
     },
     "守": {
-      "type": "concept",
+      "type": "military",
       "label": "守",
       "aliases": []
     },
     "守卫": {
-      "type": "concept",
+      "type": "military",
       "label": "守卫",
       "aliases": []
     },
     "守城": {
-      "type": "concept",
+      "type": "military",
       "label": "守城",
       "aliases": []
     },
     "守御": {
-      "type": "concept",
+      "type": "military",
       "label": "守御",
       "aliases": []
     },
@@ -6270,12 +6310,12 @@
       ]
     },
     "宗亲": {
-      "type": "concept",
+      "type": "ritual",
       "label": "宗亲",
       "aliases": []
     },
     "宗庙": {
-      "type": "concept",
+      "type": "ritual",
       "label": "宗庙",
       "aliases": []
     },
@@ -6288,7 +6328,7 @@
       ]
     },
     "宗族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "宗族",
       "aliases": []
     },
@@ -6318,7 +6358,7 @@
       "aliases": []
     },
     "宝货": {
-      "type": "concept",
+      "type": "economy",
       "label": "宝货",
       "aliases": []
     },
@@ -6338,7 +6378,7 @@
       "aliases": []
     },
     "客星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "客星",
       "aliases": []
     },
@@ -6348,22 +6388,22 @@
       "aliases": []
     },
     "宦官": {
-      "type": "concept",
+      "type": "institution",
       "label": "宦官",
       "aliases": []
     },
     "宫": {
-      "type": "concept",
+      "type": "artifact",
       "label": "宫",
       "aliases": []
     },
     "宫刑": {
-      "type": "concept",
+      "type": "law",
       "label": "宫刑",
       "aliases": []
     },
     "宫卫": {
-      "type": "concept",
+      "type": "military",
       "label": "宫卫",
       "aliases": []
     },
@@ -6378,7 +6418,7 @@
       "aliases": []
     },
     "宴会": {
-      "type": "concept",
+      "type": "ritual",
       "label": "宴会",
       "aliases": []
     },
@@ -6388,7 +6428,7 @@
       "aliases": []
     },
     "宿卫": {
-      "type": "concept",
+      "type": "military",
       "label": "宿卫",
       "aliases": []
     },
@@ -6410,22 +6450,22 @@
       ]
     },
     "寒门": {
-      "type": "concept",
+      "type": "institution",
       "label": "寒门",
       "aliases": []
     },
     "察举": {
-      "type": "concept",
+      "type": "institution",
       "label": "察举",
       "aliases": []
     },
     "封事": {
-      "type": "concept",
+      "type": "institution",
       "label": "封事",
       "aliases": []
     },
     "封国": {
-      "type": "concept",
+      "type": "institution",
       "label": "封国",
       "aliases": []
     },
@@ -6447,12 +6487,12 @@
       "aliases": []
     },
     "封爵": {
-      "type": "concept",
+      "type": "institution",
       "label": "封爵",
       "aliases": []
     },
     "封禅": {
-      "type": "concept",
+      "type": "ritual",
       "label": "封禅",
       "aliases": []
     },
@@ -6542,12 +6582,12 @@
       "aliases": []
     },
     "尺度": {
-      "type": "concept",
+      "type": "economy",
       "label": "尺度",
       "aliases": []
     },
     "居丧": {
-      "type": "concept",
+      "type": "ritual",
       "label": "居丧",
       "aliases": []
     },
@@ -6567,22 +6607,22 @@
       "aliases": []
     },
     "履": {
-      "type": "concept",
+      "type": "artifact",
       "label": "履",
       "aliases": []
     },
     "屦": {
-      "type": "concept",
+      "type": "artifact",
       "label": "屦",
       "aliases": []
     },
     "屯戍": {
-      "type": "concept",
+      "type": "military",
       "label": "屯戍",
       "aliases": []
     },
     "屯田": {
-      "type": "concept",
+      "type": "economy",
       "label": "屯田",
       "aliases": []
     },
@@ -6605,7 +6645,7 @@
       ]
     },
     "岁星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "岁星",
       "aliases": []
     },
@@ -6869,37 +6909,37 @@
       "aliases": []
     },
     "巡守": {
-      "type": "concept",
+      "type": "ritual",
       "label": "巡守",
       "aliases": []
     },
     "巡幸": {
-      "type": "concept",
+      "type": "ritual",
       "label": "巡幸",
       "aliases": []
     },
     "巡游": {
-      "type": "concept",
+      "type": "ritual",
       "label": "巡游",
       "aliases": []
     },
     "巡狩": {
-      "type": "concept",
+      "type": "institution",
       "label": "巡狩",
       "aliases": []
     },
     "巡省": {
-      "type": "concept",
+      "type": "ritual",
       "label": "巡省",
       "aliases": []
     },
     "巡行": {
-      "type": "concept",
+      "type": "institution",
       "label": "巡行",
       "aliases": []
     },
     "工匠": {
-      "type": "concept",
+      "type": "economy",
       "label": "工匠",
       "aliases": []
     },
@@ -6934,37 +6974,37 @@
       "aliases": []
     },
     "巾": {
-      "type": "concept",
+      "type": "artifact",
       "label": "巾",
       "aliases": []
     },
     "市井": {
-      "type": "concept",
+      "type": "economy",
       "label": "市井",
       "aliases": []
     },
     "市易": {
-      "type": "concept",
+      "type": "economy",
       "label": "市易",
       "aliases": []
     },
     "市舶": {
-      "type": "concept",
+      "type": "economy",
       "label": "市舶",
       "aliases": []
     },
     "布": {
-      "type": "concept",
+      "type": "economy",
       "label": "布",
       "aliases": []
     },
     "布帛": {
-      "type": "concept",
+      "type": "economy",
       "label": "布帛",
       "aliases": []
     },
     "布泉": {
-      "type": "concept",
+      "type": "economy",
       "label": "布泉",
       "aliases": []
     },
@@ -6974,22 +7014,22 @@
       "aliases": []
     },
     "帛": {
-      "type": "concept",
+      "type": "artifact",
       "label": "帛",
       "aliases": []
     },
     "帝室": {
-      "type": "concept",
+      "type": "ritual",
       "label": "帝室",
       "aliases": []
     },
     "帷幄": {
-      "type": "concept",
+      "type": "military",
       "label": "帷幄",
       "aliases": []
     },
     "常平仓": {
-      "type": "concept",
+      "type": "economy",
       "label": "常平仓",
       "aliases": []
     },
@@ -7028,12 +7068,12 @@
       "aliases": []
     },
     "平": {
-      "type": "concept",
+      "type": "military",
       "label": "平",
       "aliases": []
     },
     "平准": {
-      "type": "concept",
+      "type": "economy",
       "label": "平准",
       "aliases": []
     },
@@ -7044,8 +7084,13 @@
         "赵胜"
       ]
     },
+    "平城": {
+      "type": "place",
+      "label": "平城",
+      "aliases": []
+    },
     "年号": {
-      "type": "concept",
+      "type": "institution",
       "label": "年号",
       "aliases": []
     },
@@ -7057,6 +7102,11 @@
     "幽州": {
       "type": "place",
       "label": "幽州",
+      "aliases": []
+    },
+    "广陵": {
+      "type": "place",
+      "label": "广陵",
       "aliases": []
     },
     "庐陵王义真": {
@@ -7073,7 +7123,7 @@
       "aliases": []
     },
     "库藏": {
-      "type": "concept",
+      "type": "economy",
       "label": "库藏",
       "aliases": []
     },
@@ -7088,12 +7138,12 @@
       "aliases": []
     },
     "庙祭": {
-      "type": "concept",
+      "type": "ritual",
       "label": "庙祭",
       "aliases": []
     },
     "府兵": {
-      "type": "concept",
+      "type": "military",
       "label": "府兵",
       "aliases": []
     },
@@ -7103,7 +7153,7 @@
       "aliases": []
     },
     "府库": {
-      "type": "concept",
+      "type": "economy",
       "label": "府库",
       "aliases": []
     },
@@ -7143,22 +7193,22 @@
       "aliases": []
     },
     "度支": {
-      "type": "concept",
+      "type": "economy",
       "label": "度支",
       "aliases": []
     },
     "度田": {
-      "type": "concept",
+      "type": "economy",
       "label": "度田",
       "aliases": []
     },
     "度量衡": {
-      "type": "concept",
+      "type": "institution",
       "label": "度量衡",
       "aliases": []
     },
     "庶": {
-      "type": "concept",
+      "type": "ritual",
       "label": "庶",
       "aliases": []
     },
@@ -7245,7 +7295,7 @@
       ]
     },
     "廊": {
-      "type": "concept",
+      "type": "artifact",
       "label": "廊",
       "aliases": []
     },
@@ -7268,12 +7318,12 @@
       "aliases": []
     },
     "廪给": {
-      "type": "concept",
+      "type": "economy",
       "label": "廪给",
       "aliases": []
     },
     "廪食": {
-      "type": "concept",
+      "type": "economy",
       "label": "廪食",
       "aliases": []
     },
@@ -7298,7 +7348,7 @@
       "aliases": []
     },
     "开元钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "开元钱",
       "aliases": []
     },
@@ -7313,17 +7363,17 @@
       "aliases": []
     },
     "弃市": {
-      "type": "concept",
+      "type": "law",
       "label": "弃市",
       "aliases": []
     },
     "弓": {
-      "type": "concept",
+      "type": "artifact",
       "label": "弓",
       "aliases": []
     },
     "弓矢": {
-      "type": "concept",
+      "type": "artifact",
       "label": "弓矢",
       "aliases": []
     },
@@ -8015,7 +8065,7 @@
       "aliases": []
     },
     "弩": {
-      "type": "concept",
+      "type": "artifact",
       "label": "弩",
       "aliases": []
     },
@@ -8025,12 +8075,12 @@
       "aliases": []
     },
     "归老": {
-      "type": "concept",
+      "type": "institution",
       "label": "归老",
       "aliases": []
     },
     "彗星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "彗星",
       "aliases": []
     },
@@ -8081,22 +8131,22 @@
       ]
     },
     "征": {
-      "type": "concept",
+      "type": "military",
       "label": "征",
       "aliases": []
     },
     "征兵": {
-      "type": "concept",
+      "type": "military",
       "label": "征兵",
       "aliases": []
     },
     "径": {
-      "type": "concept",
+      "type": "economy",
       "label": "径",
       "aliases": []
     },
     "律令": {
-      "type": "concept",
+      "type": "law",
       "label": "律令",
       "aliases": []
     },
@@ -8148,6 +8198,11 @@
     "徐州": {
       "type": "place",
       "label": "徐州",
+      "aliases": []
+    },
+    "徐广": {
+      "type": "person",
+      "label": "徐广",
       "aliases": []
     },
     "徐度": {
@@ -8270,7 +8325,7 @@
       "aliases": []
     },
     "徒刑": {
-      "type": "concept",
+      "type": "law",
       "label": "徒刑",
       "aliases": []
     },
@@ -8295,7 +8350,7 @@
       "aliases": []
     },
     "徭役": {
-      "type": "concept",
+      "type": "economy",
       "label": "徭役",
       "aliases": []
     },
@@ -8462,7 +8517,7 @@
       "aliases": []
     },
     "戈": {
-      "type": "concept",
+      "type": "artifact",
       "label": "戈",
       "aliases": []
     },
@@ -8482,7 +8537,7 @@
       "aliases": []
     },
     "战": {
-      "type": "concept",
+      "type": "military",
       "label": "战",
       "aliases": []
     },
@@ -8503,12 +8558,12 @@
       ]
     },
     "战舰": {
-      "type": "concept",
+      "type": "military",
       "label": "战舰",
       "aliases": []
     },
     "戟": {
-      "type": "concept",
+      "type": "artifact",
       "label": "戟",
       "aliases": []
     },
@@ -8536,17 +8591,17 @@
       "aliases": []
     },
     "户": {
-      "type": "concept",
+      "type": "artifact",
       "label": "户",
       "aliases": []
     },
     "户籍": {
-      "type": "concept",
+      "type": "institution",
       "label": "户籍",
       "aliases": []
     },
     "户调": {
-      "type": "concept",
+      "type": "economy",
       "label": "户调",
       "aliases": []
     },
@@ -8646,13 +8701,18 @@
       "label": "指鹿为马",
       "aliases": []
     },
+    "挚虞": {
+      "type": "person",
+      "label": "挚虞",
+      "aliases": []
+    },
     "挟天子": {
       "type": "concept",
       "label": "挟天子",
       "aliases": []
     },
     "据守": {
-      "type": "concept",
+      "type": "military",
       "label": "据守",
       "aliases": []
     },
@@ -8662,37 +8722,37 @@
       "aliases": []
     },
     "掩袭": {
-      "type": "concept",
+      "type": "military",
       "label": "掩袭",
       "aliases": []
     },
     "摄政": {
-      "type": "concept",
+      "type": "institution",
       "label": "摄政",
       "aliases": []
     },
     "改元": {
-      "type": "concept",
+      "type": "institution",
       "label": "改元",
       "aliases": []
     },
     "攻": {
-      "type": "concept",
+      "type": "military",
       "label": "攻",
       "aliases": []
     },
     "攻城": {
-      "type": "concept",
+      "type": "military",
       "label": "攻城",
       "aliases": []
     },
     "敕书": {
-      "type": "concept",
+      "type": "institution",
       "label": "敕书",
       "aliases": []
     },
     "敕令": {
-      "type": "concept",
+      "type": "institution",
       "label": "敕令",
       "aliases": []
     },
@@ -8702,7 +8762,7 @@
       "aliases": []
     },
     "教坊": {
-      "type": "concept",
+      "type": "institution",
       "label": "教坊",
       "aliases": []
     },
@@ -8751,7 +8811,7 @@
       "aliases": []
     },
     "文学": {
-      "type": "concept",
+      "type": "institution",
       "label": "文学",
       "aliases": []
     },
@@ -8763,7 +8823,7 @@
       ]
     },
     "文章": {
-      "type": "concept",
+      "type": "institution",
       "label": "文章",
       "aliases": []
     },
@@ -8788,7 +8848,7 @@
       "aliases": []
     },
     "斗升": {
-      "type": "concept",
+      "type": "economy",
       "label": "斗升",
       "aliases": []
     },
@@ -8811,17 +8871,17 @@
       "aliases": []
     },
     "斤两": {
-      "type": "concept",
+      "type": "economy",
       "label": "斤两",
       "aliases": []
     },
     "斥候": {
-      "type": "concept",
+      "type": "military",
       "label": "斥候",
       "aliases": []
     },
     "斧": {
-      "type": "concept",
+      "type": "artifact",
       "label": "斧",
       "aliases": []
     },
@@ -8831,7 +8891,7 @@
       "aliases": []
     },
     "断狱": {
-      "type": "concept",
+      "type": "law",
       "label": "断狱",
       "aliases": []
     },
@@ -8841,17 +8901,17 @@
       "aliases": []
     },
     "方镇": {
-      "type": "concept",
+      "type": "institution",
       "label": "方镇",
       "aliases": []
     },
     "旌旗": {
-      "type": "concept",
+      "type": "artifact",
       "label": "旌旗",
       "aliases": []
     },
     "旌节": {
-      "type": "concept",
+      "type": "artifact",
       "label": "旌节",
       "aliases": []
     },
@@ -8861,7 +8921,7 @@
       "aliases": []
     },
     "族诛": {
-      "type": "concept",
+      "type": "law",
       "label": "族诛",
       "aliases": []
     },
@@ -8871,12 +8931,12 @@
       "aliases": []
     },
     "日": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "日",
       "aliases": []
     },
     "日食": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "日食",
       "aliases": []
     },
@@ -8886,12 +8946,12 @@
       "aliases": []
     },
     "旬": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "旬",
       "aliases": []
     },
     "旱灾": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "旱灾",
       "aliases": []
     },
@@ -8924,27 +8984,27 @@
       "aliases": []
     },
     "明经": {
-      "type": "concept",
+      "type": "institution",
       "label": "明经",
       "aliases": []
     },
     "星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "星",
       "aliases": []
     },
     "星变": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "星变",
       "aliases": []
     },
     "星孛": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "星孛",
       "aliases": []
     },
     "星气": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "星气",
       "aliases": []
     },
@@ -8954,7 +9014,7 @@
       "aliases": []
     },
     "春宫": {
-      "type": "concept",
+      "type": "institution",
       "label": "春宫",
       "aliases": []
     },
@@ -8971,7 +9031,7 @@
       "aliases": []
     },
     "昭穆": {
-      "type": "concept",
+      "type": "ritual",
       "label": "昭穆",
       "aliases": []
     },
@@ -9055,7 +9115,7 @@
       "aliases": []
     },
     "晦": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "晦",
       "aliases": []
     },
@@ -9118,7 +9178,7 @@
       "aliases": []
     },
     "更赋": {
-      "type": "concept",
+      "type": "economy",
       "label": "更赋",
       "aliases": []
     },
@@ -9214,7 +9274,7 @@
       "aliases": []
     },
     "月": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "月",
       "aliases": []
     },
@@ -9229,17 +9289,17 @@
       "aliases": []
     },
     "服丧": {
-      "type": "concept",
+      "type": "ritual",
       "label": "服丧",
       "aliases": []
     },
     "服色": {
-      "type": "concept",
+      "type": "institution",
       "label": "服色",
       "aliases": []
     },
     "朔": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "朔",
       "aliases": []
     },
@@ -9249,37 +9309,37 @@
       "aliases": []
     },
     "朔望": {
-      "type": "concept",
+      "type": "institution",
       "label": "朔望",
       "aliases": []
     },
     "朕": {
-      "type": "concept",
+      "type": "institution",
       "label": "朕",
       "aliases": []
     },
     "望气": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "望气",
       "aliases": []
     },
     "朝仪": {
-      "type": "concept",
+      "type": "institution",
       "label": "朝仪",
       "aliases": []
     },
     "朝会": {
-      "type": "concept",
+      "type": "institution",
       "label": "朝会",
       "aliases": []
     },
     "朝贡": {
-      "type": "concept",
+      "type": "institution",
       "label": "朝贡",
       "aliases": []
     },
     "朝贺": {
-      "type": "concept",
+      "type": "institution",
       "label": "朝贺",
       "aliases": []
     },
@@ -9319,7 +9379,7 @@
       "aliases": []
     },
     "杂调": {
-      "type": "concept",
+      "type": "economy",
       "label": "杂调",
       "aliases": []
     },
@@ -9329,7 +9389,7 @@
       "aliases": []
     },
     "权衡": {
-      "type": "concept",
+      "type": "economy",
       "label": "权衡",
       "aliases": []
     },
@@ -10728,7 +10788,7 @@
       "aliases": []
     },
     "杯": {
-      "type": "concept",
+      "type": "artifact",
       "label": "杯",
       "aliases": []
     },
@@ -10738,7 +10798,7 @@
       "aliases": []
     },
     "枭首": {
-      "type": "concept",
+      "type": "law",
       "label": "枭首",
       "aliases": []
     },
@@ -10823,12 +10883,12 @@
       ]
     },
     "柷": {
-      "type": "concept",
+      "type": "artifact",
       "label": "柷",
       "aliases": []
     },
     "栈道": {
-      "type": "concept",
+      "type": "economy",
       "label": "栈道",
       "aliases": []
     },
@@ -10858,7 +10918,7 @@
       "aliases": []
     },
     "案": {
-      "type": "concept",
+      "type": "artifact",
       "label": "案",
       "aliases": []
     },
@@ -10882,7 +10942,7 @@
       ]
     },
     "桑麻": {
-      "type": "concept",
+      "type": "economy",
       "label": "桑麻",
       "aliases": []
     },
@@ -10949,7 +11009,7 @@
       ]
     },
     "桥": {
-      "type": "concept",
+      "type": "artifact",
       "label": "桥",
       "aliases": []
     },
@@ -11029,17 +11089,17 @@
       "aliases": []
     },
     "棉": {
-      "type": "concept",
+      "type": "economy",
       "label": "棉",
       "aliases": []
     },
     "棨信": {
-      "type": "concept",
+      "type": "artifact",
       "label": "棨信",
       "aliases": []
     },
     "棺椁": {
-      "type": "concept",
+      "type": "ritual",
       "label": "棺椁",
       "aliases": []
     },
@@ -11057,7 +11117,7 @@
       ]
     },
     "楼": {
-      "type": "concept",
+      "type": "artifact",
       "label": "楼",
       "aliases": []
     },
@@ -11066,23 +11126,28 @@
       "label": "楼兰",
       "aliases": []
     },
+    "楼玄": {
+      "type": "person",
+      "label": "楼玄",
+      "aliases": []
+    },
     "楼缓": {
       "type": "person",
       "label": "楼缓",
       "aliases": []
     },
     "楼船": {
-      "type": "concept",
+      "type": "military",
       "label": "楼船",
       "aliases": []
     },
     "榷酒": {
-      "type": "concept",
+      "type": "economy",
       "label": "榷酒",
       "aliases": []
     },
     "槊": {
-      "type": "concept",
+      "type": "artifact",
       "label": "槊",
       "aliases": []
     },
@@ -11173,12 +11238,12 @@
       ]
     },
     "檄": {
-      "type": "concept",
+      "type": "military",
       "label": "檄",
       "aliases": []
     },
     "檄文": {
-      "type": "concept",
+      "type": "military",
       "label": "檄文",
       "aliases": []
     },
@@ -11193,7 +11258,7 @@
       "aliases": []
     },
     "歃血": {
-      "type": "concept",
+      "type": "ritual",
       "label": "歃血",
       "aliases": []
     },
@@ -11213,7 +11278,7 @@
       "aliases": []
     },
     "正朔": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "正朔",
       "aliases": []
     },
@@ -11286,17 +11351,17 @@
       "aliases": []
     },
     "殡": {
-      "type": "concept",
+      "type": "ritual",
       "label": "殡",
       "aliases": []
     },
     "殡葬": {
-      "type": "concept",
+      "type": "ritual",
       "label": "殡葬",
       "aliases": []
     },
     "殳": {
-      "type": "concept",
+      "type": "artifact",
       "label": "殳",
       "aliases": []
     },
@@ -11408,7 +11473,7 @@
       "aliases": []
     },
     "殿": {
-      "type": "concept",
+      "type": "artifact",
       "label": "殿",
       "aliases": []
     },
@@ -11495,7 +11560,7 @@
       ]
     },
     "氏姓": {
-      "type": "concept",
+      "type": "ritual",
       "label": "氏姓",
       "aliases": []
     },
@@ -11505,7 +11570,7 @@
       "aliases": []
     },
     "民兵": {
-      "type": "concept",
+      "type": "military",
       "label": "民兵",
       "aliases": []
     },
@@ -11515,22 +11580,22 @@
       "aliases": []
     },
     "水战": {
-      "type": "concept",
+      "type": "military",
       "label": "水战",
       "aliases": []
     },
     "水攻": {
-      "type": "concept",
+      "type": "military",
       "label": "水攻",
       "aliases": []
     },
     "水灾": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "水灾",
       "aliases": []
     },
     "水运": {
-      "type": "concept",
+      "type": "economy",
       "label": "水运",
       "aliases": []
     },
@@ -11542,6 +11607,11 @@
     "永贞革新": {
       "type": "event",
       "label": "永贞革新",
+      "aliases": []
+    },
+    "汉中": {
+      "type": "place",
+      "label": "汉中",
       "aliases": []
     },
     "汉书": {
@@ -11713,6 +11783,11 @@
       "label": "江统",
       "aliases": []
     },
+    "江都": {
+      "type": "place",
+      "label": "江都",
+      "aliases": []
+    },
     "江陵": {
       "type": "place",
       "label": "江陵",
@@ -11804,7 +11879,7 @@
       "aliases": []
     },
     "沟洫": {
-      "type": "concept",
+      "type": "economy",
       "label": "沟洫",
       "aliases": []
     },
@@ -11841,7 +11916,7 @@
       "aliases": []
     },
     "河渠": {
-      "type": "concept",
+      "type": "economy",
       "label": "河渠",
       "aliases": []
     },
@@ -11861,7 +11936,7 @@
       "aliases": []
     },
     "法令": {
-      "type": "concept",
+      "type": "law",
       "label": "法令",
       "aliases": []
     },
@@ -11871,7 +11946,7 @@
       "aliases": []
     },
     "法服": {
-      "type": "concept",
+      "type": "artifact",
       "label": "法服",
       "aliases": []
     },
@@ -11907,17 +11982,17 @@
       ]
     },
     "津": {
-      "type": "concept",
+      "type": "economy",
       "label": "津",
       "aliases": []
     },
     "津渡": {
-      "type": "concept",
+      "type": "economy",
       "label": "津渡",
       "aliases": []
     },
     "流刑": {
-      "type": "concept",
+      "type": "law",
       "label": "流刑",
       "aliases": []
     },
@@ -11927,12 +12002,12 @@
       "aliases": []
     },
     "流星": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "流星",
       "aliases": []
     },
     "流移": {
-      "type": "concept",
+      "type": "institution",
       "label": "流移",
       "aliases": []
     },
@@ -11959,7 +12034,7 @@
       "aliases": []
     },
     "浮桥": {
-      "type": "concept",
+      "type": "economy",
       "label": "浮桥",
       "aliases": []
     },
@@ -11969,7 +12044,7 @@
       "aliases": []
     },
     "海运": {
-      "type": "concept",
+      "type": "economy",
       "label": "海运",
       "aliases": []
     },
@@ -12103,12 +12178,12 @@
       "aliases": []
     },
     "漕渠": {
-      "type": "concept",
+      "type": "economy",
       "label": "漕渠",
       "aliases": []
     },
     "漕运": {
-      "type": "concept",
+      "type": "economy",
       "label": "漕运",
       "aliases": []
     },
@@ -12150,12 +12225,12 @@
       "aliases": []
     },
     "火攻": {
-      "type": "concept",
+      "type": "military",
       "label": "火攻",
       "aliases": []
     },
     "火灾": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "火灾",
       "aliases": []
     },
@@ -12170,7 +12245,7 @@
       "aliases": []
     },
     "烽燧": {
-      "type": "concept",
+      "type": "military",
       "label": "烽燧",
       "aliases": []
     },
@@ -12198,7 +12273,7 @@
       "aliases": []
     },
     "燎": {
-      "type": "concept",
+      "type": "ritual",
       "label": "燎",
       "aliases": []
     },
@@ -12238,23 +12313,28 @@
       "label": "爵",
       "aliases": []
     },
-    "版籍": {
+    "爵位": {
       "type": "concept",
+      "label": "爵位",
+      "aliases": []
+    },
+    "版籍": {
+      "type": "institution",
       "label": "版籍",
       "aliases": []
     },
     "牖": {
-      "type": "concept",
+      "type": "artifact",
       "label": "牖",
       "aliases": []
     },
     "牙兵": {
-      "type": "concept",
+      "type": "military",
       "label": "牙兵",
       "aliases": []
     },
     "牙校": {
-      "type": "concept",
+      "type": "military",
       "label": "牙校",
       "aliases": []
     },
@@ -12292,7 +12372,7 @@
       "aliases": []
     },
     "牧马": {
-      "type": "concept",
+      "type": "economy",
       "label": "牧马",
       "aliases": []
     },
@@ -12307,22 +12387,22 @@
       "aliases": []
     },
     "特赦": {
-      "type": "concept",
+      "type": "law",
       "label": "特赦",
       "aliases": []
     },
     "牺牲": {
-      "type": "concept",
+      "type": "ritual",
       "label": "牺牲",
       "aliases": []
     },
     "犁": {
-      "type": "concept",
+      "type": "artifact",
       "label": "犁",
       "aliases": []
     },
     "犒军": {
-      "type": "concept",
+      "type": "military",
       "label": "犒军",
       "aliases": []
     },
@@ -12381,7 +12461,7 @@
       "aliases": []
     },
     "狱讼": {
-      "type": "concept",
+      "type": "law",
       "label": "狱讼",
       "aliases": []
     },
@@ -12415,7 +12495,7 @@
       ]
     },
     "玉": {
-      "type": "concept",
+      "type": "artifact",
       "label": "玉",
       "aliases": []
     },
@@ -12464,6 +12544,11 @@
         "王俭",
         "王仲宝"
       ]
+    },
+    "王修": {
+      "type": "person",
+      "label": "王修",
+      "aliases": []
     },
     "王僧绰": {
       "type": "person",
@@ -12605,7 +12690,7 @@
       ]
     },
     "王室": {
-      "type": "concept",
+      "type": "ritual",
       "label": "王室",
       "aliases": []
     },
@@ -12802,7 +12887,7 @@
       "aliases": []
     },
     "王族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "王族",
       "aliases": []
     },
@@ -13202,7 +13287,7 @@
       "aliases": []
     },
     "玺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "玺",
       "aliases": []
     },
@@ -13212,7 +13297,7 @@
       "aliases": []
     },
     "珠": {
-      "type": "concept",
+      "type": "artifact",
       "label": "珠",
       "aliases": []
     },
@@ -13245,17 +13330,17 @@
       ]
     },
     "琴": {
-      "type": "concept",
+      "type": "artifact",
       "label": "琴",
       "aliases": []
     },
     "瑟": {
-      "type": "concept",
+      "type": "artifact",
       "label": "瑟",
       "aliases": []
     },
     "璧": {
-      "type": "concept",
+      "type": "artifact",
       "label": "璧",
       "aliases": []
     },
@@ -13293,7 +13378,7 @@
       "aliases": []
     },
     "甘露": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "甘露",
       "aliases": []
     },
@@ -13315,7 +13400,7 @@
       "aliases": []
     },
     "田事": {
-      "type": "concept",
+      "type": "economy",
       "label": "田事",
       "aliases": []
     },
@@ -13409,7 +13494,7 @@
       "aliases": []
     },
     "田畴": {
-      "type": "concept",
+      "type": "economy",
       "label": "田畴",
       "aliases": []
     },
@@ -13419,7 +13504,7 @@
       "aliases": []
     },
     "田租": {
-      "type": "concept",
+      "type": "economy",
       "label": "田租",
       "aliases": []
     },
@@ -13449,12 +13534,12 @@
       "aliases": []
     },
     "甲": {
-      "type": "concept",
+      "type": "artifact",
       "label": "甲",
       "aliases": []
     },
     "甲胄": {
-      "type": "concept",
+      "type": "artifact",
       "label": "甲胄",
       "aliases": []
     },
@@ -13519,7 +13604,7 @@
       "aliases": []
     },
     "留后": {
-      "type": "concept",
+      "type": "institution",
       "label": "留后",
       "aliases": []
     },
@@ -13529,17 +13614,17 @@
       "aliases": []
     },
     "畜产": {
-      "type": "concept",
+      "type": "economy",
       "label": "畜产",
       "aliases": []
     },
     "畜牧": {
-      "type": "concept",
+      "type": "economy",
       "label": "畜牧",
       "aliases": []
     },
     "番上": {
-      "type": "concept",
+      "type": "military",
       "label": "番上",
       "aliases": []
     },
@@ -13554,7 +13639,7 @@
       "aliases": []
     },
     "疾疫": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "疾疫",
       "aliases": []
     },
@@ -13622,7 +13707,7 @@
       "aliases": []
     },
     "百工": {
-      "type": "concept",
+      "type": "economy",
       "label": "百工",
       "aliases": []
     },
@@ -13647,17 +13732,17 @@
       "aliases": []
     },
     "皇后": {
-      "type": "concept",
+      "type": "institution",
       "label": "皇后",
       "aliases": []
     },
     "皇太后": {
-      "type": "concept",
+      "type": "institution",
       "label": "皇太后",
       "aliases": []
     },
     "皇族": {
-      "type": "concept",
+      "type": "ritual",
       "label": "皇族",
       "aliases": []
     },
@@ -13710,7 +13795,7 @@
       "aliases": []
     },
     "盆": {
-      "type": "concept",
+      "type": "artifact",
       "label": "盆",
       "aliases": []
     },
@@ -13720,12 +13805,12 @@
       "aliases": []
     },
     "盐铁": {
-      "type": "concept",
+      "type": "economy",
       "label": "盐铁",
       "aliases": []
     },
     "监国": {
-      "type": "concept",
+      "type": "institution",
       "label": "监国",
       "aliases": []
     },
@@ -13745,7 +13830,7 @@
       "aliases": []
     },
     "盘": {
-      "type": "concept",
+      "type": "artifact",
       "label": "盘",
       "aliases": []
     },
@@ -13755,7 +13840,7 @@
       "aliases": []
     },
     "盟誓": {
-      "type": "concept",
+      "type": "ritual",
       "label": "盟誓",
       "aliases": []
     },
@@ -13765,7 +13850,7 @@
       "aliases": []
     },
     "盾": {
-      "type": "concept",
+      "type": "artifact",
       "label": "盾",
       "aliases": []
     },
@@ -13775,7 +13860,7 @@
       "aliases": []
     },
     "矢": {
-      "type": "concept",
+      "type": "artifact",
       "label": "矢",
       "aliases": []
     },
@@ -13889,17 +13974,17 @@
       "aliases": []
     },
     "碗": {
-      "type": "concept",
+      "type": "artifact",
       "label": "碗",
       "aliases": []
     },
     "磬": {
-      "type": "concept",
+      "type": "artifact",
       "label": "磬",
       "aliases": []
     },
     "礼乐": {
-      "type": "concept",
+      "type": "institution",
       "label": "礼乐",
       "aliases": []
     },
@@ -13914,7 +13999,7 @@
       "aliases": []
     },
     "祖庙": {
-      "type": "concept",
+      "type": "ritual",
       "label": "祖庙",
       "aliases": []
     },
@@ -13941,12 +14026,17 @@
       ]
     },
     "祝诅": {
-      "type": "concept",
+      "type": "law",
       "label": "祝诅",
       "aliases": []
     },
-    "神策军": {
+    "神武军": {
       "type": "concept",
+      "label": "神武军",
+      "aliases": []
+    },
+    "神策军": {
+      "type": "military",
       "label": "神策军",
       "aliases": []
     },
@@ -13956,17 +14046,17 @@
       "aliases": []
     },
     "祥瑞": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "祥瑞",
       "aliases": []
     },
     "祭地": {
-      "type": "concept",
+      "type": "ritual",
       "label": "祭地",
       "aliases": []
     },
     "祭天": {
-      "type": "concept",
+      "type": "ritual",
       "label": "祭天",
       "aliases": []
     },
@@ -13986,37 +14076,37 @@
       "aliases": []
     },
     "禁军": {
-      "type": "concept",
+      "type": "military",
       "label": "禁军",
       "aliases": []
     },
     "禁卫": {
-      "type": "concept",
+      "type": "military",
       "label": "禁卫",
       "aliases": []
     },
     "禅让": {
-      "type": "concept",
+      "type": "institution",
       "label": "禅让",
       "aliases": []
     },
     "禳": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "禳",
       "aliases": []
     },
     "禳灾": {
-      "type": "concept",
+      "type": "ritual",
       "label": "禳灾",
       "aliases": []
     },
     "离间": {
-      "type": "concept",
+      "type": "military",
       "label": "离间",
       "aliases": []
     },
     "秀才": {
-      "type": "concept",
+      "type": "institution",
       "label": "秀才",
       "aliases": []
     },
@@ -14051,7 +14141,7 @@
       "aliases": []
     },
     "租庸调": {
-      "type": "concept",
+      "type": "economy",
       "label": "租庸调",
       "aliases": []
     },
@@ -14143,22 +14233,22 @@
       "aliases": []
     },
     "称制": {
-      "type": "concept",
+      "type": "institution",
       "label": "称制",
       "aliases": []
     },
     "称帝": {
-      "type": "concept",
+      "type": "institution",
       "label": "称帝",
       "aliases": []
     },
     "移书": {
-      "type": "concept",
+      "type": "institution",
       "label": "移书",
       "aliases": []
     },
     "移民": {
-      "type": "concept",
+      "type": "economy",
       "label": "移民",
       "aliases": []
     },
@@ -14233,7 +14323,7 @@
       "aliases": []
     },
     "税": {
-      "type": "concept",
+      "type": "economy",
       "label": "税",
       "aliases": []
     },
@@ -14248,7 +14338,7 @@
       "aliases": []
     },
     "稼穑": {
-      "type": "concept",
+      "type": "economy",
       "label": "稼穑",
       "aliases": []
     },
@@ -14278,17 +14368,17 @@
       "aliases": []
     },
     "突围": {
-      "type": "concept",
+      "type": "military",
       "label": "突围",
       "aliases": []
     },
     "突骑": {
-      "type": "concept",
+      "type": "military",
       "label": "突骑",
       "aliases": []
     },
     "窗": {
-      "type": "concept",
+      "type": "artifact",
       "label": "窗",
       "aliases": []
     },
@@ -14383,7 +14473,7 @@
       "aliases": []
     },
     "立嗣": {
-      "type": "concept",
+      "type": "institution",
       "label": "立嗣",
       "aliases": []
     },
@@ -14393,7 +14483,7 @@
       "aliases": []
     },
     "章奏": {
-      "type": "concept",
+      "type": "institution",
       "label": "章奏",
       "aliases": []
     },
@@ -14410,7 +14500,7 @@
       ]
     },
     "笏": {
-      "type": "concept",
+      "type": "artifact",
       "label": "笏",
       "aliases": []
     },
@@ -14420,7 +14510,7 @@
       "aliases": []
     },
     "笙": {
-      "type": "concept",
+      "type": "artifact",
       "label": "笙",
       "aliases": []
     },
@@ -14430,7 +14520,7 @@
       "aliases": []
     },
     "符信": {
-      "type": "concept",
+      "type": "artifact",
       "label": "符信",
       "aliases": []
     },
@@ -14447,17 +14537,17 @@
       "aliases": []
     },
     "符玺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "符玺",
       "aliases": []
     },
     "符瑞": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "符瑞",
       "aliases": []
     },
     "符节": {
-      "type": "concept",
+      "type": "military",
       "label": "符节",
       "aliases": []
     },
@@ -16824,17 +16914,22 @@
       "aliases": []
     },
     "筑城": {
-      "type": "concept",
+      "type": "military",
       "label": "筑城",
       "aliases": []
     },
     "策书": {
-      "type": "concept",
+      "type": "institution",
       "label": "策书",
       "aliases": []
     },
-    "筝": {
+    "策试": {
       "type": "concept",
+      "label": "策试",
+      "aliases": []
+    },
+    "筝": {
+      "type": "artifact",
       "label": "筝",
       "aliases": []
     },
@@ -16864,12 +16959,12 @@
       ]
     },
     "箫": {
-      "type": "concept",
+      "type": "artifact",
       "label": "箫",
       "aliases": []
     },
     "箸": {
-      "type": "concept",
+      "type": "artifact",
       "label": "箸",
       "aliases": []
     },
@@ -16879,7 +16974,7 @@
       "aliases": []
     },
     "簿籍": {
-      "type": "concept",
+      "type": "institution",
       "label": "簿籍",
       "aliases": []
     },
@@ -16894,12 +16989,12 @@
       "aliases": []
     },
     "粮道": {
-      "type": "concept",
+      "type": "military",
       "label": "粮道",
       "aliases": []
     },
     "粮饷": {
-      "type": "concept",
+      "type": "military",
       "label": "粮饷",
       "aliases": []
     },
@@ -16909,7 +17004,7 @@
       "aliases": []
     },
     "精兵": {
-      "type": "concept",
+      "type": "military",
       "label": "精兵",
       "aliases": []
     },
@@ -16934,12 +17029,12 @@
       "aliases": []
     },
     "縠": {
-      "type": "concept",
+      "type": "artifact",
       "label": "縠",
       "aliases": []
     },
     "纨": {
-      "type": "concept",
+      "type": "artifact",
       "label": "纨",
       "aliases": []
     },
@@ -16954,12 +17049,12 @@
       "aliases": []
     },
     "纬书": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "纬书",
       "aliases": []
     },
     "纳币": {
-      "type": "concept",
+      "type": "ritual",
       "label": "纳币",
       "aliases": []
     },
@@ -16977,22 +17072,22 @@
       "aliases": []
     },
     "纸钱": {
-      "type": "concept",
+      "type": "ritual",
       "label": "纸钱",
       "aliases": []
     },
     "纺绩": {
-      "type": "concept",
+      "type": "economy",
       "label": "纺绩",
       "aliases": []
     },
     "细作": {
-      "type": "concept",
+      "type": "military",
       "label": "细作",
       "aliases": []
     },
     "织": {
-      "type": "concept",
+      "type": "economy",
       "label": "织",
       "aliases": []
     },
@@ -17012,32 +17107,32 @@
       "aliases": []
     },
     "结盟": {
-      "type": "concept",
+      "type": "military",
       "label": "结盟",
       "aliases": []
     },
     "绢": {
-      "type": "concept",
+      "type": "economy",
       "label": "绢",
       "aliases": []
     },
     "绣": {
-      "type": "concept",
+      "type": "artifact",
       "label": "绣",
       "aliases": []
     },
     "继": {
-      "type": "concept",
+      "type": "ritual",
       "label": "继",
       "aliases": []
     },
     "继嗣": {
-      "type": "concept",
+      "type": "institution",
       "label": "继嗣",
       "aliases": []
     },
     "继承": {
-      "type": "concept",
+      "type": "institution",
       "label": "继承",
       "aliases": []
     },
@@ -17047,12 +17142,12 @@
       "aliases": []
     },
     "绮": {
-      "type": "concept",
+      "type": "artifact",
       "label": "绮",
       "aliases": []
     },
     "绶": {
-      "type": "concept",
+      "type": "artifact",
       "label": "绶",
       "aliases": []
     },
@@ -17074,17 +17169,17 @@
       "aliases": []
     },
     "缣": {
-      "type": "concept",
+      "type": "artifact",
       "label": "缣",
       "aliases": []
     },
     "缮修": {
-      "type": "concept",
+      "type": "artifact",
       "label": "缮修",
       "aliases": []
     },
     "罗": {
-      "type": "concept",
+      "type": "artifact",
       "label": "罗",
       "aliases": []
     },
@@ -17123,12 +17218,12 @@
       "aliases": []
     },
     "罚": {
-      "type": "concept",
+      "type": "law",
       "label": "罚",
       "aliases": []
     },
     "罪": {
-      "type": "concept",
+      "type": "law",
       "label": "罪",
       "aliases": []
     },
@@ -17181,12 +17276,12 @@
       "aliases": []
     },
     "羽扇": {
-      "type": "concept",
+      "type": "artifact",
       "label": "羽扇",
       "aliases": []
     },
     "羽檄": {
-      "type": "concept",
+      "type": "military",
       "label": "羽檄",
       "aliases": []
     },
@@ -17213,13 +17308,23 @@
       "aliases": []
     },
     "耕种": {
-      "type": "concept",
+      "type": "economy",
       "label": "耕种",
       "aliases": []
     },
     "耳": {
       "type": "concept",
       "label": "耳",
+      "aliases": []
+    },
+    "耿况": {
+      "type": "person",
+      "label": "耿况",
+      "aliases": []
+    },
+    "耿国": {
+      "type": "person",
+      "label": "耿国",
       "aliases": []
     },
     "耿弇": {
@@ -17244,18 +17349,23 @@
       "label": "耿纯",
       "aliases": []
     },
+    "耿舒": {
+      "type": "person",
+      "label": "耿舒",
+      "aliases": []
+    },
     "聂政": {
       "type": "person",
       "label": "聂政",
       "aliases": []
     },
     "聘问": {
-      "type": "concept",
+      "type": "institution",
       "label": "聘问",
       "aliases": []
     },
     "肉刑": {
-      "type": "concept",
+      "type": "law",
       "label": "肉刑",
       "aliases": []
     },
@@ -17270,7 +17380,7 @@
       "aliases": []
     },
     "胄": {
-      "type": "concept",
+      "type": "artifact",
       "label": "胄",
       "aliases": []
     },
@@ -17321,7 +17431,7 @@
       "aliases": []
     },
     "胡骑": {
-      "type": "concept",
+      "type": "military",
       "label": "胡骑",
       "aliases": []
     },
@@ -17336,7 +17446,7 @@
       "aliases": []
     },
     "腰斩": {
-      "type": "concept",
+      "type": "law",
       "label": "腰斩",
       "aliases": []
     },
@@ -17391,32 +17501,32 @@
       "aliases": []
     },
     "舟": {
-      "type": "concept",
+      "type": "artifact",
       "label": "舟",
       "aliases": []
     },
     "舟师": {
-      "type": "concept",
+      "type": "military",
       "label": "舟师",
       "aliases": []
     },
     "舳舻": {
-      "type": "concept",
+      "type": "military",
       "label": "舳舻",
       "aliases": []
     },
     "船": {
-      "type": "concept",
+      "type": "artifact",
       "label": "船",
       "aliases": []
     },
     "船舰": {
-      "type": "concept",
+      "type": "military",
       "label": "船舰",
       "aliases": []
     },
     "船运": {
-      "type": "concept",
+      "type": "economy",
       "label": "船运",
       "aliases": []
     },
@@ -17426,7 +17536,7 @@
       "aliases": []
     },
     "节传": {
-      "type": "concept",
+      "type": "artifact",
       "label": "节传",
       "aliases": []
     },
@@ -17436,7 +17546,7 @@
       "aliases": []
     },
     "节钺": {
-      "type": "concept",
+      "type": "ritual",
       "label": "节钺",
       "aliases": []
     },
@@ -17760,12 +17870,12 @@
       "aliases": []
     },
     "荒田": {
-      "type": "concept",
+      "type": "economy",
       "label": "荒田",
       "aliases": []
     },
     "荧惑": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "荧惑",
       "aliases": []
     },
@@ -17795,27 +17905,27 @@
       "aliases": []
     },
     "营兵": {
-      "type": "concept",
+      "type": "military",
       "label": "营兵",
       "aliases": []
     },
     "营垒": {
-      "type": "concept",
+      "type": "military",
       "label": "营垒",
       "aliases": []
     },
     "营建": {
-      "type": "concept",
+      "type": "artifact",
       "label": "营建",
       "aliases": []
     },
     "营田": {
-      "type": "concept",
+      "type": "economy",
       "label": "营田",
       "aliases": []
     },
     "营造": {
-      "type": "concept",
+      "type": "artifact",
       "label": "营造",
       "aliases": []
     },
@@ -18081,12 +18191,12 @@
       "aliases": []
     },
     "葬": {
-      "type": "concept",
+      "type": "ritual",
       "label": "葬",
       "aliases": []
     },
     "葬礼": {
-      "type": "concept",
+      "type": "ritual",
       "label": "葬礼",
       "aliases": []
     },
@@ -18163,6 +18273,11 @@
     "蒯通": {
       "type": "person",
       "label": "蒯通",
+      "aliases": []
+    },
+    "蔡义": {
+      "type": "person",
+      "label": "蔡义",
       "aliases": []
     },
     "蔡伦": {
@@ -18339,7 +18454,7 @@
       "aliases": []
     },
     "虎符": {
-      "type": "concept",
+      "type": "artifact",
       "label": "虎符",
       "aliases": []
     },
@@ -18399,12 +18514,12 @@
       "aliases": []
     },
     "蚁附": {
-      "type": "concept",
+      "type": "military",
       "label": "蚁附",
       "aliases": []
     },
     "蚕": {
-      "type": "concept",
+      "type": "economy",
       "label": "蚕",
       "aliases": []
     },
@@ -18428,12 +18543,12 @@
       "aliases": []
     },
     "行军": {
-      "type": "concept",
+      "type": "military",
       "label": "行军",
       "aliases": []
     },
     "行幸": {
-      "type": "concept",
+      "type": "ritual",
       "label": "行幸",
       "aliases": []
     },
@@ -18443,17 +18558,17 @@
       "aliases": []
     },
     "衣": {
-      "type": "concept",
+      "type": "artifact",
       "label": "衣",
       "aliases": []
     },
     "衣冠": {
-      "type": "concept",
+      "type": "artifact",
       "label": "衣冠",
       "aliases": []
     },
     "表章": {
-      "type": "concept",
+      "type": "institution",
       "label": "表章",
       "aliases": []
     },
@@ -18555,12 +18670,12 @@
       "aliases": []
     },
     "裘": {
-      "type": "concept",
+      "type": "artifact",
       "label": "裘",
       "aliases": []
     },
     "裳": {
-      "type": "concept",
+      "type": "artifact",
       "label": "裳",
       "aliases": []
     },
@@ -18798,17 +18913,17 @@
       "aliases": []
     },
     "誓约": {
-      "type": "concept",
+      "type": "military",
       "label": "誓约",
       "aliases": []
     },
     "警备": {
-      "type": "concept",
+      "type": "military",
       "label": "警备",
       "aliases": []
     },
     "讨": {
-      "type": "concept",
+      "type": "military",
       "label": "讨",
       "aliases": []
     },
@@ -18899,7 +19014,7 @@
       "aliases": []
     },
     "设伏": {
-      "type": "concept",
+      "type": "military",
       "label": "设伏",
       "aliases": []
     },
@@ -18909,7 +19024,7 @@
       "aliases": []
     },
     "诈降": {
-      "type": "concept",
+      "type": "military",
       "label": "诈降",
       "aliases": []
     },
@@ -18919,12 +19034,12 @@
       "aliases": []
     },
     "诏书": {
-      "type": "concept",
+      "type": "institution",
       "label": "诏书",
       "aliases": []
     },
     "诏令": {
-      "type": "concept",
+      "type": "institution",
       "label": "诏令",
       "aliases": []
     },
@@ -19012,17 +19127,17 @@
       "aliases": []
     },
     "课农": {
-      "type": "concept",
+      "type": "economy",
       "label": "课农",
       "aliases": []
     },
     "课役": {
-      "type": "concept",
+      "type": "economy",
       "label": "课役",
       "aliases": []
     },
     "谍": {
-      "type": "concept",
+      "type": "military",
       "label": "谍",
       "aliases": []
     },
@@ -19037,7 +19152,7 @@
       "aliases": []
     },
     "谏诤": {
-      "type": "concept",
+      "type": "institution",
       "label": "谏诤",
       "aliases": []
     },
@@ -19154,12 +19269,12 @@
       "aliases": []
     },
     "谶纬": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "谶纬",
       "aliases": []
     },
     "谶记": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "谶记",
       "aliases": []
     },
@@ -19221,7 +19336,7 @@
       "aliases": []
     },
     "貌阅": {
-      "type": "concept",
+      "type": "economy",
       "label": "貌阅",
       "aliases": []
     },
@@ -19231,7 +19346,7 @@
       "aliases": []
     },
     "贝": {
-      "type": "concept",
+      "type": "artifact",
       "label": "贝",
       "aliases": []
     },
@@ -19249,12 +19364,12 @@
       "aliases": []
     },
     "贡赋": {
-      "type": "concept",
+      "type": "economy",
       "label": "贡赋",
       "aliases": []
     },
     "质子": {
-      "type": "concept",
+      "type": "institution",
       "label": "质子",
       "aliases": []
     },
@@ -19342,7 +19457,7 @@
       "aliases": []
     },
     "贾人": {
-      "type": "concept",
+      "type": "economy",
       "label": "贾人",
       "aliases": []
     },
@@ -19449,22 +19564,22 @@
       ]
     },
     "赋税": {
-      "type": "concept",
+      "type": "economy",
       "label": "赋税",
       "aliases": []
     },
     "赏": {
-      "type": "concept",
+      "type": "institution",
       "label": "赏",
       "aliases": []
     },
     "赏赐": {
-      "type": "concept",
+      "type": "institution",
       "label": "赏赐",
       "aliases": []
     },
     "赐姓": {
-      "type": "concept",
+      "type": "institution",
       "label": "赐姓",
       "aliases": []
     },
@@ -19491,7 +19606,7 @@
       "aliases": []
     },
     "赦罪": {
-      "type": "concept",
+      "type": "institution",
       "label": "赦罪",
       "aliases": []
     },
@@ -19786,7 +19901,7 @@
       "aliases": []
     },
     "路": {
-      "type": "concept",
+      "type": "economy",
       "label": "路",
       "aliases": []
     },
@@ -19813,7 +19928,7 @@
       "aliases": []
     },
     "车": {
-      "type": "concept",
+      "type": "artifact",
       "label": "车",
       "aliases": []
     },
@@ -19823,7 +19938,7 @@
       "aliases": []
     },
     "车骑": {
-      "type": "concept",
+      "type": "artifact",
       "label": "车骑",
       "aliases": []
     },
@@ -19836,12 +19951,12 @@
       ]
     },
     "轺": {
-      "type": "concept",
+      "type": "artifact",
       "label": "轺",
       "aliases": []
     },
     "辂": {
-      "type": "concept",
+      "type": "artifact",
       "label": "辂",
       "aliases": []
     },
@@ -19853,18 +19968,23 @@
       ]
     },
     "辇": {
-      "type": "concept",
+      "type": "artifact",
       "label": "辇",
       "aliases": []
     },
     "辎重": {
-      "type": "concept",
+      "type": "military",
       "label": "辎重",
       "aliases": []
     },
     "辛庆忌": {
       "type": "person",
       "label": "辛庆忌",
+      "aliases": []
+    },
+    "辛武贤": {
+      "type": "person",
+      "label": "辛武贤",
       "aliases": []
     },
     "辛茂将": {
@@ -19883,7 +20003,7 @@
       "aliases": []
     },
     "辞官": {
-      "type": "concept",
+      "type": "institution",
       "label": "辞官",
       "aliases": []
     },
@@ -19898,7 +20018,7 @@
       "aliases": []
     },
     "辰": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "辰",
       "aliases": []
     },
@@ -19923,12 +20043,12 @@
       "aliases": []
     },
     "迁居": {
-      "type": "concept",
+      "type": "institution",
       "label": "迁居",
       "aliases": []
     },
     "迁徙": {
-      "type": "concept",
+      "type": "institution",
       "label": "迁徙",
       "aliases": []
     },
@@ -19938,17 +20058,17 @@
       "aliases": []
     },
     "运船": {
-      "type": "concept",
+      "type": "economy",
       "label": "运船",
       "aliases": []
     },
     "进兵": {
-      "type": "concept",
+      "type": "military",
       "label": "进兵",
       "aliases": []
     },
     "进士": {
-      "type": "concept",
+      "type": "institution",
       "label": "进士",
       "aliases": []
     },
@@ -19958,17 +20078,17 @@
       "aliases": []
     },
     "连坐": {
-      "type": "concept",
+      "type": "law",
       "label": "连坐",
       "aliases": []
     },
     "追击": {
-      "type": "concept",
+      "type": "military",
       "label": "追击",
       "aliases": []
     },
     "退军": {
-      "type": "concept",
+      "type": "military",
       "label": "退军",
       "aliases": []
     },
@@ -19978,17 +20098,17 @@
       "aliases": []
     },
     "途": {
-      "type": "concept",
+      "type": "economy",
       "label": "途",
       "aliases": []
     },
     "通使": {
-      "type": "concept",
+      "type": "institution",
       "label": "通使",
       "aliases": []
     },
     "通婚": {
-      "type": "concept",
+      "type": "ritual",
       "label": "通婚",
       "aliases": []
     },
@@ -19998,7 +20118,7 @@
       "aliases": []
     },
     "道士": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "道士",
       "aliases": []
     },
@@ -20013,12 +20133,12 @@
       "aliases": []
     },
     "道观": {
-      "type": "concept",
+      "type": "artifact",
       "label": "道观",
       "aliases": []
     },
     "遣使": {
-      "type": "concept",
+      "type": "institution",
       "label": "遣使",
       "aliases": []
     },
@@ -20117,7 +20237,7 @@
       "aliases": []
     },
     "邮驿": {
-      "type": "concept",
+      "type": "economy",
       "label": "邮驿",
       "aliases": []
     },
@@ -20140,7 +20260,7 @@
       "aliases": []
     },
     "邸店": {
-      "type": "concept",
+      "type": "economy",
       "label": "邸店",
       "aliases": []
     },
@@ -20331,7 +20451,7 @@
       "aliases": []
     },
     "郡县": {
-      "type": "concept",
+      "type": "institution",
       "label": "郡县",
       "aliases": []
     },
@@ -20366,7 +20486,7 @@
       ]
     },
     "部曲": {
-      "type": "concept",
+      "type": "military",
       "label": "部曲",
       "aliases": []
     },
@@ -20506,7 +20626,7 @@
       "aliases": []
     },
     "都统": {
-      "type": "concept",
+      "type": "military",
       "label": "都统",
       "aliases": []
     },
@@ -20516,7 +20636,7 @@
       "aliases": []
     },
     "酒": {
-      "type": "concept",
+      "type": "ritual",
       "label": "酒",
       "aliases": []
     },
@@ -20525,14 +20645,24 @@
       "label": "醴",
       "aliases": []
     },
-    "野战": {
+    "里正": {
       "type": "concept",
+      "label": "里正",
+      "aliases": []
+    },
+    "野战": {
+      "type": "military",
       "label": "野战",
       "aliases": []
     },
     "金": {
-      "type": "concept",
+      "type": "artifact",
       "label": "金",
+      "aliases": []
+    },
+    "金吾卫": {
+      "type": "concept",
+      "label": "金吾卫",
       "aliases": []
     },
     "金敞": {
@@ -20546,17 +20676,17 @@
       "aliases": []
     },
     "金银": {
-      "type": "concept",
+      "type": "economy",
       "label": "金银",
       "aliases": []
     },
     "针": {
-      "type": "concept",
+      "type": "artifact",
       "label": "针",
       "aliases": []
     },
     "钟": {
-      "type": "concept",
+      "type": "artifact",
       "label": "钟",
       "aliases": []
     },
@@ -20600,12 +20730,12 @@
       "aliases": []
     },
     "钟鼓": {
-      "type": "concept",
+      "type": "artifact",
       "label": "钟鼓",
       "aliases": []
     },
     "钩": {
-      "type": "concept",
+      "type": "artifact",
       "label": "钩",
       "aliases": []
     },
@@ -20620,12 +20750,12 @@
       "aliases": []
     },
     "钱币": {
-      "type": "concept",
+      "type": "economy",
       "label": "钱币",
       "aliases": []
     },
     "钱货": {
-      "type": "concept",
+      "type": "economy",
       "label": "钱货",
       "aliases": []
     },
@@ -20643,12 +20773,12 @@
       "aliases": []
     },
     "铁骑": {
-      "type": "concept",
+      "type": "military",
       "label": "铁骑",
       "aliases": []
     },
     "铜钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "铜钱",
       "aliases": []
     },
@@ -20658,13 +20788,18 @@
       "aliases": []
     },
     "铠甲": {
-      "type": "concept",
+      "type": "military",
       "label": "铠甲",
       "aliases": []
     },
     "铢两": {
-      "type": "concept",
+      "type": "economy",
       "label": "铢两",
+      "aliases": []
+    },
+    "铨选": {
+      "type": "concept",
+      "label": "铨选",
       "aliases": []
     },
     "铫期": {
@@ -20673,42 +20808,42 @@
       "aliases": []
     },
     "铸钱": {
-      "type": "concept",
+      "type": "economy",
       "label": "铸钱",
       "aliases": []
     },
     "锐兵": {
-      "type": "concept",
+      "type": "military",
       "label": "锐兵",
       "aliases": []
     },
     "锥": {
-      "type": "concept",
+      "type": "artifact",
       "label": "锥",
       "aliases": []
     },
     "锦": {
-      "type": "concept",
+      "type": "artifact",
       "label": "锦",
       "aliases": []
     },
     "锯": {
-      "type": "concept",
+      "type": "artifact",
       "label": "锯",
       "aliases": []
     },
     "锱铢": {
-      "type": "concept",
+      "type": "economy",
       "label": "锱铢",
       "aliases": []
     },
     "锻": {
-      "type": "concept",
+      "type": "economy",
       "label": "锻",
       "aliases": []
     },
     "镞": {
-      "type": "concept",
+      "type": "artifact",
       "label": "镞",
       "aliases": []
     },
@@ -20776,7 +20911,7 @@
       "aliases": []
     },
     "门": {
-      "type": "concept",
+      "type": "artifact",
       "label": "门",
       "aliases": []
     },
@@ -20791,12 +20926,12 @@
       "aliases": []
     },
     "闰月": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "闰月",
       "aliases": []
     },
     "间谍": {
-      "type": "concept",
+      "type": "military",
       "label": "间谍",
       "aliases": []
     },
@@ -20806,18 +20941,23 @@
       "aliases": []
     },
     "阁": {
-      "type": "concept",
+      "type": "artifact",
       "label": "阁",
       "aliases": []
     },
     "阉宦": {
-      "type": "concept",
+      "type": "institution",
       "label": "阉宦",
       "aliases": []
     },
     "阎显": {
       "type": "person",
       "label": "阎显",
+      "aliases": []
+    },
+    "阎柔": {
+      "type": "person",
+      "label": "阎柔",
       "aliases": []
     },
     "阎立本": {
@@ -20831,7 +20971,7 @@
       "aliases": []
     },
     "阙": {
-      "type": "concept",
+      "type": "artifact",
       "label": "阙",
       "aliases": []
     },
@@ -20890,7 +21030,7 @@
       "aliases": []
     },
     "阵": {
-      "type": "concept",
+      "type": "military",
       "label": "阵",
       "aliases": []
     },
@@ -21101,6 +21241,11 @@
         "陈显达"
       ]
     },
+    "陈武": {
+      "type": "person",
+      "label": "陈武",
+      "aliases": []
+    },
     "陈汤": {
       "type": "person",
       "label": "陈汤",
@@ -21207,7 +21352,7 @@
       "aliases": []
     },
     "险要": {
-      "type": "concept",
+      "type": "military",
       "label": "险要",
       "aliases": []
     },
@@ -21283,7 +21428,7 @@
       "aliases": []
     },
     "障": {
-      "type": "concept",
+      "type": "artifact",
       "label": "障",
       "aliases": []
     },
@@ -21313,12 +21458,12 @@
       "aliases": []
     },
     "雨": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "雨",
       "aliases": []
     },
     "雪": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "雪",
       "aliases": []
     },
@@ -21390,7 +21535,7 @@
       "aliases": []
     },
     "露布": {
-      "type": "concept",
+      "type": "institution",
       "label": "露布",
       "aliases": []
     },
@@ -21791,7 +21936,7 @@
       "aliases": []
     },
     "音律": {
-      "type": "concept",
+      "type": "ritual",
       "label": "音律",
       "aliases": []
     },
@@ -21913,12 +22058,12 @@
       "aliases": []
     },
     "风": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "风",
       "aliases": []
     },
     "食邑": {
-      "type": "concept",
+      "type": "economy",
       "label": "食邑",
       "aliases": []
     },
@@ -21971,6 +22116,11 @@
     "马希萼": {
       "type": "person",
       "label": "马希萼",
+      "aliases": []
+    },
+    "马廖": {
+      "type": "person",
+      "label": "马廖",
       "aliases": []
     },
     "马忠": {
@@ -22059,8 +22209,13 @@
       ]
     },
     "马队": {
-      "type": "concept",
+      "type": "military",
       "label": "马队",
+      "aliases": []
+    },
+    "马防": {
+      "type": "person",
+      "label": "马防",
       "aliases": []
     },
     "马陵之战": {
@@ -22069,7 +22224,7 @@
       "aliases": []
     },
     "驰道": {
-      "type": "concept",
+      "type": "economy",
       "label": "驰道",
       "aliases": []
     },
@@ -22079,32 +22234,32 @@
       "aliases": []
     },
     "驻军": {
-      "type": "concept",
+      "type": "military",
       "label": "驻军",
       "aliases": []
     },
     "驾": {
-      "type": "concept",
+      "type": "artifact",
       "label": "驾",
       "aliases": []
     },
     "驿": {
-      "type": "concept",
+      "type": "economy",
       "label": "驿",
       "aliases": []
     },
     "驿道": {
-      "type": "concept",
+      "type": "economy",
       "label": "驿道",
       "aliases": []
     },
     "骁果": {
-      "type": "concept",
+      "type": "military",
       "label": "骁果",
       "aliases": []
     },
     "骁锐": {
-      "type": "concept",
+      "type": "military",
       "label": "骁锐",
       "aliases": []
     },
@@ -22124,27 +22279,27 @@
       "aliases": []
     },
     "骑兵": {
-      "type": "concept",
+      "type": "military",
       "label": "骑兵",
       "aliases": []
     },
     "骑军": {
-      "type": "concept",
+      "type": "military",
       "label": "骑军",
       "aliases": []
     },
     "骑卒": {
-      "type": "concept",
+      "type": "military",
       "label": "骑卒",
       "aliases": []
     },
     "骑射": {
-      "type": "concept",
+      "type": "military",
       "label": "骑射",
       "aliases": []
     },
     "骖": {
-      "type": "concept",
+      "type": "artifact",
       "label": "骖",
       "aliases": []
     },
@@ -22650,7 +22805,7 @@
       "aliases": []
     },
     "麒麟": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "麒麟",
       "aliases": []
     },
@@ -22680,7 +22835,7 @@
       "aliases": []
     },
     "麾下": {
-      "type": "concept",
+      "type": "military",
       "label": "麾下",
       "aliases": []
     },
@@ -22764,7 +22919,7 @@
       "aliases": []
     },
     "黄龙": {
-      "type": "concept",
+      "type": "astronomy",
       "label": "黄龙",
       "aliases": []
     },
@@ -22799,17 +22954,17 @@
       "aliases": []
     },
     "黼黻": {
-      "type": "concept",
+      "type": "artifact",
       "label": "黼黻",
       "aliases": []
     },
     "鼎": {
-      "type": "concept",
+      "type": "artifact",
       "label": "鼎",
       "aliases": []
     },
     "鼓": {
-      "type": "concept",
+      "type": "artifact",
       "label": "鼓",
       "aliases": []
     },
@@ -22894,6 +23049,7 @@
     "三家分晋": "三家分晋",
     "三晋": "三家分晋",
     "三家分晋国": "三家分晋",
+    "三老": "三老",
     "上书": "上书",
     "上官仪": "上官仪",
     "游韶": "上官仪",
@@ -22974,6 +23130,7 @@
     "习": "习",
     "习凿齿": "习凿齿",
     "乡兵": "乡兵",
+    "乡官": "乡官",
     "书": "书",
     "乾陵": "乾陵",
     "于仲文": "于仲文",
@@ -23005,6 +23162,7 @@
     "亩": "亩",
     "京房": "京房",
     "亭": "亭",
+    "亭长": "亭长",
     "亭障": "亭障",
     "亲亲": "亲亲",
     "仆": "仆",
@@ -23037,6 +23195,7 @@
     "伐": "伐",
     "会昌灭佛": "会昌灭佛",
     "会盟": "会盟",
+    "会稽": "会稽",
     "传国玺": "传国玺",
     "传舍": "传舍",
     "传车": "传车",
@@ -23294,6 +23453,8 @@
     "公叔痤": "公叔痤",
     "公子成": "公子成",
     "公子章": "公子章",
+    "公孙度": "公孙度",
+    "公孙康": "公孙康",
     "公孙弘": "公孙弘",
     "平津侯": "公孙弘",
     "公孙敖": "公孙敖",
@@ -23474,6 +23635,7 @@
     "刘洎": "刘洎",
     "刘济": "刘济",
     "刘浚": "刘浚",
+    "刘淑": "刘淑",
     "刘渊": "刘渊",
     "前赵汉昭武帝": "刘渊",
     "汉王": "刘渊",
@@ -23670,6 +23832,7 @@
     "南朝": "南朝",
     "南诏": "南诏",
     "南越": "南越",
+    "南阳": "南阳",
     "南霁云": "南霁云",
     "博士": "博士",
     "博弈": "博弈",
@@ -24389,9 +24552,11 @@
     "平准": "平准",
     "平原君": "平原君",
     "赵胜": "平原君",
+    "平城": "平城",
     "年号": "年号",
     "并州": "并州",
     "幽州": "幽州",
+    "广陵": "广陵",
     "庐陵王义真": "庐陵王义真",
     "库狄干": "库狄干",
     "库藏": "库藏",
@@ -24617,6 +24782,7 @@
     "徐孝嗣": "徐孝嗣",
     "徐宣": "徐宣",
     "徐州": "徐州",
+    "徐广": "徐广",
     "徐度": "徐度",
     "徐庶": "徐庶",
     "元直": "徐庶",
@@ -24730,6 +24896,7 @@
     "魏道武帝": "拓跋珪",
     "招讨使": "招讨使",
     "指鹿为马": "指鹿为马",
+    "挚虞": "挚虞",
     "挟天子": "挟天子",
     "据守": "据守",
     "推恩令": "推恩令",
@@ -25241,6 +25408,7 @@
     "熊槐": "楚怀王",
     "楼": "楼",
     "楼兰": "楼兰",
+    "楼玄": "楼玄",
     "楼缓": "楼缓",
     "楼船": "楼船",
     "榷酒": "榷酒",
@@ -25336,6 +25504,7 @@
     "水运": "水运",
     "永嘉之乱": "永嘉之乱",
     "永贞革新": "永贞革新",
+    "汉中": "汉中",
     "汉书": "汉书",
     "汉元帝": "汉元帝",
     "汉初三杰": "汉初三杰",
@@ -25381,6 +25550,7 @@
     "江淹": "江淹",
     "江湛": "江湛",
     "江统": "江统",
+    "江都": "江都",
     "江陵": "江陵",
     "池": "池",
     "汲黯": "汲黯",
@@ -25494,6 +25664,7 @@
     "燕子献": "燕子献",
     "燕昭王": "燕昭王",
     "爵": "爵",
+    "爵位": "爵位",
     "版籍": "版籍",
     "牖": "牖",
     "牙兵": "牙兵",
@@ -25545,6 +25716,7 @@
     "王伾": "王伾",
     "王俭": "王俭",
     "王仲宝": "王俭",
+    "王修": "王修",
     "王僧绰": "王僧绰",
     "王僧虔": "王僧虔",
     "王僧辩": "王僧辩",
@@ -25859,6 +26031,7 @@
     "祖逖": "祖逖",
     "祖士稚": "祖逖",
     "祝诅": "祝诅",
+    "神武军": "神武军",
     "神策军": "神策军",
     "祢衡": "祢衡",
     "祥瑞": "祥瑞",
@@ -26666,6 +26839,7 @@
     "笮融": "笮融",
     "筑城": "筑城",
     "策书": "策书",
+    "策试": "策试",
     "筝": "筝",
     "简雍": "简雍",
     "管仲": "管仲",
@@ -26744,11 +26918,14 @@
     "考课": "考课",
     "耕种": "耕种",
     "耳": "耳",
+    "耿况": "耿况",
+    "耿国": "耿国",
     "耿弇": "耿弇",
     "耿弇建威大将军": "耿弇",
     "耿恭": "耿恭",
     "耿秉": "耿秉",
     "耿纯": "耿纯",
+    "耿舒": "耿舒",
     "聂政": "聂政",
     "聘问": "聘问",
     "肉刑": "肉刑",
@@ -26947,6 +27124,7 @@
     "蒯恩": "蒯恩",
     "蒯越": "蒯越",
     "蒯通": "蒯通",
+    "蔡义": "蔡义",
     "蔡伦": "蔡伦",
     "蔡兴宗": "蔡兴宗",
     "蔡廷玉": "蔡廷玉",
@@ -27321,6 +27499,7 @@
     "辇": "辇",
     "辎重": "辎重",
     "辛庆忌": "辛庆忌",
+    "辛武贤": "辛武贤",
     "辛茂将": "辛茂将",
     "辛评": "辛评",
     "辛雄": "辛雄",
@@ -27459,8 +27638,10 @@
     "鄯善": "鄯善",
     "酒": "酒",
     "醴": "醴",
+    "里正": "里正",
     "野战": "野战",
     "金": "金",
+    "金吾卫": "金吾卫",
     "金敞": "金敞",
     "金日磾": "金日磾",
     "金银": "金银",
@@ -27489,6 +27670,7 @@
     "铜雀台": "铜雀台",
     "铠甲": "铠甲",
     "铢两": "铢两",
+    "铨选": "铨选",
     "铫期": "铫期",
     "铸钱": "铸钱",
     "锐兵": "锐兵",
@@ -27522,6 +27704,7 @@
     "阁": "阁",
     "阉宦": "阉宦",
     "阎显": "阎显",
+    "阎柔": "阎柔",
     "阎立本": "阎立本",
     "阎鼎": "阎鼎",
     "阙": "阙",
@@ -27581,6 +27764,7 @@
     "陈子云": "陈庆之",
     "陈敏": "陈敏",
     "陈显达": "陈显达",
+    "陈武": "陈武",
     "陈汤": "陈汤",
     "陈子公": "陈汤",
     "陈牧": "陈牧",
@@ -27770,6 +27954,7 @@
     "马希范": "马希范",
     "楚文昭王": "马希范",
     "马希萼": "马希萼",
+    "马廖": "马廖",
     "马忠": "马忠",
     "马总": "马总",
     "马成": "马成",
@@ -27790,6 +27975,7 @@
     "马超": "马超",
     "孟起": "马超",
     "马队": "马队",
+    "马防": "马防",
     "马陵之战": "马陵之战",
     "驰道": "驰道",
     "驸马": "驸马",
@@ -27968,6 +28154,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 4003,
-  "generated": "2026-05-06T17:44:21Z"
+  "page_count": 4034,
+  "generated": "2026-05-06T17:45:38Z"
 }
