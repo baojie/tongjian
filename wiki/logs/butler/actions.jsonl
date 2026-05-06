@@ -3016,3 +3016,5 @@
 {"round": 2640, "type": "enrich-quality", "page": "瑟,笙,箫,磬,筝,旌,帜,幡,纛,麾", "result": "accept", "desc": "enrich×10 | 500WU（全部已有stub→丰富）", "ts": "2026-05-06T21:43:01Z", "instance": "司马光", "reflect": "乐器仪仗相关概念，全部为已有stub丰富"}
 {"round": 2635, "type": "create-page", "page": "山/海/竹/木/石/花/草/风", "result": "accept", "desc": "create-page×8，自然概念（山/海/竹/木/石/花/草/风），800WU", "ts": "2026-05-06T21:43:02Z", "instance": "刘攽", "reflect": "自然类：山海竹木石花草风，自然物象系列补充"}
 {"round": 2644, "type": "discover", "page": "板筑,畚锸,运土,凿山,穿渠,开河,治水,引水", "result": "accept", "desc": "D1 discover×8条土木水利", "ts": "2026-05-06T21:43:17Z", "instance": "刘恕", "reflect": "R2644刘恕发现：板筑/畚锸/运土/凿山/穿渠/开河/治水/引水，土木水利概念"}
+{"round": 2643, "type": "enrich-page", "page": "杨渥/田季安/韩子高", "result": "accept", "desc": "enrich-section×3，177+189+125=491B", "ts": "2026-05-06T21:43:41Z", "instance": "刘攽", "reflect": "R2643"}
+{"round": 2640, "type": "publish", "page": "", "result": "accept", "desc": "/wiki-publish + D1-discover + H10-scan | 发布完成", "ts": "2026-05-06T21:43:41Z", "instance": "司马光", "reflect": "R11周期发布，累计650文件变更，commit 21da91f4"}
