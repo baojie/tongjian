@@ -2,7 +2,7 @@
 
 北宋司马光《资治通鉴》中文百科，AI 辅助整理，纯静态 SPA。
 
-**在线访问**：[baojie.github.io/tongjian](https://baojie.github.io/tongjian)
+**在线访问**：[tongjian.memify.wiki](https://tongjian.memify.wiki/)
 
 **开发指南**：[claude.ai/claude-code/onboard/5BDT8M9WrZlM](https://claude.ai/claude-code/onboard/5BDT8M9WrZlM)
 
