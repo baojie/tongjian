@@ -1054,6 +1054,16 @@ article[data-type="chapter"] .chapter-poem .pn-label {
   font-family: var(--sans);
   letter-spacing: .04em;
 }
+/* 次要分类区块（人物/事件/概念等子分组） */
+.home-section-header--minor {
+  margin: 1.2em 0 .5em;
+  border-bottom-color: rgba(160,140,100,.12);
+}
+.home-section-header--minor::before { display: none; }
+.home-section-header--minor .home-section-title {
+  font-size: .88em;
+  color: #8a7a5a;
+}
 
 /* ── 卡片网格（古典史学美学 · 冷金清雅） ────────────────────── */
 .featured-grid {

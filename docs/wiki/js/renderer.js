@@ -829,16 +829,20 @@ function bindHomeSearch(core) {
   });
 }
 
-function buildHomeBodyHtml(bookCardsHtml, entityCardsHtml, totalPages) {
-  const featuredSection = entityCardsHtml
-    ? `<div class="home-section-header">
-        <h2 class="home-section-title">精选词条</h2>
-        <span class="home-section-sub">历史人物 · 重大战役 · 关键事件</span>
+function buildHomeBodyHtml(bookCardsHtml, sections, totalPages) {
+  const sectionHtml = sections.map(s => {
+    if (!s.cardsHtml) return '';
+    const headerHtml = s.subtitle
+      ? `<span class="home-section-sub">${escapeHtml(s.subtitle)}</span>`
+      : '';
+    return `<div class="home-section-header${s.minor ? ' home-section-header--minor' : ''}">
+        <h2 class="home-section-title">${escapeHtml(s.title)}</h2>
+        ${headerHtml}
       </div>
-      <div class="featured-grid">${entityCardsHtml}</div>`
-    : '';
+      <div class="featured-grid">${s.cardsHtml}</div>`;
+  }).join('');
   return `<div class="home-volumes">${bookCardsHtml}</div>
-    ${featuredSection}
+    ${sectionHtml}
     <nav class="home-links">
       <a href="#${encodeURIComponent('Special:AllPages')}" class="home-link">全部 ${totalPages} 页 →</a>
       <a href="#${encodeURIComponent('Special:Recent')}" class="home-link">最近修订 →</a>
@@ -847,7 +851,7 @@ function buildHomeBodyHtml(bookCardsHtml, entityCardsHtml, totalPages) {
     <p class="home-disclaimer">本 Wiki 内容由 AI 整理，基于北宋司马光《资治通鉴》294卷，纵贯战国至五代十国 1362 年史事。如发现错误欢迎<a href="https://github.com/baojie/tongjian/issues/new" target="_blank" rel="noopener">提交 Issue</a>。</p>`;
 }
 
-function buildFullHomeHtml(entityCount, bookCardsHtml, entityCardsHtml, totalPages) {
+function buildFullHomeHtml(entityCount, bookCardsHtml, sections, totalPages) {
   return `<div class="wiki-home">
     <div class="home-hero">
       ${buildHomeSvg()}
@@ -869,7 +873,7 @@ function buildFullHomeHtml(entityCount, bookCardsHtml, entityCardsHtml, totalPag
       </div>
     </div>
     <div class="home-body">
-      ${buildHomeBodyHtml(bookCardsHtml, entityCardsHtml, totalPages)}
+      ${buildHomeBodyHtml(bookCardsHtml, sections, totalPages)}
     </div>
   </div>`;
 
@@ -1050,9 +1054,30 @@ export async function renderHome(core) {
   const entityCandidates = allPages
     .filter(p => !['redirect','disambiguation','special','chapter','overview'].includes(p.type||''))
     .filter(p => p.featured || (p.quality || 'stub') !== 'stub')
-    .sort((a, b) => scoreOf(b) - scoreOf(a))
-    .slice(0, 60);
-  const entityCardsHtml = entityCandidates.map(renderFeaturedCard).join('');
+    .sort((a, b) => scoreOf(b) - scoreOf(a));
+
+  // 按类型分组展示
+  const topFeatured = entityCandidates.filter(p => p.featured || p.quality === 'premium');
+  const normalCards = entityCandidates.filter(p => !p.featured && p.quality !== 'premium');
+
+  const sections = [];
+  if (topFeatured.length) {
+    sections.push({
+      title: '精选词条',
+      subtitle: '历史人物 · 重大战役 · 关键事件 · 典章制度',
+      cardsHtml: topFeatured.map(renderFeaturedCard).join('')
+    });
+  }
+
+  const personCards = normalCards.filter(p => p.type === 'person');
+  const eventCards = normalCards.filter(p => ['event','battle'].includes(p.type));
+  const conceptCards = normalCards.filter(p => ['concept','place','state','organization'].includes(p.type));
+  const otherCards = normalCards.filter(p => !['person','event','battle','concept','place','state','organization'].includes(p.type));
+
+  if (personCards.length) sections.push({ title: '人物', subtitle: null, cardsHtml: personCards.slice(0, 12).map(renderFeaturedCard).join(''), minor: true });
+  if (eventCards.length) sections.push({ title: '事件与战役', subtitle: null, cardsHtml: eventCards.slice(0, 12).map(renderFeaturedCard).join(''), minor: true });
+  if (conceptCards.length) sections.push({ title: '制度与概念', subtitle: null, cardsHtml: conceptCards.slice(0, 12).map(renderFeaturedCard).join(''), minor: true });
+  if (otherCards.length) sections.push({ title: '其他', subtitle: null, cardsHtml: otherCards.slice(0, 8).map(renderFeaturedCard).join(''), minor: true });
 
   const entityCount = allPages.filter(p =>
     !['redirect','disambiguation','special','chapter'].includes(p.type||'')).length;
@@ -1065,10 +1090,10 @@ export async function renderHome(core) {
     // 增量更新：英雄区已在 renderHeroShell 中预渲染
     const countEl = article.querySelector('.hero-count');
     if (countEl) countEl.textContent = `${entityCount} 个词条`;
-    existingBody.innerHTML = buildHomeBodyHtml(bookCardsHtml, entityCardsHtml, ids.length);
+    existingBody.innerHTML = buildHomeBodyHtml(bookCardsHtml, sections, ids.length);
   } else {
     // 完整渲染（直接导航到首页，无预渲染英雄区）
-    article.innerHTML = buildFullHomeHtml(entityCount, bookCardsHtml, entityCardsHtml, ids.length);
+    article.innerHTML = buildFullHomeHtml(entityCount, bookCardsHtml, sections, ids.length);
     document.body.classList.add('is-home');
     hideSidebar();
     document.getElementById('crumb').textContent = '首页';

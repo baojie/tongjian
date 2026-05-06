@@ -31,3 +31,15 @@
 - stub concept | 膳 | 99B
 - stub concept | 肴 | 99B
 - stub concept | 地道 | 99B
+
+## H17 coverage-scan (R2220, %37=0)
+> 页面元数据覆盖扫描结果
+- GAP: 2506/2506 person 页面缺少 cat 字段（100%）
+- GAP: 180/180 event/battle 页面缺少 event_type 字段（100%）
+- GAP: 7074/7074 页面缺少 dynasty 字段（100%）
+- RECOMMEND: 优先补全 person.cat 字段，可批量脚本修复
+
+## H17 re-scan (R2257, %37=0)
+- person.cat: 0/2511 (0%) — unchanged
+- event.event_type: 0/184 (0%) — unchanged  
+- stubs (<100B): 28 条 — 较 R2220 新增 8 条
