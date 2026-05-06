@@ -16,28 +16,19 @@
 ## H-P3 — 探索内务
   [ ] H-P3 housekeeping-scan | 全局 | 初始覆盖率扫描
 
-## H18 stub-triage (R2683, %37=19)
-> 以下词条 body < 500B（R2683 重扫更新），建议优先 enrich
-- stub person | 赵韪 | 320B
-- stub concept | 簟 | 322B
-- stub person | 王奂 | 329B
-- stub person | 刘汉 | 346B
-- stub person | 李育 | 357B
-- stub person | 李农 | 367B（R2683 enrich）
-- stub place | 柏谷 | 362B
-- stub concept | 简_(概念) | 368B
-- stub place | 湖 | 369B
-- stub place | 胶西王 | 372B
-- stub place | 南康 | 386B（R2683 enrich）
-- stub concept | 杖刑 | 386B
-- stub place | 萧县 | 387B（R2683 enrich）
-- stub concept | 驿道 | 387B
-- stub place | 襄武 | 388B（R2683 enrich）
+## H18 stub-triage (R2917, after %37=19)
+> 以下词条 body < 500B（R2917 重扫更新），建议优先 enrich
+- stub concept | 项_(概念) | 185B
+- stub concept | 敦_(概念) | 191B
+- stub concept | 埙_(概念) | 311B
+- stub concept | 刘汉 | 346B
+- stub concept | 篙_(概念) | 360B
+- stub concept | 萝_(概念) | 369B
+- stub concept | 蝶_(概念) | 377B
 - stub place | 小黄 | 391B
-- stub place | 浮阳 | 393B（R2683 enrich）
-- stub concept | 荒田 | 393B（R2683 enrich）
+- stub concept | 萍_(概念) | 393B
 - stub place | 育阳 | 397B
-- stub place | 封丘 | 398B
+- stub concept | 篪_(概念) | 409B
 
 ## H17 coverage-scan (R2220, %37=0)
 > 页面元数据覆盖扫描结果
