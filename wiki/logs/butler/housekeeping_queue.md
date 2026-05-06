@@ -6,6 +6,13 @@
 ## H-P2 — 常规内务
 <!-- 空，初始状态 -->
 
+## H10 housekeeping-scan (R2519, %11=0)
+> 全库健康扫描结果
+- NOTE: 5页缺description字段 → 备御、劲兵、名籍、社稷、饷道（均为concept类型）
+- NOTE: 无broken wikilinks
+- NOTE: 无单字页面问题
+- TODO: 补充5页description字段（H4 enrich-meta）
+
 ## H-P3 — 探索内务
   [ ] H-P3 housekeeping-scan | 全局 | 初始覆盖率扫描
 
