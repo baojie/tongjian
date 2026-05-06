@@ -209,7 +209,7 @@
         "朝代"
       ],
       "description": "东汉末年至西晋统一之间的分裂时期",
-      "total_refs": 151,
+      "total_refs": 152,
       "total_chapters": 0
     },
     "三家分晋": {
@@ -3044,7 +3044,7 @@
       "description": "西晋谏官，司隶校尉，刚直敢言",
       "quality": "basic",
       "quality_score": 25,
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "傅竖眼": {
@@ -6987,6 +6987,19 @@
       "quality": "featured",
       "quality_score": 40,
       "total_refs": 4,
+      "total_chapters": 0
+    },
+    "冯紞": {
+      "type": "person",
+      "label": "冯紞",
+      "aliases": [],
+      "tags": [
+        "西晋",
+        "权臣",
+        "荀勖"
+      ],
+      "description": "西晋越骑校尉，荀勖党羽，倾谄擅权。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "冯素弗": {
@@ -11292,6 +11305,20 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "卞太后": {
+      "type": "person",
+      "label": "卞太后",
+      "aliases": [],
+      "tags": [
+        "三国",
+        "魏",
+        "曹操",
+        "太后"
+      ],
+      "description": "曹操之妻，曹丕、曹彰、曹植之母，以节俭教子称。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "卞范之": {
       "type": "person",
       "label": "卞范之",
@@ -13202,7 +13229,7 @@
       "description": "西晋将领，少年时被乡人与蛟龙、猛虎并称\"三害\"，后改过自新，成为忠烈将军，战死于讨氐之役，是中国历史上\"浪子回头\"故事的原型。",
       "quality": "basic",
       "quality_score": 39,
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 2
     },
     "周威烈王": {
@@ -18746,6 +18773,19 @@
       ],
       "description": "唐僖宗朝宰相",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "崔洪": {
+      "type": "person",
+      "label": "崔洪",
+      "aliases": [],
+      "tags": [
+        "西晋",
+        "谏臣",
+        "尚书"
+      ],
+      "description": "西晋尚书左丞，清厉骨鲠，好面折人过。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "崔浩": {
@@ -24812,7 +24852,7 @@
       "description": "曹操之子，曹魏开国皇帝，逼迫汉献帝禅让，正式终结东汉，建立魏国，在位期间延续曹操奠定的基业，同时也是著名的文学家和诗人。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 48,
+      "total_refs": 49,
       "total_chapters": 10
     },
     "曹仁": {
@@ -24923,7 +24963,7 @@
       "image": "images/曹操.jpg",
       "quality": "featured",
       "quality_score": 62,
-      "total_refs": 175,
+      "total_refs": 176,
       "total_chapters": 26
     },
     "曹无伤": {
@@ -25228,7 +25268,7 @@
       "description": "后梁开国皇帝，原黄巢将领，降唐后以宣武节度使为基础平定四方，迫唐哀帝禅位建梁，是五代十国开端的关键人物。史书以\"硃全忠\"书写其姓。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 15,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "朱浮": {
@@ -25657,6 +25697,19 @@
       "quality": "basic",
       "quality_score": 53,
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "李势": {
+      "type": "person",
+      "label": "李势",
+      "aliases": [],
+      "tags": [
+        "十六国",
+        "成汉",
+        "君主"
+      ],
+      "description": "成汉末主，桓温伐蜀，降于晋。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "李勉": {
@@ -26155,6 +26208,19 @@
       ],
       "description": "西汉经学家，以灾异论著称",
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "李寿": {
+      "type": "person",
+      "label": "李寿",
+      "aliases": [],
+      "tags": [
+        "十六国",
+        "成汉",
+        "将领"
+      ],
+      "description": "成汉前将军、大将军，威震南中，后废李期自立。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "李岘": {
@@ -27286,6 +27352,19 @@
       "total_refs": 15,
       "total_chapters": 0
     },
+    "李荡": {
+      "type": "person",
+      "label": "李荡",
+      "aliases": [],
+      "tags": [
+        "十六国",
+        "成汉",
+        "李特"
+      ],
+      "description": "成汉李特之子，骁勇善战，战死军中。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "李蔚": {
       "type": "person",
       "label": "李蔚",
@@ -27591,7 +27670,7 @@
       "description": "成汉开国皇帝，西晋末流民首领李特之侄，以攻克成都为基础，建立了五胡十六国中最早的割据政权之一，在位期间以宽仁著称，成为巴蜀地区数十年的实际统治者。",
       "quality": "basic",
       "quality_score": 53,
-      "total_refs": 2,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "李靖": {
@@ -29253,7 +29332,7 @@
       "description": "东晋权臣，多次北伐，主导朝政，曾言\"不能流芳百世，亦当遗臭万年\"，是东晋最重要的政治军事人物之一。",
       "quality": "featured",
       "quality_score": 47,
-      "total_refs": 39,
+      "total_refs": 40,
       "total_chapters": 14
     },
     "桓玄": {
@@ -44468,7 +44547,7 @@
       "description": "西晋开国功臣，中书监，领秘书监",
       "quality": "basic",
       "quality_score": 29,
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "荀子": {
@@ -47235,7 +47314,7 @@
         "朝代"
       ],
       "description": "三国后的大一统王朝，司马炎建立",
-      "total_refs": 130,
+      "total_refs": 134,
       "total_chapters": 0
     },
     "西汉": {
@@ -48704,7 +48783,7 @@
       "description": "西晋权臣，贾逵之子，司马昭的亲信谋臣，策动弑杀魏帝曹髦，又主持伐吴大军总督，是司马氏篡魏建晋的重要参与者，以权谋弄政著称。",
       "quality": "featured",
       "quality_score": 47,
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "贾后": {
@@ -55700,6 +55779,19 @@
       "total_refs": 9,
       "total_chapters": 0
     },
+    "马隆": {
+      "type": "person",
+      "label": "马隆",
+      "aliases": [],
+      "tags": [
+        "西晋",
+        "将领",
+        "凉州"
+      ],
+      "description": "西晋司马督，讨平树机能，恢复凉州。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "驰道": {
       "type": "economy",
       "label": "驰道",
@@ -57597,6 +57689,19 @@
       "total_refs": 0,
       "total_chapters": 0
     },
+    "齐万年": {
+      "type": "person",
+      "label": "齐万年",
+      "aliases": [],
+      "tags": [
+        "西晋",
+        "氐",
+        "齐万年"
+      ],
+      "description": "西晋末氐帅，起兵反晋，称帝。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "齐威王": {
       "type": "person",
       "label": "齐威王",
@@ -58219,6 +58324,7 @@
     "冯异": "冯异",
     "大树将军": "冯异",
     "冯公孙": "冯异",
+    "冯紞": "冯紞",
     "冯素弗": "冯素弗",
     "冯绲": "冯绲",
     "冯衍": "冯衍",
@@ -58548,6 +58654,7 @@
     "卜式": "卜式",
     "卜珝": "卜珝",
     "卞壸": "卞壸",
+    "卞太后": "卞太后",
     "卞范之": "卞范之",
     "占星": "占星",
     "卢从史": "卢从史",
@@ -59202,6 +59309,7 @@
     "崔暹": "崔暹",
     "崔林": "崔林",
     "崔沆": "崔沆",
+    "崔洪": "崔洪",
     "崔浩": "崔浩",
     "崔伯渊": "崔浩",
     "崔游": "崔游",
@@ -59796,6 +59904,7 @@
     "李兑": "李兑",
     "李典": "李典",
     "李冲": "李冲",
+    "李势": "李势",
     "李勉": "李勉",
     "茂公": "李勣",
     "李匡筹": "李匡筹",
@@ -59837,6 +59946,7 @@
     "魏公": "李密",
     "蒲山公": "李密",
     "李寻": "李寻",
+    "李寿": "李寿",
     "李岘": "李岘",
     "李峤": "李峤",
     "李崇": "李崇",
@@ -59925,6 +60035,7 @@
     "李茂勋": "李茂勋",
     "李茂贞": "李茂贞",
     "岐王": "李茂贞",
+    "李荡": "李荡",
     "李蔚": "李蔚",
     "李蔡": "李蔡",
     "李虎": "李虎",
@@ -62707,6 +62818,7 @@
     "马队": "马队",
     "马防": "马防",
     "马陵之战": "马陵之战",
+    "马隆": "马隆",
     "驰道": "驰道",
     "驸马": "驸马",
     "驻军": "驻军",
@@ -62872,6 +62984,7 @@
     "鼓": "鼓",
     "鼓吹": "鼓吹",
     "鼻": "鼻",
+    "齐万年": "齐万年",
     "齐威王": "齐威王",
     "齐宣王": "齐宣王",
     "齐抗": "齐抗",
@@ -62884,6 +62997,6 @@
     "龚遂": "龚遂",
     "龟兹": "龟兹"
   },
-  "page_count": 4068,
-  "generated": "2026-05-06T17:49:35Z"
+  "page_count": 4076,
+  "generated": "2026-05-06T17:50:03Z"
 }

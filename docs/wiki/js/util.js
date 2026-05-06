@@ -14,11 +14,27 @@ export const TYPE_LABELS = {
   // 事件
   event: '事件',
   battle: '战役',
-  // 国家/王朝
+  // 国家/王朝/民族
   state: '国家',
-  // 物理/科学概念
+  dynasty: '王朝',
+  tribe: '民族',
+  // 官职
+  official: '官职',
+  // 年份
+  year: '年份',
+  // 典籍
+  classic: '典籍',
+  // 制度/法律/经济/军事
+  institution: '制度',
+  law: '法律',
+  economy: '经济',
+  military: '军事',
+  // 器物/天文/礼制
+  artifact: '器物',
+  astronomy: '天文',
+  ritual: '礼制',
+  // 通用概念
   concept: '概念',
-  law: '法则',
   // 纪元
   era: '纪元',
   // 书册/章节
