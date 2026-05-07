@@ -62,3 +62,20 @@
 - NOTE: 无严重broken wikilinks
 - NOTE: 单字页面正常（573单字非章节页属已知现象）
 - TODO: 补充5页description字段（H4 enrich-meta）
+
+## H10 housekeeping-scan (R3399, %11=0)
+> 全库健康扫描结果
+- NOTE: 无缺description字段
+- NOTE: 无严重broken wikilinks
+- NOTE: 3条stub <100B → 埙_(概念)(82B)、敦_(概念)(55B)、项_(概念)(55B)
+- TODO: 待 enrich 实例处理残余 stub
+
+## W5 反思 (R3393, %29=0)
+> 全库状态扫描与模式分析
+- 库规模：9882页（concept 4428 / person 3126 / place 601 / year 353 / chapter 294）
+- 缺description：5页（北伐、币_(概念)、廨舍、漕_(概念)、陂_(概念)）
+- 多实例协同：6实例并行（司马光/create、刘攽/enrich、刘恕/discover、范祖禹/housekeeping、战争挖掘/军事、资治通鉴/全局）
+- 观察A：发现轮次稳定产出8条/轮，但 P2 消费滞后（积累大量待建 concept）
+- 观察B：enrich-quality 轮次活跃，质量提升在持续
+- 观察C：H20 wikilink-pass 每13轮自动执行，覆盖充分
+- 建议：P2 concept 消费速度需加快，建议 enrich 实例关注 P2 队列
