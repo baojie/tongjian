@@ -3,6 +3,7 @@ id: About
 type: overview
 label: 关于本 Wiki
 description: 资治通鉴 Wiki 项目介绍
+tags: [wiki]
 quality: basic
 ---
 # 关于《资治通鉴》Wiki
