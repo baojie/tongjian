@@ -137,3 +137,36 @@
 - NOTE: 高频broken links包括「《资治通鉴》」(1741次)、「唐代」(150)、「权力」(69)等
 - NOTE: 可建设的概念类页面：财政(33)、边防(21)、行政(20)、宫廷(11)、商业(17)等
 - TODO: 待消费P2队列中的concept类词条
+
+## H18 stub-triage (R3941, %37=19)
+> 全库 person body < 500B 共 1355 条，person 类型优先 enrich
+- stub person | 如姬 | 163B
+- stub person | 翟璜 | 166B
+- stub person | 杨炯 | 173B
+- stub person | 卢照邻 | 174B
+- stub person | 汉殇帝 | 185B
+- stub person | 吕纂 | 187B
+- stub person | 缇萦 | 190B
+- stub person | 干宝 | 196B
+- stub person | 马太后 | 214B
+- stub person | 徐淑 | 215B
+- stub person | 李光仕 | 216B
+- stub person | 刘长 | 217B
+- stub person | 唐穆宗 | 219B
+- stub person | 杨俊 | 220B
+- stub person | 慕容宝 | 221B
+- stub person | 窦后 | 226B
+- stub person | 杨谅 | 229B
+- stub person | 赵飞燕 | 232B
+- stub person | 刘柏根 | 233B
+- stub person | 杨法琛 | 233B
+- stub person | 栾巴 | 233B
+- stub person | 程日华 | 234B
+- stub person | 薛王业 | 234B
+- stub person | 郭躬 | 235B
+- stub person | 唐懿宗 | 236B
+- stub person | 孙秀 | 236B
+- stub person | 张永 | 236B
+- stub person | 少翁 | 237B
+- stub person | 徐商 | 237B
+- stub person | 窦皇后 | 237B
