@@ -3,6 +3,9 @@
 logs/ppx.log
 logs/.__ppx.lock
 
+# wiki server 日志
+wiki/logs/wiki-server.log
+
 # 临时/中间文件
 tmp/butler_pages/
 *.ppx
