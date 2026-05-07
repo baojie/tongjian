@@ -110,3 +110,17 @@
 - NOTE: 无严重broken wikilinks（5381条broken links中多为label/别名未匹配，非真正断裂）
 - NOTE: 无stub <100B（10377页全覆盖）
 - TODO: 无待处理内务
+
+## H10 housekeeping-scan (R3740, %11=0)
+> 全库健康扫描结果
+- NOTE: 无缺description字段（10539页全覆盖）
+- NOTE: 无严重broken wikilinks（12392条broken links多为label/别名未匹配，非真正断裂）
+- NOTE: 2条stub <100B → 项_(概念)(55B)、埙_(概念)(82B)（持续多轮无变化）
+- TODO: 残余stub待 enrich 实例处理
+
+## H10 housekeeping-scan (R3762, %11=0)
+> 全库健康扫描结果
+- NOTE: 无缺description字段（10562页全覆盖）
+- NOTE: 无严重broken wikilinks
+- NOTE: 2条stub <100B → 项_(概念)(55B)、埙_(概念)(82B)
+- TODO: 待 enrich 实例处理残余 stub
