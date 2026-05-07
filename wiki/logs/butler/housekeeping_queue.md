@@ -269,9 +269,15 @@
 - NOTE: 可建设的概念类页面：财政(53)、中央(60)、地方(71)、边疆(71)、行政(43)等
 - TODO: 待消费P2队列中的concept类词条
 
-## H10 housekeeping-scan (R4708, %11=0)
+## H10 housekeeping-scan (R4763, %11=0)
 > 全库健康扫描结果
-- NOTE: 2页缺description字段 → 甓_(概念)(1522B)、卢毓(2398B)
-- NOTE: 无stub <100B（13036页全覆盖）
-- NOTE: broken wikilinks以《资治通鉴》/通鉴/唐代等高频词为主，无严重断裂
+- NOTE: 2页缺description字段 → 卢毓(person)、甓_(概念)(concept)
+- NOTE: 无stub <100B（13200页全覆盖）
+- NOTE: broken wikilinks仍以《资治通鉴》/唐代/权力等高频词为主，无严重断裂
 - TODO: 补充2页description字段（H4 enrich-meta）
+
+## D1 discover-wanted (R4763, %11=0)
+> 全库broken wikilink扫描，top 60
+- NOTE: 高频broken links包括「《资治通鉴》」(1547次)、「唐代」(354)、「权力」(222)等
+- NOTE: 可建设的人物类页面：张黎(30)、李云(30)、陈杲仁(30)、晋安王宝义(84)等
+- TODO: 待消费P2队列中的concept类词条
