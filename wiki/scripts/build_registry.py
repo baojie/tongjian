@@ -97,7 +97,7 @@ def build_registry(pages_root: Path) -> dict:
         pages[pid] = entry
 
         # alias index — chapter pages: only register by id, not label
-        label_keys = [] if entry["type"] == "chapter" else [entry["label"]]
+        label_keys = [] if entry["type"] == "章节" else [entry["label"]]
         for key in [pid] + label_keys + (entry["aliases"] or []):
             if not isinstance(key, str):
                 continue
@@ -126,7 +126,7 @@ def build_registry(pages_root: Path) -> dict:
         rel = md_file.relative_to(pages_root)
         src_pid = str(rel.with_suffix(""))
         src_page = pages.get(src_pid)
-        is_chapter = (src_page and src_page.get("type") == "chapter")
+        is_chapter = (src_page and src_page.get("type") == "章节")
 
         text = md_file.read_text(encoding="utf-8")
         m_fm = FRONTMATTER_RE.match(text)

@@ -153,7 +153,7 @@ def collect_wanted_persons(all_pages: dict, existing: set[str]) -> list[str]:
     wanted: Counter = Counter()
     for md in PAGES_DIR.glob("*.md"):
         meta = all_pages.get(md.stem, {})
-        if meta.get("type") == "chapter":
+        if meta.get("type") == "章节":
             continue
         text = md.read_text(encoding="utf-8")
         body = FRONTMATTER_RE.sub('', text)
@@ -266,7 +266,7 @@ def main():
     # 取所有章节页
     chapter_slugs = sorted(
         slug for slug, meta in all_pages.items()
-        if meta.get("type") == "chapter"
+        if meta.get("type") == "章节"
     )
     if limit:
         chapter_slugs = chapter_slugs[:limit]

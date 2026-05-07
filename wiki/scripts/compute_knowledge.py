@@ -44,7 +44,7 @@ def compute_snapshot(registry: dict) -> dict:
     entity_count = 0
 
     for page in pages.values():
-        if page.get("type") == "chapter":
+        if page.get("type") == "章节":
             continue
         entity_count += 1
         q = page.get("quality", "stub")

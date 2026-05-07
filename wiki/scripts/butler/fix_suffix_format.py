@@ -97,7 +97,7 @@ for char in remaining:
         print(f"  [skip] {char}: YAML 解析失败")
         continue
 
-    page_type = front.get("type", "concept")
+    page_type = front.get("type", "概念")
     suffix = TYPE_SUFFIX.get(page_type, "概念")
     new_id = f"{char}_({suffix})"
     new_path = PAGES_DIR / f"{new_id}.md"

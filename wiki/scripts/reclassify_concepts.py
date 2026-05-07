@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
 """
-reclassify_concepts.py — 将 concept 页面按 tags 重分类为细化类型。
+reclassify_concepts.py — 将 概念 页面按 tags 重分类为细化类型。
 
 优先级（高→低，先匹配先得）：
-  law        [法律, 刑罚, 刑法, 刑戮, 刑辟, 刑名, 治狱]
-  artifact   [器物, 兵器, 乐器, 车舆, 工具, 符节, 服饰, 纺织]
-  astronomy  [天象, 天文, 星占, 历法, 祥瑞, 天人感应, 谶纬, 预言]
-  ritual     [祭祀, 礼仪, 丧葬, 巡幸, 婚姻, 礼乐, 礼俗, 丧服, 风俗]
-  economy    [经济, 货币, 赋税, 财政, 农业, 土地制度, 度量衡, 赋役,
+  法律      [法律, 刑罚, 刑法, 刑戮, 刑辟, 刑名, 治狱]
+  器物      [器物, 兵器, 乐器, 车舆, 工具, 符节, 服饰, 纺织]
+  天文      [天象, 天文, 星占, 历法, 祥瑞, 天人感应, 谶纬, 预言]
+  礼制      [祭祀, 礼仪, 丧葬, 巡幸, 婚姻, 礼乐, 礼俗, 丧服, 风俗]
+  经济      [经济, 货币, 赋税, 财政, 农业, 土地制度, 度量衡, 赋役,
               手工业, 畜牧, 交通, 水利, 工程]
-  military   [军事, 战术, 兵制, 边防, 兵法, 后勤, 水军, 骑兵, 间谍,
+  军事      [军事, 战术, 兵制, 边防, 兵法, 后勤, 水军, 骑兵, 间谍,
               战国, 兵器（仅当无器物标签时）]
-  institution 其余含 [制度] 标签的页面
+  制度      其余含 [制度] 标签的页面
 
-不迁移：已经是 official/tribe/ritual/year/dynasty 等非 concept 的页面。
+不迁移：已经是 人物/地点/名句/年份/王朝 等非 概念 的页面。
 
 用法：
   python3 wiki/scripts/reclassify_concepts.py [--dry-run]
@@ -30,32 +30,32 @@ RECORD    = ROOT / "scripts/record_revision.py"
 
 # ── 优先级规则 ────────────────────────────────────────────────────
 RULES: list[tuple[str, set[str]]] = [
-    ("law", {
+    ("法律", {
         "法律", "刑罚", "刑法", "刑戮", "刑辟", "刑名", "刑狱", "治狱",
         "刑罚", "妖言", "徒刑",
     }),
-    ("artifact", {
+    ("器物", {
         "器物", "兵器", "乐器", "车舆", "工具", "符节", "服饰", "纺织",
         "建筑", "仪仗",
     }),
-    ("astronomy", {
+    ("天文", {
         "天象", "天文", "星占", "历法", "祥瑞", "天人感应",
         "谶纬", "预言", "方术", "灾害",
     }),
-    ("ritual", {
+    ("礼制", {
         "祭祀", "礼仪", "丧葬", "巡幸", "婚姻", "礼乐", "礼俗",
         "丧服", "风俗", "宗法", "宗室", "家族",
     }),
-    ("economy", {
+    ("经济", {
         "经济", "货币", "赋税", "财政", "农业", "土地制度", "度量衡",
         "赋役", "手工业", "畜牧", "交通", "水利", "工程", "户籍",
         "人口",
     }),
-    ("military", {
+    ("军事", {
         "军事", "战术", "兵制", "边防", "兵法", "后勤", "水军",
         "骑兵", "间谍", "兵器",
     }),
-    ("institution", {
+    ("制度", {
         "制度",
     }),
 ]
@@ -81,7 +81,7 @@ def main():
     for md in sorted(PAGES_DIR.glob("*.md")):
         slug = md.stem
         meta = pages.get(slug, {})
-        if meta.get("type") != "concept":
+        if meta.get("type") != "概念":
             continue
 
         tags    = meta.get("tags", [])
@@ -98,7 +98,7 @@ def main():
 
         text     = md.read_text(encoding="utf-8")
         new_text = re.sub(
-            r'^type: concept$', f'type: {new_type}',
+            r'^type: 概念$', f'type: {new_type}',
             text, flags=re.MULTILINE, count=1
         )
         if new_text == text:

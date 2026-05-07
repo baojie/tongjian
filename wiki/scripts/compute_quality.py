@@ -52,7 +52,7 @@ def count_prose_chars(body: str) -> int:
 
 def compute_level(front: dict, body: str) -> str:
     page_type = front.get('type', 'unknown')
-    if page_type == 'chapter':
+    if page_type == '章节':
         return None  # 章节页不评级
 
     has_image = bool(front.get('image') or front.get('images'))

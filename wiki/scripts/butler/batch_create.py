@@ -60,7 +60,7 @@ def generate_frontmatter(entity):
 
     lines = ['---']
     lines.append(f'id: {entity["slug"]}')
-    lines.append(f'type: {entity.get("type", "concept")}')
+    lines.append(f'type: {entity.get("type", "概念")}')
     lines.append(f'label: {entity["slug"]}')
     if aliases:
         lines.append(f'aliases: [{aliases_str}]')
@@ -118,7 +118,7 @@ def create_page(entity, dry_run=False):
     content = generate_frontmatter(entity) + '\n\n' + generate_content(entity)
 
     if dry_run:
-        print(f"[DRY-RUN] Would create: {slug} ({entity.get('type', 'concept')})")
+        print(f"[DRY-RUN] Would create: {slug} ({entity.get('type', '概念')})")
         return f"DRY-RUN: {slug}"
 
     # Create via stdin

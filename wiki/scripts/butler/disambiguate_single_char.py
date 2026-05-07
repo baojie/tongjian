@@ -57,7 +57,7 @@ WIKILINK_RE = re.compile(r"\[\[([^\[\]|]+)(?:\|[^\[\]]+)?\]\]")
 
 def get_disambiguation_suffix(char: str, front: dict) -> str:
     """Determine the disambiguation suffix for a single character."""
-    page_type = front.get("type", "concept")
+    page_type = front.get("type", "概念")
     return TYPE_SUFFIX.get(page_type, "概念")
 
 

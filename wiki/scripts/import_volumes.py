@@ -130,7 +130,7 @@ def make_page(vol: dict) -> str:
     frontmatter = f"""---
 id: {label}
 aliases: [{aliases_str}]
-type: chapter
+type: 章节
 label: {label}
 description: {description}
 vol_num: {num}

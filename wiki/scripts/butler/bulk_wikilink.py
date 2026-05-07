@@ -36,7 +36,7 @@ all_pages = data["pages"]
 # ── 2. Build global term→slug map (exclude chapter pages, len<2) ──
 term_to_slug = {}
 for slug, meta in all_pages.items():
-    if meta.get("type") == "chapter":
+    if meta.get("type") == "章节":
         continue
     label = meta.get("label", slug)
     if len(label) >= 2:
@@ -187,7 +187,7 @@ def get_changed_since(commit):
             continue
         slug = p.stem
         meta = all_pages.get(slug)
-        if meta and meta.get("type") != "chapter":
+        if meta and meta.get("type") != "章节":
             changed.append(slug)
     return changed
 
@@ -212,7 +212,7 @@ def main():
             return
         print(f"[wikilink] {len(slugs)} entity pages changed since {since}", file=sys.stderr)
     else:
-        slugs = [s for s, m in all_pages.items() if m.get("type") != "chapter"]
+        slugs = [s for s, m in all_pages.items() if m.get("type") != "章节"]
         if limit:
             slugs = slugs[:limit]
 

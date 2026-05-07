@@ -112,7 +112,7 @@ def main():
             content = f.read()
 
         fm = parse_frontmatter(content)
-        if fm.get('type') != 'chapter':
+        if fm.get('type') != '章节':
             continue
 
         try:

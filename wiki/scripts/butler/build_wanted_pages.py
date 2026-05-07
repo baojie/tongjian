@@ -100,7 +100,7 @@ def write_json(wanted: list[dict]) -> None:
 SPECIAL_HEADER = """\
 ---
 id: WantedPages
-type: overview
+type: 综述
 label: 想要的页面
 tags: [系统页面, 维护]
 ---
