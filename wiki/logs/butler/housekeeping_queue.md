@@ -79,3 +79,20 @@
 - 观察B：enrich-quality 轮次活跃，质量提升在持续
 - 观察C：H20 wikilink-pass 每13轮自动执行，覆盖充分
 - 建议：P2 concept 消费速度需加快，建议 enrich 实例关注 P2 队列
+
+## H17 coverage-scan (R3441, %37=0)
+> 页面元数据覆盖扫描结果
+- GAP: 3126/3126 person 页面缺少 cat 字段（100%）— 持续
+- GAP: 225/225 event/battle 页面缺少 event_type 字段（100%）— 持续
+- GAP: 9953/9953 页面缺少 dynasty 字段（100%）— 持续
+- RECOMMEND: 三个字段均需批量脚本修复，建议开发 batch_fix_meta.py
+
+## W5 反思 (R3451, %29=0)
+> 多实例协同状态
+- 最近20行动：discover×7 / enrich-quality×5 / enrich-page×3 / housekeeping×2 / create-page×2 / create×1
+- 活跃实例：司马光、刘攽、刘恕、范祖禹、资治通鉴（5实例并行）
+- 观察A：discover 持续产出（刘恕主导），稳定 8条/轮
+- 观察B：enrich-quality 和 enrich-page 轮次活跃（刘攽/司马光），质量提升持续
+- 观察C：H17 仍在全 gap 状态，需开发批量脚本
+- 观察D：库规模已达 ~9953页，概念词条持续丰富
+- 建议：P2 消费仍然滞后，可考虑启动专用 enrich 实例消费 P2 concept 队列
