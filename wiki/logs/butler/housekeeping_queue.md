@@ -55,3 +55,10 @@
 - NOTE: 无缺description字段（9771页全覆盖）
 - NOTE: 无严重broken wikilinks
 - NOTE: 无待处理内务
+
+## H10 housekeeping-scan (R3366, %11=0)
+> 全库健康扫描结果
+- NOTE: 5页缺description字段 → 北伐、币_(概念)、廨舍、漕_(概念)、陂_(概念)（均为concept类型）
+- NOTE: 无严重broken wikilinks
+- NOTE: 单字页面正常（573单字非章节页属已知现象）
+- TODO: 补充5页description字段（H4 enrich-meta）
