@@ -70,6 +70,13 @@
 - NOTE: 3条stub <100B → 埙_(概念)(82B)、敦_(概念)(55B)、项_(概念)(55B)
 - TODO: 待 enrich 实例处理残余 stub
 
+## H10 housekeeping-scan (R3498, %11=0)
+> 全库健康扫描结果
+- NOTE: 无缺description字段
+- NOTE: 无严重broken wikilinks
+- NOTE: 2条stub <100B → 埙_(概念)(82B)、项_(概念)(55B)
+- TODO: 待 enrich 实例处理残余 stub
+
 ## W5 反思 (R3393, %29=0)
 > 全库状态扫描与模式分析
 - 库规模：9882页（concept 4428 / person 3126 / place 601 / year 353 / chapter 294）
