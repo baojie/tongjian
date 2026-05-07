@@ -1,10 +1,7 @@
-# 日志
-logs/
-*.log
 
-# 锁文件
-*.lock
-*.pid
+# ppx 日志与锁
+logs/ppx.log
+logs/.__ppx.lock
 
 # 临时/中间文件
 tmp/butler_pages/
