@@ -102,9 +102,20 @@ def add_wikilinks(content, page_slug):
     new_lines = []
     changed = False
     in_see_also = False  # skip wikilinks after "## 参见" / "## 相关词条"
+    in_semantic_block = False  # skip wikilinks inside ::: blocks (infobox/query/meta)
 
     for line in lines:
         stripped = line.strip()
+
+        # Toggle ::: block mode — these blocks contain YAML, not body text
+        if stripped.startswith(":::"):
+            in_semantic_block = not in_semantic_block
+            new_lines.append(line)
+            continue
+
+        if in_semantic_block:
+            new_lines.append(line)
+            continue
 
         # Detect end of wikilink zone
         if SEE_ALSO.match(stripped):

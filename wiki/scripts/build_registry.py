@@ -137,7 +137,8 @@ def build_registry(pages_root: Path) -> dict:
             raw = match.group(1)
             # ── lint: 单汉字 wikilink ──
             if SINGLE_HANZI_LINK_RE.fullmatch(raw):
-                line_no = text[:m_fm.end() + match.start()].count('\n') + 1
+                fm_end = m_fm.end() if m_fm else 0
+                line_no = text[:fm_end + match.start()].count('\n') + 1
                 print(f"[lint] {src_pid}:{line_no}: 单汉字 wikilink [[{raw}]] "
                       f"——可能是词条拆分错误，请确认是否为全书名的一部分", file=sys.stderr)
             # 语义链接 [[rel::target]] 只取 target 部分做引用统计

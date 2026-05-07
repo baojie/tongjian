@@ -2001,7 +2001,7 @@
       "description": "古代丧葬礼仪制度，包括服丧、祭奠、葬仪等规范，为五礼之一。",
       "quality": "basic",
       "quality_score": 41,
-      "total_refs": 23,
+      "total_refs": 24,
       "total_chapters": 0
     },
     "丧葬": {
@@ -2151,7 +2151,7 @@
         "地理"
       ],
       "description": "中国，古代指中原华夏文明区域，与四夷相对",
-      "total_refs": 601,
+      "total_refs": 602,
       "total_chapters": 0
     },
     "中坚": {
@@ -5869,7 +5869,7 @@
         "礼仪制度"
       ],
       "description": "仪仗卤簿制度",
-      "total_refs": 40,
+      "total_refs": 41,
       "total_chapters": 0
     },
     "仪卫": {
@@ -6561,7 +6561,7 @@
         "礼仪"
       ],
       "description": "会葬，诸侯或百官集会参加丧葬之礼。",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "伞_(概念)": {
@@ -8028,7 +8028,7 @@
       "description": "战国四公子之一，魏国公子，窃符救赵，礼贤下士，是战国时代仁义贵族的代表。",
       "quality": "featured",
       "quality_score": 50,
-      "total_refs": 72,
+      "total_refs": 73,
       "total_chapters": 4
     },
     "俭": {
@@ -8885,7 +8885,7 @@
         "教育"
       ],
       "description": "儒家学说，自汉代起成为官方正统思想。",
-      "total_refs": 54,
+      "total_refs": 55,
       "total_chapters": 0
     },
     "儒家": {
@@ -10169,7 +10169,7 @@
       "description": "皇帝之女的称号",
       "quality": "basic",
       "quality_score": 37,
-      "total_refs": 133,
+      "total_refs": 134,
       "total_chapters": 0
     },
     "公侯": {
@@ -14572,7 +14572,7 @@
         "制度"
       ],
       "description": "军事，军旅之事；指用兵作战、军务调度及相关制度。",
-      "total_refs": 431,
+      "total_refs": 433,
       "total_chapters": 0
     },
     "军令": {
@@ -18091,7 +18091,7 @@
       "description": "泽潞叛将，刘从谏之侄",
       "quality": "standard",
       "quality_score": 54,
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "刘穆之": {
@@ -18528,7 +18528,7 @@
         "开国皇帝"
       ],
       "description": "汉朝开国皇帝，庙号高祖，史称汉高祖",
-      "total_refs": 73,
+      "total_refs": 74,
       "total_chapters": 0
     },
     "刘邵": {
@@ -23627,7 +23627,7 @@
       "description": "中国历史上活跃于北方草原的游牧民族政权，与汉朝长期对峙，冒顿单于时国势最盛，汉武帝时遭卫青、霍去病重创，东汉时分裂为南北匈奴，逐渐退出历史舞台。",
       "quality": "featured",
       "quality_score": 42,
-      "total_refs": 594,
+      "total_refs": 595,
       "total_chapters": 92
     },
     "匕首": {
@@ -24570,7 +24570,7 @@
         "称号"
       ],
       "description": "单于，匈奴最高首领的称号，秦汉时期北方游牧民族政权首领。",
-      "total_refs": 285,
+      "total_refs": 286,
       "total_chapters": 100
     },
     "单于都护府": {
@@ -25547,7 +25547,7 @@
       "description": "天子或高官出行时的仪仗队伍",
       "quality": "standard",
       "quality_score": 35,
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "卫兵": {
@@ -28009,6 +28009,18 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "吊祭": {
+      "type": "concept",
+      "label": "吊祭",
+      "aliases": [],
+      "tags": [
+        "礼仪",
+        "丧葬"
+      ],
+      "description": "吊祭，古代对死者表示哀悼的礼仪，常由朝廷遣使或百官参与",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "同": {
       "type": "concept",
       "label": "同",
@@ -28240,7 +28252,7 @@
         "思想"
       ],
       "description": "以儒家名分为核心的伦理道德体系",
-      "total_refs": 5,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "名族": {
@@ -30538,7 +30550,7 @@
       "description": "中原王朝与周边民族通婚联姻的外交政策",
       "quality": "basic",
       "quality_score": 22,
-      "total_refs": 77,
+      "total_refs": 78,
       "total_chapters": 0
     },
     "和士开": {
@@ -30595,7 +30607,7 @@
         "东汉"
       ],
       "description": "汉桓帝第二个年号（150），仅用一年",
-      "total_refs": 33,
+      "total_refs": 35,
       "total_chapters": 0
     },
     "和戎": {
@@ -32417,7 +32429,7 @@
         "社会"
       ],
       "description": "国家，古代指诸侯国及天子之天下，政权之总称。",
-      "total_refs": 48,
+      "total_refs": 50,
       "total_chapters": 0
     },
     "图_(概念)": {
@@ -34511,7 +34523,7 @@
         "社会"
       ],
       "description": "对外交往，与外部人士联络交通。",
-      "total_refs": 24,
+      "total_refs": 25,
       "total_chapters": 0
     },
     "外兵": {
@@ -40900,7 +40912,7 @@
         "制度"
       ],
       "description": "天子或诸侯的同姓宗族，秦汉以降指皇族，历代对宗室约束宽严不一。",
-      "total_refs": 376,
+      "total_refs": 377,
       "total_chapters": 117
     },
     "宗庙": {
@@ -42588,6 +42600,18 @@
       "total_refs": 28,
       "total_chapters": 0
     },
+    "导从": {
+      "type": "concept",
+      "label": "导从",
+      "aliases": [],
+      "tags": [
+        "制度",
+        "礼仪"
+      ],
+      "description": "导从，古代官员出行时的前导与随从仪仗，为身份地位的象征",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "导官": {
       "type": "concept",
       "label": "导官",
@@ -43357,6 +43381,18 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "尚主": {
+      "type": "concept",
+      "label": "尚主",
+      "aliases": [],
+      "tags": [
+        "制度",
+        "称谓"
+      ],
+      "description": "尚主，古代指娶公主为妻，\"尚\"有仰攀之意",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "尚乘": {
       "type": "concept",
       "label": "尚乘",
@@ -43414,7 +43450,7 @@
       ],
       "description": "唐代三省之一，中央政务执行机构",
       "quality": "basic",
-      "quality_score": 37,
+      "quality_score": 48,
       "total_refs": 31,
       "total_chapters": 0
     },
@@ -57663,7 +57699,7 @@
         "制度"
       ],
       "description": "政事治理，国家管理的事务。",
-      "total_refs": 80,
+      "total_refs": 81,
       "total_chapters": 0
     },
     "故事": {
@@ -61980,7 +62016,7 @@
         "制度"
       ],
       "description": "帝王受朝施政之所，古代国家权力中枢。",
-      "total_refs": 774,
+      "total_refs": 775,
       "total_chapters": 0
     },
     "朝政": {
@@ -73372,7 +73408,7 @@
         "王朝"
       ],
       "description": "汉朝，包括西汉和东汉，通鉴中\"汉代\"被视为礼法之象征，亦为习凿齿论曹操之所据。",
-      "total_refs": 443,
+      "total_refs": 444,
       "total_chapters": 0
     },
     "汉元帝": {
@@ -74966,7 +75002,7 @@
       ],
       "description": "唐代中后期藩镇割据的核心，成德、魏博、卢龙三镇",
       "quality": "basic",
-      "quality_score": 32,
+      "quality_score": 44,
       "total_refs": 10,
       "total_chapters": 0
     },
@@ -76821,7 +76857,7 @@
       ],
       "description": "魏晋名士以老庄为宗的玄言论辩，祖尚虚无之风。",
       "quality": "basic",
-      "quality_score": 34,
+      "quality_score": 48,
       "total_refs": 22,
       "total_chapters": 0
     },
@@ -88471,7 +88507,7 @@
         "制度"
       ],
       "description": "礼仪，礼法仪式之总称，涵盖朝聘、祭祀、冠婚、丧葬等国家典仪",
-      "total_refs": 24,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "礼制": {
@@ -88487,8 +88523,20 @@
       "description": "礼乐制度是中国古代政治秩序的根本，通鉴开篇即论礼之分，强调礼制为治国之本。",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 100,
+      "total_refs": 101,
       "total_chapters": 1
+    },
+    "礼学": {
+      "type": "concept",
+      "label": "礼学",
+      "aliases": [],
+      "tags": [
+        "学术",
+        "礼制"
+      ],
+      "description": "礼学，研究礼制仪节之学问，儒家经典之学。",
+      "total_refs": 1,
+      "total_chapters": 0
     },
     "礼法": {
       "type": "concept",
@@ -97908,7 +97956,7 @@
         "学术思想"
       ],
       "description": "儒家经典之学",
-      "total_refs": 49,
+      "total_refs": 50,
       "total_chapters": 0
     },
     "经术": {
@@ -106516,7 +106564,7 @@
       "description": "唐代中后期在边境和重要地区设立的军事行政合一的地方统治体制，又称方镇，是安史之乱后唐王朝地方政治的核心形态。",
       "quality": "standard",
       "quality_score": 50,
-      "total_refs": 119,
+      "total_refs": 120,
       "total_chapters": 0
     },
     "藻_(概念)": {
@@ -114584,7 +114632,7 @@
         "礼制"
       ],
       "description": "赙赠。赙赠为助丧之礼，耻有杀贤之名而遣使赙赠，厚其赙赠以掩杀才之实。",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "赛_(概念)": {
@@ -115143,7 +115191,7 @@
         "七雄"
       ],
       "description": "战国七雄之一，拥有中原北部及代地，赵武灵王胡服骑射，使赵国一度强盛。",
-      "total_refs": 100,
+      "total_refs": 101,
       "total_chapters": 0
     },
     "赵在礼": {
@@ -116553,7 +116601,7 @@
         "仪仗"
       ],
       "description": "古代帝王出行乘舆，亦代指帝王本人。",
-      "total_refs": 55,
+      "total_refs": 56,
       "total_chapters": 0
     },
     "车骑": {
@@ -129249,7 +129297,7 @@
         "文化"
       ],
       "description": "社会风气习俗，通鉴载风俗为教化之本原。",
-      "total_refs": 48,
+      "total_refs": 49,
       "total_chapters": 0
     },
     "风化": {
@@ -129261,7 +129309,7 @@
         "文化"
       ],
       "description": "风俗教化，社会道德风尚。",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "风声鹤唳": {
@@ -129277,6 +129325,18 @@
       ],
       "description": "淝水之战后前秦溃兵听到风声鹤鸣都以为是追兵的典故，形容惊慌失措、自相惊扰",
       "total_refs": 5,
+      "total_chapters": 0
+    },
+    "风教": {
+      "type": "concept",
+      "label": "风教",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "道德"
+      ],
+      "description": "风教，风俗教化，以礼义道德教化民众。",
+      "total_refs": 2,
       "total_chapters": 0
     },
     "风流": {
@@ -130638,7 +130698,7 @@
       "description": "皇帝女婿的称号",
       "quality": "basic",
       "quality_score": 35,
-      "total_refs": 18,
+      "total_refs": 19,
       "total_chapters": 0
     },
     "驻兵": {
@@ -132670,7 +132730,7 @@
         "七雄"
       ],
       "description": "战国七雄之一，拥有中原腹地，魏文侯时率先称霸。",
-      "total_refs": 88,
+      "total_refs": 89,
       "total_chapters": 0
     },
     "魏孝武帝": {
@@ -133629,7 +133689,7 @@
       "description": "秦末楚汉之争关键时刻，刘邦赴项羽军中谢罪的一次险象环生的宴会，范增欲借机杀刘邦而未果，是楚汉格局的重要转折点。",
       "quality": "featured",
       "quality_score": 45,
-      "total_refs": 26,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "鹄_(概念)": {
@@ -137506,6 +137566,7 @@
     "吊_(概念)": "吊_(概念)",
     "吊": "吊_(概念)",
     "吊民伐罪": "吊民伐罪",
+    "吊祭": "吊祭",
     "同": "同",
     "同_(概念)": "同_(概念)",
     "同平章事": "同平章事",
@@ -138825,6 +138886,7 @@
     "寺人": "寺人",
     "寺观": "寺观",
     "寻阳": "寻阳",
+    "导从": "导从",
     "导官": "导官",
     "寿张": "寿张",
     "寿春": "寿春",
@@ -138891,6 +138953,7 @@
     "尘_(概念)": "尘_(概念)",
     "尚_(概念)": "尚_(概念)",
     "尚": "尚_(概念)",
+    "尚主": "尚主",
     "尚乘": "尚乘",
     "尚书": "尚书",
     "尚书仆射": "尚书仆射",
@@ -142857,6 +142920,7 @@
     "礼乐": "礼乐",
     "礼仪": "礼仪",
     "礼制": "礼制",
+    "礼学": "礼学",
     "礼法": "礼法",
     "礼纪名分论": "礼纪名分论",
     "天子之职莫大于礼": "礼纪名分论",
@@ -146891,6 +146955,7 @@
     "风化": "风化",
     "风声鹤唳": "风声鹤唳",
     "风声鹤唳草木皆兵": "风声鹤唳",
+    "风教": "风教",
     "风流": "风流",
     "风角": "风角",
     "风雨": "风雨",
@@ -147444,6 +147509,6 @@
     "龟兹": "龟兹",
     "龟鳖": "龟鳖"
   },
-  "page_count": 9980,
-  "generated": "2026-05-07T00:15:23Z"
+  "page_count": 9985,
+  "generated": "2026-05-07T00:15:41Z"
 }

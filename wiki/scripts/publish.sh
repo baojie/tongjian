@@ -16,4 +16,10 @@ if [[ -f "$FTS_SCRIPT" ]]; then
     python3 "$FTS_SCRIPT" 2>/dev/null || true
 fi
 
+BL_SCRIPT="$WIKI_ROOT/scripts/build_backlinks.py"
+if [[ -f "$BL_SCRIPT" ]]; then
+    echo "[publish] 构建反向引用索引..."
+    python3 "$BL_SCRIPT" 2>/dev/null || true
+fi
+
 echo "[publish] 完成（wiki/public 即 docs/，直接生效）"
