@@ -103,3 +103,10 @@
 - 观察C：H17 仍在全 gap 状态，需开发批量脚本
 - 观察D：库规模已达 ~9953页，概念词条持续丰富
 - 建议：P2 消费仍然滞后，可考虑启动专用 enrich 实例消费 P2 concept 队列
+
+## H10 housekeeping-scan (R3685, %11=0)
+> 全库健康扫描结果
+- NOTE: 无缺description字段
+- NOTE: 无严重broken wikilinks（5381条broken links中多为label/别名未匹配，非真正断裂）
+- NOTE: 无stub <100B（10377页全覆盖）
+- TODO: 无待处理内务
