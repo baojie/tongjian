@@ -190,3 +190,16 @@
 - GOOD: event.event_type 已全覆盖（225/225，0%缺失）
 - GAP: 4409/10856 页面缺少 dynasty 字段（40.6%）
 - RECOMMEND: 需批量脚本修复 dynasty 字段
+
+## H10 housekeeping-scan (R4125, %11=0)
+> 全库健康扫描结果
+- NOTE: 无缺description字段（10628页全覆盖）
+- NOTE: 无严重broken wikilinks
+- NOTE: 无stub <100B
+- TODO: 无待处理内务
+
+## D1 discover-wanted (R4125, %11=0)
+> 全库broken wikilink扫描，top 60
+- NOTE: 高频broken links包括「《资治通鉴》」(1697次)、「唐代」(194)、「权力」(119)等
+- NOTE: 可建设的概念类页面：财政(47)、中央(33)、地方(35)、边疆(29)、行政(24)等
+- TODO: 待消费P2队列中的concept类词条
