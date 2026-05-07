@@ -23,7 +23,7 @@ quality: basic
 | state | 王朝/[[诸侯]]国 |
 | event | 重大事件 |
 | place | 地点/地名 |
-| concept | 概念/制度 |
+| concept | 概念/[[制度]] |
 | battle | 战役 |
 | chapter | 原文卷目 |
 | overview | 综述 |
