@@ -102,6 +102,13 @@
       "label": "七国之乱",
       "aliases": []
     },
+    "七夕": {
+      "type": "concept",
+      "label": "七夕",
+      "aliases": [
+        "乞巧"
+      ]
+    },
     "七庙": {
       "type": "礼制",
       "label": "七庙",
@@ -147,6 +154,11 @@
     "万岁通天": {
       "type": "概念",
       "label": "万岁通天",
+      "aliases": []
+    },
+    "万彧": {
+      "type": "person",
+      "label": "万彧",
       "aliases": []
     },
     "万户侯": {
@@ -278,6 +290,11 @@
         "三族之刑"
       ]
     },
+    "三河": {
+      "type": "place",
+      "label": "三河",
+      "aliases": []
+    },
     "三王": {
       "type": "哲学",
       "label": "三王",
@@ -301,6 +318,11 @@
       "aliases": [
         "三纲五常"
       ]
+    },
+    "三统": {
+      "type": "concept",
+      "label": "三统",
+      "aliases": []
     },
     "三老": {
       "type": "社会",
@@ -330,6 +352,11 @@
     "上书": {
       "type": "政治",
       "label": "上书",
+      "aliases": []
+    },
+    "上元": {
+      "type": "concept",
+      "label": "上元",
       "aliases": []
     },
     "上党": {
@@ -492,6 +519,11 @@
       "aliases": [
         "下"
       ]
+    },
+    "下元": {
+      "type": "concept",
+      "label": "下元",
+      "aliases": []
     },
     "下军": {
       "type": "官职",
@@ -660,6 +692,11 @@
     "世族": {
       "type": "制度",
       "label": "世族",
+      "aliases": []
+    },
+    "世禄": {
+      "type": "concept",
+      "label": "世禄",
       "aliases": []
     },
     "世袭": {
@@ -1028,6 +1065,11 @@
       "label": "严峻",
       "aliases": []
     },
+    "严嶷": {
+      "type": "person",
+      "label": "严嶷",
+      "aliases": []
+    },
     "严庄": {
       "type": "人物",
       "label": "严庄",
@@ -1048,6 +1090,11 @@
     "严法": {
       "type": "法律",
       "label": "严法",
+      "aliases": []
+    },
+    "严白虎": {
+      "type": "person",
+      "label": "严白虎",
       "aliases": []
     },
     "严砺": {
@@ -1188,6 +1235,11 @@
       "label": "中原",
       "aliases": []
     },
+    "中台": {
+      "type": "concept",
+      "label": "中台",
+      "aliases": []
+    },
     "中国": {
       "type": "自然",
       "label": "中国",
@@ -1197,6 +1249,14 @@
       "type": "概念",
       "label": "中坚",
       "aliases": []
+    },
+    "中垒": {
+      "type": "concept",
+      "label": "中垒",
+      "aliases": [
+        "中垒校尉",
+        "中垒将军"
+      ]
     },
     "中大通": {
       "type": "concept",
@@ -1399,6 +1459,11 @@
       "label": "丹书",
       "aliases": []
     },
+    "丹凤门": {
+      "type": "place",
+      "label": "丹凤门",
+      "aliases": []
+    },
     "丹徒": {
       "type": "地点",
       "label": "丹徒",
@@ -1408,6 +1473,13 @@
       "type": "器物",
       "label": "丹漆",
       "aliases": []
+    },
+    "丹砂": {
+      "type": "concept",
+      "label": "丹砂",
+      "aliases": [
+        "朱砂"
+      ]
     },
     "丹阳": {
       "type": "地点",
@@ -1461,6 +1533,11 @@
     "主力": {
       "type": "军事",
       "label": "主力",
+      "aliases": []
+    },
+    "主客": {
+      "type": "concept",
+      "label": "主客",
       "aliases": []
     },
     "主父": {
@@ -1527,6 +1604,13 @@
       "label": "举白",
       "aliases": []
     },
+    "举贤": {
+      "type": "concept",
+      "label": "举贤",
+      "aliases": [
+        "荐贤"
+      ]
+    },
     "举贤任能": {
       "type": "概念",
       "label": "举贤任能",
@@ -1585,6 +1669,11 @@
       "aliases": [
         "楚怀王心"
       ]
+    },
+    "义征": {
+      "type": "concept",
+      "label": "义征",
+      "aliases": []
     },
     "义成公主": {
       "type": "人物",
@@ -1920,6 +2009,13 @@
       "label": "九族",
       "aliases": []
     },
+    "九日": {
+      "type": "concept",
+      "label": "九日",
+      "aliases": [
+        "重阳"
+      ]
+    },
     "九江": {
       "type": "地点",
       "label": "九江",
@@ -2201,6 +2297,11 @@
       "aliases": [
         "于曼倩"
       ]
+    },
+    "于庆": {
+      "type": "person",
+      "label": "于庆",
+      "aliases": []
     },
     "于志宁": {
       "type": "人物",
@@ -2511,6 +2612,11 @@
         "井"
       ]
     },
+    "井泉": {
+      "type": "concept",
+      "label": "井泉",
+      "aliases": []
+    },
     "井田": {
       "type": "经济",
       "label": "井田",
@@ -2589,6 +2695,11 @@
     "交趾": {
       "type": "地点",
       "label": "交趾",
+      "aliases": []
+    },
+    "交通": {
+      "type": "concept",
+      "label": "交通",
       "aliases": []
     },
     "亥_(概念)": {
@@ -3033,6 +3144,11 @@
         "令"
       ]
     },
+    "令典": {
+      "type": "concept",
+      "label": "令典",
+      "aliases": []
+    },
     "令史": {
       "type": "官制",
       "label": "令史",
@@ -3197,6 +3313,11 @@
       "label": "任光",
       "aliases": []
     },
+    "任嚣": {
+      "type": "person",
+      "label": "任嚣",
+      "aliases": []
+    },
     "任回": {
       "type": "人物",
       "label": "任回",
@@ -3354,6 +3475,11 @@
       "aliases": [
         "伍员"
       ]
+    },
+    "伍被": {
+      "type": "person",
+      "label": "伍被",
+      "aliases": []
     },
     "伍逢": {
       "type": "人物",
@@ -3642,7 +3768,7 @@
       ]
     },
     "伯夷": {
-      "type": "人物",
+      "type": "person",
       "label": "伯夷",
       "aliases": []
     },
@@ -3703,6 +3829,11 @@
     "何夔": {
       "type": "人物",
       "label": "何夔",
+      "aliases": []
+    },
+    "何定": {
+      "type": "person",
+      "label": "何定",
       "aliases": []
     },
     "何尚之": {
@@ -3787,6 +3918,11 @@
     "何重建": {
       "type": "人物",
       "label": "何重建",
+      "aliases": []
+    },
+    "何颙": {
+      "type": "person",
+      "label": "何颙",
       "aliases": []
     },
     "佗": {
@@ -3903,6 +4039,11 @@
     "佯败": {
       "type": "军事",
       "label": "佯败",
+      "aliases": []
+    },
+    "佼强": {
+      "type": "person",
+      "label": "佼强",
       "aliases": []
     },
     "佽飞": {
@@ -4062,7 +4203,7 @@
       "aliases": []
     },
     "侯平": {
-      "type": "人物",
+      "type": "person",
       "label": "侯平",
       "aliases": []
     },
@@ -4094,6 +4235,11 @@
       "aliases": [
         "侯益"
       ]
+    },
+    "侯脱": {
+      "type": "person",
+      "label": "侯脱",
+      "aliases": []
     },
     "侯莫陈崇": {
       "type": "人物",
@@ -4199,6 +4345,13 @@
       "type": "军事",
       "label": "俘馘",
       "aliases": []
+    },
+    "俚": {
+      "type": "concept",
+      "label": "俚",
+      "aliases": [
+        "俚人"
+      ]
     },
     "俚_(部族)": {
       "type": "民族",
@@ -4573,7 +4726,7 @@
       ]
     },
     "傅奕": {
-      "type": "人物",
+      "type": "person",
       "label": "傅奕",
       "aliases": []
     },
@@ -4623,7 +4776,7 @@
       "aliases": []
     },
     "傅縡": {
-      "type": "人物",
+      "type": "person",
       "label": "傅縡",
       "aliases": []
     },
@@ -4833,6 +4986,11 @@
       "label": "元勰",
       "aliases": []
     },
+    "元匡": {
+      "type": "person",
+      "label": "元匡",
+      "aliases": []
+    },
     "元叉": {
       "type": "人物",
       "label": "元叉",
@@ -4908,9 +5066,19 @@
       "label": "元康",
       "aliases": []
     },
+    "元弘嗣": {
+      "type": "person",
+      "label": "元弘嗣",
+      "aliases": []
+    },
     "元徽": {
       "type": "年号",
       "label": "元徽",
+      "aliases": []
+    },
+    "元志": {
+      "type": "person",
+      "label": "元志",
       "aliases": []
     },
     "元敏": {
@@ -5029,6 +5197,16 @@
         "元载"
       ]
     },
+    "元钦": {
+      "type": "person",
+      "label": "元钦",
+      "aliases": []
+    },
+    "元韶": {
+      "type": "person",
+      "label": "元韶",
+      "aliases": []
+    },
     "元顺": {
       "type": "人物",
       "label": "元顺",
@@ -5054,6 +5232,11 @@
     "兄弟": {
       "type": "社会",
       "label": "兄弟",
+      "aliases": []
+    },
+    "充军": {
+      "type": "concept",
+      "label": "充军",
       "aliases": []
     },
     "兆_(概念)": {
@@ -5100,6 +5283,11 @@
     "先登": {
       "type": "军事",
       "label": "先登",
+      "aliases": []
+    },
+    "先蚕": {
+      "type": "concept",
+      "label": "先蚕",
       "aliases": []
     },
     "先锋": {
@@ -10306,6 +10494,11 @@
       "label": "公孙表",
       "aliases": []
     },
+    "公孙诡": {
+      "type": "person",
+      "label": "公孙诡",
+      "aliases": []
+    },
     "公孙贺": {
       "type": "人物",
       "label": "公孙贺",
@@ -10365,6 +10558,14 @@
       "type": "政治",
       "label": "公论",
       "aliases": []
+    },
+    "公车": {
+      "type": "concept",
+      "label": "公车",
+      "aliases": [
+        "公车司马令",
+        "公车令"
+      ]
     },
     "公车令": {
       "type": "官制",
@@ -10527,6 +10728,11 @@
       "label": "关中",
       "aliases": []
     },
+    "关中侯": {
+      "type": "concept",
+      "label": "关中侯",
+      "aliases": []
+    },
     "关内": {
       "type": "地点",
       "label": "关内",
@@ -10619,6 +10825,11 @@
     "兴宁": {
       "type": "年号",
       "label": "兴宁",
+      "aliases": []
+    },
+    "兴安门": {
+      "type": "place",
+      "label": "兴安门",
       "aliases": []
     },
     "兴州": {
@@ -10857,6 +11068,14 @@
       "label": "典籍",
       "aliases": []
     },
+    "典膳": {
+      "type": "concept",
+      "label": "典膳",
+      "aliases": [
+        "典膳监",
+        "典膳丞"
+      ]
+    },
     "典韦": {
       "type": "人物",
       "label": "典韦",
@@ -11015,6 +11234,14 @@
       "aliases": [
         "枢密使",
         "内枢密使"
+      ]
+    },
+    "内直": {
+      "type": "concept",
+      "label": "内直",
+      "aliases": [
+        "内直郎",
+        "内直局"
       ]
     },
     "内附": {
@@ -11201,6 +11428,13 @@
       "label": "军旅",
       "aliases": []
     },
+    "军机": {
+      "type": "concept",
+      "label": "军机",
+      "aliases": [
+        "军事机宜"
+      ]
+    },
     "军民": {
       "type": "概念",
       "label": "军民",
@@ -11344,6 +11578,11 @@
       "aliases": [
         "冬"
       ]
+    },
+    "冬官": {
+      "type": "concept",
+      "label": "冬官",
+      "aliases": []
     },
     "冬至": {
       "type": "天文",
@@ -11704,6 +11943,11 @@
         "凤翔节度使"
       ]
     },
+    "凤阁": {
+      "type": "concept",
+      "label": "凤阁",
+      "aliases": []
+    },
     "凤阁侍郎": {
       "type": "官职",
       "label": "凤阁侍郎",
@@ -11892,6 +12136,11 @@
       "label": "刀笔",
       "aliases": []
     },
+    "刀锯": {
+      "type": "concept",
+      "label": "刀锯",
+      "aliases": []
+    },
     "刁协": {
       "type": "人物",
       "label": "刁协",
@@ -12035,6 +12284,11 @@
         "刑"
       ]
     },
+    "刑书": {
+      "type": "concept",
+      "label": "刑书",
+      "aliases": []
+    },
     "刑名": {
       "type": "哲学",
       "label": "刑名",
@@ -12069,6 +12323,13 @@
       "type": "法律",
       "label": "刑狱",
       "aliases": []
+    },
+    "刑统": {
+      "type": "concept",
+      "label": "刑统",
+      "aliases": [
+        "大周刑统"
+      ]
     },
     "刑罚": {
       "type": "法律",
@@ -12511,6 +12772,11 @@
       "label": "刘德威",
       "aliases": []
     },
+    "刘怀慎": {
+      "type": "person",
+      "label": "刘怀慎",
+      "aliases": []
+    },
     "刘怀珍": {
       "type": "人物",
       "label": "刘怀珍",
@@ -12556,6 +12822,11 @@
     "刘承钧": {
       "type": "人物",
       "label": "刘承钧",
+      "aliases": []
+    },
+    "刘捍": {
+      "type": "person",
+      "label": "刘捍",
       "aliases": []
     },
     "刘据": {
@@ -12657,6 +12928,11 @@
       "label": "刘晔",
       "aliases": []
     },
+    "刘晞": {
+      "type": "person",
+      "label": "刘晞",
+      "aliases": []
+    },
     "刘景先": {
       "type": "人物",
       "label": "刘景先",
@@ -12693,6 +12969,11 @@
     "刘柏根": {
       "type": "人物",
       "label": "刘柏根",
+      "aliases": []
+    },
+    "刘栖楚": {
+      "type": "person",
+      "label": "刘栖楚",
       "aliases": []
     },
     "刘棻": {
@@ -12774,7 +13055,7 @@
       "aliases": []
     },
     "刘济": {
-      "type": "人物",
+      "type": "person",
       "label": "刘济",
       "aliases": []
     },
@@ -12856,7 +13137,7 @@
       ]
     },
     "刘猛": {
-      "type": "人物",
+      "type": "person",
       "label": "刘猛",
       "aliases": []
     },
@@ -12911,6 +13192,11 @@
     "刘盆子": {
       "type": "人物",
       "label": "刘盆子",
+      "aliases": []
+    },
+    "刘真道": {
+      "type": "person",
+      "label": "刘真道",
       "aliases": []
     },
     "刘瞻": {
@@ -12982,6 +13268,11 @@
         "刘秉"
       ]
     },
+    "刘秉仁": {
+      "type": "person",
+      "label": "刘秉仁",
+      "aliases": []
+    },
     "刘稹": {
       "type": "人物",
       "label": "刘稹",
@@ -13020,6 +13311,11 @@
       "label": "刘繇",
       "aliases": []
     },
+    "刘纡": {
+      "type": "person",
+      "label": "刘纡",
+      "aliases": []
+    },
     "刘群": {
       "type": "人物",
       "label": "刘群",
@@ -13053,6 +13349,11 @@
       "label": "刘腾",
       "aliases": []
     },
+    "刘舆": {
+      "type": "person",
+      "label": "刘舆",
+      "aliases": []
+    },
     "刘舍": {
       "type": "人物",
       "label": "刘舍",
@@ -13066,6 +13367,11 @@
     "刘英": {
       "type": "人物",
       "label": "刘英",
+      "aliases": []
+    },
+    "刘蕡": {
+      "type": "person",
+      "label": "刘蕡",
       "aliases": []
     },
     "刘虞": {
@@ -13160,7 +13466,7 @@
       "aliases": []
     },
     "刘逖": {
-      "type": "人物",
+      "type": "person",
       "label": "刘逖",
       "aliases": []
     },
@@ -15850,6 +16156,11 @@
       "label": "功臣",
       "aliases": []
     },
+    "功赏": {
+      "type": "concept",
+      "label": "功赏",
+      "aliases": []
+    },
     "功过": {
       "type": "政治",
       "label": "功过",
@@ -16096,6 +16407,11 @@
       "aliases": [
         "勤"
       ]
+    },
+    "勤政": {
+      "type": "concept",
+      "label": "勤政",
+      "aliases": []
     },
     "勤王": {
       "type": "军事",
@@ -16654,6 +16970,11 @@
       "label": "华盖",
       "aliases": []
     },
+    "华覈": {
+      "type": "person",
+      "label": "华覈",
+      "aliases": []
+    },
     "华谭": {
       "type": "人物",
       "label": "华谭",
@@ -16675,6 +16996,13 @@
       "type": "地点",
       "label": "华阴",
       "aliases": []
+    },
+    "协力": {
+      "type": "concept",
+      "label": "协力",
+      "aliases": [
+        "合力"
+      ]
     },
     "协律": {
       "type": "官职",
@@ -16842,6 +17170,11 @@
         "刺史",
         "南徐州刺史"
       ]
+    },
+    "南方": {
+      "type": "concept",
+      "label": "南方",
+      "aliases": []
     },
     "南昌": {
       "type": "地点",
@@ -17151,6 +17484,11 @@
       "label": "卢携",
       "aliases": []
     },
+    "卢文纪": {
+      "type": "person",
+      "label": "卢文纪",
+      "aliases": []
+    },
     "卢文进": {
       "type": "人物",
       "label": "卢文进",
@@ -17236,7 +17574,7 @@
       "aliases": []
     },
     "卢藏用": {
-      "type": "人物",
+      "type": "person",
       "label": "卢藏用",
       "aliases": []
     },
@@ -17272,6 +17610,11 @@
         "节度使",
         "卢龙节度使"
       ]
+    },
+    "卣": {
+      "type": "concept",
+      "label": "卣",
+      "aliases": []
     },
     "卣_(概念)": {
       "type": "礼制",
@@ -17658,9 +18001,19 @@
       "label": "县侯",
       "aliases": []
     },
+    "县子": {
+      "type": "concept",
+      "label": "县子",
+      "aliases": []
+    },
     "县尉": {
       "type": "官制",
       "label": "县尉",
+      "aliases": []
+    },
+    "县男": {
+      "type": "concept",
+      "label": "县男",
       "aliases": []
     },
     "县邑": {
@@ -17835,6 +18188,11 @@
     "变生肘腋": {
       "type": "成语",
       "label": "变生肘腋",
+      "aliases": []
+    },
+    "叛乱": {
+      "type": "concept",
+      "label": "叛乱",
       "aliases": []
     },
     "叛军": {
@@ -18098,6 +18456,11 @@
         "史朝义"
       ]
     },
+    "史涣": {
+      "type": "person",
+      "label": "史涣",
+      "aliases": []
+    },
     "史籍": {
       "type": "哲学",
       "label": "史籍",
@@ -18301,6 +18664,11 @@
         "司农卿"
       ]
     },
+    "司勋": {
+      "type": "concept",
+      "label": "司勋",
+      "aliases": []
+    },
     "司命": {
       "type": "concept",
       "label": "司命",
@@ -18321,6 +18689,11 @@
       "label": "司寇",
       "aliases": []
     },
+    "司封": {
+      "type": "concept",
+      "label": "司封",
+      "aliases": []
+    },
     "司州刺史": {
       "type": "官职",
       "label": "司州刺史",
@@ -18337,6 +18710,16 @@
     "司空": {
       "type": "官职",
       "label": "司空",
+      "aliases": []
+    },
+    "司议郎": {
+      "type": "concept",
+      "label": "司议郎",
+      "aliases": []
+    },
+    "司门": {
+      "type": "concept",
+      "label": "司门",
       "aliases": []
     },
     "司隶": {
@@ -18706,6 +19089,13 @@
       "label": "同异",
       "aliases": []
     },
+    "同心": {
+      "type": "concept",
+      "label": "同心",
+      "aliases": [
+        "齐心"
+      ]
+    },
     "同心协力": {
       "type": "成语",
       "label": "同心协力",
@@ -18720,6 +19110,13 @@
       "type": "地点",
       "label": "同泰寺",
       "aliases": []
+    },
+    "同济": {
+      "type": "concept",
+      "label": "同济",
+      "aliases": [
+        "同舟共济"
+      ]
     },
     "同盟": {
       "type": "军事",
@@ -19171,6 +19568,11 @@
       "label": "吕师造",
       "aliases": []
     },
+    "吕强": {
+      "type": "person",
+      "label": "吕强",
+      "aliases": []
+    },
     "吕才": {
       "type": "人物",
       "label": "吕才",
@@ -19304,6 +19706,11 @@
     "君王": {
       "type": "礼制",
       "label": "君王",
+      "aliases": []
+    },
+    "君臣": {
+      "type": "concept",
+      "label": "君臣",
       "aliases": []
     },
     "君道": {
@@ -19743,6 +20150,11 @@
       "label": "周庠",
       "aliases": []
     },
+    "周建": {
+      "type": "person",
+      "label": "周建",
+      "aliases": []
+    },
     "周弘正": {
       "type": "人物",
       "label": "周弘正",
@@ -19864,7 +20276,7 @@
       "aliases": []
     },
     "周泰": {
-      "type": "人物",
+      "type": "person",
       "label": "周泰",
       "aliases": []
     },
@@ -19962,7 +20374,7 @@
       "aliases": []
     },
     "周飏": {
-      "type": "人物",
+      "type": "person",
       "label": "周飏",
       "aliases": []
     },
@@ -20243,7 +20655,7 @@
       "aliases": []
     },
     "哥舒曜": {
-      "type": "人物",
+      "type": "person",
       "label": "哥舒曜",
       "aliases": []
     },
@@ -20682,6 +21094,11 @@
       "label": "嗣子",
       "aliases": []
     },
+    "嗣爵": {
+      "type": "concept",
+      "label": "嗣爵",
+      "aliases": []
+    },
     "嗣王": {
       "type": "社会",
       "label": "嗣王",
@@ -20929,6 +21346,11 @@
     "国史": {
       "type": "哲学",
       "label": "国史",
+      "aliases": []
+    },
+    "国号": {
+      "type": "concept",
+      "label": "国号",
       "aliases": []
     },
     "国夫人": {
@@ -21245,6 +21667,13 @@
       "label": "坐赃",
       "aliases": []
     },
+    "坐食": {
+      "type": "concept",
+      "label": "坐食",
+      "aliases": [
+        "坐享其成"
+      ]
+    },
     "坑儒": {
       "type": "事件",
       "label": "坑儒",
@@ -21305,6 +21734,11 @@
       "aliases": [
         "坛"
       ]
+    },
+    "坛场": {
+      "type": "concept",
+      "label": "坛场",
+      "aliases": []
     },
     "坝_(概念)": {
       "type": "自然",
@@ -21517,6 +21951,11 @@
       "aliases": [
         "堂"
       ]
+    },
+    "堂帖": {
+      "type": "concept",
+      "label": "堂帖",
+      "aliases": []
     },
     "堂邑": {
       "type": "地点",
@@ -21755,6 +22194,11 @@
         "士为知己者死"
       ]
     },
+    "士人": {
+      "type": "concept",
+      "label": "士人",
+      "aliases": []
+    },
     "士别三日": {
       "type": "名句",
       "label": "士别三日",
@@ -21952,7 +22396,7 @@
       "aliases": []
     },
     "夏侯夔": {
-      "type": "人物",
+      "type": "person",
       "label": "夏侯夔",
       "aliases": []
     },
@@ -22006,7 +22450,7 @@
       "aliases": []
     },
     "夏侯霸": {
-      "type": "人物",
+      "type": "person",
       "label": "夏侯霸",
       "aliases": []
     },
@@ -22023,6 +22467,11 @@
     "夏国君主列表": {
       "type": "综述",
       "label": "夏国君主列表",
+      "aliases": []
+    },
+    "夏官": {
+      "type": "concept",
+      "label": "夏官",
       "aliases": []
     },
     "夏州": {
@@ -22684,6 +23133,11 @@
       "label": "天祐",
       "aliases": []
     },
+    "天禄": {
+      "type": "concept",
+      "label": "天禄",
+      "aliases": []
+    },
     "天福": {
       "type": "概念",
       "label": "天福",
@@ -23073,6 +23527,11 @@
       "label": "太白",
       "aliases": []
     },
+    "太祝": {
+      "type": "concept",
+      "label": "太祝",
+      "aliases": []
+    },
     "太行": {
       "type": "地点",
       "label": "太行",
@@ -23175,6 +23634,18 @@
       "type": "军事",
       "label": "夹攻",
       "aliases": []
+    },
+    "夺嫡": {
+      "type": "concept",
+      "label": "夺嫡",
+      "aliases": []
+    },
+    "夺官": {
+      "type": "concept",
+      "label": "夺官",
+      "aliases": [
+        "削夺官爵"
+      ]
     },
     "夺气": {
       "type": "军事",
@@ -23326,6 +23797,11 @@
     "奏报": {
       "type": "政治",
       "label": "奏报",
+      "aliases": []
+    },
+    "奏状": {
+      "type": "concept",
+      "label": "奏状",
       "aliases": []
     },
     "奏疏": {
@@ -23822,6 +24298,11 @@
       "label": "姚襄",
       "aliases": []
     },
+    "姚顗": {
+      "type": "person",
+      "label": "姚顗",
+      "aliases": []
+    },
     "姜公辅": {
       "type": "人物",
       "label": "姜公辅",
@@ -24108,6 +24589,16 @@
         "孔伋"
       ]
     },
+    "子贡": {
+      "type": "person",
+      "label": "子贡",
+      "aliases": []
+    },
+    "子路": {
+      "type": "person",
+      "label": "子路",
+      "aliases": []
+    },
     "子顺": {
       "type": "人物",
       "label": "子顺",
@@ -24115,13 +24606,18 @@
         "孔斌"
       ]
     },
+    "孔伷": {
+      "type": "person",
+      "label": "孔伷",
+      "aliases": []
+    },
     "孔光": {
       "type": "人物",
       "label": "孔光",
       "aliases": []
     },
     "孔勍": {
-      "type": "人物",
+      "type": "person",
       "label": "孔勍",
       "aliases": []
     },
@@ -24342,6 +24838,11 @@
     "孙宠": {
       "type": "person",
       "label": "孙宠",
+      "aliases": []
+    },
+    "孙宣雅": {
+      "type": "person",
+      "label": "孙宣雅",
       "aliases": []
     },
     "孙岳": {
@@ -24614,6 +25115,16 @@
       "label": "孟方立",
       "aliases": []
     },
+    "孟明": {
+      "type": "person",
+      "label": "孟明",
+      "aliases": []
+    },
+    "孟昶": {
+      "type": "person",
+      "label": "孟昶",
+      "aliases": []
+    },
     "孟楷": {
       "type": "人物",
       "label": "孟楷",
@@ -24685,6 +25196,11 @@
     "孟迁": {
       "type": "person",
       "label": "孟迁",
+      "aliases": []
+    },
+    "季友": {
+      "type": "person",
+      "label": "季友",
       "aliases": []
     },
     "季布": {
@@ -24845,7 +25361,7 @@
       "aliases": []
     },
     "宇文弼": {
-      "type": "人物",
+      "type": "person",
       "label": "宇文弼",
       "aliases": []
     },
@@ -24885,6 +25401,11 @@
       "label": "宇文泰改革",
       "aliases": []
     },
+    "宇文测": {
+      "type": "person",
+      "label": "宇文测",
+      "aliases": []
+    },
     "宇文深": {
       "type": "人物",
       "label": "宇文深",
@@ -24898,6 +25419,11 @@
     "宇文神举": {
       "type": "人物",
       "label": "宇文神举",
+      "aliases": []
+    },
+    "宇文节": {
+      "type": "person",
+      "label": "宇文节",
       "aliases": []
     },
     "宇文融": {
@@ -24962,6 +25488,11 @@
     "守御": {
       "type": "军事",
       "label": "守御",
+      "aliases": []
+    },
+    "守捉": {
+      "type": "concept",
+      "label": "守捉",
       "aliases": []
     },
     "守正": {
@@ -25227,6 +25758,11 @@
     "安福门": {
       "type": "concept",
       "label": "安福门",
+      "aliases": []
+    },
+    "安福顺": {
+      "type": "person",
+      "label": "安福顺",
       "aliases": []
     },
     "安置": {
@@ -25573,6 +26109,11 @@
         "廨舍"
       ]
     },
+    "官当": {
+      "type": "concept",
+      "label": "官当",
+      "aliases": []
+    },
     "官曹": {
       "type": "政治",
       "label": "官曹",
@@ -25679,6 +26220,11 @@
       "aliases": [
         "宝"
       ]
+    },
+    "宝册": {
+      "type": "concept",
+      "label": "宝册",
+      "aliases": []
     },
     "宝器": {
       "type": "经济",
@@ -25972,6 +26518,11 @@
       "label": "宫市",
       "aliases": []
     },
+    "宫廷": {
+      "type": "concept",
+      "label": "宫廷",
+      "aliases": []
+    },
     "宫悬": {
       "type": "concept",
       "label": "宫悬",
@@ -26117,6 +26668,11 @@
       "label": "宽宥",
       "aliases": []
     },
+    "宽政": {
+      "type": "concept",
+      "label": "宽政",
+      "aliases": []
+    },
     "宽猛": {
       "type": "政治",
       "label": "宽猛",
@@ -26252,6 +26808,11 @@
       "label": "富平",
       "aliases": []
     },
+    "富庶": {
+      "type": "concept",
+      "label": "富庶",
+      "aliases": []
+    },
     "富春": {
       "type": "地点",
       "label": "富春",
@@ -26291,6 +26852,13 @@
       "type": "社会",
       "label": "寒士",
       "aliases": []
+    },
+    "寒族": {
+      "type": "concept",
+      "label": "寒族",
+      "aliases": [
+        "寒门"
+      ]
     },
     "寒门": {
       "type": "制度",
@@ -26500,6 +27068,11 @@
     "封禅": {
       "type": "礼制",
       "label": "封禅",
+      "aliases": []
+    },
+    "封裕": {
+      "type": "person",
+      "label": "封裕",
       "aliases": []
     },
     "封赏": {
@@ -26720,6 +27293,11 @@
       "label": "小黄",
       "aliases": []
     },
+    "小黄门": {
+      "type": "concept",
+      "label": "小黄门",
+      "aliases": []
+    },
     "少保": {
       "type": "官职",
       "label": "少保",
@@ -26879,6 +27457,11 @@
       "label": "尚书郎",
       "aliases": []
     },
+    "尚公主": {
+      "type": "concept",
+      "label": "尚公主",
+      "aliases": []
+    },
     "尚可孤": {
       "type": "人物",
       "label": "尚可孤",
@@ -26962,6 +27545,11 @@
     "尹子奇": {
       "type": "人物",
       "label": "尹子奇",
+      "aliases": []
+    },
+    "尹尊": {
+      "type": "person",
+      "label": "尹尊",
       "aliases": []
     },
     "尹忠": {
@@ -27167,6 +27755,11 @@
       "label": "屠灭",
       "aliases": []
     },
+    "屠睢": {
+      "type": "person",
+      "label": "屠睢",
+      "aliases": []
+    },
     "屣": {
       "type": "器物",
       "label": "屣",
@@ -27247,6 +27840,13 @@
       "type": "军事",
       "label": "屯营",
       "aliases": []
+    },
+    "屯骑": {
+      "type": "concept",
+      "label": "屯骑",
+      "aliases": [
+        "屯骑校尉"
+      ]
     },
     "屯骑校尉": {
       "type": "官职",
@@ -27331,6 +27931,11 @@
         "山涛",
         "巨源"
       ]
+    },
+    "山简": {
+      "type": "person",
+      "label": "山简",
+      "aliases": []
     },
     "山西": {
       "type": "地点",
@@ -27598,9 +28203,24 @@
       "label": "崔仁师",
       "aliases": []
     },
+    "崔从": {
+      "type": "person",
+      "label": "崔从",
+      "aliases": []
+    },
     "崔仲方": {
       "type": "人物",
       "label": "崔仲方",
+      "aliases": []
+    },
+    "崔元式": {
+      "type": "person",
+      "label": "崔元式",
+      "aliases": []
+    },
+    "崔元略": {
+      "type": "person",
+      "label": "崔元略",
       "aliases": []
     },
     "崔光": {
@@ -27619,6 +28239,11 @@
     "崔发": {
       "type": "人物",
       "label": "崔发",
+      "aliases": []
+    },
+    "崔君肃": {
+      "type": "person",
+      "label": "崔君肃",
       "aliases": []
     },
     "崔圆": {
@@ -27730,6 +28355,11 @@
       "label": "崔林",
       "aliases": []
     },
+    "崔枢": {
+      "type": "person",
+      "label": "崔枢",
+      "aliases": []
+    },
     "崔植": {
       "type": "人物",
       "label": "崔植",
@@ -27761,6 +28391,11 @@
       "aliases": [
         "崔伯渊"
       ]
+    },
+    "崔涣": {
+      "type": "person",
+      "label": "崔涣",
+      "aliases": []
     },
     "崔游": {
       "type": "人物",
@@ -27947,6 +28582,11 @@
       "label": "州县",
       "aliases": []
     },
+    "州泰": {
+      "type": "person",
+      "label": "州泰",
+      "aliases": []
+    },
     "州牧": {
       "type": "官职",
       "label": "州牧",
@@ -27955,6 +28595,11 @@
     "州郡": {
       "type": "自然",
       "label": "州郡",
+      "aliases": []
+    },
+    "巡城": {
+      "type": "concept",
+      "label": "巡城",
       "aliases": []
     },
     "巡守": {
@@ -28766,12 +29411,29 @@
       "label": "常谦光",
       "aliases": []
     },
+    "帽": {
+      "type": "concept",
+      "label": "帽",
+      "aliases": []
+    },
     "帽_(概念)": {
       "type": "服饰",
       "label": "帽",
       "aliases": [
         "帽"
       ]
+    },
+    "幄": {
+      "type": "concept",
+      "label": "幄",
+      "aliases": [
+        "帷幄"
+      ]
+    },
+    "幔": {
+      "type": "concept",
+      "label": "幔",
+      "aliases": []
     },
     "幔_(概念)": {
       "type": "器物",
@@ -29044,6 +29706,13 @@
       "label": "并兵",
       "aliases": []
     },
+    "并力": {
+      "type": "concept",
+      "label": "并力",
+      "aliases": [
+        "合力"
+      ]
+    },
     "并吞": {
       "type": "军事",
       "label": "并吞",
@@ -29295,6 +29964,16 @@
       "label": "库藏",
       "aliases": []
     },
+    "库部": {
+      "type": "concept",
+      "label": "库部",
+      "aliases": []
+    },
+    "库门": {
+      "type": "concept",
+      "label": "库门",
+      "aliases": []
+    },
     "应侯": {
       "type": "爵位",
       "label": "应侯",
@@ -29328,6 +30007,11 @@
     "应詹": {
       "type": "人物",
       "label": "应詹",
+      "aliases": []
+    },
+    "应钟": {
+      "type": "concept",
+      "label": "应钟",
       "aliases": []
     },
     "底": {
@@ -29426,6 +30110,11 @@
       "label": "庞",
       "aliases": []
     },
+    "庞从": {
+      "type": "person",
+      "label": "庞从",
+      "aliases": []
+    },
     "庞勋": {
       "type": "人物",
       "label": "庞勋",
@@ -29476,6 +30165,16 @@
       "label": "庞萌",
       "aliases": []
     },
+    "废后": {
+      "type": "concept",
+      "label": "废后",
+      "aliases": []
+    },
+    "废太子": {
+      "type": "concept",
+      "label": "废太子",
+      "aliases": []
+    },
     "废疾": {
       "type": "社会",
       "label": "废疾",
@@ -29490,6 +30189,13 @@
       "type": "政治",
       "label": "废置",
       "aliases": []
+    },
+    "废锢": {
+      "type": "concept",
+      "label": "废锢",
+      "aliases": [
+        "禁锢"
+      ]
     },
     "废黜": {
       "type": "政治",
@@ -30053,6 +30759,11 @@
       "label": "建武",
       "aliases": []
     },
+    "建福门": {
+      "type": "place",
+      "label": "建福门",
+      "aliases": []
+    },
     "建章": {
       "type": "地点",
       "label": "建章",
@@ -30482,7 +31193,7 @@
       "aliases": []
     },
     "张光辅": {
-      "type": "人物",
+      "type": "person",
       "label": "张光辅",
       "aliases": []
     },
@@ -30979,6 +31690,11 @@
       "label": "张濬",
       "aliases": []
     },
+    "张煦": {
+      "type": "person",
+      "label": "张煦",
+      "aliases": []
+    },
     "张燕": {
       "type": "人物",
       "label": "张燕",
@@ -31099,7 +31815,7 @@
       "aliases": []
     },
     "张绪": {
-      "type": "人物",
+      "type": "person",
       "label": "张绪",
       "aliases": []
     },
@@ -31294,6 +32010,11 @@
         "张遇贤"
       ]
     },
+    "张道源": {
+      "type": "person",
+      "label": "张道源",
+      "aliases": []
+    },
     "张邈": {
       "type": "人物",
       "label": "张邈",
@@ -31332,6 +32053,11 @@
     "张金称": {
       "type": "人物",
       "label": "张金称",
+      "aliases": []
+    },
+    "张锡": {
+      "type": "person",
+      "label": "张锡",
       "aliases": []
     },
     "张镇周": {
@@ -32079,6 +32805,11 @@
       "label": "律令",
       "aliases": []
     },
+    "律令格式": {
+      "type": "concept",
+      "label": "律令格式",
+      "aliases": []
+    },
     "律历": {
       "type": "哲学",
       "label": "律历",
@@ -32203,6 +32934,11 @@
     "徐敬业": {
       "type": "人物",
       "label": "徐敬业",
+      "aliases": []
+    },
+    "徐文盛": {
+      "type": "person",
+      "label": "徐文盛",
       "aliases": []
     },
     "徐晃": {
@@ -33176,6 +33912,11 @@
       "label": "慕容三藏",
       "aliases": []
     },
+    "慕容云": {
+      "type": "person",
+      "label": "慕容云",
+      "aliases": []
+    },
     "慕容令": {
       "type": "人物",
       "label": "慕容令",
@@ -33348,6 +34089,11 @@
       "label": "懿宗",
       "aliases": []
     },
+    "戈": {
+      "type": "concept",
+      "label": "戈",
+      "aliases": []
+    },
     "戈_(器物)": {
       "type": "器物",
       "label": "戈",
@@ -33447,6 +34193,14 @@
       "type": "器物",
       "label": "戎车",
       "aliases": []
+    },
+    "戎马": {
+      "type": "concept",
+      "label": "戎马",
+      "aliases": [
+        "战马",
+        "兵戈"
+      ]
     },
     "戏水": {
       "type": "地点",
@@ -33604,6 +34358,11 @@
       "label": "战舰",
       "aliases": []
     },
+    "战船": {
+      "type": "concept",
+      "label": "战船",
+      "aliases": []
+    },
     "战马": {
       "type": "军事",
       "label": "战马",
@@ -33643,6 +34402,14 @@
       "label": "戮",
       "aliases": [
         "戮"
+      ]
+    },
+    "戮力": {
+      "type": "concept",
+      "label": "戮力",
+      "aliases": [
+        "并力",
+        "合力"
       ]
     },
     "戮力同心": {
@@ -33785,7 +34552,7 @@
       "aliases": []
     },
     "房植": {
-      "type": "人物",
+      "type": "person",
       "label": "房植",
       "aliases": []
     },
@@ -33831,6 +34598,14 @@
       "type": "人物",
       "label": "扁鹊",
       "aliases": []
+    },
+    "扆": {
+      "type": "concept",
+      "label": "扆",
+      "aliases": [
+        "斧扆",
+        "屏扆"
+      ]
     },
     "扇_(概念)": {
       "type": "器用",
@@ -34405,6 +35180,13 @@
       "label": "挚虞",
       "aliases": []
     },
+    "挞": {
+      "type": "concept",
+      "label": "挞",
+      "aliases": [
+        "鞭挞"
+      ]
+    },
     "挟天子": {
       "type": "政治",
       "label": "挟天子",
@@ -34486,6 +35268,14 @@
       "type": "军事",
       "label": "据鞍",
       "aliases": []
+    },
+    "捶": {
+      "type": "concept",
+      "label": "捶",
+      "aliases": [
+        "捶击",
+        "杖击"
+      ]
     },
     "捶楚": {
       "type": "法律",
@@ -34699,6 +35489,14 @@
       "label": "摄位",
       "aliases": []
     },
+    "摄官": {
+      "type": "concept",
+      "label": "摄官",
+      "aliases": [
+        "代理",
+        "兼摄"
+      ]
+    },
     "摄政": {
       "type": "制度",
       "label": "摄政",
@@ -34801,6 +35599,11 @@
     "改制": {
       "type": "政治",
       "label": "改制",
+      "aliases": []
+    },
+    "改过": {
+      "type": "concept",
+      "label": "改过",
       "aliases": []
     },
     "改过自新": {
@@ -35220,6 +36023,11 @@
       "label": "文昌",
       "aliases": []
     },
+    "文昌台": {
+      "type": "concept",
+      "label": "文昌台",
+      "aliases": []
+    },
     "文景之治": {
       "type": "事件",
       "label": "文景之治",
@@ -35242,9 +36050,19 @@
       "label": "文武兼资",
       "aliases": []
     },
+    "文治": {
+      "type": "concept",
+      "label": "文治",
+      "aliases": []
+    },
     "文法": {
       "type": "法律",
       "label": "文法",
+      "aliases": []
+    },
+    "文牒": {
+      "type": "concept",
+      "label": "文牒",
       "aliases": []
     },
     "文移": {
@@ -35265,6 +36083,11 @@
     "文籍": {
       "type": "哲学",
       "label": "文籍",
+      "aliases": []
+    },
+    "文翁": {
+      "type": "person",
+      "label": "文翁",
       "aliases": []
     },
     "文翰": {
@@ -35288,7 +36111,7 @@
       "aliases": []
     },
     "文鸯": {
-      "type": "人物",
+      "type": "person",
       "label": "文鸯",
       "aliases": []
     },
@@ -35399,7 +36222,7 @@
       "aliases": []
     },
     "斛斯椿": {
-      "type": "人物",
+      "type": "person",
       "label": "斛斯椿",
       "aliases": []
     },
@@ -35639,6 +36462,11 @@
       "label": "施文庆",
       "aliases": []
     },
+    "施绩": {
+      "type": "person",
+      "label": "施绩",
+      "aliases": []
+    },
     "施行": {
       "type": "政治",
       "label": "施行",
@@ -35845,6 +36673,13 @@
       "type": "政治",
       "label": "日昃",
       "aliases": []
+    },
+    "日者": {
+      "type": "concept",
+      "label": "日者",
+      "aliases": [
+        "卜者"
+      ]
     },
     "日食": {
       "type": "天文",
@@ -36183,6 +37018,11 @@
       "aliases": [
         "春"
       ]
+    },
+    "春官": {
+      "type": "concept",
+      "label": "春官",
+      "aliases": []
     },
     "春宫": {
       "type": "制度",
@@ -37003,6 +37843,11 @@
       "label": "曾元裕",
       "aliases": []
     },
+    "曾参": {
+      "type": "person",
+      "label": "曾参",
+      "aliases": []
+    },
     "月_(天文)": {
       "type": "天文",
       "label": "月",
@@ -37153,6 +37998,11 @@
       "aliases": [
         "望"
       ]
+    },
+    "望仙门": {
+      "type": "place",
+      "label": "望仙门",
+      "aliases": []
     },
     "望夷宫": {
       "type": "place",
@@ -38014,7 +38864,7 @@
       ]
     },
     "李回": {
-      "type": "人物",
+      "type": "person",
       "label": "李回",
       "aliases": []
     },
@@ -38116,6 +38966,11 @@
         "符存审"
       ]
     },
+    "李存敬": {
+      "type": "person",
+      "label": "李存敬",
+      "aliases": []
+    },
     "李存璋": {
       "type": "人物",
       "label": "李存璋",
@@ -38162,6 +39017,11 @@
       "aliases": [
         "李守贞"
       ]
+    },
+    "李安期": {
+      "type": "person",
+      "label": "李安期",
+      "aliases": []
     },
     "李安民": {
       "type": "人物",
@@ -38536,6 +39396,11 @@
       "label": "李揆",
       "aliases": []
     },
+    "李敢": {
+      "type": "person",
+      "label": "李敢",
+      "aliases": []
+    },
     "李敬业": {
       "type": "人物",
       "label": "李敬业",
@@ -38760,6 +39625,16 @@
       "label": "李特",
       "aliases": []
     },
+    "李玄通": {
+      "type": "person",
+      "label": "李玄通",
+      "aliases": []
+    },
+    "李玄道": {
+      "type": "person",
+      "label": "李玄道",
+      "aliases": []
+    },
     "李玉": {
       "type": "人物",
       "label": "李玉",
@@ -38768,6 +39643,11 @@
     "李珏": {
       "type": "人物",
       "label": "李珏",
+      "aliases": []
+    },
+    "李珽": {
+      "type": "person",
+      "label": "李珽",
       "aliases": []
     },
     "李琢": {
@@ -38796,7 +39676,7 @@
       "aliases": []
     },
     "李璨": {
-      "type": "人物",
+      "type": "person",
       "label": "李璨",
       "aliases": []
     },
@@ -38808,6 +39688,11 @@
     "李百药": {
       "type": "人物",
       "label": "李百药",
+      "aliases": []
+    },
+    "李矩": {
+      "type": "person",
+      "label": "李矩",
       "aliases": []
     },
     "李石": {
@@ -38857,6 +39742,11 @@
       "label": "李简",
       "aliases": []
     },
+    "李素立": {
+      "type": "person",
+      "label": "李素立",
+      "aliases": []
+    },
     "李纲": {
       "type": "人物",
       "label": "李纲",
@@ -38877,9 +39767,19 @@
       "label": "李绅",
       "aliases": []
     },
+    "李绍宏": {
+      "type": "person",
+      "label": "李绍宏",
+      "aliases": []
+    },
     "李绍斌": {
-      "type": "人物",
+      "type": "person",
       "label": "李绍斌",
+      "aliases": []
+    },
+    "李绍荣": {
+      "type": "person",
+      "label": "李绍荣",
       "aliases": []
     },
     "李绛": {
@@ -38903,7 +39803,7 @@
       ]
     },
     "李继徽": {
-      "type": "人物",
+      "type": "person",
       "label": "李继徽",
       "aliases": []
     },
@@ -38991,6 +39891,16 @@
     "李虎": {
       "type": "人物",
       "label": "李虎",
+      "aliases": []
+    },
+    "李袭志": {
+      "type": "person",
+      "label": "李袭志",
+      "aliases": []
+    },
+    "李袭誉": {
+      "type": "person",
+      "label": "李袭誉",
       "aliases": []
     },
     "李训": {
@@ -39480,6 +40390,11 @@
       "label": "杜茂",
       "aliases": []
     },
+    "杜蕤": {
+      "type": "person",
+      "label": "杜蕤",
+      "aliases": []
+    },
     "杜袭": {
       "type": "person",
       "label": "杜袭",
@@ -39562,9 +40477,19 @@
       "label": "杞州",
       "aliases": []
     },
+    "杞梓": {
+      "type": "concept",
+      "label": "杞梓",
+      "aliases": []
+    },
     "束之高阁": {
       "type": "成语",
       "label": "束之高阁",
+      "aliases": []
+    },
+    "束帛": {
+      "type": "concept",
+      "label": "束帛",
       "aliases": []
     },
     "束甲": {
@@ -39784,6 +40709,16 @@
       "label": "杨廷璋",
       "aliases": []
     },
+    "杨弁": {
+      "type": "person",
+      "label": "杨弁",
+      "aliases": []
+    },
+    "杨弘武": {
+      "type": "person",
+      "label": "杨弘武",
+      "aliases": []
+    },
     "杨彦询": {
       "type": "人物",
       "label": "杨彦询",
@@ -39807,6 +40742,11 @@
     "杨思勖": {
       "type": "人物",
       "label": "杨思勖",
+      "aliases": []
+    },
+    "杨思权": {
+      "type": "person",
+      "label": "杨思权",
       "aliases": []
     },
     "杨恽": {
@@ -39864,6 +40804,11 @@
     "杨椿": {
       "type": "人物",
       "label": "杨椿",
+      "aliases": []
+    },
+    "杨檀": {
+      "type": "person",
+      "label": "杨檀",
       "aliases": []
     },
     "杨檦": {
@@ -40003,6 +40948,11 @@
       "label": "杨赐",
       "aliases": []
     },
+    "杨遵彦": {
+      "type": "person",
+      "label": "杨遵彦",
+      "aliases": []
+    },
     "杨邠": {
       "type": "人物",
       "label": "杨邠",
@@ -40045,6 +40995,11 @@
     "杭州": {
       "type": "地点",
       "label": "杭州",
+      "aliases": []
+    },
+    "杯": {
+      "type": "concept",
+      "label": "杯",
       "aliases": []
     },
     "杯_(器物)": {
@@ -40113,6 +41068,13 @@
         "疾风知劲草板荡识诚臣"
       ]
     },
+    "极谏": {
+      "type": "concept",
+      "label": "极谏",
+      "aliases": [
+        "直谏"
+      ]
+    },
     "构陷": {
       "type": "政治",
       "label": "构陷",
@@ -40138,6 +41100,11 @@
     "枋头之战": {
       "type": "战役",
       "label": "枋头之战",
+      "aliases": []
+    },
+    "枕": {
+      "type": "concept",
+      "label": "枕",
       "aliases": []
     },
     "枕_(概念)": {
@@ -40184,6 +41151,16 @@
         "占婆",
         "占城"
       ]
+    },
+    "林钟": {
+      "type": "concept",
+      "label": "林钟",
+      "aliases": []
+    },
+    "林鼎": {
+      "type": "person",
+      "label": "林鼎",
+      "aliases": []
     },
     "枚_(概念)": {
       "type": "concept",
@@ -40351,6 +41328,13 @@
       "label": "柏壁之战",
       "aliases": []
     },
+    "柏梁": {
+      "type": "place",
+      "label": "柏梁",
+      "aliases": [
+        "柏梁台"
+      ]
+    },
     "柏梁台": {
       "type": "地点",
       "label": "柏梁台",
@@ -40512,6 +41496,11 @@
       "label": "柳裘",
       "aliases": []
     },
+    "柳述": {
+      "type": "person",
+      "label": "柳述",
+      "aliases": []
+    },
     "柴再用": {
       "type": "人物",
       "label": "柴再用",
@@ -40671,6 +41660,11 @@
     "格谦": {
       "type": "人物",
       "label": "格谦",
+      "aliases": []
+    },
+    "格辅元": {
+      "type": "person",
+      "label": "格辅元",
       "aliases": []
     },
     "栾大": {
@@ -40884,6 +41878,11 @@
         "桓彦范"
       ]
     },
+    "桓振": {
+      "type": "person",
+      "label": "桓振",
+      "aliases": []
+    },
     "桓温": {
       "type": "人物",
       "label": "桓温",
@@ -40934,6 +41933,11 @@
       "label": "桓荣",
       "aliases": []
     },
+    "桓谦": {
+      "type": "person",
+      "label": "桓谦",
+      "aliases": []
+    },
     "桓谭": {
       "type": "人物",
       "label": "桓谭",
@@ -40942,7 +41946,7 @@
       ]
     },
     "桓豁": {
-      "type": "人物",
+      "type": "person",
       "label": "桓豁",
       "aliases": []
     },
@@ -40979,6 +41983,11 @@
     "桥玄": {
       "type": "人物",
       "label": "桥玄",
+      "aliases": []
+    },
+    "桥瑁": {
+      "type": "person",
+      "label": "桥瑁",
       "aliases": []
     },
     "桥陵": {
@@ -41035,9 +42044,7 @@
     "梁太后": {
       "type": "person",
       "label": "梁太后",
-      "aliases": [
-        "梁妠"
-      ]
+      "aliases": []
     },
     "梁太祖": {
       "type": "人物",
@@ -41138,6 +42145,11 @@
     "梁睿": {
       "type": "人物",
       "label": "梁睿",
+      "aliases": []
+    },
+    "梁统": {
+      "type": "person",
+      "label": "梁统",
       "aliases": []
     },
     "梁缵": {
@@ -41250,6 +42262,13 @@
       "label": "械送",
       "aliases": []
     },
+    "检校": {
+      "type": "concept",
+      "label": "检校",
+      "aliases": [
+        "查核"
+      ]
+    },
     "检校官": {
       "type": "concept",
       "label": "检校官",
@@ -41282,6 +42301,13 @@
       "label": "棋",
       "aliases": [
         "棋"
+      ]
+    },
+    "棒": {
+      "type": "concept",
+      "label": "棒",
+      "aliases": [
+        "棍棒"
       ]
     },
     "棒_(概念)": {
@@ -41643,6 +42669,11 @@
       "label": "槛车",
       "aliases": []
     },
+    "樊兴": {
+      "type": "person",
+      "label": "樊兴",
+      "aliases": []
+    },
     "樊哙": {
       "type": "人物",
       "label": "樊哙",
@@ -41689,7 +42720,7 @@
       ]
     },
     "樊毅": {
-      "type": "人物",
+      "type": "person",
       "label": "樊毅",
       "aliases": []
     },
@@ -42048,6 +43079,13 @@
       "type": "政治",
       "label": "正统",
       "aliases": []
+    },
+    "正闰": {
+      "type": "concept",
+      "label": "正闰",
+      "aliases": [
+        "闰位"
+      ]
     },
     "步兵": {
       "type": "军事",
@@ -42579,6 +43617,11 @@
       "label": "段晖",
       "aliases": []
     },
+    "段末柸": {
+      "type": "person",
+      "label": "段末柸",
+      "aliases": []
+    },
     "段煨": {
       "type": "人物",
       "label": "段煨",
@@ -42587,6 +43630,11 @@
     "段玑": {
       "type": "人物",
       "label": "段玑",
+      "aliases": []
+    },
+    "段珪": {
+      "type": "person",
+      "label": "段珪",
       "aliases": []
     },
     "段疾陆眷": {
@@ -42908,7 +43956,7 @@
       ]
     },
     "毛盛": {
-      "type": "人物",
+      "type": "person",
       "label": "毛盛",
       "aliases": []
     },
@@ -42942,6 +43990,11 @@
     "毫_(概念)": {
       "type": "unknown",
       "label": "毫_(概念)",
+      "aliases": []
+    },
+    "毯": {
+      "type": "concept",
+      "label": "毯",
       "aliases": []
     },
     "毯_(概念)": {
@@ -43032,6 +44085,11 @@
     "民歌": {
       "type": "社会",
       "label": "民歌",
+      "aliases": []
+    },
+    "民生": {
+      "type": "concept",
+      "label": "民生",
       "aliases": []
     },
     "民田": {
@@ -43345,6 +44403,11 @@
         "孝宣皇帝",
         "中宗"
       ]
+    },
+    "汉律": {
+      "type": "concept",
+      "label": "汉律",
+      "aliases": []
     },
     "汉惠帝": {
       "type": "人物",
@@ -43687,6 +44750,11 @@
       "label": "江都之变",
       "aliases": []
     },
+    "江都宫": {
+      "type": "place",
+      "label": "江都宫",
+      "aliases": []
+    },
     "江阳": {
       "type": "地点",
       "label": "江阳",
@@ -43819,6 +44887,11 @@
       "label": "沈光",
       "aliases": []
     },
+    "沈崧": {
+      "type": "person",
+      "label": "沈崧",
+      "aliases": []
+    },
     "沈庆之": {
       "type": "人物",
       "label": "沈庆之",
@@ -43833,7 +44906,7 @@
       "aliases": []
     },
     "沈恪": {
-      "type": "人物",
+      "type": "person",
       "label": "沈恪",
       "aliases": []
     },
@@ -43891,6 +44964,11 @@
         "沈约",
         "沈休文"
       ]
+    },
+    "沈莹": {
+      "type": "person",
+      "label": "沈莹",
+      "aliases": []
     },
     "沉": {
       "type": "自然",
@@ -44144,6 +45222,11 @@
       "label": "河南尹",
       "aliases": []
     },
+    "河图": {
+      "type": "concept",
+      "label": "河图",
+      "aliases": []
+    },
     "河山": {
       "type": "自然",
       "label": "河山",
@@ -44180,6 +45263,16 @@
     "河桥": {
       "type": "place",
       "label": "河桥",
+      "aliases": []
+    },
+    "河水": {
+      "type": "concept",
+      "label": "河水",
+      "aliases": []
+    },
+    "河清": {
+      "type": "concept",
+      "label": "河清",
       "aliases": []
     },
     "河渠": {
@@ -44274,6 +45367,11 @@
     "治狱": {
       "type": "法律",
       "label": "治狱",
+      "aliases": []
+    },
+    "治理": {
+      "type": "concept",
+      "label": "治理",
       "aliases": []
     },
     "治道": {
@@ -44920,6 +46018,11 @@
         "浙西观察使"
       ]
     },
+    "浣濯": {
+      "type": "concept",
+      "label": "浣濯",
+      "aliases": []
+    },
     "浦": {
       "type": "地理",
       "label": "浦",
@@ -45563,6 +46666,11 @@
         "湖州刺史"
       ]
     },
+    "湖水": {
+      "type": "concept",
+      "label": "湖水",
+      "aliases": []
+    },
     "湖阳": {
       "type": "地点",
       "label": "湖阳",
@@ -45653,6 +46761,11 @@
     "源子恭": {
       "type": "人物",
       "label": "源子恭",
+      "aliases": []
+    },
+    "源怀": {
+      "type": "person",
+      "label": "源怀",
       "aliases": []
     },
     "源贺": {
@@ -46393,6 +47506,13 @@
       "label": "燕子献",
       "aliases": []
     },
+    "燕山": {
+      "type": "place",
+      "label": "燕山",
+      "aliases": [
+        "燕山山脉"
+      ]
+    },
     "燕惠王": {
       "type": "person",
       "label": "燕惠王",
@@ -46435,6 +47555,11 @@
     "燕王旦": {
       "type": "人物",
       "label": "燕王旦",
+      "aliases": []
+    },
+    "燕荣": {
+      "type": "person",
+      "label": "燕荣",
       "aliases": []
     },
     "燕雀": {
@@ -46492,6 +47617,13 @@
       "type": "哲学",
       "label": "爱憎",
       "aliases": []
+    },
+    "爱民": {
+      "type": "concept",
+      "label": "爱民",
+      "aliases": [
+        "仁民"
+      ]
     },
     "爵": {
       "type": "概念",
@@ -47152,6 +48284,11 @@
         "猿"
       ]
     },
+    "獠": {
+      "type": "concept",
+      "label": "獠",
+      "aliases": []
+    },
     "獠_(部族)": {
       "type": "民族",
       "label": "獠",
@@ -47166,6 +48303,11 @@
         "玄"
       ]
     },
+    "玄圭": {
+      "type": "concept",
+      "label": "玄圭",
+      "aliases": []
+    },
     "玄学": {
       "type": "哲学",
       "label": "玄学",
@@ -47175,6 +48317,13 @@
       "type": "人物",
       "label": "唐玄宗",
       "aliases": []
+    },
+    "玄武门": {
+      "type": "place",
+      "label": "玄武门",
+      "aliases": [
+        "玄武门之变"
+      ]
     },
     "玄武门之变": {
       "type": "事件",
@@ -47195,6 +48344,13 @@
       "label": "玉",
       "aliases": [
         "玉"
+      ]
+    },
+    "玉佩": {
+      "type": "concept",
+      "label": "玉佩",
+      "aliases": [
+        "佩玉"
       ]
     },
     "玉册": {
@@ -47246,6 +48402,14 @@
       "type": "礼制",
       "label": "玉牒",
       "aliases": []
+    },
+    "玉玺": {
+      "type": "concept",
+      "label": "玉玺",
+      "aliases": [
+        "皇帝玉玺",
+        "传国玺"
+      ]
     },
     "玉真公主": {
       "type": "person",
@@ -47349,7 +48513,7 @@
       ]
     },
     "王修": {
-      "type": "人物",
+      "type": "person",
       "label": "王修",
       "aliases": []
     },
@@ -47517,12 +48681,22 @@
       "label": "王奂",
       "aliases": []
     },
+    "王如": {
+      "type": "person",
+      "label": "王如",
+      "aliases": []
+    },
     "王孝杰": {
       "type": "人物",
       "label": "王孝杰",
       "aliases": [
         "王孝杰"
       ]
+    },
+    "王守恩": {
+      "type": "person",
+      "label": "王守恩",
+      "aliases": []
     },
     "王守澄": {
       "type": "人物",
@@ -47614,6 +48788,13 @@
       "label": "王尊",
       "aliases": []
     },
+    "王屋": {
+      "type": "place",
+      "label": "王屋",
+      "aliases": [
+        "王屋山"
+      ]
+    },
     "王峻": {
       "type": "人物",
       "label": "王峻",
@@ -47673,9 +48854,19 @@
       "label": "王庭凑",
       "aliases": []
     },
+    "王廙": {
+      "type": "person",
+      "label": "王廙",
+      "aliases": []
+    },
     "王延政": {
       "type": "人物",
       "label": "王延政",
+      "aliases": []
+    },
+    "王延禀": {
+      "type": "person",
+      "label": "王延禀",
       "aliases": []
     },
     "王延翰": {
@@ -47753,13 +48944,18 @@
       "label": "王彰",
       "aliases": []
     },
+    "王得中": {
+      "type": "person",
+      "label": "王得中",
+      "aliases": []
+    },
     "王德仁": {
       "type": "人物",
       "label": "王德仁",
       "aliases": []
     },
     "王徽": {
-      "type": "人物",
+      "type": "person",
       "label": "王徽",
       "aliases": []
     },
@@ -47813,7 +49009,7 @@
       "aliases": []
     },
     "王懿": {
-      "type": "人物",
+      "type": "person",
       "label": "王懿",
       "aliases": []
     },
@@ -47879,7 +49075,7 @@
       ]
     },
     "王敬弘": {
-      "type": "人物",
+      "type": "person",
       "label": "王敬弘",
       "aliases": []
     },
@@ -48010,6 +49206,11 @@
     "王梁": {
       "type": "人物",
       "label": "王梁",
+      "aliases": []
+    },
+    "王檀": {
+      "type": "person",
+      "label": "王檀",
       "aliases": []
     },
     "王武俊": {
@@ -48205,6 +49406,11 @@
         "石琨"
       ]
     },
+    "王琬": {
+      "type": "person",
+      "label": "王琬",
+      "aliases": []
+    },
     "王琳": {
       "type": "人物",
       "label": "王琳",
@@ -48300,6 +49506,11 @@
     "王绾": {
       "type": "人物",
       "label": "王绾",
+      "aliases": []
+    },
+    "王缄": {
+      "type": "person",
+      "label": "王缄",
       "aliases": []
     },
     "王缙": {
@@ -48420,6 +49631,11 @@
         "王元长"
       ]
     },
+    "王行敏": {
+      "type": "person",
+      "label": "王行敏",
+      "aliases": []
+    },
     "王行本": {
       "type": "人物",
       "label": "王行本",
@@ -48463,6 +49679,21 @@
       "label": "王谊",
       "aliases": []
     },
+    "王谧": {
+      "type": "person",
+      "label": "王谧",
+      "aliases": []
+    },
+    "王谭": {
+      "type": "person",
+      "label": "王谭",
+      "aliases": []
+    },
+    "王贡": {
+      "type": "person",
+      "label": "王贡",
+      "aliases": []
+    },
     "王贲": {
       "type": "人物",
       "label": "王贲",
@@ -48491,6 +49722,11 @@
     "王述": {
       "type": "人物",
       "label": "王述",
+      "aliases": []
+    },
+    "王逊": {
+      "type": "person",
+      "label": "王逊",
       "aliases": []
     },
     "王通": {
@@ -48608,6 +49844,11 @@
       "label": "王頍",
       "aliases": []
     },
+    "王须拔": {
+      "type": "person",
+      "label": "王须拔",
+      "aliases": []
+    },
     "王饶": {
       "type": "人物",
       "label": "王饶",
@@ -48661,6 +49902,11 @@
       "aliases": [
         "环"
       ]
+    },
+    "环佩": {
+      "type": "concept",
+      "label": "环佩",
+      "aliases": []
     },
     "玳瑁": {
       "type": "自然",
@@ -48760,6 +50006,13 @@
       "type": "概念",
       "label": "珠玑",
       "aliases": []
+    },
+    "珠襦": {
+      "type": "concept",
+      "label": "珠襦",
+      "aliases": [
+        "珠襦玉柙"
+      ]
     },
     "珥_(概念)": {
       "type": "服饰",
@@ -48870,6 +50123,13 @@
       "label": "理",
       "aliases": [
         "理"
+      ]
+    },
+    "理乱": {
+      "type": "concept",
+      "label": "理乱",
+      "aliases": [
+        "治乱"
       ]
     },
     "理冤": {
@@ -49091,6 +50351,11 @@
       "aliases": [
         "瓯"
       ]
+    },
+    "瓶": {
+      "type": "concept",
+      "label": "瓶",
+      "aliases": []
     },
     "瓶_(概念)": {
       "type": "器用",
@@ -49530,6 +50795,11 @@
     "田邑": {
       "type": "人物",
       "label": "田邑",
+      "aliases": []
+    },
+    "田都": {
+      "type": "person",
+      "label": "田都",
       "aliases": []
     },
     "田野": {
@@ -50174,6 +51444,11 @@
       "label": "白丁",
       "aliases": []
     },
+    "白公胜": {
+      "type": "person",
+      "label": "白公胜",
+      "aliases": []
+    },
     "白刃": {
       "type": "军事",
       "label": "白刃",
@@ -50335,6 +51610,16 @@
       "label": "白骨",
       "aliases": []
     },
+    "白鹿": {
+      "type": "concept",
+      "label": "白鹿",
+      "aliases": []
+    },
+    "白龙": {
+      "type": "concept",
+      "label": "白龙",
+      "aliases": []
+    },
     "百发百中": {
       "type": "成语",
       "label": "百发百中",
@@ -50481,7 +51766,7 @@
       ]
     },
     "皮光业": {
-      "type": "人物",
+      "type": "person",
       "label": "皮光业",
       "aliases": []
     },
@@ -50696,6 +51981,11 @@
     "盖宽饶": {
       "type": "人物",
       "label": "盖宽饶",
+      "aliases": []
+    },
+    "盖寓": {
+      "type": "person",
+      "label": "盖寓",
       "aliases": []
     },
     "盖延": {
@@ -51165,6 +52455,18 @@
       "label": "石榴",
       "aliases": []
     },
+    "石渠": {
+      "type": "place",
+      "label": "石渠",
+      "aliases": [
+        "石渠阁"
+      ]
+    },
+    "石生": {
+      "type": "person",
+      "label": "石生",
+      "aliases": []
+    },
     "石经": {
       "type": "哲学",
       "label": "石经",
@@ -51340,6 +52642,11 @@
       "label": "硃序",
       "aliases": []
     },
+    "硃祜": {
+      "type": "person",
+      "label": "硃祜",
+      "aliases": []
+    },
     "硃纪": {
       "type": "人物",
       "label": "硃纪",
@@ -51353,6 +52660,11 @@
     "硃褒": {
       "type": "人物",
       "label": "硃褒",
+      "aliases": []
+    },
+    "硃超石": {
+      "type": "person",
+      "label": "硃超石",
       "aliases": []
     },
     "硃鸡石": {
@@ -51606,6 +52918,14 @@
       "type": "地点",
       "label": "祁山",
       "aliases": []
+    },
+    "祁连": {
+      "type": "place",
+      "label": "祁连",
+      "aliases": [
+        "祁连山",
+        "天山"
+      ]
     },
     "祈_(概念)": {
       "type": "礼制",
@@ -52116,6 +53436,13 @@
       "label": "离宫",
       "aliases": []
     },
+    "离心": {
+      "type": "concept",
+      "label": "离心",
+      "aliases": [
+        "背离"
+      ]
+    },
     "离间": {
       "type": "军事",
       "label": "离间",
@@ -52196,6 +53523,11 @@
       "aliases": [
         "秋"
       ]
+    },
+    "秋官": {
+      "type": "concept",
+      "label": "秋官",
+      "aliases": []
     },
     "秋毫无犯": {
       "type": "成语",
@@ -52283,6 +53615,11 @@
     "租税": {
       "type": "经济",
       "label": "租税",
+      "aliases": []
+    },
+    "租粟": {
+      "type": "concept",
+      "label": "租粟",
       "aliases": []
     },
     "租调": {
@@ -52656,6 +53993,11 @@
       "label": "程式",
       "aliases": []
     },
+    "程怀信": {
+      "type": "person",
+      "label": "程怀信",
+      "aliases": []
+    },
     "程怀直": {
       "type": "person",
       "label": "程怀直",
@@ -52698,7 +54040,7 @@
       ]
     },
     "程遐": {
-      "type": "人物",
+      "type": "person",
       "label": "程遐",
       "aliases": []
     },
@@ -53229,6 +54571,16 @@
     "竹帛": {
       "type": "典籍",
       "label": "竹帛",
+      "aliases": []
+    },
+    "竹木": {
+      "type": "concept",
+      "label": "竹木",
+      "aliases": []
+    },
+    "竹箭": {
+      "type": "concept",
+      "label": "竹箭",
       "aliases": []
     },
     "笋_(概念)": {
@@ -56048,6 +57400,14 @@
         "管公明"
       ]
     },
+    "管钥": {
+      "type": "concept",
+      "label": "管钥",
+      "aliases": [
+        "钥匙",
+        "锁钥"
+      ]
+    },
     "箧_(概念)": {
       "type": "器物",
       "label": "箧",
@@ -56101,6 +57461,13 @@
       "label": "箱",
       "aliases": [
         "箱"
+      ]
+    },
+    "箸": {
+      "type": "concept",
+      "label": "箸",
+      "aliases": [
+        "筷子"
       ]
     },
     "箸_(器物)": {
@@ -56244,6 +57611,13 @@
       "label": "簿籍",
       "aliases": []
     },
+    "簿领": {
+      "type": "concept",
+      "label": "簿领",
+      "aliases": [
+        "案牍"
+      ]
+    },
     "籍_(概念)": {
       "type": "器物",
       "label": "籍",
@@ -56259,6 +57633,11 @@
     "籍田": {
       "type": "礼制",
       "label": "籍田",
+      "aliases": []
+    },
+    "米": {
+      "type": "concept",
+      "label": "米",
       "aliases": []
     },
     "米粟": {
@@ -56616,6 +57995,11 @@
       "label": "纪信",
       "aliases": []
     },
+    "纪处讷": {
+      "type": "person",
+      "label": "纪处讷",
+      "aliases": []
+    },
     "纪律": {
       "type": "军事",
       "label": "纪律",
@@ -56859,7 +58243,7 @@
       "aliases": []
     },
     "终军": {
-      "type": "人物",
+      "type": "person",
       "label": "终军",
       "aliases": []
     },
@@ -57013,6 +58397,11 @@
     "绞刑": {
       "type": "法律",
       "label": "绞刑",
+      "aliases": []
+    },
+    "统一": {
+      "type": "concept",
+      "label": "统一",
       "aliases": []
     },
     "统万": {
@@ -57235,6 +58624,11 @@
     "缑氏": {
       "type": "地点",
       "label": "缑氏",
+      "aliases": []
+    },
+    "缒": {
+      "type": "concept",
+      "label": "缒",
       "aliases": []
     },
     "缒城": {
@@ -57741,6 +59135,13 @@
         "羔"
       ]
     },
+    "羯": {
+      "type": "concept",
+      "label": "羯",
+      "aliases": [
+        "羯胡"
+      ]
+    },
     "羯_(部族)": {
       "type": "民族",
       "label": "羯",
@@ -57883,6 +59284,11 @@
     "翠微宫": {
       "type": "concept",
       "label": "翠微宫",
+      "aliases": []
+    },
+    "翦灭": {
+      "type": "concept",
+      "label": "翦灭",
       "aliases": []
     },
     "翰林": {
@@ -58132,6 +59538,11 @@
       "label": "耿弇平齐",
       "aliases": []
     },
+    "耿忠": {
+      "type": "person",
+      "label": "耿忠",
+      "aliases": []
+    },
     "耿恭": {
       "type": "人物",
       "label": "耿恭",
@@ -58143,6 +59554,11 @@
     "耿恭守疏勒": {
       "type": "战役",
       "label": "耿恭守疏勒",
+      "aliases": []
+    },
+    "耿晔": {
+      "type": "person",
+      "label": "耿晔",
       "aliases": []
     },
     "耿秉": {
@@ -58160,6 +59576,11 @@
       "label": "耿舒",
       "aliases": []
     },
+    "聂壹": {
+      "type": "person",
+      "label": "聂壹",
+      "aliases": []
+    },
     "聂政": {
       "type": "人物",
       "label": "聂政",
@@ -58168,6 +59589,11 @@
     "聊城": {
       "type": "地点",
       "label": "聊城",
+      "aliases": []
+    },
+    "职事": {
+      "type": "concept",
+      "label": "职事",
       "aliases": []
     },
     "职事官": {
@@ -58180,6 +59606,11 @@
       "label": "职掌",
       "aliases": []
     },
+    "职方": {
+      "type": "concept",
+      "label": "职方",
+      "aliases": []
+    },
     "职田": {
       "type": "经济",
       "label": "职田",
@@ -58188,6 +59619,11 @@
     "职贡": {
       "type": "经济",
       "label": "职贡",
+      "aliases": []
+    },
+    "聘享": {
+      "type": "concept",
+      "label": "聘享",
       "aliases": []
     },
     "聘问": {
@@ -58386,6 +59822,14 @@
         "肩"
       ]
     },
+    "肩舆": {
+      "type": "concept",
+      "label": "肩舆",
+      "aliases": [
+        "平肩舆",
+        "腰舆"
+      ]
+    },
     "肱": {
       "type": "政治",
       "label": "肱",
@@ -58561,9 +60005,22 @@
       "label": "胡广",
       "aliases": []
     },
+    "胡床": {
+      "type": "concept",
+      "label": "胡床",
+      "aliases": [
+        "交床",
+        "马扎"
+      ]
+    },
     "胡彬": {
       "type": "人物",
       "label": "胡彬",
+      "aliases": []
+    },
+    "胡才": {
+      "type": "person",
+      "label": "胡才",
       "aliases": []
     },
     "胡服": {
@@ -58574,6 +60031,11 @@
     "胡服骑射": {
       "type": "事件",
       "label": "胡服骑射",
+      "aliases": []
+    },
+    "胡殷": {
+      "type": "person",
+      "label": "胡殷",
       "aliases": []
     },
     "胡烈": {
@@ -58707,6 +60169,13 @@
       "label": "脂",
       "aliases": [
         "脂"
+      ]
+    },
+    "脂膏": {
+      "type": "concept",
+      "label": "脂膏",
+      "aliases": [
+        "民脂民膏"
       ]
     },
     "脉": {
@@ -58853,6 +60322,11 @@
       "aliases": [
         "膏"
       ]
+    },
+    "膏油": {
+      "type": "concept",
+      "label": "膏油",
+      "aliases": []
     },
     "膏粱": {
       "type": "社会",
@@ -59459,6 +60933,11 @@
       "label": "芝草",
       "aliases": []
     },
+    "芟夷": {
+      "type": "concept",
+      "label": "芟夷",
+      "aliases": []
+    },
     "芡_(概念)": {
       "type": "自然",
       "label": "芡",
@@ -59539,6 +61018,11 @@
       "label": "苏佐明",
       "aliases": []
     },
+    "苏则": {
+      "type": "person",
+      "label": "苏则",
+      "aliases": []
+    },
     "苏味道": {
       "type": "person",
       "label": "苏味道",
@@ -59598,6 +61082,16 @@
         "苏子卿"
       ]
     },
+    "苏海政": {
+      "type": "person",
+      "label": "苏海政",
+      "aliases": []
+    },
+    "苏瑰": {
+      "type": "person",
+      "label": "苏瑰",
+      "aliases": []
+    },
     "苏禹珪": {
       "type": "人物",
       "label": "苏禹珪",
@@ -59620,7 +61114,7 @@
       ]
     },
     "苏章": {
-      "type": "人物",
+      "type": "person",
       "label": "苏章",
       "aliases": []
     },
@@ -59913,11 +61407,9 @@
       "aliases": []
     },
     "范阳王德": {
-      "type": "人物",
+      "type": "person",
       "label": "范阳王德",
-      "aliases": [
-        "慕容德"
-      ]
+      "aliases": []
     },
     "范阳王虓": {
       "type": "人物",
@@ -59967,6 +61459,11 @@
       "label": "茅容",
       "aliases": []
     },
+    "茅屋": {
+      "type": "concept",
+      "label": "茅屋",
+      "aliases": []
+    },
     "茅焦": {
       "type": "人物",
       "label": "茅焦",
@@ -59982,6 +61479,13 @@
       "label": "茎",
       "aliases": [
         "茎"
+      ]
+    },
+    "茗": {
+      "type": "concept",
+      "label": "茗",
+      "aliases": [
+        "茶"
       ]
     },
     "茗_(概念)": {
@@ -60118,7 +61622,7 @@
       "aliases": []
     },
     "荀组": {
-      "type": "人物",
+      "type": "person",
       "label": "荀组",
       "aliases": []
     },
@@ -60609,6 +62113,11 @@
       "label": "萧县",
       "aliases": []
     },
+    "萧后": {
+      "type": "person",
+      "label": "萧后",
+      "aliases": []
+    },
     "萧坦之": {
       "type": "人物",
       "label": "萧坦之",
@@ -60654,7 +62163,7 @@
       "aliases": []
     },
     "萧憺": {
-      "type": "人物",
+      "type": "person",
       "label": "萧憺",
       "aliases": []
     },
@@ -60738,6 +62247,11 @@
     "萧绎": {
       "type": "人物",
       "label": "梁元帝",
+      "aliases": []
+    },
+    "萧翰": {
+      "type": "person",
+      "label": "萧翰",
       "aliases": []
     },
     "萧至忠": {
@@ -60828,6 +62342,11 @@
     "著述": {
       "type": "哲学",
       "label": "著述",
+      "aliases": []
+    },
+    "葛": {
+      "type": "concept",
+      "label": "葛",
       "aliases": []
     },
     "葛从周": {
@@ -61080,7 +62599,7 @@
       "aliases": []
     },
     "蒯恩": {
-      "type": "人物",
+      "type": "person",
       "label": "蒯恩",
       "aliases": []
     },
@@ -61131,6 +62650,11 @@
     "蓍": {
       "type": "概念",
       "label": "蓍",
+      "aliases": []
+    },
+    "蓍龟": {
+      "type": "concept",
+      "label": "蓍龟",
       "aliases": []
     },
     "蓐": {
@@ -61253,6 +62777,11 @@
     "蔡谟": {
       "type": "人物",
       "label": "蔡谟",
+      "aliases": []
+    },
+    "蔡豹": {
+      "type": "person",
+      "label": "蔡豹",
       "aliases": []
     },
     "蔡道恭": {
@@ -61482,6 +63011,11 @@
       "label": "薛永宗",
       "aliases": []
     },
+    "薛泽": {
+      "type": "person",
+      "label": "薛泽",
+      "aliases": []
+    },
     "薛王业": {
       "type": "人物",
       "label": "薛王业",
@@ -61517,6 +63051,11 @@
     "薛茂卿": {
       "type": "人物",
       "label": "薛茂卿",
+      "aliases": []
+    },
+    "薛莹": {
+      "type": "person",
+      "label": "薛莹",
       "aliases": []
     },
     "薛虎子": {
@@ -61562,6 +63101,11 @@
       "aliases": [
         "薪"
       ]
+    },
+    "薪炭": {
+      "type": "concept",
+      "label": "薪炭",
+      "aliases": []
     },
     "藁": {
       "type": "概念",
@@ -61670,6 +63214,11 @@
     "虎符": {
       "type": "器物",
       "label": "虎符",
+      "aliases": []
+    },
+    "虎豹": {
+      "type": "concept",
+      "label": "虎豹",
       "aliases": []
     },
     "虎贲": {
@@ -62428,6 +63977,11 @@
         "衡州刺史"
       ]
     },
+    "衡门": {
+      "type": "concept",
+      "label": "衡门",
+      "aliases": []
+    },
     "衡阳": {
       "type": "地点",
       "label": "衡阳",
@@ -62549,6 +64103,11 @@
       "aliases": [
         "衾"
       ]
+    },
+    "袁乔": {
+      "type": "person",
+      "label": "袁乔",
+      "aliases": []
     },
     "袁公瑜": {
       "type": "人物",
@@ -62749,6 +64308,14 @@
         "袜"
       ]
     },
+    "被": {
+      "type": "concept",
+      "label": "被",
+      "aliases": [
+        "布被",
+        "衾被"
+      ]
+    },
     "被甲": {
       "type": "军事",
       "label": "被甲",
@@ -62893,7 +64460,7 @@
       "aliases": []
     },
     "裴均": {
-      "type": "人物",
+      "type": "person",
       "label": "裴均",
       "aliases": []
     },
@@ -62948,6 +64515,11 @@
     "裴政": {
       "type": "人物",
       "label": "裴政",
+      "aliases": []
+    },
+    "裴方明": {
+      "type": "person",
+      "label": "裴方明",
       "aliases": []
     },
     "裴枢": {
@@ -63105,6 +64677,11 @@
         "褚河南",
         "褚公"
       ]
+    },
+    "褥": {
+      "type": "concept",
+      "label": "褥",
+      "aliases": []
     },
     "褥_(概念)": {
       "type": "器物",
@@ -63570,6 +65147,11 @@
       "label": "解官",
       "aliases": []
     },
+    "解琬": {
+      "type": "person",
+      "label": "解琬",
+      "aliases": []
+    },
     "解甲": {
       "type": "军事",
       "label": "解甲",
@@ -63791,6 +65373,11 @@
         "讴"
       ]
     },
+    "许允": {
+      "type": "person",
+      "label": "许允",
+      "aliases": []
+    },
     "许劭": {
       "type": "人物",
       "label": "许劭",
@@ -63878,6 +65465,11 @@
     "许谦": {
       "type": "人物",
       "label": "许谦",
+      "aliases": []
+    },
+    "许贡": {
+      "type": "person",
+      "label": "许贡",
       "aliases": []
     },
     "许远": {
@@ -64140,6 +65732,13 @@
       "label": "诛杀",
       "aliases": []
     },
+    "诛求": {
+      "type": "concept",
+      "label": "诛求",
+      "aliases": [
+        "苛征"
+      ]
+    },
     "诛赏": {
       "type": "政治",
       "label": "诛赏",
@@ -64309,7 +65908,7 @@
       "aliases": []
     },
     "诸葛恢": {
-      "type": "人物",
+      "type": "person",
       "label": "诸葛恢",
       "aliases": []
     },
@@ -64675,6 +66274,11 @@
       "label": "谢恩",
       "aliases": []
     },
+    "谢方明": {
+      "type": "person",
+      "label": "谢方明",
+      "aliases": []
+    },
     "谢晦": {
       "type": "人物",
       "label": "谢晦",
@@ -64994,6 +66598,11 @@
       "label": "象郡",
       "aliases": []
     },
+    "象魏": {
+      "type": "concept",
+      "label": "象魏",
+      "aliases": []
+    },
     "豢_(概念)": {
       "type": "典籍",
       "label": "豢",
@@ -65121,6 +66730,13 @@
         "貂"
       ]
     },
+    "貂蝉": {
+      "type": "concept",
+      "label": "貂蝉",
+      "aliases": [
+        "貂蝉冠"
+      ]
+    },
     "貉_(概念)": {
       "type": "社会",
       "label": "貉",
@@ -65234,6 +66850,11 @@
     "贡赋": {
       "type": "经济",
       "label": "贡赋",
+      "aliases": []
+    },
+    "贡金": {
+      "type": "concept",
+      "label": "贡金",
       "aliases": []
     },
     "贡院": {
@@ -65435,6 +67056,13 @@
       "label": "贪残",
       "aliases": []
     },
+    "贪污": {
+      "type": "concept",
+      "label": "贪污",
+      "aliases": [
+        "贪腐"
+      ]
+    },
     "贪浊": {
       "type": "道德",
       "label": "贪浊",
@@ -65466,6 +67094,15 @@
       "type": "社会",
       "label": "贫贱",
       "aliases": []
+    },
+    "贬官": {
+      "type": "concept",
+      "label": "贬官",
+      "aliases": [
+        "左降",
+        "谪官",
+        "流贬"
+      ]
     },
     "贬谪": {
       "type": "政治",
@@ -65573,6 +67210,14 @@
       "type": "人物",
       "label": "费观",
       "aliases": []
+    },
+    "贺兰": {
+      "type": "place",
+      "label": "贺兰",
+      "aliases": [
+        "贺兰山",
+        "贺兰部"
+      ]
     },
     "贺兰祥": {
       "type": "人物",
@@ -65698,7 +67343,7 @@
       ]
     },
     "贾坚": {
-      "type": "人物",
+      "type": "person",
       "label": "贾坚",
       "aliases": []
     },
@@ -65979,6 +67624,11 @@
       "label": "赏格",
       "aliases": []
     },
+    "赏给": {
+      "type": "concept",
+      "label": "赏给",
+      "aliases": []
+    },
     "赏罚": {
       "type": "政治",
       "label": "赏罚",
@@ -66044,6 +67694,11 @@
       "label": "赐爵",
       "aliases": []
     },
+    "赐物": {
+      "type": "concept",
+      "label": "赐物",
+      "aliases": []
+    },
     "赐田": {
       "type": "经济",
       "label": "赐田",
@@ -66099,6 +67754,11 @@
     "赞普": {
       "type": "社会",
       "label": "赞普",
+      "aliases": []
+    },
+    "赠官": {
+      "type": "concept",
+      "label": "赠官",
       "aliases": []
     },
     "赤_(概念)": {
@@ -66273,6 +67933,11 @@
       "label": "赵佗",
       "aliases": []
     },
+    "赵信": {
+      "type": "person",
+      "label": "赵信",
+      "aliases": []
+    },
     "赵俨": {
       "type": "人物",
       "label": "赵俨",
@@ -66347,6 +68012,11 @@
     "赵午": {
       "type": "人物",
       "label": "赵午",
+      "aliases": []
+    },
+    "赵周": {
+      "type": "person",
+      "label": "赵周",
       "aliases": []
     },
     "赵咨": {
@@ -66533,6 +68203,11 @@
         "赵普"
       ]
     },
+    "赵染": {
+      "type": "person",
+      "label": "赵染",
+      "aliases": []
+    },
     "赵歇": {
       "type": "人物",
       "label": "赵歇",
@@ -66661,6 +68336,11 @@
         "赵语"
       ]
     },
+    "赵胤": {
+      "type": "person",
+      "label": "赵胤",
+      "aliases": []
+    },
     "赵良": {
       "type": "人物",
       "label": "赵良",
@@ -66677,6 +68357,11 @@
       "aliases": [
         "赵莹"
       ]
+    },
+    "赵萌": {
+      "type": "person",
+      "label": "赵萌",
+      "aliases": []
     },
     "赵葱": {
       "type": "人物",
@@ -66754,7 +68439,7 @@
       ]
     },
     "赵隐": {
-      "type": "人物",
+      "type": "person",
       "label": "赵隐",
       "aliases": []
     },
@@ -67380,6 +69065,11 @@
       "label": "辍朝",
       "aliases": []
     },
+    "辎车": {
+      "type": "concept",
+      "label": "辎车",
+      "aliases": []
+    },
     "辎重": {
       "type": "军事",
       "label": "辎重",
@@ -67400,6 +69090,11 @@
       "label": "输作",
       "aliases": []
     },
+    "输税": {
+      "type": "concept",
+      "label": "输税",
+      "aliases": []
+    },
     "输诚": {
       "type": "政治",
       "label": "输诚",
@@ -67408,6 +69103,11 @@
     "输贡": {
       "type": "政治",
       "label": "输贡",
+      "aliases": []
+    },
+    "输赋": {
+      "type": "concept",
+      "label": "输赋",
       "aliases": []
     },
     "辔": {
@@ -67467,7 +69167,7 @@
       "aliases": []
     },
     "辛茂将": {
-      "type": "人物",
+      "type": "person",
       "label": "辛茂将",
       "aliases": []
     },
@@ -67654,6 +69354,13 @@
       "type": "人物",
       "label": "达奚震",
       "aliases": []
+    },
+    "迁善": {
+      "type": "concept",
+      "label": "迁善",
+      "aliases": [
+        "向善"
+      ]
     },
     "迁官": {
       "type": "官制",
@@ -68138,6 +69845,14 @@
         "途"
       ]
     },
+    "通事舍人": {
+      "type": "concept",
+      "label": "通事舍人",
+      "aliases": [
+        "中书通事舍人",
+        "东宫通事舍人"
+      ]
+    },
     "通使": {
       "type": "制度",
       "label": "通使",
@@ -68204,6 +69919,11 @@
     "造作": {
       "type": "概念",
       "label": "造作",
+      "aliases": []
+    },
+    "逢安": {
+      "type": "person",
+      "label": "逢安",
       "aliases": []
     },
     "逢纪": {
@@ -68905,6 +70625,11 @@
         "郑注"
       ]
     },
+    "郑泰": {
+      "type": "person",
+      "label": "郑泰",
+      "aliases": []
+    },
     "郑滑": {
       "type": "地点",
       "label": "郑滑",
@@ -68920,6 +70645,11 @@
     "郑珏": {
       "type": "人物",
       "label": "郑珏",
+      "aliases": []
+    },
+    "郑珙": {
+      "type": "person",
+      "label": "郑珙",
       "aliases": []
     },
     "郑珣瑜": {
@@ -68967,7 +70697,7 @@
       ]
     },
     "郑译": {
-      "type": "人物",
+      "type": "person",
       "label": "郑译",
       "aliases": []
     },
@@ -69199,11 +70929,9 @@
       "aliases": []
     },
     "郭太后": {
-      "type": "人物",
+      "type": "person",
       "label": "郭太后",
-      "aliases": [
-        "郭太皇太后"
-      ]
+      "aliases": []
     },
     "郭威": {
       "type": "人物",
@@ -69367,6 +71095,13 @@
       "type": "军事",
       "label": "都头",
       "aliases": []
+    },
+    "都官": {
+      "type": "concept",
+      "label": "都官",
+      "aliases": [
+        "中都官"
+      ]
     },
     "都尉": {
       "type": "官职",
@@ -69544,6 +71279,11 @@
       "label": "配享",
       "aliases": []
     },
+    "配没": {
+      "type": "concept",
+      "label": "配没",
+      "aliases": []
+    },
     "配流": {
       "type": "法律",
       "label": "配流",
@@ -69694,6 +71434,11 @@
     "醉": {
       "type": "情感",
       "label": "醉",
+      "aliases": []
+    },
+    "醋": {
+      "type": "concept",
+      "label": "醋",
       "aliases": []
     },
     "醒": {
@@ -70157,6 +71902,11 @@
       "label": "钟律",
       "aliases": []
     },
+    "钟毓": {
+      "type": "person",
+      "label": "钟毓",
+      "aliases": []
+    },
     "钟皓": {
       "type": "人物",
       "label": "钟皓",
@@ -70616,6 +72366,13 @@
         "铺"
       ]
     },
+    "锁": {
+      "type": "concept",
+      "label": "锁",
+      "aliases": [
+        "铁锁"
+      ]
+    },
     "锁_(概念)": {
       "type": "器物",
       "label": "锁",
@@ -70744,6 +72501,14 @@
       "type": "法律",
       "label": "锧",
       "aliases": []
+    },
+    "键": {
+      "type": "concept",
+      "label": "键",
+      "aliases": [
+        "锁簧",
+        "键"
+      ]
     },
     "锯": {
       "type": "概念",
@@ -71047,7 +72812,7 @@
       "aliases": []
     },
     "长孙俭": {
-      "type": "人物",
+      "type": "person",
       "label": "长孙俭",
       "aliases": []
     },
@@ -71073,7 +72838,7 @@
       ]
     },
     "长孙稚": {
-      "type": "人物",
+      "type": "person",
       "label": "长孙稚",
       "aliases": []
     },
@@ -71160,6 +72925,13 @@
       "type": "天文",
       "label": "长星",
       "aliases": []
+    },
+    "长水": {
+      "type": "concept",
+      "label": "长水",
+      "aliases": [
+        "长水校尉"
+      ]
     },
     "长水校尉": {
       "type": "官职",
@@ -71723,6 +73495,11 @@
         "阵"
       ]
     },
+    "阶": {
+      "type": "concept",
+      "label": "阶",
+      "aliases": []
+    },
     "阶_(概念)": {
       "type": "建筑",
       "label": "阶",
@@ -71760,6 +73537,11 @@
     "阿史那承庆": {
       "type": "person",
       "label": "阿史那承庆",
+      "aliases": []
+    },
+    "阿史那献": {
+      "type": "person",
+      "label": "阿史那献",
       "aliases": []
     },
     "阿史那社尔": {
@@ -71886,6 +73668,11 @@
       "label": "陆缮",
       "aliases": []
     },
+    "陆象先": {
+      "type": "person",
+      "label": "陆象先",
+      "aliases": []
+    },
     "陆贽": {
       "type": "人物",
       "label": "陆贽",
@@ -71900,6 +73687,11 @@
       "aliases": [
         "陆生"
       ]
+    },
+    "陆运": {
+      "type": "concept",
+      "label": "陆运",
+      "aliases": []
     },
     "陆逊": {
       "type": "人物",
@@ -71976,6 +73768,11 @@
       "label": "陈元康",
       "aliases": []
     },
+    "陈元达": {
+      "type": "person",
+      "label": "陈元达",
+      "aliases": []
+    },
     "陈叔宝": {
       "type": "人物",
       "label": "陈叔宝",
@@ -71994,6 +73791,11 @@
     "陈后主": {
       "type": "人物",
       "label": "陈后主",
+      "aliases": []
+    },
+    "陈君宾": {
+      "type": "person",
+      "label": "陈君宾",
       "aliases": []
     },
     "陈咸": {
@@ -72176,6 +73978,11 @@
     "陈玄礼": {
       "type": "人物",
       "label": "陈玄礼",
+      "aliases": []
+    },
+    "陈珪": {
+      "type": "person",
+      "label": "陈珪",
       "aliases": []
     },
     "陈球": {
@@ -72609,6 +74416,11 @@
     "隋朝君主列表": {
       "type": "综述",
       "label": "隋朝君主列表",
+      "aliases": []
+    },
+    "隋末": {
+      "type": "concept",
+      "label": "隋末",
       "aliases": []
     },
     "隋末群雄": {
@@ -73191,6 +75003,11 @@
       "label": "青琐门",
       "aliases": []
     },
+    "青紫": {
+      "type": "concept",
+      "label": "青紫",
+      "aliases": []
+    },
     "青苗": {
       "type": "经济",
       "label": "青苗",
@@ -73308,6 +75125,16 @@
       "label": "革弊",
       "aliases": []
     },
+    "靳准": {
+      "type": "person",
+      "label": "靳准",
+      "aliases": []
+    },
+    "靴": {
+      "type": "concept",
+      "label": "靴",
+      "aliases": []
+    },
     "靴_(概念)": {
       "type": "服饰",
       "label": "靴",
@@ -73337,6 +75164,13 @@
       "label": "鞍",
       "aliases": [
         "鞍"
+      ]
+    },
+    "鞍勒": {
+      "type": "concept",
+      "label": "鞍勒",
+      "aliases": [
+        "马具"
       ]
     },
     "鞍马": {
@@ -73386,6 +75220,11 @@
     "鞭杀": {
       "type": "法律",
       "label": "鞭杀",
+      "aliases": []
+    },
+    "鞭杖": {
+      "type": "concept",
+      "label": "鞭杖",
       "aliases": []
     },
     "鞭笞": {
@@ -73612,7 +75451,7 @@
       "aliases": []
     },
     "韦鼎": {
-      "type": "人物",
+      "type": "person",
       "label": "韦鼎",
       "aliases": []
     },
@@ -73651,6 +75490,11 @@
       "label": "韩信拜将",
       "aliases": []
     },
+    "韩偓": {
+      "type": "person",
+      "label": "韩偓",
+      "aliases": []
+    },
     "韩僧寿": {
       "type": "人物",
       "label": "韩僧寿",
@@ -73672,6 +75516,11 @@
       "aliases": [
         "韩勍"
       ]
+    },
+    "韩千秋": {
+      "type": "person",
+      "label": "韩千秋",
+      "aliases": []
     },
     "韩国": {
       "type": "国家",
@@ -74249,6 +76098,11 @@
       "label": "颜之推",
       "aliases": []
     },
+    "颜回": {
+      "type": "person",
+      "label": "颜回",
+      "aliases": []
+    },
     "颜师伯": {
       "type": "人物",
       "label": "颜师伯",
@@ -74797,7 +76651,7 @@
       "aliases": []
     },
     "马岌": {
-      "type": "人物",
+      "type": "person",
       "label": "马岌",
       "aliases": []
     },
@@ -75058,6 +76912,11 @@
     "驹": {
       "type": "动物",
       "label": "驹",
+      "aliases": []
+    },
+    "驺虞": {
+      "type": "concept",
+      "label": "驺虞",
       "aliases": []
     },
     "驻兵": {
@@ -75595,6 +77454,11 @@
       "label": "高唐",
       "aliases": []
     },
+    "高固": {
+      "type": "person",
+      "label": "高固",
+      "aliases": []
+    },
     "高垒": {
       "type": "军事",
       "label": "高垒",
@@ -76014,6 +77878,13 @@
       "label": "髯",
       "aliases": []
     },
+    "鬯": {
+      "type": "concept",
+      "label": "鬯",
+      "aliases": [
+        "秬鬯"
+      ]
+    },
     "鬲": {
       "type": "概念",
       "label": "鬲",
@@ -76127,6 +77998,16 @@
         "魏冉",
         "穰侯"
       ]
+    },
+    "魏刀儿": {
+      "type": "person",
+      "label": "魏刀儿",
+      "aliases": []
+    },
+    "魏勃": {
+      "type": "person",
+      "label": "魏勃",
+      "aliases": []
     },
     "魏博": {
       "type": "地点",
@@ -76312,6 +78193,11 @@
       "label": "魏相",
       "aliases": []
     },
+    "魏知古": {
+      "type": "person",
+      "label": "魏知古",
+      "aliases": []
+    },
     "魏舒": {
       "type": "人物",
       "label": "魏舒",
@@ -76384,7 +78270,7 @@
       "aliases": []
     },
     "鱼遵": {
-      "type": "人物",
+      "type": "person",
       "label": "鱼遵",
       "aliases": []
     },
@@ -76568,7 +78454,7 @@
       ]
     },
     "鸠摩罗什": {
-      "type": "人物",
+      "type": "person",
       "label": "鸠摩罗什",
       "aliases": []
     },
@@ -76670,6 +78556,11 @@
     "鸾凤": {
       "type": "自然",
       "label": "鸾凤",
+      "aliases": []
+    },
+    "鸾台": {
+      "type": "concept",
+      "label": "鸾台",
       "aliases": []
     },
     "鸾台侍郎": {
@@ -76860,6 +78751,11 @@
       "label": "鹿车",
       "aliases": []
     },
+    "麈尾": {
+      "type": "concept",
+      "label": "麈尾",
+      "aliases": []
+    },
     "麋_(概念)": {
       "type": "动物",
       "label": "麋",
@@ -76870,6 +78766,11 @@
     "麋竺": {
       "type": "人物",
       "label": "麋竺",
+      "aliases": []
+    },
+    "麋鹿": {
+      "type": "concept",
+      "label": "麋鹿",
       "aliases": []
     },
     "麒_(概念)": {
@@ -76920,6 +78821,11 @@
       "label": "麟德殿",
       "aliases": []
     },
+    "麦": {
+      "type": "concept",
+      "label": "麦",
+      "aliases": []
+    },
     "麦_(概念)": {
       "type": "concept",
       "label": "麦",
@@ -76940,6 +78846,11 @@
     "麹文泰": {
       "type": "人物",
       "label": "麹文泰",
+      "aliases": []
+    },
+    "麻": {
+      "type": "concept",
+      "label": "麻",
       "aliases": []
     },
     "麻_(概念)": {
@@ -77607,6 +79518,8 @@
     "丁谧": "丁谧",
     "丁鸿": "丁鸿",
     "七国之乱": "七国之乱",
+    "七夕": "七夕",
+    "乞巧": "七夕",
     "七庙": "七庙",
     "天子七庙": "七庙",
     "七略": "七略",
@@ -77617,6 +79530,7 @@
     "万国俊": "万国俊",
     "万岁": "万岁",
     "万岁通天": "万岁通天",
+    "万彧": "万彧",
     "万户侯": "万户侯",
     "万春门": "万春门",
     "万骑": "万骑",
@@ -77650,18 +79564,21 @@
     "三族": "三族",
     "夷三族": "三族",
     "三族之刑": "三族",
+    "三河": "三河",
     "三王": "三王",
     "三代之王": "三王",
     "三皇": "三皇",
     "三省": "三省",
     "三纲": "三纲",
     "三纲五常": "三纲",
+    "三统": "三统",
     "三老": "三老",
     "三辅": "三辅",
     "三铨": "三铨",
     "三顾茅庐": "三顾茅庐",
     "上下": "上下",
     "上书": "上书",
+    "上元": "上元",
     "上党": "上党",
     "上党王天穆": "上党王天穆",
     "元天穆": "上党王天穆",
@@ -77695,6 +79612,7 @@
     "上阳宫": "上阳宫",
     "下": "下",
     "下_(概念)": "下_(概念)",
+    "下元": "下元",
     "下军": "下军",
     "下曲阳": "下曲阳",
     "下蔡": "下蔡",
@@ -77731,6 +79649,7 @@
     "专权": "专权",
     "世卿": "世卿",
     "世族": "世族",
+    "世禄": "世禄",
     "世袭": "世袭",
     "丘_(概念)": "丘_(概念)",
     "丘": "丘_(概念)",
@@ -77808,10 +79727,12 @@
     "严安": "严安",
     "严尤": "严尤",
     "严峻": "严峻",
+    "严嶷": "严嶷",
     "严庄": "严庄",
     "严延年": "严延年",
     "严武": "严武",
     "严法": "严法",
+    "严白虎": "严白虎",
     "严砺": "严砺",
     "严绶": "严绶",
     "严道": "严道",
@@ -77840,8 +79761,12 @@
     "将军": "中军将军",
     "中卫": "中卫",
     "中原": "中原",
+    "中台": "中台",
     "中国": "中国",
     "中坚": "中坚",
+    "中垒": "中垒",
+    "中垒校尉": "中垒",
+    "中垒将军": "中垒",
     "中大通": "中大通",
     "中尉": "中尉",
     "中山": "中山",
@@ -77887,8 +79812,11 @@
     "丹_(概念)": "丹_(概念)",
     "丹": "丹_(概念)",
     "丹书": "丹书",
+    "丹凤门": "丹凤门",
     "丹徒": "丹徒",
     "丹漆": "丹漆",
+    "丹砂": "丹砂",
+    "朱砂": "丹砂",
     "丹阳": "丹阳",
     "丹阳尹": "丹阳尹",
     "尹": "丹阳尹",
@@ -77903,6 +79831,7 @@
     "主": "主_(概念)",
     "主事": "主事",
     "主力": "主力",
+    "主客": "主客",
     "主父": "主父",
     "赵主父": "主父",
     "主父偃": "主父偃",
@@ -77916,6 +79845,8 @@
     "举孝廉": "举孝廉",
     "举烽": "举烽",
     "举白": "举白",
+    "举贤": "举贤",
+    "荐贤": "举贤",
     "举贤任能": "举贤任能",
     "久视": "久视",
     "义": "义",
@@ -77928,6 +79859,7 @@
     "义师": "义师",
     "义帝": "义帝",
     "楚怀王心": "义帝",
+    "义征": "义征",
     "义成公主": "义成公主",
     "义成节度使": "义成节度使",
     "义昌": "义昌",
@@ -77995,6 +79927,8 @@
     "九州": "九州",
     "九成宫": "九成宫",
     "九族": "九族",
+    "九日": "九日",
+    "重阳": "九日",
     "九江": "九江",
     "九流": "九流",
     "九流百家": "九流",
@@ -78056,6 +79990,7 @@
     "于仲文": "于仲文",
     "于定国": "于定国",
     "于曼倩": "于定国",
+    "于庆": "于庆",
     "于志宁": "于志宁",
     "于忠": "于忠",
     "于栗磾": "于栗磾",
@@ -78123,6 +80058,7 @@
     "五声": "五音",
     "井": "井",
     "井_(概念)": "井_(概念)",
+    "井泉": "井泉",
     "井田": "井田",
     "井陉": "井陉",
     "井陉之战": "井陉之战",
@@ -78138,6 +80074,7 @@
     "交聘": "交聘",
     "交质": "交质",
     "交趾": "交趾",
+    "交通": "交通",
     "亥_(概念)": "亥_(概念)",
     "亥": "亥_(概念)",
     "亩_(经济)": "亩_(经济)",
@@ -78228,6 +80165,7 @@
     "代郡": "代郡",
     "令_(概念)": "令_(概念)",
     "令": "令_(概念)",
+    "令典": "令典",
     "令史": "令史",
     "令尹": "令尹",
     "令居": "令居",
@@ -78264,6 +80202,7 @@
     "仰药": "仰药",
     "仲长统": "仲长统",
     "任光": "任光",
+    "任嚣": "任嚣",
     "任回": "任回",
     "任圜": "任圜",
     "任城": "任城",
@@ -78297,6 +80236,7 @@
     "伍": "伍",
     "伍子胥": "伍子胥",
     "伍员": "伍子胥",
+    "伍被": "伍被",
     "伍逢": "伍逢",
     "伎乐": "伎乐",
     "伏": "伏",
@@ -78371,6 +80311,7 @@
     "何充": "何充",
     "何千年": "何千年",
     "何夔": "何夔",
+    "何定": "何定",
     "何尚之": "何尚之",
     "何弘敬": "何弘敬",
     "何承天": "何承天",
@@ -78389,6 +80330,7 @@
     "何进": "何进",
     "何大将军": "何进",
     "何重建": "何重建",
+    "何颙": "何颙",
     "佗": "佗",
     "余孝顷": "余孝顷",
     "佛_(概念)": "佛_(概念)",
@@ -78414,6 +80356,7 @@
     "佩玉": "佩玉",
     "佯": "佯",
     "佯败": "佯败",
+    "佼强": "佼强",
     "佽飞": "佽飞",
     "使命": "使命",
     "使持节": "使持节",
@@ -78454,6 +80397,7 @@
     "侯景之乱": "侯景",
     "侯瑱": "侯瑱",
     "侯益": "侯益",
+    "侯脱": "侯脱",
     "侯莫陈崇": "侯莫陈崇",
     "侯莫陈悦": "侯莫陈悦",
     "侯览": "侯览",
@@ -78477,8 +80421,9 @@
     "俘获": "俘获",
     "俘虏": "俘虏",
     "俘馘": "俘馘",
+    "俚": "俚",
+    "俚人": "俚",
     "俚_(部族)": "俚_(部族)",
-    "俚": "俚_(部族)",
     "保义节度使": "保义节度使",
     "保傅": "保傅",
     "保境": "保境",
@@ -78611,6 +80556,7 @@
     "元凤": "元凤",
     "元初": "元初",
     "元勰": "元勰",
+    "元匡": "元匡",
     "元叉": "元叉",
     "元和": "元和",
     "元和中兴": "元和中兴",
@@ -78625,7 +80571,9 @@
     "元帝": "元帝",
     "元平": "元平",
     "元康": "元康",
+    "元弘嗣": "元弘嗣",
     "元徽": "元徽",
+    "元志": "元志",
     "元敏": "元敏",
     "元斌之": "元斌之",
     "元日": "元日",
@@ -78649,12 +80597,15 @@
     "元行钦": "元行钦",
     "元谐": "元谐",
     "元载": "元载",
+    "元钦": "元钦",
+    "元韶": "元韶",
     "元顺": "元顺",
     "元颢": "元颢",
     "元鼎": "元鼎",
     "兄_(概念)": "兄_(概念)",
     "兄": "兄_(概念)",
     "兄弟": "兄弟",
+    "充军": "充军",
     "兆_(概念)": "兆_(概念)",
     "兆": "兆_(概念)",
     "兆民": "兆民",
@@ -78666,6 +80617,7 @@
     "先帝": "先帝",
     "先王": "先王",
     "先登": "先登",
+    "先蚕": "先蚕",
     "先锋": "先锋",
     "先驱": "先驱",
     "光和": "光和",
@@ -79712,6 +81664,7 @@
     "公孙衍": "公孙衍",
     "犀首": "公孙衍",
     "公孙表": "公孙表",
+    "公孙诡": "公孙诡",
     "公孙贺": "公孙贺",
     "公孙贾": "公孙贾",
     "公孙述": "公孙述",
@@ -79724,7 +81677,9 @@
     "公田": "公田",
     "公私": "公私",
     "公论": "公论",
-    "公车令": "公车令",
+    "公车": "公车",
+    "公车司马令": "公车",
+    "公车令": "公车",
     "公车门": "公车门",
     "六亲": "六亲",
     "六军": "六军",
@@ -79760,6 +81715,7 @@
     "关": "关_(概念)",
     "关东": "关东",
     "关中": "关中",
+    "关中侯": "关中侯",
     "关内": "关内",
     "关内侯": "关内侯",
     "关口": "关口",
@@ -79781,6 +81737,7 @@
     "兴兵": "兴兵",
     "兴学": "兴学",
     "兴宁": "兴宁",
+    "兴安门": "兴安门",
     "兴州": "兴州",
     "兴师": "兴师",
     "兴平": "兴平",
@@ -79828,6 +81785,9 @@
     "典章": "典章",
     "典签": "典签",
     "典籍": "典籍",
+    "典膳": "典膳",
+    "典膳监": "典膳",
+    "典膳丞": "典膳",
     "典韦": "典韦",
     "养子": "养子",
     "养民": "养民",
@@ -79861,6 +81821,9 @@
     "内徙": "内徙",
     "内枢密使": "内枢密使",
     "枢密使": "内枢密使",
+    "内直": "内直",
+    "内直郎": "内直",
+    "内直局": "内直",
     "内附": "内附",
     "内黄": "内黄",
     "冈_(概念)": "冈_(概念)",
@@ -79900,6 +81863,8 @@
     "军师": "军师",
     "军府": "军府",
     "军旅": "军旅",
+    "军机": "军机",
+    "军事机宜": "军机",
     "军民": "军民",
     "军法": "军法",
     "军籍": "军籍",
@@ -79929,6 +81894,7 @@
     "冢墓": "冢墓",
     "冬_(概念)": "冬_(概念)",
     "冬": "冬_(概念)",
+    "冬官": "冬官",
     "冬至": "冬至",
     "冯习": "冯习",
     "冯勤": "冯勤",
@@ -80005,6 +81971,7 @@
     "凤州": "凤州",
     "凤翔": "凤翔",
     "凤翔节度使": "凤翔节度使",
+    "凤阁": "凤阁",
     "凤阁侍郎": "凤阁侍郎",
     "凫": "凫",
     "凫_(概念)": "凫_(概念)",
@@ -80043,6 +82010,7 @@
     "刀_(器物)": "刀_(器物)",
     "刀剑": "刀剑",
     "刀笔": "刀笔",
+    "刀锯": "刀锯",
     "刁协": "刁协",
     "刁彝": "刁彝",
     "刁斗": "刁斗",
@@ -80071,6 +82039,7 @@
     "刎颈之交": "刎颈之交",
     "刑": "刑",
     "刑_(概念)": "刑_(概念)",
+    "刑书": "刑书",
     "刑名": "刑名",
     "刑徒": "刑徒",
     "刑德": "刑德",
@@ -80078,6 +82047,8 @@
     "刑政": "刑政",
     "刑法": "刑法",
     "刑狱": "刑狱",
+    "刑统": "刑统",
+    "大周刑统": "刑统",
     "刑罚": "刑罚",
     "刑赏": "刑赏",
     "刑辟": "刑辟",
@@ -80171,6 +82142,7 @@
     "刘彦瑫": "刘彦瑫",
     "刘德": "刘德",
     "刘德威": "刘德威",
+    "刘怀慎": "刘怀慎",
     "刘怀珍": "刘怀珍",
     "刘怦": "刘怦",
     "刘总": "刘总",
@@ -80180,6 +82152,7 @@
     "刘悟": "刘悟",
     "刘惔": "刘惔",
     "刘承钧": "刘承钧",
+    "刘捍": "刘捍",
     "刘据": "刘据",
     "刘攽": "刘攽",
     "刘放": "刘放",
@@ -80199,6 +82172,7 @@
     "刘显": "刘显",
     "刘晏": "刘晏",
     "刘晔": "刘晔",
+    "刘晞": "刘晞",
     "刘景先": "刘景先",
     "刘景宣": "刘景宣",
     "刘暄": "刘暄",
@@ -80207,6 +82181,7 @@
     "汉光文帝": "刘曜",
     "刘权": "刘权",
     "刘柏根": "刘柏根",
+    "刘栖楚": "刘栖楚",
     "刘棻": "刘棻",
     "刘植": "刘植",
     "刘歆": "刘歆",
@@ -80254,6 +82229,7 @@
     "刘璝": "刘璝",
     "刘璠": "刘璠",
     "刘盆子": "刘盆子",
+    "刘真道": "刘真道",
     "刘瞻": "刘瞻",
     "刘知俊": "刘知俊",
     "刘知远": "刘知远",
@@ -80270,6 +82246,7 @@
     "梦得": "刘禹锡",
     "刘梦得": "刘禹锡",
     "刘秉": "刘秉",
+    "刘秉仁": "刘秉仁",
     "刘稹": "刘稹",
     "刘穆之": "刘穆之",
     "道民": "刘穆之",
@@ -80278,6 +82255,7 @@
     "刘粹": "刘粹",
     "刘縯": "刘縯",
     "刘繇": "刘繇",
+    "刘纡": "刘纡",
     "刘群": "刘群",
     "刘翰": "刘翰",
     "刘聪": "刘聪",
@@ -80286,9 +82264,11 @@
     "刘胡": "刘胡",
     "刘胤": "刘胤",
     "刘腾": "刘腾",
+    "刘舆": "刘舆",
     "刘舍": "刘舍",
     "刘芳": "刘芳",
     "刘英": "刘英",
+    "刘蕡": "刘蕡",
     "刘虞": "刘虞",
     "刘行本": "刘行本",
     "刘表": "刘表",
@@ -80846,6 +82826,7 @@
     "功曹": "功曹",
     "功罪": "功罪",
     "功臣": "功臣",
+    "功赏": "功赏",
     "功过": "功过",
     "加刑": "加刑",
     "务农": "务农",
@@ -80896,6 +82877,7 @@
     "募民": "募民",
     "勤_(概念)": "勤_(概念)",
     "勤": "勤_(概念)",
+    "勤政": "勤政",
     "勤王": "勤王",
     "勺": "勺",
     "勺_(器物)": "勺_(器物)",
@@ -81018,11 +83000,14 @@
     "华温琪": "华温琪",
     "华皎": "华皎",
     "华盖": "华盖",
+    "华覈": "华覈",
     "华谭": "华谭",
     "华阳": "华阳",
     "华阳君": "华阳",
     "华阳之战": "华阳之战",
     "华阴": "华阴",
+    "协力": "协力",
+    "合力": "协力",
     "协律": "协律",
     "卑": "卑",
     "卑_(概念)": "卑_(概念)",
@@ -81055,6 +83040,7 @@
     "南康王会理": "南康王会理",
     "萧会理": "南康王会理",
     "南徐州刺史": "南徐州刺史",
+    "南方": "南方",
     "南昌": "南昌",
     "南朝": "南朝",
     "南朝君主列表": "南朝君主列表",
@@ -81116,6 +83102,7 @@
     "卢怀慎": "卢怀慎",
     "卢承庆": "卢承庆",
     "卢携": "卢携",
+    "卢文纪": "卢文纪",
     "卢文进": "卢文进",
     "卢明月": "卢明月",
     "卢昶": "卢昶",
@@ -81140,8 +83127,8 @@
     "卢钧": "卢钧",
     "卢龙": "卢龙",
     "卢龙节度使": "卢龙节度使",
+    "卣": "卣",
     "卣_(概念)": "卣_(概念)",
-    "卣": "卣_(概念)",
     "卤簿": "卤簿",
     "卧鼓": "卧鼓",
     "卫伯玉": "卫伯玉",
@@ -81224,7 +83211,9 @@
     "县丞": "县丞",
     "县令": "县令",
     "县侯": "县侯",
+    "县子": "县子",
     "县尉": "县尉",
+    "县男": "县男",
     "县邑": "县邑",
     "参军": "参军",
     "参军事": "参军事",
@@ -81263,6 +83252,7 @@
     "变服": "变服",
     "变法": "变法",
     "变生肘腋": "变生肘腋",
+    "叛乱": "叛乱",
     "叛军": "叛军",
     "叛降": "叛降",
     "口": "口",
@@ -81317,6 +83307,7 @@
     "史思明": "史思明",
     "史思明大燕皇帝": "史思明",
     "史朝义": "史朝义",
+    "史涣": "史涣",
     "史籍": "史籍",
     "史记": "史记",
     "史馆": "史馆",
@@ -81353,13 +83344,17 @@
     "司农": "司农",
     "大司农": "司农",
     "司农卿": "司农卿",
+    "司勋": "司勋",
     "司命": "司命",
     "司天": "司天",
     "司天监": "司天监",
     "司寇": "司寇",
+    "司封": "司封",
     "司州刺史": "司州刺史",
     "司徒": "司徒",
     "司空": "司空",
+    "司议郎": "司议郎",
+    "司门": "司门",
     "司隶": "司隶",
     "司隶校尉": "司隶校尉",
     "司马": "司马",
@@ -81446,9 +83441,13 @@
     "同州刺史": "同州刺史",
     "同平章事": "同平章事",
     "同异": "同异",
+    "同心": "同心",
+    "齐心": "同心",
     "同心协力": "同心协力",
     "同恶相济": "同恶相济",
     "同泰寺": "同泰寺",
+    "同济": "同济",
+    "同舟共济": "同济",
     "同盟": "同盟",
     "同罗": "同罗",
     "名": "名",
@@ -81542,6 +83541,7 @@
     "奉先": "吕布",
     "吕师周": "吕师周",
     "吕师造": "吕师造",
+    "吕强": "吕强",
     "吕才": "吕才",
     "吕母": "吕母",
     "吕氏": "吕氏",
@@ -81574,6 +83574,7 @@
     "君子之养士以为民也": "君子养士",
     "君父": "君父",
     "君王": "君王",
+    "君臣": "君臣",
     "君道": "君道",
     "吞噬": "吞噬",
     "吞并": "吞并",
@@ -81672,6 +83673,7 @@
     "周嵩": "周嵩",
     "周市": "周市",
     "周庠": "周庠",
+    "周建": "周建",
     "周弘正": "周弘正",
     "周德威": "周德威",
     "周阳五": "周德威",
@@ -81885,6 +83887,7 @@
     "嗣君": "嗣君",
     "卫嗣君": "嗣君",
     "嗣子": "嗣子",
+    "嗣爵": "嗣爵",
     "嗣王": "嗣王",
     "嘉兴": "嘉兴",
     "嘉禾": "嘉禾",
@@ -81942,6 +83945,7 @@
     "固辞": "固辞",
     "国": "国",
     "国史": "国史",
+    "国号": "国号",
     "国夫人": "国夫人",
     "国子": "国子",
     "国子学": "国子学",
@@ -82006,6 +84010,8 @@
     "坐卧": "坐卧",
     "坐观成败": "坐观成败",
     "坐赃": "坐赃",
+    "坐食": "坐食",
+    "坐享其成": "坐食",
     "坑儒": "坑儒",
     "坑杀": "坑杀",
     "坚": "坚",
@@ -82020,6 +84026,7 @@
     "坚甲": "坚甲",
     "坛": "坛",
     "坛_(概念)": "坛_(概念)",
+    "坛场": "坛场",
     "坝_(概念)": "坝_(概念)",
     "坝": "坝_(概念)",
     "坞": "坞",
@@ -82062,6 +84069,7 @@
     "基_(概念)": "基_(概念)",
     "堂": "堂",
     "堂_(概念)": "堂_(概念)",
+    "堂帖": "堂帖",
     "堂邑": "堂邑",
     "堑_(器物)": "堑_(器物)",
     "堑": "堑_(器物)",
@@ -82113,6 +84121,7 @@
     "士为知己": "士为知己",
     "士为知己死": "士为知己",
     "士为知己者死": "士为知己",
+    "士人": "士人",
     "士别三日": "士别三日",
     "士别三日刮目相待": "士别三日",
     "刮目相待": "士别三日",
@@ -82169,6 +84178,7 @@
     "夏口": "夏口",
     "夏国": "夏国",
     "夏国君主列表": "夏国君主列表",
+    "夏官": "夏官",
     "夏州": "夏州",
     "夏禹": "夏禹",
     "禹": "夏禹",
@@ -82302,6 +84312,7 @@
     "天理": "天理",
     "天监": "天监",
     "天祐": "天祐",
+    "天禄": "天禄",
     "天福": "天福",
     "天竺": "天竺",
     "天纪": "天纪",
@@ -82374,6 +84385,7 @@
     "太湖": "太湖",
     "太牢": "太牢",
     "太白": "太白",
+    "太祝": "太祝",
     "太行": "太行",
     "夫妇": "夫妇",
     "夫差": "夫差",
@@ -82394,6 +84406,9 @@
     "夷陵之战": "夷陵之战",
     "夹击": "夹击",
     "夹攻": "夹攻",
+    "夺嫡": "夺嫡",
+    "夺官": "夺官",
+    "削夺官爵": "夺官",
     "夺气": "夺气",
     "奄蔡": "奄蔡",
     "奇": "奇",
@@ -82426,6 +84441,7 @@
     "奏劾": "奏劾",
     "奏当": "奏当",
     "奏报": "奏报",
+    "奏状": "奏状",
     "奏疏": "奏疏",
     "奏章": "奏章",
     "奏议": "奏议",
@@ -82533,6 +84549,7 @@
     "景茂": "姚苌",
     "姚裕": "姚裕",
     "姚襄": "姚襄",
+    "姚顗": "姚顗",
     "姜公辅": "姜公辅",
     "姜宝谊": "姜宝谊",
     "姜师度": "姜师度",
@@ -82597,8 +84614,11 @@
     "子弟": "子弟",
     "子思": "子思",
     "孔伋": "子思",
+    "子贡": "子贡",
+    "子路": "子路",
     "子顺": "子顺",
     "孔斌": "子顺",
+    "孔伷": "孔伷",
     "孔光": "孔光",
     "孔勍": "孔勍",
     "孔坦": "孔坦",
@@ -82650,6 +84670,7 @@
     "孙孝哲": "孙孝哲",
     "孙宝": "孙宝",
     "孙宠": "孙宠",
+    "孙宣雅": "孙宣雅",
     "孙岳": "孙岳",
     "孙峻": "孙峻",
     "孙建": "孙建",
@@ -82712,6 +84733,8 @@
     "薛公": "孟尝君",
     "孟怀玉": "孟怀玉",
     "孟方立": "孟方立",
+    "孟明": "孟明",
+    "孟昶": "孟昶",
     "孟楷": "孟楷",
     "孟汉琼": "孟汉琼",
     "孟津": "孟津",
@@ -82727,6 +84750,7 @@
     "亚圣": "孟轲",
     "孟达": "孟达",
     "孟迁": "孟迁",
+    "季友": "季友",
     "季布": "季布",
     "季札": "季札",
     "孤_(概念)": "孤_(概念)",
@@ -82769,9 +84793,11 @@
     "文帝": "宇文泰",
     "黑獭": "宇文泰",
     "宇文泰改革": "宇文泰改革",
+    "宇文测": "宇文测",
     "宇文深": "宇文深",
     "宇文盛": "宇文盛",
     "宇文神举": "宇文神举",
+    "宇文节": "宇文节",
     "宇文融": "宇文融",
     "宇文贵": "宇文贵",
     "宇文述": "宇文述",
@@ -82785,6 +84811,7 @@
     "守备": "守备",
     "守宰": "守宰",
     "守御": "守御",
+    "守捉": "守捉",
     "守正": "守正",
     "守险": "守险",
     "安": "安",
@@ -82838,6 +84865,7 @@
     "安禄山": "安禄山",
     "安轧荦山": "安禄山",
     "安福门": "安福门",
+    "安福顺": "安福顺",
     "安置": "安置",
     "安西": "安西",
     "安西都护": "安西都护",
@@ -82910,6 +84938,7 @@
     "官府": "官府",
     "官廨": "官廨",
     "廨舍": "官廨",
+    "官当": "官当",
     "官曹": "官曹",
     "官民": "官民",
     "官渡": "官渡",
@@ -82932,6 +84961,7 @@
     "宜阳之战": "宜阳之战",
     "宝_(概念)": "宝_(概念)",
     "宝": "宝_(概念)",
+    "宝册": "宝册",
     "宝器": "宝器",
     "宝玉": "宝玉",
     "宝货": "宝货",
@@ -82990,6 +85020,7 @@
     "宫女": "宫女",
     "宫室": "宫室",
     "宫市": "宫市",
+    "宫廷": "宫廷",
     "宫悬": "宫悬",
     "宫掖": "宫掖",
     "宫殿": "宫殿",
@@ -83021,6 +85052,7 @@
     "宽_(概念)": "宽_(概念)",
     "宽仁": "宽仁",
     "宽宥": "宽宥",
+    "宽政": "宽政",
     "宽猛": "宽猛",
     "宾_(概念)": "宾_(概念)",
     "宾": "宾_(概念)",
@@ -83049,6 +85081,7 @@
     "富国强兵": "富国强兵",
     "富室": "富室",
     "富平": "富平",
+    "富庶": "富庶",
     "富春": "富春",
     "富贵": "富贵",
     "富贵不归故乡": "富贵不归故乡",
@@ -83062,7 +85095,8 @@
     "寒_(概念)": "寒_(概念)",
     "寒": "寒_(概念)",
     "寒士": "寒士",
-    "寒门": "寒门",
+    "寒族": "寒族",
+    "寒门": "寒族",
     "寒食": "寒食",
     "寝不安席": "寝不安席",
     "寝兵": "寝兵",
@@ -83105,6 +85139,7 @@
     "封王": "封王",
     "封疆": "封疆",
     "封禅": "封禅",
+    "封裕": "封裕",
     "封赏": "封赏",
     "封邑": "封邑",
     "封隆之": "封隆之",
@@ -83153,6 +85188,7 @@
     "小功": "小功",
     "小吏": "小吏",
     "小黄": "小黄",
+    "小黄门": "小黄门",
     "少保": "少保",
     "三少": "少保",
     "少傅": "少傅",
@@ -83181,6 +85217,7 @@
     "尚书左丞": "尚书左丞",
     "尚书左仆射": "尚书左仆射",
     "尚书郎": "尚书郎",
+    "尚公主": "尚公主",
     "尚可孤": "尚可孤",
     "尚君长": "尚君长",
     "尚寝": "尚寝",
@@ -83198,6 +85235,7 @@
     "尸谏": "尸谏",
     "尹勋": "尹勋",
     "尹子奇": "尹子奇",
+    "尹尊": "尹尊",
     "尹忠": "尹忠",
     "尹昭": "尹昭",
     "尹礼": "尹礼",
@@ -83239,6 +85277,7 @@
     "屠戮": "屠戮",
     "屠沽": "屠沽",
     "屠灭": "屠灭",
+    "屠睢": "屠睢",
     "屣": "屣",
     "履": "履",
     "履_(器物)": "履_(器物)",
@@ -83255,7 +85294,8 @@
     "屯留": "屯留",
     "屯聚": "屯聚",
     "屯营": "屯营",
-    "屯骑校尉": "屯骑校尉",
+    "屯骑": "屯骑",
+    "屯骑校尉": "屯骑",
     "山": "山",
     "山_(概念)": "山_(概念)",
     "山东": "山东",
@@ -83270,6 +85310,7 @@
     "山泽": "山泽",
     "山涛": "山涛",
     "巨源": "山涛",
+    "山简": "山简",
     "山西": "山西",
     "山谷": "山谷",
     "山越": "山越",
@@ -83325,11 +85366,15 @@
     "崔乾祐": "崔乾祐",
     "崔亮": "崔亮",
     "崔仁师": "崔仁师",
+    "崔从": "崔从",
     "崔仲方": "崔仲方",
+    "崔元式": "崔元式",
+    "崔元略": "崔元略",
     "崔光": "崔光",
     "崔长仁": "崔光",
     "崔光远": "崔光远",
     "崔发": "崔发",
+    "崔君肃": "崔君肃",
     "崔圆": "崔圆",
     "崔孝芬": "崔孝芬",
     "崔季舒": "崔季舒",
@@ -83352,6 +85397,7 @@
     "崔昭纬": "崔昭纬",
     "崔暹": "崔暹",
     "崔林": "崔林",
+    "崔枢": "崔枢",
     "崔植": "崔植",
     "崔毖": "崔毖",
     "崔汉衡": "崔汉衡",
@@ -83359,6 +85405,7 @@
     "崔洪": "崔洪",
     "崔浩": "崔浩",
     "崔伯渊": "崔浩",
+    "崔涣": "崔涣",
     "崔游": "崔游",
     "崔湜": "崔湜",
     "崔猷": "崔猷",
@@ -83395,8 +85442,10 @@
     "州": "州_(概念)",
     "州刺史": "州刺史",
     "州县": "州县",
+    "州泰": "州泰",
     "州牧": "州牧",
     "州郡": "州郡",
+    "巡城": "巡城",
     "巡守": "巡守",
     "巡官": "巡官",
     "巡幸": "巡幸",
@@ -83551,10 +85600,11 @@
     "常珍奇": "常珍奇",
     "常衮": "常衮",
     "常谦光": "常谦光",
+    "帽": "帽",
     "帽_(概念)": "帽_(概念)",
-    "帽": "帽_(概念)",
+    "幄": "幄",
+    "幔": "幔",
     "幔_(概念)": "幔_(概念)",
-    "幔": "幔_(概念)",
     "幕": "幕",
     "幕_(概念)": "幕_(概念)",
     "幕僚": "幕僚",
@@ -83604,6 +85654,7 @@
     "年号": "年号",
     "年谷不登": "年谷不登",
     "并兵": "并兵",
+    "并力": "并力",
     "并吞": "并吞",
     "并州": "并州",
     "幸臣": "幸臣",
@@ -83654,6 +85705,8 @@
     "库": "库_(概念)",
     "库狄干": "库狄干",
     "库藏": "库藏",
+    "库部": "库部",
+    "库门": "库门",
     "应侯": "应侯",
     "应变": "应变",
     "应天顺人": "应天顺人",
@@ -83661,6 +85714,7 @@
     "应弦": "应弦",
     "应援": "应援",
     "应詹": "应詹",
+    "应钟": "应钟",
     "底": "底",
     "店_(概念)": "店_(概念)",
     "店": "店_(概念)",
@@ -83682,6 +85736,7 @@
     "府第": "府第",
     "府署": "府署",
     "庞": "庞",
+    "庞从": "庞从",
     "庞勋": "庞勋",
     "庞参": "庞参",
     "庞师古": "庞师古",
@@ -83693,9 +85748,13 @@
     "庞士元": "庞统",
     "凤雏": "庞统",
     "庞萌": "庞萌",
+    "废后": "废后",
+    "废太子": "废太子",
     "废疾": "废疾",
     "废立": "废立",
     "废置": "废置",
+    "废锢": "废锢",
+    "禁锢": "废锢",
     "废黜": "废黜",
     "庠序": "庠序",
     "度": "度",
@@ -83811,6 +85870,7 @@
     "建成侯": "建成侯",
     "建昭": "建昭",
     "建武": "建武",
+    "建福门": "建福门",
     "建章": "建章",
     "建章宫": "建章宫",
     "建置": "建置",
@@ -83999,6 +86059,7 @@
     "张温": "张温",
     "张湛": "张湛",
     "张濬": "张濬",
+    "张煦": "张煦",
     "张燕": "张燕",
     "褚飞燕": "张燕",
     "张猛": "张猛",
@@ -84065,6 +86126,7 @@
     "张通儒": "张通儒",
     "张遇": "张遇",
     "张遇贤": "张遇贤",
+    "张道源": "张道源",
     "张邈": "张邈",
     "张邵": "张邵",
     "张郃": "张郃",
@@ -84073,6 +86135,7 @@
     "张释之": "张释之",
     "张重华": "张重华",
     "张金称": "张金称",
+    "张锡": "张锡",
     "张镇周": "张镇周",
     "张镐": "张镐",
     "张镒": "张镒",
@@ -84226,6 +86289,7 @@
     "律_(概念)": "律_(概念)",
     "律": "律_(概念)",
     "律令": "律令",
+    "律令格式": "律令格式",
     "律历": "律历",
     "律吕": "律吕",
     "十二律": "律吕",
@@ -84253,6 +86317,7 @@
     "徐彦若": "徐彦若",
     "徐成": "徐成",
     "徐敬业": "徐敬业",
+    "徐文盛": "徐文盛",
     "徐晃": "徐晃",
     "公明": "徐晃",
     "徐有功": "徐有功",
@@ -84456,6 +86521,7 @@
     "魏征求慎终如始": "慎终如始",
     "慕义": "慕义",
     "慕容三藏": "慕容三藏",
+    "慕容云": "慕容云",
     "慕容令": "慕容令",
     "慕容俊": "慕容俊",
     "慕容俨": "慕容俨",
@@ -84493,8 +86559,8 @@
     "慕舆根": "慕舆根",
     "慷慨": "慷慨",
     "懿宗": "懿宗",
+    "戈": "戈",
     "戈_(器物)": "戈_(器物)",
-    "戈": "戈_(器物)",
     "戈甲": "戈甲",
     "戈矛": "戈矛",
     "戊_(概念)": "戊_(概念)",
@@ -84514,6 +86580,9 @@
     "戎服": "戎服",
     "戎狄": "戎狄",
     "戎车": "戎车",
+    "戎马": "戎马",
+    "战马": "戎马",
+    "兵戈": "戎马",
     "戏水": "戏水",
     "戏马台": "戏马台",
     "成": "成",
@@ -84547,7 +86616,7 @@
     "战守": "战守",
     "战役": "战役",
     "战舰": "战舰",
-    "战马": "战马",
+    "战船": "战船",
     "戚_(概念)": "戚_(概念)",
     "戚": "戚_(概念)",
     "戚夫人": "戚夫人",
@@ -84555,6 +86624,7 @@
     "戟_(器物)": "戟_(器物)",
     "戮": "戮",
     "戮_(概念)": "戮_(概念)",
+    "戮力": "戮力",
     "戮力同心": "戮力同心",
     "戴休颜": "戴休颜",
     "戴僧逷": "戴僧逷",
@@ -84593,6 +86663,9 @@
     "所向披靡": "所向披靡",
     "所向无敌": "所向无敌",
     "扁鹊": "扁鹊",
+    "扆": "扆",
+    "斧扆": "扆",
+    "屏扆": "扆",
     "扇_(概念)": "扇_(概念)",
     "扇": "扇_(概念)",
     "扈彦珂": "扈彦珂",
@@ -84712,6 +86785,8 @@
     "按验": "按验",
     "挑战": "挑战",
     "挚虞": "挚虞",
+    "挞": "挞",
+    "鞭挞": "挞",
     "挟天子": "挟天子",
     "振威": "振威",
     "振旅": "振旅",
@@ -84729,6 +86804,9 @@
     "据守": "据守",
     "据险": "据险",
     "据鞍": "据鞍",
+    "捶": "捶",
+    "捶击": "捶",
+    "杖击": "捶",
     "捶楚": "捶楚",
     "授官": "授官",
     "授节": "授节",
@@ -84771,6 +86849,9 @@
     "搏战": "搏战",
     "搜捕": "搜捕",
     "摄位": "摄位",
+    "摄官": "摄官",
+    "代理": "摄官",
+    "兼摄": "摄官",
     "摄政": "摄政",
     "摧锋": "摧锋",
     "播种": "播种",
@@ -84793,6 +86874,7 @@
     "收获": "收获",
     "改元": "改元",
     "改制": "改制",
+    "改过": "改过",
     "改过自新": "改过自新",
     "改过论": "改过论",
     "过者人之所必不免": "改过论",
@@ -84875,16 +86957,20 @@
     "文成公主": "文成公主",
     "文成公主入藏": "文成公主入藏",
     "文昌": "文昌",
+    "文昌台": "文昌台",
     "文景之治": "文景之治",
     "文景盛世": "文景之治",
     "文案": "文案",
     "文武": "文武",
     "文武兼资": "文武兼资",
+    "文治": "文治",
     "文法": "文法",
+    "文牒": "文牒",
     "文移": "文移",
     "文章": "文章",
     "文簿": "文簿",
     "文籍": "文籍",
+    "文翁": "文翁",
     "文翰": "文翰",
     "文聘": "文聘",
     "文辞": "文辞",
@@ -84960,6 +87046,7 @@
     "方物": "方物",
     "方镇": "方镇",
     "施文庆": "施文庆",
+    "施绩": "施绩",
     "施行": "施行",
     "旃": "旃",
     "旄": "旄",
@@ -85000,6 +87087,7 @@
     "日复一日": "日复一日",
     "日慎一日": "日慎一日",
     "日昃": "日昃",
+    "日者": "日者",
     "日食": "日食",
     "旦": "旦",
     "旦_(概念)": "旦_(概念)",
@@ -85070,6 +87158,7 @@
     "星陨": "星陨",
     "春_(概念)": "春_(概念)",
     "春": "春_(概念)",
+    "春官": "春官",
     "春宫": "春宫",
     "春申君": "春申君",
     "黄歇": "春申君",
@@ -85243,6 +87332,7 @@
     "曹魏君主列表": "曹魏君主列表",
     "曾": "曾",
     "曾元裕": "曾元裕",
+    "曾参": "曾参",
     "月_(天文)": "月_(天文)",
     "月": "月_(天文)",
     "月令": "月令",
@@ -85275,6 +87365,7 @@
     "朗州刺史": "朗州刺史",
     "望_(概念)": "望_(概念)",
     "望": "望_(概念)",
+    "望仙门": "望仙门",
     "望夷宫": "望夷宫",
     "望族": "望族",
     "望气": "望气",
@@ -85478,6 +87569,7 @@
     "李存孝": "李存孝",
     "李存审": "李存审",
     "符存审": "李存审",
+    "李存敬": "李存敬",
     "李存璋": "李存璋",
     "李存贤": "李存贤",
     "李存进": "李存进",
@@ -85488,6 +87580,7 @@
     "赵王": "李孝恭",
     "李孝逸": "李孝逸",
     "李守贞": "李守贞",
+    "李安期": "李安期",
     "李安民": "李安民",
     "李宗闵": "李宗闵",
     "李宝": "李宝",
@@ -85562,6 +87655,7 @@
     "李抱真": "李抱真",
     "李振": "李振",
     "李揆": "李揆",
+    "李敢": "李敢",
     "李敬业": "李敬业",
     "李敬玄": "李敬玄",
     "李敷": "李敷",
@@ -85607,8 +87701,11 @@
     "武安君李牧": "李牧",
     "李牧破秦": "李牧破秦",
     "李特": "李特",
+    "李玄通": "李玄通",
+    "李玄道": "李玄道",
     "李玉": "李玉",
     "李珏": "李珏",
+    "李珽": "李珽",
     "李琢": "李琢",
     "李琪": "李琪",
     "李琰之": "李琰之",
@@ -85617,6 +87714,7 @@
     "李璨": "李璨",
     "李由": "李由",
     "李百药": "李百药",
+    "李矩": "李矩",
     "李石": "李石",
     "李祐": "李祐",
     "李神福": "李神福",
@@ -85626,11 +87724,14 @@
     "李穆": "李穆",
     "李筠": "李筠",
     "李简": "李简",
+    "李素立": "李素立",
     "李纲": "李纲",
     "李纳": "李纳",
     "李纾": "李纾",
     "李绅": "李绅",
+    "李绍宏": "李绍宏",
     "李绍斌": "李绍斌",
+    "李绍荣": "李绍荣",
     "李绛": "李绛",
     "李继勋": "李继勋",
     "李继岌": "李继岌",
@@ -85654,6 +87755,8 @@
     "李蔚": "李蔚",
     "李蔡": "李蔡",
     "李虎": "李虎",
+    "李袭志": "李袭志",
+    "李袭誉": "李袭誉",
     "李训": "李训",
     "李仲言": "李训",
     "李讷": "李讷",
@@ -85757,6 +87860,7 @@
     "杜畿": "杜畿",
     "杜稜": "杜稜",
     "杜茂": "杜茂",
+    "杜蕤": "杜蕤",
     "杜袭": "杜袭",
     "杜让能": "杜让能",
     "杜诗": "杜诗",
@@ -85774,7 +87878,9 @@
     "杞_(概念)": "杞_(概念)",
     "杞": "杞_(概念)",
     "杞州": "杞州",
+    "杞梓": "杞梓",
     "束之高阁": "束之高阁",
+    "束帛": "束帛",
     "束甲": "束甲",
     "束脩": "束脩",
     "束身": "束身",
@@ -85818,11 +87924,14 @@
     "杨崇本": "杨崇本",
     "杨师厚": "杨师厚",
     "杨廷璋": "杨廷璋",
+    "杨弁": "杨弁",
+    "杨弘武": "杨弘武",
     "杨彦询": "杨彦询",
     "杨彪": "杨彪",
     "杨志诚": "杨志诚",
     "杨忠": "杨忠",
     "杨思勖": "杨思勖",
+    "杨思权": "杨思权",
     "杨恽": "杨恽",
     "杨惠元": "杨惠元",
     "杨愔": "杨愔",
@@ -85834,6 +87943,7 @@
     "杨朝晟": "杨朝晟",
     "杨柳": "杨柳",
     "杨椿": "杨椿",
+    "杨檀": "杨檀",
     "杨檦": "杨檦",
     "杨法琛": "杨法琛",
     "杨洞潜": "杨洞潜",
@@ -85865,6 +87975,7 @@
     "太真": "杨贵妃",
     "贵妃": "杨贵妃",
     "杨赐": "杨赐",
+    "杨遵彦": "杨遵彦",
     "杨邠": "杨邠",
     "杨阜": "杨阜",
     "杨难当": "杨难当",
@@ -85874,8 +87985,8 @@
     "杨音": "杨音",
     "杨骏": "杨骏",
     "杭州": "杭州",
+    "杯": "杯",
     "杯_(器物)": "杯_(器物)",
-    "杯": "杯_(器物)",
     "杰_(概念)": "杰_(概念)",
     "杰": "杰_(概念)",
     "杵": "杵",
@@ -85890,14 +88001,16 @@
     "板筑": "板筑",
     "板荡识诚臣": "板荡识诚臣",
     "疾风知劲草板荡识诚臣": "板荡识诚臣",
+    "极谏": "极谏",
+    "直谏": "极谏",
     "构陷": "构陷",
     "枉法": "枉法",
     "枉直": "枉直",
     "枋_(概念)": "枋_(概念)",
     "枋": "枋_(概念)",
     "枋头之战": "枋头之战",
+    "枕": "枕",
     "枕_(概念)": "枕_(概念)",
-    "枕": "枕_(概念)",
     "枕席": "枕席",
     "枕戈待旦": "枕戈待旦",
     "林仁肇": "林仁肇",
@@ -85907,6 +88020,8 @@
     "林邑": "林邑",
     "占婆": "林邑",
     "占城": "林邑",
+    "林钟": "林钟",
+    "林鼎": "林鼎",
     "枚_(概念)": "枚_(概念)",
     "枚": "枚_(概念)",
     "果_(概念)": "果_(概念)",
@@ -85940,7 +88055,8 @@
     "柏乡之战": "柏乡之战",
     "柏人": "柏人",
     "柏壁之战": "柏壁之战",
-    "柏梁台": "柏梁台",
+    "柏梁": "柏梁",
+    "柏梁台": "柏梁",
     "柏谷": "柏谷",
     "染_(概念)": "染_(概念)",
     "染": "染_(概念)",
@@ -85973,6 +88089,7 @@
     "柳浑": "柳浑",
     "柳璨": "柳璨",
     "柳裘": "柳裘",
+    "柳述": "柳述",
     "柴再用": "柴再用",
     "柴桑": "柴桑",
     "柴武": "柴武",
@@ -86006,6 +88123,7 @@
     "格式": "格式",
     "格斗": "格斗",
     "格谦": "格谦",
+    "格辅元": "格辅元",
     "栾大": "栾大",
     "栾巴": "栾巴",
     "栾布": "栾布",
@@ -86050,6 +88168,7 @@
     "汉桓帝": "桓帝",
     "桓彝": "桓彝",
     "桓彦范": "桓彦范",
+    "桓振": "桓振",
     "桓温": "桓温",
     "桓元子": "桓温",
     "桓温北伐": "桓温北伐",
@@ -86062,6 +88181,7 @@
     "桓秘": "桓秘",
     "桓范": "桓范",
     "桓荣": "桓荣",
+    "桓谦": "桓谦",
     "桓谭": "桓谭",
     "桓君山": "桓谭",
     "桓豁": "桓豁",
@@ -86073,6 +88193,7 @@
     "桥_(器物)": "桥_(器物)",
     "桥梁": "桥梁",
     "桥玄": "桥玄",
+    "桥瑁": "桥瑁",
     "桥陵": "桥陵",
     "桶_(概念)": "桶_(概念)",
     "桶": "桶_(概念)",
@@ -86086,7 +88207,6 @@
     "梁商": "梁商",
     "梁士彦": "梁士彦",
     "梁太后": "梁太后",
-    "梁妠": "梁太后",
     "梁孝王": "梁孝王",
     "梁守谦": "梁守谦",
     "梁崇义": "梁崇义",
@@ -86105,6 +88225,7 @@
     "萧衍": "梁武帝",
     "梁琛": "梁琛",
     "梁睿": "梁睿",
+    "梁统": "梁统",
     "梁缵": "梁缵",
     "梁肃": "梁肃",
     "梁鹄": "梁鹄",
@@ -86129,6 +88250,8 @@
     "梯": "梯_(概念)",
     "械系": "械系",
     "械送": "械送",
+    "检校": "检校",
+    "查核": "检校",
     "检校官": "检校官",
     "检核": "检核",
     "检讨": "检讨",
@@ -86136,8 +88259,9 @@
     "棉": "棉_(经济)",
     "棋": "棋",
     "棋_(概念)": "棋_(概念)",
+    "棒": "棒",
+    "棍棒": "棒",
     "棒_(概念)": "棒_(概念)",
-    "棒": "棒_(概念)",
     "棘": "棘",
     "棘_(概念)": "棘_(概念)",
     "棘门": "棘门",
@@ -86209,6 +88333,7 @@
     "槛_(概念)": "槛_(概念)",
     "槛": "槛_(概念)",
     "槛车": "槛车",
+    "樊兴": "樊兴",
     "樊哙": "樊哙",
     "舞阳侯": "樊哙",
     "樊城": "樊城",
@@ -86288,6 +88413,8 @@
     "正衙": "正牙",
     "正直": "正直",
     "正统": "正统",
+    "正闰": "正闰",
+    "闰位": "正闰",
     "步兵": "步兵",
     "步兵校尉": "步兵校尉",
     "步军": "步军",
@@ -86391,8 +88518,10 @@
     "段文振": "段文振",
     "段文昌": "段文昌",
     "段晖": "段晖",
+    "段末柸": "段末柸",
     "段煨": "段煨",
     "段玑": "段玑",
+    "段珪": "段珪",
     "段疾陆眷": "段疾陆眷",
     "段确": "段确",
     "段秀实": "段秀实",
@@ -86462,8 +88591,8 @@
     "毛遂": "毛遂",
     "毛遂自荐": "毛遂",
     "毫_(概念)": "毫_(概念)",
+    "毯": "毯",
     "毯_(概念)": "毯_(概念)",
-    "毯": "毯_(概念)",
     "氏_(概念)": "氏_(概念)",
     "氏": "氏_(概念)",
     "氏叔琮": "氏叔琮",
@@ -86480,6 +88609,7 @@
     "民力": "民力",
     "民屯": "民屯",
     "民歌": "民歌",
+    "民生": "民生",
     "民田": "民田",
     "民部尚书": "民部尚书",
     "气": "气",
@@ -86545,6 +88675,7 @@
     "刘询": "汉宣帝",
     "孝宣皇帝": "汉宣帝",
     "中宗": "汉宣帝",
+    "汉律": "汉律",
     "汉惠帝": "汉惠帝",
     "汉成帝": "汉成帝",
     "汉文帝": "汉文帝",
@@ -86616,6 +88747,7 @@
     "江西观察使": "江西观察使",
     "江都": "江都",
     "江都之变": "江都之变",
+    "江都宫": "江都宫",
     "江阳": "江阳",
     "江陵": "江陵",
     "江陵之战": "江陵之战",
@@ -86643,6 +88775,7 @@
     "沅水": "沅水",
     "沈充": "沈充",
     "沈光": "沈光",
+    "沈崧": "沈崧",
     "沈庆之": "沈庆之",
     "弘先": "沈庆之",
     "沈怀文": "沈怀文",
@@ -86658,6 +88791,7 @@
     "沈田子": "沈田子",
     "沈约": "沈约",
     "沈休文": "沈约",
+    "沈莹": "沈莹",
     "沉": "沉",
     "沉毅": "沉毅",
     "沐猴而冠": "沐猴而冠",
@@ -86706,6 +88840,7 @@
     "河南": "河南",
     "河南太守": "河南太守",
     "河南尹": "河南尹",
+    "河图": "河图",
     "河山": "河山",
     "河州": "河州",
     "河州刺史": "河州刺史",
@@ -86713,6 +88848,8 @@
     "河朔": "河朔",
     "河朔三镇": "河朔三镇",
     "河桥": "河桥",
+    "河水": "河水",
+    "河清": "河清",
     "河渠": "河渠",
     "河溢": "河溢",
     "河西": "河西",
@@ -86731,6 +88868,7 @@
     "治兵": "治兵",
     "治国": "治国",
     "治狱": "治狱",
+    "治理": "治理",
     "治道": "治道",
     "沼_(概念)": "沼_(概念)",
     "沼": "沼_(概念)",
@@ -86861,6 +88999,7 @@
     "浙东观察使": "浙东观察使",
     "浙江": "浙江",
     "浙西观察使": "浙西观察使",
+    "浣濯": "浣濯",
     "浦": "浦",
     "浦_(概念)": "浦_(概念)",
     "浩": "浩",
@@ -86990,6 +89129,7 @@
     "湖南观察使": "湖南观察使",
     "湖州": "湖州",
     "湖州刺史": "湖州刺史",
+    "湖水": "湖水",
     "湖阳": "湖阳",
     "湖陆": "湖陆",
     "湘东王": "湘东王",
@@ -87007,6 +89147,7 @@
     "源乾曜": "源乾曜",
     "源休": "源休",
     "源子恭": "源子恭",
+    "源怀": "源怀",
     "源贺": "源贺",
     "溪_(概念)": "溪_(概念)",
     "溪": "溪_(概念)",
@@ -87158,6 +89299,8 @@
     "燕国君主列表": "燕国君主列表",
     "燕太子丹": "燕太子丹",
     "燕子献": "燕子献",
+    "燕山": "燕山",
+    "燕山山脉": "燕山",
     "燕惠王": "燕惠王",
     "燕文公": "燕文公",
     "燕昭王": "燕昭王",
@@ -87167,6 +89310,7 @@
     "燕王哙": "燕王哙",
     "燕王喜": "燕王喜",
     "燕王旦": "燕王旦",
+    "燕荣": "燕荣",
     "燕雀": "燕雀",
     "燥": "燥",
     "燥_(概念)": "燥_(概念)",
@@ -87178,6 +89322,8 @@
     "爱_(概念)": "爱_(概念)",
     "爱": "爱_(概念)",
     "爱憎": "爱憎",
+    "爱民": "爱民",
+    "仁民": "爱民",
     "爵": "爵",
     "爵_(官制)": "爵_(官制)",
     "爵位": "爵位",
@@ -87320,18 +89466,20 @@
     "猴": "猴_(概念)",
     "猿": "猿",
     "猿_(概念)": "猿_(概念)",
+    "獠": "獠",
     "獠_(部族)": "獠_(部族)",
-    "獠": "獠_(部族)",
     "玄_(概念)": "玄_(概念)",
     "玄": "玄_(概念)",
+    "玄圭": "玄圭",
     "玄学": "玄学",
     "玄宗": "玄宗",
-    "玄武门之变": "玄武门之变",
+    "玄武门": "玄武门",
+    "玄武门之变": "玄武门",
     "武德之变": "玄武门之变",
-    "玄武门": "玄武门之变",
     "玄武门政变": "玄武门之变",
     "玉": "玉",
     "玉_(器物)": "玉_(器物)",
+    "玉佩": "玉佩",
     "玉册": "玉册",
     "玉匣": "玉匣",
     "玉华宫": "玉华宫",
@@ -87342,6 +89490,8 @@
     "玉带": "玉带",
     "玉烛": "玉烛",
     "玉牒": "玉牒",
+    "玉玺": "玉玺",
+    "皇帝玉玺": "玉玺",
     "玉真公主": "玉真公主",
     "玉石": "玉石",
     "玉石俱焚": "玉石俱焚",
@@ -87397,7 +89547,9 @@
     "王处存": "王处存",
     "王处直": "王处直",
     "王奂": "王奂",
+    "王如": "王如",
     "王孝杰": "王孝杰",
+    "王守恩": "王守恩",
     "王守澄": "王守澄",
     "王安石": "王安石",
     "王介甫": "王安石",
@@ -87419,6 +89571,8 @@
     "王导": "王导",
     "王茂弘": "王导",
     "王尊": "王尊",
+    "王屋": "王屋",
+    "王屋山": "王屋",
     "王峻": "王峻",
     "王崇": "王崇",
     "王师": "王师",
@@ -87430,7 +89584,9 @@
     "王库傉官伟": "王库傉官伟",
     "王府": "王府",
     "王庭凑": "王庭凑",
+    "王廙": "王廙",
     "王延政": "王延政",
+    "王延禀": "王延禀",
     "王延翰": "王延翰",
     "王延钧": "王延钧",
     "王建": "王建",
@@ -87447,6 +89603,7 @@
     "王彪之": "王彪之",
     "王彬": "王彬",
     "王彰": "王彰",
+    "王得中": "王得中",
     "王德仁": "王德仁",
     "王徽": "王徽",
     "王忠嗣": "王忠嗣",
@@ -87500,6 +89657,7 @@
     "王栖曜": "王栖曜",
     "王根": "王根",
     "王梁": "王梁",
+    "王檀": "王檀",
     "王武俊": "王武俊",
     "王殷": "王殷",
     "王毛仲": "王毛仲",
@@ -87541,6 +89699,7 @@
     "王琚": "王琚",
     "王琨": "王琨",
     "石琨": "王琨",
+    "王琬": "王琬",
     "王琳": "王琳",
     "王璠": "王璠",
     "王甫": "王甫",
@@ -87560,6 +89719,7 @@
     "王继鹏": "王继鹏",
     "王绪": "王绪",
     "王绾": "王绾",
+    "王缄": "王缄",
     "王缙": "王缙",
     "王罴": "王罴",
     "王羲之": "王羲之",
@@ -87586,6 +89746,7 @@
     "王虔休": "王虔休",
     "王融": "王融",
     "王元长": "王融",
+    "王行敏": "王行敏",
     "王行本": "王行本",
     "王行瑜": "王行瑜",
     "王衍": "王衍",
@@ -87595,12 +89756,16 @@
     "王要汉": "王要汉",
     "王观": "王观",
     "王谊": "王谊",
+    "王谧": "王谧",
+    "王谭": "王谭",
+    "王贡": "王贡",
     "王贲": "王贲",
     "王贺": "王贺",
     "王赟": "王赟",
     "王辩": "王辩",
     "王连": "王连",
     "王述": "王述",
+    "王逊": "王逊",
     "王通": "王通",
     "王逢": "王逢",
     "王逵": "王逵",
@@ -87623,6 +89788,7 @@
     "王霸": "王霸",
     "王音": "王音",
     "王頍": "王頍",
+    "王须拔": "王须拔",
     "王饶": "王饶",
     "王骏": "王骏",
     "王黄": "王黄",
@@ -87633,6 +89799,7 @@
     "玦_(器物)": "玦_(器物)",
     "环": "环",
     "环_(概念)": "环_(概念)",
+    "环佩": "环佩",
     "玳瑁": "玳瑁",
     "玺": "玺",
     "玺_(器物)": "玺_(器物)",
@@ -87652,6 +89819,8 @@
     "珠崖": "珠崖",
     "珠玉": "珠玉",
     "珠玑": "珠玑",
+    "珠襦": "珠襦",
+    "珠襦玉柙": "珠襦",
     "珥_(概念)": "珥_(概念)",
     "珥": "珥_(概念)",
     "珩": "珩",
@@ -87677,6 +89846,7 @@
     "琅邪王德文": "琅邪王德文",
     "理": "理",
     "理_(概念)": "理_(概念)",
+    "理乱": "理乱",
     "理冤": "理冤",
     "理狱": "理狱",
     "琉璃": "琉璃",
@@ -87720,8 +89890,8 @@
     "瓦解": "瓦解",
     "瓯": "瓯",
     "瓯_(概念)": "瓯_(概念)",
+    "瓶": "瓶",
     "瓶_(概念)": "瓶_(概念)",
-    "瓶": "瓶_(概念)",
     "甄丰": "甄丰",
     "甄琛": "甄琛",
     "甄邯": "甄邯",
@@ -87812,6 +89982,7 @@
     "田角": "田角",
     "田豫": "田豫",
     "田邑": "田邑",
+    "田都": "田都",
     "田野": "田野",
     "田頵": "田頵",
     "由余": "由余",
@@ -87946,6 +90117,7 @@
     "白_(概念)": "白_(概念)",
     "白": "白_(概念)",
     "白丁": "白丁",
+    "白公胜": "白公胜",
     "白刃": "白刃",
     "白孝德": "白孝德",
     "白居易": "白居易",
@@ -87982,6 +90154,8 @@
     "白马寺": "白马寺",
     "白马津": "白马津",
     "白骨": "白骨",
+    "白鹿": "白鹿",
+    "白龙": "白龙",
     "百发百中": "百发百中",
     "百姓": "百姓",
     "百家": "百家",
@@ -88055,6 +90229,7 @@
     "盖吴起义": "盖吴起义",
     "盖嘉运": "盖嘉运",
     "盖宽饶": "盖宽饶",
+    "盖寓": "盖寓",
     "盖延": "盖延",
     "盖巨卿": "盖延",
     "盗_(概念)": "盗_(概念)",
@@ -88078,7 +90253,6 @@
     "直言": "直言",
     "直言无隐": "直言无隐",
     "直言极谏": "直言极谏",
-    "直谏": "直谏",
     "直道": "直道",
     "直阁将军": "直阁将军",
     "相国": "相国",
@@ -88155,6 +90329,9 @@
     "石敬瑭割燕云": "石敬瑭割燕云",
     "石显": "石显",
     "石榴": "石榴",
+    "石渠": "石渠",
+    "石渠阁": "石渠",
+    "石生": "石生",
     "石经": "石经",
     "石苞": "石苞",
     "石虎": "石虎",
@@ -88193,9 +90370,11 @@
     "硃友谦": "硃友谦",
     "朱友谦": "硃友谦",
     "硃序": "硃序",
+    "硃祜": "硃祜",
     "硃纪": "硃纪",
     "硃虚侯": "硃虚侯",
     "硃褒": "硃褒",
+    "硃超石": "硃超石",
     "硃鸡石": "硃鸡石",
     "硖石": "硖石",
     "碎叶": "碎叶",
@@ -88247,6 +90426,9 @@
     "祀天": "祀天",
     "祁奚": "祁奚",
     "祁山": "祁山",
+    "祁连": "祁连",
+    "祁连山": "祁连",
+    "天山": "祁连",
     "祈_(概念)": "祈_(概念)",
     "祈": "祈_(概念)",
     "祈谷": "祈谷",
@@ -88329,7 +90511,6 @@
     "禁兵": "禁兵",
     "禁卫": "禁卫",
     "禁苑": "禁苑",
-    "禁锢": "禁锢",
     "禁闼": "禁闼",
     "禄": "禄",
     "禄东赞": "禄东赞",
@@ -88350,6 +90531,8 @@
     "禳灾": "禳灾",
     "离合": "离合",
     "离宫": "离宫",
+    "离心": "离心",
+    "背离": "离心",
     "离间": "离间",
     "禽兽": "禽兽",
     "禾_(概念)": "禾_(概念)",
@@ -88366,6 +90549,7 @@
     "秉节": "秉节",
     "秋_(概念)": "秋_(概念)",
     "秋": "秋_(概念)",
+    "秋官": "秋官",
     "秋毫无犯": "秋毫无犯",
     "种暠": "种暠",
     "科敛": "科敛",
@@ -88384,6 +90568,7 @@
     "租庸": "租庸",
     "租庸调": "租庸调",
     "租税": "租税",
+    "租粟": "租粟",
     "租调": "租调",
     "租赋": "租赋",
     "秣": "秣",
@@ -88463,6 +90648,7 @@
     "程名振": "程名振",
     "程异": "程异",
     "程式": "程式",
+    "程怀信": "程怀信",
     "程怀直": "程怀直",
     "程文季": "程文季",
     "程日华": "程日华",
@@ -88591,6 +90777,8 @@
     "竹": "竹",
     "竹_(概念)": "竹_(概念)",
     "竹帛": "竹帛",
+    "竹木": "竹木",
+    "竹箭": "竹箭",
     "笋_(概念)": "笋_(概念)",
     "笋": "笋_(概念)",
     "笏": "笏",
@@ -89373,6 +91561,9 @@
     "管籥": "管籥",
     "管辂": "管辂",
     "管公明": "管辂",
+    "管钥": "管钥",
+    "钥匙": "管钥",
+    "锁钥": "管钥",
     "箧_(概念)": "箧_(概念)",
     "箧": "箧_(概念)",
     "箪": "箪",
@@ -89384,8 +91575,9 @@
     "箭_(概念)": "箭_(概念)",
     "箱_(概念)": "箱_(概念)",
     "箱": "箱_(概念)",
+    "箸": "箸",
+    "筷子": "箸",
     "箸_(器物)": "箸_(器物)",
-    "箸": "箸_(器物)",
     "篇_(概念)": "篇_(概念)",
     "篇": "篇_(概念)",
     "篙_(概念)": "篙_(概念)",
@@ -89414,10 +91606,12 @@
     "簿书": "簿书",
     "簿录": "簿录",
     "簿籍": "簿籍",
+    "簿领": "簿领",
     "籍_(概念)": "籍_(概念)",
     "籍": "籍_(概念)",
     "籍没": "籍没",
     "籍田": "籍田",
+    "米": "米",
     "米粟": "米粟",
     "籴": "籴",
     "粜": "粜",
@@ -89489,6 +91683,7 @@
     "纨_(器物)": "纨_(器物)",
     "纩": "纩",
     "纪信": "纪信",
+    "纪处讷": "纪处讷",
     "纪律": "纪律",
     "纪瞻": "纪瞻",
     "纪纲": "纪纲",
@@ -89571,6 +91766,7 @@
     "绝粮": "绝粮",
     "绞": "绞",
     "绞刑": "绞刑",
+    "统一": "统一",
     "统万": "统万",
     "统万之战": "统万之战",
     "统军": "统军",
@@ -89615,6 +91811,7 @@
     "缇骑": "缇骑",
     "缌麻": "缌麻",
     "缑氏": "缑氏",
+    "缒": "缒",
     "缒城": "缒城",
     "缓": "缓",
     "缓刑": "缓刑",
@@ -89722,8 +91919,9 @@
     "美良川": "美良川",
     "羔": "羔",
     "羔_(概念)": "羔_(概念)",
+    "羯": "羯",
+    "羯胡": "羯",
     "羯_(部族)": "羯_(部族)",
-    "羯": "羯_(部族)",
     "羸师": "羸师",
     "羸弱": "羸弱",
     "羹": "羹",
@@ -89753,6 +91951,7 @@
     "翠_(概念)": "翠_(概念)",
     "翠": "翠_(概念)",
     "翠微宫": "翠微宫",
+    "翦灭": "翦灭",
     "翰林": "翰林",
     "翰林学士": "翰林学士",
     "翰林学士承旨": "翰林学士承旨",
@@ -89803,18 +92002,24 @@
     "耿弇": "耿弇",
     "耿弇建威大将军": "耿弇",
     "耿弇平齐": "耿弇平齐",
+    "耿忠": "耿忠",
     "耿恭": "耿恭",
     "耿伯宗": "耿恭",
     "耿恭守疏勒": "耿恭守疏勒",
+    "耿晔": "耿晔",
     "耿秉": "耿秉",
     "耿纯": "耿纯",
     "耿舒": "耿舒",
+    "聂壹": "聂壹",
     "聂政": "聂政",
     "聊城": "聊城",
+    "职事": "职事",
     "职事官": "职事官",
     "职掌": "职掌",
+    "职方": "职方",
     "职田": "职田",
     "职贡": "职贡",
+    "聘享": "聘享",
     "聘问": "聘问",
     "聚": "聚",
     "聚敛": "聚敛",
@@ -89852,6 +92057,9 @@
     "肥义": "肥义",
     "肩": "肩",
     "肩_(概念)": "肩_(概念)",
+    "肩舆": "肩舆",
+    "平肩舆": "肩舆",
+    "腰舆": "肩舆",
     "肱": "肱",
     "育阳": "育阳",
     "肴": "肴",
@@ -89885,9 +92093,14 @@
     "胡奋": "胡奋",
     "胡威": "胡威",
     "胡广": "胡广",
+    "胡床": "胡床",
+    "交床": "胡床",
+    "马扎": "胡床",
     "胡彬": "胡彬",
+    "胡才": "胡才",
     "胡服": "胡服",
     "胡服骑射": "胡服骑射",
+    "胡殷": "胡殷",
     "胡烈": "胡烈",
     "胡睦": "胡睦",
     "胡籓": "胡籓",
@@ -89913,6 +92126,8 @@
     "能臣": "能臣",
     "脂": "脂",
     "脂_(概念)": "脂_(概念)",
+    "脂膏": "脂膏",
+    "民脂民膏": "脂膏",
     "脉": "脉",
     "脉_(概念)": "脉_(概念)",
     "脊": "脊",
@@ -89943,6 +92158,7 @@
     "腹背": "腹背",
     "膏": "膏",
     "膏_(概念)": "膏_(概念)",
+    "膏油": "膏油",
     "膏粱": "膏粱",
     "膏腴": "膏腴",
     "膝": "膝",
@@ -90062,6 +92278,7 @@
     "芝_(概念)": "芝_(概念)",
     "芝": "芝_(概念)",
     "芝草": "芝草",
+    "芟夷": "芟夷",
     "芡_(概念)": "芡_(概念)",
     "芡": "芡_(概念)",
     "芥_(概念)": "芥_(概念)",
@@ -90079,6 +92296,7 @@
     "苍生": "苍生",
     "苏代": "苏代",
     "苏佐明": "苏佐明",
+    "苏则": "苏则",
     "苏味道": "苏味道",
     "苏夔": "苏夔",
     "苏威": "苏威",
@@ -90092,6 +92310,8 @@
     "苏建": "苏建",
     "苏武": "苏武",
     "苏子卿": "苏武",
+    "苏海政": "苏海政",
+    "苏瑰": "苏瑰",
     "苏禹珪": "苏禹珪",
     "苏秦": "苏秦",
     "苏季子": "苏秦",
@@ -90170,17 +92390,18 @@
     "茅": "茅_(概念)",
     "茅土": "茅土",
     "茅容": "茅容",
+    "茅屋": "茅屋",
     "茅焦": "茅焦",
     "茅茨": "茅茨",
     "茎_(概念)": "茎_(概念)",
     "茎": "茎_(概念)",
+    "茗": "茗",
+    "茶": "茗",
     "茗_(概念)": "茗_(概念)",
-    "茗": "茗_(概念)",
     "茨_(概念)": "茨_(概念)",
     "茨": "茨_(概念)",
     "茵": "茵",
     "茵_(概念)": "茵_(概念)",
-    "茶": "茶",
     "茶_(概念)": "茶_(概念)",
     "茶税": "茶税",
     "茹_(概念)": "茹_(概念)",
@@ -90310,6 +92531,7 @@
     "萧俛": "萧俛",
     "萧关": "萧关",
     "萧县": "萧县",
+    "萧后": "萧后",
     "萧坦之": "萧坦之",
     "萧复": "萧复",
     "萧太后": "萧太后",
@@ -90336,6 +92558,7 @@
     "萧纪": "萧纪",
     "萧绎": "萧绎",
     "梁元帝": "萧绎",
+    "萧翰": "萧翰",
     "萧至忠": "萧至忠",
     "梁高祖": "萧衍",
     "萧谌": "萧谌",
@@ -90354,6 +92577,7 @@
     "著作郎": "著作郎",
     "著姓": "著姓",
     "著述": "著述",
+    "葛": "葛",
     "葛从周": "葛从周",
     "葛婴": "葛婴",
     "葛福顺": "葛福顺",
@@ -90419,6 +92643,7 @@
     "蒿_(概念)": "蒿_(概念)",
     "蓄积": "蓄积",
     "蓍": "蓍",
+    "蓍龟": "蓍龟",
     "蓐": "蓐",
     "蓐食": "蓐食",
     "蓝田": "蓝田",
@@ -90444,6 +92669,7 @@
     "纲成君": "蔡泽",
     "蔡祐": "蔡祐",
     "蔡谟": "蔡谟",
+    "蔡豹": "蔡豹",
     "蔡道恭": "蔡道恭",
     "蔡邕": "蔡邕",
     "蔡伯喈": "蔡邕",
@@ -90488,6 +92714,7 @@
     "薛收": "薛收",
     "薛文遇": "薛文遇",
     "薛永宗": "薛永宗",
+    "薛泽": "薛泽",
     "薛王业": "薛王业",
     "李业": "薛王业",
     "薛珝": "薛珝",
@@ -90496,6 +92723,7 @@
     "薛稷": "薛稷",
     "薛胄": "薛胄",
     "薛茂卿": "薛茂卿",
+    "薛莹": "薛莹",
     "薛虎子": "薛虎子",
     "薛讷": "薛讷",
     "薛谦光": "薛谦光",
@@ -90505,6 +92733,7 @@
     "薛道衡": "薛道衡",
     "薪": "薪",
     "薪_(概念)": "薪_(概念)",
+    "薪炭": "薪炭",
     "藁": "藁",
     "藏匿": "藏匿",
     "藕_(概念)": "藕_(概念)",
@@ -90529,6 +92758,7 @@
     "武牢之战": "虎牢关之战",
     "虎狼": "虎狼",
     "虎符": "虎符",
+    "虎豹": "虎豹",
     "虎贲": "虎贲",
     "虎贲中郎将": "虎贲中郎将",
     "虏_(概念)": "虏_(概念)",
@@ -90683,6 +92913,7 @@
     "衡山": "衡山",
     "衡山王": "衡山王",
     "衡州刺史": "衡州刺史",
+    "衡门": "衡门",
     "衡阳": "衡阳",
     "衢_(概念)": "衢_(概念)",
     "衢": "衢_(概念)",
@@ -90708,6 +92939,7 @@
     "衷甲": "衷甲",
     "衾": "衾",
     "衾_(概念)": "衾_(概念)",
+    "袁乔": "袁乔",
     "袁公瑜": "袁公瑜",
     "袁安": "袁安",
     "袁宏": "袁宏",
@@ -90750,6 +92982,9 @@
     "袖": "袖_(概念)",
     "袜_(概念)": "袜_(概念)",
     "袜": "袜_(概念)",
+    "被": "被",
+    "布被": "被",
+    "衾被": "被",
     "被甲": "被甲",
     "袭城": "袭城",
     "袭爵": "袭爵",
@@ -90791,6 +93026,7 @@
     "裴延龄": "裴延龄",
     "裴忌": "裴忌",
     "裴政": "裴政",
+    "裴方明": "裴方明",
     "裴枢": "裴枢",
     "裴楷": "裴楷",
     "裴潜": "裴潜",
@@ -90824,8 +93060,8 @@
     "褚遂良": "褚遂良",
     "褚河南": "褚遂良",
     "褚公": "褚遂良",
+    "褥": "褥",
     "褥_(概念)": "褥_(概念)",
-    "褥": "褥_(概念)",
     "襁": "襁",
     "襁负": "襁负",
     "襄国": "襄国",
@@ -90918,6 +93154,7 @@
     "解印": "解印",
     "解围": "解围",
     "解官": "解官",
+    "解琬": "解琬",
     "解甲": "解甲",
     "解系": "解系",
     "触龙": "触龙",
@@ -90966,6 +93203,7 @@
     "讳": "讳_(概念)",
     "讴_(概念)": "讴_(概念)",
     "讴": "讴_(概念)",
+    "许允": "许允",
     "许劭": "许劭",
     "许子将": "许劭",
     "许叔冀": "许叔冀",
@@ -90986,6 +93224,7 @@
     "仲康": "许褚",
     "虎痴": "许褚",
     "许谦": "许谦",
+    "许贡": "许贡",
     "许远": "许远",
     "许睢阳": "许远",
     "许都": "许都",
@@ -91042,6 +93281,8 @@
     "诚款": "诚款",
     "诛戮": "诛戮",
     "诛杀": "诛杀",
+    "诛求": "诛求",
+    "苛征": "诛求",
     "诛赏": "诛赏",
     "诡辞": "诡辞",
     "诣": "诣",
@@ -91159,6 +93400,7 @@
     "谢弘微": "谢弘微",
     "谢彦章": "谢彦章",
     "谢恩": "谢恩",
+    "谢方明": "谢方明",
     "谢晦": "谢晦",
     "宣明": "谢晦",
     "谢朏": "谢朏",
@@ -91226,6 +93468,7 @@
     "象牙": "象牙",
     "象笏": "象笏",
     "象郡": "象郡",
+    "象魏": "象魏",
     "豢_(概念)": "豢_(概念)",
     "豢": "豢_(概念)",
     "豪_(概念)": "豪_(概念)",
@@ -91254,6 +93497,8 @@
     "豺狼当路": "豺狼当路",
     "貂_(概念)": "貂_(概念)",
     "貂": "貂_(概念)",
+    "貂蝉": "貂蝉",
+    "貂蝉冠": "貂蝉",
     "貉_(概念)": "貉_(概念)",
     "貉": "貉_(概念)",
     "貌_(概念)": "貌_(概念)",
@@ -91279,6 +93524,7 @@
     "贡献": "贡献",
     "贡禹": "贡禹",
     "贡赋": "贡赋",
+    "贡金": "贡金",
     "贡院": "贡院",
     "财产": "财产",
     "财货": "财货",
@@ -91318,6 +93564,8 @@
     "贪": "贪",
     "贪吏": "贪吏",
     "贪残": "贪残",
+    "贪污": "贪污",
+    "贪腐": "贪污",
     "贪浊": "贪浊",
     "贪虐": "贪虐",
     "贪鄙": "贪鄙",
@@ -91325,6 +93573,9 @@
     "贫": "贫_(概念)",
     "贫富": "贫富",
     "贫贱": "贫贱",
+    "贬官": "贬官",
+    "左降": "贬官",
+    "谪官": "贬官",
     "贬谪": "贬谪",
     "贬降": "贬降",
     "贮积": "贮积",
@@ -91346,6 +93597,9 @@
     "文伟": "费祎",
     "费穆": "费穆",
     "费观": "费观",
+    "贺兰": "贺兰",
+    "贺兰山": "贺兰",
+    "贺兰部": "贺兰",
     "贺兰祥": "贺兰祥",
     "贺兰进明": "贺兰进明",
     "贺循": "贺循",
@@ -91434,6 +93688,7 @@
     "赏劳": "赏劳",
     "赏善罚恶": "赏善罚恶",
     "赏格": "赏格",
+    "赏给": "赏给",
     "赏罚": "赏罚",
     "赏罚严明": "赏罚严明",
     "赏罚无章": "赏罚无章",
@@ -91447,6 +93702,7 @@
     "赐帛": "赐帛",
     "赐死": "赐死",
     "赐爵": "赐爵",
+    "赐物": "赐物",
     "赐田": "赐田",
     "赐禄": "赐禄",
     "赐第": "赐第",
@@ -91459,6 +93715,7 @@
     "赞善": "赞善",
     "赞拜": "赞拜",
     "赞普": "赞普",
+    "赠官": "赠官",
     "赤_(概念)": "赤_(概念)",
     "赤": "赤_(概念)",
     "赤乌": "赤乌",
@@ -91493,6 +93750,7 @@
     "赵子龙": "赵云",
     "赵什住": "赵什住",
     "赵伯超": "赵伯超",
+    "赵信": "赵信",
     "赵俨": "赵俨",
     "赵修": "赵修",
     "赵元楷": "赵元楷",
@@ -91508,6 +93766,7 @@
     "赵匡明": "赵匡明",
     "赵匡赞": "赵匡赞",
     "赵午": "赵午",
+    "赵周": "赵周",
     "赵咨": "赵咨",
     "赵固": "赵固",
     "赵国": "赵国",
@@ -91544,6 +93803,7 @@
     "赵晁": "赵晁",
     "赵晖": "赵晖",
     "赵普": "赵普",
+    "赵染": "赵染",
     "赵歇": "赵歇",
     "赵武": "赵武",
     "赵武灵王": "赵武",
@@ -91574,9 +93834,11 @@
     "赵绾": "赵绾",
     "赵肃侯": "赵肃侯",
     "赵语": "赵肃侯",
+    "赵胤": "赵胤",
     "赵良": "赵良",
     "赵苞": "赵苞",
     "赵莹": "赵莹",
+    "赵萌": "赵萌",
     "赵葱": "赵葱",
     "赵融": "赵融",
     "赵行枢": "赵行枢",
@@ -91717,12 +93979,15 @@
     "辇_(器物)": "辇_(器物)",
     "辇运": "辇运",
     "辍朝": "辍朝",
+    "辎车": "辎车",
     "辎重": "辎重",
     "辐": "辐",
     "辒车": "辒车",
     "输作": "输作",
+    "输税": "输税",
     "输诚": "输诚",
     "输贡": "输贡",
+    "输赋": "输赋",
     "辔": "辔",
     "辔_(概念)": "辔_(概念)",
     "辕": "辕",
@@ -91772,6 +94037,8 @@
     "达头可汗": "达头可汗",
     "达奚武": "达奚武",
     "达奚震": "达奚震",
+    "迁善": "迁善",
+    "向善": "迁善",
     "迁官": "迁官",
     "迁居": "迁居",
     "迁徙": "迁徙",
@@ -91871,6 +94138,9 @@
     "逐北": "逐北",
     "途_(经济)": "途_(经济)",
     "途": "途_(经济)",
+    "通事舍人": "通事舍人",
+    "中书通事舍人": "通事舍人",
+    "东宫通事舍人": "通事舍人",
     "通使": "通使",
     "通侯": "通侯",
     "通儒": "通儒",
@@ -91884,6 +94154,7 @@
     "通直郎": "通直郎",
     "通议大夫": "通议大夫",
     "造作": "造作",
+    "逢安": "逢安",
     "逢纪": "逢纪",
     "逯明": "逯明",
     "逸": "逸",
@@ -92031,10 +94302,12 @@
     "郑昌图": "郑昌图",
     "郑朗": "郑朗",
     "郑注": "郑注",
+    "郑泰": "郑泰",
     "郑滑": "郑滑",
     "郑玄": "郑玄",
     "郑康成": "郑玄",
     "郑珏": "郑珏",
+    "郑珙": "郑珙",
     "郑珣瑜": "郑珣瑜",
     "郑畋": "郑畋",
     "郑綮": "郑綮",
@@ -92092,7 +94365,6 @@
     "郭奉孝": "郭嘉",
     "郭图": "郭图",
     "郭太后": "郭太后",
-    "郭太皇太后": "郭太后",
     "郭威": "郭威",
     "后周太祖": "郭威",
     "周太祖": "郭威",
@@ -92128,6 +94400,8 @@
     "郯_(地名)": "郯_(地名)",
     "郯": "郯_(地名)",
     "都头": "都头",
+    "都官": "都官",
+    "中都官": "都官",
     "都护府": "都护府",
     "都指挥使": "都指挥使",
     "都水": "都水",
@@ -92160,6 +94434,7 @@
     "酋": "酋_(概念)",
     "酋帅": "酋帅",
     "配享": "配享",
+    "配没": "配没",
     "配流": "配流",
     "酎": "酎",
     "酎_(概念)": "酎_(概念)",
@@ -92189,6 +94464,7 @@
     "醇": "醇",
     "醇_(概念)": "醇_(概念)",
     "醉": "醉",
+    "醋": "醋",
     "醒": "醒",
     "醢": "醢",
     "醢_(概念)": "醢_(概念)",
@@ -92224,7 +94500,6 @@
     "重围": "重围",
     "重泉": "重泉",
     "重镇": "重镇",
-    "重阳": "重阳",
     "野_(概念)": "野_(概念)",
     "野": "野_(概念)",
     "野战": "野战",
@@ -92280,6 +94555,7 @@
     "钟士季": "钟会",
     "钟传": "钟传",
     "钟律": "钟律",
+    "钟毓": "钟毓",
     "钟皓": "钟皓",
     "钟磬": "钟磬",
     "编钟": "钟磬",
@@ -92373,8 +94649,9 @@
     "铸钱": "铸钱",
     "铺_(概念)": "铺_(概念)",
     "铺": "铺_(概念)",
+    "锁": "锁",
+    "铁锁": "锁",
     "锁_(概念)": "锁_(概念)",
-    "锁": "锁_(概念)",
     "锄": "锄",
     "锄_(器物)": "锄_(器物)",
     "锋_(概念)": "锋_(概念)",
@@ -92400,6 +94677,8 @@
     "锦绣": "锦绣",
     "锦袍": "锦袍",
     "锧": "锧",
+    "键": "键",
+    "锁簧": "键",
     "锯": "锯",
     "锯_(器物)": "锯_(器物)",
     "锱铢": "锱铢",
@@ -92480,7 +94759,8 @@
     "长戟": "长戟",
     "长揖": "长揖",
     "长星": "长星",
-    "长水校尉": "长水校尉",
+    "长水": "长水",
+    "长水校尉": "长水",
     "长江": "长江",
     "大江": "长江",
     "长沙": "长沙",
@@ -92594,8 +94874,8 @@
     "阴陵": "阴陵",
     "阵": "阵",
     "阵_(军事)": "阵_(军事)",
+    "阶": "阶",
     "阶_(概念)": "阶_(概念)",
-    "阶": "阶_(概念)",
     "阻兵": "阻兵",
     "阼": "阼",
     "阿保机": "阿保机",
@@ -92603,6 +94883,7 @@
     "阿史那忠": "阿史那忠",
     "阿史那思摩": "阿史那思摩",
     "阿史那承庆": "阿史那承庆",
+    "阿史那献": "阿史那献",
     "阿史那社尔": "阿史那社尔",
     "阿房宫": "阿房宫",
     "阿谀": "阿谀",
@@ -92630,10 +94911,12 @@
     "陆法和": "陆法和",
     "陆玩": "陆玩",
     "陆缮": "陆缮",
+    "陆象先": "陆象先",
     "陆贽": "陆贽",
     "陆敬舆": "陆贽",
     "陆贾": "陆贾",
     "陆生": "陆贾",
+    "陆运": "陆运",
     "陆逊": "陆逊",
     "陆伯言": "陆逊",
     "陆通": "陆通",
@@ -92649,10 +94932,12 @@
     "陈伯之": "陈伯之",
     "陈俊": "陈俊",
     "陈元康": "陈元康",
+    "陈元达": "陈元达",
     "陈叔宝": "陈叔宝",
     "陈叔达": "陈叔达",
     "陈可璠": "陈可璠",
     "陈后主": "陈后主",
+    "陈君宾": "陈君宾",
     "陈咸": "陈咸",
     "陈夷行": "陈夷行",
     "陈婴": "陈婴",
@@ -92691,6 +94976,7 @@
     "陈泰": "陈泰",
     "陈牧": "陈牧",
     "陈玄礼": "陈玄礼",
+    "陈珪": "陈珪",
     "陈球": "陈球",
     "陈琳": "陈琳",
     "陈璋": "陈璋",
@@ -92788,6 +95074,7 @@
     "隋_(朝代)": "隋_(朝代)",
     "隋文帝": "隋文帝",
     "隋朝君主列表": "隋朝君主列表",
+    "隋末": "隋末",
     "隋末群雄": "隋末群雄",
     "隋末农民起义": "隋末群雄",
     "隋灭陈": "隋灭陈",
@@ -92909,6 +95196,7 @@
     "青州": "青州",
     "青州刺史": "青州刺史",
     "青琐门": "青琐门",
+    "青紫": "青紫",
     "青苗": "青苗",
     "青苗钱": "青苗钱",
     "青衣": "青衣",
@@ -92933,13 +95221,16 @@
     "面谏": "面谏",
     "革命": "革命",
     "革弊": "革弊",
+    "靳准": "靳准",
+    "靴": "靴",
     "靴_(概念)": "靴_(概念)",
-    "靴": "靴_(概念)",
     "靺鞨": "靺鞨",
     "鞋_(概念)": "鞋_(概念)",
     "鞋": "鞋_(概念)",
     "鞍": "鞍",
     "鞍_(概念)": "鞍_(概念)",
+    "鞍勒": "鞍勒",
+    "马具": "鞍勒",
     "鞍马": "鞍马",
     "鞘": "鞘",
     "鞚_(概念)": "鞚_(概念)",
@@ -92950,6 +95241,7 @@
     "鞭_(概念)": "鞭_(概念)",
     "鞭扑": "鞭扑",
     "鞭杀": "鞭杀",
+    "鞭杖": "鞭杖",
     "鞭笞": "鞭笞",
     "鞯": "鞯",
     "鞯_(概念)": "鞯_(概念)",
@@ -93002,10 +95294,12 @@
     "韩信": "韩信",
     "淮阴人韩信": "韩信",
     "韩信拜将": "韩信拜将",
+    "韩偓": "韩偓",
     "韩僧寿": "韩僧寿",
     "韩全义": "韩全义",
     "韩全诲": "韩全诲",
     "韩勍": "韩勍",
+    "韩千秋": "韩千秋",
     "韩国": "韩国",
     "韩国君主列表": "韩国君主列表",
     "韩增": "韩增",
@@ -93125,6 +95419,7 @@
     "颔_(概念)": "颔_(概念)",
     "颜": "颜",
     "颜之推": "颜之推",
+    "颜回": "颜回",
     "颜师伯": "颜师伯",
     "颜师古": "颜师古",
     "颜延之": "颜延之",
@@ -93293,6 +95588,7 @@
     "驸马": "驸马",
     "驸马都尉": "驸马都尉",
     "驹": "驹",
+    "驺虞": "驺虞",
     "驻兵": "驻兵",
     "驻军": "驻军",
     "驻跸": "驻跸",
@@ -93399,6 +95695,7 @@
     "高句丽": "高句丽",
     "高台": "高台",
     "高唐": "高唐",
+    "高固": "高固",
     "高垒": "高垒",
     "高堂隆": "高堂隆",
     "高士": "高士",
@@ -93490,6 +95787,7 @@
     "髡_(概念)": "髡_(概念)",
     "髡钳": "髡钳",
     "髯": "髯",
+    "鬯": "鬯",
     "鬲": "鬲",
     "鬲_(概念)": "鬲_(概念)",
     "鬼": "鬼",
@@ -93514,6 +95812,8 @@
     "魏兰根": "魏兰根",
     "魏冉": "魏冉",
     "穰侯": "魏冉",
+    "魏刀儿": "魏刀儿",
+    "魏勃": "魏勃",
     "魏博": "魏博",
     "魏博归朝": "魏博归朝",
     "魏博节度使": "魏博节度使",
@@ -93553,6 +95853,7 @@
     "魏王咎": "魏王咎",
     "魏王豹": "魏王豹",
     "魏相": "魏相",
+    "魏知古": "魏知古",
     "魏舒": "魏舒",
     "魏襄王": "魏襄王",
     "魏谟": "魏谟",
@@ -93628,6 +95929,7 @@
     "鸾": "鸾",
     "鸾_(概念)": "鸾_(概念)",
     "鸾凤": "鸾凤",
+    "鸾台": "鸾台",
     "鸾台侍郎": "鸾台侍郎",
     "鸿_(概念)": "鸿_(概念)",
     "鸿": "鸿_(概念)",
@@ -93670,9 +95972,11 @@
     "鹿晏弘": "鹿晏弘",
     "鹿角": "鹿角",
     "鹿车": "鹿车",
+    "麈尾": "麈尾",
     "麋_(概念)": "麋_(概念)",
     "麋": "麋_(概念)",
     "麋竺": "麋竺",
+    "麋鹿": "麋鹿",
     "麒_(概念)": "麒_(概念)",
     "麒": "麒_(概念)",
     "麒麟": "麒麟",
@@ -93684,13 +95988,13 @@
     "麟": "麟_(概念)",
     "麟德": "麟德",
     "麟德殿": "麟德殿",
+    "麦": "麦",
     "麦_(概念)": "麦_(概念)",
-    "麦": "麦_(概念)",
     "麦铁杖": "麦铁杖",
     "麹允": "麹允",
     "麹文泰": "麹文泰",
+    "麻": "麻",
     "麻_(概念)": "麻_(概念)",
-    "麻": "麻_(概念)",
     "麻秋": "麻秋",
     "麾": "麾",
     "麾_(概念)": "麾_(概念)",
@@ -93820,6 +96124,6 @@
     "龟兹": "龟兹",
     "龟鳖": "龟鳖"
   },
-  "page_count": 14065,
-  "generated": "2026-05-07T08:24:00Z"
+  "page_count": 14418,
+  "generated": "2026-05-07T09:32:09Z"
 }
