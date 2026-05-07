@@ -90,7 +90,7 @@ def build_registry(pages_root: Path) -> dict:
                       # family
                       "house", "members",
                       # concept
-                      "concept_type"):
+                      "concept_type", "concept_cat"):
             if front.get(field) is not None:
                 entry[field] = front[field]
 
