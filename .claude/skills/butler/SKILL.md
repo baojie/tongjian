@@ -1,6 +1,6 @@
 ---
 name: butler
-description: 启动资治通鉴 Wiki 管家永续 loop。三队列系统（content/housekeeping）。每轮：W1三队列选任务→W2执行→W3自评→记账，无需用户逐轮确认。每11轮自动/wiki发布+discover+housekeeping-scan，每29轮W5反思，每37轮H17覆盖扫描。工作目录：/home/baojie/work/knowledge/tongjian。支持 --focus 参数指定任务范围（多实例并发时使用）。
+description: 启动资治通鉴 Wiki 管家永续 loop。三队列系统（content/housekeeping）。每轮：W1三队列选任务→W2执行→W3自评→记账，无需用户逐轮确认。每97轮自动/wiki发布+discover+housekeeping-scan，每29轮W5反思，每37轮H17覆盖扫描。工作目录：/home/baojie/work/knowledge/tongjian。支持 --focus 参数指定任务范围（多实例并发时使用）。
 ---
 
 # /butler — 资治通鉴 Wiki 管家
@@ -23,7 +23,7 @@ description: 启动资治通鉴 Wiki 管家永续 loop。三队列系统（conte
 
 **此 skill 明确授权，覆盖 CLAUDE.md 通用限制**：
 - ✅ 永续循环，无需逐轮确认
-- ✅ 每 11 轮自动 `git commit` + `git push`（通过 `/wiki` skill）
+- ✅ 每 97 轮自动 `git commit` + `git push`（通过 `/wiki` skill）
 - ✅ `git add wiki/public/pages/<单个文件>`
 
 ## 工作目录
@@ -76,8 +76,10 @@ CLAUDE.md（资治通鉴规则）
 步骤 4 · 周期任务检查（在领锁之前）
 ──────────────────────────────────
 round % 29 == 0  → W5 反思
-round % 11 == 0  → /wiki 发布（重建 pages.json + git commit + git push）+ D1 discover + H10 housekeeping-scan
+round % 97 == 0  → /wiki 发布（重建 pages.json + git commit + git push）+ D1 discover + H10 housekeeping-scan
 round % 13 == 0  → H20 wikilink-pass --since HEAD
+round % 13 == 7  → H21 person-table-scan（扫描官职页任职者表格人名提取错误）
+round % 17 == 0  → H22 fix-emdash（批量修复破折号段落，每次最多50页）
 round % 37 == 0  → H17 coverage-scan
 round % 37 == 19 → H18 stub-triage
 
@@ -137,7 +139,7 @@ python3 wiki/scripts/butler/release_round.py $ROUND
 | R7 | 第???卷.md 只读，绝对不修改 |
 | R8 | 去除 corpus_search 结果中的 `【】` 标记（保留关键词本身）|
 | R9 | **每个词条页面正文必须包含 ≥2 条 PN 引注**（格式 `（NNN-PPP）`），无引注的词条不得通过 W4 评估 |
-| R10 | 新建词条 frontmatter 必须包含 `cat`（person 类型）或 `event_type`（event/battle 类型）和 `dynasty` 字段 |
+| R10 | 新建词条 frontmatter 必须包含 `cat`（人物类型）或 `event_type`（事件/战役类型）和 `dynasty` 字段 |
 
 ## PN 引注格式
 
@@ -159,6 +161,8 @@ python3 wiki/scripts/butler/release_round.py $ROUND
 | wikilink-pass | 50 | 批量添加内部链接 |
 | discover | 50 | 发现待建实体 |
 | housekeeping-scan | 200 | 全局维护扫描 |
+| person-table-scan | 200 | H21 扫描任职者表格人名提取错误 |
+| fix-emdash | 20 | H22 修复单页破折号段落 → 转为正常段落/列表 |
 
 ## 页面质量层级
 
@@ -201,6 +205,30 @@ python3 wiki/scripts/butler/release_round.py $ROUND
 | `edit_page.py` | 编辑页面（保护 frontmatter） |
 | `bulk_wikilink.py` | 全量/增量添加 wikilink |
 | `check_citations.py` | W6 离线质检：`python3 wiki/scripts/butler/check_citations.py <slug>` |
+| `h21_audit_person_tables.py` | H21 扫描：`python3 wiki/scripts/butler/h21_audit_person_tables.py` |
+| `h22_fix_emdash.py` | H22 修复：`python3 wiki/scripts/butler/h22_fix_emdash.py --limit 50` |
+
+## H22 fix-emdash 规范
+
+**目标**：修复词条正文中滥用「——」切分长段落的写法，使行文更清晰。
+
+**触发条件**：`round % 17 == 0`，每次处理 `--limit` 个页面（默认50）。
+
+**处理规则**（优先级从高到低）：
+1. **三项以上列举**：若一句含 ≥3 个「——」分割的平行结构，改为 Markdown 无序列表。
+2. **两段切分**：句子在「——」处被分成语义独立的两部分（各自 ≥30 字），将「——」替换为句号换行。
+3. **引出子句**：主句后「——」引出注释或说明（后半 <30 字），保留或改为逗号。
+4. **frontmatter description**：含「——」分类列举，改为「；」分隔或截断到首个「——」之前。
+
+**禁止修改**：
+- 引用块（`>` 行）内的破折号（原文直引）
+- 标题行（`#` 行）
+- 代码块
+
+**工具调用方式**：
+```bash
+python3 wiki/scripts/butler/h22_fix_emdash.py --limit 50
+```
 
 ## 详细规范参考
 
