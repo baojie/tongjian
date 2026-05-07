@@ -1,0 +1,11 @@
+# 日志
+logs/
+*.log
+
+# 锁文件
+*.lock
+*.pid
+
+# 临时/中间文件
+tmp/butler_pages/
+*.ppx
