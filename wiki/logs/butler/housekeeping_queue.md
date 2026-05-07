@@ -346,18 +346,18 @@
 - stub person | 皇甫真 | 441B
 - stub person | 异人 | 476B
 
-## H21 person-table-scan (R5168, %13=7)
+## H21 person-table-scan (R5610, %13=7)
 > 扫描 type=official 页面任职者表格中的人名提取错误
-- NOTE: 67条可疑条目，分布在19页面（较R5105的1531条/278页大幅改善）
-- NOTE: 常见错误：短指代残留（欢→高欢、泰→宇文泰）、动词短语（议是、断狱）、官职前缀粘入
-- NOTE: 问题页主要集中：丞相(23条)、廷尉(16条)
-- TODO: 逐页运行 python3 wiki/scripts/butler/h21_audit_person_tables.py --fix 交互式修正
+- NOTE: 4条可疑条目，分布在4页面（丞相/太尉/都指挥使/镇东节度使）
+- NOTE: 全部为吴越钱氏短指代（弘亿/弘昌/弘义/弘倧），保留原名待页面创建
+- NOTE: 较R5480（同4条）无变化，H21已达收敛终端
+- TODO: 吴越钱氏人物页面创建后自动解除短指代
 
-## H17 coverage-scan (R5185, %37=0)
+## H17 coverage-scan (R5594, %37=0)
 > 页面元数据覆盖扫描结果
-- GOOD: person.cat 已全覆盖（3685/3685，0%缺失）
+- GOOD: person.cat 已全覆盖（3954/3954，0%缺失）
 - GOOD: event.event_type 已全覆盖（225/225，0%缺失）
-- GAP: 4839/13360 页面缺少 dynasty 字段（36.2%）
+- GAP: 5135/14159 页面缺少 dynasty 字段（36.3%）
 - RECOMMEND: 需批量脚本修复 dynasty 字段
 
 ## D1 discover-wanted (R5193)
@@ -366,33 +366,10 @@
 - NOTE: 可建设的概念类页面：财政(65)、中央(68)、地方(80)、边疆(75)、行政(52)等
 - TODO: 待消费P2队列中的concept类词条
 
-## H18 stub-triage (R5199, %37=19)
-> 全库 person body < 500B 共 25 条
-- stub person | 陶青 | 176B
-- stub person | 韩嫣 | 255B
-- stub person | 秦献公 | 261B
-- stub person | 王臧 | 264B
-- stub person | 伏湛 | 273B
-- stub person | 燕王喜 | 276B
-- stub person | 上官安 | 287B
-- stub person | 宋弘 | 298B
-- stub person | 陈皇后 | 304B
-- stub person | 程怀直 | 327B
-- stub person | 赵绾 | 348B
-- stub person | 娄太后 | 352B
-- stub person | 宋昌 | 360B
-- stub person | 宇文贵 | 375B
-- stub person | 吕用之 | 379B
-- stub person | 楚元王 | 381B
-- stub person | 元行冲 | 383B
-- stub person | 周仁 | 385B
-- stub person | 硃买臣 | 387B
-- stub person | 商丘成 | 395B
-- stub person | 张武 | 407B
-- stub person | 庄助 | 410B
-- stub person | 皇甫真 | 441B
-- stub person | 淳于长 | 443B
-- stub person | 异人 | 476B
+## H18 stub-triage (R5643, %37=19)
+> 全库 person body < 500B 共 0 条 — 全部达标
+- NOTE: 全库无 person < 500B，无全类型 < 200B
+- NOTE: H18 已达完全终端
 
 ## H10 housekeeping-scan (R5204)
 > 全库健康扫描结果
@@ -431,23 +408,28 @@
 - **观察E**: stub<150B共49条，主要为爵位批量创建残余，person stubs等待富化
 - **建议**: dynasty批量填充脚本可优先开发；H20遗漏需关注
 
-## H10 housekeeping-scan (R5292)
-> 全库健康扫描结果
-- NOTE: 无缺description字段（13735页全覆盖）
-- NOTE: 29条stub <100B，均为爵位类型（番君/翕侯/上邳侯等66B模板页）
-- NOTE: 无严重broken wikilinks（29194条中以《资治通鉴》/通鉴/资治通鉴占3693条，非真正断裂）
-- NOTE: 较R5204（13371页）增长364页
-- TODO: 无待处理内务
-
-## W5 反思 (R5308, %29=0 delayed)
+## W5 反思 (R5630, %29=0 delayed)
 > 全库状态扫描与模式分析
 
-- **库规模**: 13766页（较R5216 +90，+0.7%，growth显著放缓）
-- **多实例协同**: 资治通鉴×8 / 刘攽×5 / 范祖禹×4 / 司马光×2 / 刘恕×1（最近20轮）
-- **元数据覆盖**: 缺description 0 ✅；dynasty缺失4843/13766（35.2%，较R5216改善2.3pp）
-- **最近20轮模式**: create-page×7 / enrich-page×7 / housekeeping×4 / discover×1
-- **观察A**: 库增长放缓至0.78页/轮，趋向稳态
-- **观察B**: 刘恕发现放缓，领域趋于饱和
-- **观察C**: 多实例竞争加剧，周期任务抢占概率高
-- **观察D**: stub<100B 36条全为爵位类型
-- **建议**: 各实例进入稳态维护，dynasty批量填充为最有效投资
+- **库规模**: ~14233页
+  - 人物3980 / 年份1363 / 军事978 / 地点780 / 政治655 / 官职600 / 礼制477 / 社会456 / 概念760 / 经济420 / 器物385 / 自然337 / 章节294 / 成语270 / 哲学257 / 法律236 / 道德221
+
+- **多实例协同**（最近50轮）:
+  - 刘恕: 17 (discover主导，34%)
+  - 刘攽: 14 (enrich-quality，28%)
+  - 资治通鉴: 9 (create-page，18%)
+  - 范祖禹: 5 (housekeeping，10%)
+  - 司马光: 5 (create-page，10%)
+
+- **最近20轮模式**: discover×9(45%) / enrich-quality×4 / create-page×4 / housekeeping×3
+
+- **元数据覆盖**:
+  - 缺description: 0 ✅
+  - person.cat全覆盖 ✅
+  - dynasty缺失: 5135/14233（36.1%，较R5594的36.3%略降0.2pp）
+
+- **观察A**: 刘恕discover占45%主导，远超其他实例
+- **观察B**: R5626 发布+W5被刘恕discover抢占，R5627 H22也被discover抢占 — 周期任务持续丢失
+- **观察C**: dynasty缺口稳定在~5135条(36.1%)，绝对数未减（新页无dynasty抵消补全）
+- **观察D**: 实例竞争加剧，刘恕独占半壁，housekeeping 10%覆盖有限
+- **建议**: discover占比过高需平衡；dynasty批量填充最有效投资
