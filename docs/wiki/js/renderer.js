@@ -364,7 +364,7 @@ export async function renderPage(core, pid, meta, mdText) {
   linkifyEventFields(articleEl, core.registry);
 
   // 章节页增强：对话高亮、诗词检测（必须在 boldPageTermsInDOM 之前运行）
-  if (meta.type === 'chapter') {
+  if (meta.type === '章节') {
     highlightDialog(articleEl);
     detectPoemsInChapter(articleEl);
     indentDialogueContinuation(articleEl);
@@ -446,7 +446,7 @@ export async function renderPage(core, pid, meta, mdText) {
 
 
   // 章节页：注入前后章导航
-  if (meta.type === 'chapter') {
+  if (meta.type === '章节') {
     injectChapterNav(core, pid, meta);
   }
 
@@ -463,7 +463,7 @@ function injectChapterNav(core, pid, meta) {
   const book = meta.book;
   // 同书所有章节，按 book_seq 排序
   const siblings = Object.entries(pages)
-    .filter(([, m]) => m.type === 'chapter' && m.book === book)
+    .filter(([, m]) => m.type === '章节' && m.book === book)
     .sort(([, a], [, b]) => (a.book_seq || 0) - (b.book_seq || 0));
 
   const idx = siblings.findIndex(([id]) => id === pid);
@@ -1052,7 +1052,7 @@ export async function renderHome(core) {
   const allPages = ids.map(id => ({ id, ...pages[id] }));
   const scoreOf = p => (QUALITY_RANK[p.quality] || 0) + (p.quality_score || 0) + (p.featured ? 500 : 0);
   const entityCandidates = allPages
-    .filter(p => !['redirect','disambiguation','special','chapter','overview'].includes(p.type||''))
+    .filter(p => !['redirect','disambiguation','special','章节','综述'].includes(p.type||''))
     .filter(p => p.featured || (p.quality || 'stub') !== 'stub')
     .sort((a, b) => scoreOf(b) - scoreOf(a));
 
@@ -1069,10 +1069,21 @@ export async function renderHome(core) {
     });
   }
 
-  const personCards = normalCards.filter(p => p.type === 'person');
-  const eventCards = normalCards.filter(p => ['event','battle'].includes(p.type));
-  const conceptCards = normalCards.filter(p => ['concept','place','state','organization'].includes(p.type));
-  const otherCards = normalCards.filter(p => !['person','event','battle','concept','place','state','organization'].includes(p.type));
+  const personCards = normalCards.filter(p => p.type === '人物');
+  const eventCards = normalCards.filter(p => ['事件','战役'].includes(p.type));
+  // 概念子类（由 concept_cat 拆分而来，值均为中文）
+  const CONCEPT_SUBTYPES = new Set([
+    '军事','政治','社会','礼制','自然','经济','哲学','成语',
+    '器物','道德','官职','法律','官制','度量','器用','年号',
+    '人体','动物','情感','地理','时间','建筑','典籍','天文',
+    '植物','服饰','文艺','爵位','教育','民族','历法','神话','生物','宗教',
+  ]);
+  const conceptCards = normalCards.filter(p =>
+    ['概念','地点','国家'].includes(p.type) ||
+    CONCEPT_SUBTYPES.has(p.type));
+  const otherCards = normalCards.filter(p =>
+    !['人物','事件','战役','概念','地点','国家'].includes(p.type) &&
+    !CONCEPT_SUBTYPES.has(p.type));
 
   if (personCards.length) sections.push({ title: '人物', subtitle: null, cardsHtml: personCards.slice(0, 12).map(renderFeaturedCard).join(''), minor: true });
   if (eventCards.length) sections.push({ title: '事件与战役', subtitle: null, cardsHtml: eventCards.slice(0, 12).map(renderFeaturedCard).join(''), minor: true });
@@ -1080,7 +1091,7 @@ export async function renderHome(core) {
   if (otherCards.length) sections.push({ title: '其他', subtitle: null, cardsHtml: otherCards.slice(0, 8).map(renderFeaturedCard).join(''), minor: true });
 
   const entityCount = allPages.filter(p =>
-    !['redirect','disambiguation','special','chapter'].includes(p.type||'')).length;
+    !['redirect','disambiguation','special','章节'].includes(p.type||'')).length;
 
   const article = document.getElementById('article');
   const existingBody = article.querySelector('.wiki-home > .home-body');
@@ -1149,7 +1160,7 @@ function renderTagsFooter(front, meta) {
 function renderBookCard({ key, label, subtitle, min, max }, pages) {
   const chapNum = id => parseInt(id.replace(/\D/g,'')) || 0;
   const chapters = Object.entries(pages)
-    .filter(([id, m]) => m.type === 'chapter' && chapNum(id) >= min && chapNum(id) <= max)
+    .filter(([id, m]) => m.type === '章节' && chapNum(id) >= min && chapNum(id) <= max)
     .sort(([ia], [ib]) => chapNum(ia) - chapNum(ib));
   const firstId = chapters.length > 0 ? chapters[0][0] : null;
   const href = firstId ? `#${encodeURIComponent(firstId)}` : '#';
@@ -1196,11 +1207,9 @@ function renderFeaturedCard(p) {
 function searchPages(q, registry) {
   const lower = q.toLowerCase();
   // type priority: core entities first, long-form content last
-  const TYPE_PRIO = { person: 40, character: 40, civilization: 35,
-    law: 35, concept: 30, technology: 25, weapon: 25,
-    organization: 20, event: 20, time: 20, place: 15,
-    animal: 15, plant: 15,
-    book: 10, chapter: 8, quote: 7, overview: 5, list: 5,
+  const TYPE_PRIO = { 人物: 40, 国家: 35, 事件: 20, 地点: 15,
+    制度: 35, 概念: 30, 战役: 20, 王朝: 15, 民族: 15, 名句: 7,
+    章节: 8, 年份: 5, 综述: 5,
     redirect: -20 };
 
   function matchScore(surface) {

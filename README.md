@@ -4,13 +4,20 @@
 
 **在线访问**：[tongjian.memify.wiki](https://tongjian.memify.wiki/)
 
-**开发指南**：[claude.ai/claude-code/onboard/5BDT8M9WrZlM](https://claude.ai/claude-code/onboard/5BDT8M9WrZlM)
-
 ## 内容
 
 - **294 卷**原文页（战国 403 BC — 五代 959 AD，纵贯 1362 年）
-- **1800+ 词条**：历史人物、重大战役、关键事件、制度概念、地名
-- 精品词条 600+（侯景之乱、武则天、诸葛亮、秦始皇等）
+- **13600+ 页面**，涵盖 46 种页面类型：
+
+| 类型 | 数量 | 类型 | 数量 | 类型 | 数量 |
+|------|------|------|------|------|------|
+| 人物 | 3600+ | 年份 | 1360+ | 军事 | 970+ |
+| 地点 | 690+ | 政治 | 650+ | 官职 | 600+ |
+| 礼制 | 470+ | 社会 | 450+ | 概念 | 430+ |
+| 经济 | 420+ | 器物 | 380+ | 章节 | 294 |
+| 自然 | 330+ | 成语 | 270+ | 哲学 | 250+ |
+| 事件 | 140+ | 战役 | 80+ | 名句 | 47 |
+| 综述 | 77 | 国家 | 59 | 王朝 | 15 |
 
 ## 功能
 
@@ -32,13 +39,20 @@ bash wiki/wiki.sh
 ```
 tongjian/
 ├── corpus/raw/          # 资治通鉴原文（只读，~300万字）
-├── wiki/public/
-│   ├── pages/           # 词条页面（Markdown）
+├── wiki/public/ → docs/wiki/  # 站点目录（symlink）
+│   ├── pages/           # 词条页面（Markdown + YAML frontmatter）
 │   ├── js/              # SPA 前端
 │   └── plugins/         # 功能插件
-├── wiki/scripts/        # 构建脚本（add_page.py, butler/...）
+├── wiki/scripts/        # 构建脚本
+│   └── butler/          # 永续管家（自动新建/丰富/维护）
 └── docs/                # GitHub Pages 输出
 ```
+
+## 页面类型
+
+Frontmatter 的 `type` 字段使用中文值：`人物`、`地点`、`事件`、`战役`、`官职`、`国家`、`王朝`、`概念`、`名句`、`章节` 等。
+
+类型详见 `CLAUDE.md`。
 
 ## 贡献
 

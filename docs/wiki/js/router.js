@@ -83,8 +83,14 @@ async function route(core) {
     const params = new URLSearchParams(rawHash.slice(1));
     const type = params.get('type');
     const tag = params.get('tag');
-    if (type) { renderCategory(core, 'type', type); setStatus(''); return; }
-    if (tag) { renderCategory(core, 'tag', tag); setStatus(''); return; }
+    // 类型/标签筛选 → 分面浏览（#Special:AllPages?type=XX）
+    if (type || tag) {
+      const p = new URLSearchParams();
+      if (type) p.set('type', type);
+      if (tag) p.set('tag', tag);
+      location.hash = '#' + encodeURIComponent('Special:AllPages') + (p.toString() ? '?' + p.toString() : '');
+      setStatus(''); return;
+    }
     if (params.has('all')) {
       location.hash = encodeURIComponent('Special:AllPages');
       setStatus(''); return;
@@ -148,7 +154,7 @@ async function route(core) {
   // Special: 系统页路由
   if (raw === 'Special:Random') {
     const pids = Object.keys(core.registry.pages).filter(
-      p => !p.startsWith('Special:') && core.registry.pages[p].type !== 'chapter'
+      p => !p.startsWith('Special:') && core.registry.pages[p].type !== '章节'
     );
     const randomPid = pids[Math.floor(Math.random() * pids.length)];
     location.hash = encodeURIComponent(randomPid);
@@ -200,6 +206,15 @@ async function route(core) {
   }
 
   const [pid, meta] = resolved;
+
+  // 类型说明页 → 分面浏览（如 #人物 → #Special:AllPages?type=人物）
+  if (meta && meta.tags && meta.tags.includes('页面类型')) {
+    const p = new URLSearchParams();
+    p.set('type', pid);
+    location.hash = '#' + encodeURIComponent('Special:AllPages') + '?' + p.toString();
+    setStatus('');
+    return;
+  }
 
   document.getElementById('article').innerHTML = '<p class="loading">载入中…</p>';
   document.getElementById('article').dataset.type = '';

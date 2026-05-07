@@ -41,7 +41,7 @@ export default {
       if (!mapEl) return rows;
 
       const type = front.type || meta.type;
-      if (type !== 'place' && type !== 'state') {
+      if (type !== '地点' && type !== '国家') {
         // 非地名页：隐藏地图区块
         mapEl.hidden = true;
         mapEl.innerHTML = '';
