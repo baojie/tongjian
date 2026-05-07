@@ -268,3 +268,10 @@
 - NOTE: 高频broken links包括「《资治通鉴》」(1621次)、「唐代」(322)、「权力」(182)等
 - NOTE: 可建设的概念类页面：财政(53)、中央(60)、地方(71)、边疆(71)、行政(43)等
 - TODO: 待消费P2队列中的concept类词条
+
+## H10 housekeeping-scan (R4708, %11=0)
+> 全库健康扫描结果
+- NOTE: 2页缺description字段 → 甓_(概念)(1522B)、卢毓(2398B)
+- NOTE: 无stub <100B（13036页全覆盖）
+- NOTE: broken wikilinks以《资治通鉴》/通鉴/唐代等高频词为主，无严重断裂
+- TODO: 补充2页description字段（H4 enrich-meta）
