@@ -124,3 +124,16 @@
 - NOTE: 无严重broken wikilinks
 - NOTE: 2条stub <100B → 项_(概念)(55B)、埙_(概念)(82B)
 - TODO: 待 enrich 实例处理残余 stub
+
+## H10 housekeeping-scan (R3894, %11=0)
+> 全库健康扫描结果
+- NOTE: 无缺description字段（10675页全覆盖）
+- NOTE: 无严重broken wikilinks
+- NOTE: 无stub <100B
+- TODO: 无待处理内务
+
+## D1 discover-wanted (R3894, %11=0)
+> 全库broken wikilink扫描，top 60
+- NOTE: 高频broken links包括「《资治通鉴》」(1741次)、「唐代」(150)、「权力」(69)等
+- NOTE: 可建设的概念类页面：财政(33)、边防(21)、行政(20)、宫廷(11)、商业(17)等
+- TODO: 待消费P2队列中的concept类词条
