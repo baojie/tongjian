@@ -170,3 +170,23 @@
 - stub person | 少翁 | 237B
 - stub person | 徐商 | 237B
 - stub person | 窦皇后 | 237B
+
+## H10 housekeeping-scan (R4070, %11=0)
+> 全库健康扫描结果
+- NOTE: 无缺description字段（10850页全覆盖）
+- NOTE: 无严重broken wikilinks
+- NOTE: 无stub <100B
+- TODO: 无待处理内务
+
+## D1 discover-wanted (R4070, %11=0)
+> 全库broken wikilink扫描，top 60
+- NOTE: 高频broken links包括「《资治通鉴》」(1717次)、「唐代」(175)、「权力」(98)等
+- NOTE: 可建设的概念类页面：财政(43)、中央(30)、地方(27)、边疆(26)、行政(24)等
+- TODO: 待消费P2队列中的concept类词条
+
+## H17 coverage-scan (R4070, %37=0)
+> 页面元数据覆盖扫描结果
+- GOOD: person.cat 已全覆盖（3126/3126，0%缺失）
+- GOOD: event.event_type 已全覆盖（225/225，0%缺失）
+- GAP: 4409/10856 页面缺少 dynasty 字段（40.6%）
+- RECOMMEND: 需批量脚本修复 dynasty 字段

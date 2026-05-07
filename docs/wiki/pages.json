@@ -117,7 +117,7 @@
         "楚汉"
       ],
       "description": "丁公，项羽部将，因私纵刘邦被斩",
-      "total_refs": 1,
+      "total_refs": 0,
       "total_chapters": 0
     },
     "丁原": {
@@ -448,7 +448,7 @@
       "description": "中国古代军队编制的核心概念，指上军、中军、下军（或左、中、右）三支军队的合称，亦为军队总称",
       "quality": "standard",
       "quality_score": 48,
-      "total_refs": 48,
+      "total_refs": 47,
       "total_chapters": 0
     },
     "三台": {
@@ -515,7 +515,7 @@
       "description": "战国时代开端，魏、赵、韩三家瓜分晋国，周威烈王正式承认三家为诸侯。",
       "quality": "featured",
       "quality_score": 47,
-      "total_refs": 66,
+      "total_refs": 67,
       "total_chapters": 7
     },
     "三教": {
@@ -695,7 +695,7 @@
       "description": "古代臣民向君王呈递书面意见或建议的行为，战国至秦汉尤盛。",
       "quality": "standard",
       "quality_score": 53,
-      "total_refs": 410,
+      "total_refs": 411,
       "total_chapters": 0
     },
     "上党": {
@@ -764,7 +764,7 @@
         "武帝"
       ],
       "description": "西汉武帝托孤大臣，左将军，后谋废立被诛",
-      "total_refs": 28,
+      "total_refs": 27,
       "total_chapters": 5
     },
     "上寿": {
@@ -865,7 +865,7 @@
         "荣誉"
       ],
       "description": "战国至隋唐时期的最高荣誉官爵，楚国的最高武职，后代演变为勋官之最。",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "上疏": {
@@ -881,7 +881,7 @@
       "description": "臣下向皇帝上书陈事，为古代君臣沟通的重要方式。",
       "quality": "standard",
       "quality_score": 43,
-      "total_refs": 400,
+      "total_refs": 401,
       "total_chapters": 0
     },
     "上蔡": {
@@ -916,7 +916,7 @@
         "制度"
       ],
       "description": "上表，臣子向皇帝呈递奏章",
-      "total_refs": 133,
+      "total_refs": 134,
       "total_chapters": 0
     },
     "上计": {
@@ -1042,7 +1042,7 @@
         "徐州"
       ],
       "description": "秦汉下邳县，张良遇黄石公处，韩信为楚王都此。",
-      "total_refs": 30,
+      "total_refs": 31,
       "total_chapters": 0
     },
     "下邽": {
@@ -1521,7 +1521,7 @@
         "地理"
       ],
       "description": "东北，方位名称，在《资治通鉴》中常指具体地理方位或边疆区域。",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "东南": {
@@ -1674,7 +1674,7 @@
         "江南"
       ],
       "description": "西晋灭亡后司马睿在建康重建的晋朝，历十一帝，凡百馀年。",
-      "total_refs": 288,
+      "total_refs": 289,
       "total_chapters": 0
     },
     "东汉": {
@@ -1685,7 +1685,7 @@
         "朝代"
       ],
       "description": "继西汉之后的大一统王朝，刘秀建立",
-      "total_refs": 867,
+      "total_refs": 870,
       "total_chapters": 0
     },
     "东海": {
@@ -1697,7 +1697,7 @@
         "徐州"
       ],
       "description": "秦汉东海郡，今山东南部、江苏北部沿海之地。",
-      "total_refs": 73,
+      "total_refs": 72,
       "total_chapters": 0
     },
     "东海王越": {
@@ -2147,7 +2147,7 @@
         "政治"
       ],
       "description": "严酷，严厉残酷，用法严苛。",
-      "total_refs": 32,
+      "total_refs": 31,
       "total_chapters": 0
     },
     "严阵": {
@@ -2264,7 +2264,7 @@
       "description": "中书省长官，掌机要诏命，汉代以宦官任职",
       "quality": "standard",
       "quality_score": 36,
-      "total_refs": 72,
+      "total_refs": 73,
       "total_chapters": 0
     },
     "中书侍郎": {
@@ -2363,7 +2363,7 @@
       "description": "黄河中下游地区，古代中国政治文化中心，兵家必争之地。",
       "quality": "standard",
       "quality_score": 53,
-      "total_refs": 271,
+      "total_refs": 272,
       "total_chapters": 0
     },
     "中国": {
@@ -2377,7 +2377,7 @@
         "地理"
       ],
       "description": "中国，古代指中原华夏文明区域，与四夷相对",
-      "total_refs": 667,
+      "total_refs": 668,
       "total_chapters": 0
     },
     "中坚": {
@@ -2815,7 +2815,7 @@
         "制度"
       ],
       "description": "派遣宗室子弟到他国作人质的外交制度",
-      "total_refs": 45,
+      "total_refs": 46,
       "total_chapters": 0
     },
     "主_(概念)": {
@@ -2871,7 +2871,7 @@
         "赵"
       ],
       "description": "赵武灵王自称主父，意为太上王",
-      "total_refs": 41,
+      "total_refs": 40,
       "total_chapters": 5
     },
     "主父偃": {
@@ -2953,6 +2953,18 @@
       ],
       "description": "发兵起事",
       "total_refs": 171,
+      "total_chapters": 0
+    },
+    "举动": {
+      "type": "concept",
+      "label": "举动",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "行为"
+      ],
+      "description": "举动，举止行动，古代指人的行为动作或行事方式。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "举劾": {
@@ -3086,7 +3098,7 @@
         "社会"
       ],
       "description": "义士，重义轻生之人；义士以死殉义，杀身成仁为千古所仰。",
-      "total_refs": 27,
+      "total_refs": 28,
       "total_chapters": 0
     },
     "义师": {
@@ -3476,7 +3488,7 @@
       "image": "images/乐毅.jpg",
       "quality": "featured",
       "quality_score": 64,
-      "total_refs": 93,
+      "total_refs": 94,
       "total_chapters": 7
     },
     "乐毅伐齐": {
@@ -4115,7 +4127,7 @@
         "社会"
       ],
       "description": "乡里，古代基层行政单位，泛指家乡故里",
-      "total_refs": 53,
+      "total_refs": 54,
       "total_chapters": 0
     },
     "书": {
@@ -4240,7 +4252,7 @@
         "社会"
       ],
       "description": "乱世，动荡不安之世，古代对社会失序之描述。",
-      "total_refs": 13,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "乱政": {
@@ -4889,7 +4901,7 @@
       "description": "中国古代公、侯、伯、子、男五等爵位制度，起源于周代封建制，是身份等级制度的核心",
       "quality": "standard",
       "quality_score": 42,
-      "total_refs": 10,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "五经": {
@@ -5001,7 +5013,7 @@
       "description": "汉代铸行时间最长的标准铜钱，汉武帝始铸，沿用至隋。",
       "quality": "standard",
       "quality_score": 51,
-      "total_refs": 18,
+      "total_refs": 19,
       "total_chapters": 0
     },
     "五霸": {
@@ -5107,7 +5119,7 @@
       "description": "楚汉战争中韩信东进灭赵的关键战役，韩信以背水列阵之奇计大破二十万赵军，\"背水一战\"典故由此而来",
       "quality": "standard",
       "quality_score": 59,
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "亡": {
@@ -5342,7 +5354,7 @@
         "制度"
       ],
       "description": "帝王所居之都城，天子之居为京师。",
-      "total_refs": 229,
+      "total_refs": 231,
       "total_chapters": 0
     },
     "京房": {
@@ -5355,7 +5367,7 @@
         "易学"
       ],
       "description": "西汉经学家，精于易学灾变，因弹劾权臣石显被贬杀。",
-      "total_refs": 32,
+      "total_refs": 33,
       "total_chapters": 0
     },
     "亭": {
@@ -5962,7 +5974,7 @@
       "description": "从事，州郡属官，长官之佐吏",
       "quality": "standard",
       "quality_score": 39,
-      "total_refs": 85,
+      "total_refs": 86,
       "total_chapters": 0
     },
     "从军": {
@@ -5988,6 +6000,18 @@
       ],
       "description": "听从好的意见如同流水般自然；出自梁武帝萧衍评语、李勣为人",
       "total_refs": 3,
+      "total_chapters": 0
+    },
+    "从容": {
+      "type": "concept",
+      "label": "从容",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "语言"
+      ],
+      "description": "从容，舒缓不迫，古代指举止安详或委婉进言。",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "从谏": {
@@ -7291,7 +7315,7 @@
         "吴越"
       ],
       "description": "秦会稽郡，约今江苏南部、浙江北部，秦始皇曾登临。",
-      "total_refs": 109,
+      "total_refs": 110,
       "total_chapters": 0
     },
     "会葬": {
@@ -7648,7 +7672,7 @@
         "学者"
       ],
       "description": "刘宋学者、天文历算家。",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "何攀": {
@@ -7804,7 +7828,7 @@
       "description": "东汉末年大将军，汉灵帝皇后之兄，汉少帝生父，把持朝政，谋诛宦官时召董卓入京，反为宦官所杀，是东汉末年政局崩溃的关键节点人物。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 49,
+      "total_refs": 48,
       "total_chapters": 7
     },
     "何重建": {
@@ -7900,7 +7924,7 @@
       "description": "东汉传入，南北朝大盛，与儒道冲突融合深刻影响中古政治社会。",
       "quality": "standard",
       "quality_score": 44,
-      "total_refs": 66,
+      "total_refs": 67,
       "total_chapters": 0
     },
     "佛经": {
@@ -7925,7 +7949,19 @@
         "宗教"
       ],
       "description": "佛骨信仰",
-      "total_refs": 10,
+      "total_refs": 11,
+      "total_chapters": 0
+    },
+    "作为": {
+      "type": "concept",
+      "label": "作为",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "行为"
+      ],
+      "description": "作为，所作所为，古代指人的行为与建树。",
+      "total_refs": 2,
       "total_chapters": 0
     },
     "作垒": {
@@ -8072,7 +8108,7 @@
       "description": "假装败退诱敌深入的战术套路。",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "佽飞": {
@@ -8125,7 +8161,7 @@
       "description": "受命传达信息或办理事务的官员，战国至秦汉频繁往来。",
       "quality": "standard",
       "quality_score": 63,
-      "total_refs": 210,
+      "total_refs": 211,
       "total_chapters": 0
     },
     "使节": {
@@ -8140,7 +8176,7 @@
       "description": "使臣所持的旌节凭证，亦指出使外国的外交代表。",
       "quality": "standard",
       "quality_score": 53,
-      "total_refs": 37,
+      "total_refs": 38,
       "total_chapters": 0
     },
     "侄_(概念)": {
@@ -8181,7 +8217,7 @@
       "description": "禁中近侍官，魏晋后发展为实际宰相，门下省长官。",
       "quality": "standard",
       "quality_score": 52,
-      "total_refs": 244,
+      "total_refs": 243,
       "total_chapters": 0
     },
     "侍医": {
@@ -8461,7 +8497,7 @@
       "image": "images/侯景之乱.jpg",
       "quality": "featured",
       "quality_score": 70,
-      "total_refs": 66,
+      "total_refs": 67,
       "total_chapters": 0
     },
     "侯瑱": {
@@ -8529,7 +8565,7 @@
         "十常侍"
       ],
       "description": "东汉宦官，参与党锢之祸",
-      "total_refs": 17,
+      "total_refs": 18,
       "total_chapters": 0
     },
     "侵_(概念)": {
@@ -8557,6 +8593,8 @@
         "政治"
       ],
       "description": "以武力侵占夺取。",
+      "quality": "standard",
+      "quality_score": 40,
       "total_refs": 13,
       "total_chapters": 0
     },
@@ -9066,7 +9104,7 @@
       "description": "古代官吏的薪给，以粮食或钱币发放，是官僚制度的重要组成。",
       "quality": "standard",
       "quality_score": 52,
-      "total_refs": 28,
+      "total_refs": 29,
       "total_chapters": 0
     },
     "俸给": {
@@ -9218,7 +9256,7 @@
         "文化"
       ],
       "description": "古代以歌舞戏谑为业的艺人，社会地位卑贱",
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "倦": {
@@ -9769,6 +9807,8 @@
         "宗教"
       ],
       "description": "僧道，僧侣与道士，佛道二教之出家人。",
+      "quality": "standard",
+      "quality_score": 32,
       "total_refs": 3,
       "total_chapters": 0
     },
@@ -9845,6 +9885,19 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "儆备": {
+      "type": "concept",
+      "label": "儆备",
+      "aliases": [],
+      "tags": [
+        "概念",
+        "军事",
+        "警戒"
+      ],
+      "description": "儆备，警戒防备、加强戒备状态，以防不虞。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "儋耳": {
       "type": "place",
       "label": "儋耳",
@@ -9892,7 +9945,7 @@
         "教育"
       ],
       "description": "儒家学说，自汉代起成为官方正统思想。",
-      "total_refs": 59,
+      "total_refs": 60,
       "total_chapters": 0
     },
     "儒家": {
@@ -9907,7 +9960,7 @@
       "description": "孔子创立，汉武帝独尊儒术，历代治国指导思想。",
       "quality": "standard",
       "quality_score": 44,
-      "total_refs": 164,
+      "total_refs": 165,
       "total_chapters": 0
     },
     "儒术": {
@@ -9934,7 +9987,7 @@
         "教育"
       ],
       "description": "信奉儒家学说的读书人。",
-      "total_refs": 22,
+      "total_refs": 24,
       "total_chapters": 0
     },
     "儒者": {
@@ -10219,7 +10272,7 @@
         "东晋"
       ],
       "description": "多位皇帝的庙号或谥号，如汉元帝、晋元帝等",
-      "total_refs": 149,
+      "total_refs": 148,
       "total_chapters": 28
     },
     "元平": {
@@ -10565,7 +10618,7 @@
       "description": "兄长与弟弟，亦指平等结盟之国。",
       "quality": "standard",
       "quality_score": 40,
-      "total_refs": 278,
+      "total_refs": 279,
       "total_chapters": 0
     },
     "兆_(概念)": {
@@ -10629,7 +10682,7 @@
         "历史"
       ],
       "description": "先帝，前代帝王；先帝创业为后世之基，遵先帝遗志为嗣君之孝。",
-      "total_refs": 47,
+      "total_refs": 48,
       "total_chapters": 0
     },
     "先王": {
@@ -10718,7 +10771,7 @@
       "description": "东汉开国皇帝，乱世中以布衣之身再造汉室，善用人才，以柔道治国，是中国历史上著名的\"位面之子\"式传奇君主。",
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 357,
+      "total_refs": 359,
       "total_chapters": 16
     },
     "光熙": {
@@ -10745,7 +10798,7 @@
         "秦汉"
       ],
       "description": "光禄大夫，秦汉官职，属光禄勋，掌顾问应对，秩比二千石。",
-      "total_refs": 201,
+      "total_refs": 202,
       "total_chapters": 114
     },
     "克复": {
@@ -11050,7 +11103,7 @@
       "description": "诸侯或属国派遣使臣向朝廷进献贡物，为古代朝贡制度的基本形式",
       "quality": "standard",
       "quality_score": 48,
-      "total_refs": 43,
+      "total_refs": 44,
       "total_chapters": 0
     },
     "入质": {
@@ -11262,7 +11315,7 @@
       "description": "皇帝之女的称号",
       "quality": "standard",
       "quality_score": 47,
-      "total_refs": 150,
+      "total_refs": 151,
       "total_chapters": 0
     },
     "公侯": {
@@ -14140,7 +14193,7 @@
         "割据"
       ],
       "description": "公孙瓒，东汉末军阀，据幽州，与袁绍争河北",
-      "total_refs": 25,
+      "total_refs": 24,
       "total_chapters": 0
     },
     "公孙禄": {
@@ -14209,7 +14262,7 @@
         "蜀"
       ],
       "description": "公孙述，新末成家政权建立者，称帝于蜀",
-      "total_refs": 65,
+      "total_refs": 64,
       "total_chapters": 0
     },
     "公孙龙": {
@@ -14794,7 +14847,7 @@
       "description": "三国蜀汉名将，刘备义弟，武勇无双，镇守荆州，威震华夏，因骄傲轻敌，被孙权袭杀，是忠义精神的象征。",
       "quality": "featured",
       "quality_score": 41,
-      "total_refs": 110,
+      "total_refs": 111,
       "total_chapters": 28
     },
     "关辅": {
@@ -14844,6 +14897,18 @@
       ],
       "description": "兴亡，兴盛与衰亡，历史周期",
       "total_refs": 36,
+      "total_chapters": 0
+    },
+    "兴作": {
+      "type": "concept",
+      "label": "兴作",
+      "aliases": [],
+      "tags": [
+        "政治",
+        "社会"
+      ],
+      "description": "兴作，兴建与制造，古代指大兴土木或兴建工程。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "兴兵": {
@@ -14907,7 +14972,7 @@
         "汉献帝"
       ],
       "description": "汉献帝第二个年号（194—195），关中大乱之年",
-      "total_refs": 13,
+      "total_refs": 14,
       "total_chapters": 0
     },
     "兴庆宫": {
@@ -14949,7 +15014,7 @@
       "description": "兴盛与衰亡。",
       "quality": "standard",
       "quality_score": 40,
-      "total_refs": 97,
+      "total_refs": 98,
       "total_chapters": 0
     },
     "兴造": {
@@ -15025,7 +15090,7 @@
       "description": "国家军事制度的总称，包括兵役、编制、指挥等体系",
       "quality": "standard",
       "quality_score": 37,
-      "total_refs": 21,
+      "total_refs": 22,
       "total_chapters": 0
     },
     "兵势": {
@@ -15062,7 +15127,7 @@
         "兵器"
       ],
       "description": "各种武器的总称。",
-      "total_refs": 97,
+      "total_refs": 98,
       "total_chapters": 0
     },
     "兵威": {
@@ -15139,7 +15204,7 @@
         "制度"
       ],
       "description": "兵权，军事指挥权，统领军队之权力。",
-      "total_refs": 42,
+      "total_refs": 43,
       "total_chapters": 0
     },
     "兵民": {
@@ -15178,7 +15243,7 @@
       "description": "古代军事理论与战略战术的总称",
       "quality": "standard",
       "quality_score": 44,
-      "total_refs": 76,
+      "total_refs": 77,
       "total_chapters": 0
     },
     "兵甲": {
@@ -15421,7 +15486,7 @@
         "文化"
       ],
       "description": "古代典籍",
-      "total_refs": 38,
+      "total_refs": 37,
       "total_chapters": 0
     },
     "典韦": {
@@ -15680,7 +15745,7 @@
         "社会"
       ],
       "description": "内外，内部与外部，古代指朝廷内外或家庭内外之别。",
-      "total_refs": 2,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "内宠": {
@@ -16000,7 +16065,7 @@
         "制度"
       ],
       "description": "军事，军旅之事；指用兵作战、军务调度及相关制度。",
-      "total_refs": 1199,
+      "total_refs": 1204,
       "total_chapters": 0
     },
     "军令": {
@@ -16012,7 +16077,7 @@
         "制度"
       ],
       "description": "军事命令，军中法令",
-      "total_refs": 25,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "军制": {
@@ -16074,6 +16139,19 @@
       ],
       "description": "军吏，军中各级官吏。",
       "total_refs": 24,
+      "total_chapters": 0
+    },
+    "军实": {
+      "type": "concept",
+      "label": "军实",
+      "aliases": [],
+      "tags": [
+        "概念",
+        "军事",
+        "军需"
+      ],
+      "description": "军实，指军需物资、武器装备及军事储备，亦泛指战利品。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "军容": {
@@ -16180,7 +16258,7 @@
       "description": "军队中施行的法令法规，用以维持纪律、赏功罚过。",
       "quality": "standard",
       "quality_score": 54,
-      "total_refs": 20,
+      "total_refs": 21,
       "total_chapters": 0
     },
     "军籍": {
@@ -17147,7 +17225,7 @@
         "西京"
       ],
       "description": "凤翔，今陕西凤翔，唐代西京，为西北军事重镇。",
-      "total_refs": 127,
+      "total_refs": 128,
       "total_chapters": 59
     },
     "凤翔节度使": {
@@ -17222,7 +17300,7 @@
       "description": "军队胜利归来，古代军事礼仪的重要组成部分。通鉴中凯旋之礼体现朝廷对将士功勋的表彰。",
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 16,
+      "total_refs": 17,
       "total_chapters": 2
     },
     "凯还": {
@@ -17286,7 +17364,7 @@
       "description": "奉命出使他国的外交行为，春秋战国以来常设之制",
       "quality": "standard",
       "quality_score": 41,
-      "total_refs": 111,
+      "total_refs": 112,
       "total_chapters": 0
     },
     "出入": {
@@ -17298,7 +17376,7 @@
         "政治"
       ],
       "description": "出入，进出之意，古代指言行举止或财物往来。",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "出兵": {
@@ -17520,7 +17598,7 @@
       "description": "刀，切割之器，亦指文书刑名之吏",
       "quality": "standard",
       "quality_score": 34,
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "刀_(器物)": {
@@ -17628,7 +17706,7 @@
       "description": "将军队分为若干支独立作战的部队，为古代战争中常见的兵力部署方式。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 65,
+      "total_refs": 66,
       "total_chapters": 0
     },
     "分封": {
@@ -17639,7 +17717,7 @@
         "政治制度"
       ],
       "description": "分封建国制度。",
-      "total_refs": 46,
+      "total_refs": 47,
       "total_chapters": 0
     },
     "分崩离析": {
@@ -17811,7 +17889,7 @@
       "description": "刑，刑罚，国家法令之罚",
       "quality": "standard",
       "quality_score": 45,
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "刑_(概念)": {
@@ -17937,7 +18015,7 @@
       "description": "古代对违法犯罪行为的制裁手段总称，包括五刑体系。",
       "quality": "standard",
       "quality_score": 55,
-      "total_refs": 127,
+      "total_refs": 128,
       "total_chapters": 0
     },
     "刑赏": {
@@ -18149,7 +18227,7 @@
       "description": "五代时期幽州军阀，原为李克用部将，叛晋割据幽州，被其子刘守光囚禁，是五代北方乱局的重要人物。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "刘仁赡": {
@@ -18527,7 +18605,7 @@
         "宋"
       ],
       "description": "南北朝时期南朝第一个王朝（420—479年），刘裕建立",
-      "total_refs": 142,
+      "total_refs": 143,
       "total_chapters": 0
     },
     "刘宠": {
@@ -19571,7 +19649,7 @@
       "description": "西晋末年忠臣，与祖逖同寝闻鸡起舞，坚守并州对抗胡人，最终兵败被杀，是西晋末年忠义精神的象征。",
       "quality": "featured",
       "quality_score": 43,
-      "total_refs": 40,
+      "total_refs": 41,
       "total_chapters": 0
     },
     "刘琮": {
@@ -19844,7 +19922,7 @@
         "汉赵"
       ],
       "description": "汉赵隐皇帝，刘聪之子",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "刘粹": {
@@ -19870,7 +19948,7 @@
       "description": "东汉光武帝刘秀之兄，齐武王",
       "quality": "standard",
       "quality_score": 50,
-      "total_refs": 32,
+      "total_refs": 33,
       "total_chapters": 0
     },
     "刘繇": {
@@ -19913,7 +19991,7 @@
       "description": "十六国前赵（汉赵）第三位皇帝，攻灭西晋，俘虏晋怀帝、晋愍帝，终结西晋王朝。",
       "quality": "featured",
       "quality_score": 40,
-      "total_refs": 44,
+      "total_refs": 45,
       "total_chapters": 0
     },
     "刘胡": {
@@ -19925,7 +20003,7 @@
         "宋"
       ],
       "description": "刘胡，南朝宋将领，为邓琬所用，与沈攸之相持于鹊尾，兵败被斩。",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "刘胤": {
@@ -19938,7 +20016,7 @@
         "邵续"
       ],
       "description": "刘胤，东晋江州刺史，以商贩殖财被诛",
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "刘腾": {
@@ -20239,7 +20317,7 @@
         "开国皇帝"
       ],
       "description": "汉朝开国皇帝，庙号高祖，史称汉高祖",
-      "total_refs": 93,
+      "total_refs": 98,
       "total_chapters": 0
     },
     "刘邵": {
@@ -20430,7 +20508,7 @@
       "description": "南朝宋孝武帝，诛杀刘劭即位",
       "quality": "standard",
       "quality_score": 39,
-      "total_refs": 65,
+      "total_refs": 64,
       "total_chapters": 0
     },
     "刘黑闼": {
@@ -20524,7 +20602,7 @@
       "description": "刚强果决，临事有断。",
       "quality": "standard",
       "quality_score": 46,
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "初": {
@@ -20617,7 +20695,7 @@
         "哲学"
       ],
       "description": "利害，利益与损害，权衡之概念",
-      "total_refs": 42,
+      "total_refs": 43,
       "total_chapters": 0
     },
     "别将": {
@@ -20731,6 +20809,18 @@
       "total_refs": 25,
       "total_chapters": 0
     },
+    "制作": {
+      "type": "concept",
+      "label": "制作",
+      "aliases": [],
+      "tags": [
+        "政治",
+        "文化"
+      ],
+      "description": "制作，创制与造作，古代指制度之创定或工艺之制造。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "制度": {
       "type": "concept",
       "label": "制度",
@@ -20741,7 +20831,7 @@
         "礼制"
       ],
       "description": "制度，指法令礼俗、典章规范的总称，治国之纲纪",
-      "total_refs": 775,
+      "total_refs": 785,
       "total_chapters": 0
     },
     "制敕": {
@@ -24406,7 +24496,7 @@
         "十六国"
       ],
       "description": "十六国时期慕容皝建立的政权",
-      "total_refs": 127,
+      "total_refs": 128,
       "total_chapters": 0
     },
     "前秦": {
@@ -24494,7 +24584,7 @@
       "description": "剑，古代短兵之要，亦为身份权力之象征",
       "quality": "standard",
       "quality_score": 33,
-      "total_refs": 5,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "剑_(器物)": {
@@ -24602,7 +24692,7 @@
         "地理"
       ],
       "description": "剑门，剑门关之简称，在今四川剑阁，蜀道天险。",
-      "total_refs": 13,
+      "total_refs": 14,
       "total_chapters": 7
     },
     "剑阁": {
@@ -24820,7 +24910,7 @@
         "礼仪"
       ],
       "description": "劝进，劝登帝位；亦指劝勉进取。",
-      "total_refs": 46,
+      "total_refs": 45,
       "total_chapters": 0
     },
     "功": {
@@ -24869,6 +24959,8 @@
         "社会"
       ],
       "description": "功绩与劳绩，对事业作出的贡献。",
+      "quality": "standard",
+      "quality_score": 36,
       "total_refs": 30,
       "total_chapters": 0
     },
@@ -24948,6 +25040,18 @@
       "total_refs": 1,
       "total_chapters": 0
     },
+    "功臣": {
+      "type": "concept",
+      "label": "功臣",
+      "aliases": [],
+      "tags": [
+        "政治",
+        "社会"
+      ],
+      "description": "功臣，有功之臣，古代指为国家建立功勋之人。",
+      "total_refs": 6,
+      "total_chapters": 0
+    },
     "功过": {
       "type": "concept",
       "label": "功过",
@@ -24981,7 +25085,7 @@
         "农业"
       ],
       "description": "从事农业生产，致力于农耕",
-      "total_refs": 27,
+      "total_refs": 28,
       "total_chapters": 0
     },
     "动静": {
@@ -25358,7 +25462,19 @@
         "社会"
       ],
       "description": "勋劳功绩，同\"勋功\"。",
-      "total_refs": 6,
+      "total_refs": 5,
+      "total_chapters": 0
+    },
+    "勋旧": {
+      "type": "concept",
+      "label": "勋旧",
+      "aliases": [],
+      "tags": [
+        "政治",
+        "社会"
+      ],
+      "description": "勋旧，有功勋的旧臣，古代指朝廷中资历深功劳大之臣。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "勋级": {
@@ -25654,7 +25770,7 @@
         "宇文"
       ],
       "description": "南北朝时期北朝最后一个王朝（557—581年），宇文觉建立",
-      "total_refs": 163,
+      "total_refs": 164,
       "total_chapters": 0
     },
     "北周武帝": {
@@ -25672,7 +25788,7 @@
       "description": "北周武帝宇文邕，灭北齐统一北方的英主",
       "quality": "standard",
       "quality_score": 43,
-      "total_refs": 59,
+      "total_refs": 58,
       "total_chapters": 0
     },
     "北周灭北齐": {
@@ -25772,7 +25888,7 @@
         "河东"
       ],
       "description": "北汉，五代十国之一，刘旻所建，都太原，附于契丹。",
-      "total_refs": 23,
+      "total_refs": 24,
       "total_chapters": 0
     },
     "北海": {
@@ -25848,7 +25964,7 @@
       "description": "南北朝北朝首个王朝，拓跋珪建立",
       "quality": "standard",
       "quality_score": 35,
-      "total_refs": 632,
+      "total_refs": 633,
       "total_chapters": 0
     },
     "北魏孝文帝改革": {
@@ -25924,7 +26040,7 @@
         "南北朝"
       ],
       "description": "南北朝北方政权之一，高洋建立",
-      "total_refs": 187,
+      "total_refs": 188,
       "total_chapters": 0
     },
     "北齐建立": {
@@ -26297,7 +26413,7 @@
       "description": "古代中国之文明中心，与四夷相对。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 42,
+      "total_refs": 43,
       "total_chapters": 0
     },
     "华夷": {
@@ -26386,7 +26502,7 @@
         "湘州刺史"
       ],
       "description": "南朝陈湘州刺史",
-      "total_refs": 5,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "华盖": {
@@ -26566,7 +26682,7 @@
         "称号"
       ],
       "description": "单于，匈奴最高首领的称号，秦汉时期北方游牧民族政权首领。",
-      "total_refs": 311,
+      "total_refs": 312,
       "total_chapters": 100
     },
     "单于都护府": {
@@ -26679,7 +26795,7 @@
         "朝代"
       ],
       "description": "南朝宋齐梁陈与北朝北魏东魏西魏北齐北周并立时期",
-      "total_refs": 309,
+      "total_refs": 312,
       "total_chapters": 0
     },
     "南安": {
@@ -26788,7 +26904,7 @@
         "岭南"
       ],
       "description": "南汉，五代十国之一，刘隐所建，都广州。",
-      "total_refs": 17,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "南海": {
@@ -26866,7 +26982,7 @@
       "description": "秦汉之际赵佗所建政权，都番禺，后为汉武帝所灭。",
       "quality": "standard",
       "quality_score": 50,
-      "total_refs": 98,
+      "total_refs": 99,
       "total_chapters": 0
     },
     "南郊": {
@@ -26995,7 +27111,7 @@
       "description": "六博与围棋等棋类游戏的总称，古代士人雅戏",
       "quality": "standard",
       "quality_score": 51,
-      "total_refs": 74,
+      "total_refs": 75,
       "total_chapters": 0
     },
     "博昌": {
@@ -27805,7 +27921,7 @@
       "description": "官印与系印丝带，古代官阶和权力的象征",
       "quality": "standard",
       "quality_score": 44,
-      "total_refs": 57,
+      "total_refs": 58,
       "total_chapters": 0
     },
     "危": {
@@ -27829,7 +27945,7 @@
         "哲理"
       ],
       "description": "危急灭亡。",
-      "total_refs": 25,
+      "total_refs": 26,
       "total_chapters": 0
     },
     "危仔倡": {
@@ -28636,7 +28752,7 @@
       "description": "西汉初年儒学礼仪专家，为汉高祖制订朝廷礼仪，使皇帝\"知为皇帝之贵\"，是儒家礼制在汉朝得以确立的关键人物。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 43,
+      "total_refs": 44,
       "total_chapters": 4
     },
     "取": {
@@ -28746,7 +28862,7 @@
         "改革"
       ],
       "description": "变法，指改变传统法度、推行新政策的政治改革行为。",
-      "total_refs": 90,
+      "total_refs": 92,
       "total_chapters": 0
     },
     "变生肘腋": {
@@ -28904,7 +29020,7 @@
       "description": "北魏太武帝将领，安西将军，以忠直著称",
       "quality": "standard",
       "quality_score": 50,
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "古钱": {
@@ -29004,7 +29120,7 @@
       "description": "北方游牧民族最高统治者称号",
       "quality": "standard",
       "quality_score": 49,
-      "total_refs": 100,
+      "total_refs": 99,
       "total_chapters": 0
     },
     "可突干": {
@@ -29071,7 +29187,7 @@
       "description": "古代高台建筑与台上木构，帝王游乐之所。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 6,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "台省": {
@@ -29543,7 +29659,7 @@
         "官制"
       ],
       "description": "司马，掌军事之官，亦为姓氏",
-      "total_refs": 408,
+      "total_refs": 407,
       "total_chapters": 0
     },
     "司马乂": {
@@ -29597,7 +29713,7 @@
       "description": "北宋著名政治家、史学家，《资治通鉴》主编，反对王安石变法，以仁德著称。",
       "quality": "standard",
       "quality_score": 39,
-      "total_refs": 997,
+      "total_refs": 996,
       "total_chapters": 0
     },
     "司马冏": {
@@ -29931,7 +30047,7 @@
       "description": "战国秦国将领，以\"先伐蜀而后图韩\"的战略建议著称，说服秦惠王伐蜀，奠定了秦国西南后方基础，是秦国统一战略的重要谋划者。",
       "quality": "standard",
       "quality_score": 57,
-      "total_refs": 19,
+      "total_refs": 20,
       "total_chapters": 0
     },
     "司马门": {
@@ -30006,6 +30122,19 @@
       "total_refs": 20,
       "total_chapters": 0
     },
+    "合击": {
+      "type": "concept",
+      "label": "合击",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "战术",
+        "协同"
+      ],
+      "description": "多路军队协同攻击敌军，为古代协同作战、两面夹击的重要战术。",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "合围": {
       "type": "military",
       "label": "合围",
@@ -30015,7 +30144,7 @@
         "战术"
       ],
       "description": "合围，古代军事中多路军队包围敌军的战术",
-      "total_refs": 17,
+      "total_refs": 18,
       "total_chapters": 0
     },
     "合战": {
@@ -30466,7 +30595,7 @@
         "历史"
       ],
       "description": "名将，著名之将领；名将以战功立世，兵法韬略为后世法。",
-      "total_refs": 336,
+      "total_refs": 338,
       "total_chapters": 0
     },
     "名山": {
@@ -30478,7 +30607,7 @@
         "祭祀"
       ],
       "description": "著名山岳，帝王封禅祭祀之地",
-      "total_refs": 17,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "名教": {
@@ -30710,7 +30839,7 @@
         "石氏"
       ],
       "description": "五代第三个王朝（936—947年），石敬瑭建立",
-      "total_refs": 90,
+      "total_refs": 91,
       "total_chapters": 0
     },
     "后梁": {
@@ -30760,7 +30889,7 @@
         "关中"
       ],
       "description": "后秦，十六国之一，羌族姚苌所建，都长安。",
-      "total_refs": 117,
+      "total_refs": 118,
       "total_chapters": 0
     },
     "后蜀": {
@@ -30772,7 +30901,7 @@
         "四川"
       ],
       "description": "后蜀，五代十国之一，孟知祥所建，都成都。",
-      "total_refs": 33,
+      "total_refs": 34,
       "total_chapters": 0
     },
     "后赵": {
@@ -30784,7 +30913,7 @@
         "石勒"
       ],
       "description": "后赵，十六国时期羯人石勒建立的政权",
-      "total_refs": 140,
+      "total_refs": 141,
       "total_chapters": 0
     },
     "后赵灭前赵": {
@@ -30879,7 +31008,7 @@
         "制度"
       ],
       "description": "吏治，官吏治理之术，古代指对官吏的任免、考核与管理。",
-      "total_refs": 106,
+      "total_refs": 107,
       "total_chapters": 0
     },
     "吏禄": {
@@ -30927,6 +31056,8 @@
         "吏部"
       ],
       "description": "吏部侍郎，尚书省吏部副长官，掌铨选之政。",
+      "quality": "standard",
+      "quality_score": 36,
       "total_refs": 73,
       "total_chapters": 54
     },
@@ -30968,7 +31099,7 @@
       "description": "青藏高原政权，唐蕃关系贯穿唐史，和亲与战争交织。",
       "quality": "standard",
       "quality_score": 52,
-      "total_refs": 160,
+      "total_refs": 159,
       "total_chapters": 0
     },
     "吐蕃陷长安": {
@@ -31071,7 +31202,7 @@
         "吕氏"
       ],
       "description": "吕产，西汉吕禄之兄，吕后侄，吕氏外戚集团核心人物",
-      "total_refs": 11,
+      "total_refs": 12,
       "total_chapters": 0
     },
     "吕僧珍": {
@@ -31190,7 +31321,7 @@
       "description": "东汉末年著名猛将，以武力过人著称，先投丁原后投董卓，杀丁原、诛董卓，又与曹操争雄，最终败于下邳，被杀。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 74,
+      "total_refs": 75,
       "total_chapters": 0
     },
     "吕师周": {
@@ -31245,7 +31376,7 @@
         "西汉"
       ],
       "description": "西汉吕后及其家族，汉初最强外戚势力",
-      "total_refs": 66,
+      "total_refs": 69,
       "total_chapters": 11
     },
     "吕琦": {
@@ -31411,7 +31542,7 @@
       "description": "君主，古代国家最高统治者的通称，天子、皇帝、国王皆属此类",
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 355,
+      "total_refs": 356,
       "total_chapters": 0
     },
     "君侧之恶": {
@@ -31565,7 +31696,7 @@
         "政治"
       ],
       "description": "君主临朝处理政务。",
-      "total_refs": 16,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "听讼": {
@@ -31603,7 +31734,7 @@
         "十国"
       ],
       "description": "吴之简称，可指春秋吴国、三国东吴或五代杨吴。",
-      "total_refs": 41,
+      "total_refs": 42,
       "total_chapters": 0
     },
     "吴下阿蒙": {
@@ -31864,7 +31995,7 @@
       "description": "战国著名军事家、政治家，历仕鲁、魏、楚三国，变法强楚，最终遭贵族反噬而死。",
       "quality": "featured",
       "quality_score": 43,
-      "total_refs": 59,
+      "total_refs": 60,
       "total_chapters": 11
     },
     "吴起变法": {
@@ -31986,7 +32117,7 @@
       "description": "报告事变、告发叛乱，紧急情况下向朝廷通报变故。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 10,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "告天": {
@@ -32136,7 +32267,7 @@
         "政治"
       ],
       "description": "周，周朝、周室；周为三代之最久，八百年基业在名分尚存。",
-      "total_refs": 54,
+      "total_refs": 55,
       "total_chapters": 0
     },
     "周世宗": {
@@ -32186,7 +32317,7 @@
         "谏臣"
       ],
       "description": "东汉名臣，以直言敢谏著称，与杜乔等分行州郡察举贤良。",
-      "total_refs": 20,
+      "total_refs": 22,
       "total_chapters": 0
     },
     "周亚夫": {
@@ -32217,7 +32348,7 @@
         "周"
       ],
       "description": "周公，姬姓，名旦，周文王之子、武王之弟，辅佐成王摄政，制礼作乐，为儒家推崇的圣人",
-      "total_refs": 38,
+      "total_refs": 39,
       "total_chapters": 0
     },
     "周兴": {
@@ -32376,7 +32507,7 @@
         "魏国"
       ],
       "description": "周市，秦末魏国将领",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 2
     },
     "周庠": {
@@ -32711,7 +32842,7 @@
       "description": "《周礼》，儒家经典之一，记载周代官制与礼制。",
       "quality": "standard",
       "quality_score": 34,
-      "total_refs": 49,
+      "total_refs": 50,
       "total_chapters": 0
     },
     "周罗睺": {
@@ -33016,7 +33147,7 @@
         "策略"
       ],
       "description": "与戎狄和平相处，通过安抚手段维持边境安宁。",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "和氏璧": {
@@ -33397,7 +33528,7 @@
         "政治"
       ],
       "description": "唐，唐朝、唐室；贞观之治为唐室极盛，安史之乱为唐运衰微之始。",
-      "total_refs": 80,
+      "total_refs": 81,
       "total_chapters": 0
     },
     "唐_(朝代)": {
@@ -33530,7 +33661,7 @@
       "image": "images/唐太宗.jpg",
       "quality": "featured",
       "quality_score": 66,
-      "total_refs": 293,
+      "total_refs": 295,
       "total_chapters": 14
     },
     "唐奉义": {
@@ -33551,7 +33682,7 @@
       "aliases": [],
       "tags": [],
       "description": "唐朝第十六位皇帝，大中之治",
-      "total_refs": 22,
+      "total_refs": 23,
       "total_chapters": 0
     },
     "唐宪宗": {
@@ -33560,7 +33691,7 @@
       "aliases": [],
       "tags": [],
       "description": "唐朝第十位皇帝，元和中兴",
-      "total_refs": 26,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "唐平徐圆朗": {
@@ -33732,7 +33863,7 @@
         "唐代"
       ],
       "description": "唐末，唐代末年（约875—907年）黄巢起义至于朱温代唐的历史时期",
-      "total_refs": 191,
+      "total_refs": 192,
       "total_chapters": 0
     },
     "唐林": {
@@ -33928,7 +34059,7 @@
         "安史之乱"
       ],
       "description": "唐肃宗李亨，唐朝第七位皇帝，安史之乱中即位灵武",
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "唐蒙": {
@@ -34023,7 +34154,7 @@
       "description": "唐朝开国皇帝，隋朝重臣李昞之子，从太原起兵推翻隋朝，建立唐朝，是中国历史上影响最深远的王朝的奠基人。",
       "quality": "featured",
       "quality_score": 51,
-      "total_refs": 107,
+      "total_refs": 108,
       "total_chapters": 38
     },
     "唯才是举": {
@@ -34099,7 +34230,7 @@
       "image": "images/商鞅.jpg",
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 207,
+      "total_refs": 206,
       "total_chapters": 7
     },
     "商鞅变法": {
@@ -34406,7 +34537,7 @@
         "器物"
       ],
       "description": "兵器装备及各种器具。",
-      "total_refs": 53,
+      "total_refs": 54,
       "total_chapters": 0
     },
     "器物": {
@@ -34422,7 +34553,7 @@
       "description": "器具与物品，泛指各种人造器物。通鉴中器物涉及礼制、贸易和生产工具。",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 120,
+      "total_refs": 123,
       "total_chapters": 0
     },
     "囊_(概念)": {
@@ -34447,7 +34578,9 @@
         "文化",
         "法制"
       ],
-      "description": "囚禁。囚孟尝君为秦昭王欲杀之谋，囚主父为李兑赵国内乱之变，囚系为蒙恬守义之志。",
+      "description": "囚禁，拘禁之义。",
+      "quality": "standard",
+      "quality_score": 40,
       "total_refs": 7,
       "total_chapters": 0
     },
@@ -34501,7 +34634,7 @@
       "description": "中国古代对周边四方非华夏民族的统称——东夷、西戎、南蛮、北狄，是华夏中心世界观下的四裔格局",
       "quality": "standard",
       "quality_score": 53,
-      "total_refs": 59,
+      "total_refs": 60,
       "total_chapters": 0
     },
     "四时": {
@@ -34537,7 +34670,7 @@
       "description": "中国古代对天下四方的统称，指整个国家或普天之下，包含东海、西海、南海、北海等四方海域及陆地的整体天下观",
       "quality": "standard",
       "quality_score": 47,
-      "total_refs": 49,
+      "total_refs": 50,
       "total_chapters": 0
     },
     "四渎": {
@@ -34945,7 +35078,18 @@
         "社会"
       ],
       "description": "国家，古代指诸侯国及天子之天下，政权之总称。",
-      "total_refs": 501,
+      "total_refs": 505,
+      "total_chapters": 0
+    },
+    "国政": {
+      "type": "concept",
+      "label": "国政",
+      "aliases": [],
+      "tags": [
+        "政治"
+      ],
+      "description": "国政，国家之政事，古代指朝廷治理之大事。",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "图_(概念)": {
@@ -34971,7 +35115,7 @@
         "文化"
       ],
       "description": "图书典籍",
-      "total_refs": 25,
+      "total_refs": 26,
       "total_chapters": 0
     },
     "图画": {
@@ -35251,7 +35395,7 @@
         "礼制"
       ],
       "description": "对皇帝的尊称，多见于臣下奏议。",
-      "total_refs": 6,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "圣人": {
@@ -35265,7 +35409,7 @@
       "description": "圣人，德智完备之人；才德全尽谓之圣人，圣人为人伦之至。",
       "quality": "standard",
       "quality_score": 24,
-      "total_refs": 45,
+      "total_refs": 46,
       "total_chapters": 0
     },
     "圣君": {
@@ -35844,7 +35988,7 @@
       "description": "陈下要地，项羽四面楚歌败亡处，楚汉战争最终决战地。",
       "quality": "basic",
       "quality_score": 41,
-      "total_refs": 10,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "垓下之战": {
@@ -36517,7 +36661,7 @@
         "防御工事"
       ],
       "description": "军营围墙，防御工事",
-      "total_refs": 25,
+      "total_refs": 26,
       "total_chapters": 0
     },
     "壁带": {
@@ -36633,7 +36777,7 @@
         "军事"
       ],
       "description": "士卒，古代军队中基层士兵之统称",
-      "total_refs": 323,
+      "total_refs": 324,
       "total_chapters": 0
     },
     "士大夫": {
@@ -36950,7 +37094,7 @@
         "防御"
       ],
       "description": "防御戒备之军事部署，为边防城守之要务。",
-      "total_refs": 6,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "备边": {
@@ -37365,7 +37509,7 @@
         "社会"
       ],
       "description": "对外交往，与外部人士联络交通。",
-      "total_refs": 216,
+      "total_refs": 219,
       "total_chapters": 0
     },
     "外兵": {
@@ -37406,7 +37550,7 @@
       "description": "皇后家族凭借宫闱之宠干政的政治势力。",
       "quality": "standard",
       "quality_score": 53,
-      "total_refs": 183,
+      "total_refs": 184,
       "total_chapters": 0
     },
     "外户不闭": {
@@ -37510,6 +37654,18 @@
         "数量"
       ],
       "description": "多寡，多少，古代指数量的多少或程度的高低。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "多少": {
+      "type": "concept",
+      "label": "多少",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "数量"
+      ],
+      "description": "多少，数量之多寡，古代指数目或程度之问。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -37805,7 +37961,7 @@
         "秦汉"
       ],
       "description": "大将军，中国古代最高军事长官之一",
-      "total_refs": 435,
+      "total_refs": 433,
       "total_chapters": 0
     },
     "大川": {
@@ -37817,7 +37973,7 @@
         "祭祀"
       ],
       "description": "重要河流，天子祭祀的对象",
-      "total_refs": 8,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "大旱": {
@@ -38088,7 +38244,7 @@
         "制度"
       ],
       "description": "大阅，大规模检阅军队，为古代重要的军事礼仪活动",
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "大雨": {
@@ -38113,8 +38269,8 @@
         "祭祀"
       ],
       "description": "古代求雨的祭祀典礼，旱灾时的国家仪典",
-      "quality": "basic",
-      "quality_score": 43,
+      "quality": "standard",
+      "quality_score": 51,
       "total_refs": 4,
       "total_chapters": 0
     },
@@ -38208,7 +38364,7 @@
         "气象"
       ],
       "description": "古代严重的饥荒灾害。",
-      "total_refs": 25,
+      "total_refs": 24,
       "total_chapters": 0
     },
     "大驾": {
@@ -38243,7 +38399,7 @@
         "哲学"
       ],
       "description": "天下，普天之下、国家、世界；天下为公乃王者之志，得天下在得民心。",
-      "total_refs": 1127,
+      "total_refs": 1128,
       "total_chapters": 0
     },
     "天下大乱": {
@@ -38575,7 +38731,7 @@
         "西域"
       ],
       "description": "汉代至唐代对印度的称呼。",
-      "total_refs": 13,
+      "total_refs": 12,
       "total_chapters": 0
     },
     "天纪": {
@@ -38614,7 +38770,7 @@
       "description": "天体运行与呈现的宏观景象",
       "quality": "standard",
       "quality_score": 45,
-      "total_refs": 70,
+      "total_refs": 71,
       "total_chapters": 0
     },
     "天道": {
@@ -38723,8 +38879,8 @@
         "三师"
       ],
       "description": "三师之一，掌教导太子，位在三公之上。",
-      "quality": "basic",
-      "quality_score": 39,
+      "quality": "standard",
+      "quality_score": 51,
       "total_refs": 101,
       "total_chapters": 0
     },
@@ -38844,7 +39000,7 @@
       "description": "皇帝母亲的尊号",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 334,
+      "total_refs": 336,
       "total_chapters": 0
     },
     "太和": {
@@ -38881,7 +39037,7 @@
         "制度"
       ],
       "description": "古代皇位继承人，皇帝的嫡长子",
-      "total_refs": 708,
+      "total_refs": 707,
       "total_chapters": 0
     },
     "太子丹": {
@@ -38989,7 +39145,7 @@
         "官制"
       ],
       "description": "太守，郡守，秦漢地方最高行政长官",
-      "total_refs": 602,
+      "total_refs": 604,
       "total_chapters": 0
     },
     "太安": {
@@ -39014,7 +39170,7 @@
         "帝王"
       ],
       "description": "太宗，古代帝王庙号之一，多为王朝第二代皇帝。",
-      "total_refs": 261,
+      "total_refs": 262,
       "total_chapters": 83
     },
     "太官令": {
@@ -39040,7 +39196,7 @@
         "三公"
       ],
       "description": "全国最高军事长官，金印紫绶，与丞相、御史大夫并称三公。",
-      "quality": "basic",
+      "quality": "standard",
       "quality_score": 49,
       "total_refs": 162,
       "total_chapters": 0
@@ -39076,8 +39232,8 @@
         "官制"
       ],
       "description": "掌宗庙礼仪的中央长官，九卿之首",
-      "quality": "basic",
-      "quality_score": 27,
+      "quality": "standard",
+      "quality_score": 43,
       "total_refs": 92,
       "total_chapters": 0
     },
@@ -39106,7 +39262,7 @@
       "description": "天下太平、社会安定是历代治国者的最高理想。",
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 62,
+      "total_refs": 64,
       "total_chapters": 0
     },
     "太平公主": {
@@ -39328,7 +39484,7 @@
         "社会"
       ],
       "description": "首领、头领；亦指头部和眼睛",
-      "total_refs": 8,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "夷": {
@@ -39450,7 +39606,7 @@
       "description": "夹击，古代军事中从两个方向同时进攻敌军的战术",
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 45,
+      "total_refs": 46,
       "total_chapters": 0
     },
     "夹攻": {
@@ -39526,8 +39682,8 @@
         "战术"
       ],
       "description": "出其不意的精锐突击部队，白起长平之战张二奇兵断赵军后。",
-      "quality": "basic",
-      "quality_score": 48,
+      "quality": "standard",
+      "quality_score": 56,
       "total_refs": 53,
       "total_chapters": 0
     },
@@ -39646,7 +39802,7 @@
         "朝贡"
       ],
       "description": "奉贡，进献贡品，古代藩属国向中央王朝进贡方物的朝贡礼仪。",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "奋击": {
@@ -39788,8 +39944,8 @@
         "制度"
       ],
       "description": "汉代至魏晋臣子所上奏章的统称，已形成固定格式和流转程序。",
-      "quality": "basic",
-      "quality_score": 37,
+      "quality": "standard",
+      "quality_score": 51,
       "total_refs": 19,
       "total_chapters": 0
     },
@@ -39904,7 +40060,7 @@
       "description": "奔走出逃，仓皇逃亡。",
       "quality": "standard",
       "quality_score": 36,
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "奕_(概念)": {
@@ -40020,7 +40176,7 @@
         "政治"
       ],
       "description": "奢侈靡费，耗费财力物力，通鉴以奢靡为乱政亡国之徵。",
-      "total_refs": 63,
+      "total_refs": 64,
       "total_chapters": 0
     },
     "女乐": {
@@ -40376,7 +40532,9 @@
         "思想",
         "评价"
       ],
-      "description": "妙，奥妙、精妙、美妙；微妙以节为兵家之略，言语妙天下为文士之才。",
+      "description": "妙，奥妙、精妙、美妙；微妙以节为兵家之略。",
+      "quality": "standard",
+      "quality_score": 34,
       "total_refs": 2,
       "total_chapters": 0
     },
@@ -40460,7 +40618,7 @@
       "description": "妻室与子女。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 91,
+      "total_refs": 92,
       "total_chapters": 0
     },
     "妾": {
@@ -40549,7 +40707,7 @@
         "道德"
       ],
       "description": "始终，开头与结尾，慎终如始为君子修身治国之道",
-      "total_refs": 225,
+      "total_refs": 228,
       "total_chapters": 0
     },
     "始终如一": {
@@ -40696,7 +40854,7 @@
       "description": "十六国后秦第二代国君，继承父姚苌之业，灭前秦残部，迎入鸠摩罗什译经，与东晋、北魏等势力长期周旋，以好虚名少实用著称，其死后后秦迅速走向衰亡被刘裕所灭。",
       "quality": "featured",
       "quality_score": 45,
-      "total_refs": 39,
+      "total_refs": 40,
       "total_chapters": 0
     },
     "姚察": {
@@ -40871,7 +41029,7 @@
       "description": "后赵羌帅，姚弋仲子，率羌众归晋又叛晋，与前秦争关中，兵败被杀。",
       "quality": "standard",
       "quality_score": 57,
-      "total_refs": 15,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "姜公辅": {
@@ -41116,7 +41274,7 @@
       "description": "男女结为夫妻的礼仪制度，古代常与政治联姻相关",
       "quality": "standard",
       "quality_score": 37,
-      "total_refs": 35,
+      "total_refs": 36,
       "total_chapters": 0
     },
     "婚媾": {
@@ -41518,7 +41676,7 @@
       "description": "春秋鲁国思想家、教育家，儒家学派创始人，主张仁礼，编订六经，被尊为\"至圣先师\"",
       "quality": "basic",
       "quality_score": 45,
-      "total_refs": 93,
+      "total_refs": 94,
       "total_chapters": 0
     },
     "孔巢父": {
@@ -41873,7 +42031,7 @@
       "description": "古代兵法两大宗师孙武与吴起的并称，代表中国传统军事思想的最高境界。",
       "quality": "featured",
       "quality_score": 43,
-      "total_refs": 175,
+      "total_refs": 174,
       "total_chapters": 11
     },
     "孙坚": {
@@ -42154,7 +42312,7 @@
       "description": "孙坚之子，东吴政权的实际奠基者，以少量兵力横扫江东，奠定了三国吴国的基业，因刺客之伤英年早逝，将大业交于弟弟孙权。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 97,
+      "total_refs": 96,
       "total_chapters": 7
     },
     "孙策定江东": {
@@ -42492,7 +42650,7 @@
       "description": "战国四公子之一，齐国贵族，广招食客，以鸡鸣狗盗故事著称，亦受司马光批评。",
       "quality": "standard",
       "quality_score": 60,
-      "total_refs": 72,
+      "total_refs": 71,
       "total_chapters": 10
     },
     "孟怀玉": {
@@ -42575,7 +42733,7 @@
       "description": "五代后蜀开国皇帝，由后唐将领出发，掌西川后割据称帝，建立后蜀，庙号高祖。",
       "quality": "featured",
       "quality_score": 46,
-      "total_refs": 18,
+      "total_refs": 19,
       "total_chapters": 0
     },
     "孟获": {
@@ -42651,7 +42809,7 @@
         "一诺千金"
       ],
       "description": "西汉名将，以忠勇守信著称",
-      "total_refs": 18,
+      "total_refs": 19,
       "total_chapters": 0
     },
     "季札": {
@@ -43002,7 +43160,7 @@
       "description": "北周开国权臣，宇文泰之侄，以辅佐宇文觉建立北周并主持禅代仪式著称，连续废弑三位皇帝把持朝政十五年，最终被北周武帝宇文邕亲手诛杀，是中国历史上掌权时间最长的权臣之一。",
       "quality": "standard",
       "quality_score": 60,
-      "total_refs": 23,
+      "total_refs": 24,
       "total_chapters": 0
     },
     "宇文泰": {
@@ -43173,8 +43331,8 @@
         "制度"
       ],
       "description": "军事防御中的守护行动，泛指城池、关隘、宫室的防守任务。",
-      "quality": "basic",
-      "quality_score": 36,
+      "quality": "standard",
+      "quality_score": 50,
       "total_refs": 33,
       "total_chapters": 0
     },
@@ -43187,7 +43345,7 @@
         "防御"
       ],
       "description": "防守城池，城邑防御作战",
-      "total_refs": 79,
+      "total_refs": 80,
       "total_chapters": 0
     },
     "守备": {
@@ -44112,7 +44270,7 @@
       "description": "古代帝王祭祀祖先的场所，政权合法性的象征，社稷并称。",
       "quality": "standard",
       "quality_score": 57,
-      "total_refs": 126,
+      "total_refs": 128,
       "total_chapters": 0
     },
     "宗悫": {
@@ -44246,7 +44404,7 @@
         "称谓"
       ],
       "description": "官僚，古代泛指各级官吏，亦指官僚制度下的官员群体",
-      "total_refs": 49,
+      "total_refs": 50,
       "total_chapters": 0
     },
     "官制": {
@@ -44308,6 +44466,18 @@
       ],
       "description": "官奴婢，没入官府的奴隶",
       "total_refs": 4,
+      "total_chapters": 0
+    },
+    "官府": {
+      "type": "concept",
+      "label": "官府",
+      "aliases": [],
+      "tags": [
+        "政治",
+        "社会"
+      ],
+      "description": "官府，官署与公府，古代指政府机构及其行政体系。",
+      "total_refs": 3,
       "total_chapters": 0
     },
     "官曹": {
@@ -44384,7 +44554,7 @@
       "description": "古代官员办公的衙署机构，为行政体系的基本单位。通鉴中涉及官署的设置、精简及其行政效率。",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 31,
+      "total_refs": 32,
       "total_chapters": 0
     },
     "定_(概念)": {
@@ -44532,7 +44702,7 @@
         "政治"
       ],
       "description": "珍宝宝物",
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "宝器": {
@@ -44730,7 +44900,7 @@
       "description": "帝王对臣子的优宠礼遇，通常表现为殊礼、厚赐与超擢，体现君臣之间的特殊关系。",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "审配": {
@@ -44995,7 +45165,7 @@
         "制度"
       ],
       "description": "被阉割后服务于皇宫的男子",
-      "total_refs": 347,
+      "total_refs": 346,
       "total_chapters": 0
     },
     "宦者": {
@@ -45151,7 +45321,7 @@
         "建筑"
       ],
       "description": "古代帝王宫殿建筑，体现礼制等级",
-      "total_refs": 131,
+      "total_refs": 132,
       "total_chapters": 0
     },
     "宫掖": {
@@ -45373,7 +45543,7 @@
         "社会"
       ],
       "description": "家族，以血缘和婚姻为纽带的亲属集团。",
-      "total_refs": 95,
+      "total_refs": 97,
       "total_chapters": 0
     },
     "家法": {
@@ -45453,7 +45623,7 @@
         "品格"
       ],
       "description": "宽仁，宽厚仁爱，为君之德",
-      "total_refs": 34,
+      "total_refs": 35,
       "total_chapters": 0
     },
     "宽宥": {
@@ -45532,7 +45702,7 @@
       "description": "古代宫中值宿警卫制度，负责皇帝及宫廷安全。",
       "quality": "standard",
       "quality_score": 53,
-      "total_refs": 80,
+      "total_refs": 81,
       "total_chapters": 0
     },
     "宿将": {
@@ -45544,6 +45714,8 @@
         "武将"
       ],
       "description": "久经战阵的老将，有丰富经验。",
+      "quality": "standard",
+      "quality_score": 58,
       "total_refs": 46,
       "total_chapters": 0
     },
@@ -45915,6 +46087,19 @@
       "total_refs": 2,
       "total_chapters": 0
     },
+    "寝兵": {
+      "type": "concept",
+      "label": "寝兵",
+      "aliases": [],
+      "tags": [
+        "概念",
+        "军事",
+        "战略"
+      ],
+      "description": "寝兵，停息干戈、停止军事行动，亦指休战媾和。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "寝庙": {
       "type": "concept",
       "label": "寝庙",
@@ -45937,7 +46122,7 @@
       "description": "汉代选拔官吏制度，由地方官员举荐贤良方正之士入朝为官。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 37,
+      "total_refs": 39,
       "total_chapters": 0
     },
     "寡人": {
@@ -45951,7 +46136,7 @@
       "description": "寡人，先秦诸侯及帝王自称，表谦抑之意。",
       "quality": "standard",
       "quality_score": 40,
-      "total_refs": 22,
+      "total_refs": 21,
       "total_chapters": 0
     },
     "寨_(概念)": {
@@ -46029,7 +46214,7 @@
         "建筑"
       ],
       "description": "寺观，佛教寺院与道教宫观的合称",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "寻阳": {
@@ -46288,7 +46473,7 @@
         "宗室"
       ],
       "description": "赐封王爵，古代最高爵位。",
-      "total_refs": 26,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "封疆": {
@@ -46472,7 +46657,7 @@
         "官制"
       ],
       "description": "将军，武官最高称谓，统兵征战",
-      "total_refs": 877,
+      "total_refs": 879,
       "total_chapters": 0
     },
     "将在外": {
@@ -46501,7 +46686,7 @@
         "军事"
       ],
       "description": "将士，将领与士兵，古代军队之基本构成。",
-      "total_refs": 17,
+      "total_refs": 18,
       "total_chapters": 0
     },
     "将帅": {
@@ -46656,7 +46841,7 @@
         "北周"
       ],
       "description": "尉迟运，北周右宫正，以拒宇文直之乱闻名。",
-      "total_refs": 3,
+      "total_refs": 2,
       "total_chapters": 2
     },
     "尉迟迥": {
@@ -46721,7 +46906,7 @@
       "description": "尊号徽号",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 38,
+      "total_refs": 39,
       "total_chapters": 0
     },
     "小_(概念)": {
@@ -46871,7 +47056,7 @@
       "description": "北魏权臣，河阴之变的主谋",
       "quality": "standard",
       "quality_score": 51,
-      "total_refs": 52,
+      "total_refs": 53,
       "total_chapters": 0
     },
     "尔朱荣之乱": {
@@ -46975,8 +47160,10 @@
         "官制",
         "秦汉"
       ],
-      "description": "尚书，中国古代中枢官职，掌机要文书",
-      "total_refs": 517,
+      "description": "尚书，中国古代中枢官职，掌机要文书。",
+      "quality": "standard",
+      "quality_score": 36,
+      "total_refs": 516,
       "total_chapters": 0
     },
     "尚书仆射": {
@@ -46999,8 +47186,8 @@
         "尚书省"
       ],
       "description": "尚书省长官，秦汉为少府属官，魏晋后权倾朝野。",
-      "quality": "basic",
-      "quality_score": 37,
+      "quality": "standard",
+      "quality_score": 51,
       "total_refs": 100,
       "total_chapters": 0
     },
@@ -47151,7 +47338,7 @@
         "职官"
       ],
       "description": "尚食局，掌宫廷膳食",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "尧君素": {
@@ -47349,7 +47536,7 @@
       "description": "长度标准及度量制度，历代尺度不一，朝廷常统一之",
       "quality": "standard",
       "quality_score": 37,
-      "total_refs": 13,
+      "total_refs": 14,
       "total_chapters": 0
     },
     "尾": {
@@ -48222,7 +48409,7 @@
         "教育"
       ],
       "description": "岁贡，每年向朝廷举荐人才或进献贡品之制度。",
-      "total_refs": 10,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "岁饥": {
@@ -48628,7 +48815,7 @@
         "政论家"
       ],
       "description": "东汉政论家，著《政论》，批评汉法太宽",
-      "total_refs": 10,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "崔州平": {
@@ -48802,7 +48989,7 @@
       "description": "北魏著名谋士，多次料事如神，辅佐拓跋嗣、拓跋焘，参与灭大夏、伐柔然等战役，后因修国史而被族诛。",
       "quality": "featured",
       "quality_score": 41,
-      "total_refs": 65,
+      "total_refs": 64,
       "total_chapters": 0
     },
     "崔游": {
@@ -49157,7 +49344,7 @@
         "职官"
       ],
       "description": "州之行政长官，掌一州监察、军政事务",
-      "total_refs": 170,
+      "total_refs": 169,
       "total_chapters": 0
     },
     "州县": {
@@ -49168,7 +49355,7 @@
         "地理"
       ],
       "description": "州县，州与县的地方行政体制",
-      "total_refs": 57,
+      "total_refs": 58,
       "total_chapters": 0
     },
     "州牧": {
@@ -49193,7 +49380,7 @@
         "地理"
       ],
       "description": "州郡，古代地方行政区域，州与郡的合称，亦泛指地方政府。",
-      "total_refs": 6,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "巡守": {
@@ -49221,8 +49408,8 @@
         "皇帝"
       ],
       "description": "天子出巡地方，视察民情与军政。",
-      "quality": "basic",
-      "quality_score": 33,
+      "quality": "standard",
+      "quality_score": 35,
       "total_refs": 18,
       "total_chapters": 0
     },
@@ -49453,7 +49640,7 @@
         "社会"
       ],
       "description": "左右，指君主身边近侍之臣，或辅助、支配之意。",
-      "total_refs": 4,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "左将军": {
@@ -49542,7 +49729,7 @@
         "法律"
       ],
       "description": "左道，邪道旁门，指以巫术妖法惑众之行为。",
-      "total_refs": 9,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "左雄": {
@@ -49702,7 +49889,7 @@
         "法律"
       ],
       "description": "巫蛊之祸",
-      "total_refs": 43,
+      "total_refs": 42,
       "total_chapters": 0
     },
     "巫蛊之祸": {
@@ -51026,7 +51213,7 @@
       "description": "战国四公子之一，赵国公子，毛遂自荐的主角，合纵救赵的推动者。",
       "quality": "featured",
       "quality_score": 53,
-      "total_refs": 59,
+      "total_refs": 60,
       "total_chapters": 3
     },
     "平城": {
@@ -51217,7 +51404,7 @@
         "艺术"
       ],
       "description": "幻人，幻术艺人，古代表演幻术之艺人。",
-      "total_refs": 7,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "幼主": {
@@ -51814,7 +52001,7 @@
       "description": "西魏至唐的兵农合一军事制度",
       "quality": "standard",
       "quality_score": 40,
-      "total_refs": 27,
+      "total_refs": 28,
       "total_chapters": 0
     },
     "府兵制": {
@@ -52001,7 +52188,7 @@
         "制度"
       ],
       "description": "废立，废君立君之义，古代政治中最高权力之更迭。",
-      "total_refs": 69,
+      "total_refs": 70,
       "total_chapters": 0
     },
     "废黜": {
@@ -52114,7 +52301,7 @@
         "品性"
       ],
       "description": "度量，尺度计量与胸襟气度；平斗斛度量为秦之统一制度，沈敏有度量为品评人物之语。",
-      "total_refs": 24,
+      "total_refs": 25,
       "total_chapters": 0
     },
     "度量衡": {
@@ -52575,6 +52762,8 @@
         "社会"
       ],
       "description": "清廉守正的官吏",
+      "quality": "standard",
+      "quality_score": 62,
       "total_refs": 9,
       "total_chapters": 0
     },
@@ -52626,7 +52815,7 @@
       "description": "战国赵国名将，战国四大名将之一，以骁勇善战著称，与蔺相如将相和的故事流传千古。",
       "quality": "featured",
       "quality_score": 39,
-      "total_refs": 67,
+      "total_refs": 68,
       "total_chapters": 9
     },
     "廊_(器物)": {
@@ -52872,7 +53061,7 @@
         "直臣"
       ],
       "description": "在朝廷上当面向君主争谏，通鉴以廷争为直臣节操，周昌、王陵、朱云等以廷争名世。",
-      "total_refs": 26,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "廷尉": {
@@ -53151,7 +53340,7 @@
         "唐"
       ],
       "description": "唐玄宗李隆基第二个年号（713—741），共二十九年，唐朝极盛",
-      "total_refs": 56,
+      "total_refs": 57,
       "total_chapters": 0
     },
     "开元钱": {
@@ -53256,7 +53445,9 @@
         "哲学",
         "社会"
       ],
-      "description": "异，不同、奇异、异常；才与德异为司马光论人之要，异姓为诸侯封建之别。",
+      "description": "异，不同、奇异、异常；才与德异为司马光论人之要。",
+      "quality": "standard",
+      "quality_score": 32,
       "total_refs": 1,
       "total_chapters": 0
     },
@@ -53271,7 +53462,7 @@
         "文化"
       ],
       "description": "古代指差异、不同，为名辩和治政之重要概念。",
-      "total_refs": 5,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "异人": {
@@ -53303,7 +53494,7 @@
       "description": "不同意见或争议，指朝议或决策中的分歧与异议。通鉴中涉及君臣之间意见异同对政事的影响。",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 13,
+      "total_refs": 12,
       "total_chapters": 0
     },
     "异域": {
@@ -53536,7 +53727,7 @@
         "军事"
       ],
       "description": "引兵，率领军队行进或转移，古代军事行动中部队调动的常用表述。",
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "引咎自责": {
@@ -53793,7 +53984,7 @@
       "description": "战国纵横家，连横策略制定者，仕于秦，瓦解合纵联盟，为秦统一奠基。",
       "quality": "featured",
       "quality_score": 51,
-      "total_refs": 166,
+      "total_refs": 165,
       "total_chapters": 3
     },
     "张仪连横": {
@@ -54078,7 +54269,7 @@
       "description": "东汉北中郎将，以平羌功著称",
       "quality": "basic",
       "quality_score": 58,
-      "total_refs": 23,
+      "total_refs": 24,
       "total_chapters": 0
     },
     "张婴": {
@@ -54177,7 +54368,7 @@
       "description": "西汉右将军，霍光辅政时期的重臣",
       "quality": "basic",
       "quality_score": 46,
-      "total_refs": 14,
+      "total_refs": 13,
       "total_chapters": 0
     },
     "张实": {
@@ -54505,7 +54696,7 @@
         "凉州"
       ],
       "description": "汉张掖郡，河西四郡之一，今甘肃张掖。",
-      "total_refs": 34,
+      "total_refs": 35,
       "total_chapters": 0
     },
     "张敖": {
@@ -54676,7 +54867,7 @@
         "流民起义"
       ],
       "description": "张昌，西晋义阳蛮，流民起义领袖",
-      "total_refs": 15,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "张昌宗": {
@@ -55383,7 +55574,7 @@
       "description": "东汉科学家、文学家，发明地动仪和浑天仪，任太史令，以《二京赋》著称",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 28,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "张衮": {
@@ -55942,7 +56133,7 @@
       "description": "监察官员对违法失职官吏的检举纠劾",
       "quality": "standard",
       "quality_score": 37,
-      "total_refs": 55,
+      "total_refs": 56,
       "total_chapters": 0
     },
     "弹奏": {
@@ -56075,7 +56266,7 @@
         "军事"
       ],
       "description": "强弱，强大与弱小，古代治国与军事中实力对比的核心概念",
-      "total_refs": 35,
+      "total_refs": 36,
       "total_chapters": 0
     },
     "强汪": {
@@ -56266,7 +56457,7 @@
         "军事"
       ],
       "description": "归顺依附，地方势力或部族投靠中央政权",
-      "total_refs": 159,
+      "total_refs": 160,
       "total_chapters": 0
     },
     "归降": {
@@ -56486,7 +56677,7 @@
         "策略"
       ],
       "description": "形势，事物发展呈现的态势与格局，多指地理形势或政治军事局面",
-      "total_refs": 111,
+      "total_refs": 112,
       "total_chapters": 0
     },
     "形胜": {
@@ -56524,6 +56715,8 @@
         "礼制"
       ],
       "description": "彤弓，朱红色弓，古代天子赐予诸侯大臣之礼器，象征征伐之权。",
+      "quality": "standard",
+      "quality_score": 26,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -56730,6 +56923,18 @@
       "total_refs": 7,
       "total_chapters": 0
     },
+    "往昔": {
+      "type": "concept",
+      "label": "往昔",
+      "aliases": [],
+      "tags": [
+        "时间",
+        "社会"
+      ],
+      "description": "往昔，过去之时，古代指以往岁月。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "征_(军事)": {
       "type": "military",
       "label": "征",
@@ -56775,7 +56980,7 @@
         "军事"
       ],
       "description": "天子出兵讨罪",
-      "total_refs": 159,
+      "total_refs": 160,
       "total_chapters": 0
     },
     "征侧": {
@@ -57068,7 +57273,7 @@
       "description": "秦汉至唐历代法典体系，历代修律以治天下。",
       "quality": "standard",
       "quality_score": 54,
-      "total_refs": 64,
+      "total_refs": 65,
       "total_chapters": 0
     },
     "律历": {
@@ -57096,7 +57301,7 @@
         "科技"
       ],
       "description": "音律乐律制度",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "律文": {
@@ -57461,7 +57666,7 @@
       "description": "五代十国南唐开创者，本名李昪，以养子身份入徐温家，逐步掌握吴国大权，代吴建南唐，是南方割据政权中最具合法性建构意识的开国君主。",
       "quality": "featured",
       "quality_score": 40,
-      "total_refs": 12,
+      "total_refs": 13,
       "total_chapters": 0
     },
     "徐福": {
@@ -57508,7 +57713,7 @@
       "description": "刘宋顾命大臣，录尚书事，主导废杀庐陵王义真和宋少帝，参与拥立宋文帝，后因宋文帝反噬而被迫自杀，是宋初权臣集团的核心首脑。",
       "quality": "basic",
       "quality_score": 53,
-      "total_refs": 15,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "徐自为": {
@@ -57607,7 +57812,7 @@
         "后赵"
       ],
       "description": "徐龛，东晋泰山太守，叛降石勒，寇掠济岱。",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "徒刑": {
@@ -57688,7 +57893,7 @@
         "政治"
       ],
       "description": "得失，成功与失败、获得与损失，古代决策与评价的核心范畴",
-      "total_refs": 159,
+      "total_refs": 160,
       "total_chapters": 0
     },
     "徙民": {
@@ -57703,7 +57908,7 @@
       "description": "古代政府将百姓迁移到指定地区居住，多用于实边、戍守或削弱地方势力。",
       "quality": "standard",
       "quality_score": 43,
-      "total_refs": 25,
+      "total_refs": 26,
       "total_chapters": 0
     },
     "徙边": {
@@ -57741,7 +57946,7 @@
         "职官"
       ],
       "description": "御史，掌监察、执法",
-      "total_refs": 170,
+      "total_refs": 171,
       "total_chapters": 0
     },
     "御史中丞": {
@@ -57792,8 +57997,8 @@
         "三公"
       ],
       "description": "秦汉三公之一，掌监察百官，副丞相。",
-      "quality": "basic",
-      "quality_score": 48,
+      "quality": "standard",
+      "quality_score": 49,
       "total_refs": 121,
       "total_chapters": 0
     },
@@ -58009,7 +58214,7 @@
         "政治"
       ],
       "description": "德政仁治",
-      "total_refs": 32,
+      "total_refs": 33,
       "total_chapters": 0
     },
     "德教": {
@@ -58023,7 +58228,7 @@
       ],
       "description": "道德教化，霸王道杂之为汉家制度。",
       "quality": "standard",
-      "quality_score": 38,
+      "quality_score": 53,
       "total_refs": 13,
       "total_chapters": 5
     },
@@ -58077,7 +58282,7 @@
         "身体"
       ],
       "description": "心，心脏、心意；心腹喻亲信，足力不足而心不忍，心动为警觉之兆。",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "心_(概念)": {
@@ -58090,7 +58295,7 @@
         "人体"
       ],
       "description": "心脏，古代以心为思维情感之源",
-      "total_refs": 3,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "心腹": {
@@ -58398,7 +58603,7 @@
         "策略"
       ],
       "description": "以德政安抚远方，使归附顺从。",
-      "total_refs": 25,
+      "total_refs": 26,
       "total_chapters": 0
     },
     "怀远": {
@@ -58531,6 +58736,18 @@
         "伦理"
       ],
       "description": "天性、性情。人性不甚相远，性明达为高祖之资。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "性情": {
+      "type": "concept",
+      "label": "性情",
+      "aliases": [],
+      "tags": [
+        "哲学",
+        "社会"
+      ],
+      "description": "性情，本性与其外在表现，古代指人之禀赋与情感。",
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -58970,7 +59187,7 @@
         "政治"
       ],
       "description": "息兵，停止战争，休养生息，为战后恢复之重要策略",
-      "total_refs": 16,
+      "total_refs": 17,
       "total_chapters": 0
     },
     "息夫躬": {
@@ -59157,7 +59374,7 @@
         "皇帝"
       ],
       "description": "晋惠帝司马衷，以放荡之德临天下，八王之乱始此，遇毒而崩。",
-      "total_refs": 39,
+      "total_refs": 41,
       "total_chapters": 9
     },
     "惠政": {
@@ -59199,6 +59416,8 @@
         "制度"
       ],
       "description": "惩劝，惩戒与劝勉，奖惩并用。",
+      "quality": "standard",
+      "quality_score": 30,
       "total_refs": 2,
       "total_chapters": 0
     },
@@ -59589,7 +59808,7 @@
       "description": "前燕最杰出的军事将领和政治家，辅佐燕王慕容俊统一北方，是十六国时期最具军事才能的名将之一。",
       "quality": "featured",
       "quality_score": 47,
-      "total_refs": 33,
+      "total_refs": 34,
       "total_chapters": 7
     },
     "慕容楷": {
@@ -59657,7 +59876,7 @@
       "description": "十六国前燕的奠基者，慕容垂之父，以严峻法令稳定燕国，奠定前燕立国基础。",
       "quality": "featured",
       "quality_score": 39,
-      "total_refs": 72,
+      "total_refs": 74,
       "total_chapters": 0
     },
     "慕容盛": {
@@ -59755,6 +59974,18 @@
       ],
       "description": "慕舆根，前燕折冲将军，力守棘城拒石虎，数从征伐。",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "慷慨": {
+      "type": "concept",
+      "label": "慷慨",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "情感"
+      ],
+      "description": "慷慨，意气激昂，古代指激昂悲壮之情感表达。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "懿宗": {
@@ -59879,7 +60110,7 @@
         "军事"
       ],
       "description": "戍兵，戍守边境之兵",
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "戍卒": {
@@ -59903,7 +60134,7 @@
         "制度"
       ],
       "description": "驻防守卫边境或要地。",
-      "total_refs": 24,
+      "total_refs": 25,
       "total_chapters": 0
     },
     "戍所": {
@@ -60159,7 +60390,7 @@
         "哲学"
       ],
       "description": "成功与失败之合称。",
-      "total_refs": 40,
+      "total_refs": 41,
       "total_chapters": 0
     },
     "成都": {
@@ -60173,7 +60404,7 @@
       "description": "蜀郡治所，益州中心，蜀汉前后蜀都城，天府之国，五侯之一成都侯受封于此",
       "quality": "basic",
       "quality_score": 26,
-      "total_refs": 123,
+      "total_refs": 124,
       "total_chapters": 0
     },
     "戒严": {
@@ -60185,7 +60416,7 @@
         "制度"
       ],
       "description": "戒严，战时紧急状态",
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "戒备": {
@@ -60262,7 +60493,7 @@
       "description": "中国历史上的一个时期（前475—前221年），以七雄争霸、合纵连横、礼崩乐坏为特征，最终由秦统一天下。",
       "quality": "standard",
       "quality_score": 46,
-      "total_refs": 549,
+      "total_refs": 551,
       "total_chapters": 14
     },
     "战国四公子": {
@@ -60363,7 +60594,7 @@
         "器物"
       ],
       "description": "兵器。持戟百万为楚之霸王资，被甲持戟为项羽力战之姿，执戟为韩信仕楚之卑位。",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "戟_(器物)": {
@@ -60681,7 +60912,7 @@
       "description": "唐初名相，唐太宗最重要的谋主，以善谋著称，与杜如晦并称\"房谋杜断\"，是贞观之治的核心设计者之一。",
       "quality": "featured",
       "quality_score": 54,
-      "total_refs": 52,
+      "total_refs": 51,
       "total_chapters": 15
     },
     "房琯": {
@@ -60857,7 +61088,7 @@
         "文化"
       ],
       "description": "手脚，喻君臣上下配合如心腹运手足",
-      "total_refs": 24,
+      "total_refs": 25,
       "total_chapters": 0
     },
     "才人": {
@@ -61318,7 +61549,7 @@
         "君道"
       ],
       "description": "帝王拒绝接受谏言。",
-      "total_refs": 16,
+      "total_refs": 17,
       "total_chapters": 0
     },
     "拓跋思恭": {
@@ -61379,6 +61610,19 @@
       "quality_score": 46,
       "total_refs": 51,
       "total_chapters": 3
+    },
+    "拔剑": {
+      "type": "concept",
+      "label": "拔剑",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "行为",
+        "礼仪"
+      ],
+      "description": "拔出佩剑，为古代决断、自卫、刺杀或表示决心的标志性动作。",
+      "total_refs": 1,
+      "total_chapters": 0
     },
     "拙": {
       "type": "concept",
@@ -61577,6 +61821,8 @@
         "仪制"
       ],
       "description": "持节钺，指担任节度使或方面大员。",
+      "quality": "standard",
+      "quality_score": 36,
       "total_refs": 8,
       "total_chapters": 0
     },
@@ -61728,6 +61974,21 @@
       ],
       "description": "指暂不行动、等待时机；出自唐马燧平田悦、五代闽越交战",
       "total_refs": 4,
+      "total_chapters": 0
+    },
+    "按剑": {
+      "type": "concept",
+      "label": "按剑",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "行为",
+        "礼仪"
+      ],
+      "description": "手按剑柄，为古代表示威严、愤怒或准备战斗的警示性姿态。",
+      "quality": "standard",
+      "quality_score": 38,
+      "total_refs": 0,
       "total_chapters": 0
     },
     "按劾": {
@@ -61885,7 +62146,7 @@
         "礼仪"
       ],
       "description": "振旅，整顿军队，出征归来的凯旋仪式",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "振武节度使": {
@@ -62718,7 +62979,7 @@
         "政治"
       ],
       "description": "攻伐，攻击征伐；通鉴记诸侯患秦攻伐无已，非其攻伐四夷则谏止之。",
-      "total_refs": 32,
+      "total_refs": 33,
       "total_chapters": 0
     },
     "攻克": {
@@ -62859,7 +63120,7 @@
       "description": "政事治理，国家管理的事务。",
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 1264,
+      "total_refs": 1273,
       "total_chapters": 0
     },
     "故事": {
@@ -63137,7 +63398,7 @@
         "礼乐"
       ],
       "description": "教化，以礼乐仁义教育感化民众",
-      "total_refs": 90,
+      "total_refs": 92,
       "total_chapters": 0
     },
     "教坊": {
@@ -63150,8 +63411,8 @@
         "唐代"
       ],
       "description": "唐代始设的宫廷俗乐机构，掌歌舞俳优、散乐百戏。",
-      "quality": "basic",
-      "quality_score": 49,
+      "quality": "standard",
+      "quality_score": 50,
       "total_refs": 13,
       "total_chapters": 0
     },
@@ -63456,7 +63717,7 @@
       "description": "整顿军队，保持军容严整。通鉴中整军而出、整军而退为军纪严明之表现。",
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 22,
+      "total_refs": 23,
       "total_chapters": 0
     },
     "文": {
@@ -63667,7 +63928,7 @@
         "制度"
       ],
       "description": "文法，法令条文，古代法律文书与行政程序之总称。",
-      "total_refs": 15,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "文移": {
@@ -63696,7 +63957,7 @@
       "description": "文辞篇章，亦指法令制度、礼仪文采。",
       "quality": "basic",
       "quality_score": 45,
-      "total_refs": 40,
+      "total_refs": 41,
       "total_chapters": 0
     },
     "文簿": {
@@ -63845,7 +64106,7 @@
       "description": "容量单位，斗与升，十升为一斗",
       "quality": "standard",
       "quality_score": 47,
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "斗舰": {
@@ -64058,7 +64319,7 @@
       "description": "天子授予将帅的专杀之权，象征军事征伐权。",
       "quality": "basic",
       "quality_score": 47,
-      "total_refs": 15,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "斩刑": {
@@ -64151,7 +64412,7 @@
       "description": "审理判决案件，古代司法制度的核心环节",
       "quality": "standard",
       "quality_score": 49,
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "新垣平": {
@@ -64164,7 +64425,7 @@
         "文帝"
       ],
       "description": "西汉方士，以望气见宠于汉文帝；建议作渭阳五帝庙，后以诈欺被诛",
-      "total_refs": 19,
+      "total_refs": 20,
       "total_chapters": 3
     },
     "新城": {
@@ -64755,7 +65016,7 @@
         "闽越"
       ],
       "description": "闽越王，越王勾践后裔",
-      "quality": "basic",
+      "quality": "standard",
       "quality_score": 30,
       "total_refs": 5,
       "total_chapters": 0
@@ -65084,7 +65345,7 @@
         "文化"
       ],
       "description": "时令，季节政令，古代依时施政之制度规范。",
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "时会": {
@@ -65252,7 +65513,7 @@
       "description": "西汉昌邑王，被霍光拥立为帝后因行事荒乱被废，后封海昏侯，在位仅27天",
       "quality": "standard",
       "quality_score": 57,
-      "total_refs": 38,
+      "total_refs": 41,
       "total_chapters": 0
     },
     "明": {
@@ -65303,7 +65564,7 @@
         "伦理"
       ],
       "description": "明君，贤明之君；明君以纳谏为德，以安民为本，以任贤为要。",
-      "total_refs": 57,
+      "total_refs": 56,
       "total_chapters": 0
     },
     "明哲保身": {
@@ -65332,7 +65593,7 @@
       "description": "天子宣政教、朝诸侯的礼仪建筑，儒者理想中的政治空间。",
       "quality": "basic",
       "quality_score": 51,
-      "total_refs": 43,
+      "total_refs": 44,
       "total_chapters": 0
     },
     "明州": {
@@ -65700,7 +65961,7 @@
         "西汉"
       ],
       "description": "汉昭帝刘弗陵的庙号",
-      "total_refs": 48,
+      "total_refs": 47,
       "total_chapters": 11
     },
     "昭穆": {
@@ -65890,7 +66151,7 @@
       "description": "西汉景帝时期的御史大夫，力主削藩，推行一系列法令改革，因削藩政策触怒诸侯导致七国之乱，最终被腰斩于市，是汉代著名的\"为国而死\"的政治家。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 179,
+      "total_refs": 181,
       "total_chapters": 10
     },
     "晋": {
@@ -66011,7 +66272,7 @@
         "太康"
       ],
       "description": "西晋开国皇帝，灭吴统一天下",
-      "total_refs": 76,
+      "total_refs": 77,
       "total_chapters": 0
     },
     "晋灭吴": {
@@ -66073,7 +66334,7 @@
       "description": "今山西太原，战国时赵国重要城市，三家分晋时赵氏据此抵御智伯水攻；唐朝建立时李渊太原起兵之地，历史地位极为重要。",
       "quality": "featured",
       "quality_score": 48,
-      "total_refs": 500,
+      "total_refs": 501,
       "total_chapters": 218
     },
     "晋阳之战": {
@@ -66167,6 +66428,18 @@
       ],
       "description": "清晨，日出前后的一段时间",
       "total_refs": 9,
+      "total_chapters": 0
+    },
+    "晨昏": {
+      "type": "concept",
+      "label": "晨昏",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "时间"
+      ],
+      "description": "晨昏，清晨与黄昏，古代喻指朝夕侍奉或日常起居。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "景丹": {
@@ -66770,7 +67043,7 @@
       "description": "曹操之子，曹魏开国皇帝，逼迫汉献帝禅让，正式终结东汉，建立魏国，在位期间延续曹操奠定的基业，同时也是著名的文学家和诗人。",
       "quality": "featured",
       "quality_score": 45,
-      "total_refs": 141,
+      "total_refs": 142,
       "total_chapters": 10
     },
     "曹仁": {
@@ -66919,7 +67192,7 @@
       "image": "images/曹操.jpg",
       "quality": "featured",
       "quality_score": 63,
-      "total_refs": 530,
+      "total_refs": 529,
       "total_chapters": 26
     },
     "曹操伐徐州": {
@@ -67044,7 +67317,7 @@
       "description": "曹魏大将军，曹真之子，与司马懿同受顾命辅政，渐专朝权而行事失当，最终在高平陵之变中被司马懿政变所擒，被夷三族，是曹魏政权向司马晋朝过渡的关键转折点。",
       "quality": "standard",
       "quality_score": 68,
-      "total_refs": 41,
+      "total_refs": 42,
       "total_chapters": 0
     },
     "曹王皋": {
@@ -67185,7 +67458,7 @@
         "朝代"
       ],
       "description": "三国之一，曹操奠基、曹丕建立，历五帝四十六年",
-      "total_refs": 207,
+      "total_refs": 208,
       "total_chapters": 0
     },
     "曹魏代汉": {
@@ -67355,7 +67628,7 @@
       "description": "官僚集团结党营私的政治现象",
       "quality": "standard",
       "quality_score": 48,
-      "total_refs": 23,
+      "total_refs": 22,
       "total_chapters": 0
     },
     "朋党比周": {
@@ -67490,7 +67763,7 @@
       "description": "汉武帝置朔方郡，北逐匈奴的前沿基地。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 92,
+      "total_refs": 91,
       "total_chapters": 0
     },
     "朔方节度使": {
@@ -67592,7 +67865,7 @@
         "天文"
       ],
       "description": "观望云气以占吉凶的方术",
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "朝_(概念)": {
@@ -67658,7 +67931,7 @@
       "description": "朝廷礼仪制度，叔孙通定汉朝仪",
       "quality": "standard",
       "quality_score": 39,
-      "total_refs": 21,
+      "total_refs": 22,
       "total_chapters": 0
     },
     "朝会": {
@@ -67708,7 +67981,7 @@
         "制度"
       ],
       "description": "帝王受朝施政之所，古代国家权力中枢。",
-      "total_refs": 885,
+      "total_refs": 890,
       "total_chapters": 0
     },
     "朝政": {
@@ -67828,7 +68101,7 @@
       "description": "周边政权向中原王朝进贡的制度化外交关系",
       "quality": "basic",
       "quality_score": 39,
-      "total_refs": 45,
+      "total_refs": 46,
       "total_chapters": 0
     },
     "朝贺": {
@@ -68510,7 +68783,7 @@
       "description": "权力威势是政治的核心，通鉴记载了诸多因权势膨胀而败亡的事例。",
       "quality": "standard",
       "quality_score": 29,
-      "total_refs": 101,
+      "total_refs": 102,
       "total_chapters": 0
     },
     "权变": {
@@ -68587,7 +68860,7 @@
       "description": "掌握大权、专擅朝政的大臣。",
       "quality": "standard",
       "quality_score": 30,
-      "total_refs": 213,
+      "total_refs": 214,
       "total_chapters": 10
     },
     "权衡": {
@@ -69042,7 +69315,7 @@
       "description": "唐末五代沙陀族将领，以独眼著称，历经黄巢之乱，以勤王功封晋王，奠定后唐建立的基础，与朱温长期对抗，是五代分裂格局的重要塑造者。",
       "quality": "featured",
       "quality_score": 39,
-      "total_refs": 190,
+      "total_refs": 191,
       "total_chapters": 56
     },
     "李兑": {
@@ -69727,7 +70000,7 @@
         "将领"
       ],
       "description": "成汉前将军、大将军，威震南中，后废李期自立。",
-      "total_refs": 11,
+      "total_refs": 12,
       "total_chapters": 0
     },
     "李岘": {
@@ -69810,7 +70083,7 @@
         "藩镇"
       ],
       "description": "唐代平卢节度使，李纳之子",
-      "total_refs": 4,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "李师道": {
@@ -70446,7 +70719,7 @@
       "description": "秦朝丞相，协助秦始皇统一六国，推行郡县制和书同文，晚年被赵高陷害腰斩。",
       "quality": "featured",
       "quality_score": 48,
-      "total_refs": 121,
+      "total_refs": 122,
       "total_chapters": 7
     },
     "李日知": {
@@ -70688,7 +70961,7 @@
       "description": "唐朝奇士，历仕玄宗、肃宗、代宗、德宗四朝，以道家出世之心入世辅政，多次在危难关头为皇帝出谋划策，是安史之乱中平叛的关键谋士。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 40,
+      "total_refs": 41,
       "total_chapters": 10
     },
     "李洧": {
@@ -70735,7 +71008,7 @@
         "李特之弟"
       ],
       "description": "西晋流民起义将领，李特之弟，助李特据蜀，后统其众。",
-      "total_refs": 10,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "李浑": {
@@ -71105,7 +71378,7 @@
       "description": "唐宪宗朝翰林学士、宰相，以敢言直谏著称，与白居易并肩上疏反对节度使进奉陋习、力争释放宫人减租税，是元和中兴中最活跃的直言谏臣之一。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 31,
+      "total_refs": 30,
       "total_chapters": 0
     },
     "李继岌": {
@@ -71668,7 +71941,7 @@
       "description": "西汉将领，李广之孙，率五千步卒深入漠北与匈奴十余万骑血战，弹尽粮绝后被迫投降，被汉武帝族灭全家，成为汉代忠义与悲剧的双重象征。",
       "quality": "basic",
       "quality_score": 54,
-      "total_refs": 47,
+      "total_refs": 46,
       "total_chapters": 0
     },
     "李陵之战": {
@@ -72232,7 +72505,7 @@
         "文学家"
       ],
       "description": "晚唐诗人、文学家，著有《罪言》",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "杜甫": {
@@ -72266,7 +72539,7 @@
         "河东"
       ],
       "description": "曹操任命的河东太守，治政宽惠；以勇智应变为荀彧所荐",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 3
     },
     "杜稜": {
@@ -72427,7 +72700,7 @@
         "宰相"
       ],
       "description": "杜鸿渐，唐肃宗同平章事",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "杜黄裳": {
@@ -72702,8 +72975,8 @@
         "楼船将军"
       ],
       "description": "西汉楼船将军，平定南越、朝鲜",
-      "quality": "basic",
-      "quality_score": 33,
+      "quality": "standard",
+      "quality_score": 34,
       "total_refs": 9,
       "total_chapters": 0
     },
@@ -73321,7 +73594,7 @@
       "description": "隋代最重要的军事政治家，协助隋文帝平定三方叛乱，参与灭陈之战，后又助隋炀帝夺嫡，官至尚书令，以才干与狠辣著称，是隋朝建国和运转的核心人物之一。",
       "quality": "featured",
       "quality_score": 47,
-      "total_refs": 55,
+      "total_refs": 53,
       "total_chapters": 0
     },
     "杨纂": {
@@ -74365,7 +74638,7 @@
       "description": "唐代著名文学家，\"唐宋八大家\"之一，因参与王叔文革新而遭贬永州十年，以山水游记散文著称，《永州八记》传世。",
       "quality": "basic",
       "quality_score": 41,
-      "total_refs": 15,
+      "total_refs": 16,
       "total_chapters": 2
     },
     "柳庆": {
@@ -74591,6 +74864,18 @@
       ],
       "description": "房屋的正梁，脊檩；喻国家栋梁之材",
       "total_refs": 5,
+      "total_chapters": 0
+    },
+    "栋宇": {
+      "type": "concept",
+      "label": "栋宇",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "建筑"
+      ],
+      "description": "栋宇，房屋梁栋，古代指房屋建筑。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "栋梁": {
@@ -75420,7 +75705,7 @@
       "description": "东汉最大外戚权臣，专权近二十年，甚至毒杀质帝，后被汉桓帝联合宦官一举铲除",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 99,
+      "total_refs": 100,
       "total_chapters": 0
     },
     "梁冀专权": {
@@ -75605,7 +75890,7 @@
         "东汉"
       ],
       "description": "梁松，东汉光武帝婿，官至虎贲中郎将，因怨望下狱死。",
-      "total_refs": 15,
+      "total_refs": 14,
       "total_chapters": 4
     },
     "梁武帝": {
@@ -76186,7 +76471,7 @@
         "西汉"
       ],
       "description": "战国楚国及历代封楚王者称号",
-      "total_refs": 218,
+      "total_refs": 217,
       "total_chapters": 61
     },
     "楚王英": {
@@ -76304,7 +76589,7 @@
       "description": "多层大型战船，汉代水军主力，汉武帝征南越伐朝鲜所用。",
       "quality": "standard",
       "quality_score": 36,
-      "total_refs": 32,
+      "total_refs": 31,
       "total_chapters": 0
     },
     "楼观": {
@@ -77116,7 +77401,7 @@
         "社会"
       ],
       "description": "欺骗讹诈，用虚假手段谋取利益。",
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "款塞": {
@@ -77289,7 +77574,7 @@
         "历法"
       ],
       "description": "历法中的正月初一，古代王朝正统象征",
-      "total_refs": 35,
+      "total_refs": 36,
       "total_chapters": 0
     },
     "正直": {
@@ -77489,7 +77774,7 @@
       "image": "images/武则天.jpg",
       "quality": "featured",
       "quality_score": 65,
-      "total_refs": 94,
+      "total_refs": 95,
       "total_chapters": 0
     },
     "武功爵": {
@@ -77841,7 +78126,7 @@
         "郡"
       ],
       "description": "秦汉武陵郡，蛮夷所居，马援征五溪蛮地。",
-      "total_refs": 26,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "武陵王": {
@@ -78029,7 +78314,7 @@
         "社会"
       ],
       "description": "残忍凶暴，形容官吏酷虐或行为野蛮",
-      "total_refs": 40,
+      "total_refs": 41,
       "total_chapters": 0
     },
     "殡_(礼制)": {
@@ -79105,7 +79390,7 @@
         "唐"
       ],
       "description": "百姓无法生活下去，形容生活极端困苦",
-      "total_refs": 17,
+      "total_refs": 18,
       "total_chapters": 0
     },
     "民以食为天": {
@@ -79180,7 +79465,9 @@
         "农业",
         "经济"
       ],
-      "description": "民田，百姓私有之田地；通鉴记复收民田半租三十税一，穿渠溉民田万馀顷。",
+      "description": "民田，百姓私有之田地；通鉴记复收民田半租三十税一。",
+      "quality": "standard",
+      "quality_score": 36,
       "total_refs": 9,
       "total_chapters": 0
     },
@@ -79246,7 +79533,7 @@
         "军事"
       ],
       "description": "水军，古代在水域作战的兵种",
-      "total_refs": 71,
+      "total_refs": 72,
       "total_chapters": 0
     },
     "水战": {
@@ -79673,7 +79960,7 @@
       "description": "汉，汉朝、汉族；汉承秦制为三代以下之变，汉高祖起布衣而得天下。",
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 83,
+      "total_refs": 87,
       "total_chapters": 0
     },
     "汉中": {
@@ -79742,7 +80029,7 @@
         "王朝"
       ],
       "description": "汉朝，包括西汉和东汉，通鉴中\"汉代\"被视为礼法之象征，亦为习凿齿论曹操之所据。",
-      "total_refs": 504,
+      "total_refs": 509,
       "total_chapters": 0
     },
     "汉元帝": {
@@ -79756,7 +80043,7 @@
       "description": "西汉皇帝，多病委政宦官，汉室由盛转衰",
       "quality": "basic",
       "quality_score": 38,
-      "total_refs": 142,
+      "total_refs": 143,
       "total_chapters": 0
     },
     "汉初三杰": {
@@ -79852,7 +80139,7 @@
       "description": "西汉中期皇帝，励精图治，以\"霸王道杂之\"为治国理念，在位期间国力强盛，史称昭宣中兴",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 233,
+      "total_refs": 234,
       "total_chapters": 0
     },
     "汉惠帝": {
@@ -79878,7 +80165,7 @@
         "成帝"
       ],
       "description": "西汉第十二位皇帝，在位期间王氏外戚专权，朝政日坏。",
-      "total_refs": 110,
+      "total_refs": 113,
       "total_chapters": 0
     },
     "汉文帝": {
@@ -79896,7 +80183,7 @@
       "description": "西汉第三位皇帝，以宽仁节俭著称，与景帝共创\"文景之治\"，是汉朝盛世的奠基者。",
       "quality": "featured",
       "quality_score": 57,
-      "total_refs": 325,
+      "total_refs": 328,
       "total_chapters": 28
     },
     "汉昌": {
@@ -79927,7 +80214,7 @@
       "description": "东汉第二位皇帝，与章帝共创\"明章之治\"，遣使西域，引入佛教",
       "quality": "basic",
       "quality_score": 46,
-      "total_refs": 256,
+      "total_refs": 258,
       "total_chapters": 0
     },
     "汉昭帝": {
@@ -80019,7 +80306,7 @@
       "image": "images/汉武帝.jpg",
       "quality": "featured",
       "quality_score": 70,
-      "total_refs": 698,
+      "total_refs": 701,
       "total_chapters": 72
     },
     "汉武帝北伐匈奴": {
@@ -80130,7 +80417,7 @@
         "开国皇帝"
       ],
       "description": "汉朝开国皇帝，秦末起兵，灭楚建汉，史称汉高祖。",
-      "total_refs": 127,
+      "total_refs": 128,
       "total_chapters": 0
     },
     "汉高祖刘邦": {
@@ -80152,7 +80439,7 @@
       "description": "西汉开国皇帝，以布衣起兵灭秦，楚汉争霸中击败项羽，建立汉朝。",
       "quality": "featured",
       "quality_score": 50,
-      "total_refs": 718,
+      "total_refs": 720,
       "total_chapters": 190
     },
     "汗_(概念)": {
@@ -80475,7 +80762,7 @@
         "封国"
       ],
       "description": "西汉江都国，治广陵，约今江苏扬州一带。",
-      "total_refs": 43,
+      "total_refs": 42,
       "total_chapters": 0
     },
     "江都之变": {
@@ -81319,7 +81606,7 @@
       "description": "黄河以北地区，战国燕赵故地",
       "quality": "standard",
       "quality_score": 46,
-      "total_refs": 192,
+      "total_refs": 193,
       "total_chapters": 0
     },
     "河南": {
@@ -81583,7 +81870,7 @@
         "思想"
       ],
       "description": "治理国家之道，通鉴载韩昭侯学治国于申不害、荀卿论治国之要等。",
-      "total_refs": 229,
+      "total_refs": 231,
       "total_chapters": 0
     },
     "治狱": {
@@ -81609,7 +81896,7 @@
       "description": "治国之道，通鉴多载君臣论治道之言。",
       "quality": "standard",
       "quality_score": 35,
-      "total_refs": 63,
+      "total_refs": 65,
       "total_chapters": 0
     },
     "沼_(概念)": {
@@ -81732,7 +82019,7 @@
       "description": "法度，国家法令制度",
       "quality": "standard",
       "quality_score": 44,
-      "total_refs": 38,
+      "total_refs": 39,
       "total_chapters": 0
     },
     "法律": {
@@ -81938,7 +82225,7 @@
         "唐代"
       ],
       "description": "注拟，唐代吏部铨选程序之一，据选人资历拟定官职后报请审批",
-      "total_refs": 6,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "泪_(概念)": {
@@ -82005,7 +82292,7 @@
         "兖州"
       ],
       "description": "五岳之东岳，齐鲁之望，帝王封禅之地。",
-      "total_refs": 77,
+      "total_refs": 76,
       "total_chapters": 0
     },
     "泽_(概念)": {
@@ -82152,7 +82439,7 @@
         "洛阳"
       ],
       "description": "东周都城，即洛阳。",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "洛阳": {
@@ -82337,7 +82624,7 @@
         "经济"
       ],
       "description": "流离失所、四处逃亡，百姓因战乱或苛政而背井离乡",
-      "total_refs": 54,
+      "total_refs": 55,
       "total_chapters": 0
     },
     "流人": {
@@ -83099,7 +83386,7 @@
         "将领"
       ],
       "description": "战国楚将，奉楚命救齐，后为齐相，杀齐湣王欲与燕分齐地。",
-      "total_refs": 14,
+      "total_refs": 13,
       "total_chapters": 0
     },
     "淝水": {
@@ -83195,7 +83482,7 @@
         "宗教"
       ],
       "description": "淫祠，滥设之祠庙，不在国家祀典之民间祠宇。",
-      "total_refs": 7,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "淫雨": {
@@ -83330,7 +83617,7 @@
         "法律"
       ],
       "description": "文致苛刻",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "深根固本": {
@@ -83450,7 +83737,7 @@
       "description": "清廉正直，古代官吏的重要品德。通鉴中清正之士为吏治之楷模。",
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 20,
+      "total_refs": 21,
       "total_chapters": 0
     },
     "清河": {
@@ -83806,7 +84093,7 @@
         "关中"
       ],
       "description": "黄河最大支流，流经关中平原，秦都咸阳、汉唐长安所傍。",
-      "total_refs": 18,
+      "total_refs": 17,
       "total_chapters": 0
     },
     "渭水之盟": {
@@ -83916,7 +84203,7 @@
         "生活"
       ],
       "description": "游宴，游乐宴饮，帝王贵族之娱乐活动。",
-      "total_refs": 17,
+      "total_refs": 18,
       "total_chapters": 0
     },
     "游弈": {
@@ -83952,7 +84239,7 @@
         "谏臣"
       ],
       "description": "北魏侍中，以直言敢谏著称。",
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "游说": {
@@ -84701,7 +84988,7 @@
       "description": "关中东部咽喉，历代兵家必争，取代函谷关成为中原入陕要道。",
       "quality": "basic",
       "quality_score": 32,
-      "total_refs": 56,
+      "total_refs": 57,
       "total_chapters": 0
     },
     "潼关之战": {
@@ -84743,7 +85030,7 @@
         "兖州"
       ],
       "description": "战国卫都，秦汉东郡治，河决要冲。",
-      "total_refs": 21,
+      "total_refs": 20,
       "total_chapters": 0
     },
     "濮阳兴": {
@@ -85055,7 +85342,7 @@
         "天象"
       ],
       "description": "古人视作上天谴告的异常自然现象，与朝政得失密切相关",
-      "total_refs": 135,
+      "total_refs": 137,
       "total_chapters": 0
     },
     "灾眚": {
@@ -85337,7 +85624,7 @@
       "description": "古代边境军事报警系统",
       "quality": "basic",
       "quality_score": 45,
-      "total_refs": 18,
+      "total_refs": 19,
       "total_chapters": 0
     },
     "焉耆": {
@@ -85663,7 +85950,7 @@
       "description": "战国末年燕国太子，因怨恨秦王而策划荆轲刺秦，是荆轲刺秦王事件的主谋。",
       "quality": "featured",
       "quality_score": 36,
-      "total_refs": 20,
+      "total_refs": 21,
       "total_chapters": 3
     },
     "燕子献": {
@@ -85704,7 +85991,7 @@
       "description": "战国燕国明君，以黄金台招揽天下贤才，与乐毅谋划伐齐，几乎灭亡齐国，是战国时代以礼贤下士实现国家复仇的典范君主。",
       "quality": "standard",
       "quality_score": 35,
-      "total_refs": 48,
+      "total_refs": 49,
       "total_chapters": 0
     },
     "燕然山": {
@@ -86139,7 +86426,7 @@
       "description": "牙将，帅府牙门之将，中下级军官",
       "quality": "standard",
       "quality_score": 36,
-      "total_refs": 34,
+      "total_refs": 35,
       "total_chapters": 0
     },
     "牙校": {
@@ -86973,7 +87260,7 @@
       "description": "刑狱。狱吏不直为秦罚之苛，决狱为赵高教胡亥之能，狱中上书为李斯自辩之策。",
       "quality": "standard",
       "quality_score": 36,
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "狱_(概念)": {
@@ -87066,7 +87353,7 @@
         "状态"
       ],
       "description": "狼狈，传说中前腿极短之兽须搭狼背而行；喻困顿窘迫之状。",
-      "total_refs": 18,
+      "total_refs": 19,
       "total_chapters": 0
     },
     "猎_(概念)": {
@@ -87290,7 +87577,7 @@
         "皇帝"
       ],
       "description": "唐玄宗李隆基，开元盛世之主，天宝年间安史之乱致唐由盛转衰。",
-      "total_refs": 55,
+      "total_refs": 56,
       "total_chapters": 27
     },
     "玄武门之变": {
@@ -88370,7 +88657,7 @@
         "国王"
       ],
       "description": "五代闽国君主，杀兄自立，后称帝。",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "王建": {
@@ -88389,7 +88676,7 @@
       "description": "五代十国前蜀开创者，原唐代将领，割据蜀地，建立前蜀政权，以仁政著称。",
       "quality": "featured",
       "quality_score": 51,
-      "total_refs": 128,
+      "total_refs": 127,
       "total_chapters": 67
     },
     "王式": {
@@ -89245,7 +89532,7 @@
       "description": "前秦苻坚的首席谋臣，被苻坚比为管仲、诸葛亮，辅助前秦统一北方，临终劝戒苻坚勿攻东晋。",
       "quality": "featured",
       "quality_score": 51,
-      "total_refs": 75,
+      "total_refs": 74,
       "total_chapters": 13
     },
     "王玄策": {
@@ -89254,7 +89541,7 @@
       "aliases": [],
       "tags": [],
       "description": "唐代外交家，曾出使印度",
-      "total_refs": 3,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "王玄谟": {
@@ -89271,7 +89558,7 @@
       "description": "刘宋将领，以好进言\"令人有封狼居须意\"受宋文帝赏识，主持北伐围攻滑台，因贪财延误军机而一败涂地，其失利导致宋文帝北伐全线崩溃，是以口才进身却无将才的典型反例。",
       "quality": "basic",
       "quality_score": 52,
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "王玙": {
@@ -89388,7 +89675,7 @@
         "宦官"
       ],
       "description": "东汉宦官，权倾朝野。",
-      "total_refs": 17,
+      "total_refs": 18,
       "total_chapters": 0
     },
     "王皇后": {
@@ -89574,7 +89861,7 @@
         "政治"
       ],
       "description": "帝王，以王道治国的君主。",
-      "total_refs": 81,
+      "total_refs": 82,
       "total_chapters": 0
     },
     "王肃": {
@@ -89667,7 +89954,7 @@
       "description": "西汉外戚，篡汉建立新朝，推行激进改制，最终在绿林赤眉起义中覆灭，是中国历史上著名的\"篡位者\"与改革失败典型。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 603,
+      "total_refs": 604,
       "total_chapters": 33
     },
     "王莽改制": {
@@ -89885,7 +90172,7 @@
         "王莽"
       ],
       "description": "王邑，新莽大司空、隆新公，王莽心腹。",
-      "total_refs": 18,
+      "total_refs": 19,
       "total_chapters": 0
     },
     "王郎": {
@@ -90245,7 +90532,7 @@
       "description": "官印及其系绶带的总称，汉制官秩高低以玺绶材质颜色区别。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 28,
+      "total_refs": 29,
       "total_chapters": 0
     },
     "珍宝": {
@@ -90479,7 +90766,7 @@
       "description": "军队出征后胜利返回，古代军事行动的重要环节，常与振旅、凯旋并称。",
       "quality": "standard",
       "quality_score": 37,
-      "total_refs": 15,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "班彪": {
@@ -90529,7 +90816,7 @@
       "description": "东汉名将外交家，以三十六人经营西域三十余年，重开丝绸之路，封定远侯，是中国历史上最著名的外交军事奇才之一。",
       "quality": "featured",
       "quality_score": 39,
-      "total_refs": 81,
+      "total_refs": 80,
       "total_chapters": 5
     },
     "班超定西域": {
@@ -91248,7 +91535,7 @@
         "谋略"
       ],
       "description": "用兵，运用军队作战的策略和方法，通鉴载吴起、荀卿、韩信、项羽等用兵之论。",
-      "total_refs": 273,
+      "total_refs": 274,
       "total_chapters": 115
     },
     "用兵如神": {
@@ -91422,7 +91709,7 @@
         "巫蛊"
       ],
       "description": "西汉丞相、富民侯，以讼太子冤一言寤意，数月取宰相",
-      "total_refs": 5,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "田单": {
@@ -91898,7 +92185,7 @@
         "军事"
       ],
       "description": "甲兵，铠甲与兵器，泛指军队武备",
-      "total_refs": 24,
+      "total_refs": 25,
       "total_chapters": 0
     },
     "甲士": {
@@ -91979,7 +92266,7 @@
       "description": "战国韩国名相，法家\"术\"派代表人物，韩昭侯任其为相，以\"术\"治国十七年，使韩国政治稳定、兵力增强，无人敢侵，是战国时代法家实践的重要代表。",
       "quality": "standard",
       "quality_score": 36,
-      "total_refs": 25,
+      "total_refs": 24,
       "total_chapters": 0
     },
     "申不害相韩": {
@@ -92444,7 +92731,7 @@
         "概念"
       ],
       "description": "疆土，国家领土疆域",
-      "total_refs": 9,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "疆场": {
@@ -93206,7 +93493,7 @@
       "description": "唐朝大诗人，以新乐府运动著称，诗作广泛反映民间疾苦，曾任翰林学士，是中唐最具社会关怀的文学家。",
       "quality": "featured",
       "quality_score": 50,
-      "total_refs": 32,
+      "total_refs": 31,
       "total_chapters": 5
     },
     "白帝城托孤": {
@@ -93555,7 +93842,7 @@
         "庶民"
       ],
       "description": "百姓，中国古代对普通民众的统称，与官相对。",
-      "total_refs": 699,
+      "total_refs": 700,
       "total_chapters": 244
     },
     "百家": {
@@ -93626,7 +93913,7 @@
       "description": "朝鲜半岛古国，与高句丽、新罗鼎立，唐灭百济。",
       "quality": "standard",
       "quality_score": 50,
-      "total_refs": 16,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "百越": {
@@ -93729,7 +94016,7 @@
         "制度"
       ],
       "description": "皇帝，中国古代最高统治者的称号，始于秦始皇。",
-      "total_refs": 836,
+      "total_refs": 838,
       "total_chapters": 273
     },
     "皇族": {
@@ -93761,7 +94048,7 @@
       "description": "东汉末年名将，黄巾起义爆发时率军平叛，以火攻等战术连克黄巾，是东汉最后一位维护朝廷权威的杰出将领，后遭董卓打压。",
       "quality": "basic",
       "quality_score": 52,
-      "total_refs": 32,
+      "total_refs": 31,
       "total_chapters": 3
     },
     "皇甫晖": {
@@ -93789,7 +94076,7 @@
         "前燕"
       ],
       "description": "前燕大臣，以直言敢谏著称",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 5
     },
     "皇甫规": {
@@ -94091,7 +94378,7 @@
         "生活"
       ],
       "description": "食盐。齐献鱼盐之地以断赵右肩，煮海为盐为吴王濞富国之资，盐泽为汉通西域所经。",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "盐_(概念)": {
@@ -94250,7 +94537,7 @@
         "逻辑"
       ],
       "description": "盖，车盖、遮盖、发语词；盖以周之子孙为推论之辞，暑不张盖为五羖大夫之俭。",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "盖勋": {
@@ -94356,7 +94643,7 @@
         "社会"
       ],
       "description": "盗匪、贼寇。",
-      "total_refs": 77,
+      "total_refs": 78,
       "total_chapters": 0
     },
     "盘_(器物)": {
@@ -94514,7 +94801,7 @@
         "制度"
       ],
       "description": "臣子直率而言，无所隐讳。",
-      "total_refs": 200,
+      "total_refs": 201,
       "total_chapters": 0
     },
     "直言无隐": {
@@ -94573,7 +94860,7 @@
         "职官"
       ],
       "description": "相国，战国至秦汉最高行政官职。",
-      "total_refs": 122,
+      "total_refs": 123,
       "total_chapters": 63
     },
     "相里金": {
@@ -94647,7 +94934,7 @@
         "政治"
       ],
       "description": "省费，节省费用，古代财政管理中节约开支之理念与措施。",
-      "total_refs": 6,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "眉_(概念)": {
@@ -94798,7 +95085,7 @@
         "监督"
       ],
       "description": "亲临前线监督将士作战，为将帅或监军激励士气的直接指挥行为。",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "督责": {
@@ -94823,7 +95110,7 @@
         "监察"
       ],
       "description": "汉代郡守属吏，掌督察属县、宣达教令。",
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "矛": {
@@ -94836,7 +95123,7 @@
         "器物"
       ],
       "description": "长矛。持矛为商君出行之卫，长矛为孙策破黄祖之兵，横矛为张飞据水断桥之勇。",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "矛_(器物)": {
@@ -95009,6 +95296,8 @@
         "兵器"
       ],
       "description": "短兵，短柄兵器，古代指刀剑等近战武器，亦指近身搏斗。",
+      "quality": "standard",
+      "quality_score": 36,
       "total_refs": 10,
       "total_chapters": 0
     },
@@ -95096,7 +95385,7 @@
       "description": "十六国时期后赵建立者，出身羯人奴隶，以军事才能起家，建立后赵，是中国历史上唯一以奴隶身份称帝者。",
       "quality": "featured",
       "quality_score": 39,
-      "total_refs": 133,
+      "total_refs": 134,
       "total_chapters": 0
     },
     "石君立": {
@@ -95230,7 +95519,7 @@
       "description": "西汉中书令，元帝时专权",
       "quality": "basic",
       "quality_score": 54,
-      "total_refs": 42,
+      "total_refs": 43,
       "total_chapters": 0
     },
     "石榴": {
@@ -95287,7 +95576,7 @@
       "description": "后赵第三代君主，石勒的侄子，以极度残暴著称，在位期间大兴土木、滥杀臣民，后赵在其死后迅速崩溃。",
       "quality": "featured",
       "quality_score": 45,
-      "total_refs": 118,
+      "total_refs": 119,
       "total_chapters": 0
     },
     "石赟": {
@@ -95854,9 +96143,9 @@
         "文化"
       ],
       "description": "礼仪与音乐的合称，儒家治国的核心制度",
-      "quality": "basic",
-      "quality_score": 31,
-      "total_refs": 106,
+      "quality": "standard",
+      "quality_score": 40,
+      "total_refs": 107,
       "total_chapters": 0
     },
     "礼仪": {
@@ -95869,7 +96158,7 @@
         "制度"
       ],
       "description": "礼仪，礼法仪式之总称，涵盖朝聘、祭祀、冠婚、丧葬等国家典仪",
-      "total_refs": 203,
+      "total_refs": 205,
       "total_chapters": 0
     },
     "礼制": {
@@ -95885,7 +96174,7 @@
       "description": "礼乐制度是中国古代政治秩序的根本，通鉴开篇即论礼之分，强调礼制为治国之本。",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 236,
+      "total_refs": 235,
       "total_chapters": 1
     },
     "礼学": {
@@ -96106,7 +96395,7 @@
         "礼制"
       ],
       "description": "祈谷，祈求丰年之祭礼",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "祈雨": {
@@ -96230,7 +96519,7 @@
       "description": "东晋名将，\"闻鸡起舞\"的典故主角，北伐中原，收复黄河以南失地，是东晋最具北伐精神的将领，壮志未酬而卒。",
       "quality": "featured",
       "quality_score": 53,
-      "total_refs": 43,
+      "total_refs": 44,
       "total_chapters": 8
     },
     "祖逖北伐": {
@@ -96339,7 +96628,7 @@
         "青州"
       ],
       "description": "祝阿，西汉县，属平原郡，耿弇拔祝阿以开齐地。",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "神": {
@@ -96390,6 +96679,18 @@
       ],
       "description": "唐代北衙禁军之一，与左右羽林、左右龙武合称北牙六军。",
       "total_refs": 2,
+      "total_chapters": 0
+    },
+    "神气": {
+      "type": "concept",
+      "label": "神气",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "哲学"
+      ],
+      "description": "神气，精神气色，古代指人之精神风貌与气度。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "神爵": {
@@ -96629,7 +96930,7 @@
       "description": "古代帝王在泰山或南郊祭祀天地的最高典礼，封禅为其极致。",
       "quality": "basic",
       "quality_score": 43,
-      "total_refs": 32,
+      "total_refs": 33,
       "total_chapters": 0
     },
     "祭祀": {
@@ -96735,7 +97036,7 @@
       "description": "向神灵祈祷祭祀，古代社会中的宗教活动，上自帝王下至民间皆有之。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "祷请": {
@@ -97360,7 +97661,7 @@
         "文化"
       ],
       "description": "宫廷藏书及秘籍，汉代校书制度",
-      "total_refs": 41,
+      "total_refs": 42,
       "total_chapters": 0
     },
     "秘书监": {
@@ -97467,7 +97768,7 @@
         "制度"
       ],
       "description": "租赋，田租税赋，古代国家财政收入之主要来源。",
-      "total_refs": 12,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "秣陵": {
@@ -97507,7 +97808,7 @@
         "秦朝"
       ],
       "description": "秦国的简称，亦指秦朝",
-      "total_refs": 143,
+      "total_refs": 145,
       "total_chapters": 0
     },
     "秦丰": {
@@ -97571,7 +97872,7 @@
       "description": "战国七雄之一，经商鞅变法后迅速崛起，最终由秦始皇完成统一六国，建立中国历史上第一个中央集权帝国。",
       "quality": "featured",
       "quality_score": 43,
-      "total_refs": 207,
+      "total_refs": 209,
       "total_chapters": 17
     },
     "秦始皇": {
@@ -97593,7 +97894,7 @@
       "image": "images/秦始皇.jpg",
       "quality": "featured",
       "quality_score": 70,
-      "total_refs": 304,
+      "total_refs": 305,
       "total_chapters": 24
     },
     "秦孝公": {
@@ -98383,7 +98684,7 @@
       "description": "古代国家向民众征收的赋税制度",
       "quality": "standard",
       "quality_score": 46,
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "稷": {
@@ -98696,7 +98997,7 @@
       "description": "北方游牧民族，隋唐时期重要边患，曾建立东突厥和西突厥汗国。",
       "quality": "basic",
       "quality_score": 40,
-      "total_refs": 199,
+      "total_refs": 198,
       "total_chapters": 0
     },
     "突围": {
@@ -98875,7 +99176,7 @@
       "description": "东汉明帝时期将领，多次出击匈奴，重新打通西域通道，是东汉经营西域的主要将领之一，也是班超出使西域的直接推动者。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 16,
+      "total_refs": 15,
       "total_chapters": 4
     },
     "窦太后": {
@@ -99382,7 +99683,7 @@
       "description": "秦末最后一位大将，以骊山刑徒为兵，力挫群雄，后降项羽封雍王，兵败自杀。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 49,
+      "total_refs": 50,
       "total_chapters": 0
     },
     "章陵": {
@@ -103953,7 +104254,7 @@
         "礼仪"
       ],
       "description": "以策书封官授爵之命。",
-      "total_refs": 16,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "策试": {
@@ -104589,7 +104890,7 @@
         "文书"
       ],
       "description": "古代官府簿册文书，记录钱粮收支等",
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "簿录": {
@@ -104796,7 +105097,7 @@
         "后勤"
       ],
       "description": "古代军队粮食与薪饷。",
-      "total_refs": 12,
+      "total_refs": 13,
       "total_chapters": 0
     },
     "粱": {
@@ -104835,7 +105136,7 @@
         "生活"
       ],
       "description": "粱肉，精粮与肉食，富贵之食",
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "精": {
@@ -105440,8 +105741,8 @@
         "经学"
       ],
       "description": "汉代附会儒家经书的谶纬类典籍，以神学迷信解释经义",
-      "quality": "basic",
-      "quality_score": 25,
+      "quality": "standard",
+      "quality_score": 31,
       "total_refs": 0,
       "total_chapters": 0
     },
@@ -105502,7 +105803,7 @@
         "臣光曰"
       ],
       "description": "纲纪，国家法度与礼法秩序，为司马光史论核心概念，通鉴开宗明义之语。",
-      "total_refs": 42,
+      "total_refs": 44,
       "total_chapters": 0
     },
     "纲运": {
@@ -105570,7 +105871,7 @@
         "制度"
       ],
       "description": "纳贡，诸侯向天子进贡",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "纳质": {
@@ -105694,7 +105995,9 @@
         "三国",
         "军事"
       ],
-      "description": "纵火，故意放火，常用于军事进攻",
+      "description": "纵火，故意放火，常用于军事进攻之战术手段。",
+      "quality": "standard",
+      "quality_score": 38,
       "total_refs": 32,
       "total_chapters": 0
     },
@@ -105825,6 +106128,19 @@
       "tags": [],
       "description": "练，训练，古代指选练士卒",
       "total_refs": 0,
+      "total_chapters": 0
+    },
+    "练兵": {
+      "type": "concept",
+      "label": "练兵",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "备战",
+        "制度"
+      ],
+      "description": "训练军队，为古代提高军队战斗力的日常军事活动。",
+      "total_refs": 3,
       "total_chapters": 0
     },
     "练卒": {
@@ -106040,7 +106356,7 @@
         "学术思想"
       ],
       "description": "儒家经典之学",
-      "total_refs": 54,
+      "total_refs": 56,
       "total_chapters": 0
     },
     "经术": {
@@ -106107,6 +106423,8 @@
         "典籍"
       ],
       "description": "儒家经典及重要文献典籍，传统文化之载体。",
+      "quality": "standard",
+      "quality_score": 40,
       "total_refs": 2,
       "total_chapters": 0
     },
@@ -106313,7 +106631,7 @@
         "政治"
       ],
       "description": "统帅，三军之主将；统帅为军中主将，运筹指挥为三军之司命。",
-      "total_refs": 82,
+      "total_refs": 83,
       "total_chapters": 0
     },
     "绢_(概念)": {
@@ -106417,7 +106735,7 @@
         "制度"
       ],
       "description": "古代继承大业之位。",
-      "total_refs": 104,
+      "total_refs": 105,
       "total_chapters": 0
     },
     "绫_(概念)": {
@@ -106943,6 +107261,19 @@
       "total_refs": 4,
       "total_chapters": 0
     },
+    "缮兵": {
+      "type": "concept",
+      "label": "缮兵",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "备战",
+        "制度"
+      ],
+      "description": "修整兵器、整军备战，为古代战前准备或长期防御的重要军事活动。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "缮写": {
       "type": "concept",
       "label": "缮写",
@@ -107184,7 +107515,7 @@
         "西晋"
       ],
       "description": "西晋将领，梁州刺史，参与伐吴及平赵廞",
-      "total_refs": 24,
+      "total_refs": 25,
       "total_chapters": 4
     },
     "罗弘信": {
@@ -107320,7 +107651,7 @@
         "外交"
       ],
       "description": "罢兵，停止战争、撤军休战，古代战争中罢兵为重要政治决策",
-      "total_refs": 45,
+      "total_refs": 46,
       "total_chapters": 0
     },
     "罪": {
@@ -107385,7 +107716,7 @@
         "风俗"
       ],
       "description": "设置酒宴，为古代宴会、犒赏、庆典或外交场合的重要礼仪活动。",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "置驿": {
@@ -107590,7 +107921,7 @@
       "description": "古代中国西部的游牧民族，与汉王朝长期交战与交融。",
       "quality": "standard",
       "quality_score": 35,
-      "total_refs": 30,
+      "total_refs": 31,
       "total_chapters": 0
     },
     "羌人": {
@@ -107950,7 +108281,7 @@
         "丞相"
       ],
       "description": "西汉丞相，以明经术为京兆尹，官至丞相，号\"通明相\"。",
-      "total_refs": 13,
+      "total_refs": 14,
       "total_chapters": 0
     },
     "翟璜": {
@@ -108003,7 +108334,7 @@
         "唐"
       ],
       "description": "翰林，唐代始置的宫中机构；翰林学士掌制诏书命，号为内相。",
-      "total_refs": 76,
+      "total_refs": 77,
       "total_chapters": 0
     },
     "翼": {
@@ -108211,6 +108542,18 @@
       "quality": "standard",
       "quality_score": 29,
       "total_refs": 29,
+      "total_chapters": 0
+    },
+    "耆旧": {
+      "type": "concept",
+      "label": "耆旧",
+      "aliases": [],
+      "tags": [
+        "社会",
+        "人物"
+      ],
+      "description": "耆旧，年高而有声望者，古代指地方绅老故旧。",
+      "total_refs": 1,
       "total_chapters": 0
     },
     "耆老": {
@@ -108493,7 +108836,7 @@
       "description": "东汉开国名将，云台二十八将之一，协助光武帝刘秀平定河北，以积极进取的军事主张著称。",
       "quality": "featured",
       "quality_score": 44,
-      "total_refs": 59,
+      "total_refs": 61,
       "total_chapters": 7
     },
     "耿弇平齐": {
@@ -108593,8 +108936,8 @@
         "侠义"
       ],
       "description": "战国时刺客，为严仲子刺杀韩相侠累，以母老在堂拒金不受，事成之后自毁面目而死。",
-      "quality": "basic",
-      "quality_score": 23,
+      "quality": "standard",
+      "quality_score": 28,
       "total_refs": 27,
       "total_chapters": 0
     },
@@ -108631,7 +108974,7 @@
         "制度"
       ],
       "description": "职掌，指官员或机构的职能管辖范围，亦指具体负责某事的官吏",
-      "total_refs": 10,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "职田": {
@@ -109232,7 +109575,7 @@
       "description": "汉初名将韩信以背水列阵、出奇制胜的战役（前204年），以两万汉军歼灭赵国二十万大军，是中国军事史上以少胜多的经典战例。",
       "quality": "standard",
       "quality_score": 43,
-      "total_refs": 15,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "背盟": {
@@ -109325,7 +109668,7 @@
         "四夷"
       ],
       "description": "古代对北方游牧民族的泛称。",
-      "total_refs": 40,
+      "total_refs": 41,
       "total_chapters": 0
     },
     "胡僧祐": {
@@ -109622,7 +109965,9 @@
       "tags": [
         "身体"
       ],
-      "description": "胸，胸腹；覆胸腹喻全军一体，揕胸为荆轲刺秦之举，胸中气为刚急之性。",
+      "description": "胸，胸腹；覆胸腹喻全军一体，揕胸为荆轲刺秦之举。",
+      "quality": "standard",
+      "quality_score": 30,
       "total_refs": 3,
       "total_chapters": 0
     },
@@ -110710,7 +111055,7 @@
         "军事"
       ],
       "description": "古代船只舰艇，水军装备。",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "船运": {
@@ -111019,7 +111364,7 @@
       "description": "唐代掌管地方军政的最高长官，始于玄宗时期，安史之乱后各地藩镇林立，成为唐朝衰落的重要原因",
       "quality": "standard",
       "quality_score": 58,
-      "total_refs": 417,
+      "total_refs": 418,
       "total_chapters": 0
     },
     "节用": {
@@ -111031,7 +111376,7 @@
         "政治"
       ],
       "description": "节约用度，古代治国理财的基本原则。",
-      "total_refs": 13,
+      "total_refs": 14,
       "total_chapters": 0
     },
     "节用爱人": {
@@ -111344,8 +111689,8 @@
         "苏武之父"
       ],
       "description": "西汉将领，苏武之父",
-      "quality": "basic",
-      "quality_score": 31,
+      "quality": "standard",
+      "quality_score": 33,
       "total_refs": 2,
       "total_chapters": 0
     },
@@ -111398,7 +111743,7 @@
       "description": "战国纵横家，合纵联盟的策划者，曾身佩六国相印，与张仪同为鬼谷子门生。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 184,
+      "total_refs": 183,
       "total_chapters": 2
     },
     "苏秦合纵": {
@@ -111414,7 +111759,7 @@
         "合纵连横"
       ],
       "description": "苏秦游说六国联合抗秦的合纵运动，使秦兵不敢窥函谷关者十五年",
-      "total_refs": 34,
+      "total_refs": 35,
       "total_chapters": 0
     },
     "苏章": {
@@ -111587,6 +111932,8 @@
         "制度"
       ],
       "description": "苛酷暴虐的政治，与仁政相对。",
+      "quality": "standard",
+      "quality_score": 62,
       "total_refs": 25,
       "total_chapters": 0
     },
@@ -112135,7 +112482,7 @@
       "description": "战国秦国名臣，提出\"远交近攻\"战略，助秦国奠定统一基础，后因功名而退。",
       "quality": "basic",
       "quality_score": 55,
-      "total_refs": 97,
+      "total_refs": 98,
       "total_chapters": 5
     },
     "范雎入秦": {
@@ -112280,6 +112627,8 @@
         "生活"
       ],
       "description": "茶饮。以茶代酒为韦昭谏吴主之智，杂茶纸而食为张巡守睢阳之忠。",
+      "quality": "standard",
+      "quality_score": 30,
       "total_refs": 2,
       "total_chapters": 0
     },
@@ -112411,7 +112760,7 @@
       "description": "战国末期儒家思想家，主张性恶论与礼法并重，曾为楚春申君担任兰陵令，其言论被司马光多次引用以评价历史。",
       "quality": "basic",
       "quality_score": 54,
-      "total_refs": 75,
+      "total_refs": 73,
       "total_chapters": 4
     },
     "荀崧": {
@@ -112694,7 +113043,7 @@
       "description": "战国末期刺客，受燕太子丹之托刺秦王，图穷匕见，功败垂成，留下千古悲歌。",
       "quality": "featured",
       "quality_score": 50,
-      "total_refs": 35,
+      "total_refs": 37,
       "total_chapters": 4
     },
     "荆轲刺秦": {
@@ -112979,7 +113328,7 @@
         "司隶"
       ],
       "description": "秦汉荥阳县，三川郡治，楚汉相争要地。",
-      "total_refs": 80,
+      "total_refs": 81,
       "total_chapters": 0
     },
     "荧惑": {
@@ -113399,7 +113748,7 @@
         "建筑"
       ],
       "description": "古代建造宫室寺庙，营造工程。",
-      "total_refs": 24,
+      "total_refs": 25,
       "total_chapters": 0
     },
     "营户": {
@@ -113486,7 +113835,7 @@
       "description": "汉初三杰之一，建立汉制的关键人物，\"成也萧何败也萧何\"典故的主角。",
       "quality": "featured",
       "quality_score": 52,
-      "total_refs": 120,
+      "total_refs": 121,
       "total_chapters": 21
     },
     "萧俛": {
@@ -113853,7 +114202,7 @@
       "description": "南齐第二位皇帝，萧道成长子，以稳定南齐初期政局著称，在位期间延续父亲节俭之风，与北魏保持和平，是南齐最有作为的君主。",
       "quality": "basic",
       "quality_score": 53,
-      "total_refs": 39,
+      "total_refs": 40,
       "total_chapters": 0
     },
     "萧道成": {
@@ -114039,7 +114388,7 @@
       "description": "汉武帝时期的大儒，提出\"罢黜百家、独尊儒术\"的建议，以\"天人三策\"确立了儒学在中国政治思想中的主导地位。",
       "quality": "featured",
       "quality_score": 46,
-      "total_refs": 69,
+      "total_refs": 71,
       "total_chapters": 5
     },
     "董允": {
@@ -114264,7 +114613,7 @@
         "哀帝"
       ],
       "description": "西汉哀帝宠臣，以柔媚得幸",
-      "total_refs": 32,
+      "total_refs": 33,
       "total_chapters": 0
     },
     "董重质": {
@@ -114424,7 +114773,7 @@
       "description": "三国蜀汉大臣，零陵人，诸葛亮去世后接任执政，以忠厚稳健著称，为蜀汉延续了相当长时期的安定局面，是蜀汉\"四相\"之一。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "蒋钦": {
@@ -114481,7 +114830,7 @@
       "description": "秦始皇时期名将，北击匈奴、收复河南地、修筑长城，是秦朝开疆拓土的最重要军事将领，与公子扶苏关系亲厚，后因赵高矫诏被赐死。",
       "quality": "featured",
       "quality_score": 48,
-      "total_refs": 50,
+      "total_refs": 49,
       "total_chapters": 6
     },
     "蒙武": {
@@ -114807,7 +115156,7 @@
       "description": "战国秦国丞相，以能言善辩说服范雎退位，继任为秦国相，封纲成君。",
       "quality": "basic",
       "quality_score": 33,
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 1
     },
     "蔡祐": {
@@ -114905,7 +115254,7 @@
       "description": "战国赵国名臣，完璧归赵、渑池之会护赵王尊严，与廉颇\"将相和\"传为佳话。",
       "quality": "basic",
       "quality_score": 42,
-      "total_refs": 46,
+      "total_refs": 47,
       "total_chapters": 3
     },
     "蕃兵": {
@@ -115418,7 +115767,7 @@
       "description": "隋内史侍郎，文士，一代文宗",
       "quality": "basic",
       "quality_score": 46,
-      "total_refs": 3,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "薪": {
@@ -115524,7 +115873,7 @@
       "description": "唐代中后期在边境和重要地区设立的军事行政合一的地方统治体制，又称方镇，是安史之乱后唐王朝地方政治的核心形态。",
       "quality": "standard",
       "quality_score": 50,
-      "total_refs": 240,
+      "total_refs": 242,
       "total_chapters": 0
     },
     "藻_(概念)": {
@@ -115687,7 +116036,7 @@
         "社会"
       ],
       "description": "暴虐的政治统治，指苛政对百姓的残害",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "虚": {
@@ -116586,7 +116935,7 @@
       "description": "嫌隙矛盾，仇恨争执。",
       "quality": "standard",
       "quality_score": 36,
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "行": {
@@ -116653,7 +117002,7 @@
       "description": "军队行进移动的统称，涉及路线选择、队形排列、后勤补给等。",
       "quality": "standard",
       "quality_score": 39,
-      "total_refs": 158,
+      "total_refs": 159,
       "total_chapters": 0
     },
     "行军司马": {
@@ -117159,7 +117508,7 @@
         "军事"
       ],
       "description": "表里，内外之意，古代喻指相互配合或相辅相成之关系。",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "衮冕": {
@@ -118058,7 +118407,7 @@
       "description": "隋黄门侍郎，经略西域，撰《西域图记》",
       "quality": "basic",
       "quality_score": 50,
-      "total_refs": 11,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "裴秀": {
@@ -118632,7 +118981,7 @@
       "description": "中国历史上第一个长期稳定的大一统王朝（前206—8年），由汉高祖刘邦建立，历12帝210余年，是中国古代鼎盛时期之一，奠定了汉民族文化认同的基础。",
       "quality": "standard",
       "quality_score": 40,
-      "total_refs": 675,
+      "total_refs": 679,
       "total_chapters": 4
     },
     "西河": {
@@ -118779,6 +119128,19 @@
       "quality": "standard",
       "quality_score": 37,
       "total_refs": 51,
+      "total_chapters": 0
+    },
+    "要击": {
+      "type": "concept",
+      "label": "要击",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "战术",
+        "伏击"
+      ],
+      "description": "中途拦截攻击敌军，为古代伏击或截击战术的重要方式。",
+      "total_refs": 0,
       "total_chapters": 0
     },
     "要害": {
@@ -119250,7 +119612,7 @@
       "description": "边疆或京师加强警戒防备的军事措施，应对突发事件和外来威胁。",
       "quality": "basic",
       "quality_score": 42,
-      "total_refs": 6,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "警跸": {
@@ -119543,7 +119905,7 @@
         "教育"
       ],
       "description": "讲解儒家经典，为古代教育的重要形式。",
-      "total_refs": 5,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "讳_(概念)": {
@@ -119938,7 +120300,7 @@
         "学术"
       ],
       "description": "研讨治国之道与学术义理。",
-      "total_refs": 17,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "论钦陵": {
@@ -120159,7 +120521,7 @@
       "description": "古代帝王发布的政令文书总称，为中央政务传达的主要方式。",
       "quality": "standard",
       "quality_score": 47,
-      "total_refs": 94,
+      "total_refs": 93,
       "total_chapters": 0
     },
     "诏敕": {
@@ -120584,7 +120946,7 @@
         "政治制度"
       ],
       "description": "诸侯，周代分封制下受封的君主",
-      "total_refs": 500,
+      "total_refs": 501,
       "total_chapters": 0
     },
     "诸侯王": {
@@ -120595,7 +120957,7 @@
         "制度"
       ],
       "description": "诸侯王，汉代分封的同姓或异姓王",
-      "total_refs": 36,
+      "total_refs": 37,
       "total_chapters": 0
     },
     "诸吕之乱": {
@@ -120675,7 +121037,7 @@
       "image": "images/诸葛亮.jpg",
       "quality": "featured",
       "quality_score": 67,
-      "total_refs": 306,
+      "total_refs": 305,
       "total_chapters": 53
     },
     "诸葛亮北伐": {
@@ -121015,7 +121377,7 @@
         "概念"
       ],
       "description": "谋士，出谋划策之士",
-      "total_refs": 84,
+      "total_refs": 88,
       "total_chapters": 0
     },
     "谋杀": {
@@ -121588,7 +121950,7 @@
       "description": "南朝宋著名诗人，中国山水诗的开创者，以才华横溢却不得重用著称，最终以谋反罪被处死。",
       "quality": "featured",
       "quality_score": 41,
-      "total_refs": 16,
+      "total_refs": 17,
       "total_chapters": 7
     },
     "谢玄": {
@@ -121967,7 +122329,7 @@
         "经学家"
       ],
       "description": "西汉大臣、经学家，以灾异对策闻名，官至太常丞。",
-      "total_refs": 42,
+      "total_refs": 43,
       "total_chapters": 0
     },
     "谷贱": {
@@ -122330,7 +122692,7 @@
       "description": "晋国义士，为智伯复仇，漆身吞炭，行刺赵襄子，留下\"士为知己者死\"典故。",
       "quality": "basic",
       "quality_score": 37,
-      "total_refs": 51,
+      "total_refs": 52,
       "total_chapters": 2
     },
     "豸_(概念)": {
@@ -122382,7 +122744,7 @@
         "政治比喻"
       ],
       "description": "豺与狼，凶残食肉之兽，通鉴中以喻凶残之人、贪虐之吏或野心之敌。",
-      "total_refs": 10,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "豺狼当路": {
@@ -122525,7 +122887,7 @@
       "description": "唐太宗李世民年号（627—649），共二十三年，唐朝盛世之始",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 17,
+      "total_refs": 18,
       "total_chapters": 0
     },
     "贞观之治": {
@@ -122661,7 +123023,7 @@
         "明经洁行"
       ],
       "description": "西汉御史大夫，明经洁行",
-      "total_refs": 30,
+      "total_refs": 29,
       "total_chapters": 0
     },
     "贡赋": {
@@ -122789,7 +123151,7 @@
         "品评"
       ],
       "description": "有德行和才能的人。",
-      "total_refs": 39,
+      "total_refs": 40,
       "total_chapters": 0
     },
     "贤相": {
@@ -123506,7 +123868,7 @@
         "将领"
       ],
       "description": "北魏将领，贺拔岳之兄，勇敢知名。",
-      "total_refs": 11,
+      "total_refs": 12,
       "total_chapters": 0
     },
     "贺琛": {
@@ -123848,7 +124210,7 @@
       "description": "西汉初年最杰出的政论家，二十余岁即受汉文帝赏识，著《过秦论》深刻分析秦亡之因，所献政策建议影响深远。",
       "quality": "featured",
       "quality_score": 47,
-      "total_refs": 199,
+      "total_refs": 200,
       "total_chapters": 12
     },
     "贾谧": {
@@ -124015,7 +124377,7 @@
       "description": "《资治通鉴》是北宋司马光主持编纂的编年体史书，记载战国至五代共1362年历史。",
       "quality": "basic",
       "quality_score": 35,
-      "total_refs": 2683,
+      "total_refs": 2710,
       "total_chapters": 1
     },
     "资治通鉴目录": {
@@ -124117,7 +124479,7 @@
         "制度"
       ],
       "description": "古代国家向百姓征收的税赋，包括田赋、军赋等。",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "赋役": {
@@ -124341,7 +124703,7 @@
       "description": "帝王赐予臣下的财物爵位，笼络人心的政治手段",
       "quality": "basic",
       "quality_score": 34,
-      "total_refs": 152,
+      "total_refs": 150,
       "total_chapters": 0
     },
     "赐予": {
@@ -124439,7 +124801,7 @@
         "礼制"
       ],
       "description": "赐死，命其自杀而非公开行刑，古代对贵族官员之优遇死法。",
-      "total_refs": 65,
+      "total_refs": 66,
       "total_chapters": 0
     },
     "赐爵": {
@@ -124451,7 +124813,7 @@
         "爵位"
       ],
       "description": "帝王赏赐爵位给有功之臣或特定人群，为激励将士、笼络人心的手段",
-      "total_refs": 46,
+      "total_refs": 47,
       "total_chapters": 0
     },
     "赐田": {
@@ -124500,6 +124862,8 @@
         "赏赐"
       ],
       "description": "赏赐、赐予财物，为朝廷优宠臣下之礼。",
+      "quality": "standard",
+      "quality_score": 36,
       "total_refs": 5,
       "total_chapters": 0
     },
@@ -124664,7 +125028,7 @@
       "description": "新莽末年农民起义军，以朱红涂眉为标志，攻入长安推翻更始。",
       "quality": "basic",
       "quality_score": 49,
-      "total_refs": 85,
+      "total_refs": 84,
       "total_chapters": 0
     },
     "赤眉军": {
@@ -124800,7 +125164,7 @@
       "description": "十六国时期大夏国建立者，匈奴铁弗部后裔，以残暴与雄略并称，筑统万城，攻占关中，建立大夏政权。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 52,
+      "total_refs": 53,
       "total_chapters": 0
     },
     "赫连昌": {
@@ -125010,7 +125374,7 @@
       "description": "西汉宣帝时期名将，以年逾七旬仍亲征西羌著称，提出\"屯田守边\"战略，是中国古代军事史上善用守势的经典案例。",
       "quality": "featured",
       "quality_score": 42,
-      "total_refs": 69,
+      "total_refs": 70,
       "total_chapters": 7
     },
     "赵充国平羌": {
@@ -125457,7 +125821,7 @@
       "description": "战国时期赵国将领，名将赵奢之子，因只会纸上谈兵、轻率出战，在长平之战中被白起围歼，四十万赵军覆没，留下\"纸上谈兵\"的千古成语。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 36,
+      "total_refs": 37,
       "total_chapters": 2
     },
     "赵昭仪": {
@@ -125964,7 +126328,7 @@
       "description": "发兵进攻",
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 520,
+      "total_refs": 521,
       "total_chapters": 0
     },
     "起复": {
@@ -126054,7 +126418,7 @@
         "汉代"
       ],
       "description": "古代南方百越民族的统称",
-      "total_refs": 35,
+      "total_refs": 34,
       "total_chapters": 8
     },
     "越国": {
@@ -126637,7 +127001,7 @@
       "description": "古代帝王出行乘舆，亦代指帝王本人。",
       "quality": "standard",
       "quality_score": 31,
-      "total_refs": 68,
+      "total_refs": 67,
       "total_chapters": 0
     },
     "车骑": {
@@ -127013,7 +127377,7 @@
         "顾命"
       ],
       "description": "大臣辅佐君主处理国政。",
-      "total_refs": 163,
+      "total_refs": 165,
       "total_chapters": 0
     },
     "辇": {
@@ -127066,7 +127430,7 @@
       "description": "军队携带的物资装备，后勤保障核心",
       "quality": "standard",
       "quality_score": 35,
-      "total_refs": 59,
+      "total_refs": 60,
       "total_chapters": 0
     },
     "输作": {
@@ -127813,6 +128177,32 @@
       "total_refs": 5,
       "total_chapters": 0
     },
+    "还兵": {
+      "type": "concept",
+      "label": "还兵",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "战术",
+        "行为"
+      ],
+      "description": "回师、退兵，为古代军队改变进攻方向或暂时撤退的军事行动。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
+    "还师": {
+      "type": "concept",
+      "label": "还师",
+      "aliases": [],
+      "tags": [
+        "概念",
+        "军事",
+        "行军"
+      ],
+      "description": "还师，撤军返回、班师回朝，指军事行动结束后率军返回。",
+      "total_refs": 1,
+      "total_chapters": 0
+    },
     "进兵": {
       "type": "military",
       "label": "进兵",
@@ -127851,7 +128241,7 @@
       "description": "唐代科举最重要科目，以诗赋策论取士",
       "quality": "standard",
       "quality_score": 44,
-      "total_refs": 37,
+      "total_refs": 36,
       "total_chapters": 0
     },
     "进奉": {
@@ -128461,7 +128851,7 @@
         "职官"
       ],
       "description": "选官，选拔委任官吏。",
-      "total_refs": 36,
+      "total_refs": 35,
       "total_chapters": 0
     },
     "选补": {
@@ -128475,7 +128865,7 @@
         "唐代"
       ],
       "description": "选补，选拔补充官员之意，为历代铨选制度的重要环节",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "选部": {
@@ -128608,7 +128998,7 @@
       "description": "博通古今的大学者。",
       "quality": "standard",
       "quality_score": 42,
-      "total_refs": 16,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "通商": {
@@ -128688,7 +129078,7 @@
         "制度"
       ],
       "description": "制造营造，指官府组织的手工业生产或土木工程建设。",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "逢纪": {
@@ -128850,7 +129240,7 @@
       "description": "道德与正义，古人立身处世的根本准则。通鉴中道义之士重然诺、轻生死。",
       "quality": "standard",
       "quality_score": 28,
-      "total_refs": 34,
+      "total_refs": 35,
       "total_chapters": 0
     },
     "道场": {
@@ -128919,7 +129309,7 @@
       "description": "中国本土宗教，东汉末兴起，奉老子为教主",
       "quality": "standard",
       "quality_score": 32,
-      "total_refs": 28,
+      "total_refs": 30,
       "total_chapters": 0
     },
     "道术": {
@@ -128944,8 +129334,8 @@
         "建筑"
       ],
       "description": "道教宫观，道士修行的场所，南北朝时始大量兴建",
-      "quality": "basic",
-      "quality_score": 25,
+      "quality": "standard",
+      "quality_score": 31,
       "total_refs": 4,
       "total_chapters": 0
     },
@@ -128973,7 +129363,7 @@
       "description": "帝王临终前颁布的诏命，常涉及嗣君、辅政大臣。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 79,
+      "total_refs": 80,
       "total_chapters": 0
     },
     "遣使": {
@@ -128988,7 +129378,7 @@
       "description": "派遣使者出使外国或传达君命的政务行为。",
       "quality": "basic",
       "quality_score": 50,
-      "total_refs": 420,
+      "total_refs": 421,
       "total_chapters": 0
     },
     "遣将": {
@@ -129205,7 +129595,7 @@
       "description": "东汉开国功臣，云台二十八将之首，早年追随光武帝刘秀起兵，以运筹帷幄著称，是刘秀最重要的战略谋臣。",
       "quality": "featured",
       "quality_score": 52,
-      "total_refs": 54,
+      "total_refs": 53,
       "total_chapters": 12
     },
     "邓禹征关中": {
@@ -129629,7 +130019,7 @@
         "建筑"
       ],
       "description": "古代王公贵族的府第宅院，邸第之制依爵位品级有差。",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "邸阁": {
@@ -129807,7 +130197,7 @@
       "description": "西汉时期匈奴单于，与呼韩邪单于争位，后盘踞康居，被陈汤、甘延寿矫制发兵斩杀",
       "quality": "featured",
       "quality_score": 50,
-      "total_refs": 30,
+      "total_refs": 29,
       "total_chapters": 0
     },
     "郅都": {
@@ -130316,7 +130706,7 @@
         "驸马都尉"
       ],
       "description": "唐宣宗驸马都尉，尚万寿公主。",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "郗士美": {
@@ -130579,7 +130969,7 @@
       "description": "汉初说客，以游说之才助刘邦夺陈留、说齐降，最终因韩信袭齐被烹杀。",
       "quality": "featured",
       "quality_score": 52,
-      "total_refs": 51,
+      "total_refs": 52,
       "total_chapters": 0
     },
     "部勒": {
@@ -131296,7 +131686,7 @@
         "宗庙"
       ],
       "description": "功臣祔祀于帝王宗庙，或皇后与皇帝同祭",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "配流": {
@@ -131346,7 +131736,7 @@
         "生活"
       ],
       "description": "饮酒。饮酒乐为魏文侯与群臣之欢，酒酣为渑池会秦赵之争，牛酒为田单收民之赐。",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "酒_(礼制)": {
@@ -131387,7 +131777,7 @@
         "凉州"
       ],
       "description": "汉酒泉郡，河西四郡之一，今甘肃酒泉。",
-      "total_refs": 37,
+      "total_refs": 38,
       "total_chapters": 0
     },
     "酒肉": {
@@ -131399,7 +131789,7 @@
         "饮食"
       ],
       "description": "酒与肉，古代宴饮欢庆或犒赏之物",
-      "total_refs": 10,
+      "total_refs": 11,
       "total_chapters": 0
     },
     "酒醪": {
@@ -131672,7 +132062,7 @@
         "宗教"
       ],
       "description": "祭祀、祷神之仪式；亦指女子嫁人",
-      "total_refs": 2,
+      "total_refs": 3,
       "total_chapters": 0
     },
     "醯_(概念)": {
@@ -132181,7 +132571,7 @@
       "description": "西汉大臣，匈奴休屠王太子，武帝托孤重臣",
       "quality": "basic",
       "quality_score": 38,
-      "total_refs": 21,
+      "total_refs": 20,
       "total_chapters": 0
     },
     "金玉": {
@@ -132230,7 +132620,7 @@
         "汉代"
       ],
       "description": "金紫，金印紫绶之省称，秦汉魏晋时期高级官员的身份标志",
-      "total_refs": 8,
+      "total_refs": 9,
       "total_chapters": 0
     },
     "金缕": {
@@ -132471,7 +132861,7 @@
         "文化"
       ],
       "description": "钟律音律，古代乐律制度。",
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "钟皓": {
@@ -132596,8 +132986,8 @@
         "音乐"
       ],
       "description": "钟与鼓的合称，古代礼乐演奏的核心乐器",
-      "quality": "basic",
-      "quality_score": 33,
+      "quality": "standard",
+      "quality_score": 40,
       "total_refs": 13,
       "total_chapters": 0
     },
@@ -133186,7 +133576,7 @@
         "制度"
       ],
       "description": "唐代吏部选官制度，以试判、书判取人。",
-      "total_refs": 26,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "铫期": {
@@ -134045,7 +134435,7 @@
       "description": "西汉都城，今陕西西安，娄敬说刘邦定都于此，萧何治未央宫",
       "quality": "basic",
       "quality_score": 36,
-      "total_refs": 510,
+      "total_refs": 512,
       "total_chapters": 0
     },
     "长平": {
@@ -134057,7 +134447,7 @@
         "并州"
       ],
       "description": "长平，战国韩地，秦赵长平之战处，白起坑赵卒四十万。",
-      "total_refs": 24,
+      "total_refs": 25,
       "total_chapters": 0
     },
     "长平之战": {
@@ -134259,7 +134649,7 @@
         "建筑"
       ],
       "description": "门户。门为出入之所，城门外郭为居守之要，南门徙木为商鞅立信之始。",
-      "total_refs": 1,
+      "total_refs": 2,
       "total_chapters": 0
     },
     "门_(器物)": {
@@ -134283,7 +134673,7 @@
         "职官"
       ],
       "description": "门下省之简称，亦指门客、门下侍从",
-      "total_refs": 80,
+      "total_refs": 81,
       "total_chapters": 0
     },
     "门下侍郎": {
@@ -134425,7 +134815,7 @@
       "description": "累世公卿的世家大族，魏晋南北朝政治核心力量。",
       "quality": "standard",
       "quality_score": 52,
-      "total_refs": 49,
+      "total_refs": 50,
       "total_chapters": 0
     },
     "门阙": {
@@ -134554,7 +134944,7 @@
         "四夷"
       ],
       "description": "东南方国",
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "闽中": {
@@ -134850,7 +135240,7 @@
         "礼制"
       ],
       "description": "宫阙朝廷，指天子听政之所。",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "阙特勒": {
@@ -134986,7 +135376,7 @@
         "策略"
       ],
       "description": "防御，防守抵御之意，唐代设防御使，为地方军事长官之一",
-      "total_refs": 148,
+      "total_refs": 149,
       "total_chapters": 0
     },
     "防御使": {
@@ -135252,7 +135642,7 @@
         "思想"
       ],
       "description": "阴阳学说，古代宇宙观核心概念",
-      "total_refs": 49,
+      "total_refs": 50,
       "total_chapters": 0
     },
     "阴陵": {
@@ -135304,7 +135694,7 @@
         "建筑"
       ],
       "description": "台阶；亦指官阶、品级",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "阻兵": {
@@ -135934,7 +136324,7 @@
         "道士"
       ],
       "description": "陈守元，五代闽国道士，闽王延钧信重之，号天师。",
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 3
     },
     "陈安": {
@@ -135946,7 +136336,7 @@
         "讨虏将军"
       ],
       "description": "西晋讨虏将军，帐下都尉，讨叛羌",
-      "total_refs": 9,
+      "total_refs": 10,
       "total_chapters": 0
     },
     "陈宝应": {
@@ -136456,7 +136846,7 @@
         "将领"
       ],
       "description": "西汉阳夏侯、赵相国，谋反被诛。",
-      "total_refs": 26,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "陈霸先": {
@@ -136581,7 +136971,7 @@
       "description": "敌军或外族投降归附，为古代战争中\"不战而屈人之兵\"的重要结果。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 33,
+      "total_refs": 32,
       "total_chapters": 0
     },
     "陕县": {
@@ -136619,7 +137009,7 @@
         "制度"
       ],
       "description": "宫殿台阶；陛下为对天子的尊称",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "陛下": {
@@ -136633,7 +137023,7 @@
       "description": "臣民对帝王的尊称，原指宫殿丹陛之下",
       "quality": "standard",
       "quality_score": 41,
-      "total_refs": 217,
+      "total_refs": 218,
       "total_chapters": 0
     },
     "陛戟": {
@@ -136755,7 +137145,7 @@
         "唐"
       ],
       "description": "清除旧的，建立新的；出自慕容德占兖州、尔朱荣入洛、王世充篡隋等",
-      "total_refs": 7,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "陨石": {
@@ -137056,7 +137446,7 @@
         "政治"
       ],
       "description": "隋，隋朝、隋室；隋文帝统一南北，开科举创三省，然炀帝暴政致亡。",
-      "total_refs": 51,
+      "total_refs": 53,
       "total_chapters": 0
     },
     "隋_(朝代)": {
@@ -137088,7 +137478,7 @@
       "description": "隋朝开国皇帝，结束南北朝分裂，统一全国，建立三省六部制与科举制雏形，开创\"开皇之治\"。",
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 514,
+      "total_refs": 515,
       "total_chapters": 49
     },
     "隋末群雄": {
@@ -137143,7 +137533,7 @@
       "image": "images/隋炀帝.jpg",
       "quality": "featured",
       "quality_score": 66,
-      "total_refs": 217,
+      "total_refs": 218,
       "total_chapters": 31
     },
     "隋炀帝征高丽": {
@@ -137465,7 +137855,7 @@
       "description": "古代朝廷祭祀、朝会所用的正统音乐",
       "quality": "standard",
       "quality_score": 43,
-      "total_refs": 45,
+      "total_refs": 47,
       "total_chapters": 0
     },
     "雅量": {
@@ -137929,7 +138319,7 @@
       "description": "西汉昭帝、宣帝时期的辅政大臣，受汉武帝遗命辅幼主，二十年间掌握实权，是西汉最重要的权臣之一，后因\"擅废立\"而被后世争议。",
       "quality": "featured",
       "quality_score": 46,
-      "total_refs": 159,
+      "total_refs": 160,
       "total_chapters": 22
     },
     "霍去病": {
@@ -137947,7 +138337,7 @@
       "description": "西汉名将，汉武帝骠骑将军，以奇袭著称，封狼居胥，是汉朝对匈奴战争中最耀眼的军事天才，英年早逝。",
       "quality": "featured",
       "quality_score": 40,
-      "total_refs": 64,
+      "total_refs": 65,
       "total_chapters": 9
     },
     "霍存": {
@@ -138907,7 +139297,7 @@
         "史学家"
       ],
       "description": "吴博士祭酒，史学家",
-      "total_refs": 5,
+      "total_refs": 4,
       "total_chapters": 0
     },
     "韦昭度": {
@@ -139138,7 +139528,7 @@
       "image": "images/韩信.jpg",
       "quality": "featured",
       "quality_score": 61,
-      "total_refs": 260,
+      "total_refs": 265,
       "total_chapters": 24
     },
     "韩信拜将": {
@@ -139399,7 +139789,7 @@
       "description": "唐朝文学家、思想家，古文运动领袖，以文章直谏著称，因谏迎佛骨被贬，是唐代最具影响力的文人政治家。",
       "quality": "featured",
       "quality_score": 54,
-      "total_refs": 30,
+      "total_refs": 31,
       "total_chapters": 8
     },
     "韩擒虎": {
@@ -139428,7 +139818,7 @@
         "韩国"
       ],
       "description": "韩昭侯，战国韩国君主，用申不害变法",
-      "total_refs": 17,
+      "total_refs": 16,
       "total_chapters": 0
     },
     "韩晃": {
@@ -139687,7 +140077,7 @@
       "description": "汉末西凉军阀，长期割据凉州",
       "quality": "basic",
       "quality_score": 47,
-      "total_refs": 17,
+      "total_refs": 18,
       "total_chapters": 0
     },
     "韩陵之战": {
@@ -139819,7 +140209,7 @@
       "description": "古代音乐艺术，为礼乐制度的重要组成部分",
       "quality": "standard",
       "quality_score": 48,
-      "total_refs": 43,
+      "total_refs": 44,
       "total_chapters": 0
     },
     "音声": {
@@ -139884,7 +140274,7 @@
         "项羽"
       ],
       "description": "项伯，项羽叔父，鸿门宴中护刘邦",
-      "total_refs": 12,
+      "total_refs": 13,
       "total_chapters": 0
     },
     "项庄": {
@@ -139897,7 +140287,7 @@
         "项羽"
       ],
       "description": "项庄，项羽堂弟，鸿门宴舞剑",
-      "total_refs": 6,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "项庄舞剑": {
@@ -139930,7 +140320,7 @@
       "description": "秦末楚将项燕之子，项羽叔父，拥立楚怀王，率义军转战中原，战死于定陶。",
       "quality": "featured",
       "quality_score": 46,
-      "total_refs": 62,
+      "total_refs": 63,
       "total_chapters": 4
     },
     "项燕": {
@@ -139966,7 +140356,7 @@
       "image": "images/项羽.jpg",
       "quality": "featured",
       "quality_score": 59,
-      "total_refs": 310,
+      "total_refs": 312,
       "total_chapters": 21
     },
     "顺": {
@@ -140176,6 +140566,19 @@
       "total_refs": 3,
       "total_chapters": 0
     },
+    "顿兵": {
+      "type": "concept",
+      "label": "顿兵",
+      "aliases": [],
+      "tags": [
+        "军事",
+        "战术",
+        "围城"
+      ],
+      "description": "屯驻军队于坚城之下长期围困，为古代攻城战中进展迟缓的被动状态。",
+      "total_refs": 0,
+      "total_chapters": 0
+    },
     "顿首": {
       "type": "concept",
       "label": "顿首",
@@ -140303,7 +140706,7 @@
         "豫州"
       ],
       "description": "秦汉颍川郡，韩故地，今河南中部。",
-      "total_refs": 100,
+      "total_refs": 101,
       "total_chapters": 0
     },
     "颍水": {
@@ -140433,7 +140836,7 @@
       "description": "刘宋文学家，与谢灵运齐名，为宋文帝所赏识，其子颜竣后为宋孝武帝亲信；晚年布衣茅屋，一无受子之供养，是南朝文人清贫自守的代表。",
       "quality": "basic",
       "quality_score": 49,
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "颜杲卿": {
@@ -140560,7 +140963,7 @@
         "文化"
       ],
       "description": "社会风气习俗，通鉴载风俗为教化之本原。",
-      "total_refs": 66,
+      "total_refs": 65,
       "total_chapters": 0
     },
     "风化": {
@@ -140755,7 +141158,7 @@
         "军事"
       ],
       "description": "飞鸟，飞翔之鸟，古代常喻指自由或用作典故意象。",
-      "total_refs": 0,
+      "total_refs": 1,
       "total_chapters": 0
     },
     "食": {
@@ -141069,7 +141472,7 @@
         "制度"
       ],
       "description": "饮食起居，古代君王将帅抚循士卒、安定民心的重要手段",
-      "total_refs": 84,
+      "total_refs": 85,
       "total_chapters": 0
     },
     "饯_(礼制)": {
@@ -141526,7 +141929,7 @@
         "太后"
       ],
       "description": "汉明帝皇后，伏波将军马援之女；章帝即位尊为太后，以节俭贤德著称",
-      "total_refs": 15,
+      "total_refs": 14,
       "total_chapters": 1
     },
     "马头": {
@@ -141868,7 +142271,7 @@
       "description": "东汉著名经学家，注释多部经典，门徒众多，郑玄即出其门下，以生活豪奢、依附梁冀而受批评",
       "quality": "basic",
       "quality_score": 56,
-      "total_refs": 8,
+      "total_refs": 7,
       "total_chapters": 0
     },
     "马谡": {
@@ -141901,7 +142304,7 @@
       "description": "三国蜀汉将领，马腾之子，西凉军事强人，曾与曹操激战于潼关，被平定后入蜀投靠刘备，以骁勇著称，有\"信、布之勇\"之称。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 31,
+      "total_refs": 32,
       "total_chapters": 0
     },
     "马邑之谋": {
@@ -142286,7 +142689,7 @@
       "description": "勇猛矫健，古代形容猛将之常用语，通鉴多称骁勇善战者。",
       "quality": "standard",
       "quality_score": 34,
-      "total_refs": 135,
+      "total_refs": 136,
       "total_chapters": 0
     },
     "骁将": {
@@ -142311,7 +142714,7 @@
         "兵制"
       ],
       "description": "古代骁勇果敢的将士。",
-      "total_refs": 14,
+      "total_refs": 13,
       "total_chapters": 0
     },
     "骁锐": {
@@ -142402,7 +142805,7 @@
         "性格"
       ],
       "description": "骄傲倨慢，傲慢无礼。",
-      "total_refs": 7,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "骄奢": {
@@ -142508,7 +142911,7 @@
       "description": "骄纵尊贵，因地位尊崇而傲慢。",
       "quality": "standard",
       "quality_score": 42,
-      "total_refs": 9,
+      "total_refs": 8,
       "total_chapters": 0
     },
     "骄逸": {
@@ -142595,7 +142998,7 @@
       "description": "骑马作战的兵种，自赵武灵王胡服骑射始成独立兵种。",
       "quality": "standard",
       "quality_score": 38,
-      "total_refs": 131,
+      "total_refs": 132,
       "total_chapters": 0
     },
     "骑军": {
@@ -142632,7 +143035,7 @@
         "军事"
       ],
       "description": "骑士，骑兵或骑士身份者",
-      "total_refs": 26,
+      "total_refs": 27,
       "total_chapters": 0
     },
     "骑射": {
@@ -143126,7 +143529,7 @@
         "儒臣"
       ],
       "description": "高堂隆，三国魏侍中、太史令，以天文儒学著称",
-      "total_refs": 14,
+      "total_refs": 15,
       "total_chapters": 0
     },
     "高士": {
@@ -143138,7 +143541,7 @@
         "隐逸"
       ],
       "description": "志行高尚的士人，多指隐士。",
-      "total_refs": 12,
+      "total_refs": 13,
       "total_chapters": 0
     },
     "高士廉": {
@@ -143461,7 +143864,7 @@
         "起义"
       ],
       "description": "隋初越州豪族，举兵反隋，自称天子，为杨素所破",
-      "total_refs": 3,
+      "total_refs": 4,
       "total_chapters": 1
     },
     "高柔": {
@@ -143524,7 +143927,7 @@
       "description": "北齐开国皇帝，高欢次子，废东魏建北齐，初年励精图治，晚年暴虐酗酒，北齐由盛转衰。",
       "quality": "featured",
       "quality_score": 49,
-      "total_refs": 31,
+      "total_refs": 32,
       "total_chapters": 0
     },
     "高湛": {
@@ -143637,7 +144040,7 @@
       "description": "北魏外戚权臣，宣武帝时用事，权倾朝野。",
       "quality": "basic",
       "quality_score": 59,
-      "total_refs": 12,
+      "total_refs": 13,
       "total_chapters": 0
     },
     "高行周": {
@@ -143877,7 +144280,7 @@
         "吕布"
       ],
       "description": "东汉末吕布部将，以忠勇著称。",
-      "total_refs": 5,
+      "total_refs": 6,
       "total_chapters": 0
     },
     "高颎": {
@@ -144024,6 +144427,8 @@
         "品评"
       ],
       "description": "身材高大雄武。",
+      "quality": "standard",
+      "quality_score": 61,
       "total_refs": 8,
       "total_chapters": 0
     },
@@ -144118,7 +144523,7 @@
         "北魏"
       ],
       "description": "战国魏国、三国魏及北魏君主的称号",
-      "total_refs": 351,
+      "total_refs": 353,
       "total_chapters": 97
     },
     "魏仁浦": {
@@ -144198,7 +144603,7 @@
         "唐"
       ],
       "description": "唐代魏博镇节度使，治魏州，为河北三镇之一，长期割据对抗中央。",
-      "total_refs": 208,
+      "total_refs": 207,
       "total_chapters": 0
     },
     "魏国": {
@@ -144383,7 +144788,7 @@
         "曹魏"
       ],
       "description": "魏明帝曹叡，三国曹魏第二位皇帝",
-      "total_refs": 49,
+      "total_refs": 50,
       "total_chapters": 0
     },
     "魏桓子": {
@@ -144481,7 +144886,7 @@
         "丞相"
       ],
       "description": "西汉名臣，汉宣帝时丞相，以明察政事、整肃霍氏擅权著称。",
-      "total_refs": 26,
+      "total_refs": 25,
       "total_chapters": 0
     },
     "魏舒": {
@@ -144719,7 +145124,7 @@
         "东汉"
       ],
       "description": "鲁恭，东汉司徒，以直言敢谏著称。",
-      "total_refs": 13,
+      "total_refs": 14,
       "total_chapters": 6
     },
     "鲁炅": {
@@ -144839,7 +145244,7 @@
       "description": "西汉谏大夫，以忠直敢言著称",
       "quality": "standard",
       "quality_score": 48,
-      "total_refs": 33,
+      "total_refs": 35,
       "total_chapters": 0
     },
     "鲍昱": {
@@ -144926,7 +145331,7 @@
       "description": "东胡系游牧民族，东汉后渐强，后建立多个北方政权。",
       "quality": "basic",
       "quality_score": 40,
-      "total_refs": 139,
+      "total_refs": 138,
       "total_chapters": 0
     },
     "鲤_(概念)": {
@@ -145651,7 +146056,7 @@
       "description": "麾，古代指挥军队的旗帜，借指将帅的指挥权。",
       "quality": "standard",
       "quality_score": 34,
-      "total_refs": 4,
+      "total_refs": 5,
       "total_chapters": 0
     },
     "麾_(概念)": {
@@ -146604,7 +147009,7 @@
       "description": "战国时齐国国君，以贤明纳谏著称，齐国大治。",
       "quality": "basic",
       "quality_score": 50,
-      "total_refs": 43,
+      "total_refs": 44,
       "total_chapters": 0
     },
     "齐宣王": {
@@ -146738,7 +147143,7 @@
         "南朝齐"
       ],
       "description": "战国齐国及历代封齐王者称号",
-      "total_refs": 267,
+      "total_refs": 268,
       "total_chapters": 89
     },
     "齐王冏": {
@@ -146907,7 +147312,7 @@
         "谏臣"
       ],
       "description": "龚胜，西汉光禄大夫，以直谏称",
-      "total_refs": 12,
+      "total_refs": 13,
       "total_chapters": 0
     },
     "龚遂": {
@@ -147229,6 +147634,7 @@
     "丽_(概念)": "丽_(概念)",
     "举事": "举事",
     "举兵": "举兵",
+    "举动": "举动",
     "举劾": "举劾",
     "举白": "举白",
     "举贤任能": "举贤任能",
@@ -147478,6 +147884,7 @@
     "从事": "从事",
     "从军": "从军",
     "从善如流": "从善如流",
+    "从容": "从容",
     "从谏": "从谏",
     "从谏如流": "从谏如流",
     "仓": "仓",
@@ -147645,6 +148052,7 @@
     "佛教": "佛教",
     "佛经": "佛经",
     "佛骨": "佛骨",
+    "作为": "作为",
     "作垒": "作垒",
     "作威作福": "作威作福",
     "佞_(概念)": "佞_(概念)",
@@ -147813,6 +148221,7 @@
     "僮": "僮_(概念)",
     "僮仆": "僮仆",
     "僰道": "僰道",
+    "儆备": "儆备",
     "儋耳": "儋耳",
     "儒": "儒",
     "儒_(概念)": "儒_(概念)",
@@ -148155,6 +148564,7 @@
     "关防": "关防",
     "兴": "兴",
     "兴亡": "兴亡",
+    "兴作": "兴作",
     "兴兵": "兴兵",
     "兴学": "兴学",
     "兴宁": "兴宁",
@@ -148257,6 +148667,7 @@
     "军势": "军势",
     "军司马": "军司马",
     "军吏": "军吏",
+    "军实": "军实",
     "军容": "军容",
     "军屯": "军屯",
     "军市": "军市",
@@ -148656,6 +149067,7 @@
     "制_(概念)": "制_(概念)",
     "制": "制_(概念)",
     "制书": "制书",
+    "制作": "制作",
     "制度": "制度",
     "制敕": "制敕",
     "制胜": "制胜",
@@ -148928,6 +149340,7 @@
     "功成身退": "功成身退",
     "功曹": "功曹",
     "功罪": "功罪",
+    "功臣": "功臣",
     "功过": "功过",
     "加刑": "加刑",
     "务农": "务农",
@@ -148961,6 +149374,7 @@
     "勋劳": "勋劳",
     "勋官": "勋官",
     "勋庸": "勋庸",
+    "勋旧": "勋旧",
     "勋级": "勋级",
     "勋绩": "勋绩",
     "勋贵": "勋贵",
@@ -149372,6 +149786,7 @@
     "叹": "叹_(概念)",
     "各得其宜": "各得其宜",
     "合军": "合军",
+    "合击": "合击",
     "合围": "合围",
     "合战": "合战",
     "合族": "合族",
@@ -149831,6 +150246,7 @@
     "国子监": "国子监",
     "国学": "国学",
     "国家": "国家",
+    "国政": "国政",
     "图_(概念)": "图_(概念)",
     "图": "图_(概念)",
     "图书": "图书",
@@ -150060,6 +150476,7 @@
     "夙夜匪懈": "夙夜匪懈",
     "多多益善": "多多益善",
     "多寡": "多寡",
+    "多少": "多少",
     "多识": "多识",
     "夜_(概念)": "夜_(概念)",
     "夜": "夜_(概念)",
@@ -150649,6 +151066,7 @@
     "官告": "官告",
     "官品": "官品",
     "官奴婢": "官奴婢",
+    "官府": "官府",
     "官曹": "官曹",
     "官民": "官民",
     "官渡": "官渡",
@@ -150790,6 +151208,7 @@
     "寒门": "寒门",
     "寒食": "寒食",
     "寝不安席": "寝不安席",
+    "寝兵": "寝兵",
     "寝庙": "寝庙",
     "察举": "察举",
     "寡人": "寡人",
@@ -151714,6 +152133,7 @@
     "役_(概念)": "役_(概念)",
     "役": "役_(概念)",
     "彻侯": "彻侯",
+    "往昔": "往昔",
     "征_(军事)": "征_(军事)",
     "征": "征_(军事)",
     "征东": "征东",
@@ -151870,6 +152290,7 @@
     "急递": "急递",
     "性": "性",
     "性_(概念)": "性_(概念)",
+    "性情": "性情",
     "怨_(概念)": "怨_(概念)",
     "怨": "怨_(概念)",
     "怨仇": "怨仇",
@@ -151979,6 +152400,7 @@
     "慕容霸": "慕容霸",
     "慕容麟": "慕容麟",
     "慕舆根": "慕舆根",
+    "慷慨": "慷慨",
     "懿宗": "懿宗",
     "戈_(器物)": "戈_(器物)",
     "戈": "戈_(器物)",
@@ -152126,6 +152548,7 @@
     "拓跋珪": "拓跋珪",
     "北魏道武帝": "拓跋珪",
     "魏道武帝": "拓跋珪",
+    "拔剑": "拔剑",
     "拙": "拙",
     "招安": "招安",
     "招怀": "招怀",
@@ -152155,6 +152578,7 @@
     "指鹿为马": "指鹿为马",
     "按兵": "按兵",
     "按兵不动": "按兵不动",
+    "按剑": "按剑",
     "按劾": "按劾",
     "按甲": "按甲",
     "按甲休兵": "按甲休兵",
@@ -152531,6 +152955,7 @@
     "晦日": "晦日",
     "晨_(概念)": "晨_(概念)",
     "晨": "晨_(概念)",
+    "晨昏": "晨昏",
     "景丹": "景丹",
     "景元": "景元",
     "景延广": "景延广",
@@ -153256,6 +153681,7 @@
     "栈道": "栈道",
     "栋_(概念)": "栋_(概念)",
     "栋": "栋_(概念)",
+    "栋宇": "栋宇",
     "栋梁": "栋梁",
     "栎阳": "栎阳",
     "栏_(概念)": "栏_(概念)",
@@ -155168,6 +155594,7 @@
     "神主": "神主",
     "神仙": "神仙",
     "神武军": "神武军",
+    "神气": "神气",
     "神爵": "神爵",
     "神策军": "神策军",
     "神算": "神算",
@@ -156360,6 +156787,7 @@
     "绂": "绂_(概念)",
     "练_(概念)": "练_(概念)",
     "练": "练_(概念)",
+    "练兵": "练兵",
     "练卒": "练卒",
     "组_(概念)": "组_(概念)",
     "组": "组_(概念)",
@@ -156463,6 +156891,7 @@
     "缥_(概念)": "缥_(概念)",
     "缥": "缥_(概念)",
     "缮修": "缮修",
+    "缮兵": "缮兵",
     "缮写": "缮写",
     "缮完": "缮完",
     "缮甲": "缮甲",
@@ -156579,6 +157008,7 @@
     "考绩": "考绩",
     "考覆": "考覆",
     "考课": "考课",
+    "耆旧": "耆旧",
     "耆老": "耆老",
     "耒_(概念)": "耒_(概念)",
     "耒": "耒_(概念)",
@@ -157539,6 +157969,7 @@
     "要_(概念)": "要_(概念)",
     "要": "要_(概念)",
     "要冲": "要冲",
+    "要击": "要击",
     "要害": "要害",
     "要斩": "要斩",
     "要道": "要道",
@@ -158321,6 +158752,8 @@
     "运船": "运船",
     "近习": "近习",
     "近幸": "近幸",
+    "还兵": "还兵",
+    "还师": "还师",
     "进兵": "进兵",
     "进取": "进取",
     "进士": "进士",
@@ -159404,6 +159837,7 @@
     "顾觊之": "顾觊之",
     "顾雍": "顾雍",
     "顿丘": "顿丘",
+    "顿兵": "顿兵",
     "顿首": "顿首",
     "颁赏": "颁赏",
     "颁赐": "颁赐",
@@ -160025,6 +160459,6 @@
     "龟兹": "龟兹",
     "龟鳖": "龟鳖"
   },
-  "page_count": 10830,
-  "generated": "2026-05-07T02:00:24Z"
+  "page_count": 10859,
+  "generated": "2026-05-07T02:04:19Z"
 }
