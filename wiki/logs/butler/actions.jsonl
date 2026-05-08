@@ -7655,3 +7655,245 @@
 {"round": 7222, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正", "ts": "2026-05-08T04:26:07Z", "instance": "范祖禹", "reflect": "H21 稳定4条"}
 {"round": 7223, "type": "housekeeping", "page": "—", "result": "accept", "desc": "空转：R7223 无周期任务", "ts": "2026-05-08T04:26:12Z", "instance": "范祖禹", "reflect": "idle"}
 {"round": 7224, "type": "housekeeping", "page": "—", "result": "accept", "desc": "空转：R7224 无周期任务", "ts": "2026-05-08T04:26:12Z", "instance": "范祖禹", "reflect": "idle"}
+{"round": 7226, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:27:37Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7227, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:27:55Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7228, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T04:28:42Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7229, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:28:55Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7230, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:29:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7231, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:29:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7232, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:30:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7233, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:30:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7234, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H18 stub-triage: 99stub<150B, 1241人物<500B, 2190人物500-1000B", "ts": "2026-05-08T04:31:22Z", "instance": "范祖禹", "reflect": "H18 稳定收敛"}
+{"round": 7235, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正（弘亿/弘昌/弘义/弘倧）", "ts": "2026-05-08T04:31:37Z", "instance": "范祖禹", "reflect": "H21 稳定4条，需他实例建吴越钱氏页"}
+{"round": 7236, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:32:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7237, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:32:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7238, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:33:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7239, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:33:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7240, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:34:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7241, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:34:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7242, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50页修改，registry重建", "ts": "2026-05-08T04:35:32Z", "instance": "范祖禹", "reflect": "H22 完全收敛；%17=0 registry重建"}
+{"round": 7243, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:35:43Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7244, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:36:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7245, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:36:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7246, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:37:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7247, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:37:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7248, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:38:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7249, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:38:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7250, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:39:10Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7251, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:39:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7252, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H17 coverage-scan: 13635实体，desc/cat/ev全满，dynasty缺4323(31.7%)", "ts": "2026-05-08T04:40:21Z", "instance": "范祖禹", "reflect": "H17 收敛稳态"}
+{"round": 7253, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:40:44Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7254, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T04:41:42Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7255, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:41:53Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7256, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:42:10Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7257, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:42:28Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7258, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:43:10Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7259, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50页修改，registry重建", "ts": "2026-05-08T04:43:38Z", "instance": "范祖禹", "reflect": "H22 完全收敛"}
+{"round": 7260, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:44:10Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7261, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正（弘亿/弘昌/弘义/弘倧）", "ts": "2026-05-08T04:44:33Z", "instance": "范祖禹", "reflect": "H21 稳定4条"}
+{"round": 7262, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:45:10Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7263, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:45:28Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7264, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:46:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7265, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:46:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7266, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:47:10Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7267, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T04:48:00Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7268, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:48:10Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7269, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:48:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7270, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:49:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7271, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H18 stub-triage: 99stub<150B, 1241人物<500B, 2190人物500-1000B", "ts": "2026-05-08T04:49:39Z", "instance": "范祖禹", "reflect": "H18 稳定收敛"}
+{"round": 7272, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:50:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7273, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:51:04Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7274, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正", "ts": "2026-05-08T04:51:16Z", "instance": "范祖禹", "reflect": "H21 稳定4条"}
+{"round": 7275, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:51:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7276, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50页修改，registry重建", "ts": "2026-05-08T04:52:21Z", "instance": "范祖禹", "reflect": "H22 完全收敛"}
+{"round": 7277, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:52:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7278, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:53:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7279, "type": "housekeeping", "page": "—", "result": "accept", "desc": "W5 反思: 13635实体全满，dynasty缺4323(31.7%)，stub99", "ts": "2026-05-08T04:53:43Z", "instance": "范祖禹", "reflect": "W5 模式C收敛稳态：所有质量指标稳定无退化"}
+{"round": 7280, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T04:54:43Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7281, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:54:54Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7282, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:55:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7283, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:55:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7284, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:56:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7285, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:56:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7286, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:57:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7287, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正", "ts": "2026-05-08T04:57:32Z", "instance": "范祖禹", "reflect": "H21 稳定4条"}
+{"round": 7288, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:58:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7289, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H17 coverage-scan: 13635实体全满，dynasty缺4323(31.7%)", "ts": "2026-05-08T04:58:39Z", "instance": "范祖禹", "reflect": "H17 收敛稳态"}
+{"round": 7290, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:59:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7291, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T04:59:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7292, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:00:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7293, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50页+H20 wikilink-pass: 0/13646修改+registry重建", "ts": "2026-05-08T05:01:07Z", "instance": "范祖禹", "reflect": "双周期完全收敛"}
+{"round": 7294, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:01:18Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7295, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:01:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7296, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:02:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7297, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:02:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7298, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:03:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7299, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:03:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7300, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:04:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7301, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:04:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7302, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:05:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7303, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:05:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7304, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:06:10Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7305, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:06:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7306, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T05:07:42Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7307, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:07:52Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7308, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H18: 99stub+1241人物<500B / W5: 13635实体全满，dynasty缺31.7%", "ts": "2026-05-08T05:08:21Z", "instance": "范祖禹", "reflect": "双周期收敛稳态"}
+{"round": 7309, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:08:36Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7310, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50页修改+registry重建", "ts": "2026-05-08T05:09:19Z", "instance": "范祖禹", "reflect": "H22 完全收敛"}
+{"round": 7311, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:09:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7312, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:10:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7313, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正", "ts": "2026-05-08T05:10:31Z", "instance": "范祖禹", "reflect": "H21 稳定4条"}
+{"round": 7314, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:11:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7315, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:11:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7316, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:12:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7317, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:12:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7318, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:13:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7319, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T05:14:01Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7320, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:14:13Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7321, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:14:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7322, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:15:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7323, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:15:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7324, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:16:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7325, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:16:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7326, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H17 coverage-scan: 13635实体全满，dynasty缺4323(31.7%)", "ts": "2026-05-08T05:17:21Z", "instance": "范祖禹", "reflect": "H17 收敛稳态"}
+{"round": 7327, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50页修改+registry重建", "ts": "2026-05-08T05:17:40Z", "instance": "范祖禹", "reflect": "H22 完全收敛"}
+{"round": 7328, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:18:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7329, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:18:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7330, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:19:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7331, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:19:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7332, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T05:20:44Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7333, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:20:55Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7334, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:21:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7335, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:21:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7336, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:22:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7337, "type": "housekeeping", "page": "—", "result": "accept", "desc": "W5 反思: 13635实体全满，dynasty缺31.7%，stub99", "ts": "2026-05-08T05:22:42Z", "instance": "范祖禹", "reflect": "W5 模式C收敛稳态"}
+{"round": 7338, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:23:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7339, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正", "ts": "2026-05-08T05:23:33Z", "instance": "范祖禹", "reflect": "H21 稳定4条"}
+{"round": 7340, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:24:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7341, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:24:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7342, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:25:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7343, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:25:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7344, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50页修改+registry重建", "ts": "2026-05-08T05:26:20Z", "instance": "范祖禹", "reflect": "H22 完全收敛"}
+{"round": 7345, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20:0/13646修改+H18:99stub+1241人物<500B", "ts": "2026-05-08T05:27:11Z", "instance": "范祖禹", "reflect": "双周期完全收敛"}
+{"round": 7346, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:27:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7347, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:27:40Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7348, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:28:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7349, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:28:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7350, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:29:14Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7351, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:29:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7352, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正", "ts": "2026-05-08T05:30:15Z", "instance": "范祖禹", "reflect": "H21 稳定4条"}
+{"round": 7353, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:30:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7354, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:31:11Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7355, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:31:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7356, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:32:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7357, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:32:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7358, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T05:33:44Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7359, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:33:55Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7360, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:34:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7361, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50页修改+registry重建", "ts": "2026-05-08T05:34:39Z", "instance": "范祖禹", "reflect": "H22 完全收敛"}
+{"round": 7362, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:35:13Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7363, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H17: 13635实体全满，dynasty缺4323(31.7%)", "ts": "2026-05-08T05:35:41Z", "instance": "范祖禹", "reflect": "H17 收敛稳态"}
+{"round": 7364, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:36:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7365, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正", "ts": "2026-05-08T05:36:33Z", "instance": "范祖禹", "reflect": "H21 稳定4条"}
+{"round": 7366, "type": "housekeeping", "page": "—", "result": "accept", "desc": "W5 反思: 13635实体全满，dynasty缺31.7%，stub99", "ts": "2026-05-08T05:37:25Z", "instance": "范祖禹", "reflect": "W5 模式C收敛稳态"}
+{"round": 7367, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:37:39Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7368, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:38:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7369, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:38:39Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7370, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:39:13Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7371, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T05:40:03Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7372, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:40:16Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7373, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:40:31Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7374, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:41:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7375, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:41:31Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7376, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:42:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7377, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:42:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7378, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21:4条待修正+H22:0/50页修改+registry重建", "ts": "2026-05-08T05:43:22Z", "instance": "范祖禹", "reflect": "双周期完全收敛"}
+{"round": 7379, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:43:34Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7380, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:44:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7381, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:44:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7382, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H18: 99stub+1241人物<500B+2190人物500-1000B", "ts": "2026-05-08T05:45:22Z", "instance": "范祖禹", "reflect": "H18 稳定收敛"}
+{"round": 7383, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:45:34Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7384, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T05:46:45Z", "instance": "范祖禹", "reflect": "H20 完全收敛"}
+{"round": 7385, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:46:58Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7386, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:47:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7387, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:47:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7388, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:48:15Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7389, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:48:31Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7390, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:49:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7391, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条稳定待修正", "ts": "2026-05-08T05:49:34Z", "instance": "范祖禹", "reflect": "H21 稳定4条"}
+{"round": 7392, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:50:13Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7393, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:50:31Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7394, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:51:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7395, "type": "housekeeping", "page": "—", "result": "accept", "desc": "W5 反思: 13635实体全满，dynasty缺31.7%，stub99", "ts": "2026-05-08T05:51:43Z", "instance": "范祖禹", "reflect": "W5 模式C收敛稳态"}
+{"round": 7396, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:52:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7397, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:52:31Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7398, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:53:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7399, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:53:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7400, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H17: 13635实体全满，dynasty缺4323(31.7%)", "ts": "2026-05-08T05:54:23Z", "instance": "范祖禹", "reflect": "H17 收敛稳态"}
+{"round": 7401, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:54:36Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7402, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:55:13Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7403, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:55:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7404, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:56:12Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7405, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:56:32Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7406, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:57:14Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7407, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:57:33Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7408, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:58:15Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7409, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T05:58:30Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7411, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:00:59Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7412, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50修改，0变更 + registry rebuild", "ts": "2026-05-08T06:01:28Z", "instance": "范祖禹", "reflect": "H22完全收敛，注册表重建完成"}
+{"round": 7413, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:01:38Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7414, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:01:48Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7415, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:02:14Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7416, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:02:32Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7417, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条可疑(弘亿/弘昌/弘义/弘倧)分布于4页，待吴越钱氏页面创建", "ts": "2026-05-08T06:02:45Z", "instance": "范祖禹", "reflect": "H21完全收敛"}
+{"round": 7418, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:03:14Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7419, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H18 stub-triage: 99stub<150B, 1241person<500B, 2190person<1kB", "ts": "2026-05-08T06:03:34Z", "instance": "范祖禹", "reflect": "H18完全收敛，无变化"}
+{"round": 7420, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:03:49Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7421, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:03:56Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7422, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:04:03Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7423, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:04:10Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7424, "type": "housekeeping", "page": "—", "result": "accept", "desc": "W5 反思: 13940实体全满，dynasty缺4617(33.1%)，stub99", "ts": "2026-05-08T06:04:43Z", "instance": "范祖禹", "reflect": "W5 模式C收敛稳态：dynasty缺口略降33.1%，余全满"}
+{"round": 7425, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:04:56Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7426, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:05:13Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7427, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:05:21Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7428, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:05:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7429, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:05:37Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7430, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:05:45Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7431, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:06:04Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7432, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:06:13Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7433, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:06:43Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7434, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:07:02Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7435, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:07:09Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7436, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T06:07:50Z", "instance": "范祖禹", "reflect": "H20完全收敛"}
+{"round": 7437, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H17 coverage-scan: 13940页, desc/cat/ev全覆盖, dynasty缺4617(33.1%)", "ts": "2026-05-08T06:08:07Z", "instance": "范祖禹", "reflect": "H17收敛稳态"}
+{"round": 7438, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:08:20Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7439, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:08:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7440, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:08:36Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7441, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:08:45Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7442, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:08:53Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7443, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21 person-table-scan: 4条可疑(弘亿/弘昌/弘义/弘倧)分布于4页", "ts": "2026-05-08T06:09:03Z", "instance": "范祖禹", "reflect": "H21完全收敛"}
+{"round": 7444, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:09:16Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7445, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:09:24Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7446, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50修改 + registry rebuild", "ts": "2026-05-08T06:09:43Z", "instance": "范祖禹", "reflect": "H22完全收敛，注册表13940页"}
+{"round": 7447, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:10:00Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7448, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:10:08Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7449, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T06:10:49Z", "instance": "范祖禹", "reflect": "H20完全收敛"}
+{"round": 7450, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:10:58Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7451, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:11:06Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7452, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:11:13Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7453, "type": "housekeeping", "page": "—", "result": "accept", "desc": "W5 反思: 13940实体全满，dynasty缺4617(33.1%)，stub99", "ts": "2026-05-08T06:11:39Z", "instance": "范祖禹", "reflect": "W5 模式C收敛稳态: 所有指标与R7424一致"}
+{"round": 7454, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:11:58Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7455, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:12:06Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7456, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H21: 4条可疑+H18: 99stub<150B, 1241person<500B", "ts": "2026-05-08T06:12:39Z", "instance": "范祖禹", "reflect": "双任务收敛稳态"}
+{"round": 7457, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:12:57Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7458, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:13:05Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7459, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:13:13Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7460, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:13:21Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7461, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:13:29Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7462, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H20 wikilink-pass: 0/13646修改，0链接新增", "ts": "2026-05-08T06:14:10Z", "instance": "范祖禹", "reflect": "H20完全收敛"}
+{"round": 7463, "type": "housekeeping", "page": "—", "result": "accept", "desc": "H22 fix-emdash: 0/50修改 + registry rebuild", "ts": "2026-05-08T06:14:30Z", "instance": "范祖禹", "reflect": "H22完全收敛"}
+{"round": 7464, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:14:45Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7465, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:14:52Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7466, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:15:00Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7467, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:15:09Z", "instance": "范祖禹", "reflect": "收敛稳态"}
+{"round": 7468, "type": "housekeeping", "page": "—", "result": "accept", "desc": "idle: 无周期任务触发", "ts": "2026-05-08T06:15:17Z", "instance": "范祖禹", "reflect": "收敛稳态"}
