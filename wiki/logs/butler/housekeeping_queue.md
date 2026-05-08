@@ -5,6 +5,15 @@
 
 ## H-P2 — 常规内务
 
+### H23 merge-geo-official — 合并地名+官名拆分 wikilink
+> 状态：待执行（2026-05-09 首次发现）
+- 发现 1144 处「地名+官名」被拆成两个分离 wikilink，例如 `[[江州]][[刺史]]` → `[[江州刺史]]`
+- 涉及 165 个「地名+官名」词条；三种 pattern：split-both(872)、prefix-link-only(152)、suffix-link-only(120)
+- 最常见：兗州刺史(65文件)、西川节度使(40)、荆州刺史(36)、豫州刺史(33)、成德节度使(30)
+- 工具：`python3 wiki/scripts/butler/h23_merge_geo_official.py --limit 50`
+- 每轮执行 50 文件，预计需要 ~23 轮清空
+- [ ] H-P2 merge-geo-official | 全库 | 合并地名+官名拆分wikilink（约1144处）
+
 ### H22 fix-emdash — 修复破折号段落 ✅ 基本完成
 > 状态：已完成（R5159 命中率降至 6%，原始 463 页池基本清空）
 - 发现463个词条含「——」切分段落（2026-05-07 R4544首次扫描）

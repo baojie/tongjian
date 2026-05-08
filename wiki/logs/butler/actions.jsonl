@@ -8603,3 +8603,23 @@
 {"round": 8194, "type": "enrich-page", "page": "章仇兼琼,杜希全,杜岸", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:12:16Z", "instance": "范祖禹", "reflect": "3/3 accept"}
 {"round": 8195, "type": "enrich-page", "page": "杜稜,杨津,李充", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:13:10Z", "instance": "范祖禹", "reflect": "3/3 accept"}
 {"round": 8196, "type": "enrich-page", "page": "李纳,李正己,尹子奇", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:14:10Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8198, "type": "enrich-page", "page": "陈宫,丙吉,萧复", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:17:27Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8199, "type": "enrich-page", "page": "公孙卿,桃豹,曹嶷", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:18:35Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8200, "type": "enrich-page", "page": "王令温,薛志勤,田不礼", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:19:36Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8201, "type": "enrich-page", "page": "裴枢,王茂章,陈泰", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:20:39Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8202, "type": "enrich-page", "page": "李巽,奚牧,元岩", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:21:35Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8203, "type": "enrich-page", "page": "虞翻,董璋,贾疋", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:22:36Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8204, "type": "enrich-page", "page": "田邑,刘馥,慕容白曜", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:23:34Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8205, "type": "enrich-page", "page": "王国宝,吕母,赵彦昭", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:24:29Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8206, "type": "enrich-page", "page": "魏元忠,刘放,魏舒", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:25:29Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8207, "type": "reflect-w5", "page": "W5", "result": "accept", "desc": "W5 反思 R8179-R8206：28轮accept，standard 3954→4029", "ts": "2026-05-08T17:25:55Z", "instance": "范祖禹", "reflect": "稳定输出，build_registry 已修复"}
+{"round": 8208, "type": "enrich-page", "page": "王式,李宝,杨弁", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:26:51Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8209, "type": "enrich-page", "page": "元天穆,曹翔,孔巢父", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:27:59Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8210, "type": "enrich-page", "page": "寻阳王大心,韦温,高瞻", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:29:13Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8211, "type": "enrich-page", "page": "苏颋,苗晋卿,姚洎", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:31:26Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8212, "type": "enrich-page", "page": "万彧,柳惔,召平", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:32:27Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8213, "type": "enrich-page", "page": "独孤盛,杨檦,孔颖达", "result": "accept", "desc": "H20 wikilink-pass(0 links) + enrich×3 quality:standard", "ts": "2026-05-08T17:33:11Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8214, "type": "enrich-page", "page": "豫章王嶷,吕諲,宇文盛", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:33:51Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8215, "type": "enrich-page", "page": "田悦,杜弼,毛当", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:34:33Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8216, "type": "enrich-page", "page": "张缵,邓奉,许德勋", "result": "accept", "desc": "H20 wikilink-pass(0) + enrich×3 quality:standard", "ts": "2026-05-08T17:35:17Z", "instance": "范祖禹", "reflect": "3/3 accept"}
+{"round": 8217, "type": "enrich-page", "page": "刘景先,费穆,长孙道生", "result": "accept", "desc": "enrich×3，均加 quality:standard", "ts": "2026-05-08T17:35:58Z", "instance": "范祖禹", "reflect": "3/3 accept"}
