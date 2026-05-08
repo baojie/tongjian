@@ -834,13 +834,13 @@ body.is-home .reading-progress { display: none; }
 /* ── 章节原文排版增强 ──────────────────────────────── */
 
 /* 通用：段落间距加大 */
-article[data-type="chapter"] p {
+article[data-type="章节"] p {
   margin: 1.1em 0;
 }
 
 /* Mobile (<1200px)：PN 编号保留在段首 */
 @media (max-width: 1199px) {
-  article[data-type="chapter"] .pn-label {
+  article[data-type="章节"] .pn-label {
     color: var(--fg-muted);
     margin-right: 0.35em;
   }
@@ -848,10 +848,10 @@ article[data-type="chapter"] p {
 
 /* Desktop (≥1200px)：PN 编号浮动到 article 左边 */
 @media (min-width: 1200px) {
-  article[data-type="chapter"] {
+  article[data-type="章节"] {
     padding-left: 6.5em;
   }
-  article[data-type="chapter"] .pn-label {
+  article[data-type="章节"] .pn-label {
     float: left;
     margin-left: -6.8em;
     width: 6em;
@@ -864,21 +864,21 @@ article[data-type="chapter"] p {
 }
 
 /* 诗词检测 —— 短行连续段自动识别 */
-article[data-type="chapter"] .chapter-poem {
+article[data-type="章节"] .chapter-poem {
   font-family: var(--serif);
   line-height: 2.1;
   font-size: 1.02em;
   color: #e8dcb8;
   margin: 0;
 }
-article[data-type="chapter"] .chapter-poem .pn-label {
+article[data-type="章节"] .chapter-poem .pn-label {
   color: var(--fg-muted);
 }
 @media (min-width: 1200px) {
-  article[data-type="chapter"] .chapter-poem-short {
+  article[data-type="章节"] .chapter-poem-short {
     text-align: center;
   }
-  article[data-type="chapter"] .chapter-poem-short .pn-label {
+  article[data-type="章节"] .chapter-poem-short .pn-label {
     width: 5.5em;
   }
 }
@@ -1216,7 +1216,7 @@ article[data-type="object"]       { border-left-color: #8a6020; }
 article[data-type="music"]        { border-left-color: #8a6020; }
 article[data-type="event"]        { border-left-color: #c87820; }
 article[data-type="poem"]         { border-left-color: #a060a8; }
-article[data-type="chapter"]      { border-left-color: #607080; }
+article[data-type="章节"]      { border-left-color: #607080; }
 article[data-type="concept"]      { border-left-color: #4a78c0; }
 article[data-type="organization"] { border-left-color: #7050b8; }
 article[data-type="quote"]        { border-left-color: #b89050; }
