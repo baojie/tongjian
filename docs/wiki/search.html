@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>全文检索 - 红楼梦 Wiki</title>
+<title>全文检索 - 资治通鉴 Wiki</title>
 <link rel="stylesheet" href="css/main.css">
 <style>
 /* ─── 检索页专用 ─── */
@@ -38,10 +38,10 @@
 </head>
 <body>
 <div class="fts-page">
-  <a href="/" class="nav-back">← 返回红楼梦 Wiki</a>
+  <a href="/" class="nav-back">← 返回资治通鉴 Wiki</a>
   <h1>全文检索</h1>
   <form class="fts-form" id="fts-form">
-    <input type="search" id="fts-input" placeholder="搜索原文（关键字以空格分隔，如"太真 冰作影"）" autocomplete="off">
+    <input type="search" id="fts-input" placeholder="搜索原文（关键字以空格分隔，如"商鞅 变法"）" autocomplete="off">
     <button type="submit" class="fts-btn">检索</button>
   </form>
   <div id="fts-results"><div class="fts-loading">正在加载索引…</div></div>
@@ -154,7 +154,7 @@ function render() {
       Math.min(start + PER_PAGE, total) + ' 条</div>';
 
     for (const h of slice) {
-      const label = '第' + String(h.n).padStart(3, '0') + '回';
+      const label = '第' + String(h.n).padStart(3, '0') + '卷';
       const snip = snippet(h.text, terms);
       const title = esc(h.title.replace(/[　 ]+/g, ' '));
       html += '<a class="fts-hit" href="/#' + encodeURIComponent(h.id) + '?pn=' + h.pn + '">' +

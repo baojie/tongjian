@@ -15,6 +15,19 @@ const HOOK_NAMES = [
   'onInfobox',       // (rows, front, meta) → rows          Infobox 行定制
 ];
 
+const SETTINGS_KEY = 'wiki_settings';
+const SETTINGS_DEFAULTS = { autoWikilink: false };
+
+function loadSettings() {
+  try {
+    return Object.assign({}, SETTINGS_DEFAULTS, JSON.parse(localStorage.getItem(SETTINGS_KEY) || '{}'));
+  } catch { return { ...SETTINGS_DEFAULTS }; }
+}
+
+function saveSettings(settings) {
+  try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(settings)); } catch {}
+}
+
 async function boot() {
   const core = {
     hooks: createHooks(HOOK_NAMES),
@@ -22,6 +35,11 @@ async function boot() {
     md: null,
     plugins: [],
     specialPages: [],
+    settings: loadSettings(),
+  };
+  core.setSetting = (key, val) => {
+    core.settings[key] = val;
+    saveSettings(core.settings);
   };
   core.registerSpecialPage = (def) => core.specialPages.push(def);
   window.__wiki = core;

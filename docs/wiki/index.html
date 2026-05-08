@@ -27,6 +27,7 @@
     <a href="#About" class="topnav-link">关于</a>
     <a href="https://github.com/baojie/tongjian/issues/new" class="topnav-link" target="_blank" rel="noopener">提想法</a>
     <a href="https://github.com/baojie/tongjian" class="topnav-link" target="_blank" rel="noopener">GitHub</a>
+    <button id="autolink-toggle" class="topnav-link topnav-btn" title="自动链接：正文中已知词条名自动变为链接">自动链接：关</button>
     <span id="status" class="status"></span>
   </div>
 </nav>
@@ -68,6 +69,27 @@ fetch('pages.lite.json').then(r=>r.json()).then(data=>{
     });
   });
 }).catch(()=>{});
+
+// 自动链接开关
+(function(){
+  const btn = document.getElementById('autolink-toggle');
+  if (!btn) return;
+  function syncBtn(on) { btn.textContent = '自动链接：' + (on ? '开' : '关'); btn.classList.toggle('active', on); }
+  // 读初始状态（core 尚未挂载，直接读 localStorage）
+  let on = false;
+  try { on = JSON.parse(localStorage.getItem('wiki_settings') || '{}').autoWikilink === true; } catch {}
+  syncBtn(on);
+  btn.addEventListener('click', () => {
+    const core = window.__wiki;
+    const next = !(core ? core.settings.autoWikilink : on);
+    if (core) core.setSetting('autoWikilink', next);
+    else { try { localStorage.setItem('wiki_settings', JSON.stringify({autoWikilink: next})); } catch {} }
+    on = next;
+    syncBtn(next);
+    // 重渲当前页面使设置生效
+    if (core && location.hash.length > 1) { const h = location.hash; location.hash = ''; location.hash = h; }
+  });
+})();
 </script>
 </body>
 </html>

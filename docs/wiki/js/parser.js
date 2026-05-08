@@ -55,7 +55,10 @@ export async function parseMarkdown(core, mdText, ctx = {}) {
 
   // 自动 wikilink：正文中出现的已知词条（slug + 别名）自动添加 [[链接]]
   // 标题行、代码块、已有 [[wikilink]]、PN 引注等保护区域不会被处理
-  if (core.registry) {
+  // 默认关闭，可通过 core.settings.autoWikilink 或 URL ?autolink=1 开启
+  const autoLinkEnabled = core.settings?.autoWikilink
+    || new URLSearchParams(location.search).get('autolink') === '1';
+  if (core.registry && autoLinkEnabled) {
     body = autoWikilink(body, core.registry);
   }
 

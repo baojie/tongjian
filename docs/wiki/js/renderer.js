@@ -773,7 +773,7 @@ function bindHomeSearch(core) {
           return;
         }
         const ftsHtml = hits.slice(0, 30).map(h => {
-          const chapLabel = '第' + String(h.chapterN).padStart(3,'0') + '回';
+          const chapLabel = '第' + String(h.chapterN).padStart(3,'0') + '卷';
           const snippet = makeFTSSnippet(h.text, q);
           const chapName = escapeHtml(h.chapterTitle.replace(/[　 ]+/g, ' '));
           return `<li class="search-result-item fts-item">
