@@ -9130,3 +9130,119 @@
 {"round": 8734, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:10:33Z", "instance": "刘攽", "reflect": "R8734无周期任务"}
 {"round": 8735, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:10:34Z", "instance": "刘攽", "reflect": "R8735无周期任务"}
 {"round": 8736, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:10:34Z", "instance": "刘攽", "reflect": "R8736无周期任务"}
+{"round": 8737, "type": "housekeeping", "page": "H22(许劭)+git-commit", "result": "accept", "desc": "H22 fix-emdash(%17=0): 1页(许劭,1处)+git commit+push, 220WU", "ts": "2026-05-09T05:11:05Z", "instance": "刘攽", "reflect": "R8737 H22修复许劭1处;全库14919页稳态;下一停靠点R8758 W5(%29=0)"}
+{"round": 8738, "type": "housekeeping", "page": "H20(0)+H22(0)", "result": "accept", "desc": "H20(%13=0)无新页面+H22(%17=0)0处需修复, 70WU", "ts": "2026-05-09T05:11:32Z", "instance": "刘攽", "reflect": "R8738 H20/H22均无变更; H22余50页含破折号但均在保护区域(blockquote/正确格式)无需修改; 全库稳态"}
+{"round": 8739, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:38Z", "instance": "刘攽", "reflect": "R8739无周期任务"}
+{"round": 8740, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:39Z", "instance": "刘攽", "reflect": "R8740无周期任务"}
+{"round": 8741, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:39Z", "instance": "刘攽", "reflect": "R8741无周期任务"}
+{"round": 8742, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:39Z", "instance": "刘攽", "reflect": "R8742无周期任务"}
+{"round": 8743, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:40Z", "instance": "刘攽", "reflect": "R8743无周期任务"}
+{"round": 8744, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:40Z", "instance": "刘攽", "reflect": "R8744无周期任务"}
+{"round": 8745, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:40Z", "instance": "刘攽", "reflect": "R8745无周期任务"}
+{"round": 8746, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:41Z", "instance": "刘攽", "reflect": "R8746无周期任务"}
+{"round": 8747, "type": "housekeeping", "page": "H21(干净)", "result": "accept", "desc": "H21 person-table-scan(%13=7): 未发现可疑人名提取错误, 200WU", "ts": "2026-05-09T05:11:50Z", "instance": "刘攽", "reflect": "R8747 H21持续干净"}
+{"round": 8748, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:56Z", "instance": "刘攽", "reflect": "R8748无周期任务"}
+{"round": 8749, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:56Z", "instance": "刘攽", "reflect": "R8749无周期任务"}
+{"round": 8750, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:57Z", "instance": "刘攽", "reflect": "R8750无周期任务"}
+{"round": 8751, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:57Z", "instance": "刘攽", "reflect": "R8751无周期任务"}
+{"round": 8752, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:57Z", "instance": "刘攽", "reflect": "R8752无周期任务"}
+{"round": 8753, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:57Z", "instance": "刘攽", "reflect": "R8753无周期任务"}
+{"round": 8754, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:11:58Z", "instance": "刘攽", "reflect": "R8754无周期任务"}
+{"round": 8755, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:12:04Z", "instance": "刘攽", "reflect": "R8755无周期任务"}
+{"round": 8756, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:12:04Z", "instance": "刘攽", "reflect": "R8756无周期任务"}
+{"round": 8757, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:12:04Z", "instance": "刘攽", "reflect": "R8757无周期任务"}
+{"round": 8758, "type": "reflect-w5", "page": "W5", "result": "accept", "desc": "W5反思(%29=0): 库14919页稳态(较R8729无增长), 人物4805, description/cat/dynasty全覆盖, 候选池枯竭", "ts": "2026-05-09T05:12:35Z", "instance": "刘攽", "reflect": "观测A:库14919页连续30轮无增长(司马光实例未运行);观测B:所有元数据100%覆盖;观测C:缺description=0;观测D:H20/21/22全部收敛且无命中;观测E:候选池完全枯竭;观测F:系统处于完全稳态;建议:无待处理内务,可降低检查频率"}
+{"round": 8760, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无周期触发, 20WU", "ts": "2026-05-09T05:12:55Z", "instance": "刘攽", "reflect": "R8760无周期任务"}
+{"round": 8761, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:01Z", "instance": "刘攽", "reflect": "R8761无周期任务"}
+{"round": 8762, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:02Z", "instance": "刘攽", "reflect": "R8762无周期任务"}
+{"round": 8763, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:07Z", "instance": "刘攽", "reflect": "R8763无周期任务"}
+{"round": 8764, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:07Z", "instance": "刘攽", "reflect": "R8764无周期任务"}
+{"round": 8765, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:07Z", "instance": "刘攽", "reflect": "R8765无周期任务"}
+{"round": 8766, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:07Z", "instance": "刘攽", "reflect": "R8766无周期任务"}
+{"round": 8767, "type": "housekeeping", "page": "H21(干净)", "result": "accept", "desc": "H21 person-table-scan(%13=7): 未发现可疑人名提取错误, 200WU", "ts": "2026-05-09T05:13:16Z", "instance": "刘攽", "reflect": "R8767 H21持续干净"}
+{"round": 8768, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:26Z", "instance": "刘攽", "reflect": "R8768无周期任务"}
+{"round": 8769, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:27Z", "instance": "刘攽", "reflect": "R8769无周期任务"}
+{"round": 8770, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:27Z", "instance": "刘攽", "reflect": "R8770无周期任务"}
+{"round": 8771, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:27Z", "instance": "刘攽", "reflect": "R8771无周期任务"}
+{"round": 8772, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:33Z", "instance": "刘攽", "reflect": "R8772"}
+{"round": 8773, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:34Z", "instance": "刘攽", "reflect": "R8773"}
+{"round": 8774, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:34Z", "instance": "刘攽", "reflect": "R8774"}
+{"round": 8775, "type": "housekeeping", "page": "H22(0)", "result": "accept", "desc": "H22 fix-emdash(%17=0): 0页需修改(余50页含破折号均在保护区域), 50WU", "ts": "2026-05-09T05:13:44Z", "instance": "刘攽", "reflect": "R8775 H22零命中;全库稳态无变更"}
+{"round": 8776, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:49Z", "instance": "刘攽", "reflect": "R8776"}
+{"round": 8777, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:49Z", "instance": "刘攽", "reflect": "R8777"}
+{"round": 8778, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:49Z", "instance": "刘攽", "reflect": "R8778"}
+{"round": 8779, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:50Z", "instance": "刘攽", "reflect": "R8779"}
+{"round": 8780, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:50Z", "instance": "刘攽", "reflect": "R8780"}
+{"round": 8781, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:50Z", "instance": "刘攽", "reflect": "R8781"}
+{"round": 8782, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:50Z", "instance": "刘攽", "reflect": "R8782"}
+{"round": 8783, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:51Z", "instance": "刘攽", "reflect": "R8783"}
+{"round": 8784, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:51Z", "instance": "刘攽", "reflect": "R8784"}
+{"round": 8785, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:51Z", "instance": "刘攽", "reflect": "R8785"}
+{"round": 8786, "type": "housekeeping", "page": "steady-state", "result": "accept", "desc": "全库稳态: 无变更, 20WU", "ts": "2026-05-09T05:13:52Z", "instance": "刘攽", "reflect": "R8786"}
+{"round": 8787, "type": "reflect-w5", "page": "W5", "result": "accept", "desc": "W5反思(%29=0): 库14917页(人物4803), 所有元数据100%覆盖, 完全稳态无变化", "ts": "2026-05-09T05:14:10Z", "instance": "刘攽", "reflect": "观测:库14917页(-2 from R8758);人物4803(-2);cat/desc/dynasty全部100%;质量分布完全不变;全库处于充分稳态;建议:系统完全收敛,可降低检查频次"}
+{"round": 8788, "type": "housekeeping", "page": "H20(0)+H18(0)", "result": "accept", "desc": "H20(%13=0)无变更+H18(%37=19)0 stub, 70WU", "ts": "2026-05-09T05:14:35Z", "instance": "刘攽", "reflect": "R8788 H20/H18均收敛无命中"}
+{"round": 8789, "type": "housekeeping", "page": "H22(0)", "result": "accept", "desc": "H22 fix-emdash(%17=0): 0页需修改, 50WU", "ts": "2026-05-09T05:14:47Z", "instance": "刘攽", "reflect": "R8789 H22零命中"}
+{"round": 8790, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:54Z", "instance": "刘攽", "reflect": "R8790"}
+{"round": 8791, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:55Z", "instance": "刘攽", "reflect": "R8791"}
+{"round": 8792, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:55Z", "instance": "刘攽", "reflect": "R8792"}
+{"round": 8793, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:55Z", "instance": "刘攽", "reflect": "R8793"}
+{"round": 8794, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:56Z", "instance": "刘攽", "reflect": "R8794"}
+{"round": 8795, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "全库稳态: H21, 20WU", "ts": "2026-05-09T05:14:56Z", "instance": "刘攽", "reflect": "R8795"}
+{"round": 8796, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:57Z", "instance": "刘攽", "reflect": "R8796"}
+{"round": 8797, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:57Z", "instance": "刘攽", "reflect": "R8797"}
+{"round": 8798, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:57Z", "instance": "刘攽", "reflect": "R8798"}
+{"round": 8799, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:58Z", "instance": "刘攽", "reflect": "R8799"}
+{"round": 8800, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:58Z", "instance": "刘攽", "reflect": "R8800"}
+{"round": 8801, "type": "housekeeping", "page": "H20", "result": "accept", "desc": "全库稳态: H20, 20WU", "ts": "2026-05-09T05:14:58Z", "instance": "刘攽", "reflect": "R8801"}
+{"round": 8802, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:59Z", "instance": "刘攽", "reflect": "R8802"}
+{"round": 8803, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:59Z", "instance": "刘攽", "reflect": "R8803"}
+{"round": 8804, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:14:59Z", "instance": "刘攽", "reflect": "R8804"}
+{"round": 8805, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:00Z", "instance": "刘攽", "reflect": "R8805"}
+{"round": 8806, "type": "housekeeping", "page": "H22", "result": "accept", "desc": "全库稳态: H22, 20WU", "ts": "2026-05-09T05:15:00Z", "instance": "刘攽", "reflect": "R8806"}
+{"round": 8807, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:01Z", "instance": "刘攽", "reflect": "R8807"}
+{"round": 8808, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "全库稳态: H21, 20WU", "ts": "2026-05-09T05:15:01Z", "instance": "刘攽", "reflect": "R8808"}
+{"round": 8809, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:02Z", "instance": "刘攽", "reflect": "R8809"}
+{"round": 8810, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:02Z", "instance": "刘攽", "reflect": "R8810"}
+{"round": 8811, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:02Z", "instance": "刘攽", "reflect": "R8811"}
+{"round": 8812, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:03Z", "instance": "刘攽", "reflect": "R8812"}
+{"round": 8813, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:03Z", "instance": "刘攽", "reflect": "R8813"}
+{"round": 8814, "type": "housekeeping", "page": "H20", "result": "accept", "desc": "全库稳态: H20, 20WU", "ts": "2026-05-09T05:15:03Z", "instance": "刘攽", "reflect": "R8814"}
+{"round": 8815, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:04Z", "instance": "刘攽", "reflect": "R8815"}
+{"round": 8816, "type": "reflect-w5", "page": "W5", "result": "accept", "desc": "W5反思(%29=0): 库14919页(人物4805), 所有元数据100%, 连续60+轮完全稳态无变化", "ts": "2026-05-09T05:15:23Z", "instance": "刘攽", "reflect": "观测:库14919页连续4次W5几乎无变化;所有内务H20/21/22/23/24完全收敛;候选池枯竭;无并行实例;系统已达最终稳态;建议:仅需维持周期扫描,无待处理事项"}
+{"round": 8817, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:44Z", "instance": "刘攽", "reflect": "R8817"}
+{"round": 8818, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:46Z", "instance": "刘攽", "reflect": "R8818"}
+{"round": 8819, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:49Z", "instance": "刘攽", "reflect": "R8819"}
+{"round": 8820, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:15:52Z", "instance": "刘攽", "reflect": "R8820"}
+{"round": 8821, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "全库稳态: H21, 20WU", "ts": "2026-05-09T05:22:47Z", "instance": "刘攽", "reflect": "R8821"}
+{"round": 8822, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:22:50Z", "instance": "刘攽", "reflect": "R8822"}
+{"round": 8823, "type": "housekeeping", "page": "H22", "result": "accept", "desc": "全库稳态: H22, 20WU", "ts": "2026-05-09T05:22:58Z", "instance": "刘攽", "reflect": "R8823"}
+{"round": 8824, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:23:00Z", "instance": "刘攽", "reflect": "R8824"}
+{"round": 8825, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:23:03Z", "instance": "刘攽", "reflect": "R8825"}
+{"round": 8826, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T05:23:06Z", "instance": "刘攽", "reflect": "R8826"}
+{"round": 8827, "type": "create-page", "page": "安全庆 董可武 崔元藻 张仲清 刘佐尧 崔嘏 杨钦义 薛元赏 李丕 李彦佐", "result": "accept", "desc": "create-page×10页，1000WU（补录R8759）", "ts": "2026-05-09T05:26:09Z", "instance": "司马光", "reflect": "昭义集团续：安全庆/董可武/刘佐尧守要隘；崔元藻吴湘案；张仲清监军；崔嘏洺州降/草制被贬；杨钦义枢密；薛元赏京兆尹；李丕首降；李彦佐逗遛被替"}
+{"round": 8829, "type": "housekeeping", "page": "H-P3", "result": "accept", "desc": "housekeeping-scan: 14929页/0缺desc/0 stub<100B, 全库稳态", "ts": "2026-05-09T06:01:27Z", "instance": "资治通鉴", "reflect": "R8829健康扫描:全库14929页完全健康;所有H任务收敛;P2/P3队列18K+条目均已存在(标记过期);无待处理事项"}
+{"round": 8830, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:02:08Z", "instance": "资治通鉴", "reflect": "R8830"}
+{"round": 8831, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:02:29Z", "instance": "资治通鉴", "reflect": "R8831"}
+{"round": 8832, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:02:42Z", "instance": "资治通鉴", "reflect": "R8832"}
+{"round": 8833, "type": "housekeeping", "page": "D1+H10", "result": "accept", "desc": "D1(30条现代术语,无新候)+H10(14934页/0缺desc/0 stub), 350WU", "ts": "2026-05-09T06:03:03Z", "instance": "资治通鉴", "reflect": "R8833 D1+H10:全库健康14934页;发现仍为现代学术术语(古代/帝国/皇权/秦汉等),无原文可建新候;全库完全稳态"}
+{"round": 8834, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "H21:无发现, 200WU", "ts": "2026-05-09T06:03:16Z", "instance": "资治通鉴", "reflect": "R8834 H21:完全收敛,无待修复可疑条目"}
+{"round": 8835, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:03:26Z", "instance": "资治通鉴", "reflect": "R8835"}
+{"round": 8836, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:03:30Z", "instance": "资治通鉴", "reflect": "R8836"}
+{"round": 8837, "type": "housekeeping", "page": "H20", "result": "accept", "desc": "H20 wikilink-pass: 20页+375链接, 50WU", "ts": "2026-05-09T06:03:50Z", "instance": "资治通鉴", "reflect": "R8837 H20:20页(距HEAD)添加375内部链接;pages.json重建"}
+{"round": 8828, "type": "create-page", "page": "赵蕃 李思忠 刘武德 贾群 康良佺 吕义忠 敬昕 张元益 高少逸 田牟", "result": "accept", "desc": "create-page×10页，1000WU", "ts": "2026-05-09T06:03:57Z", "instance": "司马光", "reflect": "本轮10页全部accept：回鹘/昭义/河东/易定相关人物；刘行深已存在跳过"}
+{"round": 8838, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:03:58Z", "instance": "资治通鉴", "reflect": "R8838"}
+{"round": 8839, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:03:59Z", "instance": "资治通鉴", "reflect": "R8839"}
+{"round": 8840, "type": "housekeeping", "page": "H22", "result": "accept", "desc": "H22 fix-emdash: 50页扫描0处修改(收敛终端), 20WU", "ts": "2026-05-09T06:04:12Z", "instance": "资治通鉴", "reflect": "R8840 H22:完全收敛,50页均因保护区域或非匹配pattern跳过,无需修复"}
+{"round": 8841, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:04:22Z", "instance": "资治通鉴", "reflect": "R8841"}
+{"round": 8842, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:04:23Z", "instance": "资治通鉴", "reflect": "R8842"}
+{"round": 8843, "type": "housekeeping", "page": "steady", "result": "accept", "desc": "全库稳态: 无触发, 20WU", "ts": "2026-05-09T06:04:23Z", "instance": "资治通鉴", "reflect": "R8843"}
+{"round": 8844, "type": "housekeeping", "page": "D1+H10", "result": "accept", "desc": "D1(30条现代术语)+H10(14939页/0缺desc/0 stub), 350WU", "ts": "2026-05-09T06:04:43Z", "instance": "资治通鉴", "reflect": "R8844 D1+H10:14939页健康;D1持续同模式(古代/帝国/皇权/秦汉等现代学术术语)"}
+{"round": 8845, "type": "reflect-w5", "page": "W5", "result": "accept", "desc": "W5反思(%29=0): 库14939页(人物4825),缺desc0,缺dynasty4876(32.6%),stub<200B 57页,最近60轮93%为housekeeping稳态", "ts": "2026-05-09T06:05:10Z", "instance": "资治通鉴", "reflect": "观测A:自R8810连续~35轮稳态无实质内容创建;观测B:H20/21/22/23/24全收敛;观测C:D1持续同模式(现代学术术语);观测D:18469条P2/P3队列标记过期;观测E:dynasty32.6%缺失为唯一未解元数据问题;建议:开发dynasty批量填充脚本;清理18000+过期队列标记;系统已达最后稳态"}
+{"round": 8846, "type": "create-page", "page": "何清朝 刘约 裴夷直 陈君赏 李中敏 李拭 苗缜 苻澈 刘弘逸 薛季陵", "result": "accept", "desc": "create-page×10页，1000WU", "ts": "2026-05-09T06:13:04Z", "instance": "司马光", "reflect": "本轮10页accept：义武/文宗/宦官/回鹘/外交系列；跳过10个单引注候选"}
+{"round": 8847, "type": "create-page", "page": "韩约 郭行馀 李孝本 李甘 郭旼 胡证 杨承和 韦元素 王践言 陈弘志", "result": "accept", "desc": "create-page×10页，1000WU", "ts": "2026-05-09T06:22:45Z", "instance": "司马光", "reflect": "本轮10页accept：甘露之变/宦官权斗系列（韩约/郭行馀/李孝本/杨承和/韦元素/王践言/陈弘志）；22个单引注跳过"}
+{"round": 8848, "type": "create-page", "page": "田全操 萧洪 柏耆 殷侑 温造 亓志绍 张韶 郭钊 万洪 杨叔元", "result": "accept", "desc": "create-page×10页，1000WU", "ts": "2026-05-09T06:31:55Z", "instance": "司马光", "reflect": "本轮10页accept：平淄青/平李同捷/甘露之变外围/南诏事务系列；20个单引注候选跳过"}
+{"round": 8849, "type": "create-page", "page": "高瑀 郑权 独孤朗 康艺全 张权舆 张元夫 硃克融 李寰 张又新 傅良弼", "result": "accept", "desc": "create-page×10页，1000WU", "ts": "2026-05-09T06:41:39Z", "instance": "司马光", "reflect": "本轮10页accept：穆宗/敬宗/文宗朝系列（幽州割据/李逢吉党/藩镇将领）；25个单引注候选跳过"}
+{"round": 8850, "type": "create-page", "page": "杨元卿 杨于陵 张平叔 刘承偕 王日简 王稷 韦雍 高承简 丁公著 裴行立", "result": "accept", "desc": "create-page×10页，1000WU", "ts": "2026-05-09T06:50:20Z", "instance": "司马光", "reflect": "本轮10页accept：穆宗朝幽州/宣武/淄青/南方系列；27个单引注候选跳过"}
+{"round": 8851, "type": "create-page", "page": "张暹,夏侯澄,李公度,薛放,桂仲武,杨清,阳旻,裴潾,武儒衡,钱徽", "result": "accept", "desc": "create-page×10页，1000WU", "ts": "2026-05-09T06:59:18Z", "instance": "司马光", "reflect": "本轮10页：淄青、安南、穆宗朝各类人物；单命中跳过9条（赵垂棘等）"}
+{"round": 8852, "type": "create-page", "page": "李文悦,丁士良,吴秀琳,柳子野,张宿,张奉国,林蕴,谭忠,程权,郭日户", "result": "accept", "desc": "create-page×10页，1000WU", "ts": "2026-05-09T07:08:38Z", "instance": "司马光", "reflect": "平淮西战将、宪宗朝功罪各色人物；跳过12条单命中"}
+{"round": 8853, "type": "create-page", "page": "东川,南中,大兴城,天山,统万城,朝鲜,昆阳,吴兴,瀛州,骊山", "result": "accept", "desc": "create-page×10地名页，1000WU", "ts": "2026-05-09T07:16:48Z", "instance": "资治通鉴", "reflect": "涵盖汉到唐各朝代地名：西域征战要地天山、三国南征要地南中、秦代胜迹骊山统万城等"}

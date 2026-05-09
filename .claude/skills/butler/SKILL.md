@@ -63,7 +63,7 @@ python3 wiki/scripts/butler/claim_round.py --check-only --instance INSTANCE_NAME
 
 步骤 2 · 读规范（每次启动必读）
 ──────────────────────────────────
-skills/SKILL_W0_Butler总则.md（若存在）
+/home/baojie/work/knowledge/tongjian/skills/SKILL_W0_Butler总则.md
 CLAUDE.md（资治通鉴规则）
 /home/baojie/work/knowledge/shared-rules.md（共享铁则）
 
@@ -163,6 +163,8 @@ python3 wiki/scripts/butler/release_round.py $ROUND
 | housekeeping-scan | 200 | 全局维护扫描 |
 | person-table-scan | 200 | H21 扫描任职者表格人名提取错误 |
 | fix-emdash | 20 | H22 修复单页破折号段落 → 转为正常段落/列表 |
+| merge-geo-official | 15 | H23 合并「地名+官名」拆分 wikilink → 单一链接 |
+| merge-compound-wikilinks | 15 | H24 合并所有复合词条拆分 wikilink（官职/将军号/历史事件等）|
 
 ## 页面质量层级
 
@@ -207,6 +209,30 @@ python3 wiki/scripts/butler/release_round.py $ROUND
 | `check_citations.py` | W6 离线质检：`python3 wiki/scripts/butler/check_citations.py <slug>` |
 | `h21_audit_person_tables.py` | H21 扫描：`python3 wiki/scripts/butler/h21_audit_person_tables.py` |
 | `h22_fix_emdash.py` | H22 修复：`python3 wiki/scripts/butler/h22_fix_emdash.py --limit 50` |
+| `h23_merge_geo_official.py` | H23 合并：`python3 wiki/scripts/butler/h23_merge_geo_official.py --limit 50` |
+| `h24_merge_compound_wikilinks.py` | H24 合并：`python3 wiki/scripts/butler/h24_merge_compound_wikilinks.py --limit 50` |
+
+## H23 merge-geo-official 规范
+
+**目标**：将正文中被拆成两个分离 wikilink 的「地名+官名」合并为单一链接。
+
+**前提**：合并后的词条（如「江州刺史」）必须已存在于 pages.json。
+
+**三种 pattern**：
+1. `[[地名]][[官名]]` → `[[地名官名]]`
+2. `[[地名]]官名` → `[[地名官名]]`
+3. `地名[[官名]]` → `[[地名官名]]`
+
+**保护区域**：代码块、行内代码、blockquote（`>` 行）、PN 引注。
+
+**触发条件**：housekeeping_queue.md 中 H-P2 任务存在时，每轮处理 `--limit 50` 个文件。
+
+**工具调用方式**：
+```bash
+python3 wiki/scripts/butler/h23_merge_geo_official.py --limit 50
+python3 wiki/scripts/butler/h23_merge_geo_official.py --dry-run --limit 20  # 预览
+python3 wiki/scripts/butler/h23_merge_geo_official.py --slug 商鞅           # 单页
+```
 
 ## H22 fix-emdash 规范
 
@@ -232,4 +258,18 @@ python3 wiki/scripts/butler/h22_fix_emdash.py --limit 50
 
 ## 详细规范参考
 
-资治通鉴 butler 遵循 W0-W9 架构，全部规则已内嵌于本文件，无需外部参考文档。
+- [W0 总则](../../../skills/SKILL_W0_Butler总则.md) — 六不变量、三队列、十步闭环
+- [W1 探索与队列](../../../skills/SKILL_W1_Butler探索与队列.md) — 三队列选取，corpus_search 验证
+- [W2 原子行动](../../../skills/SKILL_W2_Butler原子行动.md) — 动作目录，WU 表，PN 引文格式
+- [W3 质量标准](../../../skills/SKILL_W3_Butler质量标准.md) — stub→premium 五档，自评规则
+- [W4 评估与检验](../../../skills/SKILL_W4_Butler评估与检验.md) — 红旗检查、分数计算、rollback 决策
+- [W5 反思与自改](../../../skills/SKILL_W5_Butler反思与自改.md) — 七类模式识别，每29轮强制
+- [W6 离线质检](../../../skills/SKILL_W6_Butler离线质检.md) — 批量引文溯源验证，W5/W7 互补
+- [W6 原文标注规范](../../../skills/SKILL_W6_Butler原文标注规范.md) — wikilink 标注、blockquote 规范
+- [W7 引文真实性核验](../../../skills/SKILL_W7_引文真实性核验.md) — 三层流水线增量核验
+- [W8 精品页建设方法论](../../../skills/SKILL_W8_精品页建设方法论.md) — featured 精品页深化流程
+- [W9 页面图式反思](../../../skills/SKILL_W9_Butler页面图式反思.md) — 细分类型模板积累
+- [W10c 词汇链接化](../../../skills/SKILL_W10c_词汇链接化.md)
+- [W10e 原文溯源增补](../../../skills/SKILL_W10e_原文溯源增补.md)
+- [W10f 断链新建条目](../../../skills/SKILL_W10f_断链新建条目.md)
+- [W10l 引文PN一致性](../../../skills/SKILL_W10l_引文PN一致性.md)

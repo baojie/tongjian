@@ -41,7 +41,7 @@
 - TODO: 补充5页description字段（H4 enrich-meta）
 
 ## H-P3 — 探索内务
-  [ ] H-P3 housekeeping-scan | 全局 | 初始覆盖率扫描
+  [x] H-P3 housekeeping-scan | 全局 | 初始覆盖率扫描（R8829完成: 14929页/0缺desc/0 stub<100B）
 
 ## H18 stub-triage (R3268, %37=19)
 > 全库 body < 500B 共 7431 条（重扫更新），person 类型优先 enrich
