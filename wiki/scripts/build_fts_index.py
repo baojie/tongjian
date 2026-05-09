@@ -74,8 +74,8 @@ def parse_paragraphs(content):
 def process_chapter(content):
     """Process a chapter page and return (chapter_info, entries)."""
     fm = parse_frontmatter(content)
-    chapter_num = int(fm.get('chapter_num', 0))
-    chapter_title = fm.get('chapter_title', '')
+    chapter_num = int(fm.get('vol_num', fm.get('chapter_num', 0)))
+    chapter_title = fm.get('vol_title', fm.get('chapter_title', ''))
     chapter_id = fm.get('id', '')
 
     paragraphs = parse_paragraphs(content)

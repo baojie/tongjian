@@ -98,7 +98,10 @@ def build_registry(pages_root: Path) -> dict:
 
         # alias index — chapter pages: only register by id, not label
         label_keys = [] if entry["type"] == "章节" else [entry["label"]]
-        for key in [pid] + label_keys + (entry["aliases"] or []):
+        aliases = entry.get("aliases", [])
+        if isinstance(aliases, str):
+            aliases = [aliases]
+        for key in [pid] + label_keys + aliases:
             if not isinstance(key, str):
                 continue
             if key in alias_index and alias_index[key] != pid:
