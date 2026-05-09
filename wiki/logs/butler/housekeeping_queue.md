@@ -5,6 +5,14 @@
 
 ## H-P2 — 常规内务
 
+### H24 merge-compound-wikilinks — 合并所有复合词条拆分 wikilink
+> 状态：待执行（2026-05-09 扫描发现）
+- 发现 236 种复合词条被拆开，共 2376 处；涵盖六部官职、将军号、历史事件、封号等
+- 最多：翰林学士(136)、吏部尚书(102)、车骑将军(89)、尚书左仆射(67)、商鞅变法(56)
+- 工具：`python3 wiki/scripts/butler/h24_merge_compound_wikilinks.py --limit 50`
+- 每轮 50 文件，预计约 48 轮清空
+- [ ] H-P2 merge-compound-wikilinks | 全库 | 合并复合词条拆分wikilink（约2376处）
+
 ### H23 merge-geo-official — 合并地名+官名拆分 wikilink
 > 状态：待执行（2026-05-09 首次发现）
 - 发现 1144 处「地名+官名」被拆成两个分离 wikilink，例如 `[[江州]][[刺史]]` → `[[江州刺史]]`
