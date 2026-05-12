@@ -26,6 +26,9 @@ LOCK    = LOG_DIR / "recent.lock"
 WINDOW_SIZE    = 1000   # 每条 recent 文件最多保留行数
 ARCHIVE_BATCH  = 500    # 超出后一次归档最旧的条数
 
+HIST_MAX_BYTES     = 20 * 1024 * 1024   # history 文件超过 20 MB 触发归档
+HIST_ARCHIVE_BATCH = 50                  # 每次归档最旧的 50 条
+
 
 def _diff(old: str, new: str, context: int = 2) -> list[list[str]]:
     """行级 unified diff，返回 [["+"/"-"/" ", line], ...] 去掉 @@/---/+++ 头。"""
@@ -60,6 +63,34 @@ def _read_jsonl(path: Path) -> list[dict]:
             except json.JSONDecodeError:
                 pass
     return entries
+
+
+def _rotate_history(page: str, entries: list[dict], file_size: int
+                    ) -> tuple[list[dict], bool]:
+    """Size-based rotation: archive oldest entries when file exceeds HIST_MAX_BYTES.
+    Batch size is derived from avg entry size so each archive file stays under the limit."""
+    if not entries or file_size <= HIST_MAX_BYTES:
+        return entries, False
+
+    avg_bytes  = file_size / len(entries)
+    # How many entries fit in one archive file (min 1, max HIST_ARCHIVE_BATCH)
+    batch_size = max(1, min(HIST_ARCHIVE_BATCH, int(HIST_MAX_BYTES / avg_bytes)))
+    did_rotate = False
+
+    while entries and len(entries) * avg_bytes > HIST_MAX_BYTES:
+        batch   = entries[:batch_size]
+        entries = entries[batch_size:]
+        nums = [int(p.stem.rsplit(".", 1)[1])
+                for p in HIST.glob(f"{page}.*.jsonl")
+                if p.stem.rsplit(".", 1)[1].isdigit()]
+        n = max(nums) + 1 if nums else 1
+        (HIST / f"{page}.{n}.jsonl").write_text(
+            "\n".join(json.dumps(e, ensure_ascii=False) for e in batch) + "\n",
+            encoding="utf-8")
+        print(f"  [hist-archive] {len(batch)} entries → history/{page}.{n}.jsonl")
+        did_rotate = True
+
+    return entries, did_rotate
 
 
 def _rotate_all(lite_entries: list[dict], diff_entries: list[dict]
@@ -121,6 +152,7 @@ def main() -> int:
     HIST.mkdir(exist_ok=True)
     page_jsonl = HIST / f"{page}.jsonl"
 
+    file_size = page_jsonl.stat().st_size if page_jsonl.exists() else 0
     with page_jsonl.open("a+", encoding="utf-8") as fh:
         fcntl.flock(fh, fcntl.LOCK_EX)
         fh.seek(0)
@@ -135,6 +167,8 @@ def main() -> int:
         if entries and entries[-1].get("content_hash") == f"sha256:{sha}":
             print(f"= {page} 内容与 latest 相同，跳过")
             return 0
+
+        entries, did_rotate = _rotate_history(page, entries, file_size)
 
         last = entries[-1] if entries else None
         parent_content = last["content"] if last else ""
@@ -158,7 +192,13 @@ def main() -> int:
         if args.action == "delete":
             entry["action"] = "delete"
 
-        fh.seek(0, 2)
+        if did_rotate:
+            fh.seek(0)
+            fh.truncate()
+            for e in entries:
+                fh.write(json.dumps(e, ensure_ascii=False) + "\n")
+        else:
+            fh.seek(0, 2)
         fh.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
     # ── recent.lite.jsonl + recent.diff.jsonl（滚动窗口，flock 保护）─────────
