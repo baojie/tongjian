@@ -75,6 +75,36 @@ body.is-home .topnav-search { display: none; }
 .topnav-link:hover { color: var(--accent); }
 .topnav-btn { background: none; border: none; cursor: pointer; font-size: inherit; font-family: inherit; padding: 0; }
 .topnav-btn.active { color: var(--accent); }
+.settings-wrap { position: relative; }
+.settings-panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  background: var(--bg-nav);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: .6em .9em;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0,0,0,.4);
+  z-index: 100;
+  min-width: 130px;
+}
+.setting-item {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  font-family: var(--sans);
+  font-size: .88em;
+  color: var(--fg);
+  cursor: pointer;
+  padding: .25em 0;
+  user-select: none;
+}
+.setting-item input[type="checkbox"] {
+  cursor: pointer;
+  accent-color: var(--accent);
+  width: 14px;
+}
 
 .page {
   max-width: 1440px;
