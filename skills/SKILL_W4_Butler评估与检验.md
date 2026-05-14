@@ -48,7 +48,7 @@ Butler 只允许以下来源的内容进入 wiki：
 python3 wiki/scripts/butler/corpus_search.py "引文关键字" --max 5
 
 # 验证 PN 是否对应正确卷目
-grep "\[080-PPP\]" wiki/public/pages/第080卷.md
+grep "\[080-PPP\]" wiki/public/pages/di/第080卷.md
 ```
 
 > ⚠️ **不得用 `corpus_search.py` 返回的标注片段直接做字符串匹配**：结果含 `【】` 标注，匹配前需去除。

@@ -296,7 +296,18 @@ async function route(core) {
     if (pendingPN) tryScrollToPN(pendingPN);
     if (pendingPageAnchor) tryScrollToAnchor(pendingPageAnchor);
   } catch (e) {
-    const failedFile = (meta && meta.path) || `${pid}.md`;
+    // 兜底：若 meta.path 不可用，从 registry 中同首字符页面推断桶名
+    let fallbackPath = (meta && meta.path) || null;
+    if (!fallbackPath && core.registry && core.registry.pages) {
+      const firstChar = pid.charAt(0);
+      for (const [, entry] of Object.entries(core.registry.pages)) {
+        if (entry.path && entry.path.endsWith('.md') && entry.path.charAt(0) === firstChar) {
+          const bucket = entry.path.split('/')[0];
+          if (bucket) { fallbackPath = `${bucket}/${pid}.md`; break; }
+        }
+      }
+    }
+    const failedFile = fallbackPath || `${pid}.md`;
     showFatal(`加载 pages/${failedFile} 失败：${e.message}`);
   }
 }

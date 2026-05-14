@@ -43,13 +43,8 @@ for line in open('wiki/logs/butler/citation_issues.jsonl'):
 选择 PN 较多的页面，用 corpus_search 验证引文是否匹配：
 
 ```bash
-# 提取页面中所有 PN，逐一验证
-grep -o '（[0-9]\{3\}-[0-9]\{3\}）' wiki/public/pages/人物名.md | \
-    sed 's/[（）]//g' | while read pn; do
-        vol=$(echo $pn | cut -d- -f1)
-        para=$(echo $pn | cut -d- -f2)
-        echo "验证 PN: 第${vol}卷-${para}"
-    done
+# 提取页面中所有 PN，逐一验证（resolve_page_file 自动定位）
+python3 -c "from wiki.scripts.page_bucket import resolve_page_file; from pathlib import Path; import re; text=resolve_page_file(Path('wiki/public/pages'), '人物名').read_text(); [print(f'验证 PN: 第{v}卷-{p}') for v,p in re.findall(r'（(\d{3})-(\d{3})）', text)]"
 ```
 
 ### 渠道3：人工发现
@@ -68,7 +63,7 @@ grep -o '（[0-9]\{3\}-[0-9]\{3\}）' wiki/public/pages/人物名.md | \
 
 ```bash
 # 读取疑似 issue 页面的引文节
-grep -A5 "## 原文引文" wiki/public/pages/疑似页.md
+python3 -c "from wiki.scripts.page_bucket import resolve_page_file; from pathlib import Path; print(resolve_page_file(Path('wiki/public/pages'), '疑似页').read_text())" | grep -A5 "## 原文引文"
 ```
 
 | 初判结果 | 处理 |

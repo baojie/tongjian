@@ -543,7 +543,18 @@ function injectSurnameList(core, surname, meta) {
 
 export async function renderSource(core, pid, meta) {
   document.body.classList.remove('is-home');
-  const pageFile = (meta && meta.path) || pid + '.md';
+  // 兜底：若 meta.path 不可用，从 registry 中同首字符页面推断桶名
+  let pageFile = (meta && meta.path) || null;
+  if (!pageFile && core.registry && core.registry.pages) {
+    const firstChar = pid.charAt(0);
+    for (const [, entry] of Object.entries(core.registry.pages)) {
+      if (entry.path && entry.path.endsWith('.md') && entry.path.charAt(0) === firstChar) {
+        const bucket = entry.path.split('/')[0];
+        if (bucket) { pageFile = `${bucket}/${pid}.md`; break; }
+      }
+    }
+  }
+  if (!pageFile) pageFile = pid + '.md';
   const r = await fetch(`pages/${pageFile}`);
   if (!r.ok) throw new Error('HTTP ' + r.status);
   const mdText = await r.text();

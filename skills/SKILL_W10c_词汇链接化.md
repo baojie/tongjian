@@ -66,8 +66,8 @@ python3 wiki/scripts/butler/bulk_wikilink.py --since HEAD
 ### Step 2：人工抽查（butler 每轮抽查 1-2 页）
 
 ```bash
-# 检查某页的真假阳性
-grep -c '\[\[.*\]\]' wiki/public/pages/目标页.md
+# 检查某页的真假阳性（resolve_page_file 自动定位分桶路径）
+python3 -c "from wiki.scripts.page_bucket import resolve_page_file; from pathlib import Path; print(resolve_page_file(Path('wiki/public/pages'), '目标页').read_text().count('[['))"
 # 确认没有误链（如单字匹配、朝代/数字等不应链接的）
 ```
 

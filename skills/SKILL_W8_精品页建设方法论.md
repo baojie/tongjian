@@ -53,23 +53,24 @@ python3 wiki/scripts/butler/corpus_search.py "关键词" --max 15
 
 ### 优先级 2：卷节页面
 
-**位置**：`wiki/public/pages/第NNN卷.md`
+**位置**：`wiki/public/pages/di/第NNN卷.md`（卷页位于 di/ 桶）
 
 **使用场景**：读取某卷完整内容，了解人物在该卷中的全部活动。
 
 ```bash
-# 查看某卷人物出现情况
-grep -n "人物名" wiki/public/pages/第NNN卷.md
+# 查看某卷人物出现情况（卷页位于 di/ 桶）
+grep -n "人物名" wiki/public/pages/di/第NNN卷.md
 ```
 
 ### 优先级 3：相关事件/概念页面
 
-**位置**：`wiki/public/pages/` 中 type=事件 或 type=战役 的页面
+**位置**：`wiki/public/pages/*/` 各分桶目录中 type=事件 或 type=战役 的页面
 
-**使用场景**：检查已有独立事件页（如 `赤壁之战.md`），添加双向链接。
+**使用场景**：检查已有独立事件页（如 `li/赤壁之战.md`），添加双向链接。
 
 ```bash
-ls wiki/public/pages/ | xargs grep -l "type: 事件\|type: 战役" | head -20
+# 递归查找事件/战役页面
+grep -rl "type: 事件\|type: 战役" wiki/public/pages/ | head -20
 ```
 
 ---
@@ -86,10 +87,14 @@ ls wiki/public/pages/ | xargs grep -l "type: 事件\|type: 战役" | head -20
 
 ```bash
 # 快速了解人物的卷目分布
-for vol in $(seq -w 1 294); do
-    hits=$(grep -c "\[${vol}-" wiki/public/pages/人物名.md 2>/dev/null)
-    [ "$hits" -gt 0 ] && echo "第${vol}卷: ${hits}处"
-done
+python3 -c "
+from wiki.scripts.page_bucket import resolve_page_file; from pathlib import Path
+import re
+text = resolve_page_file(Path('wiki/public/pages'), '人物名').read_text(encoding='utf-8')
+for vol in sorted(set(re.findall(r'（(\d{3})-', text))):
+    cnt = text.count(f'（{vol}-')
+    print(f'第{int(vol)}卷: {cnt}处')
+"
 ```
 
 ### 步骤1b：跨卷互见搜索（必须执行）

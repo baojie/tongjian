@@ -105,10 +105,12 @@ description: 资治通鉴原文页（第NNN卷.md）Wikification 标注规范—
 ### 每卷流程
 
 ```
-步骤 1  读原文：cat wiki/public/pages/第NNN卷.md
+步骤 1  读原文：cat wiki/public/pages/di/第NNN卷.md
 步骤 2  标注：扫描原文，找出所有应链未链的实体
 步骤 3  替换：用 edit_page.py 写入
-步骤 4  git add wiki/public/pages/第NNN卷.md
+步骤 4  确认变更：
+     PAGE=$(python3 -c "from wiki.scripts.page_bucket import resolve_page_file; from pathlib import Path; print(resolve_page_file(Path('wiki/public/pages'), '第NNN卷'))")
+     head -5 "$PAGE"
 ```
 
 ### 批处理策略

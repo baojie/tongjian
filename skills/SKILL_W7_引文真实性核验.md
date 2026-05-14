@@ -76,7 +76,7 @@ tail -20 wiki/logs/butler/citation_issues.jsonl
 
 判断是否已检查：
 - 查 `wiki/logs/butler/verify_state.json`（若不存在则新建空状态）
-- 查 `wiki/public/pages/*.md` 中未被 `verify_state.json` 记录的页面
+- 查 `wiki/public/pages/*/*.md` 中未被 `verify_state.json` 记录的页面
 
 ### 步骤 2 · L0 缓存检查
 

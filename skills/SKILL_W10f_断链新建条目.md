@@ -35,11 +35,12 @@ python3 wiki/scripts/butler/discover_wanted.py --json --top 30
 **手动扫描备选**：
 
 ```bash
-# 找所有 [[词]] 格式但无对应文件的链接
-grep -roh '\[\[[^\]|]*\]\]' wiki/public/pages/*.md | \
+# 找所有 [[词]] 格式但无对应文件的链接（递归扫描分桶目录）
+grep -roh '\[\[[^\]|]*\]\]' wiki/public/pages/*/*.md | \
     sed 's/.*\[\[\(.*\)\]\]/\1/' | sort | uniq -c | sort -rn | \
     while read cnt name; do
-        [ ! -f "wiki/public/pages/${name}.md" ] && echo "$cnt $name"
+        # 用 resolve_page_file 检查页面是否存在（自动处理分桶）
+        python3 -c "from wiki.scripts.page_bucket import resolve_page_file; from pathlib import Path; print('found' if resolve_page_file(Path('wiki/public/pages'), '$name') else '')" | grep -q found || echo "$cnt $name"
     done | head -20
 ```
 
@@ -94,7 +95,8 @@ python3 wiki/scripts/add_page.py "页面名" /tmp/stub.md \
 ### Step 4：确认
 
 ```bash
-ls wiki/public/pages/页面名.md
+# 确认页面已创建（resolve_page_file 自动定位分桶路径）
+python3 -c "from wiki.scripts.page_bucket import resolve_page_file; from pathlib import Path; p=resolve_page_file(Path('wiki/public/pages'), '页面名'); print(p or 'NOT FOUND')"
 ```
 
 ### Step 5：更新队列
