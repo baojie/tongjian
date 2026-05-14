@@ -44,7 +44,7 @@ def build_registry(pages_root: Path) -> dict:
 
     for md_file in sorted(pages_root.rglob("*.md")):
         rel = md_file.relative_to(pages_root)
-        pid = str(rel.with_suffix(""))
+        pid = md_file.stem  # subdir-safe: always the file name without .md
         text = md_file.read_text(encoding="utf-8")
         front = parse_frontmatter(text)
 
@@ -57,6 +57,7 @@ def build_registry(pages_root: Path) -> dict:
             "label":   front.get("label", pid),
             "aliases": front.get("aliases", []),
             "tags":    front.get("tags", []),
+            "path":    str(rel),
         }
         if front.get("description"):
             entry["description"] = front["description"]
@@ -126,8 +127,7 @@ def build_registry(pages_root: Path) -> dict:
     ch_refs: dict[str, set[str]] = collections.defaultdict(set)  # pid → set of source chapter pids
 
     for md_file in sorted(pages_root.rglob("*.md")):
-        rel = md_file.relative_to(pages_root)
-        src_pid = str(rel.with_suffix(""))
+        src_pid = md_file.stem
         src_page = pages.get(src_pid)
         is_chapter = (src_page and src_page.get("type") == "章节")
 
@@ -172,7 +172,7 @@ def build_registry(pages_root: Path) -> dict:
 
 def strip_lite(entry: dict) -> dict:
     """lite 版本仅保留 wikilink 解析所需字段。"""
-    return {k: entry[k] for k in ("type", "label", "aliases") if k in entry}
+    return {k: entry[k] for k in ("type", "label", "aliases", "path") if k in entry}
 
 
 def write_json(path: Path, data) -> None:

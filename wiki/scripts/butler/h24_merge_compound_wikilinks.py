@@ -116,8 +116,14 @@ def main():
     print(f'[H24] 复合词条: {len(compound)} 个')
     compiled = build_compiled_patterns(compound)
 
-    files = ([PAGES_DIR / f'{args.slug}.md'] if args.slug
-             else sorted(PAGES_DIR.glob('*.md')))
+    if args.slug:
+        matches = list(PAGES_DIR.rglob(f'{args.slug}.md'))
+        if not matches:
+            print(f'[H24] 不存在: {args.slug}.md', file=sys.stderr)
+            return
+        files = matches
+    else:
+        files = sorted(PAGES_DIR.rglob('*.md'))
 
     processed = total = 0
     for md_path in files:

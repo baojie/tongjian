@@ -11,7 +11,7 @@
 
 规则:
     - 若页面已存在则退出（用 edit_page.py）
-    - 写入 wiki/public/pages/<slug>.md
+    - 写入 wiki/public/pages/<bucket>/<slug>.md（拼音前缀桶，如 pages/li/刘备.md）
     - 自动调用 record_revision.py 记录初版修订
 """
 from __future__ import annotations
@@ -22,6 +22,9 @@ ROOT   = Path(__file__).resolve().parents[2]
 PAGES  = ROOT / "wiki/public/pages"
 REC    = ROOT / "wiki/scripts/record_revision.py"
 REG    = ROOT / "wiki/scripts/build_registry.py"
+
+sys.path.insert(0, str(ROOT / "wiki/scripts"))
+from page_bucket import page_bucket  # noqa: E402
 
 
 def _rebuild_registry() -> None:
@@ -45,10 +48,12 @@ def main() -> None:
     ap.add_argument("--author", default="butler")
     args = ap.parse_args()
 
-    target = PAGES / f"{args.slug}.md"
+    bucket = page_bucket(args.slug)
+    target = PAGES / bucket / f"{args.slug}.md"
     if target.exists():
         print(f"✗ 页面已存在: {target}（请用 edit_page.py）", file=sys.stderr)
         sys.exit(1)
+    target.parent.mkdir(parents=True, exist_ok=True)
 
     if args.content_file == "-":
         content = sys.stdin.read()

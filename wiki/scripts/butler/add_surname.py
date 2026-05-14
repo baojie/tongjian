@@ -27,6 +27,8 @@ from pathlib import Path
 
 # butler/ → scripts → wiki → root
 ROOT = Path(__file__).resolve().parent.parent.parent.parent
+sys.path.insert(0, str(ROOT / "wiki/scripts"))
+from page_bucket import page_bucket  # noqa: E402
 PAGES = ROOT / "wiki/public/pages"
 
 # ── 已知多字姓氏（按长度降序，优先匹配长姓氏） ──
@@ -319,7 +321,7 @@ def main():
     no_surname = []
     multi_char_surnames_found = set()
 
-    for md_file in sorted(PAGES.glob("*.md")):
+    for md_file in sorted(PAGES.rglob("*.md")):
         pid = md_file.stem
         text = md_file.read_text(encoding="utf-8")
         front = parse_frontmatter(text)
@@ -431,14 +433,14 @@ def main():
         existed = 0
         for surname in sorted(surname_counts.keys()):
             page_name = f"{surname}（姓氏）"
-            target = PAGES / f"{page_name}.md"
+            target = PAGES / page_bucket(page_name) / f"{page_name}.md"
             count = surname_counts[surname]
             if target.exists():
                 existed += 1
                 continue
 
-            old_target = PAGES / f"{surname}.md"
-            if old_target.exists():
+            old_target = next(PAGES.rglob(f"{surname}.md"), None)
+            if old_target is not None:
                 existing_fm = parse_frontmatter(old_target.read_text(encoding="utf-8"))
                 if existing_fm.get("type") == "姓氏":
                     old_target.rename(target)

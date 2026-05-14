@@ -23,8 +23,12 @@ import json, os, subprocess, sys, re, tempfile, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(ROOT / "wiki/scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
 ADD_PAGE = ROOT / "wiki/scripts/add_page.py"
 CORPUS_SEARCH = ROOT / "wiki/scripts/butler/corpus_search.py"
+PAGES = ROOT / "wiki/public/pages"
 
 CORPUS_CACHE = {}
 
@@ -110,9 +114,9 @@ def generate_content(entity):
 def create_page(entity, dry_run=False):
     """Create a single wiki page."""
     slug = entity['slug']
-    page_path = ROOT / "wiki/public/pages" / f"{slug}.md"
+    page_path = resolve_page_file(PAGES, slug)
 
-    if page_path.exists():
+    if page_path is not None and page_path.exists():
         return f"EXISTS: {slug}"
 
     content = generate_frontmatter(entity) + '\n\n' + generate_content(entity)

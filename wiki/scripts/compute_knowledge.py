@@ -58,7 +58,7 @@ def compute_snapshot(registry: dict) -> dict:
     # link hit rate: scan all page files for [[links]]
     registry_ids = set(pages.keys())
     total_links = hit_links = 0
-    for md_file in PAGES_DIR.glob("*.md"):
+    for md_file in PAGES_DIR.rglob("*.md"):
         text = md_file.read_text(encoding="utf-8", errors="replace")
         for m in RE_WIKILINK.finditer(text):
             slug = m.group(1).strip()

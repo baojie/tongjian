@@ -237,7 +237,7 @@ def append_issues_log(issues: list[dict]):
 
 def get_featured_pages() -> list[Path]:
     result = []
-    for md in sorted(PAGES_DIR.glob("*.md")):
+    for md in sorted(PAGES_DIR.rglob("*.md")):
         text = md.read_text(encoding="utf-8")
         if re.search(r"^featured:\s*true", text, re.MULTILINE):
             result.append(md)
@@ -261,7 +261,7 @@ def main():
         pages = get_featured_pages()
         print(f"📋 精品页：{len(pages)} 个\n")
     elif args.all:
-        pages = [p for p in sorted(PAGES_DIR.glob("*.md"))
+        pages = [p for p in sorted(PAGES_DIR.rglob("*.md"))
                  if not p.stem.startswith("Special")]
         print(f"📋 全部页面：{len(pages)} 个\n")
     elif args.pages:

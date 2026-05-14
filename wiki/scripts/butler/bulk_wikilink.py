@@ -22,6 +22,10 @@ Usage:
 import json, re, subprocess, sys, time
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "wiki/scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
+
 ROOT = Path("/home/baojie/work/knowledge/tongjian")
 PAGES = ROOT / "wiki/public/pages"
 REG_PATH = ROOT / "wiki/public/pages.json"
@@ -173,7 +177,7 @@ def get_changed_since(commit):
     """Get list of entity page slugs modified since a commit."""
     # wiki/public → docs/wiki (canonical path for git)
     r = subprocess.run(
-        ["git", "diff", "--name-only", commit, "--", "docs/wiki/pages/*.md"],
+        ["git", "diff", "--name-only", commit, "--", "docs/wiki/pages/"],
         capture_output=True, text=True, cwd=ROOT,
     )
     if r.returncode != 0:
@@ -226,8 +230,8 @@ def main():
     t0 = time.time()
 
     for i, slug in enumerate(slugs):
-        path = PAGES / f"{slug}.md"
-        if not path.exists():
+        path = resolve_page_file(PAGES, slug)
+        if path is None:
             continue
 
         original = path.read_text(encoding="utf-8")

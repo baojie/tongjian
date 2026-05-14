@@ -16,6 +16,9 @@ import json
 import re
 import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "wiki/scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
 
 SCRIPT_DIR = Path(__file__).parent
 REPO_ROOT = SCRIPT_DIR.parent.parent.parent
@@ -138,9 +141,9 @@ def main():
     patterns = build_patterns(geo_official)
 
     if args.slug:
-        files = [PAGES_DIR / f'{args.slug}.md']
+        files = [resolve_page_file(PAGES_DIR, args.slug)]
     else:
-        files = sorted(PAGES_DIR.glob('*.md'))
+        files = sorted(PAGES_DIR.rglob('*.md'))
 
     processed = 0
     total_changes = 0

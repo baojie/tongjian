@@ -24,7 +24,7 @@ description: 启动资治通鉴 Wiki 管家永续 loop。三队列系统（conte
 **此 skill 明确授权，覆盖 CLAUDE.md 通用限制**：
 - ✅ 永续循环，无需逐轮确认
 - ✅ 每 97 轮自动 `git commit` + `git push`（通过 `/wiki` skill）
-- ✅ `git add wiki/public/pages/<单个文件>`
+- ✅ `git add wiki/public/pages/`（整个 pages 树，含桶子目录）
 
 ## 工作目录
 
@@ -33,7 +33,7 @@ description: 启动资治通鉴 Wiki 管家永续 loop。三队列系统（conte
 ```
 
 语料：`corpus/raw/资治通鉴.txt`（约300万字，294卷）
-卷页：`wiki/public/pages/第NNN卷.md`（已含PN标注，只读）
+卷页：`wiki/public/pages/di/第NNN卷.md`（已含PN标注，只读，位于 di/ 桶）
 
 ## 启动参数
 
@@ -107,7 +107,7 @@ for SLUG in <全部候选>:
 total_wu=0; accept_cnt=0; consec_fail=0
 for each SLUG:
     执行 → W4 评估（红旗检查 + 分数计算）→ accept/fail/skip
-    accept → git add wiki/public/pages/SLUG.md
+    accept → git add $(find wiki/public/pages/ -name "${SLUG}.md" -type f)
     consec_fail ≥ 3 → 退出循环
     total_wu ≥ 1000 → 退出循环
 

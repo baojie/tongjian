@@ -117,7 +117,7 @@ async function route(core) {
     if (params.has('history')) {
       const page = params.get('history');
       try { await renderHistory(core, page); }
-      catch (e) { showFatal(`history/${page}.jsonl 加载失败：${e.message}`); }
+      catch (e) { showFatal(`历史版本加载失败：${e.message}`); }
       setStatus(''); return;
     }
     if (params.has('diff')) {
@@ -131,7 +131,7 @@ async function route(core) {
       const page = params.get('revision');
       const rev = params.get('rev');
       try { await renderRevision(core, page, rev); }
-      catch (e) { showFatal(`history/${page}.jsonl#${rev} 加载失败：${e.message}`); }
+      catch (e) { showFatal(`历史版本加载失败：${e.message}`); }
       setStatus(''); return;
     }
     if (params.has('source')) {
@@ -234,7 +234,8 @@ async function route(core) {
   document.body.classList.remove('is-home');
 
   try {
-    const r = await fetch(`pages/${pid}.md`);
+    const pageFile = (meta && meta.path) || `${pid}.md`;
+    const r = await fetch(`pages/${pageFile}`);
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const mdText = await r.text();
 
@@ -295,7 +296,8 @@ async function route(core) {
     if (pendingPN) tryScrollToPN(pendingPN);
     if (pendingPageAnchor) tryScrollToAnchor(pendingPageAnchor);
   } catch (e) {
-    showFatal(`加载 pages/${pid}.md 失败：${e.message}`);
+    const failedFile = (meta && meta.path) || `${pid}.md`;
+    showFatal(`加载 pages/${failedFile} 失败：${e.message}`);
   }
 }
 

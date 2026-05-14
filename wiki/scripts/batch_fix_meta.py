@@ -13,6 +13,10 @@ batch_fix_meta.py — 批量填充 Wiki 页面缺失的 frontmatter 字段
 """
 
 import os, re, sys, argparse
+from pathlib import Path
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "wiki", "scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
 
 # ── 高置信度 tag → dynasty 映射 ──────────────────────────────
 # 来源：通过分析已有页面中 tags 与 dynasty 的对应关系（>=80% 一致性）
@@ -61,8 +65,7 @@ TAG_DYNASTY = {
     "丝绸之路": "西汉", "丝路": "西汉",
 }
 
-PAGES_DIR = os.path.join(os.path.dirname(__file__), "..", "public", "pages")
-PAGES_DIR = os.path.normpath(PAGES_DIR)
+PAGES_DIR = Path(os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "public", "pages")))
 
 # 正则
 RE_DYNASTY = re.compile(r"^dynasty:\s*(.+)$", re.MULTILINE)
@@ -122,17 +125,15 @@ def add_dynasty_to_frontmatter(content: str, dynasty: str) -> str:
 
 def process_page(slug: str, dry_run: bool = False) -> dict:
     """处理单个页面，返回操作结果"""
-    fname = f"{slug}.md"
-    path = os.path.join(PAGES_DIR, fname)
-    if not os.path.exists(path):
-        return {"slug": slug, "status": "not_found"}
-
     # 跳过章节页
     if slug.startswith("第") and slug.endswith("卷"):
         return {"slug": slug, "status": "skipped_chapter"}
 
-    with open(path) as f:
-        content = f.read()
+    page_path = resolve_page_file(PAGES_DIR, slug)
+    if page_path is None:
+        return {"slug": slug, "status": "not_found"}
+
+    content = page_path.read_text(encoding="utf-8")
 
     # 已有 dynasty
     if RE_DYNASTY.search(content):
@@ -149,8 +150,7 @@ def process_page(slug: str, dry_run: bool = False) -> dict:
         return {"slug": slug, "status": "unchanged"}
 
     if not dry_run:
-        with open(path, "w") as f:
-            f.write(new_content)
+        page_path.write_text(new_content, encoding="utf-8")
 
     return {"slug": slug, "status": "fixed", "dynasty": dynasty, "tags": tags}
 
@@ -166,9 +166,9 @@ def main():
     if args.slug:
         slugs_to_process = [args.slug]
     else:
-        for fname in sorted(os.listdir(PAGES_DIR)):
-            if fname.endswith(".md"):
-                slugs_to_process.append(fname[:-3])
+        slugs_to_process = sorted(
+            p.stem for p in PAGES_DIR.rglob("*.md") if not p.is_dir()
+        )
         if args.limit > 0:
             slugs_to_process = slugs_to_process[:args.limit]
 

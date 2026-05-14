@@ -15,6 +15,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent.parent
+sys.path.insert(0, str(ROOT / "wiki/scripts"))
+from page_bucket import page_bucket  # noqa: E402
 PAGES = ROOT / "wiki/public/pages"
 REG = ROOT / "wiki/scripts/build_registry.py"
 
@@ -58,11 +60,11 @@ def main():
     for surname in sorted(surname_counts.keys()):
         count = surname_counts[surname]
         page_name = f"{surname}（姓氏）"
-        target = PAGES / f"{page_name}.md"
+        target = PAGES / page_bucket(page_name) / f"{page_name}.md"
 
         # 旧格式兼容：先检查旧文件名，再检查新文件名
-        old_target = PAGES / f"{surname}.md"
-        if old_target.exists() and old_target != target:
+        old_target = next(PAGES.rglob(f"{surname}.md"), None)
+        if old_target is not None and old_target != target:
             existing_fm = parse_frontmatter(old_target.read_text(encoding="utf-8"))
             if existing_fm.get("type") == "姓氏":
                 # 旧格式文件，直接覆盖写入（迁移后旧文件会被重命名逻辑处理）
@@ -104,7 +106,7 @@ order: desc
 
         target.write_text(content, encoding="utf-8")
         # 清理旧格式文件（如果存在且路径不同）
-        if old_target.exists() and old_target != target:
+        if old_target is not None and old_target != target:
             old_target.unlink()
         print(f"  ✓ {page_name}（{count} 人）")
         created += 1

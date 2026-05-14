@@ -13,22 +13,114 @@ tongjian/
 │   └── raw/
 │       └── 资治通鉴.txt   # 原文（只读，不可修改）
 ├── wiki/
-│   ├── public/
+│   ├── public/ → ../docs/wiki/   # 符号链接
 │   │   ├── index.html
-│   │   ├── pages/         # Wiki 页面（294卷原文页 + 词条页）
-│   │   ├── pages.json     # 页面注册表
+│   │   ├── pages/                # Wiki 页面（294卷原文页 + 词条页）
+│   │   │   ├── li/               # 拼音分片子目录（首字拼音前2字母）
+│   │   │   ├── zh/               # 109 个子目录
+│   │   │   └── ...
+│   │   ├── history/              # 修订历史 JSONL（与 pages 同规则分片）
+│   │   │   ├── li/               # 同上 109 个子目录
+│   │   │   ├── si/
+│   │   │   └── ...
+│   │   ├── pages.json            # 页面注册表（含 path 字段）
 │   │   └── pages.lite.json
 │   ├── scripts/           # 构建脚本
+│   │   ├── page_bucket.py # 拼音分片算法（共享模块）
 │   │   └── butler/        # Butler 工具脚本
 │   ├── server/            # 本地服务器
 │   ├── logs/
 │   │   └── butler/        # Butler 状态：queue.md / actions.jsonl
 │   └── wiki-daemon.sh     # 守护进程管理
-├── docs/                  # GitHub Pages 输出（由 publish.sh 生成）
+├── docs/                  # GitHub Pages 输出（wiki/public → docs/wiki）
 └── .claude/
     └── skills/
         └── butler/
             └── SKILL.md   # /butler skill 定义
+```
+
+## 页面分片：拼音前缀桶
+
+`wiki/public/pages/` 下的 **19,258 个 .md 文件** 按页面名的拼音前缀分散到 **109 个子目录**。
+
+### 分片算法（`wiki/scripts/page_bucket.py`）
+
+| 页面名首字符 | 桶名规则 | 示例 |
+|-------------|----------|------|
+| CJK 汉字 | 取第一字拼音的前 2 字母 | `刘备` → `li/刘备.md` |
+| ASCII 字母/数字 | 取前 2 个字母数字（小写） | `About` → `ab/About.md` |
+| 前导标点 | 剥离后按剩余首字算 | `《资治通鉴》` → `zi/《资治通鉴》.md` |
+| 单字名 | 拼音不足 2 字母时 + "0" | `阿` → `a0/阿.md` |
+
+### 辅助函数
+
+- `page_bucket(slug)` — 返回桶名（如 `"li"`）
+- `page_path(slug)` — 返回 pages/ 下的相对路径（如 `"li/刘备.md"`）
+- `resolve_page_file(pages_root, slug)` — 返回 Path 或 None
+
+### 分布数据（2026-05-14）
+
+| 桶 | 文件数 | 示例 |
+|----|--------|------|
+| `zh/` | 1520 | 中国, 诸侯, 诸葛亮, 中, 之 |
+| `li/` | 1165 | 刘备, 李广, 李斯, 礼, 立 |
+| `go/` | 1121 | 公, 功, 宫, 共, 供养 |
+| `qi/` | 1014 | 七国之乱, 齐, 前, 秦, 器 |
+| `ji/` | 989 | 九卿, 军, 家, 将, 计 |
+| 其余 104 桶 | 1~862 | — |
+| **合计** | **19,258** | **109 桶, 平均 177/桶** |
+
+### 注册表中的 path 字段
+
+`pages.json` / `pages.lite.json` 的每条 entry 带有 `path` 字段：
+
+```json
+{
+  "刘备": {
+    "type": "人物",
+    "label": "刘备",
+    "path": "li/刘备.md"
+  }
+}
+```
+
+SPA 通过 `meta.path` 取页面内容，而非硬拼接。无 `path` 字段时 fallback 到 `{pid}.md`（向前兼容）。
+
+## History 文件分片
+
+`wiki/public/history/` 下的 **20,629 个 .jsonl 文件** 也与 pages 同样规则分片到 109 个子目录。
+
+### 分片规则
+
+与 `page_bucket(slug)` 相同——以页面名的拼音前缀确定桶名。
+
+```
+history/刘备.jsonl    →  history/li/刘备.jsonl
+history/曹操.jsonl    →  history/ca/曹操.jsonl
+history/司徒.1.jsonl  →  history/si/司徒.1.jsonl
+```
+
+### 前端读取规则
+
+前端通过 registry 中的 `path` 字段提取桶名：
+
+```javascript
+const bucket = meta.path ? meta.path.split('/')[0] : '';
+const prefix = bucket ? bucket + '/' : '';
+const r = await fetch(`history/${prefix}${page}.jsonl`);
+```
+
+### 写入规则（后端）
+
+所有后端脚本写入 history 时使用 `page_bucket(page)` 计算桶：
+
+```python
+from page_bucket import page_bucket
+bucket = page_bucket(page)
+hist_dir = HIST / bucket
+hist_dir.mkdir(parents=True, exist_ok=True)
+page_jsonl = hist_dir / f"{page}.jsonl"
+```
 ```
 
 ## 绝对禁止事项（CRITICAL）

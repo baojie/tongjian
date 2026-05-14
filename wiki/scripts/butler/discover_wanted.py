@@ -83,7 +83,7 @@ def scan_chapter_entities(pages_root: Path, top: int, min_freq: int = 3) -> list
     freq: Counter = Counter()
 
     # 扫描章节页面（第NNN回.md）
-    for f in sorted(pages_root.glob('第*.md')):
+    for f in sorted(pages_root.rglob('第*.md')):
         text = f.read_text(encoding='utf-8')
         body = FRONTMATTER_RE.sub('', text)
         # 简单的2-4字词提取（中文名字长度）

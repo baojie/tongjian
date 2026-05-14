@@ -78,7 +78,7 @@ def main():
     counts: dict[str, int] = defaultdict(int)
     examples: dict[str, list[str]] = defaultdict(list)
 
-    for md in sorted(PAGES_DIR.glob("*.md")):
+    for md in sorted(PAGES_DIR.rglob("*.md")):
         slug = md.stem
         meta = pages.get(slug, {})
         if meta.get("type") != "概念":

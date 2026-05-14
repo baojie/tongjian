@@ -74,7 +74,7 @@ def build_cache(pages_dir: Path) -> dict[str, dict]:
     current_year: str | None = None
     current_ad: int | None = None
 
-    vol_files = sorted(pages_dir.glob("第???卷.md"))
+    vol_files = sorted(pages_dir.rglob("第???卷.md"))
     for vf in vol_files:
         text = vf.read_text(encoding="utf-8")
         text = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.DOTALL)

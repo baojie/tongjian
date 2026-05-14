@@ -22,6 +22,10 @@ import tempfile
 from pathlib import Path
 from dataclasses import dataclass, field
 
+ROOT = Path(__file__).resolve().parents[3]  # noqa: E402
+
+
+
 ROOT = Path(__file__).resolve().parents[3]
 PAGES_DIR = ROOT / "wiki/public/pages"
 REG_PATH = ROOT / "wiki/public/pages.json"
@@ -520,7 +524,7 @@ def load_registry():
 
 
 def load_page(slug: str) -> str:
-    path = PAGES_DIR / f"{slug}.md"
+    path = resolve_page_file(PAGES_DIR, slug)
     if not path.exists():
         return ""
     return path.read_text(encoding="utf-8")
@@ -733,14 +737,14 @@ def process_all(dry_run: bool = False, phase: str = "all", state_filter: str | N
     print(f"  更新政权页: {updated}")
     print(f"  跳过: {skipped}")
     print(f"  输出目录: {OUT_DIR}")
-    print(f"    CREATE: {CREATE_DIR}/ ({len(list(CREATE_DIR.glob('*.md'))) if CREATE_DIR.exists() else 0} files)")
-    print(f"    UPDATE: {UPDATE_DIR}/ ({len(list(UPDATE_DIR.glob('*.md'))) if UPDATE_DIR.exists() else 0} files)")
+    print(f"    CREATE: {CREATE_DIR}/ ({len(list(CREATE_DIR.rglob('*.md'))) if CREATE_DIR.exists() else 0} files)")
+    print(f"    UPDATE: {UPDATE_DIR}/ ({len(list(UPDATE_DIR.rglob('*.md'))) if UPDATE_DIR.exists() else 0} files)")
 
 
 def apply_create(dry_run: bool = False):
     """应用创建：运行 add_page.py 创建所有列表页"""
     print("应用创建列表页...")
-    files = sorted(CREATE_DIR.glob("*.md"))
+    files = sorted(CREATE_DIR.rglob("*.md"))
     print(f"共 {len(files)} 个列表页待创建")
 
     for f in files:

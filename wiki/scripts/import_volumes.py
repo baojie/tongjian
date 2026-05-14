@@ -17,6 +17,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from page_bucket import page_bucket
+
 # 中文数字转阿拉伯数字（处理卷号）
 CN_DIGIT = {
     '零': 0, '一': 1, '二': 2, '三': 3, '四': 4,
@@ -185,7 +188,10 @@ def main():
     created = skipped = 0
     for vol in volumes:
         nn = f'{vol["num"]:03d}'
-        out_path = pages_dir / f'第{nn}卷.md'
+        slug = f'第{nn}卷'
+        bucket = page_bucket(slug)
+        out_dir = pages_dir / bucket
+        out_path = out_dir / f'{slug}.md'
 
         if out_path.exists() and not args.force:
             skipped += 1
@@ -197,6 +203,7 @@ def main():
             print(f'[dry-run] 第{nn}卷 ({len(vol["lines"])} 段落)')
             continue
 
+        out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(page, encoding='utf-8')
         created += 1
         if created % 50 == 0 or vol['num'] <= 5:

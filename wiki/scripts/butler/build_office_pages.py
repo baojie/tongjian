@@ -22,6 +22,9 @@ from pathlib import Path
 from collections import defaultdict
 from dataclasses import dataclass, field
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[3]
 PAGES_DIR = ROOT / "wiki/public/pages"
 REG_PATH = ROOT / "wiki/public/pages.json"
@@ -1775,7 +1778,7 @@ def extract_holders(position: str, pages_dir: Path) -> list[Appointment]:
     patterns = make_appt_patterns(position)
     seen: dict[tuple[str, int], Appointment] = {}
 
-    for md in sorted(pages_dir.glob("第*.md")):
+    for md in sorted(pages_dir.rglob("第*.md")):
         text = md.read_text(encoding="utf-8")
         for m in PARA_RE.finditer(text):
             vol, para = int(m.group(1)), int(m.group(2))
@@ -1930,7 +1933,8 @@ def load_registry():
 
 
 def page_exists(slug: str, pages: dict) -> bool:
-    return (PAGES_DIR / f"{slug}.md").exists()
+    p = resolve_page_file(PAGES_DIR, slug)
+    return p is not None
 
 
 def create_or_update_page(spec: OfficeSpec, holders: list[Appointment],
@@ -1961,7 +1965,7 @@ def create_or_update_page(spec: OfficeSpec, holders: list[Appointment],
         finally:
             Path(tmp).unlink(missing_ok=True)
     else:
-        md_path = PAGES_DIR / f"{slug}.md"
+        md_path = resolve_page_file(PAGES_DIR, slug)
         existing = md_path.read_text(encoding='utf-8')
         new_table_section = build_page_content(holders)
         if '## 历任列表' in existing:

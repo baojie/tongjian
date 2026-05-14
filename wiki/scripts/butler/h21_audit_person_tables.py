@@ -22,6 +22,9 @@ from collections import defaultdict
 ROOT = Path(__file__).resolve().parents[3]
 PAGES = ROOT / "wiki/public/pages"
 
+sys.path.insert(0, str(ROOT / "wiki/scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
 # ─── 动词短语——出现在人名位置几乎可以肯定提取错误 ───
 VERB_PATTERNS = [
     '逮捕','验治','就考','覆案','论罪','科罪','禁推','行刑',
@@ -233,7 +236,7 @@ def main():
     fix_mode = '--fix' in sys.argv
     all_findings = []
 
-    for fpath in sorted(PAGES.glob('*.md')):
+    for fpath in sorted(PAGES.rglob('*.md')):
         findings = audit_page(fpath)
         all_findings.extend(findings)
 
@@ -268,7 +271,7 @@ def main():
             if resp == 'q':
                 break
             if resp == 'y':
-                filepath = PAGES / f"{slug}.md"
+                filepath = resolve_page_file(PAGES, slug)
                 text = filepath.read_text(encoding='utf-8')
                 lines = text.split('\n')
                 fix_count = 0

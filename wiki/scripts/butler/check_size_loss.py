@@ -26,6 +26,9 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from page_bucket import page_bucket  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[3]
 HISTORY = ROOT / 'wiki' / 'public' / 'history'
 
@@ -66,7 +69,7 @@ def extract_fm_fields(content: str) -> set[str]:
 
 
 def check(slug: str, threshold: float, quiet: bool) -> int:
-    h_file = HISTORY / f'{slug}.jsonl'
+    h_file = HISTORY / page_bucket(slug) / f'{slug}.jsonl'
     if not h_file.exists():
         if not quiet:
             print(json.dumps({'slug': slug, 'verdict': 'skip', 'reason': 'no_history'}))

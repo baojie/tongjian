@@ -66,7 +66,7 @@ def main():
     total_files = 0
     total_fixes = 0
 
-    for md in sorted(PAGES_DIR.glob("*.md")):
+    for md in sorted(PAGES_DIR.rglob("*.md")):
         # 跳过章节页
         if re.match(r'第\d{3}卷', md.stem):
             continue

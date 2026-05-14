@@ -72,7 +72,7 @@ def build(verbose: bool = False) -> dict[str, list[dict]]:
     # backlinks[target_id] = list of source page entries (去重，按 id 排序)
     backlinks: dict[str, set[str]] = {}
 
-    md_files = sorted(PAGES_DIR.glob("*.md"))
+    md_files = sorted(PAGES_DIR.rglob("*.md"))
     if verbose:
         print(f"扫描 {len(md_files)} 个页面…")
 

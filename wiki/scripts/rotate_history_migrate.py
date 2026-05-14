@@ -9,6 +9,9 @@ from __future__ import annotations
 import argparse, json, re, sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
+from page_bucket import page_bucket  # noqa: E402
+
 ROOT               = Path(__file__).resolve().parents[2]
 PUBLIC             = ROOT / "wiki/public"
 HIST               = PUBLIC / "history"
@@ -22,7 +25,7 @@ def is_main_file(p: Path) -> bool:
     return not _ARCHIVE_RE.search(p.stem)
 
 
-def rotate_file(page: str, path: Path, apply: bool) -> None:
+def rotate_file(page: str, path: Path, bucket: str, apply: bool) -> None:
     raw = path.read_text(encoding="utf-8")
     entries: list[dict] = []
     for line in raw.splitlines():
@@ -41,13 +44,14 @@ def rotate_file(page: str, path: Path, apply: bool) -> None:
     avg_bytes = file_size / max(len(entries), 1)
     batch_size = max(1, min(HIST_ARCHIVE_BATCH, int(HIST_MAX_BYTES / avg_bytes)))
 
-    print(f"\n{page}:")
+    print(f"\n{page} [{bucket}/]:")
     print(f"  当前: {file_size/1024/1024:.1f} MB, {len(entries)} 条"
           f", 均 {avg_bytes/1024:.0f} KB/条, batch_size={batch_size}")
 
     archived_total = 0
+    hist_dir = HIST / bucket
     archive_n = max(
-        [int(p.stem.rsplit(".", 1)[1]) for p in HIST.glob(f"{page}.*.jsonl")
+        [int(p.stem.rsplit(".", 1)[1]) for p in hist_dir.glob(f"{page}.*.jsonl")
          if p.stem.rsplit(".", 1)[1].isdigit()],
         default=0
     )
@@ -71,14 +75,14 @@ def rotate_file(page: str, path: Path, apply: bool) -> None:
 
         remaining_size -= batch_bytes
         archive_n += 1
-        archive = HIST / f"{page}.{archive_n}.jsonl"
+        archive = hist_dir / f"{page}.{archive_n}.jsonl"
 
         if apply:
             archive.write_bytes(b"\n".join(batch_ser) + b"\n")
-            print(f"  [归档 {archive_n}] {len(batch_ser)} 条 → {archive.name}"
+            print(f"  [归档 {archive_n}] {len(batch_ser)} 条 → {bucket}/{archive.name}"
                   f" ({archive.stat().st_size/1024/1024:.1f} MB)")
         else:
-            print(f"  [dry {archive_n}] {len(batch_ser)} 条 → {archive.name}"
+            print(f"  [dry {archive_n}] {len(batch_ser)} 条 → {bucket}/{archive.name}"
                   f" (~{batch_bytes/1024/1024:.1f} MB)")
         archived_total += len(batch_ser)
 
@@ -100,7 +104,7 @@ def main() -> int:
     args = ap.parse_args()
 
     oversized = sorted(
-        [(p, p.stat().st_size) for p in HIST.glob("*.jsonl")
+        [(p, p.stat().st_size) for p in HIST.rglob("*.jsonl")
          if is_main_file(p) and p.stat().st_size > HIST_MAX_BYTES],
         key=lambda x: -x[1]
     )
@@ -114,7 +118,8 @@ def main() -> int:
         print(f"  {p.name}: {sz/1024/1024:.1f} MB")
 
     for p, _ in oversized:
-        rotate_file(p.stem, p, apply=args.apply)
+        bucket = page_bucket(p.stem)
+        rotate_file(p.stem, p, bucket, apply=args.apply)
 
     if not args.apply:
         print("\n（以上为 dry-run，加 --apply 参数实际执行）")

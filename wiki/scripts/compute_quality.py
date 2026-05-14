@@ -188,7 +188,7 @@ def main():
     results: list[tuple[str, str, int]] = []
 
     pages = sorted(
-        [p for p in PAGES_DIR.glob('*.md')
+        [p for p in PAGES_DIR.rglob('*.md')
          if not (p.stem.startswith('第') and p.stem.endswith('回'))],
         key=lambda p: p.stem
     )

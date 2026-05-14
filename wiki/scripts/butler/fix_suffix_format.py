@@ -6,7 +6,14 @@
 import os, re, json, sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from page_bucket import page_bucket  # noqa: E402
+
 PAGES_DIR = Path("wiki/public/pages")
+
+# 递归遍历所有子目录的 .md 文件
+def all_md_files():
+    return sorted(PAGES_DIR.rglob("*.md"))
 SINGLE_HANZI = re.compile(r"^[一-鿿㐀-䶿豈-﫿]$")
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 
@@ -25,9 +32,8 @@ os.chdir(Path(__file__).resolve().parents[3])
 
 # Step 1: Rename X_(_类别).md → X_(类别).md and update frontmatter
 renamed = 0
-for f in sorted(os.listdir(PAGES_DIR)):
-    if not f.endswith(".md"):
-        continue
+for fp in sorted(PAGES_DIR.rglob("*.md")):
+    f = fp.name
     # Match files like X_(_类别).md
     m = re.match(r"^(.+?)_\(_(.+)\)\.md$", f)
     if not m:
@@ -36,9 +42,9 @@ for f in sorted(os.listdir(PAGES_DIR)):
     suffix = m.group(2)
     if not SINGLE_HANZI.match(char):
         continue
-    old_path = PAGES_DIR / f
+    old_path = fp
     new_name = f"{char}_({suffix}).md"
-    new_path = PAGES_DIR / new_name
+    new_path = fp.parent / new_name
 
     if new_path.exists():
         print(f"[skip] {new_name} 已存在")
@@ -75,9 +81,8 @@ print(f"✓ 已修正 {renamed} 个文件格式")
 
 # Step 2: Process remaining bare single-char files
 remaining = []
-for f in sorted(os.listdir(PAGES_DIR)):
-    if not f.endswith(".md"):
-        continue
+for fp in sorted(PAGES_DIR.rglob("*.md")):
+    f = fp.name
     name = f[:-3]
     if not SINGLE_HANZI.match(name):
         continue
@@ -85,7 +90,7 @@ for f in sorted(os.listdir(PAGES_DIR)):
 
 print(f"\n剩余裸单字文件: {len(remaining)}")
 for char in remaining:
-    path = PAGES_DIR / f"{char}.md"
+    path = fp
     content = path.read_text(encoding="utf-8")
     m_fm = FRONTMATTER_RE.match(content)
     if not m_fm:
@@ -100,7 +105,7 @@ for char in remaining:
     page_type = front.get("type", "概念")
     suffix = TYPE_SUFFIX.get(page_type, "概念")
     new_id = f"{char}_({suffix})"
-    new_path = PAGES_DIR / f"{new_id}.md"
+    new_path = PAGES_DIR / page_bucket(new_id) / f"{new_id}.md"
 
     if new_path.exists():
         print(f"  [skip] {char}: {new_id} 已存在")
@@ -131,12 +136,11 @@ print(f"\n✓ 处理完成")
 print("\n修正 wikilinks...")
 fixed_links = 0
 OLD_LINK_RE = re.compile(r"\[\[([^\[\]|]+)\(_\(([^\)]+)\)(\|[^\[\]]+)?\]\]")
-for f in sorted(os.listdir(PAGES_DIR)):
-    if not f.endswith(".md"):
-        continue
+for fp in sorted(PAGES_DIR.rglob("*.md")):
+    f = fp.name
     if f.startswith("第") and f.endswith("卷.md"):
         continue
-    path = PAGES_DIR / f
+    path = fp
     content = path.read_text(encoding="utf-8")
     new_content = OLD_LINK_RE.sub(lambda m: f"[[{m.group(1)}_({m.group(2)}){m.group(3) or ''}]]", content)
     if new_content != content:

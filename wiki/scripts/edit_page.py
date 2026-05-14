@@ -27,6 +27,9 @@ PAGES  = ROOT / "wiki/public/pages"
 REC    = ROOT / "wiki/scripts/record_revision.py"
 REG    = ROOT / "wiki/scripts/build_registry.py"
 
+sys.path.insert(0, str(ROOT / "wiki/scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
 CITATION_SECTION = "## 原文引用"
 
 
@@ -61,9 +64,9 @@ def main() -> None:
                     help="追加模式：检查旧版 ## 节全部保留，禁止替换已有节")
     args = ap.parse_args()
 
-    target = PAGES / f"{args.slug}.md"
-    if not target.exists():
-        print(f"✗ 页面不存在: {target}（请用 add_page.py）", file=sys.stderr)
+    target = resolve_page_file(PAGES, args.slug)
+    if not target:
+        print(f"✗ 页面不存在: {args.slug}（请用 add_page.py）", file=sys.stderr)
         sys.exit(1)
 
     old_content = target.read_text(encoding="utf-8")

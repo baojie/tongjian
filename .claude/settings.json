@@ -32,7 +32,12 @@
       "Bash(git add .claude/skills/*)",
       "Bash(git add .claude/settings.json)",
       "Bash(git add CLAUDE.md)",
-      "Bash(git add wiki/scripts/*)"
+      "Bash(git add wiki/scripts/*)",
+      "Bash(bash wiki/scripts/wiki_commit.sh*)",
+      "Bash(bash wiki/scripts/publish.sh)",
+      "Bash(python3 \"$MEMEX_ROOT/wiki/scripts/add_page.py\"*)",
+      "Bash(python3 \"$MEMEX_ROOT/wiki/scripts/edit_page.py\"*)",
+      "Bash(bash \"$MEMEX_ROOT/wiki/wiki.sh\"*)"
     ],
     "deny": [
       "Bash(git commit --amend*)",
@@ -45,7 +50,10 @@
       "Bash(git add -A*)",
       "Bash(git add .)",
       "Bash(git add ./)",
-      "Bash(git add --all*)"
+      "Bash(git add --all*)",
+      "Bash(*$MEMEX_ROOT*)",
+      "Bash(*~/memex*)",
+      "Bash(*/home/baojie/work/knowledge/memex*)"
     ]
   }
 }

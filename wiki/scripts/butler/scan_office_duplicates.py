@@ -10,12 +10,15 @@
 import sys
 import re
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
 
 PAGES_DIR = Path(__file__).resolve().parent.parent.parent / "public" / "pages"
 
 def scan_page(slug: str) -> dict | None:
-    md_path = PAGES_DIR / f"{slug}.md"
-    if not md_path.exists():
+    md_path = resolve_page_file(PAGES_DIR, slug)
+    if md_path is None:
         return None
 
     text = md_path.read_text(encoding="utf-8")
@@ -62,7 +65,7 @@ def main():
     print("扫描官职页面重复/伪section问题")
     print("=" * 60)
 
-    all_pages = sorted(PAGES_DIR.glob("*.md"))
+    all_pages = sorted(PAGES_DIR.rglob("*.md"))
     affected = []
 
     for md in all_pages:

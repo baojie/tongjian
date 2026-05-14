@@ -21,6 +21,9 @@ import json
 import subprocess
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[3]
 PAGES_DIR = ROOT / "wiki/public/pages"
 REG_PATH = ROOT / "wiki/public/pages.json"
@@ -149,8 +152,8 @@ def find_pages_with_issues(pages: dict, limit: int) -> list[str]:
             continue
         if is_chapter_page(slug):
             continue
-        md = PAGES_DIR / f'{slug}.md'
-        if not md.exists():
+        md = resolve_page_file(PAGES_DIR, slug)
+        if md is None:
             continue
         text = md.read_text(encoding='utf-8')
         if count_emdash_issues(text) > 0:
@@ -176,7 +179,7 @@ def main():
     total_changes = 0
 
     for slug in targets:
-        md = PAGES_DIR / f'{slug}.md'
+        md = resolve_page_file(PAGES_DIR, slug)
         original = md.read_text(encoding='utf-8')
         new_text, changes = fix_text(original)
 

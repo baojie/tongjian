@@ -22,10 +22,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(ROOT / "wiki/scripts"))
+from page_bucket import page_bucket  # noqa: E402
 PAGES_DIR = ROOT / "wiki/public/pages"
 PAGES_JSON = ROOT / "wiki/public/pages.json"
 OUT_JSON = ROOT / "wiki/public/data/wanted_pages.json"
-SPECIAL_PAGE = PAGES_DIR / "WantedPages.md"
+SPECIAL_PAGE = PAGES_DIR / page_bucket("WantedPages") / "WantedPages.md"
 
 WIKILINK_RE = re.compile(r"\[\[([^\]|#][^\]|#]*)(?:\|[^\]]+)?\]\]")
 SKIP_PREFIXES = ("Special:", "Category:", "Help:")
@@ -40,7 +42,7 @@ def load_alias_index() -> dict[str, str]:
 
 def scan_wikilinks() -> dict[str, list[str]]:
     links: dict[str, list[str]] = {}
-    for md_file in sorted(PAGES_DIR.glob("*.md")):
+    for md_file in sorted(PAGES_DIR.rglob("*.md")):
         page_id = md_file.stem
         content = md_file.read_text(encoding="utf-8")
         for m in WIKILINK_RE.finditer(content):
@@ -56,7 +58,7 @@ def scan_wikilinks() -> dict[str, list[str]]:
 def build_wanted(links: dict[str, list[str]],
                  alias_index: dict[str, str],
                  top: int = 200) -> list[dict]:
-    existing_files = {f.stem for f in PAGES_DIR.glob("*.md")}
+    existing_files = {f.stem for f in PAGES_DIR.rglob("*.md")}
     wanted = []
     for target, sources in links.items():
         if target in existing_files:

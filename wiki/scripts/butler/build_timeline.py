@@ -22,6 +22,10 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "wiki/scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
+
 ROOT = Path(__file__).resolve().parent.parent.parent.parent
 PAGES_DIR = ROOT / "wiki" / "public" / "pages"
 DATA_DIR = ROOT / "wiki" / "data"
@@ -72,7 +76,7 @@ def load_registry() -> dict:
 def load_volume_texts() -> dict[str, list[tuple[str, str]]]:
     """加载所有卷页面，返回 {vol_num: [(pn, text), ...]}。"""
     vols: dict[str, list[tuple[str, str]]] = {}
-    for vf in sorted(PAGES_DIR.glob("第???卷.md")):
+    for vf in sorted(PAGES_DIR.rglob("第???卷.md")):
         text = vf.read_text(encoding="utf-8")
         text = re.sub(r"^---\n.*?\n---\n", "", text, flags=re.DOTALL)
         vol_pns: list[tuple[str, str]] = []
@@ -321,6 +325,7 @@ def insert_timeline(existing_content: str, timeline_md: str) -> str:
 
 def main():
     import argparse
+
     ap = argparse.ArgumentParser(description="生命年表生成")
     ap.add_argument("person", nargs="?", help="人物名")
     ap.add_argument("--dry-run", action="store_true", help="只打印，不修改")
@@ -373,8 +378,8 @@ def main():
             continue
 
         if args.apply:
-            page_path = PAGES_DIR / f"{pid}.md"
-            if not page_path.exists():
+            page_path = resolve_page_file(PAGES_DIR, pid)
+            if page_path is None:
                 print(f"  ⚠ {pid} — 页面文件不存在")
                 skipped += 1
                 continue

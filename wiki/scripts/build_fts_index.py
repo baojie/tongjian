@@ -2,12 +2,13 @@
 import os
 import re
 import json
+from pathlib import Path
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 _REPO_ROOT = os.path.dirname(os.path.dirname(_SCRIPT_DIR))
-pages_dir = os.path.join(_REPO_ROOT, "wiki", "public", "pages")
-out_dir = os.path.join(_REPO_ROOT, "wiki", "public", "data")
-out_path = os.path.join(out_dir, "fts-index.json")
+pages_dir = Path(_REPO_ROOT) / "wiki" / "public" / "pages"
+out_dir = Path(_REPO_ROOT) / "wiki" / "public" / "data"
+out_path = out_dir / "fts-index.json"
 
 
 def strip_wikilinks(text):
@@ -104,12 +105,10 @@ def main():
     all_entries = []
     chapter_set = set()
 
-    for fname in sorted(os.listdir(pages_dir)):
-        if not fname.endswith('.md'):
+    for fpath in sorted(pages_dir.rglob("*.md")):
+        if fpath.is_dir():
             continue
-        fpath = os.path.join(pages_dir, fname)
-        with open(fpath, 'r', encoding='utf-8') as f:
-            content = f.read()
+        content = fpath.read_text(encoding="utf-8")
 
         fm = parse_frontmatter(content)
         if fm.get('type') != '章节':
@@ -133,14 +132,17 @@ def main():
         "entries": all_entries
     }
 
-    os.makedirs(out_dir, exist_ok=True)
-    with open(out_path, 'w', encoding='utf-8') as f:
-        json.dump(index, f, ensure_ascii=False, separators=(',', ':'))
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(
+        json.dumps(index, ensure_ascii=False, separators=(',', ':')),
+        encoding="utf-8",
+    )
 
     print(f"Chapters: {len(chapters)}")
     print(f"Entries: {len(all_entries)}")
     print(f"Output: {out_path}")
     size = os.path.getsize(out_path)
+    size = out_path.stat().st_size
     print(f"Size: {size:,} bytes ({size/1024:.0f} KB)")
 
 

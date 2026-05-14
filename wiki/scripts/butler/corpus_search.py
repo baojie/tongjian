@@ -81,10 +81,15 @@ def search(keyword: str, vol_nums: list[int] | None = None,
     results = []
 
     if vol_nums:
-        vol_paths = [PAGES_DIR / f'第{n:03d}卷.md' for n in vol_nums]
-        vol_paths = [p for p in vol_paths if p.exists()]
+        vol_paths = []
+        for n in vol_nums:
+            # 搜索 bucket 子目录
+            for p in PAGES_DIR.rglob(f'第{n:03d}卷.md'):
+                vol_paths.append(p)
+                break
+        vol_paths = sorted(vol_paths)
     else:
-        vol_paths = sorted(PAGES_DIR.glob('第???卷.md'))
+        vol_paths = sorted(PAGES_DIR.rglob('第???卷.md'))
 
     for vp in vol_paths:
         for pn, para in load_vol_paragraphs(vp):

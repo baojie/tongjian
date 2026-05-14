@@ -543,7 +543,8 @@ function injectSurnameList(core, surname, meta) {
 
 export async function renderSource(core, pid, meta) {
   document.body.classList.remove('is-home');
-  const r = await fetch(`pages/${pid}.md`);
+  const pageFile = (meta && meta.path) || pid + '.md';
+  const r = await fetch(`pages/${pageFile}`);
   if (!r.ok) throw new Error('HTTP ' + r.status);
   const mdText = await r.text();
 
@@ -1613,18 +1614,35 @@ export async function renderRecent(core, pageNum = 1) {
 }
 
 /**
- * 加载某页的全部修订（主文件 + 所有归档文件），按时间升序返回。
- * 归档文件命名：history/<page>.1.jsonl, .2.jsonl, ...（数字越大越新）
+ * 从 registry 中获取页面的 history 桶名。
+ * 利用已有 path 字段（如 "li/刘备.md"）提取桶前缀，向前兼容。
  */
-async function _historyAll(page) {
+function _historyBucket(page, registry) {
+  if (registry && registry.pages) {
+    const meta = registry.pages[page];
+    if (meta && meta.path) {
+      const parts = meta.path.split('/');
+      if (parts.length >= 2) return parts[0];
+    }
+  }
+  return '';
+}
+
+/**
+ * 加载某页的全部修订（主文件 + 所有归档文件），按时间升序返回。
+ * 归档文件命名：history/<bucket>/<page>.1.jsonl, .2.jsonl, ...（数字越大越新）
+ */
+async function _historyAll(page, registry) {
+  const bucket = _historyBucket(page, registry);
+  const prefix = bucket ? bucket + '/' : '';
   const all = [];
   for (let n = 1; n <= 9999; n++) {
-    const ar = await fetch(`history/${encodeURIComponent(page)}.${n}.jsonl`);
+    const ar = await fetch(`history/${prefix}${encodeURIComponent(page)}.${n}.jsonl`);
     if (!ar.ok) break;
     const t = await ar.text();
     t.split('\n').filter(l => l.trim()).forEach(l => all.push(JSON.parse(l)));
   }
-  const r = await fetch(`history/${encodeURIComponent(page)}.jsonl`);
+  const r = await fetch(`history/${prefix}${encodeURIComponent(page)}.jsonl`);
   if (!r.ok) throw new Error('HTTP ' + r.status);
   const t = await r.text();
   t.split('\n').filter(l => l.trim()).forEach(l => all.push(JSON.parse(l)));
@@ -1635,7 +1653,7 @@ async function _historyAll(page) {
  * 单页修订历史 (#?history=<page>): 读主文件 + 所有归档文件.
  */
 export async function renderHistory(core, page) {
-  const revs = (await _historyAll(page)).reverse(); // 反转：最新在前
+  const revs = (await _historyAll(page, core.registry)).reverse(); // 反转：最新在前
   const latestRevId = revs.length ? revs[0].rev_id : '';
   const revisionCount = revs.length;
 
@@ -1689,7 +1707,8 @@ export async function renderHistory(core, page) {
   hideSidebar();
   document.getElementById('crumb').textContent = `修订历史 / ${page}`;
   document.title = `${page} 修订历史 · 资治通鉴 Wiki`;
-  document.getElementById('src-info').textContent = `history/${page}.jsonl`;
+  const bucket = _historyBucket(page, core.registry);
+  document.getElementById('src-info').textContent = bucket ? `history/${bucket}/${page}.jsonl` : `history/${page}.jsonl`;
   document.getElementById('broken-info').textContent = '';
   window.scrollTo(0, 0);
 }
@@ -1698,13 +1717,15 @@ export async function renderHistory(core, page) {
  * 单条历史版本 (#?revision=<page>&rev=<id>): 从 history/<page>.jsonl 或归档文件中提取内容.
  */
 export async function renderRevision(core, page, revId) {
-  const r = await fetch(`history/${encodeURIComponent(page)}.jsonl`);
+  const bucket = _historyBucket(page, core.registry);
+  const prefix = bucket ? bucket + '/' : '';
+  const r = await fetch(`history/${prefix}${encodeURIComponent(page)}.jsonl`);
   if (!r.ok) throw new Error('HTTP ' + r.status);
   const text = await r.text();
   const revs = text.split('\n').filter(l => l.trim()).map(l => JSON.parse(l));
   let rev = revs.find((x) => x.rev_id === revId);
   if (!rev) {
-    const all = await _historyAll(page);
+    const all = await _historyAll(page, core.registry);
     rev = all.find((x) => x.rev_id === revId);
   }
   if (!rev) throw new Error(`rev not found: ${revId}`);
@@ -1726,7 +1747,7 @@ export async function renderRevision(core, page, revId) {
   document.body.classList.add('is-home');
   document.getElementById('crumb').textContent = `${page} @ ${revId}`;
   document.title = `${page} @ ${revId} · 资治通鉴 Wiki`;
-  document.getElementById('src-info').textContent = `history/${page}/${revId}.md`;
+  document.getElementById('src-info').textContent = bucket ? `history/${bucket}/${page}.jsonl#${revId}` : `history/${page}/${revId}.md`;
   document.getElementById('broken-info').textContent = '';
   window.scrollTo(0, 0);
 }
@@ -2167,8 +2188,9 @@ export async function renderDiff(core, page, revId) {
 
   // Fall back to history JSONL (older revisions or missing diff field)
   if (!chunks) {
-    source = `history/${page}.jsonl`;
-    const allRevs = await _historyAll(page);
+    const bucket = _historyBucket(page, core.registry);
+    source = bucket ? `history/${bucket}/${page}.jsonl` : `history/${page}.jsonl`;
+    const allRevs = await _historyAll(page, core.registry);
     const cur = allRevs.find((x) => x.rev_id === revId);
     if (!cur) throw new Error(`rev not found: ${revId}`);
     curMeta = cur;

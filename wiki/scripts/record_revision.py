@@ -23,6 +23,9 @@ RECENT_DIFF = PUBLIC / "recent.diff.jsonl"
 LOG_DIR = ROOT / "wiki/logs/recent"
 LOCK    = LOG_DIR / "recent.lock"
 
+sys.path.insert(0, str(ROOT / "wiki/scripts"))
+from page_bucket import page_bucket, resolve_page_file  # noqa: E402
+
 WINDOW_SIZE    = 1000   # 每条 recent 文件最多保留行数
 ARCHIVE_BATCH  = 500    # 超出后一次归档最旧的条数
 
@@ -65,7 +68,7 @@ def _read_jsonl(path: Path) -> list[dict]:
     return entries
 
 
-def _rotate_history(page: str, entries: list[dict], file_size: int
+def _rotate_history(page: str, bucket: str, entries: list[dict], file_size: int
                     ) -> tuple[list[dict], bool]:
     """Size-based rotation: archive oldest entries when file exceeds HIST_MAX_BYTES.
     Batch size is derived from avg entry size so each archive file stays under the limit."""
@@ -76,18 +79,19 @@ def _rotate_history(page: str, entries: list[dict], file_size: int
     # How many entries fit in one archive file (min 1, max HIST_ARCHIVE_BATCH)
     batch_size = max(1, min(HIST_ARCHIVE_BATCH, int(HIST_MAX_BYTES / avg_bytes)))
     did_rotate = False
+    hist_dir = HIST / bucket
 
     while entries and len(entries) * avg_bytes > HIST_MAX_BYTES:
         batch   = entries[:batch_size]
         entries = entries[batch_size:]
         nums = [int(p.stem.rsplit(".", 1)[1])
-                for p in HIST.glob(f"{page}.*.jsonl")
+                for p in hist_dir.glob(f"{page}.*.jsonl")
                 if p.stem.rsplit(".", 1)[1].isdigit()]
         n = max(nums) + 1 if nums else 1
-        (HIST / f"{page}.{n}.jsonl").write_text(
+        (hist_dir / f"{page}.{n}.jsonl").write_text(
             "\n".join(json.dumps(e, ensure_ascii=False) for e in batch) + "\n",
             encoding="utf-8")
-        print(f"  [hist-archive] {len(batch)} entries → history/{page}.{n}.jsonl")
+        print(f"  [hist-archive] {len(batch)} entries → history/{bucket}/{page}.{n}.jsonl")
         did_rotate = True
 
     return entries, did_rotate
@@ -129,9 +133,10 @@ def main() -> int:
     args = ap.parse_args()
 
     page = args.page
-    src  = PAGES / f"{page}.md"
-    if not src.exists():
-        print(f"✗ {src} 不存在", file=sys.stderr)
+    bucket = page_bucket(page)
+    src  = resolve_page_file(PAGES, page)
+    if not src:
+        print(f"✗ pages/{bucket}/{page}.md 不存在", file=sys.stderr)
         return 1
 
     content = src.read_text(encoding="utf-8")
@@ -149,8 +154,9 @@ def main() -> int:
     ts_iso = _iso(now)
 
     # ── per-page history（flock 排他锁，防并发覆写）────────────────────────────
-    HIST.mkdir(exist_ok=True)
-    page_jsonl = HIST / f"{page}.jsonl"
+    hist_dir = HIST / bucket
+    hist_dir.mkdir(parents=True, exist_ok=True)
+    page_jsonl = hist_dir / f"{page}.jsonl"
 
     file_size = page_jsonl.stat().st_size if page_jsonl.exists() else 0
     with page_jsonl.open("a+", encoding="utf-8") as fh:
@@ -168,7 +174,7 @@ def main() -> int:
             print(f"= {page} 内容与 latest 相同，跳过")
             return 0
 
-        entries, did_rotate = _rotate_history(page, entries, file_size)
+        entries, did_rotate = _rotate_history(page, bucket, entries, file_size)
 
         last = entries[-1] if entries else None
         parent_content = last["content"] if last else ""

@@ -22,6 +22,10 @@ import time
 from pathlib import Path
 from collections import Counter
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "wiki/scripts"))
+from page_bucket import resolve_page_file  # noqa: E402
+
+
 ROOT = Path(__file__).resolve().parents[3]
 PAGES_DIR = ROOT / "wiki/public/pages"
 REG_PATH = ROOT / "wiki/public/pages.json"
@@ -151,7 +155,7 @@ def is_person_like(term: str, existing: set[str]) -> bool:
 def collect_wanted_persons(all_pages: dict, existing: set[str]) -> list[str]:
     """从实体页面的 broken wikilinks 中收集人名候选。"""
     wanted: Counter = Counter()
-    for md in PAGES_DIR.glob("*.md"):
+    for md in PAGES_DIR.rglob("*.md"):
         meta = all_pages.get(md.stem, {})
         if meta.get("type") == "章节":
             continue
@@ -279,8 +283,8 @@ def main():
     t0 = time.time()
 
     for i, slug in enumerate(chapter_slugs):
-        path = PAGES_DIR / f"{slug}.md"
-        if not path.exists():
+        path = resolve_page_file(PAGES_DIR, slug)
+        if path is None:
             continue
 
         original = path.read_text(encoding="utf-8")
@@ -306,6 +310,7 @@ def main():
         if dry_run and modified <= 5:
             # 展示前几个样例
             import difflib
+
             diff = list(difflib.unified_diff(
                 original.splitlines()[:50], new_content.splitlines()[:50],
                 lineterm='', n=1

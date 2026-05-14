@@ -23,6 +23,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "scripts"))
 
 import yaml
+from page_bucket import page_bucket
 
 PAGES_DIR = Path("wiki/public/pages")
 
@@ -81,13 +82,10 @@ def main():
 
     # Step 1: 扫描所有单字页面
     single_char_pages: list[tuple[str, dict, str]] = []  # (char, frontmatter, full_content)
-    for f in sorted(os.listdir(PAGES_DIR)):
-        if not f.endswith(".md"):
-            continue
-        name = f[:-3]
+    for path in sorted(PAGES_DIR.rglob("*.md")):
+        name = path.stem
         if not SINGLE_HANZI.match(name):
             continue
-        path = PAGES_DIR / f
         content = path.read_text(encoding="utf-8")
         m = FRONTMATTER_RE.match(content)
         if not m:
@@ -135,13 +133,16 @@ def main():
     # Step 3: 创建新文件 + 删除旧文件
     created = 0
     for char, front, content in single_char_pages:
-        old_path = PAGES_DIR / f"{char}.md"
+        old_path = next(PAGES_DIR.rglob(f"{char}.md"), None)
+        if old_path is None:
+            print(f"[skip] {char}: 源文件未找到")
+            continue
         suffix = get_disambiguation_suffix(char, front)
         if not suffix:
             print(f"[skip] {char}: 无匹配后缀")
             continue
         new_id = f"{char}_({suffix})"
-        new_path = PAGES_DIR / f"{new_id}.md"
+        new_path = PAGES_DIR / page_bucket(new_id) / f"{new_id}.md"
 
         # 更新 frontmatter
         old_id = front.get("id", char)
@@ -164,6 +165,7 @@ def main():
         new_content = f"---\n{new_front_yaml}\n---\n\n{body.lstrip()}"
 
         # 写新文件
+        new_path.parent.mkdir(parents=True, exist_ok=True)
         new_path.write_text(new_content, encoding="utf-8")
         # 删旧文件
         old_path.unlink()
@@ -177,13 +179,10 @@ def main():
     # Step 4: 更新所有页面中的 wikilinks
     print("\n更新 all pages 中的 wikilinks...")
     updated_pages = 0
-    for f in sorted(os.listdir(PAGES_DIR)):
-        if not f.endswith(".md"):
-            continue
+    for path in sorted(PAGES_DIR.rglob("*.md")):
         # 跳过只读卷页面
-        if f.startswith("第") and f.endswith("卷.md"):
+        if path.stem.startswith("第") and path.stem.endswith("卷"):
             continue
-        path = PAGES_DIR / f
         content = path.read_text(encoding="utf-8")
         new_content = update_wikilinks_in_text(content, char_map)
         if new_content != content:

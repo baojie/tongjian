@@ -11,13 +11,14 @@ batch_create_official.py — 批量创建官职页面
 """
 
 import os, re, sys, subprocess, argparse
+from pathlib import Path
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(SCRIPT_DIR, "..", ".."))
-PAGES_DIR = os.path.join(ROOT, "wiki", "public", "pages")
+PAGES_DIR = Path(ROOT) / "wiki" / "public" / "pages"
 CORPUS = os.path.join(ROOT, "corpus", "raw", "资治通鉴.txt")
 
-EXISTING = {f[:-3] for f in os.listdir(PAGES_DIR) if f.endswith('.md')}
+EXISTING = {p.stem for p in PAGES_DIR.rglob("*.md") if not p.is_dir()}
 
 # ── 中文数字解析 ──
 CNUM = {'一':1,'二':2,'三':3,'四':4,'五':5,'六':6,'七':7,'八':8,'九':9,
