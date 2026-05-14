@@ -2,6 +2,7 @@
 """conv_to_v2.py — 将单页 history 转为 v2 line-hash 格式（实验/验证用）。"""
 from __future__ import annotations
 import hashlib, json, sys, time
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -11,16 +12,50 @@ HIST = PUBLIC / "history"
 LINE_INDEX = PUBLIC / "line_index"
 
 sys.path.insert(0, str(ROOT / "wiki/scripts"))
-from page_bucket import page_bucket, resolve_page_file
+from page_bucket import page_bucket, resolve_page_file, hash_bucket
 
 MIN_HASH_LEN = 6
 SNAP_INTERVAL = 26
 
+BASE62 = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
 
-def line_hash(line: str, registry: dict[str, str]) -> str:
+
+def base62_id(sha256_hex: str) -> str:
+    n = int(sha256_hex, 16)
+    chars = []
+    while n:
+        chars.append(BASE62[n % 62])
+        n //= 62
+    return ''.join(reversed(chars))[:6]
+
+
+def _hex_to_base62(hex_str: str) -> str:
+    n = int(hex_str, 16)
+    chars = []
+    while n:
+        chars.append(BASE62[n % 62])
+        n //= 62
+    return ''.join(reversed(chars))
+
+
+def load_all_registries() -> dict[str, dict[str, str]]:
+    registries: dict[str, dict[str, str]] = {}
+    for f in sorted(LINE_INDEX.glob("*.json")):
+        registries[f.stem] = json.loads(f.read_text(encoding="utf-8"))
+    return registries
+
+
+def resolve_line(h: str, registries: dict[str, dict[str, str]]) -> str:
+    return registries.get(hash_bucket(h), {}).get(h, "")
+
+
+def line_hash(line: str, registries: dict[str, dict[str, str]]) -> str:
     full = hashlib.sha256(line.encode("utf-8")).hexdigest()
+    b62 = _hex_to_base62(full)
+    bucket = hash_bucket(b62)
+    registry = registries.get(bucket, {})
     for length in range(MIN_HASH_LEN, 17):
-        h = full[:length]
+        h = b62[:length]
         if h not in registry or registry[h] == line:
             return h
     raise RuntimeError(f"16位仍有碰撞: {line[:60]}")
@@ -67,16 +102,14 @@ def convert_page(page: str) -> dict:
     if not src:
         return {"error": f"页面不存在: {page}"}
 
-    # 加载行索引
-    index_path = LINE_INDEX / f"{bucket}.json"
-    if not index_path.exists():
-        return {"error": f"行索引不存在: {bucket}"}
-    with open(index_path, encoding="utf-8") as f:
-        registry: dict[str, str] = json.load(f)
+    # 加载全部行索引
+    registries = load_all_registries()
+    if not registries:
+        return {"error": "无行索引文件"}
 
     # 读取当前页面内容
     current_text = src.read_text(encoding="utf-8")
-    current_lines = current_text.rstrip("\n").split("\n")
+    current_lines = current_text.splitlines()
     current_sha = hashlib.sha256(current_text.encode("utf-8")).hexdigest()
 
     # 读取现有 history (v0 格式，每条有 content)
@@ -101,36 +134,37 @@ def convert_page(page: str) -> dict:
 
     for i, old in enumerate(old_entries):
         old_content = old.get("content", "")
-        old_lines = old_content.rstrip("\n").split("\n")
-
-        # 计算每行 hash
-        ln = [line_hash(l, registry) for l in old_lines]
+        old_lines = old_content.splitlines()
+        ln_str = ' '.join(line_hash(l, registries) for l in old_lines)
+        sha = hashlib.sha256(old_content.encode('utf-8')).hexdigest()
+        raw_ts = old.get("timestamp", old.get("ts", ""))
+        ts_int = int(datetime.fromisoformat(raw_ts).timestamp()) if raw_ts else 0
 
         is_snap = (i == 0) or (since_snap >= SNAP_INTERVAL)
 
-        entry = {
+        entry: dict = {
             "v": 2,
-            "id": old.get("rev_id", old.get("id", "")),
-            "ts": old.get("timestamp", old.get("ts", "")),
+            "id": base62_id(sha),
+            "ts": ts_int,
             "au": old.get("author", old.get("au", "butler")),
-            "su": old.get("summary", old.get("su", "")),
+            "su": line_hash(old.get("summary", old.get("su", "")), registries),
             "sz": old.get("size", old.get("sz", 0)),
-            "ch": old.get("content_hash", old.get("ch", "")),
         }
 
         if is_snap:
             entry["t"] = "snap"
-            entry["ln"] = ln
+            entry["ln"] = ln_str
             stats["snaps"] += 1
             since_snap = 0
         else:
             prev = old_entries[i - 1]
             prev_content = prev.get("content", "")
-            prev_lines = prev_content.rstrip("\n").split("\n")
-            parent_ln = [line_hash(l, registry) for l in prev_lines]
-            dl = compute_delta(parent_ln, ln)
+            prev_lines = prev_content.splitlines()
+            dl = compute_delta(
+                [line_hash(l, registries) for l in prev_lines],
+                [line_hash(l, registries) for l in old_lines])
             entry["t"] = "delta"
-            entry["parent"] = prev.get("rev_id", prev.get("id", ""))
+            entry["parent"] = v2_entries[i - 1]["id"]
             entry["szb"] = prev.get("size", prev.get("sz", 0))
             entry["dl"] = dl
             stats["deltas"] += 1
@@ -151,29 +185,29 @@ def convert_page(page: str) -> dict:
         "deltas": stats["deltas"],
         "v0_bytes": v0_bytes,
         "v2_bytes": len(v2_text.encode("utf-8")),
-        "index_bytes": index_path.stat().st_size,
+        "index_bytes": 0,  # 不再有单桶索引
         "v2": v2_entries,
         "_old": old_entries,
     }
 
 
 def verify_reconstruction(v2_entries: list[dict], old_entries: list[dict],
-                           registry: dict[str, str]) -> list[str]:
+                           registries: dict[str, dict[str, str]]) -> list[str]:
     """验证 v2 重建内容与 v0 原始 content 一致。"""
     errors = []
     for i, (e, old) in enumerate(zip(v2_entries, old_entries)):
         if e["t"] == "snap":
-            ln = list(e["ln"])
+            ln = e["ln"].split()
         else:
             snap_idx = i
             while snap_idx >= 0 and v2_entries[snap_idx]["t"] != "snap":
                 snap_idx -= 1
             snap = v2_entries[snap_idx]
-            ln = list(snap["ln"])
+            ln = snap["ln"].split()
             for j in range(snap_idx + 1, i + 1):
                 ln = apply_delta(ln, v2_entries[j]["dl"])
 
-        lines = [registry.get(h, "") for h in ln]
+        lines = [resolve_line(h, registries) for h in ln]
         text = "\n".join(lines) + "\n"
         orig = old.get("content", "")
         if text.rstrip("\n") != orig.rstrip("\n"):
@@ -184,6 +218,7 @@ def verify_reconstruction(v2_entries: list[dict], old_entries: list[dict],
 
 def main():
     pages = sys.argv[1:] if len(sys.argv) > 1 else ["诸葛亮", "刘备", "丞相"]
+    registries = load_all_registries()
     for page in pages:
         t0 = time.time()
         result = convert_page(page)
@@ -193,11 +228,8 @@ def main():
             continue
 
         # 验证重建
-        bucket = result["bucket"]
-        with open(LINE_INDEX / f"{bucket}.json", encoding="utf-8") as f:
-            registry = json.load(f)
         errors = verify_reconstruction(
-            result["v2"], result["_old"], registry)
+            result["v2"], result["_old"], registries)
 
         ratio = (1 - result["v2_bytes"] / result["v0_bytes"]) * 100
         status = "✓" if not errors else "✗"

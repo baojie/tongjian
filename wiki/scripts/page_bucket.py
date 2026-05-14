@@ -85,6 +85,21 @@ def _fallback(name: str) -> str:
     return (name + "0")[:2]
 
 
+BASE62_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+
+def hash_bucket(h: str) -> str:
+    """Base62 hash → 2-char bucket name (62×16=992 buckets)。
+
+    用于 line_index/ 的子目录分配。首字符原样保留（62 种），
+    次字符通过 ALPHABET 索引 %16 映射到 0-f（16 种）。
+    共 62×16=992 桶，使任意行的 hash 能均匀分布。
+    """
+    first = h[0]
+    second = format(BASE62_ALPHABET.index(h[1]) % 16, 'x')
+    return first + second
+
+
 def page_path(slug: str) -> str:
     """返回页面在 pages/ 下的相对路径（含 .md）。
 

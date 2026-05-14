@@ -303,14 +303,16 @@ function buildPageToc(core, pid) {
   toc.addEventListener('click', toc._tocClick);
 }
 
-function fmtTimestamp(iso) {
-  // ISO → "2026-04-22 16:10" (本地时区)
+function fmtTimestamp(ts) {
+  // 支持 ISO 字符串或 Unix 秒时间戳 → "2026-04-22 16:10" (本地时区)
   try {
-    const d = new Date(iso);
+    const d = typeof ts === 'number'
+      ? new Date(ts * 1000)  // Unix 秒 → JS 毫秒
+      : new Date(ts);
     const pad = (n) => String(n).padStart(2, '0');
     return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ` +
       `${pad(d.getHours())}:${pad(d.getMinutes())}`;
-  } catch { return iso; }
+  } catch { return ts; }
 }
 
 // 将事件页中 **主要人物**：XXX、YYY 和 **地点**：ZZZ 的纯文本转为 wikilink
@@ -1643,17 +1645,28 @@ function _historyBucket(page, registry) {
 
 const _lineIndexCache = {};
 
+const _LINE_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const _hashIndexCache = {};
+
 /**
- * 获取桶的行索引 JSON，缓存复用。
+ * Base62 hash → 2-char bucket name, 与后端 hash_bucket() 一致 (62×16=992 桶)。
  */
-async function _getLineIndex(bucket) {
-  if (!bucket) return null;
-  if (_lineIndexCache[bucket]) return _lineIndexCache[bucket];
-  const r = await fetch(`line_index/${bucket}.json`);
-  if (!r.ok) return null;
-  const idx = await r.json();
-  _lineIndexCache[bucket] = idx;
-  return idx;
+function _hashBucket(hash) {
+  return hash[0] + (_LINE_ALPHABET.indexOf(hash[1]) % 16).toString(16);
+}
+
+/**
+ * 通过全局 hash 行索引解析行内容（按 hash_bucket 自动加载对应桶）。
+ */
+async function _resolveLineHash(hash) {
+  if (!hash) return '';
+  const bucket = _hashBucket(hash);
+  if (!_hashIndexCache[bucket]) {
+    const r = await fetch(`line_index/${bucket}.json`);
+    if (!r.ok) return '';
+    _hashIndexCache[bucket] = await r.json();
+  }
+  return _hashIndexCache[bucket][hash] || '';
 }
 
 /**
@@ -1675,20 +1688,19 @@ function _applyDelta(ln, dl) {
  * 从 v2 entries 中重建 targetRevId 的全文。
  * 从最近 snap 开始，顺序 apply delta 直到 target。
  */
-async function _reconstructContentV2(entries, targetRevId, lineIndex) {
+async function _reconstructContentV2(entries, targetRevId) {
   let ln = null;
   for (const e of entries) {
     const eid = e.id || e.rev_id;
     if (e.t === 'snap') {
-      ln = e.ln.slice();
+      ln = e.ln.split(' ');
     } else if (e.t === 'delta' && ln) {
       ln = _applyDelta(ln, e.dl);
     }
     if (eid === targetRevId) break;
   }
   if (!ln) return '';
-  const lines = ln.map(h => (lineIndex && lineIndex[h]) || '');
-  // 去掉结尾空行 — 空行是 line_index 中不存在
+  const lines = await Promise.all(ln.map(h => _resolveLineHash(h)));
   return lines.join('\n');
 }
 
@@ -1722,6 +1734,14 @@ export async function renderHistory(core, page) {
   const revisionCount = revs.length;
   const bucket = _historyBucket(page, core.registry);
 
+  // 预解析 v2 su hash
+  const suCache = {};
+  for (const rev of revs) {
+    if (rev.v === 2 && rev.su && !suCache[rev.su]) {
+      suCache[rev.su] = await _resolveLineHash(rev.su);
+    }
+  }
+
   const rows = revs.map((rev, idx) => {
     const vid = rev.id || rev.rev_id;
     const isLatest = vid === latestRevId;
@@ -1735,7 +1755,7 @@ export async function renderHistory(core, page) {
     // 行数: v2用ln数组长度，v0用content分行
     let hLines;
     if (rev.ln) {
-      hLines = rev.ln.length;
+      hLines = rev.ln.split(' ').length;
     } else if (rev.content) {
       hLines = rev.content.split('\n').length;
     } else {
@@ -1780,7 +1800,7 @@ export async function renderHistory(core, page) {
 
     const vts = rev.ts || rev.timestamp;
     const vau = rev.au || rev.author;
-    const vsu = rev.su || rev.summary;
+    const vsu = (rev.v === 2 && rev.su) ? (suCache[rev.su] || rev.su) : (rev.su || rev.summary);
     return `<tr>
       <td class="rc-time">${escapeHtml(fmtTimestamp(vts))}${tag}</td>
       <td class="rc-author">${escapeHtml(vau)}</td>
@@ -1834,9 +1854,7 @@ export async function renderRevision(core, page, revId) {
   if (rev.content != null) {
     mdText = rev.content;
   } else if (rev.ln || rev.t === 'snap' || rev.t === 'delta') {
-    const all = revs;
-    const lineIndex = await _getLineIndex(bucket);
-    mdText = await _reconstructContentV2(all, revId, lineIndex);
+    mdText = await _reconstructContentV2(revs, revId);
   } else {
     throw new Error(`rev missing content: ${revId}`);
   }
@@ -2274,7 +2292,9 @@ export async function renderDiff(core, page, revId) {
   // Try inline diff from recent.diff.jsonl first (lazy-loaded diff store)
   let chunks = null;
   let curMeta = null;
+  let curSummary = null;
   let source = `recent.diff.jsonl`;
+  const bucket = _historyBucket(page, core.registry);
   try {
     const rr = await fetch('recent.diff.jsonl');
     if (rr.ok) {
@@ -2297,7 +2317,6 @@ export async function renderDiff(core, page, revId) {
 
   // Fall back to history JSONL (older revisions or missing diff field)
   if (!chunks) {
-    const bucket = _historyBucket(page, core.registry);
     source = bucket ? `history/${bucket}/${page}.jsonl` : `history/${page}.jsonl`;
     const allRevs = await _historyAll(page, core.registry);
     const cur = allRevs.find((x) => (x.id || x.rev_id) === revId);
@@ -2309,8 +2328,7 @@ export async function renderDiff(core, page, revId) {
     if (cur.content != null) {
       curContent = cur.content;
     } else if (cur.ln || cur.t === 'snap' || cur.t === 'delta') {
-      const lineIndex = await _getLineIndex(bucket);
-      curContent = await _reconstructContentV2(allRevs, revId, lineIndex);
+      curContent = await _reconstructContentV2(allRevs, revId);
     } else {
       curContent = '';
     }
@@ -2322,12 +2340,16 @@ export async function renderDiff(core, page, revId) {
         if (prevRev.content != null) {
           prevContent = prevRev.content;
         } else if (prevRev.ln || prevRev.t) {
-          const lineIndex = await _getLineIndex(bucket);
-          prevContent = await _reconstructContentV2(allRevs, parentId, lineIndex);
+          prevContent = await _reconstructContentV2(allRevs, parentId);
         }
       }
     }
     chunks = computeLineDiff(prevContent || '', curContent || '');
+  }
+
+  // Resolve su hash for v2 entries
+  if (curMeta && curMeta.v === 2 && curMeta.su) {
+    curSummary = await _resolveLineHash(curMeta.su);
   }
 
   const diffHtml = renderDiffChunks(chunks);
@@ -2340,18 +2362,19 @@ export async function renderDiff(core, page, revId) {
     <a href="#?revision=${encodeURIComponent(page)}&rev=${encodeURIComponent(revId)}">查看该版</a>
   </nav>`;
 
-  const parentInfo = curMeta.parent_rev
-    ? `<div><strong>上版:</strong> <code>${escapeHtml(curMeta.parent_rev)}</code></div>`
+  const parentId2 = curMeta.parent || curMeta.parent_rev;
+  const parentInfo = parentId2
+    ? `<div><strong>上版:</strong> <code>${escapeHtml(parentId2)}</code></div>`
     : '<div><em>首个版本 (无上版), 全部显示为新增</em></div>';
 
   const meta = `<div class="diff-meta">
-    <div><strong>本版:</strong> <code>${escapeHtml(revId)}</code> · ${escapeHtml(fmtTimestamp(curMeta.timestamp))} · ${escapeHtml(curMeta.author)}</div>
+    <div><strong>本版:</strong> <code>${escapeHtml(revId)}</code> · ${escapeHtml(fmtTimestamp(curMeta.ts || curMeta.timestamp))} · ${escapeHtml(curMeta.author)}</div>
     ${parentInfo}
     <div class="diff-summary">
       <span class="diff-added">+${chunks.filter((c) => c.type === 'add').length}</span>
       ·
       <span class="diff-removed">-${chunks.filter((c) => c.type === 'del').length}</span>
-      行 · 摘要: <em>${escapeHtml(curMeta.summary || '(无)')}</em>
+      行 · 摘要: <em>${escapeHtml(curSummary || curMeta.su || curMeta.summary || '(无)')}</em>
     </div>
   </div>`;
 
