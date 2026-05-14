@@ -1661,23 +1661,94 @@ async function _historyAll(page, registry) {
 }
 
 /**
+ * 将 unified diff 文本应用到 content，返回新 content。
+ * diff 文本每行以 ' ', '+', '-' 开头。
+ */
+function _applyUnifiedDiff(content, diffText) {
+  if (!diffText) return content || '';
+  // 用 replace(/\n$/, '') 去掉末尾换行，避免 split 产生多余 '' 元素
+  const source = (content || '').replace(/\n$/, '').split('\n');
+  const result = [];
+  let si = 0;
+  for (const line of diffText.split('\n')) {
+    if (!line) {
+      result.push(si < source.length ? source[si] : '');
+      si++;
+      continue;
+    }
+    const op = line[0], text = line.slice(1);
+    if (op === ' ') {
+      result.push(si < source.length ? source[si] : text);
+      si++;
+    } else if (op === '-') {
+      si++;
+    } else { // '+'
+      result.push(text);
+    }
+  }
+  while (si < source.length) { result.push(source[si]); si++; }
+  const out = result.join('\n');
+  if (content && content.endsWith('\n') && !out.endsWith('\n')) {
+    return out + '\n';
+  }
+  return out;
+}
+
+/**
+ * 从 entries 链中重建 targetRevId 处的完整 content。
+ * 从最近的 snap 开始，向前 apply patch 直到目标 revision。
+ */
+function _reconstructContent(entries, targetRevId) {
+  let content = null;
+  for (const e of entries) {
+    const eid = e.id || e.rev_id;
+    if (e.t === 'snap') {
+      content = e.content || '';
+    } else {
+      if (content !== null) {
+        content = _applyUnifiedDiff(content, e.diff || '');
+      }
+    }
+    if (eid === targetRevId) break;
+  }
+  return content;
+}
+
+/**
  * 单页修订历史 (#?history=<page>): 读主文件 + 所有归档文件.
  */
 export async function renderHistory(core, page) {
   const revs = (await _historyAll(page, core.registry)).reverse(); // 反转：最新在前
-  const latestRevId = revs.length ? revs[0].rev_id : '';
+  const latestRevId = revs.length ? (revs[0].id || revs[0].rev_id) : '';
   const revisionCount = revs.length;
 
   const rows = revs.map((rev, idx) => {
-    const isLatest = rev.rev_id === latestRevId;
+    const revId = rev.id || rev.rev_id;
+    const parentRevId = rev.parent || rev.parent_rev;
+    const isLatest = revId === latestRevId;
     const tag = isLatest ? ' <span class="rev-badge">最新</span>' : '';
-    const revLink = `<a href="#?revision=${encodeURIComponent(page)}&rev=${encodeURIComponent(rev.rev_id)}">${escapeHtml(rev.rev_id)}</a>`;
-    const diffLink = rev.parent_rev
-      ? `<a href="#?diff=${encodeURIComponent(page)}&rev=${encodeURIComponent(rev.rev_id)}">diff</a>`
+    const revLink = `<a href="#?revision=${encodeURIComponent(page)}&rev=${encodeURIComponent(revId)}">${escapeHtml(revId)}</a>`;
+    const diffLink = parentRevId
+      ? `<a href="#?diff=${encodeURIComponent(page)}&rev=${encodeURIComponent(revId)}">diff</a>`
       : '<span class="muted">diff</span>';
-    const hLines = rev.content ? rev.content.split('\n').length : '—';
-    const hadd = rev.diff ? rev.diff.filter(d => d[0] === '+').length : null;
-    const hrem = rev.diff ? rev.diff.filter(d => d[0] === '-').length : null;
+    // 兼容新旧字段名: 新格式 ts/au/su, 旧格式 timestamp/author/summary
+    const rts  = rev.ts || rev.timestamp;
+    const rau  = rev.au || rev.author;
+    const rsu  = rev.su || rev.summary;
+    // 行数: snap 有 content 可统计，patch 不存 content
+    const hLines = rev.t === 'snap' && rev.content ? rev.content.split('\n').length : '—';
+    // diff 统计: 兼容旧 array 格式和新 string 格式
+    let hadd = null, hrem = null;
+    if (rev.diff) {
+      if (Array.isArray(rev.diff)) {
+        hadd = rev.diff.filter(d => d[0] === '+').length;
+        hrem = rev.diff.filter(d => d[0] === '-').length;
+      } else {
+        const dl = rev.diff.split('\n');
+        hadd = dl.filter(l => l.startsWith('+')).length;
+        hrem = dl.filter(l => l.startsWith('-')).length;
+      }
+    }
     let hChangeHtml;
     if (hadd === null) {
       hChangeHtml = `<td class="rc-size rc-size-zero">—</td>`;
@@ -1692,9 +1763,9 @@ export async function renderHistory(core, page) {
     }
     let hSizeHtml = `<td class="rc-size">${hLines}</td>`;
     return `<tr>
-      <td class="rc-time">${escapeHtml(fmtTimestamp(rev.timestamp))}${tag}</td>
-      <td class="rc-author">${escapeHtml(rev.author)}</td>
-      <td class="rc-summary">${escapeHtml(rev.summary || '')}</td>
+      <td class="rc-time">${escapeHtml(fmtTimestamp(rts))}${tag}</td>
+      <td class="rc-author">${escapeHtml(rau)}</td>
+      <td class="rc-summary">${escapeHtml(rsu || '')}</td>
       ${hSizeHtml}
       ${hChangeHtml}
       <td class="rc-diff">${diffLink}</td>
@@ -1728,21 +1799,22 @@ export async function renderHistory(core, page) {
  * 单条历史版本 (#?revision=<page>&rev=<id>): 从 history/<page>.jsonl 或归档文件中提取内容.
  */
 export async function renderRevision(core, page, revId) {
-  const bucket = _historyBucket(page, core.registry);
-  const prefix = bucket ? bucket + '/' : '';
-  const r = await fetch(`history/${prefix}${encodeURIComponent(page)}.jsonl`);
-  if (!r.ok) throw new Error('HTTP ' + r.status);
-  const text = await r.text();
-  const revs = text.split('\n').filter(l => l.trim()).map(l => JSON.parse(l));
-  let rev = revs.find((x) => x.rev_id === revId);
-  if (!rev) {
-    const all = await _historyAll(page, core.registry);
-    rev = all.find((x) => x.rev_id === revId);
-  }
+  const allEntries = await _historyAll(page, core.registry);
+  // 兼容新格式 id / 旧格式 rev_id
+  const match = (e) => (e.id || e.rev_id) === revId;
+  let rev = allEntries.find(match);
   if (!rev) throw new Error(`rev not found: ${revId}`);
-  if (rev.content == null) throw new Error(`rev missing content: ${revId}`);
-  const mdText = rev.content;
 
+  // 从 snap + patches 重建 content
+  let mdText;
+  if (rev.t === 'snap' && rev.content != null) {
+    mdText = rev.content;
+  } else {
+    mdText = _reconstructContent(allEntries, revId);
+  }
+  if (mdText == null) throw new Error(`cannot reconstruct content for ${revId}`);
+
+  const bucket = _historyBucket(page, core.registry);
   const meta = (core.registry.pages[page]) || { type: 'meta', label: page, path: '' };
   const { html } = await parseMarkdown(core, mdText, { pid: page, meta });
 
@@ -2185,10 +2257,19 @@ export async function renderDiff(core, page, revId) {
         const e = JSON.parse(lines[i]);
         if (e.page === page && e.rev_id === revId) {
           if (e.diff) {
-            chunks = e.diff.map(([op, line]) => ({
-              type: op === '+' ? 'add' : op === '-' ? 'del' : 'same',
-              line,
-            }));
+            if (Array.isArray(e.diff)) {
+              // 旧格式: [[op, line], ...]
+              chunks = e.diff.map(([op, line]) => ({
+                type: op === '+' ? 'add' : op === '-' ? 'del' : 'same',
+                line,
+              }));
+            } else {
+              // 新格式: unified diff 文本
+              chunks = e.diff.split('\n').filter(l => l.trim()).map(line => ({
+                type: line[0] === '+' ? 'add' : line[0] === '-' ? 'del' : 'same',
+                line: line.slice(1),
+              }));
+            }
           }
           curMeta = e;
           break;
@@ -2202,15 +2283,30 @@ export async function renderDiff(core, page, revId) {
     const bucket = _historyBucket(page, core.registry);
     source = bucket ? `history/${bucket}/${page}.jsonl` : `history/${page}.jsonl`;
     const allRevs = await _historyAll(page, core.registry);
-    const cur = allRevs.find((x) => x.rev_id === revId);
+    const cur = allRevs.find((x) => (x.id || x.rev_id) === revId);
     if (!cur) throw new Error(`rev not found: ${revId}`);
     curMeta = cur;
+
+    // 重建 prev 和 cur 的 content
+    const parentRevId = cur.parent || cur.parent_rev;
     let prevContent = '';
-    if (cur.parent_rev) {
-      const prevRev = allRevs.find((x) => x.rev_id === cur.parent_rev);
-      if (prevRev) prevContent = prevRev.content || '';
+    let curContent = '';
+    if (cur.t === 'snap' && cur.content != null) {
+      curContent = cur.content;
+    } else {
+      curContent = _reconstructContent(allRevs, revId) || '';
     }
-    chunks = computeLineDiff(prevContent, cur.content || '');
+    if (parentRevId) {
+      const prevRev = allRevs.find((x) => (x.id || x.rev_id) === parentRevId);
+      if (prevRev) {
+        if (prevRev.t === 'snap' && prevRev.content != null) {
+          prevContent = prevRev.content;
+        } else {
+          prevContent = _reconstructContent(allRevs, parentRevId) || '';
+        }
+      }
+    }
+    chunks = computeLineDiff(prevContent, curContent);
   }
 
   const diffHtml = renderDiffChunks(chunks);
@@ -2223,18 +2319,22 @@ export async function renderDiff(core, page, revId) {
     <a href="#?revision=${encodeURIComponent(page)}&rev=${encodeURIComponent(revId)}">查看该版</a>
   </nav>`;
 
-  const parentInfo = curMeta.parent_rev
-    ? `<div><strong>上版:</strong> <code>${escapeHtml(curMeta.parent_rev)}</code></div>`
+  const mParent = curMeta.parent || curMeta.parent_rev;
+  const parentInfo = mParent
+    ? `<div><strong>上版:</strong> <code>${escapeHtml(mParent)}</code></div>`
     : '<div><em>首个版本 (无上版), 全部显示为新增</em></div>';
 
+  const mTs = curMeta.ts || curMeta.timestamp;
+  const mAu = curMeta.au || curMeta.author;
+  const mSu = curMeta.su || curMeta.summary;
   const meta = `<div class="diff-meta">
-    <div><strong>本版:</strong> <code>${escapeHtml(revId)}</code> · ${escapeHtml(fmtTimestamp(curMeta.timestamp))} · ${escapeHtml(curMeta.author)}</div>
+    <div><strong>本版:</strong> <code>${escapeHtml(revId)}</code> · ${escapeHtml(fmtTimestamp(mTs))} · ${escapeHtml(mAu)}</div>
     ${parentInfo}
     <div class="diff-summary">
       <span class="diff-added">+${chunks.filter((c) => c.type === 'add').length}</span>
       ·
       <span class="diff-removed">-${chunks.filter((c) => c.type === 'del').length}</span>
-      行 · 摘要: <em>${escapeHtml(curMeta.summary || '(无)')}</em>
+      行 · 摘要: <em>${escapeHtml(mSu || '(无)')}</em>
     </div>
   </div>`;
 
@@ -2246,7 +2346,7 @@ export async function renderDiff(core, page, revId) {
   document.body.classList.add('is-home');
   document.getElementById('crumb').textContent = `${page} diff ${revId}`;
   document.title = `${page} diff · 资治通鉴 Wiki`;
-  document.getElementById('src-info').textContent = `${source} (diff ${revId} vs ${curMeta.parent_rev || 'null'})`;
+  document.getElementById('src-info').textContent = `${source} (diff ${revId} vs ${mParent || 'null'})`;
   document.getElementById('broken-info').textContent = '';
   window.scrollTo(0, 0);
 }
