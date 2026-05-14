@@ -450,6 +450,11 @@ export async function renderPage(core, pid, meta, mdText) {
     injectChapterNav(core, pid, meta);
   }
 
+  // 姓氏页：注入动态人物列表
+  if (meta.type === '姓氏') {
+    injectSurnameList(core, pid, meta);
+  }
+
   buildPageToc(core, pid);
 
   // 阅读进度条（所有页面）
@@ -493,6 +498,54 @@ function injectChapterNav(core, pid, meta) {
   article.appendChild(nav);
 }
 
+/**
+ * 姓氏页注入动态人物列表：在姓氏页面底部自动追加该姓氏的人物表格。
+ * 语义查询：从 pages.json 中实时筛选 surname 匹配的所有人物。
+ */
+function injectSurnameList(core, surname, meta) {
+  const pages = core.registry.pages;
+  const matches = [];
+  for (const [pid, entry] of Object.entries(pages)) {
+    if (entry.surname === surname && entry.type === '人物') {
+      matches.push({ pid, ...entry });
+    }
+  }
+  if (matches.length === 0) return;
+
+  matches.sort((a, b) => {
+    const ra = a.total_refs || 0, rb = b.total_refs || 0;
+    if (ra !== rb) return rb - ra;
+    return a.pid.localeCompare(b.pid, 'zh');
+  });
+
+  const rows = matches.map((p) => {
+    const nameCell = `<a href="#${encodeURIComponent(p.pid)}">${escapeHtml(p.label || p.pid)}</a>`;
+    const dynasty = (p.tags || []).slice(0, 2).map(t => escapeHtml(t)).join('、');
+    const cat = p.cat ? escapeHtml(p.cat) : '';
+    const refs = p.total_refs != null ? String(p.total_refs) : '—';
+    const desc = p.description ? escapeHtml(p.description.substring(0, 60)) + (p.description.length > 60 ? '…' : '') : '';
+    return `<tr>
+      <td>${nameCell}</td>
+      <td>${dynasty}</td>
+      <td>${cat}</td>
+      <td style="text-align:right">${refs}</td>
+      <td class="muted" style="font-size:.88em">${desc}</td>
+    </tr>`;
+  }).join('');
+
+  const section = document.createElement('div');
+  section.className = 'surname-member-list';
+  section.innerHTML = `<h2>姓「${escapeHtml(surname)}」的人物</h2>
+    <p class="category-summary">基于 <code>pages.json</code> 语义查询，共 <strong>${matches.length}</strong> 位人物</p>
+    <table>
+      <thead><tr><th>姓名</th><th>朝代</th><th>类别</th><th>引用</th><th>简介</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+
+  const article = document.getElementById('article');
+  article.appendChild(section);
+}
+
 export async function renderSource(core, pid, meta) {
   document.body.classList.remove('is-home');
   const r = await fetch(`pages/${pid}.md`);
@@ -520,7 +573,7 @@ const FIELD_LABELS = {
   sources: '来源', event_ids: '事件编号', essay_type: '散文类型',
   author: '作者', chapter_no: '章节', canonical_name: '规范名',
   aliases: '别名', birth_ce: '生', death_ce: '卒', tags: '标签',
-  pn: '原文位置',
+  pn: '原文位置', surname: '姓',
   gender: '性别', books: '出没书册', seealso: '参见',
   birthday: '生日',
   father: '父亲', mother: '母亲', spouse: '配偶',
@@ -560,7 +613,7 @@ function linkifyValue(val, registry) {
 
 /* 字段分组：按性质排序 infobox 字段 */
 const FIELD_GROUPS = [
-  { label: '基本', fields: ['gender', 'description'] },
+  { label: '基本', fields: ['surname', 'gender', 'description'] },
   { label: '家族', fields: ['father', 'mother', 'spouse', 'siblings', 'cousins', 'grandparents', 'uncles', 'aunts', 'nephews', 'nieces', 'children'] },
   { label: '生平', fields: ['birthday', 'era', 'dynasty', 'cat'] },
   { label: '主仆', fields: ['master', 'servants'] },
@@ -1377,6 +1430,103 @@ export function renderCategory(core, kind, value) {
   document.title = `${titleKind} ${displayValue} · 资治通鉴 Wiki`;
   document.getElementById('src-info').textContent =
     `pages.json (筛选: ${kind}=${value})`;
+  document.getElementById('broken-info').textContent = '';
+  window.scrollTo(0, 0);
+}
+
+/**
+ * 姓氏列表页 (#?surname=<姓氏> 或 #?surnames 索引):
+ *   - surname=null  → 显示所有姓氏的索引表
+ *   - surname=X     → 列出所有 surname=X 的人物
+ */
+export function renderSurname(core, surname) {
+  const pages = core.registry.pages;
+
+  // ── 索引模式：显示所有姓氏 ──
+  if (surname === null) {
+    const surnameCounts = {};
+    for (const entry of Object.values(pages)) {
+      if (entry.type === '人物' && entry.surname) {
+        const s = entry.surname;
+        surnameCounts[s] = (surnameCounts[s] || 0) + 1;
+      }
+    }
+    const sorted = Object.entries(surnameCounts).sort((a, b) => b[1] - a[1]);
+
+    const rows = sorted.map(([s, count]) => {
+      const href = `#${encodeURIComponent(s)}`;
+      return `<tr>
+        <td><a href="${href}" class="cat-link">${escapeHtml(s)}</a></td>
+        <td><a href="#?surname=${encodeURIComponent(s)}"><strong>${count}</strong> 位</a></td>
+      </tr>`;
+    }).join('');
+
+    document.getElementById('article').innerHTML =
+      `<nav class="category-crumb"><a href="#">← 首页</a></nav>
+       <h1>姓氏索引</h1>
+       <p class="category-summary">共 <strong>${sorted.length}</strong> 个姓氏</p>
+       <table>
+         <thead><tr><th>姓氏</th><th>人物数量</th></tr></thead>
+         <tbody>${rows}</tbody>
+       </table>`;
+
+    document.body.classList.add('is-home');
+    hideSidebar();
+    document.getElementById('crumb').textContent = '姓氏索引';
+    document.title = '姓氏索引 · 资治通鉴 Wiki';
+    document.getElementById('src-info').textContent = 'pages.json (姓氏汇总)';
+    document.getElementById('broken-info').textContent = '';
+    window.scrollTo(0, 0);
+    return;
+  }
+
+  // ── 单姓氏模式：列出该姓氏的所有人物（语义查询表格）──
+  const matches = [];
+  for (const [pid, entry] of Object.entries(pages)) {
+    if (entry.surname === surname && entry.type === '人物') {
+      matches.push({ pid, ...entry });
+    }
+  }
+  matches.sort((a, b) => {
+    const ra = a.total_refs || 0, rb = b.total_refs || 0;
+    if (ra !== rb) return rb - ra;
+    return a.pid.localeCompare(b.pid, 'zh');
+  });
+
+  const rows = matches.map((p) => {
+    const nameCell = `<a href="#${encodeURIComponent(p.pid)}">${escapeHtml(p.label || p.pid)}</a>`;
+    const dynasty = (p.tags || []).slice(0, 2).map(t => escapeHtml(t)).join('、');
+    const cat = p.cat ? escapeHtml(p.cat) : '';
+    const refs = p.total_refs != null ? String(p.total_refs) : '—';
+    const desc = p.description ? escapeHtml(p.description.substring(0, 60)) + (p.description.length > 60 ? '…' : '') : '';
+    return `<tr>
+      <td>${nameCell}</td>
+      <td>${dynasty}</td>
+      <td>${cat}</td>
+      <td style="text-align:right">${refs}</td>
+      <td class="muted" style="font-size:.88em">${desc}</td>
+    </tr>`;
+  }).join('');
+
+  const body = matches.length > 0
+    ? `<table>
+        <thead><tr><th>姓名</th><th>朝代</th><th>类别</th><th>引用</th><th>简介</th></tr></thead>
+        <tbody>${rows}</tbody>
+       </table>`
+    : '<p class="category-empty">此姓氏下暂无人物。</p>';
+
+  document.getElementById('article').innerHTML =
+    `<nav class="category-crumb"><a href="#">← 首页</a> · <a href="#?surnames">姓氏索引</a></nav>
+     <h1>姓氏：${escapeHtml(surname)}</h1>
+     <p class="category-summary">基于 <code>pages.json</code> 语义查询，共 <strong>${matches.length}</strong> 位人物</p>
+     ${body}`;
+
+  document.body.classList.add('is-home');
+  hideSidebar();
+  document.getElementById('crumb').textContent = `姓氏：${surname}`;
+  document.title = `姓氏 ${surname} · 资治通鉴 Wiki`;
+  document.getElementById('src-info').textContent =
+    `pages.json (筛选: surname=${surname})`;
   document.getElementById('broken-info').textContent = '';
   window.scrollTo(0, 0);
 }

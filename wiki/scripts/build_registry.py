@@ -73,7 +73,7 @@ def build_registry(pages_root: Path) -> dict:
                 entry[field] = front[field]
 
         # extra display fields that may be queried
-        for field in ("birthday", "gender", "father", "mother", "spouse", "children",
+        for field in ("surname", "birthday", "gender", "father", "mother", "spouse", "children",
                       "siblings", "uncles", "aunts", "nephews", "nieces",
                       "grandparents", "grandchildren", "cousins", "in_laws",
                       "master", "servants", "fate",

@@ -1642,3 +1642,11 @@ article[data-type="skill"]        { border-left-color: #4a78c0; }
   transition: background .1s;
 }
 .fts-all a:hover { background: rgba(200,150,40,.08); }
+
+/* 姓氏页面底部人物列表 */
+.surname-member-list {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 2px solid var(--border);
+}
+.surname-member-list h2 { margin-bottom: .3em; }

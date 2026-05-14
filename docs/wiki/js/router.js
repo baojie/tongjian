@@ -4,7 +4,7 @@ import { resolvePageId } from './registry.js';
 import {
   renderPage, renderHome, renderNotFound, renderCategory,
   renderRecent, renderHistory, renderRevision, renderAll, renderDiff,
-  renderSource,
+  renderSource, renderSurname,
 } from './renderer.js?v=20260430a';
 import { renderSpecialSettings, renderSpecialPlugins, renderSpecialAll, renderSpecialStatistics } from './special.js';
 import { setStatus, showFatal, escapeHtml } from './util.js';
@@ -78,11 +78,24 @@ async function route(core) {
 
   setStatus('载入…');
 
-  // 特殊页: #?type=<type> · #?tag=<tag> · #?recent · #?history=<page> · #?revision=<page>&rev=<id>
+  // 特殊页: #?type=<type> · #?tag=<tag> · #?surname=<surname> · #?recent · #?history=<page> · #?revision=<page>&rev=<id>
   if (rawHash.startsWith('?')) {
     const params = new URLSearchParams(rawHash.slice(1));
     const type = params.get('type');
     const tag = params.get('tag');
+    const surname = params.get('surname');
+    // 姓氏筛选 → 自定义姓氏列表页
+    if (surname) {
+      try { await renderSurname(core, surname); }
+      catch (e) { showFatal(`姓氏列表渲染失败：${e.message}`); }
+      setStatus(''); return;
+    }
+    // 姓氏索引 → 列所有姓氏及人数
+    if (params.has('surnames')) {
+      try { await renderSurname(core, null); }
+      catch (e) { showFatal(`姓氏索引渲染失败：${e.message}`); }
+      setStatus(''); return;
+    }
     // 类型/标签筛选 → 分面浏览（#Special:AllPages?type=XX）
     if (type || tag) {
       const p = new URLSearchParams();

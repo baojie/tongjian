@@ -59,6 +59,7 @@ export const TYPE_LABELS = {
   poem: '诗词',
   // 新类别
   food: '饮食',
+  姓氏: '姓氏',
   clothing: '服饰',
   medicine: '医药',
   game: '游戏',
