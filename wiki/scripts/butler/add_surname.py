@@ -426,40 +426,43 @@ def main():
     for s, c in sorted(surname_counts.items(), key=lambda x: -x[1])[:50]:
         print(f"  {s}: {c}")
 
-    # ── 创建姓氏页面 ──
     if args.create_pages:
         created = 0
         existed = 0
         for surname in sorted(surname_counts.keys()):
-            target = PAGES / f"{surname}.md"
+            page_name = f"{surname}（姓氏）"
+            target = PAGES / f"{page_name}.md"
             count = surname_counts[surname]
             if target.exists():
-                # 检查现有页面是否已是 type: 姓氏
-                existing_text = target.read_text(encoding="utf-8")
-                existing_front = parse_frontmatter(existing_text)
-                if existing_front.get("type") == "姓氏":
-                    existed += 1
-                    continue
-                # 否则覆盖为姓氏页面
-                print(f"  ⚠ {surname}.md 已存在但不是姓氏页面，跳过")
+                existed += 1
+                continue
 
-            # 生成姓氏页面内容
+            old_target = PAGES / f"{surname}.md"
+            if old_target.exists():
+                existing_fm = parse_frontmatter(old_target.read_text(encoding="utf-8"))
+                if existing_fm.get("type") == "姓氏":
+                    old_target.rename(target)
+
             description = f"姓「{surname}」的历史人物列表，共 {count} 人。"
             content = f"""---
-id: {surname}
+id: {surname}（姓氏）
 type: 姓氏
 label: {surname}
 description: {description}
 tags: [姓氏]
 ---
 
-# {surname}
+# {surname}姓
 
-{surname}姓是中国历史上常见的姓氏之一。以下为本 Wiki 收录的姓「{surname}」的人物。
-
-<!-- 人物列表由前端自动从 pages.json 中按 surname={surname} 查询渲染 -->
+::: query
+type: 人物
+surname: {surname}
+display: table
+fields: [label, tags, total_refs, description]
+sort: total_refs
+order: desc
+:::
 """
-            # 使用 add_page.py 创建
             import tempfile
             with tempfile.NamedTemporaryFile(mode="w", suffix=".md", encoding="utf-8", delete=False) as f:
                 f.write(content)
@@ -467,21 +470,20 @@ tags: [姓氏]
 
             result = subprocess.run(
                 [sys.executable, str(ROOT / "wiki/scripts/add_page.py"),
-                 surname, tmp_path,
-                 "--summary", f"新增姓氏页: {surname}（{count} 人）",
+                 page_name, tmp_path,
+                 "--summary", f"新增姓氏页: {page_name}（{count} 人）",
                  "--author", "butler"],
                 capture_output=True, text=True, cwd=ROOT
             )
             Path(tmp_path).unlink()
 
             if result.returncode == 0:
-                print(f"  ✓ 创建 {surname}（{count} 人）")
+                print(f"  ✓ 创建 {page_name}（{count} 人）")
                 created += 1
             elif "页面已存在" in result.stderr:
-                # 页面已存在，跳过
                 existed += 1
             else:
-                print(f"  ✗ {surname}: {result.stderr.strip()}")
+                print(f"  ✗ {page_name}: {result.stderr.strip()}")
 
         print(f"\n姓氏页面：新建 {created}，已存在 {existed}")
     elif surname_counts:

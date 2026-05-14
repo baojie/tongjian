@@ -450,11 +450,6 @@ export async function renderPage(core, pid, meta, mdText) {
     injectChapterNav(core, pid, meta);
   }
 
-  // 姓氏页：注入动态人物列表
-  if (meta.type === '姓氏') {
-    injectSurnameList(core, pid, meta);
-  }
-
   buildPageToc(core, pid);
 
   // 阅读进度条（所有页面）

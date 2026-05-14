@@ -271,7 +271,7 @@ function renderQueryBlock(meta, kbData) {
     const tbody = results.map(item => {
       const cells = fields.map(f => {
         if (f === 'label') {
-          return `<td><a class="wikilink resolved query-label-link" href="#${encodeURIComponent(item.pid)}"><span class="qp">▸</span> ${esc(item.label || item.pid)}</a></td>`;
+          return `<td><a class="wikilink resolved" href="#${encodeURIComponent(item.pid)}">${esc(item.label || item.pid)}</a></td>`;
         }
         const val = (f in computed) ? evalExpr(computed[f], item) : item[f];
         if (LINKIFY_FIELDS.has(f)) {
@@ -291,7 +291,7 @@ function renderQueryBlock(meta, kbData) {
 
   // list mode
   const items = results.map(item =>
-    `<li><a class="wikilink resolved query-label-link" href="#${encodeURIComponent(item.pid)}"><span class="qp">▸</span> ${esc(item.label || item.pid)}</a></li>`
+    `<li><a class="wikilink resolved" href="#${encodeURIComponent(item.pid)}">${esc(item.label || item.pid)}</a></li>`
   ).join('');
   return `${titleHtml}${countHtml}<ul class="query-results">${items}</ul>`;
 }
@@ -319,10 +319,6 @@ const STYLES = `
   column-gap: 2em;
 }
 .query-results li { break-inside: avoid; padding: .1em 0; }
-.query-label-link .qp {
-  opacity: .45;
-  font-size: .85em;
-}
 table.query-table {
   width: 100%;
   border-collapse: collapse;
@@ -374,6 +370,7 @@ export default {
       }
     } catch (e) {
       console.warn('semantic-query: kb.json not loaded, semantic fields unavailable', e);
+      kbData = { pages: core.registry.pages, alias_index: core.registry.alias_index || {} };
     }
 
     // onAfterRender：展开 query 占位符（semantic-block 已跳过这些占位符）

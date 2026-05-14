@@ -57,40 +57,56 @@ def main():
 
     for surname in sorted(surname_counts.keys()):
         count = surname_counts[surname]
-        target = PAGES / f"{surname}.md"
+        page_name = f"{surname}（姓氏）"
+        target = PAGES / f"{page_name}.md"
 
-        if target.exists():
-            existing_fm = parse_frontmatter(target.read_text(encoding="utf-8"))
+        # 旧格式兼容：先检查旧文件名，再检查新文件名
+        old_target = PAGES / f"{surname}.md"
+        if old_target.exists() and old_target != target:
+            existing_fm = parse_frontmatter(old_target.read_text(encoding="utf-8"))
             if existing_fm.get("type") == "姓氏":
-                existed += 1
-                continue
-            if not args.force:
-                print(f"  ⚠ {surname}.md 已存在（type={existing_fm.get('type')}），跳过")
+                # 旧格式文件，直接覆盖写入（迁移后旧文件会被重命名逻辑处理）
+                pass
+            elif not args.force:
+                print(f"  ⚠ {surname} 文件名冲突（{old_target.name} type={existing_fm.get('type')}），跳过")
                 skipped += 1
                 continue
 
+        if target.exists() and not args.force:
+            print(f"  · {page_name} 已存在，跳过")
+            existed += 1
+            continue
+
         content = f"""---
-id: {surname}
+id: {surname}（姓氏）
 type: 姓氏
 label: {surname}
 description: 姓「{surname}」的历史人物列表，共 {count} 人。
 tags: [姓氏]
 ---
 
-# {surname}
+# {surname}姓
 
-{surname}姓是本 Wiki 收录的常见姓氏之一，以下为姓「{surname}」的人物列表。
-
-<!-- 人物列表由前端自动从 pages.json 中按 surname={surname} 查询动态渲染 -->
+::: query
+type: 人物
+surname: {surname}
+display: table
+fields: [label, tags, total_refs, description]
+sort: total_refs
+order: desc
+:::
 """
 
         if args.dry_run:
-            print(f"  · {surname}（{count} 人）")
+            print(f"  · {page_name}（{count} 人）")
             created += 1
             continue
 
         target.write_text(content, encoding="utf-8")
-        print(f"  ✓ {surname}（{count} 人）")
+        # 清理旧格式文件（如果存在且路径不同）
+        if old_target.exists() and old_target != target:
+            old_target.unlink()
+        print(f"  ✓ {page_name}（{count} 人）")
         created += 1
 
     print(f"\n新建: {created}，已存在: {existed}，跳过: {skipped}")
