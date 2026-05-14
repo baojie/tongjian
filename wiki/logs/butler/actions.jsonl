@@ -20397,3 +20397,4 @@
 {"round": 10543, "type": "enrich-quality", "page": "李寻,杨公卿,李涵,高阳公主,高聪,西门君遂,贾显智,赵殷衡,丁谧,杨晟", "result": "accept", "desc": "enrich-quality×10, H20", "ts": "2026-05-14T14:54:16Z", "instance": "范祖禹", "reflect": "R10543: 10页enrich-quality, H20 wikilink-pass +696links"}
 {"round": 10544, "type": "enrich-page", "page": "奉天城/奉天之围/鄜城/佛图/服食/苻坚任王猛/苻生乱政/浮山堰/浮图城/涪城", "result": "accept", "desc": "enrich-page×10，+通鉴记载节，10544R", "ts": "2026-05-14T14:54:48Z", "instance": "刘攽", "reflect": "10/10全部通过"}
 {"round": 10546, "type": "enrich-quality", "page": "薛虎子,龚胜,权万纪,濮阳兴,徐坚,马仙琕,李文会,孔觊,顾彦晖,毛宝", "result": "accept", "desc": "enrich-quality×10", "ts": "2026-05-14T14:56:16Z", "instance": "范祖禹", "reflect": "R10546: 10页enrich-quality"}
+{"round": 10547, "type": "enrich-page", "page": "符号/符箓/抚州/府兵制/辅公祏之乱/滏口/阜城/复州/傅介子斩楼兰/富平津", "result": "accept", "desc": "enrich-page×10，+通鉴记载节，10547R", "ts": "2026-05-14T14:57:40Z", "instance": "刘攽", "reflect": "10/10全部通过"}
