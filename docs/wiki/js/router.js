@@ -5,7 +5,7 @@ import {
   renderPage, renderHome, renderNotFound, renderCategory,
   renderRecent, renderHistory, renderRevision, renderAll, renderDiff,
   renderSource, renderSurname,
-} from './renderer.js?v=20260430a';
+} from './renderer.js?v=20260515a';
 import { renderSpecialSettings, renderSpecialPlugins, renderSpecialAll, renderSpecialStatistics } from './special.js';
 import { setStatus, showFatal, escapeHtml } from './util.js';
 
