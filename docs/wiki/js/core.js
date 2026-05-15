@@ -2,10 +2,10 @@
 
 import { createHooks } from './hooks.js';
 import { loadRegistry, loadFullRegistry, extendRegistry } from './registry.js';
-import { setupRouter } from './router.js?v=20260515a';
+import { setupRouter } from './router.js?v=20260515b';
 import { createMarkdownIt } from './parser.js';
 import { showFatal } from './util.js';
-import { renderHeroShell } from './renderer.js?v=20260515a';
+import { renderHeroShell } from './renderer.js?v=20260515b';
 
 const HOOK_NAMES = [
   'onBoot',          // (core)                              启动完成, 插件已加载
