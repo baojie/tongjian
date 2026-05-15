@@ -370,6 +370,12 @@ def main() -> int:
         "diff_add": diff_add,
         "diff_del": diff_del,
     }
+    # Normalize v2 history format field names → old format for frontend compat
+    if recent_lite_entry.get("v") == 2:
+        recent_lite_entry["rev_id"] = recent_lite_entry.pop("id", None)
+        recent_lite_entry["timestamp"] = recent_lite_entry.pop("ts", None)
+        recent_lite_entry["author"] = recent_lite_entry.pop("au", None)
+        recent_lite_entry["summary"] = recent_lite_entry.pop("su", None)
     recent_diff_entry = {"page": page, "rev_id": rev_id, "diff": diff_chunks}
 
     LOG_DIR.mkdir(parents=True, exist_ok=True)
