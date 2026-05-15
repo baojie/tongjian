@@ -3,3 +3,4 @@
 {"v": 2, "id": "h2xHno", "ts": 1778138849, "au": "butler", "su": "EzLXXu", "sz": 810, "t": "delta", "parent": "MPWi9n", "szb": 808, "dl": [["del", 11], ["ins", 11, "IpZZFQ"], ["del", 8], ["del", 2], ["ins", 2, "TFWusY"]]}
 {"v": 2, "id": "JlSX2A", "ts": 1778659465, "au": "butler", "su": "EzLXXu", "sz": 814, "t": "delta", "parent": "h2xHno", "szb": 810, "dl": [["del", 18], ["ins", 18, "OBK46L"]]}
 {"v": 2, "id": "1nctn9", "ts": 1778721861, "au": "范祖禹", "su": "8WXdeB", "sz": 1050, "t": "delta", "parent": "JlSX2A", "szb": 814, "dl": [["ins", 20, "lshOR8"], ["ins", 20, "k2GMUs"], ["ins", 16, "rzWtdM"], ["ins", 16, "xuhnVR"], ["ins", 16, "UzfScd"]]}
+{"v": 2, "t": "delta", "id": "k6FeCX", "ts": 1778881027, "au": "butler", "su": "EzLXXu", "sz": 1058, "lc": 25, "parent": "1nctn9", "szb": 1050, "la": 1, "lr": 1, "dl": [["del", 10], ["ins", 10, "T9PJd8"]]}

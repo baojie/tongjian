@@ -6,3 +6,4 @@
 {"v": 2, "id": "RqSOcO", "ts": 1778131473, "au": "butler", "su": "xau9e8", "sz": 2720, "t": "delta", "parent": "RLrjvi", "szb": 2702, "dl": [["ins", 3, "w10W3N"]]}
 {"v": 2, "id": "9OvnBm", "ts": 1778132706, "au": "butler", "su": "6fOWo2", "sz": 2702, "t": "delta", "parent": "RqSOcO", "szb": 2720, "dl": [["del", 36], ["ins", 36, "CdwN0q"]]}
 {"v": 2, "id": "YvYScV", "ts": 1778736137, "au": "butler", "su": "Sg5GDG", "sz": 3214, "t": "delta", "parent": "9OvnBm", "szb": 2702, "dl": [["ins", 30, "C0UlQS"], ["ins", 30, "GFP6q6"], ["ins", 30, "rzWtdM"]]}
+{"v": 2, "t": "delta", "id": "uu8VcR", "ts": 1778881004, "au": "butler", "su": "EzLXXu", "sz": 3218, "lc": 45, "parent": "YvYScV", "szb": 3214, "la": 1, "lr": 1, "dl": [["del", 11], ["ins", 11, "2oJEp9"]]}

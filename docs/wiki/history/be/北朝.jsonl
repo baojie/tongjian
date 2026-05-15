@@ -1,3 +1,4 @@
 {"v": 2, "id": "SG0NMl", "ts": 1778191454, "au": "butler", "su": "MbkwKZ", "sz": 692, "t": "snap", "ln": "mCB6IF mfxi6k 3r7RpA e5tEGY IBtgFE myukeo dPyMny mCB6IF rzWtdM 1324MB rzWtdM DZSjF0 rzWtdM 1XRi3m"}
 {"v": 2, "id": "3KEOmL", "ts": 1778203280, "au": "butler", "su": "EzLXXu", "sz": 736, "t": "delta", "parent": "SG0NMl", "szb": 692, "dl": [["del", 13], ["ins", 13, "GZFXCm"]]}
 {"v": 2, "id": "Bt1NCs", "ts": 1778693279, "au": "butler", "su": "MqxNsr", "sz": 843, "t": "delta", "parent": "3KEOmL", "szb": 736, "dl": [["del", 13], ["ins", 13, "qFzliL"], ["ins", 13, "skIPMs"], ["ins", 13, "rzWtdM"], ["ins", 13, "DbnvIw"], ["ins", 13, "fqqsMy"], ["ins", 13, "rzWtdM"], ["ins", 13, "sUCDxl"], ["ins", 13, "n8SNqB"], ["ins", 3, "J9rCIV"]]}
+{"v": 2, "t": "delta", "id": "BwDVqu", "ts": 1778881109, "au": "butler", "su": "EzLXXu", "sz": 851, "lc": 22, "parent": "Bt1NCs", "szb": 843, "la": 1, "lr": 1, "dl": [["del", 10], ["ins", 10, "B8dzxY"]]}

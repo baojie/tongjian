@@ -3,3 +3,4 @@
 {"v": 2, "id": "aYuYRD", "ts": 1778104872, "au": "butler", "su": "EzLXXu", "sz": 915, "t": "delta", "parent": "ZlvjM1", "szb": 911, "dl": [["del", 9], ["ins", 9, "xTBpKD"]]}
 {"v": 2, "id": "keRFVU", "ts": 1778114230, "au": "butler", "su": "EzLXXu", "sz": 919, "t": "delta", "parent": "aYuYRD", "szb": 915, "dl": [["del", 9], ["ins", 9, "Pb06xj"]]}
 {"v": 2, "id": "kJ0etj", "ts": 1778190556, "au": "butler", "su": "EzLXXu", "sz": 965, "t": "delta", "parent": "keRFVU", "szb": 919, "dl": [["del", 9], ["ins", 9, "rr6ThQ"], ["del", 2], ["ins", 2, "NRQovM"], ["ins", 2, "s75pqh"]]}
+{"v": 2, "t": "delta", "id": "SWgI0V", "ts": 1778881212, "au": "butler", "su": "EzLXXu", "sz": 977, "lc": 32, "parent": "kJ0etj", "szb": 965, "la": 1, "lr": 1, "dl": [["del", 10], ["ins", 10, "d8jIwx"]]}

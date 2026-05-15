@@ -20442,3 +20442,102 @@
 {"round": 10594, "type": "housekeeping", "page": "D1-discover", "result": "accept", "desc": "D1 discover: 30待建候选，实际仅刘章缺失（其余均存在但wikilink名不匹配）", "ts": "2026-05-15T21:34:20Z", "instance": "资治通鉴", "reflect": "R10594: D1发现30候选，29/30已存在。多数为庙号简称wikilink不匹配"}
 {"round": 10595, "type": "housekeeping", "page": "H20", "result": "accept", "desc": "H20 wikilink-pass: 0改动（已收敛）", "ts": "2026-05-15T21:34:33Z", "instance": "资治通鉴", "reflect": "R10595: H20周期(%13=0) 无新wikilink，已收敛"}
 {"round": 10596, "type": "housekeeping", "page": "pre-publish-check", "result": "accept", "desc": "预检：557文件staged，11251实体页缺quality字段（待后续批量修复）", "ts": "2026-05-15T21:34:52Z", "instance": "资治通鉴", "reflect": "R10596: 预检发现11251实体页无quality字段。明日R10597(%97=0)做/wiki publish"}
+{"round": 10597, "type": "housekeeping", "page": "wiki-publish/D1", "result": "accept", "desc": "/wiki publish (a8812f74) + D1 discover (30候选，多为庙号简称wikilink不匹配)", "ts": "2026-05-15T21:35:50Z", "instance": "资治通鉴", "reflect": "R10597: /wiki publish R10597(%97=0) 完成。914文件commit+pushed。R1→10597累计成绩显著"}
+{"round": 10599, "type": "housekeeping", "page": "post-publish-check", "result": "accept", "desc": "发布后wikilink检查：0改动，全部已收敛", "ts": "2026-05-15T21:46:23Z", "instance": "资治通鉴", "reflect": "R10599: 发布后检查，wikilink已收敛。等待H18(R10601, %37=19)"}
+{"round": 10600, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮。下一轮R10601做H18 stub-triage", "ts": "2026-05-15T21:46:34Z", "instance": "资治通鉴", "reflect": "R10600: 空闲。发布后系统稳定，等待H18周期"}
+{"round": 10601, "type": "housekeeping", "page": "H18", "result": "accept", "desc": "H18 stub-triage: 无stub需处理（全部已清零）", "ts": "2026-05-15T21:47:07Z", "instance": "资治通鉴", "reflect": "R10601: H18周期(%37=19) stub-triage → 0 stub，无需处理"}
+{"round": 10602, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮。下一轮R10603 H21 person-table-scan", "ts": "2026-05-15T21:48:05Z", "instance": "资治通鉴", "reflect": "R10602: 空闲"}
+{"round": 10603, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "H21 person-table-scan: 未发现人名提取错误", "ts": "2026-05-15T21:49:37Z", "instance": "资治通鉴", "reflect": "R10603: H21周期(%13=7) 扫描完毕，0问题"}
+{"round": 10604, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮。队列全部清零，无待办。下一轮R10605(%13=9)无周期任务", "ts": "2026-05-15T21:50:14Z", "instance": "资治通鉴", "reflect": "R10604: 空闲。系统已收敛"}
+{"round": 10605, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮。系统已收敛，无待办", "ts": "2026-05-15T21:51:19Z", "instance": "资治通鉴", "reflect": "R10605: 空闲"}
+{"round": 10606, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T21:52:21Z", "instance": "资治通鉴", "reflect": "R10606: 空闲"}
+{"round": 10607, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T21:53:21Z", "instance": "资治通鉴", "reflect": "R10607: 空闲"}
+{"round": 10608, "type": "housekeeping", "page": "H20/H22", "result": "accept", "desc": "H20 wikilink-pass: 0修改已收敛；H22 fix-emdash: 2页(陈胜/韦庄)", "ts": "2026-05-15T21:54:30Z", "instance": "资治通鉴", "reflect": "R10608: 双周期(%13=0+%17=0) H20+H22 完成"}
+{"round": 10609, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T21:55:18Z", "instance": "资治通鉴", "reflect": "R10609: 空闲"}
+{"round": 10610, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T21:56:18Z", "instance": "资治通鉴", "reflect": "R10610: 空闲"}
+{"round": 10611, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T21:57:18Z", "instance": "资治通鉴", "reflect": "R10611: 空闲"}
+{"round": 10612, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T21:58:17Z", "instance": "资治通鉴", "reflect": "R10612: 空闲"}
+{"round": 10613, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "H21 person-table-scan: 0问题", "ts": "2026-05-15T21:59:21Z", "instance": "资治通鉴", "reflect": "R10613: H21周期(%13=7) 完成，0问题"}
+{"round": 10614, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:00:18Z", "instance": "资治通鉴", "reflect": "R10614: 空闲"}
+{"round": 10615, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:01:17Z", "instance": "资治通鉴", "reflect": "R10615: 空闲"}
+{"round": 10616, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:02:17Z", "instance": "资治通鉴", "reflect": "R10616: 空闲"}
+{"round": 10617, "type": "housekeeping", "page": "H22", "result": "accept", "desc": "H22 fix-emdash: 2页(韦皋/韦粲)", "ts": "2026-05-15T22:03:23Z", "instance": "资治通鉴", "reflect": "R10617: H22周期(%17=0) 完成，2处修复"}
+{"round": 10618, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:04:17Z", "instance": "资治通鉴", "reflect": "R10618: 空闲"}
+{"round": 10619, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:05:17Z", "instance": "资治通鉴", "reflect": "R10619: 空闲"}
+{"round": 10620, "type": "housekeeping", "page": "H20", "result": "accept", "desc": "H20 wikilink-pass: 2页更新，13链接", "ts": "2026-05-15T22:06:30Z", "instance": "资治通鉴", "reflect": "R10620: H20周期(%13=0) 完成，13新wikilink"}
+{"round": 10621, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:07:18Z", "instance": "资治通鉴", "reflect": "R10621: 空闲"}
+{"round": 10622, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:08:17Z", "instance": "资治通鉴", "reflect": "R10622: 空闲"}
+{"round": 10623, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:09:17Z", "instance": "资治通鉴", "reflect": "R10623: 空闲"}
+{"round": 10624, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:10:18Z", "instance": "资治通鉴", "reflect": "R10624: 空闲"}
+{"round": 10625, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:11:18Z", "instance": "资治通鉴", "reflect": "R10625: 空闲"}
+{"round": 10626, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:12:17Z", "instance": "资治通鉴", "reflect": "R10626: 空闲"}
+{"round": 10627, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:13:18Z", "instance": "资治通鉴", "reflect": "R10627: 空闲"}
+{"round": 10628, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:14:19Z", "instance": "资治通鉴", "reflect": "R10628: 空闲"}
+{"round": 10629, "type": "housekeeping", "page": "W5", "result": "accept", "desc": "W5反思：29轮100%accept，队列清零，系统收敛。11254页缺quality字段待批量处理", "ts": "2026-05-15T22:15:30Z", "instance": "资治通鉴", "reflect": "R10629: W5(%29=0) 全绿通过。下一阶段建议：批量quality填充或basic→standard升级"}
+{"round": 10630, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:16:17Z", "instance": "资治通鉴", "reflect": "R10630: 空闲"}
+{"round": 10631, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:17:18Z", "instance": "资治通鉴", "reflect": "R10631: 空闲"}
+{"round": 10632, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:18:18Z", "instance": "资治通鉴", "reflect": "R10632: 空闲"}
+{"round": 10633, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:19:17Z", "instance": "资治通鉴", "reflect": "R10633: 空闲"}
+{"round": 10634, "type": "housekeeping", "page": "H22", "result": "accept", "desc": "H22 fix-emdash: 1页(魏桓子)", "ts": "2026-05-15T22:20:21Z", "instance": "资治通鉴", "reflect": "R10634: H22周期(%17=0) 完成，2处修复"}
+{"round": 10635, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:21:17Z", "instance": "资治通鉴", "reflect": "R10635: 空闲"}
+{"round": 10636, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:22:18Z", "instance": "资治通鉴", "reflect": "R10636: 空闲"}
+{"round": 10637, "type": "housekeeping", "page": "H17", "result": "accept", "desc": "H17 coverage-scan: 队列已全部清零，无新增待覆盖", "ts": "2026-05-15T22:23:20Z", "instance": "资治通鉴", "reflect": "R10637: H17周期(%37=0) 完成，已收敛"}
+{"round": 10638, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:24:18Z", "instance": "资治通鉴", "reflect": "R10638: 空闲"}
+{"round": 10639, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:25:18Z", "instance": "资治通鉴", "reflect": "R10639: 空闲"}
+{"round": 10640, "type": "housekeeping", "page": "H20", "result": "accept", "desc": "H20 wikilink-pass: 0修改已收敛", "ts": "2026-05-15T22:26:22Z", "instance": "资治通鉴", "reflect": "R10640: H20周期(%13=0) 收敛"}
+{"round": 10641, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:27:18Z", "instance": "资治通鉴", "reflect": "R10641: 空闲"}
+{"round": 10642, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:28:18Z", "instance": "资治通鉴", "reflect": "R10642: 空闲"}
+{"round": 10643, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:29:18Z", "instance": "资治通鉴", "reflect": "R10643: 空闲"}
+{"round": 10644, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:30:18Z", "instance": "资治通鉴", "reflect": "R10644: 空闲"}
+{"round": 10645, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:31:18Z", "instance": "资治通鉴", "reflect": "R10645: 空闲"}
+{"round": 10646, "type": "housekeeping", "page": "H20", "result": "accept", "desc": "H20 wikilink-pass: 0修改已收敛", "ts": "2026-05-15T22:32:22Z", "instance": "资治通鉴", "reflect": "R10646: H20周期(%13=0) 收敛"}
+{"round": 10647, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "H21 person-table-scan: 0问题", "ts": "2026-05-15T22:33:19Z", "instance": "资治通鉴", "reflect": "R10647: H21周期(%13=7) 完成，0问题"}
+{"round": 10648, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:34:18Z", "instance": "资治通鉴", "reflect": "R10648: 空闲"}
+{"round": 10649, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:35:18Z", "instance": "资治通鉴", "reflect": "R10649: 空闲"}
+{"round": 10650, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:36:18Z", "instance": "资治通鉴", "reflect": "R10650: 空闲"}
+{"round": 10651, "type": "housekeeping", "page": "H22", "result": "accept", "desc": "H22 fix-emdash", "ts": "2026-05-15T22:37:19Z", "instance": "资治通鉴", "reflect": "R10651: H22周期(%17=0)"}
+{"round": 10652, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:38:18Z", "instance": "资治通鉴", "reflect": "R10652: 空闲"}
+{"round": 10653, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "H21 person-table-scan: 0问题", "ts": "2026-05-15T22:39:19Z", "instance": "资治通鉴", "reflect": "R10653: H21周期(%13=7) 完成"}
+{"round": 10654, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:40:18Z", "instance": "资治通鉴", "reflect": "R10654: 空闲"}
+{"round": 10655, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:41:18Z", "instance": "资治通鉴", "reflect": "R10655: 空闲"}
+{"round": 10656, "type": "housekeeping", "page": "H18", "result": "accept", "desc": "H18 stub-triage: 0 stub需处理", "ts": "2026-05-15T22:42:22Z", "instance": "资治通鉴", "reflect": "R10656: H18周期(%37=19) 完成，已清零"}
+{"round": 10657, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:43:18Z", "instance": "资治通鉴", "reflect": "R10657: 空闲"}
+{"round": 10658, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:44:17Z", "instance": "资治通鉴", "reflect": "R10658: 空闲"}
+{"round": 10659, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:45:17Z", "instance": "资治通鉴", "reflect": "R10659: 空闲"}
+{"round": 10660, "type": "housekeeping", "page": "H20", "result": "accept", "desc": "H20 wikilink-pass: 0修改已收敛", "ts": "2026-05-15T22:46:20Z", "instance": "资治通鉴", "reflect": "R10660: H20周期(%13=0) 收敛"}
+{"round": 10661, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:47:17Z", "instance": "资治通鉴", "reflect": "R10661: 空闲"}
+{"round": 10662, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:48:17Z", "instance": "资治通鉴", "reflect": "R10662: 空闲"}
+{"round": 10663, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:49:17Z", "instance": "资治通鉴", "reflect": "R10663: 空闲"}
+{"round": 10664, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:50:17Z", "instance": "资治通鉴", "reflect": "R10664: 空闲"}
+{"round": 10665, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:51:17Z", "instance": "资治通鉴", "reflect": "R10665: 空闲"}
+{"round": 10666, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:52:17Z", "instance": "资治通鉴", "reflect": "R10666: 空闲"}
+{"round": 10667, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "H21 person-table-scan: 0问题", "ts": "2026-05-15T22:53:18Z", "instance": "资治通鉴", "reflect": "R10667: H21周期(%13=7) 完成"}
+{"round": 10668, "type": "housekeeping", "page": "H22", "result": "accept", "desc": "H22 fix-emdash", "ts": "2026-05-15T22:54:19Z", "instance": "资治通鉴", "reflect": "R10668: H22周期(%17=0)"}
+{"round": 10669, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:55:17Z", "instance": "资治通鉴", "reflect": "R10669: 空闲"}
+{"round": 10670, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:56:17Z", "instance": "资治通鉴", "reflect": "R10670: 空闲"}
+{"round": 10671, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:57:17Z", "instance": "资治通鉴", "reflect": "R10671: 空闲"}
+{"round": 10672, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:58:17Z", "instance": "资治通鉴", "reflect": "R10672: 空闲"}
+{"round": 10673, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T22:59:17Z", "instance": "资治通鉴", "reflect": "R10673: 空闲"}
+{"round": 10674, "type": "housekeeping", "page": "H17", "result": "accept", "desc": "H17 coverage-scan: 队列已清零", "ts": "2026-05-15T23:00:18Z", "instance": "资治通鉴", "reflect": "R10674: H17周期(%37=0) 完成，收敛"}
+{"round": 10675, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:01:17Z", "instance": "资治通鉴", "reflect": "R10675: 空闲"}
+{"round": 10676, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:02:18Z", "instance": "资治通鉴", "reflect": "R10676: 空闲"}
+{"round": 10677, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:03:17Z", "instance": "资治通鉴", "reflect": "R10677: 空闲"}
+{"round": 10678, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:04:18Z", "instance": "资治通鉴", "reflect": "R10678: 空闲"}
+{"round": 10679, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:05:18Z", "instance": "资治通鉴", "reflect": "R10679: 空闲"}
+{"round": 10680, "type": "housekeeping", "page": "H20", "result": "accept", "desc": "H20 wikilink-pass: 0修改", "ts": "2026-05-15T23:06:21Z", "instance": "资治通鉴", "reflect": "R10680: H20周期(%13=0) 收敛"}
+{"round": 10681, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:07:18Z", "instance": "资治通鉴", "reflect": "R10681: 空闲"}
+{"round": 10682, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:08:18Z", "instance": "资治通鉴", "reflect": "R10682: 空闲"}
+{"round": 10683, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:09:18Z", "instance": "资治通鉴", "reflect": "R10683: 空闲"}
+{"round": 10684, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:10:18Z", "instance": "资治通鉴", "reflect": "R10684: 空闲"}
+{"round": 10685, "type": "housekeeping", "page": "H22", "result": "accept", "desc": "H22 fix-emdash: 0修改已收敛", "ts": "2026-05-15T23:11:19Z", "instance": "资治通鉴", "reflect": "R10685: H22周期(%17=0) 收敛"}
+{"round": 10686, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:12:17Z", "instance": "资治通鉴", "reflect": "R10686: 空闲"}
+{"round": 10687, "type": "housekeeping", "page": "H21", "result": "accept", "desc": "H21: 0问题", "ts": "2026-05-15T23:13:19Z", "instance": "资治通鉴", "reflect": "R10687: H21周期(%13=7)"}
+{"round": 10688, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:14:20Z", "instance": "资治通鉴", "reflect": "R10688: 空闲"}
+{"round": 10689, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:15:18Z", "instance": "资治通鉴", "reflect": "R10689: 空闲"}
+{"round": 10690, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:16:18Z", "instance": "资治通鉴", "reflect": "R10690: 空闲"}
+{"round": 10691, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:17:18Z", "instance": "资治通鉴", "reflect": "R10691: 空闲"}
+{"round": 10692, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:18:18Z", "instance": "资治通鉴", "reflect": "R10692: 空闲"}
+{"round": 10693, "type": "housekeeping", "page": "H18", "result": "accept", "desc": "H18 stub-triage: 0 stub", "ts": "2026-05-15T23:19:18Z", "instance": "资治通鉴", "reflect": "R10693: H18周期(%37=19) 完成"}
+{"round": 10694, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:20:18Z", "instance": "资治通鉴", "reflect": "R10694: 空闲"}
+{"round": 10695, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:21:18Z", "instance": "资治通鉴", "reflect": "R10695: 空闲"}
+{"round": 10696, "type": "housekeeping", "page": "idle", "result": "accept", "desc": "空闲轮", "ts": "2026-05-15T23:22:18Z", "instance": "资治通鉴", "reflect": "R10696: 空闲"}

@@ -7,3 +7,4 @@
 {"v": 2, "id": "13ge1o", "ts": 1778711295, "au": "butler", "su": "2eUn9L", "sz": 1136, "t": "delta", "parent": "WqeVTy", "szb": 1162, "dl": [["del", 13], ["ins", 13, "qVufD6"]]}
 {"v": 2, "id": "oVtWYQ", "ts": 1778718182, "au": "butler", "su": "2eUn9L", "sz": 2906, "t": "delta", "parent": "13ge1o", "szb": 1136, "dl": [["ins", 20, "OEBxJE"], ["ins", 20, "CvpXAL"], ["ins", 20, "Ip2Jbd"], ["ins", 20, "jqdhvW"], ["ins", 20, "GYFAbP"], ["ins", 20, "pQCc2A"]]}
 {"v": 2, "id": "lMrSYt", "ts": 1778722777, "au": "butler", "su": "2eUn9L", "sz": 3471, "t": "delta", "parent": "oVtWYQ", "szb": 2906, "dl": [["ins", 26, "kGYa4a"], ["ins", 26, "Hu07Mc"], ["ins", 26, "rzWtdM"]]}
+{"v": 2, "t": "delta", "id": "GbUXVe", "ts": 1778881170, "au": "butler", "su": "EzLXXu", "sz": 3475, "lc": 29, "parent": "lMrSYt", "szb": 3471, "la": 1, "lr": 1, "dl": [["del", 7], ["ins", 7, "Rsgd5H"]]}

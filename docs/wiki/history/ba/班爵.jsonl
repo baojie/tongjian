@@ -10,3 +10,4 @@
 {"v": 2, "id": "2dGP5U", "ts": 1778138242, "au": "资治通鉴", "su": "HTHL02", "sz": 2158, "t": "delta", "parent": "Arqv39", "szb": 2138, "dl": [["del", 29], ["ins", 7, "7wpLp4"], ["del", 2], ["ins", 2, "Rm8mDG"]]}
 {"v": 2, "id": "XCkuXV", "ts": 1778185507, "au": "butler", "su": "nHor1z", "sz": 2157, "t": "delta", "parent": "2dGP5U", "szb": 2158, "dl": [["del", 2], ["ins", 2, "XeOamB"]]}
 {"v": 2, "id": "mA2ax0", "ts": 1778190649, "au": "butler", "su": "EzLXXu", "sz": 2161, "t": "delta", "parent": "XCkuXV", "szb": 2157, "dl": [["del", 29], ["ins", 29, "vhcTF3"]]}
+{"v": 2, "t": "delta", "id": "NDrRLu", "ts": 1778881048, "au": "butler", "su": "EzLXXu", "sz": 2173, "lc": 30, "parent": "mA2ax0", "szb": 2161, "la": 3, "lr": 3, "dl": [["del", 27], ["ins", 27, "FoiRxL"], ["del", 23], ["ins", 23, "wO8pfz"], ["del", 9], ["ins", 9, "Nj6L9n"]]}

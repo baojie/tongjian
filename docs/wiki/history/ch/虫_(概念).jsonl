@@ -2,3 +2,4 @@
 {"v": 2, "id": "sV9fGv", "ts": 1778105042, "au": "butler", "su": "EzLXXu", "sz": 762, "t": "delta", "parent": "ftejUc", "szb": 758, "dl": [["del", 12], ["ins", 12, "RVlOlu"]]}
 {"v": 2, "id": "2h7ef8", "ts": 1778114633, "au": "butler", "su": "EzLXXu", "sz": 766, "t": "delta", "parent": "sV9fGv", "szb": 762, "dl": [["del", 14], ["ins", 14, "oczUpR"]]}
 {"v": 2, "id": "l93wsY", "ts": 1778203380, "au": "butler", "su": "EzLXXu", "sz": 768, "t": "delta", "parent": "2h7ef8", "szb": 766, "dl": [["del", 12], ["del", 11], ["ins", 11, "9iBjHs"], ["del", 2], ["ins", 2, "JOMrxr"]]}
+{"v": 2, "t": "delta", "id": "9aT2Xj", "ts": 1778881432, "au": "butler", "su": "EzLXXu", "sz": 814, "lc": 17, "parent": "l93wsY", "szb": 768, "la": 2, "lr": 2, "dl": [["del", 13], ["ins", 13, "wtrEoR"], ["del", 11], ["ins", 11, "GGU90J"]]}
