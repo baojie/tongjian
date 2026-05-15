@@ -234,6 +234,35 @@ v2.6 hash编码  0        低        ★（可靠性收益）
                └─ 重建全文 → 渲染
 ```
 
+## TODO — 行索引分代（epoch）压缩
+
+**背景**：当前 976 桶全部 text JSON，90 MB 进 git 仓库。每次新增行要修改桶文件，git 存 JSON diff 效率尚可，但若直接 gzip 桶文件，每次修改都会导致整桶二进制 blob 重写，git 历史暴涨。
+
+**方案**：按行被发现的次序（而非日历时间）分代，模仿 LSM-tree：
+
+```
+line_index/
+  epoch_000/   ← 冻结、gzip、进 git 后永不变
+    10.json.gz ... zf.json.gz
+  current/     ← text、频繁改、git 能 delta
+    10.json ... zf.json
+```
+
+1. `current/` 每桶积累 N 行后 → 冻结 → gzip → 改名为 `epoch_NNN/`
+2. 新建空 `current/`，git commit 一次写入整个 epoch 的 gzip blob（只存一份）
+3. `current/` 依然是 JSON text，git 可以跨版本 delta
+
+**前端查找**：按 current → epoch_N → epoch_{N-1} → ... 顺序逐代搜。每桶~2 代，平均 1.5 次 fetch 命中。
+
+**待定参数**：
+- 代大小：500 行/桶？文件太大则 gzip 传输耗时，太小则代数过多
+- gzip 压缩率：实测 ~51%（JSON + 中文），能否通过排序/合并进一步提升？
+- `_line_hash()` 写入时查重：需扫描所有 epoch + current，延迟是否可接受？
+
+**状态**：待实现
+
+---
+
 ### 关键文件清单
 
 | 文件 | 作用 |
