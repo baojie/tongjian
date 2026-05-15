@@ -1729,7 +1729,27 @@ async function _historyAll(page, registry) {
  * 单页修订历史 (#?history=<page>): 读主文件 + 所有归档文件.
  */
 export async function renderHistory(core, page) {
-  const revs = (await _historyAll(page, core.registry)).reverse();
+  const entries = await _historyAll(page, core.registry);  // 时间升序
+  // O(n) 扫描推算每版行数
+  const lineCounts = {};
+  let lc = 0;
+  for (const e of entries) {
+    const eid = e.id || e.rev_id;
+    if (e.lc != null) {
+      lc = e.lc;
+    } else if (e.t === 'snap' && e.ln) {
+      lc = e.ln.split(' ').length;
+    } else if (e.t === 'delta' && e.dl) {
+      for (const op of e.dl) {
+        if (op[0] === 'del') lc--;
+        else if (op[0] === 'ins') lc++;
+      }
+    } else if (e.content) {
+      lc = e.content.split('\n').length;
+    }
+    lineCounts[eid] = lc;
+  }
+  const revs = entries.reverse();
   const latestRevId = revs.length ? (revs[0].id || revs[0].rev_id) : '';
   const revisionCount = revs.length;
   const bucket = _historyBucket(page, core.registry);
@@ -1752,23 +1772,25 @@ export async function renderHistory(core, page) {
       ? `<a href="#?diff=${encodeURIComponent(page)}&rev=${encodeURIComponent(vid)}">diff</a>`
       : '<span class="muted">diff</span>';
 
-    // 行数: v2用ln数组长度，v0用content分行
-    let hLines;
-    if (rev.ln) {
-      hLines = rev.ln.split(' ').length;
-    } else if (rev.content) {
-      hLines = rev.content.split('\n').length;
-    } else {
-      hLines = '—';
+    // 行数: 优先用推算映射，其次从字段推算
+    let hLines = lineCounts[vid];
+    if (hLines === undefined || hLines === 0) {
+      if (rev.ln) {
+        hLines = rev.ln.split(' ').length;
+      } else if (rev.content) {
+        hLines = rev.content.split('\n').length;
+      } else {
+        hLines = '—';
+      }
     }
 
-    // 变化统计: v2从dl推算，v0从diff推算
+    // 变化统计: v2用la/lr字段，其次从dl推算，v0从diff推算
     let hadd = null, hrem = null;
-    if (rev.dl) {
-      // 如果是delta格式: 记录ins+mod为增加，del+mod为删除
-      // 但更精确的是看delta前后的行数差
-      hadd = rev.sz !== undefined ? Math.max(0, (rev.sz || 0) - (rev.szb || 0)) : null;
-      hrem = null; // 不显示详细增减
+    if (rev.la != null && rev.lr != null) {
+      hadd = rev.la; hrem = rev.lr;
+    } else if (rev.dl) {
+      hadd = rev.dl.filter(op => op[0] === 'ins').length;
+      hrem = rev.dl.filter(op => op[0] === 'del').length;
     } else if (rev.diff) {
       hadd = rev.diff.filter(d => d[0] === '+').length;
       hrem = rev.diff.filter(d => d[0] === '-').length;
@@ -1778,16 +1800,6 @@ export async function renderHistory(core, page) {
     let hChangeHtml;
     if (hadd === null) {
       hChangeHtml = `<td class="rc-size rc-size-zero">—</td>`;
-    } else if (rev.dl) {
-      // v2: 只显示行数差
-      const delta = (rev.sz || 0) - (rev.szb || 0);
-      if (delta > 0) {
-        hChangeHtml = `<td class="rc-size rc-size-plus">+${delta}</td>`;
-      } else if (delta < 0) {
-        hChangeHtml = `<td class="rc-size rc-size-minus">${delta}</td>`;
-      } else {
-        hChangeHtml = `<td class="rc-size rc-size-zero">±0</td>`;
-      }
     } else if (hadd > 0 && hrem === 0) {
       hChangeHtml = `<td class="rc-size rc-size-plus">+${hadd}</td>`;
     } else if (hadd === 0 && hrem > 0) {
@@ -1844,9 +1856,10 @@ export async function renderRevision(core, page, revId) {
   const text = await r.text();
   const revs = text.split('\n').filter(l => l.trim()).map(l => JSON.parse(l));
   let rev = revs.find((x) => (x.id || x.rev_id) === revId);
+  let entries = revs;
   if (!rev) {
-    const all = await _historyAll(page, core.registry);
-    rev = all.find((x) => (x.id || x.rev_id) === revId);
+    entries = await _historyAll(page, core.registry);
+    rev = entries.find((x) => (x.id || x.rev_id) === revId);
   }
   if (!rev) throw new Error(`rev not found: ${revId}`);
 
@@ -1854,7 +1867,7 @@ export async function renderRevision(core, page, revId) {
   if (rev.content != null) {
     mdText = rev.content;
   } else if (rev.ln || rev.t === 'snap' || rev.t === 'delta') {
-    mdText = await _reconstructContentV2(revs, revId);
+    mdText = await _reconstructContentV2(entries, revId);
   } else {
     throw new Error(`rev missing content: ${revId}`);
   }

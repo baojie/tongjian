@@ -279,6 +279,7 @@ def main() -> int:
                     "au": args.author,
                     "su": su_hash,
                     "sz": size_after,
+                    "lc": len(current_ln_list),
                     "ln": current_ln_str,
                 }
                 parent_content = ""
@@ -293,13 +294,18 @@ def main() -> int:
                     parent_ln = _apply_delta(parent_ln, entries[j]["dl"])
 
                 dl = _compute_delta(parent_ln, current_ln_list)
+                la = sum(1 for op in dl if op[0] == "ins")
+                lr = sum(1 for op in dl if op[0] == "del")
+                lc = len(parent_ln) + la - lr
                 entry = {
                     "v": 2, "t": "delta", "id": rev_id, "ts": ts_int,
                     "au": args.author,
                     "su": su_hash,
                     "sz": size_after,
+                    "lc": lc,
                     "parent": last["id"] if last else None,
                     "szb": last.get("sz", 0) if last else 0,
+                    "la": la, "lr": lr,
                     "dl": dl,
                 }
                 parent_lines = [_resolve_line(h, registries) for h in parent_ln]

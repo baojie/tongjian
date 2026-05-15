@@ -15,3 +15,6 @@ wiki/logs/wiki-server.log
 # 临时/中间文件
 tmp/butler_pages/
 *.ppx
+
+# Claude Code 会话级状态（不提交）
+.claude/scheduled_tasks.json
