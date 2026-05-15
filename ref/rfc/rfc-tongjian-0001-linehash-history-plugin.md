@@ -1,6 +1,6 @@
 # RFC-tongjian-0001: Line-Hash History v2 存储 — 行级 hash 引入 memex 插件系统
 
-- **Status**: proposed
+- **Status**: implemented
 - **Date**: 2026-05-16
 - **Issue**: https://github.com/baojie/memex/issues/12
 - **Source wiki**: tongjian
