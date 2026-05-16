@@ -254,6 +254,7 @@ def main() -> int:
         is_v2 = entries and entries[0].get("v") == 2
         size_after = len(content.encode("utf-8"))
         content_lines = content.splitlines()
+        size_before = 0
 
         if is_v2:
             # ── v2 写入 ────────────────────────────────────────────────────
@@ -342,7 +343,7 @@ def main() -> int:
                 "author":       args.author,
                 "summary":      args.summary or f"{args.author} {args.action}",
                 "parent_rev":   parent_rev,
-                "content_hash": f"sha256:{norm_sha}",
+                "content_hash": f"sha256:{hashlib.sha256(content.encode('utf-8')).hexdigest()}",
                 "size_before":  size_before,
                 "size":         size_after,
                 "content":      content,
