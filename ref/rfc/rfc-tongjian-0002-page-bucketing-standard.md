@@ -1,6 +1,6 @@
 # RFC-tongjian-0002: 页面拼音分片标准化 — 引入 memex 共享规范
 
-- **Status**: proposed
+- **Status**: accepted
 - **Date**: 2026-05-17
 - **Issue**: https://github.com/baojie/memex/issues/46
 - **Source wiki**: tongjian

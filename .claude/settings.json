@@ -53,7 +53,22 @@
       "Bash(git add --all*)",
       "Bash(*$MEMEX_ROOT*)",
       "Bash(*~/memex*)",
-      "Bash(*/home/baojie/work/knowledge/memex*)"
+      "Bash(*/home/baojie/work/knowledge/memex*)",
+      "Bash(git commit*)",
+      "Bash(git checkout * -- *)",
+      "Bash(*$MEMEX_ROOT* > *)",
+      "Bash(*$MEMEX_ROOT* >> *)",
+      "Bash(*~/memex* > *)",
+      "Bash(*~/memex* >> *)",
+      "Bash(cp * *memex*)",
+      "Bash(mv * *memex*)",
+      "Bash(rm *memex*)",
+      "Bash(mkdir *memex*)",
+      "Bash(touch *memex*)",
+      "Bash(chmod *memex*)",
+      "Bash(git -C *memex* commit*)",
+      "Bash(git -C *memex* push*)",
+      "Bash(git -C *memex* reset*)"
     ]
   }
 }

@@ -129,14 +129,14 @@ page_jsonl = hist_dir / f"{page}.jsonl"
 - ❌ **禁止 `git add -A` / `git add .` / `git add --all`** — 只允许显式路径
 - ❌ **禁止 `git push --force`**
 - ❌ **禁止 `git reset --hard` / `git checkout --` / `git restore`**
-- ❌ **禁止修改 `corpus/` 下的原文** — 资治通鉴文本只读
+- ❌ **禁止自动修改 `corpus/` 下的原文** — 自动化脚本和 Claude 自主操作禁止；用户明确指令下可修改
 - ❌ **禁止修改 `wiki/public/pages/第???卷.md`** — 卷原文页由导入脚本生成，只读
 
-**唯一例外**：使用 `/wiki` skill 时，自动 commit + push 已被授权。
+**唯一例外**：使用已授权的 skill（`/wiki`、`/rfc` 等）时，自动 commit + push 已被授权。
 
-## Append-Only 原则（CRITICAL）
+## 内容保护原则（CRITICAL）
 
-**编辑/丰富已有页面时，严禁删除或替换已有内容。** 只能追加，不能覆盖。
+详见宪法 §1.1。**禁止整节替换，enrich/重组操作必须保留旧版所有 `##` 节标题，节内内容可提升，节不得消失。**
 
 ## Wiki 页面规范
 
@@ -146,12 +146,11 @@ page_jsonl = hist_dir / f"{page}.jsonl"
 ---
 id: 词条名
 type: person        # 见下方页面类型表
-cat: 帝王           # 【person必填】见下方人物分类表
 dynasty: 西汉       # 【person/event推荐】所属朝代或时代
 event_type: 战争    # 【event必填】见下方事件分类表
 label: 显示名
 aliases: [别名1, 别名2]
-tags: [标签]        # 朝代/诸侯国/身份等补充标签
+tags: [帝王, 标签]  # 人物分类用 tag 表示（见下方分类参考）；朝代/诸侯国/身份等补充标签
 description: 一句话描述
 featured: true      # 可选，首页精选
 ---
@@ -171,9 +170,9 @@ featured: true      # 可选，首页精选
 | 综述 | 综述/列表 |
 | 名句 | 名句/臣光曰 |
 
-### 人物分类（cat 字段，type=person 时必填）
+### 人物分类 tag（type=person 时在 tags 中填写）
 
-| cat | 含义 | 代表人物 |
+| tag | 含义 | 代表人物 |
 |-----|------|---------|
 | `帝王` | 皇帝/天子/诸侯国君主 | 秦始皇、汉武帝、唐太宗 |
 | `宗室` | 皇族宗室、诸侯子弟 | 信陵君、平原君 |
@@ -188,7 +187,7 @@ featured: true      # 可选，首页精选
 | `刺客游侠` | 刺客/游侠 | 荆轲、豫让 |
 | `将领外交` | 兼具军事与外交 | 班超 |
 
-> **多重身份**：可用 tags 补充（如豫让 cat=刺客游侠，tags 含"忠义"）。
+> **多重身份**：在 tags 中并列填写，如 `tags: [刺客游侠, 忠臣]`。
 
 ### 事件分类（event_type 字段，type=event/battle 时必填）
 
