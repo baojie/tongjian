@@ -2,7 +2,7 @@
 """build_line_index.py — 构建全局行索引。
 
 扫描所有页面和历史版本，为每个唯一行计算 base62 hash，
-按 hash_bucket 分入 992 个桶，输出到 wiki/public/line_index/<bucket>.json。
+按 hash_bucket 分入 992 个桶，输出到 wiki/public/line_index/<bucket>.jsonl。
 
 不同页面中的相同行内容共享同一个 hash + 索引条目。
 """
@@ -127,9 +127,12 @@ def main() -> int:
 
     for b in sorted(buckets):
         reg = buckets[b]
-        out_path = OUT / f"{b}.json"
-        json_str = json.dumps(reg, ensure_ascii=False, sort_keys=True)
-        out_path.write_text(json_str, encoding="utf-8")
+        out_path = OUT / f"{b}.jsonl"
+        lines = "\n".join(
+            json.dumps({h: content}, ensure_ascii=False)
+            for h, content in reg.items()
+        ) + "\n"
+        out_path.write_text(lines, encoding="utf-8")
         sz = out_path.stat().st_size
         index_bytes += sz
         if n_buckets <= 100 or sz > 1024 * 100:

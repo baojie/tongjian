@@ -1662,9 +1662,14 @@ async function _resolveLineHash(hash) {
   if (!hash) return '';
   const bucket = _hashBucket(hash);
   if (!_hashIndexCache[bucket]) {
-    const r = await fetch(`line_index/${bucket}.json`);
+    const r = await fetch(`line_index/${bucket}.jsonl`);
     if (!r.ok) return '';
-    _hashIndexCache[bucket] = await r.json();
+    const text = await r.text();
+    const map = {};
+    for (const line of text.split('\n').filter(l => l.trim())) {
+      Object.assign(map, JSON.parse(line));
+    }
+    _hashIndexCache[bucket] = map;
   }
   return _hashIndexCache[bucket][hash] || '';
 }

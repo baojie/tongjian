@@ -59,8 +59,13 @@ def _hex_to_base62(hex_str: str) -> str:
 
 def _load_all_registries() -> dict[str, dict[str, str]]:
     registries: dict[str, dict[str, str]] = {}
-    for f in sorted(LINE_INDEX_DIR.glob("*.json")):
-        registries[f.stem] = json.loads(f.read_text(encoding="utf-8"))
+    for f in sorted(LINE_INDEX_DIR.glob("*.jsonl")):
+        reg: dict[str, str] = {}
+        for line in f.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line:
+                reg.update(json.loads(line))
+        registries[f.stem] = reg
     return registries
 
 
@@ -315,18 +320,19 @@ def main() -> int:
             if args.action == "delete":
                 entry["action"] = "delete"
 
-            # 保存更新后的行索引（仅写被修改的桶）
+            # 保存更新后的行索引（仅写被修改的桶，JSONL 格式）
             for rbucket, reg in registries.items():
-                path = LINE_INDEX_DIR / f"{rbucket}.json"
+                path = LINE_INDEX_DIR / f"{rbucket}.jsonl"
+                new_lines = "\n".join(
+                    json.dumps({h: content}, ensure_ascii=False)
+                    for h, content in reg.items()
+                ) + "\n"
                 if path.exists():
                     old_text = path.read_text(encoding="utf-8")
-                    new_text = json.dumps(reg, ensure_ascii=False, sort_keys=True)
-                    if old_text != new_text:
-                        path.write_text(new_text, encoding="utf-8")
+                    if old_text != new_lines:
+                        path.write_text(new_lines, encoding="utf-8")
                 else:
-                    path.write_text(
-                        json.dumps(reg, ensure_ascii=False, sort_keys=True),
-                        encoding="utf-8")
+                    path.write_text(new_lines, encoding="utf-8")
 
             diff_chunks = _diff(parent_content, content)
         else:

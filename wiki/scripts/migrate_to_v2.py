@@ -52,8 +52,13 @@ def _hex_to_base62(hex_str: str) -> str:
 def load_all_registries() -> dict[str, dict[str, str]]:
     """加载全部 992 个行索引桶。"""
     registries: dict[str, dict[str, str]] = {}
-    for f in sorted(LINE_INDEX.glob("*.json")):
-        registries[f.stem] = json.loads(f.read_text(encoding="utf-8"))
+    for f in sorted(LINE_INDEX.glob("*.jsonl")):
+        reg: dict[str, str] = {}
+        for line in f.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line:
+                reg.update(json.loads(line))
+        registries[f.stem] = reg
     return registries
 
 
