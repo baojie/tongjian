@@ -382,7 +382,8 @@ def main() -> int:
         recent_lite_entry["rev_id"] = recent_lite_entry.pop("id", None)
         recent_lite_entry["timestamp"] = recent_lite_entry.pop("ts", None)
         recent_lite_entry["author"] = recent_lite_entry.pop("au", None)
-        recent_lite_entry["summary"] = recent_lite_entry.pop("su", None)
+        recent_lite_entry.pop("su", None)  # discard hash, use plain text below
+        recent_lite_entry["summary"] = args.summary or f"{args.author} {args.action}"
     recent_diff_entry = {"page": page, "rev_id": rev_id, "diff": diff_chunks}
 
     LOG_DIR.mkdir(parents=True, exist_ok=True)
